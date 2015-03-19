@@ -52,12 +52,11 @@ body {
   background-color: #777;
 }
 .carousel-inner > .item > img {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   min-width: 100%;
   overflow: hidden;
-  margin-top: -10%;
 }
 
 
