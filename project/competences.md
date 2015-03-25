@@ -27,9 +27,13 @@
 
 ##3- Compétences de parcours
 ###3-1- Parcours "Du génome à l'organisme"
+- TODO
 
 ###3-2- Compétences parcours "Développement logiciel"
-
+- TODO
+ 
 ###3-3- Compétences parcours "Ecosystèmes"
+- TODO
 
 ###3-4- Compétences parcours "BioImaging, Structures, and Contents"
+- TODO
