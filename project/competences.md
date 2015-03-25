@@ -1,6 +1,7 @@
 ##1- Compétences communes
 ###1-1- Compétences génériques préprofessionnelles
 - TODO
+
 ###1-2- Compétences génériques transférables
 - Réaliser une étude, scientifique ou non, en vue d'une évaluation, d'un développement, d'une conception, d'une application, en vue de tester ou d'élaborer une modélisation.
 - Poser une problématique en tenant compte du contexte et des objectifs, construire et développer une argumentation, réaliser l'action, interpréter les résultats, élaborer une synthèse, évaluer l'action et proposer des prolongements.
@@ -23,7 +24,7 @@
 
 ###2-2- Compétences disciplinaires connexes
 - TODO
-- 
+
 ##3- Compétences de parcours
 ###3-1- Parcours "Du génome à l'organisme"
 
