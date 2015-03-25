@@ -1,4 +1,4 @@
-1- #Compétences communes
+1- #Compétences communes#
 1-1- Compétences génériques préprofessionnelles
 1-2- Compétences génériques transférables
 
