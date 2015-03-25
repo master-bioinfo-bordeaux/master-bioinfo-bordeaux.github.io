@@ -1,7 +1,8 @@
 ##1- Compétences communes
 ###1-1- Compétences génériques préprofessionnelles
 
-  Réaliser une étude, scientifique ou non, en vue d'une évaluation, d'un développement, d'une conception, d'une application, en vue de tester ou d'élaborer une modélisation: poser une problématique en tenant compte du contexte et des objectifs, construire et développer une argumentation, réaliser l'action, interpréter les résultats, élaborer une synthèse, évaluer l'action et proposer des prolongements.
+  Réaliser une étude, scientifique ou non, en vue d'une évaluation, d'un développement, d'une conception, d'une application, en vue de tester ou d'élaborer une modélisation.
+  Poser une problématique en tenant compte du contexte et des objectifs, construire et développer une argumentation, réaliser l'action, interpréter les résultats, élaborer une synthèse, évaluer l'action et proposer des prolongements.
   Réaliser un cahier des charges en tenant compte des besoins du client et des contraintes temporelles, humaines et économiques.
   Communiquer : rédiger clairement, préparer des supports de communication en utilisant diverses techniques (rapport, diaporama, note de synthèse, poster,...), et les commenter pour un public, averti ou non, en français ou en anglais.
   Réaliser et produire des données, des études, des logiciels, en équipe
