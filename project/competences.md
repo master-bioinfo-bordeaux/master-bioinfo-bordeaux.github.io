@@ -37,3 +37,4 @@
 
 ###3-4- Compétences parcours "BioImaging, Structures, and Contents"
 - TODO
+- Maitriser 
