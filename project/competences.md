@@ -38,7 +38,10 @@
 ###3-4- Compétences parcours "BioImaging, Structures, and Contents"
 - TODO
 - Connaissance en formation des images biologiques - interactions ondes-matières
-- Définir les modalités d'imagerie pour étudier un objet biologique
-- Caractériser un objet biologique à partir de ses données d'imagerie
+- Connaissances en échantillonnage - dimensions biologiques, résolutions, sensibilités
+- Déterminer le potentiel analytique des modalités d'imagerie pour étudier les objets biologiques
 - Maîtriser les outils logiciels du développement des traitements de données en bioimagerie
-- Etudier les paramètres qualitatifs et quanbtitatifs des images biologiques
+- Etudier les propriétés des paramètres qualitatifs et quantitatifs des images biologiques
+- Manipuler les concepts de reconstruction des images 2D/3D
+- Créer des outils d'interprétation des données d'imageries biologiques
+- Développer les imageries multimodales et hyperspectrales, créer des métadonnées
