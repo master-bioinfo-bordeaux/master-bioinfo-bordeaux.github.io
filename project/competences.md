@@ -37,4 +37,6 @@
 
 ###3-4- Compétences parcours "BioImaging, Structures, and Contents"
 - TODO
-- Maitriser 
+- Connaissance en formation des images biologiques - interactions ondes-matières
+- Produire des données analytiques à partir d'images biologiques
+- Caractériser un objet biologique à partir de sa (ses) image(s)
