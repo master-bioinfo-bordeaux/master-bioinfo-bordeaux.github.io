@@ -1,6 +1,7 @@
 ##1- Compétences communes
 ###1-1- Compétences génériques préprofessionnelles
-- TODO
+- Travailler en équipe dans différents contextes, y compris avec des personnes issues de disciplines différentes : s'intégrer, se positionner, collaborer, communiquer et rendre compte.
+
 
 ###1-2- Compétences génériques transférables
 - Réaliser une étude, scientifique ou non, en vue d'une évaluation, d'un développement, d'une conception, d'une application, en vue de tester ou d'élaborer une modélisation.
