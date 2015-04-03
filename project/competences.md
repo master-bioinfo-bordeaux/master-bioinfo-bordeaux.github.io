@@ -3,7 +3,8 @@
 - Travailler en équipe dans différents contextes, y compris avec des personnes issues de disciplines différentes : s'intégrer, se positionner, collaborer, communiquer et rendre compte.
 - Etre capable de communiquer des résultats à l'écrit et à l'oral en français et en anglais (new)
 - Être responsable, à l'ère du numérique, de la maîtrise de son identité numérique, respecter la réglementation en matière de vie privée et de propriété intellectuelle.
-- Réaliser en adéquation avec un profil d'emploi spécifique - au niveau national et international.
+- Réaliser en adéquation avec un profil d'emploi spécifique - au niveau national et international. (new)
+- Savoir planifier une recherche à l'aide d'outils de gestion de projet. (new)
 
 
 ###1-2- Compétences génériques transférables
