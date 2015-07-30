@@ -273,7 +273,7 @@ a:after {
 #headerwrap {
 	background: url(../img/header_bg.jpg) no-repeat center top;
 	margin-top: -50px;
-	padding-top:120px;
+	padding:300px 0 200px 0;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -292,12 +292,13 @@ a:after {
 }
 
 #headerwrap h1 {
-	color:#0f78ef;
-	margin-top: 90px;
-	padding-bottom: 30px;
-	letter-spacing: 8px;
-	font-size: 100px;
-	font-weight: bold;
+    font-family: "Raleway";
+	color:#ffffff;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	letter-spacing: 20px;
+	font-size: 60px;
+	font-weight: 400;
 	text-shadow: 2px 2px 2px #000;
 }
 
@@ -433,7 +434,13 @@ a:after {
    Calendar Section
    ========================================================================== */
 
+.calendar {
+    font-size: 12px;
+}
 
+.calendar ul {
+   font-size: 14px;
+}
 /* ==========================================================================
    News Section
    ========================================================================== */
@@ -599,7 +606,8 @@ a:after {
 
 @media screen and (max-width:769px) {
 	#headerwrap h1 {
-		font-size: 80px;
+		font-size: 30px;
+		letter-spacing: 8px;
 	}
 	#headerwrap p {
 		font-size: 30px;
