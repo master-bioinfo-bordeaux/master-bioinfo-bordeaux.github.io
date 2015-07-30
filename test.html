@@ -67,9 +67,10 @@
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" id="home" name="home">
 			<header class="clearfix">
-	  		 		<h1><!-- Logo ??? --></h1>
-	  		 		<p>Master of BioInformatics</p>
-	  		 		<p>Bordeaux, France</p>
+	  		 		<h1>BioInformatics</h1>
+	  		 		<h1>Master Degree</h1>
+	  		 		<hr>
+	  		 		<h3>Bordeaux, France</h3>
 	  		</header>	    
 	    </div><!-- /headerwrap -->
 
@@ -105,107 +106,9 @@
 				<h2 class="centered">NEWS</h2>
 				<hr>
 				<br>
-					<div class="col-lg-6">
-					    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img src="img/news/misc_calendar.jpg" alt="" class="img-responsive">
-                                        <div class="carousel-caption">
-                                            <h5>NEWS #1: RENTREE 2015 M1 + M2</h5>
-                                        </div>
-                                </div>
-                            </div>
-    					    <div class="media-body">
-					        <h4 class="media-heading"><i class="fa fa-calendar"></i> Sep 1, 2015</h4>				
-					Curabitur feugiat urna a eros viverra, quis vulputate ipsum sollicitudin. Vestibulum efficitur magna nulla, porta tincidunt nunc lobortis vitae. Vivamus a leo ipsum. Curabitur rutrum dictum mauris quis suscipit. Aliquam auctor metus non dolor rhoncus scelerisque.
-					        </div> <!-- media-body -->
-					        <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-md">Read more...</a>
-
-                        </div>
-
-<!--
-						<div class="media item">
-                        <a data-toggle="modal" href="#myModal">
-							<img class="media-object custom-media" src="img/portfolio01.jpg" alt="">
-				        <header class="news_title">
-					        <h5>NEWS #1: RENTREE 2015 M1 + M2</h5>
-				        </header>
--->
-
-					</div>
-					<div class="col-lg-6">
-                    <!-- NEWS #2 -->
-					<div class="media">
-                        <div class="media-left">
-                            <a data-toggle="modal" href="#myModal">
-                                <img class="media-object hidden-xs" src="img/news/teach_keyboard_thumb.jpg" alt="...">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><i class="fa fa-calendar"></i> Aug 15, 2015</h4>
-                            <a data-toggle="modal" href="#myModal">
-                                <h5>NEWS #2: Lorem ipsum dolor sit amet, consectetur adipiscing elit sed vestibulum eu quam ut aliquet.</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- NEWS #3 -->
-					<div class="media">
-                        <div class="media-left">
-                            <a data-toggle="modal" href="#myModal">
-                                <img class="media-object hidden-xs" src="img/news/bio_flask_thumb.jpg" alt="...">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><i class="fa fa-calendar"></i> Jul 29, 2015</h4>
-                            <a data-toggle="modal" href="#myModal">
-                                <h5>NEWS #3: Etiam a metus sit amet lectus facilisis accumsan vitae sit amet mauris. Nulla facilisi. Praesent turpis magna.</h5>
-                            </a>
-                        </div>
-                    </div>
-                   <!-- NEWS #4 -->
-					<div class="media">
-                        <div class="media-left">
-                            <a data-toggle="modal" href="#myModal">
-                                <img class="media-object hidden-xs" src="img/news/teach_conf_thumb.jpg" alt="...">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><i class="fa fa-calendar"></i> Jul 23, 2015</h4>
-                            <a data-toggle="modal" href="#myModal">
-                                <h5>NEWS #4: Etiam a metus sit amet lectus facilisis accumsan vitae sit amet mauris. Nulla facilisi. Praesent turpis magna.</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- NEWS #5 -->
-					<div class="media">
-                        <div class="media-left">
-                            <a data-toggle="modal" href="#myModal">
-                                <img class="media-object hidden-xs" src="img/news/bio_rack_thumb.jpg" alt="...">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><i class="fa fa-calendar"></i> Jul 11, 2015</h4>
-                            <a data-toggle="modal" href="#myModal">
-                                <h5>NEWS #5: Etiam a metus sit amet lectus facilisis accumsan vitae sit amet mauris. Nulla facilisi. Praesent turpis magna.</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- NEWS #6 -->
-					<div class="media">
-                        <div class="media-left">
-                            <a data-toggle="modal" href="#myModal">
-                                <img class="media-object hidden-xs" src="img/news/misc_calendar_thumb.jpg" alt="...">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading"><i class="fa fa-calendar"></i> Jun 21, 2015</h4>
-                            <a data-toggle="modal" href="#myModal">
-                                <h5>NEWS #6: Etiam a metus sit amet lectus facilisis accumsan vitae sit amet mauris. Nulla facilisi. Praesent turpis magna.</h5>
-                            </a>
-                        </div>
-                    </div>
-                  
-                    </div>
+					<div id="top_news" class="col-lg-6"></div>
+					<div id="news_old" class="col-lg-6"></div>                    
+                    <div class="modal fade" id="newsModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true"></div>
 			</div><!-- row -->
 			
 		</div><!-- container -->
@@ -264,7 +167,7 @@
                         </select>
                     </div>
                  </div>
-                <table class="table table-bordered hidden-sm hidden-xs">
+                <table class="calendar table table-condensed table-bordered hidden-sm hidden-xs">
                 <thead>
                     <tr>
                     <th>Hour</th>
@@ -277,15 +180,13 @@
                 </thead>
                 <tbody>
                 <tr> <!-- 8h00-8h30 -->
-                <td  rowspan="2">08h00-09h00</td>
+                <td  rowspan="2">08h00</td>
                     <td rowspan="8" style="background-color: #afe5f5;">
                         <ul class="list-unstyled">
                             <li>ImagProc[1] </li>
                             <li>JC Taveau</li>
                             <li><b>8h00-12h00</b></li>
-                            <li>Room 25</li>
-                            <li>Bldg CREMI</li>
-                            <li>Campus Talence</li>
+                            <li>Room 25 - Bldg CREMI - Talence</li>
                             <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
 
                         </ul>
@@ -298,9 +199,7 @@
                             <li>ImagProc[5] </li>
                             <li>JC Taveau</li>
                             <li><b>8h00-12h00</b></li>
-                            <li>Room 25</li>
-                            <li>Bldg CREMI</li>
-                            <li>Campus Talence</li>
+                            <li>Room 25 - Bldg CREMI - Talence</li>
                             <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
 
                         </ul>
@@ -310,12 +209,9 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs" rowspan="8" style="background-color: #afe5f5; border: 2px solid #fff;">
                         <ul class="list-unstyled">
-                            <li>ImagProc[3] </li>
+                            <li>ImagProc[3] <b>8h30-12h30</b> </li>
                             <li>JC Taveau</li>
-                            <li><b>8h30-12h30</b></li>
-                            <li>Room 25</li>
-                            <li>Bldg CREMI</li>
-                            <li>Campus Talence</li>
+                            <li>Room 25 - Bldg CREMI - Talence</li>
                             <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
 
                         </ul>
@@ -323,7 +219,7 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr><!-- 9h00-9h30 -->
-                    <td rowspan="2">09h00-10h00</td>
+                    <td rowspan="2">09h00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
@@ -332,16 +228,14 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">10h00-11h00</td>
+                    <td rowspan="2">10h00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs" rowspan="4" style="background-color: #eef409; border: 2px solid #fff;">
                         <ul class="list-unstyled">
                             <li>NGSAppl[7] </li>
                             <li>P Thébault</li>
                             <li><b>10h00-12h00</b></li>
-                            <li>Bldg ED</li>
-                            <li>Room 41</li>
-                            <li>Campus Carreire</li>
+                            <li>Room 41 - Bldg ED - Carreire </li>
                             <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
                         </ul>
                     </td>
@@ -350,14 +244,14 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">11h00-12h00</td>
+                    <td rowspan="2">11h00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr><!-- 11h30-12h00 -->
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">12h00-13h00</td>
+                    <td rowspan="2">12h00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -371,7 +265,7 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">13h00-14h00</td>
+                    <td rowspan="2">13h00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -386,28 +280,25 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">14h00-15h00</td>
+                    <td rowspan="2">14h00</td>
                     <td rowspan="4" style="background-color: #02ff10; border: 2px solid #fff;">
                         <ul class="list-unstyled">
                             <li>ProgAlgo[3]</li>
                             <li>M Beurton-Aimar</li>
                             <li><b>14h00-16h00</b></li>
-                            <li>Bldg CREMI</li>
-                            <li>Room 11</li>
-                            <li>Campus Talence</li>
+                            <li>Room 11 - Bldg CREMI - Talence</li>
+                            <li></li>
                             <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
                         </ul>
                     </td>
                      <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs" rowspan="8" style="background-color: #afe5f5; border: 2px solid #fff;">
                         <ul class="list-unstyled">
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
                             <li>ImagProc[4]</li>
                             <li>JC Taveau</li>
                             <li><b>14h00-18h00</b></li>
-                            <li>CREMI</li>
-                            <li>Room: 25</li>
-                            <li>Talence</li>
+                            <li>Room: 25 - Bldg CREMI - Talence</li>
+                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
                         </ul>
                     </td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -416,20 +307,19 @@
                 <tr><!-- 14h30-15h00 -->
                     <td class="hidden-sm hidden-xs" rowspan="6" style="background-color: #afe5f5; border: 2px solid #fff;">
                         <ul class="list-unstyled">
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
                             <li>ImagProc[2]</li>
                             <li>JC Taveau</li>
                             <li><b>14h30-17h30</b></li>
-                            <li>CREMI</li>
+                            <li>Bldg CREMI - Talence</li>
                             <li>Room: 25</li>
-                            <li>Talence</li>
+                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
                         </ul>
                     </td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">15h00-16h00</td>
+                    <td rowspan="2">15h00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
@@ -438,7 +328,7 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">16h00-17h00</td>
+                    <td rowspan="2">16h00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -448,7 +338,7 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 <tr>
-                    <td rowspan="2">17h00-18h00</td>
+                    <td rowspan="2">17h00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -460,7 +350,7 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">18h00-19h00</td>
+                    <td rowspan="2">18h00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -1097,6 +987,8 @@
 	<script type="text/javascript" src="js/retina.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/jquery-func.js"></script>
+	<script type="text/javascript" src="data/news_json.js"></script>
+	<script type="text/javascript" src="js/news.js"></script>
 	<script type="text/javascript" src="js/calendar.js"></script>
     <script>
     /** Smooth Scroll **/
