@@ -137,13 +137,13 @@
 				<div>
 				<div class="row">
 				    <div class="col-lg-3 col-md-3 col-xs-5"">
-                        <a class="btn btn-default" href="#" role="button"><i class="fa fa-backward"></i></a>
-                        <span style="font-size: 24px; font-weight: 300; font-family:'Raleway'; color: #333;">Week 36</span>
-                        <a class="btn btn-default" href="#" role="button"><i class="fa fa-forward"></i></a>
+                        <a id="weekBackward" class="btn btn-default" href="javascript:void(0)" onclick="previousWeek()" role="button"><i class="fa fa-backward fa-lg"></i></a>
+                        <span id ="weeknum" class="week"></span>
+                        <a id="weekForward" class="btn btn-default" href="javascript:void(0)" role="button" onclick="nextWeek()"><i class="fa fa-forward fa-lg"></i></a>
                     </div>
 
 				    <div class="col-lg-3 col-md-3 col-xs-3 ">
-                        <select class="form-control hidden-xs">
+                        <select class="form-control hidden-sm hidden-xs">
                             <option>Master 1</option>
                             <option>Master 2</option>
                         </select>
@@ -153,126 +153,130 @@
                         </select>
                     </div>
                     <div class="col-lg-4  col-md-4 col-xs-4">
-                        <select class="form-control  hidden-xs">
+                        <select class="form-control hidden-sm hidden-xs">
                             <option>Computational Biology</option>
                             <option>From Genomes to Organisms</option>
                             <option>From Organisms to Ecosystems</option>                  
                             <option>BioImages, Structures, and Contents</option>                  
                         </select>
                         <select class="form-control  hidden-lg hidden-md">
-                            <option>Comptnl Bio.</option>
-                            <option>Gen. to Org.</option>
-                            <option>Org. to Eco.</option>                  
-                            <option>B. S. C.</option>                  
+                            <option>C++BIO</option>
+                            <option>GENORG</option>
+                            <option>ORGECO</option>                  
+                            <option>BSC</option>                  
                         </select>
                     </div>
                  </div>
                 <table class="calendar table table-condensed table-bordered hidden-sm hidden-xs">
-                <thead>
-                    <tr>
-                    <th>Hour</th>
-                    <th>MON <span class="pull-right"><sup>Aug 31</sup></span></th>
-                    <th class="hidden-sm hidden-xs">TUE <span class="pull-right"><sup>Sep 1</sup></span></th>
-                    <th class="hidden-sm hidden-xs">WED <span class="pull-right"><sup>Sep 2</sup></span></th>
-                    <th class="hidden-sm hidden-xs">THU <span class="pull-right"><sup>Sep 3</sup></span></th>
-                    <th class="hidden-sm hidden-xs">FRI <span class="pull-right"><sup>Sep 4</sup></span></th>
-                    </tr>                
+                <thead id="calendar-lg-head">
                 </thead>
-                <tbody>
-                <tr> <!-- 8h00-8h30 -->
-                <td  rowspan="2">08h00</td>
+                <tbody id="calendar-lg-body">
+                <tr> <!-- 8:00-8:30 -->
+                <td  rowspan="2">08:00</td>
                     <td rowspan="8" style="background-color: #afe5f5;">
+                        <div class="course" style="background-color: #afe5f5;">
                         <ul class="list-unstyled">
-                            <li>ImagProc[1] </li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-danger btn-xs">ImagProc</a>&nbsp;[1] 
+                                <span class="pull-right" style="font-weight: bold">8:00-12:00</span>
+                            </li>
                             <li>JC Taveau</li>
-                            <li><b>8h00-12h00</b></li>
-                            <li>Room 25 - Bldg CREMI - Talence</li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
-
+                            <li>Room 25 - Bldg&nbsp;CREMI::Talence</li>
                         </ul>
+                        </div>
                     </td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs" rowspan="8" style="background-color: #ddd; border: 2px solid #fff;">
+                        <div class="student-group" style="background-color: #afe5f5;">
+                        <ul class="list-unstyled" >
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">ImagProc</a>&nbsp;[5]  
+                                <span class="pull-right" style="font-weight: bold">8:00-12:00</span>
+                            </li>
+                            <li>
+                                JC Taveau
+                                <span class="pull-right" style="font-weight: bold">Group A</span>                                                                
+                            </li>
+                            <li>Room 25 - Bldg&nbsp;CREMI::Talence</li>
+                        </ul>
+                        </div>
+                        <div class="student-group" style="background-color: #afe5f5;">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">ImagProc</a>&nbsp;[5]  
+                                <span class="pull-right" style="font-weight: bold">8:00-12:00</span>
+                            </li>
+                            <li>
+                                A Bouter
+                                <span class="pull-right" style="font-weight: bold">Group B</span>
+                            </li>
+                            <li>Room 41 - Bldg&nbsp;ED::Carreire</li>
+                         </ul>
+                         </div>
+
+                    </td>
+                </tr>
+                <tr> <!-- 8:30-9:00 -->
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs" rowspan="8" style="background-color: #afe5f5; border: 2px solid #fff;">
+                        <div class="course" style="background-color: #afe5f5;">
                         <ul class="list-unstyled">
-                            <li>ImagProc[5] </li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">ImagProc</a>&nbsp;[3] 
+                                <span class="pull-right" style="font-weight: bold">8:30-12:30</span>                                
+                            </li>
                             <li>JC Taveau</li>
-                            <li><b>8h00-12h00</b></li>
-                            <li>Room 25 - Bldg CREMI - Talence</li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
-
+                            <li>Room 25 - Bldg&nbsp;CREMI::Talence</li>
                         </ul>
-                    </td>
-                </tr>
-                <tr> <!-- 8h30-9h00 -->
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs" rowspan="8" style="background-color: #afe5f5; border: 2px solid #fff;">
-                        <ul class="list-unstyled">
-                            <li>ImagProc[3] <b>8h30-12h30</b> </li>
-                            <li>JC Taveau</li>
-                            <li>Room 25 - Bldg CREMI - Talence</li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
-
-                        </ul>
+                        </div>
                     </td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 9h00-9h30 -->
-                    <td rowspan="2">09h00</td>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 9h30-10h00 -->
+                <tr><!-- 9:30-10:00 -->
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">10h00</td>
+                    <td rowspan="2">10:00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs" rowspan="4" style="background-color: #eef409; border: 2px solid #fff;">
+                        <div class="course" style="background-color: #eef409;">
                         <ul class="list-unstyled">
-                            <li>NGSAppl[7] </li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">NGSAppl</a>&nbsp;[7] 
+                                <span class="pull-right" style="font-weight: bold" >10:00-12:00</span>                                
+                            </li>
                             <li>P Thébault</li>
-                            <li><b>10h00-12h00</b></li>
-                            <li>Room 41 - Bldg ED - Carreire </li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
+                            <li>Room 41 - Bldg&nbsp;ED::Carreire </li>
                         </ul>
+                        </div>
                     </td>
                 </tr>
-                <tr><!-- 10h30-11h00 -->
+                <tr><!-- 10:30-11:00 -->
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">11h00</td>
+                    <td rowspan="2">11:00</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 11h30-12h00 -->
+                <tr><!-- 11:30-12:00 -->
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">12h00</td>
+                    <td rowspan="2">12:00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 12h30-13h00 -->
-                    <td>&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">13h00</td>
-                    <td>&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                </tr>
-                <tr><!-- 13h30-14h00 -->
+                <tr><!-- 12:30-13:00 -->
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
@@ -280,91 +284,140 @@
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">14h00</td>
+                    <td rowspan="2">13:00</td>
+                    <td>&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                </tr> 
+                <tr> <!-- 13:30-14:00 --> 
+                    <td>&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">14:00</td>
                     <td rowspan="4" style="background-color: #02ff10; border: 2px solid #fff;">
+                        <div class="course" style="background-color: #02ff10;">
                         <ul class="list-unstyled">
-                            <li>ProgAlgo[3]</li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">ProgAlgo</a>&nbsp;[3]
+                                <span class="pull-right" style="font-weight: bold" >14:00-16:00</span>                                
+                            </li>
                             <li>M Beurton-Aimar</li>
-                            <li><b>14h00-16h00</b></li>
-                            <li>Room 11 - Bldg CREMI - Talence</li>
-                            <li></li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
+                            <li>Room 11 - Bldg&nbsp;CREMI::Talence</li>
                         </ul>
+                        </div>
                     </td>
                      <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs" rowspan="8" style="background-color: #afe5f5; border: 2px solid #fff;">
+                        <div class="course" style="background-color: #afe5f5;">
                         <ul class="list-unstyled">
-                            <li>ImagProc[4]</li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">ImagProc</a>&nbsp;[4]
+                                <span class="pull-right" style="font-weight: bold" >14:00-18:00</span>                                
+                            </li>
                             <li>JC Taveau</li>
-                            <li><b>14h00-18h00</b></li>
-                            <li>Room: 25 - Bldg CREMI - Talence</li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
+                            <li>Room: 25 - Bldg&nbsp;CREMI::Talence</li>
                         </ul>
+                        </div>
+                    </td>
+                    <td  rowspan="6" class="hidden-sm hidden-xs" style="background-color: #ddd;">
+                        <div class="student-group" style="background-color: #F59E9E;">
+                        <ul class="list-unstyled" >
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-danger btn-xs">ACID</a>&nbsp;[2]
+                                <span class="pull-right" style="font-weight: bold" >14:00-17:00</span>                                
+                            </li>
+                            <li>JC Taveau</li>
+                            <li>Room 25 - Bldg&nbsp;CREMI::Talence</li>
+                        </ul>
+                        </div>
+                        <div class="student-group" style="background-color: #05F9DD;">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-danger btn-xs">DEA</a>&nbsp;[3]
+                                <span class="pull-right" style="font-weight: bold" >14:00-17:00</span>                                                                
+                            </li>
+                            <li>P Desbarat</li>
+                            <li>Room 41 - Bldg&nbsp;ED::Carreire</li>
+                         </ul>
+                         </div>
+                        <div class="student-group" style="background-color: #10F959;">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-danger btn-xs">SIG</a>&nbsp;[5]
+                                <span class="pull-right" style="font-weight: bold" >14:00-17:00</span>                                
+                            </li>
+                            <li>A Bouter</li>
+                            <li>Room 41 - Bldg&nbsp;ED::Carreire</li>
+                        </ul>
+                        </div>
                     </td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 14h30-15h00 -->
+                <tr><!-- 14:30-15:00 -->
                     <td class="hidden-sm hidden-xs" rowspan="6" style="background-color: #afe5f5; border: 2px solid #fff;">
+                        <div class="course" style="background-color: #afe5f5;">
                         <ul class="list-unstyled">
-                            <li>ImagProc[2]</li>
+                            <li>
+                                <a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs">ImagProc</a>&nbsp;[2]
+                                <span class="pull-right" style="font-weight: bold">14:30-17:30</span>                                
+                            </li>
                             <li>JC Taveau</li>
-                            <li><b>14h30-17h30</b></li>
-                            <li>Bldg CREMI - Talence</li>
-                            <li>Room: 25</li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-right">More...</a></li>
+                            <li>Room: 25 - Bldg&nbsp;CREMI::Talence</li>
                         </ul>
+                        </div>
                     </td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">15:00</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                </tr>
+                <tr><!-- 15:30-16:00 -->
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">15h00</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                </tr>
-                <tr><!-- 15h30-16h00 -->
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">16h00</td>
+                    <td rowspan="2">16:00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 16h30-17h00 -->
+                <tr><!-- 16:30-17:00 -->
                     <td>&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 <tr>
-                    <td rowspan="2">17h00</td>
+                    <td rowspan="2">17:00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 17h30-18h00 -->
+                <tr><!-- 17:30-18:00 -->
                     <td>&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
+                </tr>
+    <!-- if empty no render 
+                <tr>
+                    <td rowspan="2">18:00</td>
+                    <td>&nbsp;</td>
+                    <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">18h00</td>
                     <td>&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                     <td class="hidden-sm hidden-xs">&nbsp;</td>
                 </tr>
-                <tr><!-- 18h30-19h00 -->
-                    <td>&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                    <td class="hidden-sm hidden-xs">&nbsp;</td>
-                </tr>
-
+    -->
                 </tbody>
                 </table>
                 
@@ -379,78 +432,78 @@
                 </tr>               
                 </thead>
                 <tbody>
-                <tr> <!-- 8h00-8h30 -->
-                    <td  rowspan="2">08h00-09h00</td>
+                <tr> <!-- 8:00-8:30 -->
+                    <td  rowspan="2">08:00-09:00</td>
                     <td>&nbsp;</td>
                  </tr>
-                <tr> <!-- 8h30-9h00 -->
+                <tr> <!-- 8:30-9:00 -->
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 9h00-9h30 -->
-                    <td rowspan="2">09h00-10h00</td>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00-10:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 9h30-10h00 -->
+                <tr><!-- 9:30-10:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">10h00-11h00</td>
+                    <td rowspan="2">10:00-11:00</td>
                     <td>&nbsp;</td>
                  </tr>
-                <tr><!-- 10h30-11h00 -->
+                <tr><!-- 10:30-11:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">11h00-12h00</td>
+                    <td rowspan="2">11:00-12:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 11h30-12h00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">12h00-13h00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 12h30-13h00 -->
+                <tr><!-- 11:30-12:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">13h00-14h00</td>
+                    <td rowspan="2">12:00-13:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 13h30-14h00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">14h00-15h00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 14h30-15h00 -->
+                <tr><!-- 12:30-13:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">15h00-16h00</td>
+                    <td rowspan="2">13:00-14:00</td>
+                    <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 15h30-16h00 -->
+                <tr><!-- 13:30-14:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">16h00-17h00</td>
+                    <td rowspan="2">14:00-15:00</td>
+                    <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 16h30-17h00 -->
+                <tr><!-- 14:30-15:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">17h00-18h00</td>
+                    <td rowspan="2">15:00-16:00</td>
                 </tr>
-                <tr><!-- 17h30-18h00 -->
+                <tr><!-- 15:30-16:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">18h00-19h00</td>
+                    <td rowspan="2">16:00-17:00</td>
+                </tr>
+                <tr><!-- 16:30-17:00 -->
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 18h30-19h00 -->
+                <tr>
+                    <td rowspan="2">17:00-18:00</td>
+                </tr>
+                <tr><!-- 17:30-18:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">18:00-19:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 18:30-19:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 </tbody>
@@ -464,58 +517,58 @@
                 </tr>               
                 </thead>
                 <tbody>
-                <tr> <!-- 8h00-8h30 -->
-                    <td  rowspan="2">08h00-09h00</td>
+                <tr> <!-- 8:00-8:30 -->
+                    <td  rowspan="2">08:00-09:00</td>
                     <td>&nbsp;</td>
                  </tr>
-                <tr> <!-- 8h30-9h00 -->
+                <tr> <!-- 8:30-9:00 -->
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 9h00-9h30 -->
-                    <td rowspan="2">09h00-10h00</td>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00-10:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 9h30-10h00 -->
+                <tr><!-- 9:30-10:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">10h00-11h00</td>
+                    <td rowspan="2">10:00-11:00</td>
                     <td>&nbsp;</td>
                  </tr>
-                <tr><!-- 10h30-11h00 -->
+                <tr><!-- 10:30-11:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">11h00-12h00</td>
+                    <td rowspan="2">11:00-12:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 11h30-12h00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">12h00-13h00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 12h30-13h00 -->
+                <tr><!-- 11:30-12:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">13h00-14h00</td>
+                    <td rowspan="2">12:00-13:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 13h30-14h00 -->
+                <tr><!-- 12:30-13:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">14h00-15h00</td>
+                    <td rowspan="2">13:00-14:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 14h30-15h00 -->
+                <tr><!-- 13:30-14:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">14:00-15:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 14:30-15:00 -->
                     <td rowspan="6" style="background-color: #afe5f5; border: 2px solid #fff;">
                         <ul class="list-unstyled">
                             <li>ImagProc[2]</li>
                             <li>JC Taveau</li>
-                            <li><b>14h30-17h30</b></li>
+                            <li><b>14:30-17:30</b></li>
                             <li>CREMI</li>
                             <li>Room: 25</li>
                             <li>Talence</li>
@@ -524,26 +577,26 @@
                     </td>
                 </tr>
                 <tr>
-                    <td rowspan="2">15h00-16h00</td>
+                    <td rowspan="2">15:00-16:00</td>
                 </tr>
-                <tr><!-- 15h30-16h00 -->
-                </tr>
-                <tr>
-                    <td rowspan="2">16h00-17h00</td>
-                </tr>
-                <tr><!-- 16h30-17h00 -->
+                <tr><!-- 15:30-16:00 -->
                 </tr>
                 <tr>
-                    <td rowspan="2">17h00-18h00</td>
+                    <td rowspan="2">16:00-17:00</td>
                 </tr>
-                <tr><!-- 17h30-18h00 -->
+                <tr><!-- 16:30-17:00 -->
+                </tr>
+                <tr>
+                    <td rowspan="2">17:00-18:00</td>
+                </tr>
+                <tr><!-- 17:30-18:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">18h00-19h00</td>
+                    <td rowspan="2">18:00-19:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 18h30-19h00 -->
+                <tr><!-- 18:30-19:00 -->
                     <td>&nbsp;</td>
                 </tr>
 
@@ -558,81 +611,81 @@
                 </tr>               
                 </thead>
                 <tbody>
-                <tr> <!-- 8h00-8h30 -->
-                    <td  rowspan="2">08h00-09h00</td>
+                <tr> <!-- 8:00-8:30 -->
+                    <td  rowspan="2">08:00-09:00</td>
                     <td>&nbsp;</td>
                  </tr>
-                <tr> <!-- 8h30-9h00 -->
+                <tr> <!-- 8:30-9:00 -->
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 9h00-9h30 -->
-                    <td rowspan="2">09h00-10h00</td>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00-10:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 9h30-10h00 -->
+                <tr><!-- 9:30-10:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">10h00-11h00</td>
+                    <td rowspan="2">10:00-11:00</td>
                     <td>&nbsp;</td>
                  </tr>
-                <tr><!-- 10h30-11h00 -->
+                <tr><!-- 10:30-11:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">11h00-12h00</td>
+                    <td rowspan="2">11:00-12:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 11h30-12h00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">12h00-13h00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 12h30-13h00 -->
+                <tr><!-- 11:30-12:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">13h00-14h00</td>
+                    <td rowspan="2">12:00-13:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 13h30-14h00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">14h00-15h00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 14h30-15h00 -->
+                <tr><!-- 12:30-13:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">15h00-16h00</td>
+                    <td rowspan="2">13:00-14:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 15h30-16h00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">16h00-17h00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 16h30-17h00 -->
+                <tr><!-- 13:30-14:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">17h00-18h00</td>
+                    <td rowspan="2">14:00-15:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 17h30-18h00 -->
+                <tr><!-- 14:30-15:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td rowspan="2">18h00-19h00</td>
+                    <td rowspan="2">15:00-16:00</td>
                     <td>&nbsp;</td>
                 </tr>
-                <tr><!-- 18h30-19h00 -->
+                <tr><!-- 15:30-16:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">16:00-17:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 16:30-17:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">17:00-18:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 17:30-18:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">18:00-19:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 18:30-19:00 -->
                     <td>&nbsp;</td>
                 </tr>
                 </tbody>
