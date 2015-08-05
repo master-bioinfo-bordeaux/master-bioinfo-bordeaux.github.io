@@ -1,4 +1,3 @@
-[
     // MOST RECENT NEWS
     {
         date : "2015-09-1", // YYYY-MM-DD
