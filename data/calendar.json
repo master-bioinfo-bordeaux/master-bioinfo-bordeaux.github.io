@@ -1,6 +1,6 @@
 
- [
-    {
+{
+    "C20150731T145923@userGithub" : {
         "ID"        : "C20150731T145923@userGithub", 
         "summary"   : "KM1BS10U-Stats", 
         "date_start": "20150831T1400", 
@@ -14,7 +14,7 @@
         ],
         "notes"   : "Read the article \"Beetroot Plantations in Himalaya\" before coming."
     },
-    {
+   "C20150731T145923@username" :  {
         "ID"        : "C20150731T145923@username",
         "summary"   : "J1BS7M01-Imag",
         "date_start": "20150804T0800", 
@@ -34,7 +34,7 @@
         "notes"   : ""
     },
     
-    {
+   "E20150731T145923@jeesay" :  {
         "ID"            : "E20150731T145923@jeesay",
         "type"          : "event", 
         "summary"       : "Summer holidays",
@@ -44,7 +44,7 @@
         "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "image"         : "summer"
     },
-    {
+   "E20150731T145923@jeesay" :  {
         "ID"            : "E20150731T145923@jeesay",
         "type"          : "event", 
         "summary"       : "Réunion de rentrée M1 et M2",
@@ -55,7 +55,7 @@
         "image"         : "calendar"
 
     }
-]
+}
 
 
 
