@@ -1,0 +1,58 @@
+[
+    {
+        "ID"        : "C20150731T145923@userGithub", 
+        "summary"   : "KM1BS10U-Stats", 
+        "date_start": "20150831T1400", 
+        "date_end"  : "20150831T1700", 
+        "groups"  : [
+            {
+                "ID"      : "All",
+                "teacher" : "M Beurton-Aimar",
+                "location": "room24@ED::Carreire" 
+            }        
+        ],
+        "notes"   : "Read the article \"Beetroot Plantations in Himalaya\" before coming."
+    },
+    {
+        "ID"        : "C20150731T145923@username",
+        "summary"   : "J1BS7M01-Imag",
+        "date_start": "20150804T0800", 
+        "date_end"  : "20150804T1200", 
+        "groups"  : [
+            {
+                "ID"      : "A",
+                "teacher" : "JC Taveau",
+                "location": "room24@CREMI::Talence"
+            },        
+            {
+                "ID"      : "B",
+                "teacher" : "P Thébault",
+                "location": "room41@ED::Carreire"
+            }        
+        ],
+        "notes"   : ""
+    },
+    
+    {
+        "ID"            : "E20150731T145923@jeesay",
+        "type"          : "event", 
+        "summary"       : "Summer holidays",
+        "date_start"    : "20150701", 
+        "date_end"      : "20150831", 
+        "description"   : "",
+        "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "image"         : "summer"
+    },
+    {
+        "ID"            : "E20150731T145923@jeesay",
+        "type"          : "event", 
+        "summary"       : "Réunion de rentrée M1 et M2",
+        "date_start"    : "20150701", 
+        "date_end"      : "20150831",
+        "description"   : "Présentation des divers enseignements, organisation du master pour chacune des années.",
+        "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+    }
+]
+
+
+

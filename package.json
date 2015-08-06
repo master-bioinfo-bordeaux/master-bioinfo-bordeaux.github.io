@@ -1,0 +1,12 @@
+{
+  "name": "msbinobi",
+  "_comment": "_M_aster of _S_cience in _B_ioinformatics _I_s _N_ot _O_nly _B_iology + _I_nformatics",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-concat": "~0.5.1"
+  }
+}
