@@ -7,7 +7,7 @@
     <meta name="author" content="Jean-Christophe Taveau - University of Bordeaux">
     <link rel="shortcut icon" href="ico/favicon.png">
 
-    <title>Master of BioInformatics, Bordeaux, France</title>
+    <title>Master in BioInformatics, Bordeaux, France</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,13 +23,6 @@
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
     
     <script src="js/jquery-2.1.4.min.js"></script>
-	<!-- script type="text/javascript" src="js/modernizr.custom.js"></script -->
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
@@ -68,8 +61,8 @@
 		<!-- ==== HEADERWRAP ==== -->
 	    <div id="headerwrap" id="home" name="home">
 			<header class="clearfix">
-	  		 		<h1>BioInformatics</h1>
-	  		 		<h1>Master Degree</h1>
+	  		 		<h1>Master of Science</h1>
+	  		 		<h1>in BioInformatics</h1>
 	  		 		<hr>
 	  		 		<h3>Bordeaux, France</h3>
 	  		</header>	    
@@ -93,7 +86,7 @@
 				<div class="col-lg-4 callout">
 					<i class="fa fa-bar-chart fa-3x"></i>
 					<h2>Visualization</h2>
-					<p>Enhancing the biological data by stunning representations and animations in 2D and 3D is a requirement in science.</p>
+					<p>Enhancing the biological data by 2D and 3D representations and animations is a requirement in science.</p>
 				</div><!-- col-lg-4 -->	
 			</div><!-- row -->
 		</div><!-- greywrap -->
@@ -178,7 +171,11 @@
                         <div class="course" style="background-color: #afe5f5;">
                         <ul class="list-unstyled">
                             <li>
-                                <a data-toggle="modal" href="#myModal" class="btn btn-danger btn-xs">ImagProc</a>&nbsp;[1] 
+                                <a data-toggle="modal" 
+                                    href="javascript:void(0)" 
+                                    class="btn btn-danger btn-xs" 
+                                    onclick="displayCalendarModal('C20150731T145923#MBA')">
+                                        AEB-Info</a>&nbsp;[1] 
                                 <span class="pull-right" style="font-weight: bold">8:00-12:00</span>
                             </li>
                             <li>JC Taveau</li>
@@ -707,6 +704,9 @@
 
                 </div>
             </div>
+            
+        <div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel" aria-hidden="true"></div>
+
         </div>
         
         
@@ -856,18 +856,15 @@
 		<div class="container" id="about" name="about">
 			<div class="row white">
 			<br>
-				<h1 class="centered">ABOUT THE MASTER OF BIOINFORMATICS</h1>
+				<h1 class="centered">ABOUT MS IN BIOINFORMATICS</h1>
 				<hr>
-				
+				<div class="col-lg-6">
+					<p>The master of BioInformatics of Bordeaux, France...Curabitur feugiat urna a eros viverra, quis vulputate ipsum sollicitudin. Vestibulum efficitur magna nulla, porta tincidunt nunc lobortis vitae. Vivamus a leo ipsum. Curabitur rutrum dictum mauris quis suscipit. Aliquam auctor metus non dolor rhoncus scelerisque. Donec vitae ex felis. Mauris nec nulla hendrerit, congue quam at, finibus risus. Praesent malesuada nec felis in facilisis. Maecenas nulla est, laoreet non pulvinar sed, malesuada vitae tellus. Nullam euismod iaculis libero et semper. Sed molestie congue consequat. Nulla et elit est. Vestibulum sodales enim non ultricies varius. Curabitur sit amet sollicitudin odio, sed efficitur ex.</p>
+				</div><!-- col-lg-6 -->	
+							
 				<div class="col-lg-6">
 					<p>Le master de Bioinformatique de Bordeaux, France est une formation en deux ans. Les trois premiers semestres sont consacrés à la formation académique (90 crédits dont 36 crédits obligatoires d'informatique, 21 crédits obligatoires de biologie et 12 crédits obligatoires pour le stage de réalisation de logiciel, les options peuvent être indifféremment choisies parmi des enseignements de biologie ou d'informatique dispensés dans les spécialités de la mention Biologie Santé ou de la mention Informatique). Le quatrième semestre consiste en un stage en entreprise ou dans un établissement académique de six mois qui peut avoir lieu à l'étranger.</p>
 				</div><!-- col-lg-6 -->
-				
-				<div class="col-lg-6">
-					<p>The master of BioInformatics of Bordeaux, France...Curabitur feugiat urna a eros viverra, quis vulputate ipsum sollicitudin. Vestibulum efficitur magna nulla, porta tincidunt nunc lobortis vitae. Vivamus a leo ipsum. Curabitur rutrum dictum mauris quis suscipit. Aliquam auctor metus non dolor rhoncus scelerisque. Donec vitae ex felis. Mauris nec nulla hendrerit, congue quam at, finibus risus. Praesent malesuada nec felis in facilisis. Maecenas nulla est, laoreet non pulvinar sed, malesuada vitae tellus. Nullam euismod iaculis libero et semper. Sed molestie congue consequat. Nulla et elit est. Vestibulum sodales enim non ultricies varius. Curabitur sit amet sollicitudin odio, sed efficitur ex.</p>
-				</div><!-- col-lg-6 -->
-				
-
 
 			</div><!-- row -->
 			
@@ -1044,8 +1041,8 @@
 	<script type="text/javascript" src="js/jquery-func.js"></script>
 	-->
 	<script type="text/javascript" src="data/news_json.js"></script>
-	<script type="text/javascript" src="js/news.js"></script>
-	<script type="text/javascript" src="js/calendar.js"></script>
+	<script type="text/javascript" src="data/calendar_json.js"></script>
+	<script type="text/javascript" src="js/msbinobi.js"></script>
     <script>
     /** Smooth Scroll **/
 	$(document).ready(function() {
