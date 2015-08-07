@@ -543,7 +543,7 @@ Systemes Autonomes	                                                        6		24
         "html": "ENF1BS9201_01/communication-et-conception-d-un-projet-de-recherche-et-ou-developpement"
     },
 
-    "F6BS9202" {
+    "F6BS9202" : {
         "id": "F6BS9202",
         "acronym": "Entreprise",
         "title": "Connaissance de l'entreprise",
