@@ -13,7 +13,7 @@ Algorithmique et Programmation                          9	27h
 **********************************************/
 
     'B1BS7M06' : {
-        'ID'        : "B1BS7M06",
+        'id'        : "B1BS7M06",
         'acronym'   : "Anglais",
         'ects'      : 3,
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
@@ -64,7 +64,7 @@ Algorithmique et Programmation                          9	27h
     },
     
     'F1BS7201' : {
-    	"ID": "F1BS7201",
+    	"id": "F1BS7201",
         "acronym"   : "ProjLog",
         "title"     : "Projet tutoré: réalisation logicielle",
         "ects"      : 3,
@@ -89,7 +89,7 @@ Algorithmique et Programmation                          9	27h
 
     
     'F6BS7M02' : {
-        'ID'        : "F6BS7M02", // F6BS7M02 ou KM1BS10U
+        'id'        : "F6BS7M02", // F6BS7M02 ou KM1BS10U
         'acronym'   : "AEB",
         'ects'      : 6,
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
@@ -154,7 +154,7 @@ Algorithmique et Programmation                          9	27h
         'html'      : "ENF6BS7M02_01/approches-experimentales-en-biologie",
     },
     'F6BS7M02-Omics' : {
-        'ID'                : "F6BS7M02-Omics",
+        'id'                : "F6BS7M02-Omics",
         'acronym'           : "AEB-Omics",
         'visibility'        : 'visible', // visible or hidden 
         'background-color'  : "#0a0a0a",
@@ -162,7 +162,7 @@ Algorithmique et Programmation                          9	27h
         'link'              : "KM1BS10U"
     },
     'F6BS7M02-Stats' : {
-        'ID'                : "F6BS7M02-Stats",
+        'id'                : "F6BS7M02-Stats",
         'acronym'           : "AEB-Stats",
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
@@ -170,7 +170,7 @@ Algorithmique et Programmation                          9	27h
         'link'              : "KM1BS10U"
     },
     'F6BS7M02-Info' : {
-        'ID'                : "F6BS7M02-Info",
+        'id'                : "F6BS7M02-Info",
         'acronym'           : "AEB-Info",
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
@@ -179,7 +179,7 @@ Algorithmique et Programmation                          9	27h
     },
     
     'J1BS7M01' : {
-        'ID'        : "J1BS7M01",
+        'id'        : "J1BS7M01",
         'acronym'   : "BioMod",
         'ects'      : 9,
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
