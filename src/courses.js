@@ -465,6 +465,161 @@ Approche objet	                                                            6	28h
 Outils d'indexation et de classification de l'information	                6		24h	
 Systemes Autonomes	                                                        6		24h	
 **********************************************/
+
+    "J1BS9204" : {
+        "id": "J1BS9204",
+        "acronym": "ClassData",
+        "title": "Classification des données issues des banques de données biologiques",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Data mining : introduction du concept d'extraction de connaissances à partir de données brutes.</li>"+
+                "<li>Algorithmes de classification (bayesienne et par arbres de décision) et étude des problèmes de regroupement (clustering).</li>"+
+                "<li>Algorithmique des mots et des arbres : applications aux structures macromoléculaires.Présentation des méthodes et algorithmes "+
+                "de base pour le traitement algorithmique des mots et des arbres, et leurs applications dans les problèmes de comparaison et "+
+                "d'alignement de séquences, de repliement de séquences (structures secondaires).</li>"+
+                "<li>Traitement des graphes et visualisation des grands jeux de données.</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<p>Apprentissage des techniques avancées de traitement de données biologiques de la génomique à la métabolomique.</p>"+
+                "<h3>Compétences acquises</h3>"+
+                "<ul>"+
+                "<li>Méthode de fouille de données</li>"+
+                "<li>Méthodes de classification</li>"+
+                "<li>Recherche de motifs</li>"+
+                "<li>Etiquetage</li>"+
+                "<li>Analyse de séquences à grande échelle</li>"+
+                "</ul>",
+            "en": ""
+        },
+        "html": "ENJ1BS9204_01/classification-des-donnees-issues-des-banques-de-donnees-b"
+    },
+
+    "F1BS9201" : {
+        "id": "F1BS9201",
+        "acronym": "CommPR&D",
+        "title": "Communication et conception d'un projet de recherche et/ou développement",
+        "ects": 9,
+        "semester": 9,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<p>Programme des enseignements théoriques</p>"+
+                "<ul><li>Méthodes d'analyse et de conception des systèmes informatiques:</li>"+
+                "<li>UML</li>"+
+                "<li>Design Patterns</li>"+
+                "<li>Etude de la mise en oeuvre d'un cahier des charges, de la définition des besoins, de techniques de gestion de configuration.</li>"+
+                "<li>Formalisation de connaissances, outils de structuration de données langage de type XML pour la biologie.</li>"+
+                "</ul>"+
+                "<p>Programme des enseignements dirigés</p>"+
+                "<p>Les étudiants appliqueront les techniques de génie logiciel dans le cadre d'un projet comportant la conception "+
+                "et la mise en oeuvre d'une application informatique.</p>"+
+                "<p>Contenu générique pour cette UE commune</p>"+
+                "<ul>"+
+                "<li>Présentation des principales phases du processus dans un projet scientifique et/ou de développement (définition "+
+                "stratégique, opérationnelle, réalisation et suivi, évaluation)</li>"+
+                "<li>Présentation des liaisons vertueuses \"Méthodologie du projet et démarche qualité\" avec une introduction à l'assurance "+
+                "qualité au laboratoire, en système de production, cahiers de laboratoire, bonnes pratiques de laboratoire, etc.</li>"+
+                "<li>Introduction aux brevets et régimes juridiques associés</li>"+
+                "<li>Projet tutoré de veille technologique et/ou d'analyse bibliographique ciblées sur des sujets d'actualité (rapport écrit "+
+                "et oral).</li>"+
+                "<li>Mise en place d'une formation pratique sur la valorisation et le transfert technologique</li>"+
+                "<li>Utilisation d'un ensemble d'outils informatiques (logiciels, bases de données, réseau WEB, progiciel, etc.) pour élaborer un "+
+                "rapport, une veille technologique</li>"+
+                "<li>Suivi d'une série de conférences organisées avec des chercheurs, des professionnels du secteur des biotechnologies</li>"+
+                "<li>Rencontre de professionnels porteurs de projets pour illustrer et documenter la création d'entreprises à partir d'un concept, "+
+                "d'une idée scientifique (notion de jeunes pousses)</li>"+
+                "<li>Visite d'entreprises, de laboratoires d'excellences ou de plateformes technologiques</li>"+
+                "</ul>",
+            "en": ""
+        },
+        "html": "ENF1BS9201_01/communication-et-conception-d-un-projet-de-recherche-et-ou-developpement"
+    },
+
+    "F6BS9202" {
+        "id": "F6BS9202",
+        "acronym": "Entreprise",
+        "title": "Connaissance de l'entreprise",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<p>Découverte du secteur et les métiers de la bioinformatique industrielle.</p>"+
+                "<p>Programme détaillé</p>"+
+                "<ul><li>L'enseignement théorique comprend d'une part des cours présentant les principes de la conduite de projet en "+
+                "milieu industriel et une série de conférences au cours desquelles des industriels viendront présenter leurs entreprises "+
+                "et métiers et répondre aux questions des étudiants concernant les perspectives de carrière offertes.</li>"+
+                "<li>L'enseignement dirigé se fait sous forme de projets réalisés individuellement ou en groupe. </li>"+
+                "<li>Les projets individuels comportent :"+
+                    "<ul>"+
+                        "<li>la recherche d'information sur une entreprise de bioinformatique "+
+                        "et débouche sur la remise d'un rapport et la présentation d'un exposé ;</li>"+
+                        "<li>la recherche d'une offre d'emploi conduisant à la simulation d'une procédure de recrutement "+
+                        "(écriture d'un CV, d'une lettre de motivation et entretien).</li>"+
+                        "<li>Les projets de groupe portent sur l'installation et l'évaluation d'un logiciel de bioinformatique commercial "+
+                        "et se font en collaboration avec les entreprises (qui sont sollicitées pour mettre à disposition une licence "+
+                        "gratuite du logiciel). Ces débouchent également sur l'écriture d'un rapport (remis aux entreprises partenaires "+
+                        "si elles le souhaitent) et la présentation d'un exposé.</li>"+
+                    "</ul>"+
+                "</li></ul>"+
+                "<p>Des intervenants issus du secteur industriel seront invités dans cette UE comme par exemple des utilisateurs "+
+                "d'outils bioinformatiques (Sanofi Aventis, Biomérieux, etc.) et des producteurs de logiciels (GenoMining, Biomax "+
+                "Informatics AG, etc.).</p>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Nécessaire:</h3>"+
+                "<ul><li>Connaître les banques de données et logiciels de bioinformatique. Etre capable d'installer et configurer un "+
+                "logiciel dans un environnement UNIX ou WIndows.</li>"+
+                "</ul>",
+            "en": ""
+        },
+        "html": "ENF6BS9202_01/connaissance-de-l-entreprise"
+    },
+
+    "C1BS9205" : {
+        "id": "C1BS9205",
+        "acronym": "ModSysBio",
+        "title": "Modélisation des systèmes biologiques",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<h3>Programme des enseignements théoriques</h3>"+
+                "<ul><li>Aperçu du métabolisme cellulaire</li>"+
+                "<li>Structure des réseaux métaboliques. Matrice de stoechiométrie. Modes élémentaires</li>"+
+                "<li>Théorie du contrôle du métabolisme.</li><li>Les réseaux de régulation.</li>"+
+                "<li>Modélisation du métabolisme et des réseaux de régulation.</li>"+
+                "<li>Les outils de modélisation (Equations différentielles, Réseaux de Petri, Systèmes multi-agents,...)</li>"+
+                "</ul>"+
+                "<h3>Programme des enseignements dirigés et pratiques.</h3>"+
+                "<ul>"+
+                "<li>Sous forme d'analyse approfondie d'articles</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<ul>"+
+                "<li>Acquisition de la maitrise des outils d'appréhension des réseaux métaboliques</li>"+
+                "</ul>"+
+                "<h3>Compétences acquises</h3><ul><li>Capacité à réaliser une analyse de réseaux biologiques depuis les données expérimentales "+
+                "jusqu'à la modélisation</li>"+
+                "</ul>",
+            "en": ""
+        },
+        "html": "ENC1BS9205_01/modelisation-des-systemes-biologiques"
+    },
+
     "J1BS9203" : {
         "id": "J1BS9203",
         "acronym": "PROT3D",
