@@ -60,12 +60,12 @@ Algorithmique et Programmation                          9	27h
                 "<liCommunication scientifique orale et écrite en anglais.</li>"+
                 "</ul>",
         },
-        'html'      : "ENB1BS7M06_01/anglais",            
+        'html'      : "ENB1BS7M06_01/anglais",
     },
     
     'F1BS7201' : {
     	"ID": "F1BS7201",
-        "acronym"   : "Projet",
+        "acronym"   : "ProjLog",
         "title"     : "Projet tutoré: réalisation logicielle",
         "ects"      : 3,
         "semester"  : 7,
@@ -88,8 +88,8 @@ Algorithmique et Programmation                          9	27h
     },
 
     
-    'KM1BS10U' : {
-        'ID'        : "KM1BS10U", // ou F6BS7M02
+    'F6BS7M02' : {
+        'ID'        : "F6BS7M02", // F6BS7M02 ou KM1BS10U
         'acronym'   : "AEB",
         'ects'      : 6,
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
@@ -153,24 +153,24 @@ Algorithmique et Programmation                          9	27h
         },
         'html'      : "ENF6BS7M02_01/approches-experimentales-en-biologie",
     },
-    'KM1BS10U-Omics' : {
-        'ID'                : "KM1BS10U-Omics",
+    'F6BS7M02-Omics' : {
+        'ID'                : "F6BS7M02-Omics",
         'acronym'           : "AEB-Omics",
         'visibility'        : 'visible', // visible or hidden 
         'background-color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "KM1BS10U"
     },
-    'KM1BS10U-Stats' : {
-        'ID'                : "KM1BS10U-Stats",
+    'F6BS7M02-Stats' : {
+        'ID'                : "F6BS7M02-Stats",
         'acronym'           : "AEB-Stats",
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "KM1BS10U"
     },
-    'KM1BS10U-Info' : {
-        'ID'                : "KM1BS10U-Info",
+    'F6BS7M02-Info' : {
+        'ID'                : "F6BS7M02-Info",
         'acronym'           : "AEB-Info",
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
@@ -233,7 +233,7 @@ Algorithmique et Programmation                          9	27h
 
     },
      'J1BS7M01-Prog' : {
-        'ID'                : "J1BS7M01-Prog",
+        'id'                : "J1BS7M01-Prog",
         'acronym'           : "BioMod-Prog",
         'visibility'        : 'visible', // visible or hidden 
         'background-color'  : "#0a0a0a",
@@ -241,7 +241,7 @@ Algorithmique et Programmation                          9	27h
         'link'              : "J1BS7M01"
     },
     'J1BS7M01-Imag' : {
-        'ID'                : "J1BS7M01-Imag",
+        'id'                : "J1BS7M01-Imag",
         'acronym'           : "BioMod-Imag",
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
@@ -249,7 +249,7 @@ Algorithmique et Programmation                          9	27h
         'link'              : "J1BS7M01"
     },
     'J1BS7M01-Stats' : {
-        'ID'                : "J1BS7M01-Stats",
+        'id'                : "J1BS7M01-Stats",
         'acronym'           : "BioMod-Stats",
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
@@ -304,7 +304,160 @@ Programmation orienté objet                             	                9	27h
 
 **********************************************/
 
+    "F1BS8201" : {
+        "id": "F1BS8201",
+        "acronym": "InitR&D",
+        "title": "Initiation à la Recherche et/ou Développement",
+        "ects": 12,
+        "semester": 8,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": "<h2>Programme</h2>"+
+                "<p>Ce module - réalisé sous la supervision d'un maître de stage - consiste en une réalisation informatique "+
+                "d'un logiciel de taille importante.</p>"+
+                "<p>Elle sera suivie d'un rapport écrit et d'une soutenance.</p>",
+            "en": ""
+        },
+        "link": "ENF1BS8201_01/initiation-a-la-recherche-et-ou-developpement"
+    },
+    
+    "J1BS8203" : {
+        "id": "J1BS8203",
+        "acronym": "MOBioS",
+        "title": "Méthodes et outils pour la biologie des systèmes",
+        "ects": 9,
+        "semester": 8,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul>"+
+                "<li>Récursivité, structures linéaires, structures arborescentes.</li>"+
+                "<li>Arbre binaire, arbre binaire de recherche, tas, graphes: algorithme de parcours.</li>"+
+                "<li>Approfondissements des notions statistiques vues dans l'UE <b>Approches expérimentales en biologie</b></li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Nécessaire:</h3>"+
+                "<p>Avoir acquis les concepts de base des UE programmation et algorithmique du semestre 1</p>",
+            "en": ""
+        },
+        "link": "ENJ1BS8203_01/methodes-et-outils-pour-la-biologie-des-systemes"
+    },
 
+    "C0BS8M01" : {
+        "id": "C0BS8M01",
+        "acronym": "InfoApp",
+        "title": "Informatique appliquée à la biologie: modélisation et imagerie",
+        "ects": 9,
+        "semester": 8,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "hidden",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<h3>Modélisation</h3>"+
+                "<ul><li>Introduction générales sur les neurosciences computationnelles : modélisation, intérêt et principes de base en neurosciences</li"+
+                "<li>Principes et modélisation des systèmes dynamiques, applications aux neurosciences</li>"+
+                "<li>Dynamique des réseaux corticaux</li><li>Codage et décodage du signal neuronal</li>"+
+                "<li>Modélisation de l’excitabilité neuronale (modèles ioniques, modèle de Hodgkin-Huxley, modèles cinétiques)</li>"+
+                "<li>Les modèles \"integrate and fire\" et apparentés et les modèles de grands réseaux</li>"+
+                "<li>Des données expérimentales à la construction d’un modèle : préparer l’un pour l’autre.</li>"+
+                "<li>Modifications des propriétés intrinsèques et synaptiques : modéliser la plasticité</li>"+
+                "<li>Interaction synaptiques au sein de réseaux simples</li>"+
+                "<li>Neuro-ingénierie (interfaces cerveau-machine, Neuro-électronique, Neuro-prothèses)</li>"+
+                "<li>Implémentation d'un miniprojet de modélisation (contrôle continu)</li>"+
+                "<li>Synthèse sur un article de recherche en neurosciences computationnelles (examen)</li>"+
+                "</ul>"+
+                "<h3>Imagerie</h3>"+
+                "<h4>Partie théorique</h4>"+
+                "<ul><li>Image numérique. Vidéos.</li>"+
+                "<li>Amélioration d'images et de traitements (débruitage, correction luminosité/contraste et défaut d'illumination).</li>"+
+                "<li>Analyse des images: Mesures, Reconnaissance de formes. Suivi de formes.</li>"+
+                "<li>Notion de programmation en vue de l'automatisation de tâches pour le traitement et l'analyse de vidéos.</li>"+
+                "</ul>"+
+                "<h4>Partie pratique:</h4>"+
+                "<ul><li>Application à des vidéos (suivi du chemin d'une souris dans un labyrinthe, "+
+                "croissance d'un neurone en vidéomicroscopie à fluorescence,etc.).</li>"+
+                "<li>Utilisation d'ImageJ, installation de greffons (plugins).</li>"+
+                "<li>Programmation de Macros/Scripts.</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<h4>Modélisation</h4>"+
+                "<ul><li>Comprendre et savoir mettre en œuvre les principes et outils logiciels utilisés pour modéliser la biologie du "+
+                "système nerveux, de l'échelle de la cellule à celle du réseau</li><li>Acquérir les bases des sciences théoriques appliquées "+
+                "à la compréhension de la dynamique du système nerveux</li></ul>"+
+                "<h4>Imagerie</h4>"+
+                "<ul><li>Donner les éléments nécessaires du point de vue des outils informatiques</li></ul>"+
+                "<h3>Compétences acquises</h3>"+
+                "<h4>Modélisation</h4>"+
+                "<ul><li>Compréhension des méthodes et principes de base de la modélisation en biologie</li>"+
+                "<li>Maîtrise des outils et logiciels dédiés à la modélisation en neuroscience</li>"+
+                "<li>Compréhension des méthodes en Neurosciences Théoriques et Computationnelles</li>"+
+                "<li>Connaissance de l’apport des Neurosciences Théoriques en Neurosciences Fondamentales "+
+                "et dans le domaine de la Neuro-ingénierie.</li>"+
+                "</ul>"+
+                "<h4>Imagerie</h4>"+
+                "<ul><li>Appréhender les divers moyens d'amélioration des images scientifiques en vue de leur analyse.</li>"+
+                "<li>Savoir utiliser des fonctions simples de programmation (scripting) pour traiter des vidéos.</li>"+
+                "<li>Utilisation du logiciel ImageJ.</li></ul>",
+        "en": ""
+        },
+        "link": "ENC0BS8M01_01/informatique-appliquee-a-la-biologie-modelisation-et-ima"
+    },
+    
+    'C0BS8M01-Model' : {
+        'id'                : "C0BS8M01-Model",
+        'acronym'           : "InfoApp-Model",
+        'visibility'        : 'visible', // visible or hidden 
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "C0BS8M01"
+    },
+    'C0BS8M01-Imag' : {
+        'id'                : "C0BS8M01-Imag",
+        'acronym'           : "InfoApp-Imag",
+        'visibility'        : 'visible', // visible or hidden 
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "C0BS8M01"
+    },
+
+    "J1BS8202" : {
+        "id": "J1BS8202",
+        "acronym": "POO",
+        "title": "Programmation orientée objet",
+        "ects": 9,
+        "semester": 8,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                    "<ul>"+
+                    "<li>Modélisation objet:"+
+                    "<ul><li>Héritage simple.</li>"+
+                    "<li>Héritage complexe.</li>"+
+                    "<li>Classes abstraites.</li>"+
+                    "</ul>"+
+                "</li>"+
+                "<li>Traduction en langages C++, java.</li>"+
+                "<li>Gestion dynamique: exceptions</li>"+
+                "<li>Modèles de classes templates.</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<ul><li>Maîtriser les concepts de la programmation objet.</li>"+
+                "</ul>"+
+                "<h3>Compétences acquises</h3>"+
+                "<ul><li>Développer une application en langage objet.</li></ul>",
+            "en": ""
+        },
+        "link": "ENJ1BS8202_01/programmation-oriente-objet"
+    },
+    
 /**********************************************
 Semester 9:
 Enseignements obligatoires                                                  ECTS	CM	TD	TP
@@ -364,7 +517,7 @@ Réalisation d'un projet de recherche et/ou développement
 
     "F1BS0201" : {
         "id": "F1BS0201",
-        "acronym": "Stage",
+        "acronym": "StageM2",
         "title": "Réalisation d'un projet de recherche et/ou développement",
         "ects": 30,
         "semester": 10,
