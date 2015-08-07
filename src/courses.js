@@ -59,11 +59,15 @@ Algorithmique et Programmation                          9	27h
                 "<ul><li>Mise à niveau notions et principes de base."+
                 "<ul>"+
                 "<li>Le système d'exploitation."+
-                "</li><li>Les interpréteurs de commandes.</li>"+
+                "</li>"+
+				"<li>Les interpréteurs de commandes.</li>"+
                 "</ul>"+
-                "</li><li>Réseau et archivage</li><li>la veille "+
+                "</li>"+
+				"<li>Réseau et archivage</li>"+
+				"<li>la veille "+
                 "scientifique: utilisation de mots-clefs, méta-analyse des banques de données d’informations et "+
-                "des brevets.</li><li>élaboration d'un projet scientifique: de l'idée à la formalisation du projet.</li>"+
+                "des brevets.</li>"+
+				"<li>élaboration d'un projet scientifique: de l'idée à la formalisation du projet.</li>"+
                 "</ul>",
             'en': ""
         },
@@ -254,9 +258,11 @@ Algorithmique et Programmation                          9	27h
                 "<h2>Programme</h2>"+
                 "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
                 "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
-                "<li>Complexité : quelques notions à partir d'exemples</li><li>Programmation : "+
+                "<li>Complexité : quelques notions à partir d'exemples</li>"+
+				"<li>Programmation : "+
                 "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
-                "tests logiques, boucles.</li><li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "tests logiques, boucles.</li>"+
+				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
                 "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
                 "ou de modules prédéfinis.</li></ul>"+
                 "<h2>Objectifs et compétences</h2>"+
@@ -264,7 +270,8 @@ Algorithmique et Programmation                          9	27h
                 "<h3>Objectifs pédagogiques</h3></li>"+
                 "<li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
                 "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
-                "<li>Conception de modules de traitement pour les données biologiques.</li><li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
+				"<li>"+
                 "<h3>Compétences acquises</h3></li>"+
                 "<li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
                 "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
@@ -345,7 +352,8 @@ Programmation orienté objet                             	                9	27h
                 "<ul>"+
                 "<li>Introduction générales sur les neurosciences computationnelles : modélisation, intérêt et principes de base en neurosciences</li"+
                 "<li>Principes et modélisation des systèmes dynamiques, applications aux neurosciences</li>"+
-                "<li>Dynamique des réseaux corticaux</li><li>Codage et décodage du signal neuronal</li>"+
+                "<li>Dynamique des réseaux corticaux</li>"+
+				"<li>Codage et décodage du signal neuronal</li>"+
                 "<li>Modélisation de l’excitabilité neuronale (modèles ioniques, modèle de Hodgkin-Huxley, modèles cinétiques)</li>"+
                 "<li>Les modèles \"integrate and fire\" et apparentés et les modèles de grands réseaux</li>"+
                 "<li>Des données expérimentales à la construction d’un modèle : préparer l’un pour l’autre.</li>"+
@@ -372,7 +380,8 @@ Programmation orienté objet                             	                9	27h
                 "<h3>Objectifs pédagogiques</h3>"+
                 "<h4>Modélisation</h4>"+
                 "<ul><li>Comprendre et savoir mettre en œuvre les principes et outils logiciels utilisés pour modéliser la biologie du "+
-                "système nerveux, de l'échelle de la cellule à celle du réseau</li><li>Acquérir les bases des sciences théoriques appliquées "+
+                "système nerveux, de l'échelle de la cellule à celle du réseau</li>"+
+				"<li>Acquérir les bases des sciences théoriques appliquées "+
                 "à la compréhension de la dynamique du système nerveux</li></ul>"+
                 "<h4>Imagerie</h4>"+
                 "<ul><li>Donner les éléments nécessaires du point de vue des outils informatiques</li></ul>"+
@@ -576,7 +585,7 @@ Systemes Autonomes	                                                        6		24
                 "d'outils bioinformatiques (Sanofi Aventis, Biomérieux, etc.) et des producteurs de logiciels (GenoMining, Biomax "+
                 "Informatics AG, etc.).</p>"+
                 "<h2>Objectifs et compétences</h2>"+
-                "<h3>Nécessaire:</h3>"+
+                "<h3>Pré-requis</h3>"+
                 "<ul><li>Connaître les banques de données et logiciels de bioinformatique. Etre capable d'installer et configurer un "+
                 "logiciel dans un environnement UNIX ou WIndows.</li>"+
                 "</ul>",
@@ -599,7 +608,8 @@ Systemes Autonomes	                                                        6		24
                 "<h3>Programme des enseignements théoriques</h3>"+
                 "<ul><li>Aperçu du métabolisme cellulaire</li>"+
                 "<li>Structure des réseaux métaboliques. Matrice de stoechiométrie. Modes élémentaires</li>"+
-                "<li>Théorie du contrôle du métabolisme.</li><li>Les réseaux de régulation.</li>"+
+                "<li>Théorie du contrôle du métabolisme.</li>"+
+				"<li>Les réseaux de régulation.</li>"+
                 "<li>Modélisation du métabolisme et des réseaux de régulation.</li>"+
                 "<li>Les outils de modélisation (Equations différentielles, Réseaux de Petri, Systèmes multi-agents,...)</li>"+
                 "</ul>"+
@@ -612,7 +622,9 @@ Systemes Autonomes	                                                        6		24
                 "<ul>"+
                 "<li>Acquisition de la maitrise des outils d'appréhension des réseaux métaboliques</li>"+
                 "</ul>"+
-                "<h3>Compétences acquises</h3><ul><li>Capacité à réaliser une analyse de réseaux biologiques depuis les données expérimentales "+
+                "<h3>Compétences acquises</h3>"+
+                "<ul>"+
+                "<li>Capacité à réaliser une analyse de réseaux biologiques depuis les données expérimentales "+
                 "jusqu'à la modélisation</li>"+
                 "</ul>",
             "en": ""
@@ -622,14 +634,15 @@ Systemes Autonomes	                                                        6		24
 
     "J1BS9203" : {
         "id": "J1BS9203",
-        "acronym": "PROT3D",
+        "acronym": "Prot3D",
         "title": "Visualisation de la Structure de Protéines",
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "visibility": "visible",
         "contents": {
-            "fr": "<h2>Programme</h2>"+
+            "fr": 
+            "<h2>Programme</h2>"+
             "<p>Initier les étudiants à la visualisation et à l'exploration des structures 3D.</p"+
             "><p>Programme des enseignements théoriques</p><ul><li>Organisation structurale des macromolécules biologiques.</li>"+
             "<li>Banques de données structurales (Protein Data Bank, SCOP,etc.).</li>"+
@@ -642,14 +655,272 @@ Systemes Autonomes	                                                        6		24
             "<li>Initiation à l'utilisation de la librairie OpenGL versions 3.x et supérieures pour la visualisation des structures protéiques 3D au format PDB.</li>"+
             "</ul>"+
             "<h2>Objectifs et compétences</h2>"+
-            "<h3>Nécessaire:</h3>"+
+            "<h3>Pré-requis</h3>"+
             "<p>Notion de programmation acquises en master 1 de bioinformatique</p>",
             "en": ""
         },
         "html": "ENJ1BS9203_01/visualisation-de-la-structure-de-proteines"
     },
     
+    "B0BS9319" : {
+        "id": "B0BS9319",
+        "acronym": "AnglaisM2",
+        "title": "Anglais",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Conférences scientifiques et débats par des scientifiques anglophonesAnalyses d'articles scientifiques "+
+                "ou de rapport en anglais</li>"+
+                "<li>Initiation a la rédaction de productions scientifiques en anglais</li>"+
+                "</ul>",
+            "en": ""
+        },
+        "html": "ENB0BS9319_01/anglais"
+    },
     
+    "C6SB9M02" : {
+        "id": "C6SB9M02",
+        "acronym": "ArchiGen",
+        "title": "Architecture du génome",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Architecture du génome : centromère, télomère et topologie de la chromatine</li>"+
+                "<li>Organisation des génomes : séquences répétées, familles multigéniques et domaines répétés</li>"+
+                "<li>Plasticité des génomes eucaryotes, éléments transposables</li>"+
+                "<li>Architecture nucléaire : domaines nucléaires spécialisés (nucléole, corps de Cajal), territoires chromosomiques</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<ul><li>L'objectif est de décrire l'architecture nucléaire et l'organisation des génomes eucaryotes et d'évoquer certains "+
+                "éléments impliqués dans l'évolution des génomes.</li>"+
+                "</ul>"+
+                "<h3>Compétences acquises</h3>"+
+                "<ul><li>Connaissances relatives à l'architecture nucléaire, l'architecture des génomes et leur évolution</li></ul>",
+            "en": ""
+        },
+        "html": "ENC6SB9M02_01/architecture-du-genome"
+    },
+    
+    "C6SB9M03" : {
+        "id": "C6SB9M03",
+        "acronym": "GenHuman",
+        "title": "Génétique Humaine",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Génome humain </li>"+
+                "<li>Génétique médicale et conseil génétique</li>"+
+                "<li>Neurogénétique</li>"+
+                "<li>Oncogénétique</li>"+
+                "<li>Maladies mitochondriales</li>"+
+                "<li>Génétique du développement</li>"+
+                "<li>Approches thérapeutiques</li></ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<p>Du génome humain à la physiopathologie et aux applications en génétique médicale.</p>"+
+                "<h3>Compétences acquises</h3>"+
+                "<p>Connaissances et savoir en génétique humaine ; aspects physiopathologiques.</p>",
+            "en": ""
+        },
+        "html": "ENC6SB9M03_01/genetique-humaine"
+    },
+    
+    "C6SB9M04" : {
+        "id": "C6SB9M04",
+        "acronym": "DivCell",
+        "title": "Division et cycle cellulaire",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Machinerie du cycle cellulaire et check points. </li>"+
+                "<li>Le contrôle du cycle cellulaire chez les eucaryotes. </li>"+
+                "<li>Les points de contrôle en phase G1, G2 et à la sortie de mitose. </li>"+
+                "<li>Le contrôle de séparation des chromosomes. </li>"+
+                "<li>Les modèles KO des cyclines et des kinases cycline dépendantes chez la souris. </li>"+
+                "<li>Le cycle cellulaire chez les plantes.</li>"+
+                "<li>L'influence des voies de signalisation sur la régulation du cycle cellulaire.</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
+                "<ul><li>Approfondir les connaissances sur le cycle cellulaire chez les eucaryotes inférieurs et supérieurs.</li></ul>"+
+                "<h3>Compétences acquises</h3>"+
+                "<ul><li>La régulation du cycle cellulaire. Les molécules qui interviennent dans cette régulation et les liens entre "+
+                "les fonctions de ces molécules et le développement de maladies néoplastiques.</li></ul>",
+            "en": ""
+        },
+        "html": "ENC6SB9M04_01/division-et-cycle-cellulaire"
+    },
+    
+    "J1BS9207" : {
+        "id": "J1BS9207",
+        "acronym": "AlgoGraph",
+        "title": "Algorithmique pour la bio-informatique et graphe",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Traitement automatique et analyse d'objets biologiques arborescents (structures secondaires d'ARNs, "+
+                "architecture de plantes, etc.): "+
+                "<ul><li>comparaison d'arborescences, </li>"+
+                "<li>distance d'édition (opérations structurelles élémentaires, opérations d'édition).</li>"+
+                "</ul></li>"+
+                "<li> Formulation en termes de problème d'optimisation, "+
+                "<ul><li>algorithmes efficaces en temps et en espace, </li>"+
+                "<li>solutions incrémentales, </li>"+
+                "<li>programmation dynamique. </li></ul>"+
+                "</li>"+
+				"<li>Réseaux d'interactions et métaboliques, voies métaboliques. </li>"+
+				"<li>Exploration des relations du type \"guilt by association\", recherche de chemins et sous-graphes indiquant des voies de signalisation, "+
+				"recherche de modes élémentaires.</li></ul>"+
+				"<h2>Objectifs et compétences</h2>"+
+				"<h3>Objectifs pédagogiques</h3>"+
+				"<p>Présenter les méthodes informatiques d'exploitation de grandes masses de données, dont la bioinformatique est l'un des domaines "+
+				"d'application. On présentera en particulier les algorithmes sur les mots et sur les arbres pour traiter des données biologiques.</p>"+
+				"<h3>Compétences acquises</h3>"+
+				"<ul><li>Modéliser un problème bio-informatique en termes de structures de données (mots, arbres, graphes). </li>"+
+				"<li>Utilisation des principaux algorithmes, méthodes et heuristiques développées en bio-informatique ou dans des domaines "+
+				"de l'informatique fondamentale et pertinent pour la bio-informatique. </li>"+
+				"<li>Mesurer le potentiel applicatif des méthodes et outils développés en bio-informatique pour d'autres champs "+
+				"applicatifs tels les sciences sociales. </li>"+
+				"<li>Avoir une vue sur l'ensemble des outils et implémentations mis à disposition par la communauté de recherche.</li></ul>",
+            "en": ""
+        },
+        "html": "ENJ1BS9207_01/algorithmique-pour-la-bio-informatique-et-graphe"
+    },
+
+
+    "J1BS9206" : {
+        "id": "J1BS9206",
+        "acronym": "POA",
+        "title": "Programmation Objet Avancée",
+        "ects": 6,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": "",
+            "en": ""
+        },
+        "html": "ENJ1BS9206_01/programmation-objet-avancee"
+    },
+    
+    "J1INAW12" : {
+        "id": "J1INAW12",
+        "acronym": "AppObj",
+        "title": "Approche objet",
+        "ects": 6,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Rappels de programmation objet</li>"+
+				"<li>Concepts avancés : exceptions, clonage, classes génériques, collections, itérations, classes internes...</li>"+
+				"<li>Utilisation de quelques modèles de conception objets : Adaptateur, Décorateur, Observable ...</li>"+
+				"<li>Utilisation de la programmation objet dans certains types de développements : IHM, Système ...</li>"+
+				"</ul>"+
+				"<h2>Objectifs et compétences</h2>"+
+				"<h3>Pré-requis</h3>"+
+				"<ul><li>Connaissances de la programmation impérative (langage C)</li>"+
+				"<li>Connaissance et première utilisation d'un langage de programmation à objet (Java,C++,...)</li></ul>",
+            "en": ""
+        },
+        "html": "ENJ1INAW12_01/approche-objet"
+    },
+    
+    "J1IN9413" : {
+        "id": "J1IN9413",
+        "acronym": "IndexClass",
+        "title": "Outils d'indexation et de classification de l'information",
+        "ects": 6,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<p>Analyse de données</p>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<h3>Pré-requis</h3>"+
+                "<p>Informatique : Algorithmique, Structures de Données et Programmation (niveau L3)</p>",
+            "en": ""
+        },
+        "html": "ENJ1IN9413_01/outils-d-indexation-et-de-classification-de-l-information"
+    },
+    
+    "J1IN9523" : {
+        "id": "J1IN9523",
+        "acronym": "SysAuto",
+        "title": "Systémes Autonomes",
+        "ects": 6,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2><p>Le programme comprend en particulier les points suivants:</p>"+
+                "<h3>Configurations et plates-formes :</h3>"+
+                "<p>Les systèmes actuels les plus pertinents seront étudiés:</p>"+
+                "<ol><li>drones aériens</li>"+
+				"<li>robots terrestres</li>"+
+				"<li>capteurs</li>"+
+				"<li>drones sous-marins</li></ol>"+
+				"<p>L'accent sera mis en particulier sur l'autonomie et les environnements systèmes et logiciels associés, "+
+				"indispensables à la réalisation d'une mission l'envergure. En effet, le contrôle temps réel par un opérateur "+
+				"extérieur n'étant pas toujours possible, un certain nombre de décisions doivent donc être prises de manière autonome "+
+				"par le système embarqué. Néanmoins, de par la réglementation et pour des raisons opérationnelles, des informations "+
+				"doivent être ramenées vers un environnement logiciel de contrôle, qui lui, est à la disposition d'un opérateur, "+
+				"auquel il présente un certain nombre d'informations (signes vitaux - position, altitude, etc. - par exemple -). "+
+				"Cette chaine logicielle est une clef de voute de ces systèmes complexes qu'il est important de maîtriser.</p>"+
+				"<h3>Ecosystème :</h3>"+
+				"<p>Les domaines d'application sont nombreux et cette filière s'est structurée localement et nationalement, "+
+				"avec des interactions internationales fortes. Mais ce potentiel fort ne doit pas laisser croire que 'tout est "+
+				"permis', et il est donc crucial d'avoir une bonne connaissance des réglementations en cours.</p>"+
+				"<ol><li>domaines d'applications et cas concrets</li>"+
+				"<li>structuration du domaine, régionale/nationale/internationale</li>"+
+				"<li>règlementation</li></ol>"+
+				"<h3>Problématiques de recherche :</h3>"+
+				"<p>Ces systèmes offrent de nouvelles voies de développement mais soulèvent un certain nombre de problèmes théorique "+
+				"ou plus applicatifs qui relèvent d'activités de recherche. Par exemple :</p>"+
+				"<ol><li>la structuration en essaims (swarming) ou flotte d'appareils</li>"+
+				"<li>la mobilité, les graphes de communication sous-jacents, la dynamique du système, les modèles associés</li>"+
+				"<li>les techniques de type sense and avoid, la localisation en in-door et out-door</li>"+
+				"<li>les technologies associées, les problématiques applicatives tracking video, traitement d'images, radio, etc.</li></ol>"+
+				"<h3>Mise en oeuvre</h3>"+
+				"<p>Enfin, il est important que les étudiants qui choisissent cette UE puissent être opérationnels immédiatement. "+
+				"C'est pourquoi, ils seront formés aux bases de l'aéronautique et suivront une formation d'opérateur drone, indispensable "+
+				"aujourd'hui pour pouvoir faire voler un tel appareil.</p>"+
+				"<ol><li>Bases d'aéronautique</li>"+
+				"<li>Formation opérateur (pour l'essentiel an auto-apprentissage) + examen final</li></ol>"+
+				"<h2>Objectifs et compétences</h2>"+
+				"<h3>Pré-requis<br></h3>"+
+				"<p>UEs Réseaux, Administration Réseaux et Systèmes d'exploitation de M1</p>",
+            "en": ""
+        },
+        "html": "ENJ1IN9523_01/systemes-autonomes"
+    },
+
 /**********************************************
 Semester 10:
 Réalisation d'un projet de recherche et/ou développement
