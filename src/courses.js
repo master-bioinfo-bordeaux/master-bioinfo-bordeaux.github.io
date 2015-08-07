@@ -249,7 +249,6 @@ Algorithmique et Programmation                          9	27h
         "semester": 7,
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[required]',
         'visibility': 'visible', // <visible|hidden>     
-        "link": "ENJ1BS7202_01/algorithmique-et-programmation",
         "contents": {
             "fr":
                 "<h2>Programme</h2>"+
@@ -271,7 +270,8 @@ Algorithmique et Programmation                          9	27h
                 "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
                 "</ul>",
             "en": ""
-        }
+        },
+        "html": "ENJ1BS7202_01/algorithmique-et-programmation"
     },
 
 
