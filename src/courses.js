@@ -1,0 +1,411 @@
+
+var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
+
+var course_data = {
+
+/**********************************************
+Semester 7:
+Anglais	                                                3   30h	
+Projet tutoré : réalisation logicielle	                3   27h		
+Approches expérimentales en biologie	                6	26h 28h	
+Biomodélisation et simulation de processus biologiques	9	27h		
+Algorithmique et Programmation                          9	27h
+**********************************************/
+
+    'B1BS7M06' : {
+        'ID'        : "B1BS7M06",
+        'acronym'   : "Anglais",
+        'ects'      : 3,
+        'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
+        'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        'visibility': 'visible', // <visible|hidden>     
+        'title'     : "Anglais",
+        'contents'  : {
+            'fr':
+                "<ul>"+
+                "<li>Construire une communication scientifique orale en anglais à partir de l’analyse de documents "+
+                "de divers genres scientifiques et répondre en anglais aux questions sur ce travail.</li>"+
+                "<li>Prendre la parole et interagir dans des situations diverses.</li>"+
+                "<li>Renforcer la compréhension écrite et orale.</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<ul>"+
+                "<li><span style=\"font-weight: bold\">Objectifs pédagogiques</span></li>"+
+                "<li>développer les compétences de communication scientifique pertinentes aux contextes "+
+                "professionnels de la recherche. Renforcer les quatre compétences langagières (compréhension "+
+                "et production de l’anglais, orale et écrite).</li>"+
+                "<li><span style=\"font-weight: bold\">Compétences acquises</span></li>"+
+                "<li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
+                "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
+                "<li>Techniques de compréhension de l’anglais scientifique</li>"+
+                "<liCommunication scientifique orale et écrite en anglais.</li>"+
+                "</ul>",
+            'en':
+                "<ul>"+
+                "<li>Construire une communication scientifique orale en anglais à partir de l’analyse de documents "+
+                "de divers genres scientifiques et répondre en anglais aux questions sur ce travail.</li>"+
+                "<li>Prendre la parole et interagir dans des situations diverses.</li>"+
+                "<li>Renforcer la compréhension écrite et orale.</li>"+
+                "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<ul>"+
+                "<li><span style=\"font-weight: bold\">Objectifs pédagogiques</span></li>"+
+                "<li>développer les compétences de communication scientifique pertinentes aux contextes "+
+                "professionnels de la recherche. Renforcer les quatre compétences langagières (compréhension "+
+                "et production de l’anglais, orale et écrite).</li>"+
+                "<li><span style=\"font-weight: bold\">Compétences acquises</span></li>"+
+                "<li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
+                "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
+                "<li>Techniques de compréhension de l’anglais scientifique</li>"+
+                "<liCommunication scientifique orale et écrite en anglais.</li>"+
+                "</ul>",
+        },
+        'html'      : "ENB1BS7M06_01/anglais",            
+    },
+    
+    'F1BS7201' : {
+    	"ID": "F1BS7201",
+        "acronym"   : "Projet",
+        "title"     : "Projet tutoré: réalisation logicielle",
+        "ects"      : 3,
+        "semester"  : 7,
+        "students"  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        'visibility': 'visible', // <visible|hidden>     
+       "contents": {
+            'fr': 
+                "<ul><li>Mise à niveau notions et principes de base."+
+                "<ul>"+
+                "<li>Le système d'exploitation."+
+                "</li><li>Les interpréteurs de commandes.</li>"+
+                "</ul>"+
+                "</li><li>Réseau et archivage</li><li>la veille "+
+                "scientifique: utilisation de mots-clefs, méta-analyse des banques de données d’informations et "+
+                "des brevets.</li><li>élaboration d'un projet scientifique: de l'idée à la formalisation du projet.</li>"+
+                "</ul>",
+            'en': ""
+        },
+        'html'      : "ENF1BS7201_01/projet-tutore-realisation-logicielle",    
+    },
+
+    
+    'KM1BS10U' : {
+        'ID'        : "KM1BS10U", // ou F6BS7M02
+        'acronym'   : "AEB",
+        'ects'      : 6,
+        'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
+        'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        'visibility': 'hidden', // <visible|hidden>     
+        'title'     : "Approches Expérimentales en Biologie",
+        'contents'  : {
+            'fr': "<h2>Programme</h2>"+
+                "<h3>Les Omics (30 h)</h3>"+
+                "<ul>"+
+                "<li>Génome: Approche de sequençage haut débit et exploitation des données</li>"+
+                "<li>Transcriptome: Étude des transcriptomes : les différentes technologies d’exploration "+
+                "(méthode SAGE, Puces à ADN) et les méthodes d’analyse des données.</li>"+
+                "<li>Protéome: Étude des protéomes: séparation (chromatographie, électrophorèse monodimensionnelle, "+
+                "bidimensionnelle, Blue Native SDS-PAGE) et identification des protéines (séquençage d’Edman, "+
+                "spectrométrie de masse, puces protéines).</li>"+
+                "<li>Métabolome: Etude du métabolome en 6 points : design expérimental, méthodes d’extractions, "+
+                "variétés et complémentarité des méthodes analytiques, traitement des données, outils de visualisation "+
+                "pour l’exploitation des données, intégration des données.</li>"+
+                "</ul>"+
+                "<h3>Statistiques pour la biologie (14 h)</h3>"+
+                "<ul>"+
+                "<li>Evaluation des connaissances pré-requises: maîtrise du langage statistique (fréquence, "+
+                "effectif, variable, diagramme de dispersion…), les méthodes univariées (tests d’hypothèse paramétriques), "+
+                "la construction et la gestion de grands tableaux de données.</li>"+
+                "<li>Analyse multidimensionnelle des données: régression linéaire, analyse de variance, analyse des "+
+                "variables quantitatives en composantes principales (ACP), la classification.</li>"+
+                "<li>La formation est faite en reprenant les notions de théorie indispensable à la compréhension et en "+
+                "s’appuyant sur des exemples pédagogiques réels. Les deux tiers des enseignements seront réalisés sous "+
+                "forme de travaux dirigés et pratiques dans une salle équipée du logiciel libre R et autres logiciels "+
+                "accessibles en ligne.</li>"+
+                "</ul>"+
+                "<h3>Exploitation des bases de données (16 h)</h3>"+
+                "<ul>"+
+                "<li>Contenu des bases de données en biologie. Méthodes bioinformatiques.</li>"+
+                "<li>Comparaison et analyse des séquences biologiques.</li>"+
+                "<li>Prédictions de structure et de fonction (y compris structure 3D).</li>"+
+                "</ul>",
+            'en':
+                "<h2>Omics (30 h)</h2>"+
+                "<ul>"+
+                "<li>Genomics: High throughput sequencing and data analysis.</li>"+
+                "<li>Transcriptomics</li>"+
+                "<li>Proteomics</li>"+
+                "<li>Metabolomics</li>"+
+                "</ul>"+
+                "<h2>Statistics in biology (14 h)</h2>"+
+                "<ul>li>Evaluation des connaissances pré-requises: maîtrise du langage statistique (fréquence, "+
+                "effectif, variable, diagramme de dispersion…), les méthodes univariées (tests d’hypothèse paramétriques), "+
+                "la construction et la gestion de grands tableaux de données.</li>"+
+                "<li>Multidimensional analysis  of data: linear regression, variance analysis, analysis des "+
+                "variables quantitatives en principal components (PCA), classification.</li>"+
+                "<li>La formation est faite en reprenant les notions de théorie indispensable à la compréhension et en "+
+                "s’appuyant sur des exemples pédagogiques réels. Les deux tiers des enseignements seront réalisés sous "+
+                "forme de travaux dirigés et pratiques dans une classroom equipped du logiciel libre R et other softwares "+
+                "available on-line.</li></ul>"+
+                "<h2>Exploitation of databases (16 h)</h2>"+
+                "<ul><li>Contenu des bases de données en biologie. Méthodes bioinformatiques.</li>"+
+                "<li>Comparaison et analyse des séquences biologiques.</li>"+
+                "<li>Prédictions de structure et de fonction (y compris structure 3D).</li></ul>",          
+        },
+        'html'      : "ENF6BS7M02_01/approches-experimentales-en-biologie",
+    },
+    'KM1BS10U-Omics' : {
+        'ID'                : "KM1BS10U-Omics",
+        'acronym'           : "AEB-Omics",
+        'visibility'        : 'visible', // visible or hidden 
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "KM1BS10U"
+    },
+    'KM1BS10U-Stats' : {
+        'ID'                : "KM1BS10U-Stats",
+        'acronym'           : "AEB-Stats",
+        'visibility'        : 'visible', // visible or hidden     
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "KM1BS10U"
+    },
+    'KM1BS10U-Info' : {
+        'ID'                : "KM1BS10U-Info",
+        'acronym'           : "AEB-Info",
+        'visibility'        : 'visible', // visible or hidden     
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "KM1BS10U"
+    },
+    
+    'J1BS7M01' : {
+        'ID'        : "J1BS7M01",
+        'acronym'   : "BioMod",
+        'ects'      : 9,
+        'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
+        'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        'visibility': 'hidden', // <visible|hidden>     
+        'title'     : "Biomodélisation, simulation de processus biologiques",
+        'contents'  : {
+            'fr': "<h2>Programme</h2>"+
+                "<h3>Statistiques</h3>"+
+                "<ul>"+
+			    "<li>Mise en œuvre d'une analyse statistique – utilisation d’un logiciel tel que R et élaboration de programme.</li>"+
+			    "<li>Analyse descriptive : analyse des fréquences, des moyennes, analyse de "+
+			    "variance, régression linéaire et corrélations, tests non paramétriques, analyse multi-variée.</li>"+
+                "</ul>"+
+			    "<h3>Programmation</h3>"+
+                "<ul>"+
+			    "<li>Développement de programmes en langage Python.</li></ul>"+
+                "<h3>Imagerie</h3>"+
+                "<ul><li>Partie théorique</li>"+
+        			"<ul>"+
+        			"<li>Image numérique. Formats d'images. Espaces de couleurs.</li>"+
+        			"<li>Amélioration d'images et de traitements (filtrations en espace réel, en espace fréquentiel).</li>"+
+        			"<li>Analyse des images: Mesures, Reconnaissance de formes.</li>"+
+        			"<li>Notion de programmation en vue de l'automatisation de tâches pour le traitement et l'analyse de vidéos.</li>"+
+        			"</ul>"+
+                "<li>Partie pratique"+
+                    "<ul>"+
+        			"<li>Application à des images de microscopie optique et électronique et des vidéos.</li>"+
+			        "<li>Utilisation d'ImageJ, installation de greffons (plugins).</li>"+
+			        "<li>Programmation de Macros/Scripts.</li></ul>"+
+			     "</ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<span style=\"font-weight: bold;\">Objectifs pédagogiques</span>"+
+                "<ul><li>Donner les éléments nécessaires pour l'analyse et le traitement de données biologiques dans les domaines de:</li>"+
+			        "<ul>"+
+			            "<li>biostatistiques</li>"+
+			            "<li>réalisation de programme de traitement de données.</li>"+
+			            "<li>traitement et analyse d'images scientifiques.</li>"+
+			        "</ul>"+
+			     "</ul>"+
+                "<span style=\"font-weight: bold;\">Compétences acquises</span>"+
+			    "<ul><li>Modélisation: Elaborer un modèle pour les données biologiques et sa mise en oeuvre informatique.</li>"+
+			    "<li>Programmation: Maitrise du langage Python.</li>"+
+			    "<li>Imagerie: Appréhender les divers moyens d'amélioration des images scientifiques dans les "+
+			    "domaines des microscopies (optique et électronique) en vue de leur analyse.</li>"+
+                "<li>Imagerie: Savoir utiliser une librairie de traitement d'images.</li>"+
+                "</ul>",			
+            'en': ""
+        },
+        'html'      : "ENJ1BS7M01_01/biomodelisation-et-simulation-de-processus-biologiques",
+
+    },
+     'J1BS7M01-Prog' : {
+        'ID'                : "J1BS7M01-Prog",
+        'acronym'           : "BioMod-Prog",
+        'visibility'        : 'visible', // visible or hidden 
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "J1BS7M01"
+    },
+    'J1BS7M01-Imag' : {
+        'ID'                : "J1BS7M01-Imag",
+        'acronym'           : "BioMod-Imag",
+        'visibility'        : 'visible', // visible or hidden     
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "J1BS7M01"
+    },
+    'J1BS7M01-Stats' : {
+        'ID'                : "J1BS7M01-Stats",
+        'acronym'           : "BioMod-Stats",
+        'visibility'        : 'visible', // visible or hidden     
+        'background-color'  : "#0a0a0a",
+        'color'             : "#fff",   
+        'link'              : "J1BS7M01"
+    },
+    
+    "J1BS7202" : {
+        "id": "J1BS7202",
+        "acronym": "AlgoProg",
+        "title": "Algorithmique et Programmation",
+        "ects": 9,
+        "semester": 7,
+        'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[required]',
+        'visibility': 'visible', // <visible|hidden>     
+        "link": "ENJ1BS7202_01/algorithmique-et-programmation",
+        "contents": {
+            "fr":
+                "<h2>Programme</h2>"+
+                "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
+                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
+                "<li>Complexité : quelques notions à partir d'exemples</li><li>Programmation : "+
+                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
+                "tests logiques, boucles.</li><li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
+                "ou de modules prédéfinis.</li></ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<ul><li>"+
+                "<h3>Objectifs pédagogiques</h3></li>"+
+                "<li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
+                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li><li>"+
+                "<h3>Compétences acquises</h3></li>"+
+                "<li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
+                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
+                "</ul>",
+            "en": ""
+        }
+    },
+
+
+/**********************************************
+Semester 8:
+
+Enseignements obligatoires                                                  ECTS	CM	TD	TP
+Initiation à la Recherche et/ou Développement	 F1BS8201                   12		45h	
+Méthodes et outils pour la biologie des systèmes	J1BS8203                9	27h		
+
+Choix 1 UE de 9 ECTS                                                        ECTS	CM	TD	TP
+Informatique appliquée à la biologie: modélisation et ima	C0BS8M01  KM2BS04U      9	10h	5h	
+Programmation orienté objet                             	                9	27h		
+
+**********************************************/
+
+
+/**********************************************
+Semester 9:
+Enseignements obligatoires                                                  ECTS	CM	TD	TP
+Modélisation des systèmes biologiques	                                    3		15h	
+Communication et conception d'un projet de recherche et/ou développement	9			
+Connaissance de l'entreprise	                                            3		15h	
+Visualisation de la Structure de Proteines	                                3			
+Classification des données issues des banques de données biologiques	    3		15h	
+
+Choix 1 UE de 3 ECTS                                                        ECTS	CM	TD	TP
+Anglais	                                                                    3		60h	
+Architecture du génome	                                                    3	10h	10h	
+Génétique Humaine	                                                        3	10h	10h	
+Division et cycle cellulaire	                                            3	10h	10h	
+Algorithmique pour la bio-informatique et graphe	                        3		15h	
+
+Choix 1 UE de 6 ECTS                                                        ECTS	CM	TD	TP
+Programmation Objet Avancée	                                                6		30h	
+Approche objet	                                                            6	28h	30h	
+Outils d'indexation et de classification de l'information	                6		24h	
+Systemes Autonomes	                                                        6		24h	
+**********************************************/
+    "J1BS9203" : {
+        "id": "J1BS9203",
+        "acronym": "PROT3D",
+        "title": "Visualisation de la Structure de Proteines",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": "<h2>Programme</h2>"+
+            "<p>Initier les étudiants à la visualisation et à l'exploration des structures 3D.</p"+
+            "><p>Programme des enseignements théoriques</p><ul><li>Organisation structurale des macromolécules biologiques.</li>"+
+            "<li>Banques de données structurales (Protein Data Bank, SCOP,etc.).</li>"+
+            "<li>Format de fichier PDB (Protein Data Bank)</li>"+
+            "<li>Principes de la représentation graphique d'un objet 3D avec OpenGL.</li>"+
+            "<li>Algorithmes utilisés pour les divers types de représentation graphique.</li>"+
+            "</ul><p>Programme des enseignements dirigés et pratiques</p>"+
+            "<ul><li>Les enseignements pratiques et dirigés seront tous dispensés devant ordinateur.</li>"+
+            "<li>Extraction des informations structurales à partir des banques de données.</li>"+
+            "<li>Initiation à l'utilisation de la librairie OpenGL versions 3.x et supérieures pour la visualisation des structures protéiques 3D au format PDB.</li>"+
+            "</ul>"+
+            "<h2>Objectifs et compétences</h2>"+
+            "<h3>Nécessaire:</h3>"+
+            "<p>Notion de programmation acquises en master 1 de bioinformatique</p>",
+            "en": ""
+        },
+        "link": "ENJ1BS9203_01/visualisation-de-la-structure-de-proteines"
+    },
+    
+    
+/**********************************************
+Semester 10:
+Réalisation d'un projet de recherche et/ou développement
+**********************************************/
+
+    "F1BS0201" : {
+        "id": "F1BS0201",
+        "acronym": "Stage",
+        "title": "Réalisation d'un projet de recherche et/ou développement",
+        "ects": 30,
+        "semester": 10,
+        "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "visibility": "visible",
+        "contents": {
+            "fr": "<h2>Programme</h2>"+
+            "<ul><li>Stage en laboratoire de recherche ou en entreprise d'une durée de 5 à 6 mois.</li>"+
+            "<li>Il repose sur un projet scientifique préalablement rédigé et soumis aux responsables de la spécialité.</li>"+
+            "<li>Ce stage peut avoir lieu en France ou à l'étranger."+
+                "<ul><li>Parcours recherche:"+
+                "<ul><li>Sujet de stage proposé par le Maître de Stage après validation par la commission pédagogique "+
+                "de Master et choisi par l’étudiant en accord avec le responsable du stage.</li>"+
+                "</ul>"+
+                "</li>"+
+                "<li>Parcours professionnel:"+
+                "<ul><li>Sujet de stage défini par le Maître de Stage et l’étudiant en accord avec le responsable pédagogique.</li></ul>"+
+                "</li></ul></li></ul>"+
+                "<h2>Objectifs et compétences</h2>"+
+                "<ul><li>Objectifs pédagogiques"+
+                "<ul><li>Mise en situation dans un environnement professionnel pour la réalisation d'un projet de recherche "+
+                "et/ou développement en appliquant les notions fondamentales de gestion d'un projet de recherche et/ou développement:"+
+                "<ul><li>préparation</li>"+
+                "<li>réalisation</li>"+
+                "<li>analyse critique des résultats</li>"+
+                "<li>synthèse et présentation des résultats</li>"+
+                "<li>Applications de \"bonnes pratiques\" et de la \"démarche qualité\".</li>"+
+                "</ul></li>"+
+                "</ul></li>"+
+                "<li>Compétences acquises"+
+                "<ul><li>Compétence dans la gestion d'un projet de recherche et/ou développement.</li>"+
+                "<li>Acquérir l'autonomie nécessaire pour mener un projet de recherche et/ou de développement</li>"+
+                "<li>Acquérir la notion de travail en équipe projet.</li>"+
+                "<li>Compétences , à analyser et critiquer les résultats, à synthétiser des résultats, à présenter à l'écrit "+
+                "et à l'oral un projet et les résultats obtenus dans le cadre de ce projet.</li>"+
+                "<li>Maîtrise de l’anglais pour les étudiants qui partent à l’étranger.</li>"+
+                "</ul>"+
+                "</li></ul>",
+            "en": ""
+        },
+        "link": "ENF1BS0201_01/realisation-d-un-projet-de-recherche-et-ou-developpement"
+    }
+    
+}
