@@ -29,36 +29,19 @@ Algorithmique et Programmation                          9	27h
                 "<li>Renforcer la compréhension écrite et orale.</li>"+
                 "</ul>"+
                 "<h2>Objectifs et compétences</h2>"+
+                "<h3>Objectifs pédagogiques</h3>"+
                 "<ul>"+
-                "<li><span style=\"font-weight: bold\">Objectifs pédagogiques</span></li>"+
                 "<li>développer les compétences de communication scientifique pertinentes aux contextes "+
                 "professionnels de la recherche. Renforcer les quatre compétences langagières (compréhension "+
-                "et production de l’anglais, orale et écrite).</li>"+
-                "<li><span style=\"font-weight: bold\">Compétences acquises</span></li>"+
-                "<li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
+                "et production de l’anglais, orale et écrite).</li></ul>"+
+                "<h3>Compétences acquises</span></h3>"+
+                "<ul><li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
                 "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
                 "<li>Techniques de compréhension de l’anglais scientifique</li>"+
                 "<liCommunication scientifique orale et écrite en anglais.</li>"+
                 "</ul>",
             'en':
-                "<ul>"+
-                "<li>Construire une communication scientifique orale en anglais à partir de l’analyse de documents "+
-                "de divers genres scientifiques et répondre en anglais aux questions sur ce travail.</li>"+
-                "<li>Prendre la parole et interagir dans des situations diverses.</li>"+
-                "<li>Renforcer la compréhension écrite et orale.</li>"+
-                "</ul>"+
-                "<h2>Objectifs et compétences</h2>"+
-                "<ul>"+
-                "<li><span style=\"font-weight: bold\">Objectifs pédagogiques</span></li>"+
-                "<li>développer les compétences de communication scientifique pertinentes aux contextes "+
-                "professionnels de la recherche. Renforcer les quatre compétences langagières (compréhension "+
-                "et production de l’anglais, orale et écrite).</li>"+
-                "<li><span style=\"font-weight: bold\">Compétences acquises</span></li>"+
-                "<li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
-                "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
-                "<li>Techniques de compréhension de l’anglais scientifique</li>"+
-                "<liCommunication scientifique orale et écrite en anglais.</li>"+
-                "</ul>",
+                "",
         },
         'html'      : "ENB1BS7M06_01/anglais",
     },
@@ -92,12 +75,13 @@ Algorithmique et Programmation                          9	27h
         'id'        : "F6BS7M02", // F6BS7M02 ou KM1BS10U
         'acronym'   : "AEB",
         'ects'      : 6,
-        'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
+        'semester'  : 7, // semester 7 and 8 = M1  9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
         'visibility': 'hidden', // <visible|hidden>     
         'title'     : "Approches Expérimentales en Biologie",
         'contents'  : {
-            'fr': "<h2>Programme</h2>"+
+            'fr': 
+                "<h2>Programme</h2>"+
                 "<h3>Les Omics (30 h)</h3>"+
                 "<ul>"+
                 "<li>Génome: Approche de sequençage haut débit et exploitation des données</li>"+
@@ -159,7 +143,7 @@ Algorithmique et Programmation                          9	27h
         'visibility'        : 'visible', // visible or hidden 
         'background-color'  : "#0a0a0a",
         'color'             : "#fff",   
-        'link'              : "KM1BS10U"
+        'link'              : "F6BS7M02"
     },
     'F6BS7M02-Stats' : {
         'id'                : "F6BS7M02-Stats",
@@ -167,7 +151,7 @@ Algorithmique et Programmation                          9	27h
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
         'color'             : "#fff",   
-        'link'              : "KM1BS10U"
+        'link'              : "F6BS7M02"
     },
     'F6BS7M02-Info' : {
         'id'                : "F6BS7M02-Info",
@@ -175,7 +159,7 @@ Algorithmique et Programmation                          9	27h
         'visibility'        : 'visible', // visible or hidden     
         'background-color'  : "#0a0a0a",
         'color'             : "#fff",   
-        'link'              : "KM1BS10U"
+        'link'              : "F6BS7M02"
     },
     
     'J1BS7M01' : {
@@ -358,7 +342,8 @@ Programmation orienté objet                             	                9	27h
             "fr": 
                 "<h2>Programme</h2>"+
                 "<h3>Modélisation</h3>"+
-                "<ul><li>Introduction générales sur les neurosciences computationnelles : modélisation, intérêt et principes de base en neurosciences</li"+
+                "<ul>"+
+                "<li>Introduction générales sur les neurosciences computationnelles : modélisation, intérêt et principes de base en neurosciences</li"+
                 "<li>Principes et modélisation des systèmes dynamiques, applications aux neurosciences</li>"+
                 "<li>Dynamique des réseaux corticaux</li><li>Codage et décodage du signal neuronal</li>"+
                 "<li>Modélisation de l’excitabilité neuronale (modèles ioniques, modèle de Hodgkin-Huxley, modèles cinétiques)</li>"+
@@ -483,7 +468,7 @@ Systemes Autonomes	                                                        6		24
     "J1BS9203" : {
         "id": "J1BS9203",
         "acronym": "PROT3D",
-        "title": "Visualisation de la Structure de Proteines",
+        "title": "Visualisation de la Structure de Protéines",
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
