@@ -303,7 +303,7 @@ Programmation orienté objet                             	                9	27h
                 "<p>Elle sera suivie d'un rapport écrit et d'une soutenance.</p>",
             "en": ""
         },
-        "link": "ENF1BS8201_01/initiation-a-la-recherche-et-ou-developpement"
+        "html": "ENF1BS8201_01/initiation-a-la-recherche-et-ou-developpement"
     },
     
     "J1BS8203" : {
@@ -327,7 +327,7 @@ Programmation orienté objet                             	                9	27h
                 "<p>Avoir acquis les concepts de base des UE programmation et algorithmique du semestre 1</p>",
             "en": ""
         },
-        "link": "ENJ1BS8203_01/methodes-et-outils-pour-la-biologie-des-systemes"
+        "html": "ENJ1BS8203_01/methodes-et-outils-pour-la-biologie-des-systemes"
     },
 
     "C0BS8M01" : {
@@ -390,7 +390,7 @@ Programmation orienté objet                             	                9	27h
                 "<li>Utilisation du logiciel ImageJ.</li></ul>",
         "en": ""
         },
-        "link": "ENC0BS8M01_01/informatique-appliquee-a-la-biologie-modelisation-et-ima"
+        "html": "ENC0BS8M01_01/informatique-appliquee-a-la-biologie-modelisation-et-ima"
     },
     
     'C0BS8M01-Model' : {
@@ -440,7 +440,7 @@ Programmation orienté objet                             	                9	27h
                 "<ul><li>Développer une application en langage objet.</li></ul>",
             "en": ""
         },
-        "link": "ENJ1BS8202_01/programmation-oriente-objet"
+        "html": "ENJ1BS8202_01/programmation-oriente-objet"
     },
     
 /**********************************************
@@ -491,7 +491,7 @@ Systemes Autonomes	                                                        6		24
             "<p>Notion de programmation acquises en master 1 de bioinformatique</p>",
             "en": ""
         },
-        "link": "ENJ1BS9203_01/visualisation-de-la-structure-de-proteines"
+        "html": "ENJ1BS9203_01/visualisation-de-la-structure-de-proteines"
     },
     
     
@@ -543,7 +543,7 @@ Réalisation d'un projet de recherche et/ou développement
                 "</li></ul>",
             "en": ""
         },
-        "link": "ENF1BS0201_01/realisation-d-un-projet-de-recherche-et-ou-developpement"
+        "html": "ENF1BS0201_01/realisation-d-un-projet-de-recherche-et-ou-developpement"
     }
     
 }
