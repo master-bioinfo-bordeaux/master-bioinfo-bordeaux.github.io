@@ -64,7 +64,7 @@
 
     
    "E0F20150731T1459@jeesay" :  {
-        "ID"            : "E0F20150731T145923@jeesay",
+        "ID"            : "E0F20150731T1459@jeesay",
         "summary"       : "Réunion de rentrée M1 et M2",
         "lecturer"      : "",
         "date_start"    : "20150701T0900", 
