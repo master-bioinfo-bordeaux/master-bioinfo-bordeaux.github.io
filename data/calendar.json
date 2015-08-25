@@ -31,7 +31,8 @@
         "group"     : "B",
         "lecturer"  : "P Thébault",
         "location"  : "room41@ED::Carreire",
-        "description"   : ""
+        "description"   : "",
+        "comment":"Biomod-Imag"
     },
     
     "C2F20150801T1459@jeesay" :  {
@@ -57,6 +58,8 @@
         "description"   : "",
         "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "image"         : "summer"
+        "comment"       : "Summer Hol" 
+
     },
 
     
@@ -70,6 +73,6 @@
         "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "description"   : "Présentation des divers enseignements, organisation du master pour chacune des années.",
         "image"         : "calendar",
-        "comment"       : ""
+        "comment"       : "Réunion  ren"
     }
 }
