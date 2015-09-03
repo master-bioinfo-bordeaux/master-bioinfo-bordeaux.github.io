@@ -58,7 +58,7 @@
         "description"   : "",
         "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "image"         : "summer",
-        "comment"       : "Summer Hol" 
+        "comment"       : "Summer Holidays" 
 
     },
 
@@ -74,5 +74,19 @@
         "description"   : "Présentation des divers enseignements, organisation du master pour chacune des années.",
         "image"         : "calendar",
         "comment"       : "Rentrée"
+    },
+    
+    
+   "E0F20150831T1459@jeesay" :  {
+        "ID"            : "E0F20150831T1459@jeesay",
+        "summary"       : "Soutenance des M2 - Promotion 2015",
+        "lecturer"      : "",
+        "date_start"    : "20150911T0000", 
+        "date_end"      : "20150912T0000",
+        "location"      : "LaBRI::Talence",
+        "students"      : "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "description"   : "Présentation du travail réalisé pendant le stage long.",
+        "image"         : "calendar",
+        "comment"       : "Soutenance"
     }
 }
