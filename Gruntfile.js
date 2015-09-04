@@ -1,3 +1,4 @@
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -31,3 +32,4 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['concat', 'uglify']);
 
 };
+

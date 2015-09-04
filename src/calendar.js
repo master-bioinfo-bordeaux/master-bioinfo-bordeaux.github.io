@@ -1,5 +1,4 @@
 
-
 /************************************
  * Jean-Christophe Taveau
  * Calendar
@@ -404,3 +403,4 @@ function createEventCell(cal_event) {
 
     return html;
 }
+
