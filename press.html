@@ -38,6 +38,28 @@
              -o-background-size: cover;
                 background-size: cover;
     }
+    
+    .dropdown-menu {
+        border-color: transparent;
+        background-color: #101010;
+        color: #9d9d9d;
+        font-size: 16px;
+        font-family: 'Lato';
+    }
+    
+    .dropdown-menu > li  > a {
+        color: #9d9d9d;
+    }
+    
+    .dropdown-menu > .active  > a {
+        background-color: #101010;
+    }
+    
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	    background-color: transparent;
+	    color: white;
+    }
+
     </style>
     
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -69,7 +91,13 @@
             <li> <a href="index.html#home" class="smoothScroll">Home</a></li>
 			<li> <a href="index.html#news" class="smoothScroll"> News</a></li>
 			<li> <a href="index.html#calendar" class="smoothScroll"> Calendar</a></li>
-			<li> <a href="index.html#information" class="smoothScroll"> Information</a></li>
+			<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown"href="#"> Press <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#template" class="smoothScroll">Template</a></li>
+                    <li><a href="#september" class="smoothScroll">September</a></li>
+                    <li><a href="#october" class="smoothScroll">October</a></li>
+                </ul>
+            </li>
 			<li> <a href="index.html#about" class="smoothScroll"> About</a></li>
 			<li> <a href="index.html#team" class="smoothScroll"> Team</a></li>
 			<li> <a href="index.html#contact" class="smoothScroll"> Contact</a></li>
@@ -115,7 +143,7 @@
 
 		
 		<!-- ==== ABOUT ==== -->
-		<div class="container" id="sept2015" name="about">
+		<div class="container" id="aboutpress" name="about">
 			<div class="row white">
 			<br>
 				<h1 class="centered">ABOUT THIS 'PRESS HIGHLIGHTS'</h1>
@@ -225,7 +253,7 @@
 			    </div>
                 <!-- Article 1 -->
                 <div class="row">
-			    <div class="col-lg-2"> 
+			    <div class="col-lg-3"> 
 			        <img style="max-width:100%; height:auto" src="http://www.nature.com/nature/journal/v521/n7553/images/cover_nature.jpg"/> 
 			    </div> 
 			    <div class="col-lg-9"> 
@@ -308,7 +336,26 @@
 		</section><!-- section -->
 		
 
-		
+		<!-- ==== SEPTEMBER ==== -->
+		<div class="container" id="september" name="september">
+			<div class="row white">
+			    <br>
+			    <h2>Title</h2>
+				<div class="col-lg-12"> 
+				    <!-- Introduction -->
+				    <hr>
+			        <br>
+			    </div>
+			    
+                <!-- Article 1 -->
+                <div class="row">
+			        <div class="col-lg-3">
+			        </div>
+			        <div class="col-lg-9">
+			        </div>
+                </div>
+			</div>
+        </div>
 
 		<div id="footerwrap">
 			<div class="container">
