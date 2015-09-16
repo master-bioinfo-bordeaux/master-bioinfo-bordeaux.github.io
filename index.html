@@ -1,115 +1,445 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Master of BioInformatics, Bordeaux, France">
+    <meta name="author" content="Jean-Christophe Taveau - University of Bordeaux">
+    <link rel="shortcut icon" href="ico/favicon.png">
 
-    <title>Master of BioInformatics - Bordeaux, France</title>
+    <title>Master in BioInformatics, Bordeaux, France</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-
-
-    <script src="./js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <!-- link rel="stylesheet" href="css/icomoon.css" -->
+    <link href="css/animate-custom.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="js/jquery-2.1.4.min.js"></script>
   </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
-    <div class="navbar-wrapper">
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  
+  
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
 
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Master of BioInformatics</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+         </button>
+          <a class="navbar-brand" href="#home"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="#home" class="smoothScroll">Home</a></li>
+			<li> <a href="#news" class="smoothScroll"> News</a></li>
+			<li> <a href="#calendar" class="smoothScroll"> Calendar</a></li>
+			<li> <a href="#information" class="smoothScroll"> Information</a></li>
+			<li> <a href="#about" class="smoothScroll"> About</a></li>
+			<li> <a href="#team" class="smoothScroll"> Team</a></li>
+			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
+    </div>
 
+  
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" id="home" name="home">
+			<header class="clearfix">
+	  		 		<h1>Master of Science</h1>
+	  		 		<h1>in BioInformatics</h1>
+	  		 		<hr>
+	  		 		<h3>Bordeaux, France</h3>
+	  		</header>	    
+	    </div><!-- /headerwrap -->
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="img/carousel_1.jpg" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Master of BioInformatics - Bordeaux, France</h1>
-              <p>'omics' world, computing science, modelisation, and data visualization</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-4 callout">
+					<i class="fa fa-cogs fa-3x"></i>
+					<h2>Programming</h2>
+					<p>Programming languages and Algorithmics ??? </p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-4 callout">
+					<i class="fa fa-flask fa-3x"></i>
+					<h2>Biological Data</h2>
+					<p>Omics data and images are the two main primary inputs for biologists to deal with. </p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-4 callout">
+					<i class="fa fa-bar-chart fa-3x"></i>
+					<h2>Visualization</h2>
+					<p>Enhancing the biological data by 2D and 3D representations and animations is a requirement in science.</p>
+				</div><!-- col-lg-4 -->	
+			</div><!-- row -->
+		</div><!-- greywrap -->
+		
+		
+		<!-- ==== NEWS ==== -->
+		<div class="container" id="news" name="news">
+			<br>
+			<br>
+			<div class="row">
+				<h2 class="centered">NEWS</h2>
+				<hr>
+				<br>
+					<div id="top_news" class="col-lg-6"></div>
+					<div id="news_old" class="col-lg-6"></div>                    
+                    <div class="modal fade" id="newsModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true"></div>
+			</div><!-- row -->
+			
+		</div><!-- container -->
+  		
+
+		<!-- ==== SECTION DIVIDER1 -->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				<h1>OMICS WORLD</h1>
+				<hr>
+				<p>DNA, RNA, Protein are the keystones of the life and Omics world .</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+
+		<!-- ==== CALENDAR ==== -->
+ 
+		<div class="container" id="calendar" name="calendar">
+			<br>
+			<br>
+			<div class="row">
+
+				<h2 class="centered">CALENDAR</h2>
+				<hr>
+				<br>
+				<div>
+				<div class="row">
+				    <div class="col-lg-3 col-md-3 col-xs-5"">
+                        <a id="weekBackward" class="btn btn-default" href="javascript:void(0)" onclick="previousWeek()" role="button"><i class="fa fa-backward fa-lg"></i></a>
+                        <span id ="weeknum" class="week"></span>
+                        <a id="weekForward" class="btn btn-default" href="javascript:void(0)" role="button" onclick="nextWeek()"><i class="fa fa-forward fa-lg"></i></a>
+                    </div>
+
+				    <div class="col-lg-3 col-md-3 col-xs-3 ">
+                        <select class="form-control hidden-sm hidden-xs">
+                            <option>Master 1</option>
+                            <option>Master 2</option>
+                        </select>
+                        <select class="form-control hidden-lg hidden-md">
+                            <option>M1</option>
+                            <option>M2</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4  col-md-4 col-xs-4">
+                        <select class="form-control hidden-sm hidden-xs">
+                            <option>Computational Biology</option>
+                            <option>From Genomes to Organisms</option>
+                            <option>From Organisms to Ecosystems</option>                  
+                            <option>BioImages, Structures, and Contents</option>                  
+                        </select>
+                        <select class="form-control  hidden-lg hidden-md">
+                            <option>C++BIO</option>
+                            <option>GENORG</option>
+                            <option>ORGECO</option>                  
+                            <option>BSC</option>                  
+                        </select>
+                    </div>
+                 </div>
+                <table class="calendar table table-condensed table-bordered hidden-sm hidden-xs">
+                <thead id="calendar-lg-head">
+                </thead>
+                <tbody id="calendar-lg-body">
+                </tbody>
+                </table>
+                
+                <div id="myCarousel" class="carousel slide hidden-md hidden-lg">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">
+                <table class="table table-bordered ">
+                <thead>
+                <tr>
+                <th>Hour</th><th>MON <span class="pull-right"><sup>Aug 31</sup></span></th>
+                </tr>               
+                </thead>
+                <tbody>
+                <tr> <!-- 8:00-8:30 -->
+                    <td  rowspan="2">08:00-09:00</td>
+                    <td>&nbsp;</td>
+                 </tr>
+                <tr> <!-- 8:30-9:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00-10:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 9:30-10:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10:00-11:00</td>
+                    <td>&nbsp;</td>
+                 </tr>
+                <tr><!-- 10:30-11:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">11:00-12:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 11:30-12:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">12:00-13:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 12:30-13:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">13:00-14:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 13:30-14:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">14:00-15:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 14:30-15:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">15:00-16:00</td>
+                </tr>
+                <tr><!-- 15:30-16:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">16:00-17:00</td>
+                </tr>
+                <tr><!-- 16:30-17:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">17:00-18:00</td>
+                </tr>
+                <tr><!-- 17:30-18:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">18:00-19:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 18:30-19:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+                </table>
+    </div>
+    <div class="item">
+                <table class="table table-bordered ">
+                <thead>
+                <tr>
+                <th>Hour</th><th>TUE <span class="pull-right"><sup>Sep 1</sup></span></th>
+                </tr>               
+                </thead>
+                <tbody>
+                <tr> <!-- 8:00-8:30 -->
+                    <td  rowspan="2">08:00-09:00</td>
+                    <td>&nbsp;</td>
+                 </tr>
+                <tr> <!-- 8:30-9:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00-10:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 9:30-10:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10:00-11:00</td>
+                    <td>&nbsp;</td>
+                 </tr>
+                <tr><!-- 10:30-11:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">11:00-12:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 11:30-12:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">12:00-13:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 12:30-13:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">13:00-14:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 13:30-14:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">14:00-15:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 14:30-15:00 -->
+                    <td rowspan="6" style="background-color: #afe5f5; border: 2px solid #fff;">
+                        <ul class="list-unstyled">
+                            <li>ImagProc[2]</li>
+                            <li>JC Taveau</li>
+                            <li><b>14:30-17:30</b></li>
+                            <li>CREMI</li>
+                            <li>Room: 25</li>
+                            <li>Talence</li>
+                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-left">More...</a></li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">15:00-16:00</td>
+                </tr>
+                <tr><!-- 15:30-16:00 -->
+                </tr>
+                <tr>
+                    <td rowspan="2">16:00-17:00</td>
+                </tr>
+                <tr><!-- 16:30-17:00 -->
+                </tr>
+                <tr>
+                    <td rowspan="2">17:00-18:00</td>
+                </tr>
+                <tr><!-- 17:30-18:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">18:00-19:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 18:30-19:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+
+                </tbody>
+                </table>
+    </div>
+    <div class="item">
+                    <table class="table table-bordered ">
+                <thead>
+                <tr>
+                <th>Hour</th><th>WED <span class="pull-right"><sup>Sep 2</sup></span></th>
+                </tr>               
+                </thead>
+                <tbody>
+                <tr> <!-- 8:00-8:30 -->
+                    <td  rowspan="2">08:00-09:00</td>
+                    <td>&nbsp;</td>
+                 </tr>
+                <tr> <!-- 8:30-9:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 9:00-9:30 -->
+                    <td rowspan="2">09:00-10:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 9:30-10:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">10:00-11:00</td>
+                    <td>&nbsp;</td>
+                 </tr>
+                <tr><!-- 10:30-11:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">11:00-12:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 11:30-12:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">12:00-13:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 12:30-13:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">13:00-14:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 13:30-14:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">14:00-15:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 14:30-15:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">15:00-16:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 15:30-16:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">16:00-17:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 16:30-17:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">17:00-18:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 17:30-18:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">18:00-19:00</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr><!-- 18:30-19:00 -->
+                    <td>&nbsp;</td>
+                </tr>
+                </tbody>
+                </table>
             </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="img/carousel_2.jpg" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1><i>Omics</i> World</i></h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="img/carousel_3.jpg" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+  </div>
+  <!-- Carousel nav -->
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -118,97 +448,362 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-    </div><!-- /.carousel -->
+</div>​
 
 
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+                </div>
+            </div>
+            
+        <div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel" aria-hidden="true"></div>
 
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
+        
+        
+		<!-- ==== SECTION DIVIDER1 -->
+		<section class="section-divider textdivider divider2">
+			<div class="container">
+				<h1>DATABASES</h1>
+				<hr>
+				<p>To develop a deeper and more meaningful connection with consumers, we believe design must invite them to take part in the conversation.</p>
+			</div><!-- container -->
+		</section><!-- section -->
 
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
+		
+		<!-- ==== INFORMATION ==== -->
+		<div class="container" id="information" name="information">
+		<br>
+			<div class="row">
+				<br>
+				<h1 class="centered">INFORMATION</h1>
+				<hr>
+				<br>
+				<br>
+			</div><!-- /row -->
+			<div class="container">
+			<div class="row">	
+			
+				<!-- INFORMATION IMAGE 1 -->
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="img/portfolio01.jpg" alt="">
+							<figcaption>
+								<h5>PRESS HIGHLIGHTS</h5>
+								<a href="press.html" class="btn btn-primary btn-lg">More...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				
+						 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
+						      a modal for each of your projects. -->
+						      
+						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Project Title</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p><img class="img-responsive" src="img/portfolio01.jpg" alt=""></p>
+						          <p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
+						          <p><b><a href="#">Visit Site</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+				
+				
+				<!-- INFORMATION IMAGE 2 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="img/portfolio02.jpg" alt="">
+							<figcaption>
+								<h5>CONTENTS - M1</h5>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">More...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				<!-- INFORMATION IMAGE 3 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="img/portfolio03.jpg" alt="">
+							<figcaption>
+								<h5>HOW TO APPLY - M1</h5>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">More...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
 
-    </div><!-- /.container -->
+				<!-- INFORMATION IMAGE 4 -->
+			<div class="row">	
+				<div class="col-md-4 ">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="img/portfolio04.jpg" alt="">
+							<figcaption>
+								<h5>CALENDAR - M2</h5>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">More...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				<!-- INFORMATION IMAGE 5 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="img/portfolio05.jpg" alt="">
+							<figcaption>
+								<h5>CONTENTS - M2</h5>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">More...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+				
+				<!-- INFORMATION IMAGE 6 -->
+				<div class="col-md-4">
+			    	<div class="grid mask">
+						<figure>
+							<img class="img-responsive" src="img/portfolio06.jpg" alt="">
+							<figcaption>
+								<h5>HOW TO APPLY - M2</h5>
+								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">More...</a>
+							</figcaption><!-- /figcaption -->
+						</figure><!-- /figure -->
+			    	</div><!-- /grid-mask -->
+				</div><!-- /col -->
+			</div><!-- /row -->
+			<br>
+			<br>
+		</div><!-- /row -->
+	</div><!-- /container -->
 
+		<!-- ==== SECTION DIVIDER2 ==== -->
+		<section class="section-divider textdivider divider3">
+			<div class="container">
+				<h1>PROGRAMMING LANGUAGES</h1>
+				<hr>
+				<p>There’s more to design than meets the eye. It’s when it meets the heart that design creates a meaningful, lasting connection with the audience.</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<!-- ==== ABOUT ==== -->
+		<div class="container" id="about" name="about">
+			<div class="row white">
+			<br>
+				<h1 class="centered">ABOUT MS IN BIOINFORMATICS</h1>
+				<hr>
+				<div class="col-lg-6">
+					<p>The master of BioInformatics of Bordeaux, France...Curabitur feugiat urna a eros viverra, quis vulputate ipsum sollicitudin. Vestibulum efficitur magna nulla, porta tincidunt nunc lobortis vitae. Vivamus a leo ipsum. Curabitur rutrum dictum mauris quis suscipit. Aliquam auctor metus non dolor rhoncus scelerisque. Donec vitae ex felis. Mauris nec nulla hendrerit, congue quam at, finibus risus. Praesent malesuada nec felis in facilisis. Maecenas nulla est, laoreet non pulvinar sed, malesuada vitae tellus. Nullam euismod iaculis libero et semper. Sed molestie congue consequat. Nulla et elit est. Vestibulum sodales enim non ultricies varius. Curabitur sit amet sollicitudin odio, sed efficitur ex.</p>
+				</div><!-- col-lg-6 -->	
+							
+				<div class="col-lg-6">
+					<p>Le master de Bioinformatique de Bordeaux, France est une formation en deux ans. Les trois premiers semestres sont consacrés à la formation académique (90 crédits dont 36 crédits obligatoires d'informatique, 21 crédits obligatoires de biologie et 12 crédits obligatoires pour le stage de réalisation de logiciel, les options peuvent être indifféremment choisies parmi des enseignements de biologie ou d'informatique dispensés dans les spécialités de la mention Biologie Santé ou de la mention Informatique). Le quatrième semestre consiste en un stage en entreprise ou dans un établissement académique de six mois qui peut avoir lieu à l'étranger.</p>
+				</div><!-- col-lg-6 -->
+
+			</div><!-- row -->
+			
+			<div class="row">
+				<h2 class="centered">ARCHITECTURE</h2>
+				<hr>
+				<br>
+				<div class="col-lg-12">
+					<img class="img-responsive" src="img/architecture.png" alt="">
+				</div><!-- col -->
+			</div><!-- row -->
+				
+		</div><!-- container -->
+		
+		<!-- ==== SECTION DIVIDER3 -->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				<h1>OMICS WORLD</h1>
+				<hr>
+				<p>To achieve real change, we have to expand boundaries. Because the Wild West of what-could-be is unexplored but rife with opportunity.</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+
+
+		<!-- ==== TEAM MEMBERS ==== -->
+		<div class="container" id="team" name="team">
+		<br>
+			<div class="row white centered">
+				<h1 class="centered">THE TEAM</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="img/team/team01.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Jean-Christophe Taveau</b></h4>
+					<a href="#" class="icon icon-twitter"></a>
+					<a href="#" class="icon icon-facebook"></a>
+					<a href="#" class="icon icon-flickr"></a>
+					<p>Jean-Christophe combines an expert technical knowledge with a real eye for design. Working with clients from a wide range of industries, he fully understands client objectives when working on a project, large or small.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="img/team/team02.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Marie Beurton-Aimar</b></h4>
+					<a href="#" class="icon icon-twitter"></a>
+					<a href="#" class="icon icon-facebook"></a>
+					<a href="#" class="icon icon-flickr"></a>
+					<p>Marie is an experienced marcoms practitioner and manages projects from inception to delivery. He understands the synergy between great design and commercial effectiveness which shines through on every project.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="img/team/team03.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Patricia Thébault</b></h4>
+					<a href="#" class="icon icon-twitter"></a>
+					<a href="#" class="icon icon-facebook"></a>
+					<a href="#" class="icon icon-flickr"></a>
+					<p>Be a creative director is a hard task, but Patricia loves what she does. Her combination of knowledge and expertise is an important pillar in our agency.</p>
+				</div><!-- col-lg-3 -->
+				
+				<div class="col-lg-3 centered">
+					<img class="img img-circle" src="img/team/team04.jpg" height="120px" width="120px" alt="">
+					<br>
+					<h4><b>Cyril Petibois</b></h4>
+					<a href="#" class="icon icon-twitter"></a>
+					<a href="#" class="icon icon-facebook"></a>
+					<a href="#" class="icon icon-flickr"></a>
+					<p>Cyril...</p>
+				</div><!-- col-lg-3 -->
+				
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 centered">
+						<img class="img-responsive" src="img/macbook.png" align="">
+					</div>
+					<div class="col-lg-4">
+						<h2>We Are Hiring!</h2>
+						<p>Do you want to be one of use? Sure you want, because we are an awesome team!. Here we work hard every day to craft pixel perfect sites.</p>
+						<p><a class="btn btn-success">Contact Us</a></p>
+					</div>					
+				</div><!-- row -->
+			</div>
+			<br>
+			<br>
+		</div><!-- greywrap -->	
+		
+		<!-- ==== SECTION DIVIDER6 ==== -->
+		<section class="section-divider textdivider divider6">
+			<div class="container">
+				<h1>CRAFTED IN NEW YORK, USA.</h1>
+				<hr>
+				<p>Some Address 987,</p>
+				<p>+34 9884 4893</p>
+				<p><a class="icon icon-twitter" href="#"></a> | <a class="icon icon-facebook" href="#"></a></p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				<h1 class="centered">THANKS FOR VISITING US</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-4">
+					<h3>Contact Information</h3>
+					<p><span class="icon icon-home"></span> Some Address 987, NY<br/>
+						<span class="icon icon-phone"></span> +34 9884 4893 <br/>
+						<span class="icon icon-mobile"></span> +34 59855 9853 <br/>
+						<span class="icon icon-envelop"></span> <a href="#"> agency@blacktie.co</a> <br/>
+						<span class="icon icon-twitter"></span> <a href="#"> @blacktie_co </a> <br/>
+						<span class="icon icon-facebook"></span> <a href="#"> BlackTie Agency </a> <br/>
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-4">
+					<h3>Newsletter</h3>
+					<p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
+					<p>
+						<form class="form-horizontal" role="form">
+						  <div class="form-group">
+						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <label for="text1" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="text" class="form-control" id="text1" placeholder="Your Name">
+						    </div>
+						  </div>
+						  <div class="form-group">
+						    <div class="col-lg-10">
+						      <button type="submit" class="btn btn-success">Sign in</button>
+						    </div>
+						  </div>
+					   </form><!-- form -->
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-4">
+					<h3>Support Us</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				</div><!-- col -->
+
+			</div><!-- row -->
+		
+		</div><!-- container -->
+
+		<div id="footerwrap">
+			<div class="container">
+				<h4>Inspired by Bootstrap Template of BlackTie.co</h4>
+			</div>
+		</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+		
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!--
+	<script type="text/javascript" src="js/retina.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery-func.js"></script>
+	<script type="text/javascript" src="data/calendar_json.js"></script>
+	-->
+	<script type="text/javascript" src="data/news_json.js"></script>
+	<script type="text/javascript" src="js/msbinobi.js"></script>
+    <script>
+    /** Smooth Scroll **/
+	$(document).ready(function() {
+		$('.smoothScroll').click( function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
   </body>
 </html>
+
 
