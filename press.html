@@ -60,6 +60,33 @@
 	    color: white;
     }
 
+    /* Extra small devices (phones, less than 768px) */
+    /* No media query since this is the default in Bootstrap */
+
+    /* Small devices (tablets, 768px and up) */
+    @media screen and (min-width: 768px),screen and (max-width:900px) {
+        .msbinobi_img {
+            width:100px;
+            height: auto;
+        }
+    }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media screen and (min-width: 992px), screen and (max-width:1200px) {
+        .msbinobi_img {
+            width:140px;
+            height: auto;
+        }
+    }
+
+    /* Large devices (large desktops, 1200px and up) */
+    @media screen and (min-width: 1200px) {
+        .msbinobi_img {
+            width:230px;
+            height: auto;
+        }
+
+    }
     </style>
     
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
@@ -133,8 +160,8 @@
 				
 				<div class="col-lg-4 callout">
 					<i class="fa fa-laptop fa-3x"></i>
-					<h2>Computers</h2>
-					<p>New Technologies in hardware and softwares are building a continuous evolution of BioInformatics.</p>
+					<h2>Computeing</h2>
+					<p>New Technologies in hardware and softwares are building a continuous evolution in BioInformatics.</p>
 				</div><!-- col-lg-4 -->	
 			</div><!-- row -->
 		</div><!-- greywrap -->
@@ -244,6 +271,7 @@
 			        suscipit magna, et tincidunt orci. Donec posuere laoreet risus ac vulputate. Vivamus dictum vulputate orci, semper rutrum 
 			        sem congue sed. Aliquam a nisi vitae erat suscipit volutpat.</p>
 			        <h3>Bonne lecture...</h3>
+			        <br>
 			        <blockquote>Cette revue de presse est écrite en <b>html</b> et donc en utilise les principales balises. De plus, la gestion de la mise en page &mdash; 
 			        dite <b>responsive design</b> &mdash; est réalisée par le <b>framework Bootstrap</b> de Twitter. Il est donc important de respecter 
 			        le système de positionnement (grid design) des différents composants (texte, images, etc.). <br>Enfin, pour toutes les images, seuls 
@@ -251,16 +279,16 @@
 			        Inspirez-vous donc, du code <b>html</b> de ce template pour construire votre propre revue de presse. 
 			        </blockquote>
 
-			    <hr>
 			    <br>
 			    </div>
                 <!-- Article 1 -->
                 <div class="row">
-			    <div class="col-lg-3"> 
-			        <img style="max-width:100%; height:auto" src="http://www.nature.com/nature/journal/v521/n7553/images/cover_nature.jpg"/> 
+                                <hr>
+			    <div class="col-lg-3 col-md-3 col-sm-3"> 
+			        <img class="img-responsive msbinobi_img hidden-xs" src="http://www.nature.com/nature/journal/v521/n7553/images/cover_nature.jpg"/> 
 			    </div> 
-			    <div class="col-lg-9"> 
-			        <p>Dans ce premier article <sup><a href="#sept2015ref">[2]</a></sup>, les auteurs présentent les principales évolutions dans 
+			    <div class="col-lg-9 col-md-9 col-sm-9"> 
+			        <p>Dans ce premier article <sup><a href="#sept2015ref">[2]</a></sup> paru dans <b>Nature</b>, les auteurs présentent les principales évolutions dans 
 			        le domaine de l'annotation des images par réseaux neuronaux qu'on peut diviser en plusieurs familles:<br> 
 			        <ul><li>(i) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id volutpat libero. Sed commodo risus eget magna aliquet, 
 			        id euismod orci facilisis. Morbi maximus condimentum quam a lacinia. Sed vel ex sit amet tortor dapibus commodo. Sed a 
@@ -275,7 +303,7 @@
                 <!-- Article 2 -->
                 <div class="row">
                 <hr>
-			    <div class="col-lg-9"> 
+			    <div class="col-lg-9 col-md-9 col-sm-9"> 
 			        <p>Dans cet article <sup><a href="#sept2015ref">[3]</a></sup>, nunc mollis ullamcorper fermentum. Etiam mauris 
 			        velit, sodales eu imperdiet ac, venenatis eget tortor. Aliquam ultrices tincidunt ligula rhoncus sodales. Integer eu 
 			        suscipit magna, et tincidunt orci. Donec posuere laoreet risus ac vulputate. Vivamus dictum vulputate orci, semper rutrum 
@@ -284,18 +312,18 @@
 			        que les autres articles de ce dossier &mdash; même s'ils ne sont pas reliés à la bioinformatique &mdash; sont intéressants à lire.
 			        </blockquote>
 			    </div>
-			    <div class="col-lg-3"> 
-			        <img style="max-width:100%; height:auto" src="http://www.nature.com/nature/journal/v521/n7553/images/cover_nature.jpg"/> 
+			    <div class="col-lg-3 col-md-3 col-sm-3"> 
+			        <img class="img-responsive msbinobi_img hidden-xs" src="http://www.nature.com/nature/journal/v521/n7553/images/cover_nature.jpg"/> 
 			    </div> 
                 </div>
 
                 <!-- Article 3 -->
                 <div class="row">
                 <hr>
-                <div class="col-lg-2"> 
-			        <img style="max-width:100%; height:auto" src="http://archives.science-et-vie.com/images/documents/00043964_cover_A.jpg"/> 
+                <div class="col-lg-3 col-md-3 col-sm-3"> 
+			        <img class="img-responsive msbinobi_img hidden-xs" src="http://archives.science-et-vie.com/images/documents/00043964_cover_A.jpg"/> 
 			    </div> 
-			    <div class="col-lg-10"> 
+			    <div class="col-lg-9 col-md-9 col-sm-9"> 
 			        <p>Changeons complètement de domaine avec cet article de vulgarisation scientifique <sup><a href="#sept2015ref">[4]</a></sup> publié ce mois-ci 
 			        dans <b>Science & Vie</b> qui traite du dictum Vulputate et des dernières avancées dans ce domaine. 
 			        Aliquam ultrices tincidunt ligula rhoncus sodales. Integer eu 
@@ -322,9 +350,6 @@
 			        <li>[4] ...</li>
 			        <li>[5] ...</li>
 			        <li>[6] ...</li>
-			        <li>[7] ...</li>
-			        <li>[8] ...</li>
-			        <li>[9] ...</li>
 			    </div>
 			    <div class="col-lg-5"> 
 			        <h2 class="centered">Acronymes et Abréviations</h2>
