@@ -92,12 +92,13 @@ function updateCalendarBody(y,m,d) {
         );
         
         // From MON to FRI
-        for (var i = 1; i <=5; i++) {
+        for (var i = 1; i < 6; i++) {
             var day = new Date(y,m,d - today.getDay() + i);
-            var dayD       = Math.ceil(day.getTime()/1000/3600/24);       // Days number since UTC
-            var startDateD = Math.ceil(startDate.getTime()/1000/3600/24); // Days number since UTC
-            var endDateD   = Math.ceil(endDate.getTime()/1000/3600/24);   // Days number since UTC
-            
+            var dayD       = getYYYYMMDD(day);       // Days number since UTC
+            var startDateD = getYYYYMMDD(startDate); // Days number since UTC
+            var endDateD   = getYYYYMMDD(endDate);   // Days number since UTC
+            var tmp = new Date();tmp.setTime(day.getTime() );
+            console.log(dayD,startDateD,endDateD);
             if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
                 console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
                 element.weekdayIndex = i;
@@ -159,7 +160,7 @@ function previousWeek() {
     cal.dataset.day   = date.getDate();
     
     table.reset();
-    updateCalendar(y,m,d);
+    updateCalendar(date.getFullYear(),date.getMonth(),date.getDate());
 }
 
 function nextWeek() {
@@ -173,10 +174,16 @@ function nextWeek() {
     cal.dataset.day   = date.getDate();
 
     table.reset();
-    updateCalendar(y,m,d);
+    updateCalendar(date.getFullYear(),date.getMonth(),date.getDate());
 }
 
 
+function getYYYYMMDD(date) {
+    var year = date.getFullYear().toString();
+    var month = (date.getMonth() < 10) ? ('0'+ date.getMonth()) : date.getMonth();
+    var day   = (date.getDate() < 10) ? ('0'+ date.getDate()) : date.getDate();
+    return year + month + day;
+}
 
 // From pikaday 
 // https://github.com/dbushell/Pikaday/blob/master/pikaday.js
@@ -324,7 +331,8 @@ function createEventCells(events) {
 
 }
 
-function findEvent(events,start,day) {
+function findEvent(events,start,col) {
+    var day = col + 1 // col#0 = MONDAY = day#1
     var html='';
     for (var i = 0; i < events.length; i++) {
         var startMin = events[i].startDate.getHours()*60+events[i].startDate.getMinutes();
@@ -333,7 +341,7 @@ function findEvent(events,start,day) {
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
                 console.log('table ',(start - 480 )/30 +t,' ',day);
-                table.cells[(start - 480 )/30 + t][day]++;
+                table.cells[(start - 480 )/30 + t][col]++;
             }
         }
     }
@@ -356,7 +364,7 @@ function createEventCell(cal_event) {
         var the_course = course_data[courseID];
 
         html += '<td rowspan="'+ (cal_event.duration / 60 * 2) +'" style="background-color: '+the_course.background_color+';">';
-        html += '<div class="course" style="background-color: '+the_course.background+';">';
+        html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
         html += '<a data-toggle="modal" ';

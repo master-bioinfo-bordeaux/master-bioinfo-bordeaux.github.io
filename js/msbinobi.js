@@ -53,8 +53,8 @@ Algorithmique et Programmation                          9	27h
         "ects"      : 3,
         "semester"  : 7,
         "students"  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
-        'visibility': 'visible', // <visible|hidden>     
-       "contents": {
+        "visibility": 'visible', // <visible|hidden>     
+        "contents": {
             'fr': 
                 "<ul><li>Mise à niveau notions et principes de base."+
                 "<ul>"+
@@ -82,6 +82,7 @@ Algorithmique et Programmation                          9	27h
         'semester'  : 7, // semester 7 and 8 = M1  9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
         'visibility': 'hidden', // <visible|hidden>     
+        'background_color': '#eef409',
         'title'     : "Approches Expérimentales en Biologie",
         'contents'  : {
             'fr': 
@@ -145,7 +146,7 @@ Algorithmique et Programmation                          9	27h
         'id'                : "F6BS7M02-Omics",
         'acronym'           : "AEB-Omics",
         'visibility'        : 'visible', // visible or hidden 
-        'background-color'  : "#0a0a0a",
+        'background_color'  : '#eef409',
         'color'             : "#fff",   
         'link'              : "F6BS7M02"
     },
@@ -153,7 +154,7 @@ Algorithmique et Programmation                          9	27h
         'id'                : "F6BS7M02-Stats",
         'acronym'           : "AEB-Stats",
         'visibility'        : 'visible', // visible or hidden     
-        'background-color'  : "#0a0a0a",
+        'background_color'  : '#eef409',
         'color'             : "#fff",   
         'link'              : "F6BS7M02"
     },
@@ -161,7 +162,7 @@ Algorithmique et Programmation                          9	27h
         'id'                : "F6BS7M02-Info",
         'acronym'           : "AEB-Info",
         'visibility'        : 'visible', // visible or hidden     
-        'background-color'  : "#0a0a0a",
+        'background_color'  : '#eef409',
         'color'             : "#fff",   
         'link'              : "F6BS7M02"
     },
@@ -224,7 +225,7 @@ Algorithmique et Programmation                          9	27h
         'id'                : "J1BS7M01-Prog",
         'acronym'           : "BioMod-Prog",
         'visibility'        : 'visible', // visible or hidden 
-        'background-color'  : "#0a0a0a",
+        'background_color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "J1BS7M01"
     },
@@ -232,7 +233,7 @@ Algorithmique et Programmation                          9	27h
         'id'                : "J1BS7M01-Imag",
         'acronym'           : "BioMod-Imag",
         'visibility'        : 'visible', // visible or hidden     
-        'background-color'  : "#0a0a0a",
+        'background_color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "J1BS7M01"
     },
@@ -240,7 +241,7 @@ Algorithmique et Programmation                          9	27h
         'id'                : "J1BS7M01-Stats",
         'acronym'           : "BioMod-Stats",
         'visibility'        : 'visible', // visible or hidden     
-        'background-color'  : "#0a0a0a",
+        'background_color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "J1BS7M01"
     },
@@ -406,7 +407,7 @@ Programmation orienté objet                             	                9	27h
         'id'                : "C0BS8M01-Model",
         'acronym'           : "InfoApp-Model",
         'visibility'        : 'visible', // visible or hidden 
-        'background-color'  : "#0a0a0a",
+        'background_color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "C0BS8M01"
     },
@@ -414,7 +415,7 @@ Programmation orienté objet                             	                9	27h
         'id'                : "C0BS8M01-Imag",
         'acronym'           : "InfoApp-Imag",
         'visibility'        : 'visible', // visible or hidden 
-        'background-color'  : "#0a0a0a",
+        'background_color'  : "#0a0a0a",
         'color'             : "#fff",   
         'link'              : "C0BS8M01"
     },
@@ -467,6 +468,7 @@ Architecture du génome	                                                    3	10
 Génétique Humaine	                                                        3	10h	10h	
 Division et cycle cellulaire	                                            3	10h	10h	
 Algorithmique pour la bio-informatique et graphe	                        3		15h	
+http://www.u-bordeaux.fr/formation/2015/PRMASB_171/master-biologie-sante-specialite-bioimagerie/enseignement/ENJ1SB9700_01/visualisation-et-exploration-de-donnees-3d
 
 Choix 1 UE de 6 ECTS                                                        ECTS	CM	TD	TP
 Programmation Objet Avancée	                                                6		30h	
@@ -808,6 +810,47 @@ Systemes Autonomes	                                                        6		24
         "html": "ENJ1BS9207_01/algorithmique-pour-la-bio-informatique-et-graphe"
     },
 
+    "J1SB9700" : {
+        "id": "J1SB9700",
+        "acronym": "Visu3D",
+        "title": "Visualisation et Exploration de Données 3D",
+        "ects": 3,
+        "semester": 9,
+        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "visibility": "visible",
+        "contents": {
+            "fr": 
+                "<h2>Programme</h2>"+
+                "<ul><li>Traitement automatique et analyse d'objets biologiques arborescents (structures secondaires d'ARNs, "+
+                "architecture de plantes, etc.): "+
+                "<ul><li>comparaison d'arborescences, </li>"+
+                "<li>distance d'édition (opérations structurelles élémentaires, opérations d'édition).</li>"+
+                "</ul></li>"+
+                "<li> Formulation en termes de problème d'optimisation, "+
+                "<ul><li>algorithmes efficaces en temps et en espace, </li>"+
+                "<li>solutions incrémentales, </li>"+
+                "<li>programmation dynamique. </li></ul>"+
+                "</li>"+
+				"<li>Réseaux d'interactions et métaboliques, voies métaboliques. </li>"+
+				"<li>Exploration des relations du type \"guilt by association\", recherche de chemins et sous-graphes indiquant des voies de signalisation, "+
+				"recherche de modes élémentaires.</li></ul>"+
+				"<h2>Objectifs et compétences</h2>"+
+				"<h3>Objectifs pédagogiques</h3>"+
+				"<p>Présenter les méthodes informatiques d'exploitation de grandes masses de données, dont la bioinformatique est l'un des domaines "+
+				"d'application. On présentera en particulier les algorithmes sur les mots et sur les arbres pour traiter des données biologiques.</p>"+
+				"<h3>Compétences acquises</h3>"+
+				"<ul><li>Modéliser un problème bio-informatique en termes de structures de données (mots, arbres, graphes). </li>"+
+				"<li>Utilisation des principaux algorithmes, méthodes et heuristiques développées en bio-informatique ou dans des domaines "+
+				"de l'informatique fondamentale et pertinent pour la bio-informatique. </li>"+
+				"<li>Mesurer le potentiel applicatif des méthodes et outils développés en bio-informatique pour d'autres champs "+
+				"applicatifs tels les sciences sociales. </li>"+
+				"<li>Avoir une vue sur l'ensemble des outils et implémentations mis à disposition par la communauté de recherche.</li></ul>",
+            "en": ""
+        },
+        "path": "http://www.u-bordeaux.fr/formation/2015/PRMASB_171/master-biologie-sante-specialite-bioimagerie/enseignement",
+        "html": "ENJ1SB9700_01/visualisation-et-exploration-de-donnees-3d"
+    },
+
 
     "J1BS9206" : {
         "id": "J1BS9206",
@@ -1091,12 +1134,13 @@ function updateCalendarBody(y,m,d) {
         );
         
         // From MON to FRI
-        for (var i = 1; i <=5; i++) {
+        for (var i = 1; i < 6; i++) {
             var day = new Date(y,m,d - today.getDay() + i);
-            var dayD       = Math.ceil(day.getTime()/1000/3600/24);       // Days number since UTC
-            var startDateD = Math.ceil(startDate.getTime()/1000/3600/24); // Days number since UTC
-            var endDateD   = Math.ceil(endDate.getTime()/1000/3600/24);   // Days number since UTC
-            
+            var dayD       = getYYYYMMDD(day);       // Days number since UTC
+            var startDateD = getYYYYMMDD(startDate); // Days number since UTC
+            var endDateD   = getYYYYMMDD(endDate);   // Days number since UTC
+            var tmp = new Date();tmp.setTime(day.getTime() );
+            console.log(dayD,startDateD,endDateD);
             if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
                 console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
                 element.weekdayIndex = i;
@@ -1158,7 +1202,7 @@ function previousWeek() {
     cal.dataset.day   = date.getDate();
     
     table.reset();
-    updateCalendar(y,m,d);
+    updateCalendar(date.getFullYear(),date.getMonth(),date.getDate());
 }
 
 function nextWeek() {
@@ -1172,10 +1216,16 @@ function nextWeek() {
     cal.dataset.day   = date.getDate();
 
     table.reset();
-    updateCalendar(y,m,d);
+    updateCalendar(date.getFullYear(),date.getMonth(),date.getDate());
 }
 
 
+function getYYYYMMDD(date) {
+    var year = date.getFullYear().toString();
+    var month = (date.getMonth() < 10) ? ('0'+ date.getMonth()) : date.getMonth();
+    var day   = (date.getDate() < 10) ? ('0'+ date.getDate()) : date.getDate();
+    return year + month + day;
+}
 
 // From pikaday 
 // https://github.com/dbushell/Pikaday/blob/master/pikaday.js
@@ -1323,7 +1373,8 @@ function createEventCells(events) {
 
 }
 
-function findEvent(events,start,day) {
+function findEvent(events,start,col) {
+    var day = col + 1 // col#0 = MONDAY = day#1
     var html='';
     for (var i = 0; i < events.length; i++) {
         var startMin = events[i].startDate.getHours()*60+events[i].startDate.getMinutes();
@@ -1332,7 +1383,7 @@ function findEvent(events,start,day) {
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
                 console.log('table ',(start - 480 )/30 +t,' ',day);
-                table.cells[(start - 480 )/30 + t][day]++;
+                table.cells[(start - 480 )/30 + t][col]++;
             }
         }
     }
@@ -1355,7 +1406,7 @@ function createEventCell(cal_event) {
         var the_course = course_data[courseID];
 
         html += '<td rowspan="'+ (cal_event.duration / 60 * 2) +'" style="background-color: '+the_course.background_color+';">';
-        html += '<div class="course" style="background-color: '+the_course.background+';">';
+        html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
         html += '<a data-toggle="modal" ';
