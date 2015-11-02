@@ -17,113 +17,8 @@
     <!-- link rel="stylesheet" href="css/icomoon.css" -->
     <link href="css/animate-custom.css" rel="stylesheet">
 
-    <style>
-    #headerwrap {
-	    background: url(../img/press_bg.jpg) no-repeat center top;
-	    margin-top: -50px;
-	    padding:300px 0 200px 0;
-	    text-align:center;
-	    background-attachment: relative;
-	    background-position: center center;
-	    min-height: 650px;
-	    width: 100%;
-	
-        -webkit-background-size: 100%;
-           -moz-background-size: 100%;
-             -o-background-size: 100%;
-                background-size: 100%;
+    <link href="css/press.css" rel="stylesheet">
 
-        -webkit-background-size: cover;
-           -moz-background-size: cover;
-             -o-background-size: cover;
-                background-size: cover;
-    }
-    
-    .dropdown-menu {
-        border-color: transparent;
-        background-color: #101010;
-        color: #9d9d9d;
-        font-size: 16px;
-        font-family: 'Lato';
-    }
-    
-    .dropdown-menu > li  > a {
-        color: #9d9d9d;
-    }
-    
-    .dropdown-menu > .active  > a {
-        background-color: #101010;
-    }
-    
-    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	    background-color: transparent;
-	    color: white;
-    }
-
-/* Section Dividers Backgrounds */
-
-    .template {
-    	background-image: url('../img/press/templatePress.jpg')
-    }
-
-    .september {
-    	background-image: url('../img/press/september.jpg')
-    }
-
-    .october {
-    	background-image: url('../img/press/october.jpg');
-    	margin-top: 0px;
-    }
-
-    .november {
-    	background-image: url('../img/press/november.jpg')
-    }
-
-    .december {
-    	background-image: url('../img/press/december.jpg')
-    }
-
-    .january {
-    	background-image: url('../img/press/january.jpg')
-    }
-
-    .february {
-    	background-image: url('../img/press/february.jpg')
-    }
-
-    .june {
-    	background-image: url('../img/press/june.jpg')
-    }
-
-    /* Extra small devices (phones, less than 768px) */
-    /* No media query since this is the default in Bootstrap */
-
-    /* Small devices (tablets, 768px and up) */
-    @media screen and (min-width: 768px),screen and (max-width:900px) {
-        .msbinobi_img {
-            width:100px;
-            height: auto;
-        }
-    }
-
-    /* Medium devices (desktops, 992px and up) */
-    @media screen and (min-width: 992px), screen and (max-width:1200px) {
-        .msbinobi_img {
-            width:140px;
-            height: auto;
-        }
-    }
-
-    /* Large devices (large desktops, 1200px and up) */
-    @media screen and (min-width: 1200px) {
-        .msbinobi_img {
-            width:230px;
-            height: auto;
-        }
-
-    }
-    </style>
-    
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
@@ -151,14 +46,8 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li> <a href="index.html#home" class="smoothScroll">Home</a></li>
-			<li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown"href="#"> Press <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#september" class="smoothScroll">September</a></li>
-                    <li><a href="#october" class="smoothScroll">October</a></li>
-                </ul>
-            </li>
-            <li><a href="#template" class="smoothScroll">Template</a></li>
-			<li> <a href="#aboutpress" class="smoothScroll"> About</a></li>
+            <li><a href="press.html" class="smoothScroll">Press</a></li>
+			<li> <a href="press.html#aboutpress" class="smoothScroll">About</a></li>
         </div><!--/.nav-collapse -->
       </div>
     </div>
@@ -179,6 +68,7 @@
 			<div class="row white">
 			<br>
 			<h2>Ceci est un exemple de revue de presse en termes de mise en page et présentation</h2>
+			<h4>J. Auteur1, A. Auteur2, M. Auteur3, <i>par ordre alphabétique</i></h4>
 				<div class="col-lg-12"> 
 			        <p>Ce mois-ci, plusieurs articles ont retenu notre attention dans les domaines de la classification des <abbr title="Ensembles de données qui deviennent tellement volumineux qu'ils en deviennent difficiles à travailler avec des outils classiques de gestion de base de données ou de gestion de l'information.">
 			        Big Data</abbr> <sup><a href="#sept2015ref">[1]</a></sup>
