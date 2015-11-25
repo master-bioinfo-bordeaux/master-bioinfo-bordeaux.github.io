@@ -1,1 +1,115 @@
-{"C20150731T145923@userGithub":{"ID":"C20150731T145923@userGithub","summary":"F6BS7M02-Stats","date_start":"20150831T1400","date_end":"20150831T1700","group":"All","lecturer":"M Beurton-Aimar","location":"room24@ED::Carreire","description":"Read the article \"Beetroot Plantations in Himalaya\" before coming.","image":"biology","comment":"AEB-Stats"},"C1F20150731T145915@username":{"ID":"C1F20150731T145915@username","summary":"J1BS7M01-Imag","date_start":"20150804T0800","date_end":"20150804T1200","group":"A","lecturer":"JC Taveau","location":"room24@CREMI::Talence","description":"","image":"hybrid","comment":"BioMod-Imag"},"C1F20150731T145940@username":{"ID":"C1F20150731T145940@username","summary":"J1BS7M01-Imag","date_start":"20150804T0800","date_end":"20150804T1200","group":"B","lecturer":"P ThÃÂ©bault","location":"room41@ED::Carreire","description":"","comment":"Biomod-Imag"},"C2F20150801T1459@jeesay":{"ID":"C2F20150801T1459@jeesay","summary":"F1BS0201","comment":"StageM2","date_start":"20150301T0000","date_end":"20150831T0000","group":"All","lecturer":"","location":"","description":""},"E1F20150801T1459@jeesay":{"ID":"E1F20150801T1459@jeesay","summary":"Summer holidays","date_start":"20150701T0000","date_end":"20150831T0000","location":"","groups":"All","lecturer":"","description":"","students":"C++BIO[required],GENORG[required],ORGECO[required],BSC[required]","image":"summer","comment":"Summer Holidays"},"E0F20150731T1459@jeesay":{"ID":"E0F20150731T1459@jeesay","summary":"RÃÂ©union de rentrÃÂ©e M1 et M2","lecturer":"","date_start":"20150901T1000","date_end":"20150901T1200","location":"LaBRI::Talence","students":"C++BIO[required],GENORG[required],ORGECO[required],BSC[required]","description":"PrÃÂ©sentation des divers enseignements, organisation du master pour chacune des annÃÂ©es.","image":"calendar","comment":"RentrÃÂ©e"},"E0F20150831T1459@jeesay":{"ID":"E0F20150831T1459@jeesay","summary":"Soutenance des M2 - Promotion 2015","lecturer":"","date_start":"20150911T0800","date_end":"20150911T1830","location":"LaBRI::Talence","students":"C++BIO[required],GENORG[required],ORGECO[required],BSC[required]","description":"PrÃÂ©sentation du travail rÃÂ©alisÃÂ© pendant le stage long.","image":"calendar","comment":"Soutenance"},"C20151125T110830744@jeesay":{"ID":"C20151125T110830744@jeesay","summary":"J1BS9203","date_start":"2015-12-08T0800","date_end":"2015-12-08T1200","lecturer":"Taveau JC","location":"Talence::A29-CREMI@???","description":"None","comment":"S9::Prot3D"},"C20151125T111347397@jeesay":{"ID":"C20151125T111347397@jeesay","summary":"J1BS9203","date_start":"2015-12-08T0800","date_end":"2015-12-08T1200","lecturer":"Taveau JC","location":"Talence::A29-CREMI@000","description":"None","comment":"S9::Prot3D"}}
+{
+  "C20150731T145923@userGithub": {
+    "ID": "C20150731T145923@userGithub",
+    "summary": "F6BS7M02-Stats",
+    "date_start": "20150831T1400",
+    "date_end": "20150831T1700",
+    "group": "All",
+    "lecturer": "M Beurton-Aimar",
+    "location": "room24@ED::Carreire",
+    "description": "Read the article \"Beetroot Plantations in Himalaya\" before coming.",
+    "image": "biology",
+    "comment": "AEB-Stats"
+  },
+  "C1F20150731T145915@username": {
+    "ID": "C1F20150731T145915@username",
+    "summary": "J1BS7M01-Imag",
+    "date_start": "20150804T0800",
+    "date_end": "20150804T1200",
+    "group": "A",
+    "lecturer": "JC Taveau",
+    "location": "room24@CREMI::Talence",
+    "description": "",
+    "image": "hybrid",
+    "comment": "BioMod-Imag"
+  },
+  "C1F20150731T145940@username": {
+    "ID": "C1F20150731T145940@username",
+    "summary": "J1BS7M01-Imag",
+    "date_start": "20150804T0800",
+    "date_end": "20150804T1200",
+    "group": "B",
+    "lecturer": "P ThÃÂÃÂ©bault",
+    "location": "room41@ED::Carreire",
+    "description": "",
+    "comment": "Biomod-Imag"
+  },
+  "C2F20150801T1459@jeesay": {
+    "ID": "C2F20150801T1459@jeesay",
+    "summary": "F1BS0201",
+    "comment": "StageM2",
+    "date_start": "20150301T0000",
+    "date_end": "20150831T0000",
+    "group": "All",
+    "lecturer": "",
+    "location": "",
+    "description": ""
+  },
+  "E1F20150801T1459@jeesay": {
+    "ID": "E1F20150801T1459@jeesay",
+    "summary": "Summer holidays",
+    "date_start": "20150701T0000",
+    "date_end": "20150831T0000",
+    "location": "",
+    "groups": "All",
+    "lecturer": "",
+    "description": "",
+    "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+    "image": "summer",
+    "comment": "Summer Holidays"
+  },
+  "E0F20150731T1459@jeesay": {
+    "ID": "E0F20150731T1459@jeesay",
+    "summary": "RÃÂÃÂ©union de rentrÃÂÃÂ©e M1 et M2",
+    "lecturer": "",
+    "date_start": "20150901T1000",
+    "date_end": "20150901T1200",
+    "location": "LaBRI::Talence",
+    "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+    "description": "PrÃÂÃÂ©sentation des divers enseignements, organisation du master pour chacune des annÃÂÃÂ©es.",
+    "image": "calendar",
+    "comment": "RentrÃÂÃÂ©e"
+  },
+  "E0F20150831T1459@jeesay": {
+    "ID": "E0F20150831T1459@jeesay",
+    "summary": "Soutenance des M2 - Promotion 2015",
+    "lecturer": "",
+    "date_start": "20150911T0800",
+    "date_end": "20150911T1830",
+    "location": "LaBRI::Talence",
+    "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+    "description": "PrÃÂÃÂ©sentation du travail rÃÂÃÂ©alisÃÂÃÂ© pendant le stage long.",
+    "image": "calendar",
+    "comment": "Soutenance"
+  },
+  "C20151125T110830744@jeesay": {
+    "ID": "C20151125T110830744@jeesay",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-08T0800",
+    "date_end": "2015-12-08T1200",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@???",
+    "description": "None",
+    "comment": "S9::Prot3D"
+  },
+  "C20151125T111347397@jeesay": {
+    "ID": "C20151125T111347397@jeesay",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-08T0800",
+    "date_end": "2015-12-08T1200",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None",
+    "comment": "S9::Prot3D"
+  },
+  "C20151125T125835423@jeesay": {
+    "ID": "C20151125T125835423@jeesay",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-08T0800",
+    "date_end": "2015-12-08T1200",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None",
+    "comment": "S9::Prot3D"
+  }
+}
