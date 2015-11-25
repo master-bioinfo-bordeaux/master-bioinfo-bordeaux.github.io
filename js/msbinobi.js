@@ -672,7 +672,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
-        'background_color': '#1010ff',
+        'background_color': '#0095ff',
         "visibility": "visible",
         "contents": {
             "fr": 
