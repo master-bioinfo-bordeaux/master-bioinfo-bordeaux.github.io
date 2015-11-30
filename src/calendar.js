@@ -38,6 +38,71 @@ function loadCalendarData() {
 
 }
 
+function getEventsOfWeek(weeknum,cal_data) {
+    var today = new Date(y,m,d);
+    var weekevents = [];
+    // Search events occuring during this week 
+    for (var index in cal_data) {
+        var element = cal_data[index];
+        var startDate = new Date(
+            parseInt(element.date_start.substr(0,4)),
+            parseInt(element.date_start.substr(4,2)) - 1,
+            parseInt(element.date_start.substr(6,2)),
+            parseInt(element.date_start.substr(9,2)),
+            parseInt(element.date_start.substr(11,2)) 
+        );
+        var endDate   = new Date(
+            parseInt(element.date_end.substr(0,4)),
+            parseInt(element.date_end.substr(4,2)) - 1,
+            parseInt(element.date_end.substr(6,2)),
+            parseInt(element.date_end.substr(9,2)),
+            parseInt(element.date_end.substr(11,2))
+        );
+        
+        // From MON to FRI
+        for (var i = 1; i < 6; i++) {
+            var day = new Date(y,m,d - today.getDay() + i);
+            var dayD       = getYYYYMMDD(day);       // Days number since UTC
+            var startDateD = getYYYYMMDD(startDate); // Days number since UTC
+            var endDateD   = getYYYYMMDD(endDate);   // Days number since UTC
+            var tmp = new Date();tmp.setTime(day.getTime() );
+            console.log(dayD,startDateD,endDateD);
+            if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
+                console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
+                element.weekdayIndex = i;
+                var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
+                element.startDate = startDate;
+                element.endDate   = endDate;
+                element.duration     = Math.ceil(timeDiff / (1000 * 60));
+                // parseInt(element.date_end.substr(9,4) - parseInt(element.date_start.substr(9,4)));
+                weekevents.push(element);
+            }
+        }
+    }
+    // Sort events by time from 0800 to 1900
+    weekevents.sort(function sort(a,b) {
+        if (a.startDate.getTime() > b.startDate.getTime() ) {
+            return 1;
+        }
+        else if (a.startDate.getTime() < b.startDate.getTime() ) {
+            return -1;
+        }
+        else {
+            if (a.weekdayIndex > b.weekdayIndex ) {
+                return 1;
+            }
+            else if (a.weekdayIndex < b.weekdayIndex ) {
+                return -1;
+            }
+            else
+                return 0;
+        }
+    });
+    
+    return weekevents;
+}
+
+
 function processCalendarData() {
     
     var y = parseInt(document.getElementById("calendar").dataset.year);
@@ -188,17 +253,19 @@ function getYYYYMMDD(date) {
 // From pikaday 
 // https://github.com/dbushell/Pikaday/blob/master/pikaday.js
 // This formula follows the US norm 
+/***********
 function getWeekNum(y,m,d) {
     var firstjan = new Date(y, 0, 1);
     return Math.ceil((((new Date(y, m, d) - firstjan) / 86400000) + firstjan.getDay()+1)/7);
 }
+*************/
 
-function getISOWeekNum(y,m,d) {
 /**
  * Get the ISO week date week number
  * From http://techblog.procurios.nl/k/n618/news/view/33796/14863/calculate-iso-8601-week-and-year-in-javascript.html
  * By Taco van den Broek
  */
+function getISOWeekNum(y,m,d) {
     var date = new Date(y,m,d);
 	// Create a copy of this date object
 	var target  = new Date(y,m,d);
@@ -371,7 +438,7 @@ function createEventCell(cal_event) {
         html += 'href="javascript:void(0)" ';
         html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required event' btn-danger and Blue: 'elective' btn-primary
         html += 'onclick="displayCalendarModal(\'' + cal_event.ID + '\')">';
-        html += the_course.acronym + '</a>&nbsp;[' + cal_event.Nbsession +'] '; // Sessions number ??
+        html += the_course.acronym + '</a>'; // TODO: &nbsp;[' + cal_event.Nbsession +'] ' Sessions number ??
         console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
         var hh = (parseInt(cal_event.startDate.getHours())   < 10) ? ('0'+ cal_event.startDate.getHours())   : cal_event.startDate.getHours();
         var mm = (parseInt(cal_event.startDate.getMinutes()) < 10) ? ('0'+ cal_event.startDate.getMinutes()) : cal_event.startDate.getMinutes();
@@ -380,6 +447,7 @@ function createEventCell(cal_event) {
         mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
         html += hh + ':' + mm + '</span>';
         html += '</li>';
+        html += '<li>'+cal_event.comment +'</li>';
         html += '<li>'+cal_event.lecturer+'</li>';
         html += '<li>'+cal_event.location+'</li>';
         html += '</ul>';

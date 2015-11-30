@@ -484,6 +484,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        'background_color': '#ff9100',
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -518,6 +519,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 9,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        'background_color': '#a4ff80',
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -641,6 +643,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        'background_color': '#eef409',
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -671,6 +674,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        'background_color': '#0095ff',
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -772,7 +776,7 @@ Systemes Autonomes	                                                        6		24
     
     "J1BS9207" : {
         "id": "J1BS9207",
-        "acronym": "AlgoGraph",
+        "acronym": "AlgoBioGraph",
         "title": "Algorithmique pour la bio-informatique et graphe",
         "ects": 3,
         "semester": 9,
@@ -859,6 +863,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 6,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        'background_color': '#e8e8e8',
         "visibility": "visible",
         "contents": {
             "fr": "",
@@ -894,7 +899,7 @@ Systemes Autonomes	                                                        6		24
     
     "J1IN9413" : {
         "id": "J1IN9413",
-        "acronym": "IndexClass",
+        "acronym": "OICI",
         "title": "Outils d'indexation et de classification de l'information",
         "ects": 6,
         "semester": 9,
@@ -919,6 +924,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 6,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        'background_color': '#ffa6fa',
         "visibility": "visible",
         "contents": {
             "fr": 
