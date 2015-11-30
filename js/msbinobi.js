@@ -776,7 +776,7 @@ Systemes Autonomes	                                                        6		24
     
     "J1BS9207" : {
         "id": "J1BS9207",
-        "acronym": "AlgoGraph",
+        "acronym": "AlgoBioGraph",
         "title": "Algorithmique pour la bio-informatique et graphe",
         "ects": 3,
         "semester": 9,
@@ -899,7 +899,7 @@ Systemes Autonomes	                                                        6		24
     
     "J1IN9413" : {
         "id": "J1IN9413",
-        "acronym": "IndexClass",
+        "acronym": "OICI",
         "title": "Outils d'indexation et de classification de l'information",
         "ects": 6,
         "semester": 9,
