@@ -2,8 +2,8 @@
   "C1F20150731T145915@username": {
     "ID": "C1F20150731T145915@username",
     "comment": "BioMod-Imag",
-    "date_end": "20150804T1200",
-    "date_start": "20150804T0800",
+    "date_end": "2015-08-04T12:00",
+    "date_start": "2015-08-04T08:00",
     "description": "",
     "group": "A",
     "image": "hybrid",
@@ -37,8 +37,8 @@
   "C20151125T130047737@jeesay": {
     "ID": "C20151125T130047737@jeesay",
     "comment": "Cours+TD",
-    "date_end": "20151208T1200",
-    "date_start": "20151208T0800",
+    "date_end": "2015-12-08T12:00",
+    "date_start": "2015-12-08T08:00",
     "description": "None",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@000",
@@ -47,8 +47,8 @@
   "C20151125T130656844@jeesay": {
     "ID": "C20151125T130656844@jeesay",
     "comment": "Cours+TD",
-    "date_end": "20151211T1200",
-    "date_start": "20151211T0900",
+    "date_end": "2015-12-11T12:00",
+    "date_start": "2015-12-11T09:00",
     "description": "None",
     "lecturer": "Desbarats P",
     "location": "Talence::A29-CREMI@204",
@@ -57,8 +57,8 @@
   "C20151125T130901436@jeesay": {
     "ID": "C20151125T130901436@jeesay",
     "comment": "Cours+TD",
-    "date_end": "20151207T1700",
-    "date_start": "20151207T1400",
+    "date_end": "2015-12-07T17:00",
+    "date_start": "2015-12-07T14:00",
     "description": "None",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@103",
@@ -67,8 +67,8 @@
   "C20151125T131057252@jeesay": {
     "ID": "C20151125T131057252@jeesay",
     "comment": "Cours+TD",
-    "date_end": "20151210T1800",
-    "date_start": "20151210T1300",
+    "date_end": "2015-12-10T18:00",
+    "date_start": "2015-12-10T13:00",
     "description": "None",
     "lecturer": "Chaumette S",
     "location": "Talence::A29-CREMI@005",
@@ -77,8 +77,8 @@
   "C20151125T131213146@jeesay": {
     "ID": "C20151125T131213146@jeesay",
     "comment": "Cours+TD",
-    "date_end": "20151209T1800",
-    "date_start": "20151209T1600",
+    "date_end": "2015-12-09T18:00",
+    "date_start": "2015-12-09T16:00",
     "description": "None",
     "lecturer": "------",
     "location": "Talence::A29-CREMI@102",
@@ -110,8 +110,8 @@
   "E0F20150831T1459@jeesay": {
     "ID": "E0F20150831T1459@jeesay",
     "comment": "Soutenance",
-    "date_end": "20150911T1830",
-    "date_start": "20150911T0800",
+    "date_end": "2015-09-11T18:30",
+    "date_start": "2015-09-11T08:00",
     "description": "Presentation du travail realise pendant le stage long.",
     "image": "calendar",
     "lecturer": "",
@@ -122,8 +122,8 @@
   "E1F20150801T1459@jeesay": {
     "ID": "E1F20150801T1459@jeesay",
     "comment": "Summer Holidays",
-    "date_end": "20150831T0000",
-    "date_start": "20150701T0000",
+    "date_end": "2015-08-31T00:00",
+    "date_start": "2015-07-01T00:00",
     "description": "",
     "groups": "All",
     "image": "summer",
@@ -132,11 +132,11 @@
     "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
     "summary": "Summer holidays"
   },
-  "C20151125T134050402@jeesay": {
+  "C2F20151125T134050402@jeesay": {
     "ID": "C20151125T134050402@jeesay",
     "summary": "B0BS9319",
-    "date_start": "20151207T0900",
-    "date_end": "20151207T1200",
+    "date_start": "2015-12-07T09:00",
+    "date_end": "2015-12-07T12:00",
     "lecturer": "Bernaulte JJ",
     "location": "Talence::A21-OMEGA@156",
     "description": "None",
@@ -145,8 +145,8 @@
   "C2F20151130T103705158@jeesay": {
     "ID": "C2F20151130T103705158@jeesay",
     "summary": "J1IN9413",
-    "date_start": "20151209T1000",
-    "date_end": "20151209T1200",
+    "date_start": "2015-12-09T10:00",
+    "date_end": "2015-12-09T12:00",
     "lecturer": "Domenger JP",
     "location": "Talence::A29-CREMI@202",
     "description": "None",
