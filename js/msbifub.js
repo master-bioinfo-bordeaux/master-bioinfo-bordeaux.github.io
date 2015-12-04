@@ -1533,13 +1533,13 @@ function findEvent(events,start,col) {
     var day = col + 1 // col#0 = MONDAY = day#1
     var html='';
     for (var i = 0; i < events.length; i++) {
-        var startMin = events[i].startDate.getHours()*60+events[i].startDate.getMinutes();
+        var startMin = Math.round(events[i].startDate.getHours()*60+events[i].startDate.getMinutes() );
         var startDay = events[i].weekdayIndex;
         if (startMin == start && startDay == day) {
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
                 console.log('table ',(start - 480 )/30 +t,' ',day);
-                table.cells[Math.round((start - 480 )/30) + t][col]++;
+                table.cells[(start - 480 )/30 + t][col]++;
             }
         }
     }
