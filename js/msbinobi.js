@@ -1217,7 +1217,7 @@ function updateCalendarBody(y,m,d) {
     // console.log(calendar_data);
     var today = new Date(y,m,d);
     var weekevents = [];
-    
+
         // Search events occuring during this week 
         
         for (var index in calendar_data) {
@@ -1240,14 +1240,14 @@ function updateCalendarBody(y,m,d) {
                     element.startDate = startDate;
                     element.endDate   = endDate;
                     element.duration  = Math.ceil(timeDiff / (1000 * 60));
-                    weekevents[i].push(element);
+                    weekevents.push(element);
                 }
             }
         }
         
         // Sort events by time from 0800 to 1900
         for (var i = 1; i < 6; i++) {
-            weekevents[i].sort(function sort(a,b) {
+            weekevents.sort(function sort(a,b) {
                 if (a.startDate.getTime() > b.startDate.getTime() ) {
                     return 1;
                 }
