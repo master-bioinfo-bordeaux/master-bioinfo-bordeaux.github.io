@@ -1219,7 +1219,6 @@ function updateCalendarBody(y,m,d) {
     var weekevents = [];
     
         // Search events occuring during this week 
-        console.log('DATA ' + JSON.stringify(calendar_data));
         
         for (var index in calendar_data) {
             var element = calendar_data[index];
@@ -1229,7 +1228,7 @@ function updateCalendarBody(y,m,d) {
             
             // From MON to FRI
             for (var i = 1; i < 6; i++) {
-                var day = new Date(y,m,d - calendar.date.getDay() + i);
+                var day = new Date(y,m,d - today.getDay() + i);
                 var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
                 var startDateD = element.date_start.substr(0,10); // Days number since UTC
                 var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
