@@ -234,7 +234,13 @@
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@000",
     "description": "None",
-    "comment": "Cours+TD"
+    "comment": "Cours+TD",
+    "title": "S09::Prot3D",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 2
   },
   "C2F20151204T151730531@jeesay": {
     "ID": "C2F20151204T151730531@jeesay",
@@ -244,7 +250,11 @@
     "lecturer": "Chaumette S",
     "location": "Talence::A29-CREMI@005",
     "description": "None",
-    "comment": "Cours+TD"
+    "comment": "Cours+TD",
+    "title": "S09::SysAuto",
+    "warnings": [],
+    "hours": "13:00-18:00",
+    "weekdayIndex": 4
   },
   "C2F20151204T151915517@jeesay": {
     "ID": "C2F20151204T151915517@jeesay",
@@ -254,7 +264,15 @@
     "lecturer": "------",
     "location": "None::None@000",
     "description": "None",
-    "comment": "Examen"
+    "comment": "Examen",
+    "title": "S09::AppObj",
+    "warnings": [
+      " No lecturer!!",
+      " No address!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
   },
   "C2F20151204T153609209@jeesay": {
     "ID": "C2F20151204T153609209@jeesay",
@@ -264,6 +282,22 @@
     "lecturer": "Pinaud B",
     "location": "Talence::A29-CREMI@000",
     "description": "None",
-    "comment": "Cours+TD"
+    "comment": "Cours+TD",
+    "title": "S09::CPR&D",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
+  },
+  "C2F20151204T154300582@jeesay": {
+    "ID": "C2F20151204T154300582@jeesay",
+    "summary": "J1IN9413",
+    "date_start": "2015-12-16T10:00",
+    "date_end": "2015-12-16T12:00",
+    "lecturer": "Domenger JP",
+    "location": "Talence::A29-CREMI@202",
+    "description": "None",
+    "comment": "Cours"
   }
 }
