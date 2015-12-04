@@ -1053,6 +1053,31 @@ TableCal.prototype.reset = function() {
  * 2015
  ************************************/
 
+
+// Polyfill
+if ( !Date.prototype.toCalString ) {
+  ( function() {
+    
+    function pad(number) {
+      if ( number < 10 ) {
+        return '0' + number;
+      }
+      return number;
+    }
+ 
+    Date.prototype.toCalString = function() {
+      return this.getFullYear() +
+        '-' + pad( this.getMonth() + 1 ) +
+        '-' + pad( this.getDate() ) +
+        'T' + pad( this.getHours() ) +
+        ':' + pad( this.getMinutes() ) +
+        ':' + pad( this.getSeconds() ) +
+        '.' + (this.getMilliseconds() / 1000).toFixed(3).slice(2, 5);
+    };
+  
+  }() );
+}
+
 var calendar_data = null;
 var table = new TableCal();
 
@@ -1086,9 +1111,14 @@ function loadCalendarData() {
 
 }
 
+
+/*************************
 function getEventsOfWeek(weeknum,cal_data) {
     var today = new Date(y,m,d);
     var weekevents = [];
+    
+
+
     // Search events occuring during this week 
     for (var index in cal_data) {
         var element = cal_data[index];
@@ -1149,6 +1179,7 @@ function getEventsOfWeek(weeknum,cal_data) {
     
     return weekevents;
 }
+******************************************************************************************************/
 
 
 function processCalendarData() {
@@ -1186,6 +1217,59 @@ function updateCalendarBody(y,m,d) {
     // console.log(calendar_data);
     var today = new Date(y,m,d);
     var weekevents = [];
+    
+        // Search events occuring during this week 
+        console.log('DATA ' + JSON.stringify(calendar_data));
+        
+        for (var index in calendar_data) {
+            var element = calendar_data[index];
+            var startDate = new Date(element.date_start);
+            var endDate   = new Date(element.date_end);
+            console.log('START ' + startDate);
+            
+            // From MON to FRI
+            for (var i = 1; i < 6; i++) {
+                var day = new Date(y,m,d - calendar.date.getDay() + i);
+                var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
+                var startDateD = element.date_start.substr(0,10); // Days number since UTC
+                var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
+                console.log(dayD,startDateD,endDateD,day, day.toCalString());
+                if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
+                    console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
+                    element.weekdayIndex = i;
+                    var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
+                    element.startDate = startDate;
+                    element.endDate   = endDate;
+                    element.duration  = Math.ceil(timeDiff / (1000 * 60));
+                    weekevents[i].push(element);
+                }
+            }
+        }
+        
+        // Sort events by time from 0800 to 1900
+        for (var i = 1; i < 6; i++) {
+            weekevents[i].sort(function sort(a,b) {
+                if (a.startDate.getTime() > b.startDate.getTime() ) {
+                    return 1;
+                }
+                else if (a.startDate.getTime() < b.startDate.getTime() ) {
+                    return -1;
+                }
+                else {
+                    if (a.weekdayIndex > b.weekdayIndex ) {
+                        return 1;
+                    }
+                    else if (a.weekdayIndex < b.weekdayIndex ) {
+                        return -1;
+                    }
+                    else
+                        return 0;
+                }
+            });
+        }
+        
+        
+/******************************************************************************
     // Search events occuring during this week 
     for (var index in calendar_data) {
         var element = calendar_data[index];
@@ -1218,7 +1302,7 @@ function updateCalendarBody(y,m,d) {
                 var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                 element.startDate = startDate;
                 element.endDate   = endDate;
-                element.duration     = Math.ceil(timeDiff / (1000 * 60));
+                element.duration  = Math.ceil(timeDiff / (1000 * 60));
                 // parseInt(element.date_end.substr(9,4) - parseInt(element.date_start.substr(9,4)));
                 weekevents.push(element);
             }
@@ -1243,7 +1327,7 @@ function updateCalendarBody(y,m,d) {
                 return 0;
         }
     });
-
+***************************************************************/
     createEventCells(weekevents);
 }
 
