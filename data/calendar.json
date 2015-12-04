@@ -73,7 +73,7 @@
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@103",
     "summary": "F1BS9201",
-    "title": "S09::CommPR&D",
+    "title": "S09::CPR&D",
     "warnings": [],
     "hours": "14:00-17:00",
     "weekdayIndex": 1
@@ -255,5 +255,15 @@
     "location": "None::None@000",
     "description": "None",
     "comment": "Examen"
+  },
+  "C2F20151204T153609209@jeesay": {
+    "ID": "C2F20151204T153609209@jeesay",
+    "summary": "F1BS9201",
+    "date_start": "2015-12-08T14:00",
+    "date_end": "2015-12-08T17:00",
+    "lecturer": "Pinaud B",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None",
+    "comment": "Cours+TD"
   }
 }
