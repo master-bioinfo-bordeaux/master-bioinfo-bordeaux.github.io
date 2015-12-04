@@ -298,6 +298,20 @@
     "lecturer": "Domenger JP",
     "location": "Talence::A29-CREMI@202",
     "description": "None",
-    "comment": "Cours"
+    "comment": "Cours",
+    "title": "S09::OICI",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 3
+  },
+  "C2F20151204T154622710@jeesay": {
+    "ID": "C2F20151204T154622710@jeesay",
+    "summary": "J1IN9413",
+    "date_start": "2015-12-17T10:10",
+    "date_end": "2015-12-17T12:10",
+    "lecturer": "Domenger JP",
+    "location": "Talence::A29-CREMI@204",
+    "description": "None",
+    "comment": "TD machine"
   }
 }
