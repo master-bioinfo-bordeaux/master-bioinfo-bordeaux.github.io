@@ -18,7 +18,7 @@
     "date_start": "20150804T0800",
     "description": "",
     "group": "B",
-    "lecturer": "P ThÃÂÃÂÃÂÃÂ©bault",
+    "lecturer": "P ThÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©bault",
     "location": "room41@ED::Carreire",
     "summary": "J1BS7M01-Imag"
   },
@@ -204,6 +204,20 @@
     "date_start": "2015-12-11T16:20",
     "date_end": "2015-12-11T18:20",
     "lecturer": "Uricaru R",
+    "location": "Talence::A29-CREMI@201",
+    "description": "None",
+    "comment": "TD machine",
+    "title": "S09::AlgoGraph",
+    "warnings": [],
+    "hours": "16:20-18:20",
+    "weekdayIndex": 5
+  },
+  "C2F20151204T150228253@jeesay": {
+    "ID": "C2F20151204T150228253@jeesay",
+    "summary": "J1BS9207",
+    "date_start": "2015-12-11T14:00",
+    "date_end": "2015-12-11T16:00",
+    "lecturer": "Pinaud B",
     "location": "Talence::A29-CREMI@201",
     "description": "None",
     "comment": "TD machine"
