@@ -905,6 +905,7 @@ Systemes Autonomes	                                                        6		24
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "visibility": "visible",
+        'background_color': '#0af9f9',
         "contents": {
             "fr": 
                 "<h2>Programme</h2>"+
