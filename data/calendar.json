@@ -18,7 +18,7 @@
     "date_start": "20150804T0800",
     "description": "",
     "group": "B",
-    "lecturer": "P ThÃÂÃÂ©bault",
+    "lecturer": "P ThÃÂÃÂÃÂÃÂ©bault",
     "location": "room41@ED::Carreire",
     "summary": "J1BS7M01-Imag"
   },
@@ -42,7 +42,13 @@
     "description": "None",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@000",
-    "summary": "J1BS9203"
+    "summary": "J1BS9203",
+    "title": "S09::Prot3D",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 2
   },
   "C2F20151125T130656844@jeesay": {
     "ID": "C2F20151125T130656844@jeesay",
@@ -52,7 +58,11 @@
     "description": "None",
     "lecturer": "Desbarats P",
     "location": "Talence::A29-CREMI@204",
-    "summary": "J1BS9204"
+    "summary": "J1BS9204",
+    "title": "S09::ClassData",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C2F20151125T130901436@jeesay": {
     "ID": "C2F20151125T130901436@jeesay",
@@ -62,7 +72,11 @@
     "description": "None",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@103",
-    "summary": "F1BS9201"
+    "summary": "F1BS9201",
+    "title": "S09::CommPR&D",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
   },
   "C2F20151125T131057252@jeesay": {
     "ID": "C2F20151125T131057252@jeesay",
@@ -72,7 +86,11 @@
     "description": "None",
     "lecturer": "Chaumette S",
     "location": "Talence::A29-CREMI@005",
-    "summary": "J1IN9523"
+    "summary": "J1IN9523",
+    "title": "S09::SysAuto",
+    "warnings": [],
+    "hours": "13:00-18:00",
+    "weekdayIndex": 4
   },
   "C2F20151125T131213146@jeesay": {
     "ID": "C2F20151125T131213146@jeesay",
@@ -82,7 +100,13 @@
     "description": "None",
     "lecturer": "------",
     "location": "Talence::A29-CREMI@102",
-    "summary": "J1BS9206"
+    "summary": "J1BS9206",
+    "title": "S09::POA",
+    "warnings": [
+      " No lecturer!!"
+    ],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 3
   },
   "C2F20150801T1459@jeesay": {
     "ID": "C2F20150801T1459@jeesay",
@@ -140,7 +164,11 @@
     "lecturer": "Bernaulte JJ",
     "location": "Talence::A21-OMEGA@156",
     "description": "None",
-    "comment": "TD"
+    "comment": "TD",
+    "title": "S09::AnglaisM2",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "C2F20151130T103705158@jeesay": {
     "ID": "C2F20151130T103705158@jeesay",
@@ -150,7 +178,11 @@
     "lecturer": "Domenger JP",
     "location": "Talence::A29-CREMI@202",
     "description": "None",
-    "comment": "Cours"
+    "comment": "Cours",
+    "title": "S09::OICI",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 3
   },
   "C2F20151204T135523932@jeesay": {
     "ID": "C2F20151204T135523932@jeesay",
@@ -159,6 +191,20 @@
     "date_end": "2015-12-10T12:20",
     "lecturer": "Domenger JP",
     "location": "Talence::A29-CREMI@204",
+    "description": "None",
+    "comment": "TD machine",
+    "title": "S09::OICI",
+    "warnings": [],
+    "hours": "10:20-12:20",
+    "weekdayIndex": 4
+  },
+  "C2F20151204T145908704@jeesay": {
+    "ID": "C2F20151204T145908704@jeesay",
+    "summary": "J1BS9207",
+    "date_start": "2015-12-11T16:20",
+    "date_end": "2015-12-11T18:20",
+    "lecturer": "Uricaru R",
+    "location": "Talence::A29-CREMI@201",
     "description": "None",
     "comment": "TD machine"
   }
