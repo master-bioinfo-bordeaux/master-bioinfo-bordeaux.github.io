@@ -312,6 +312,20 @@
     "lecturer": "Domenger JP",
     "location": "Talence::A29-CREMI@204",
     "description": "None",
-    "comment": "TD machine"
+    "comment": "TD machine",
+    "title": "S09::OICI",
+    "warnings": [],
+    "hours": "10:10-12:10",
+    "weekdayIndex": 4
+  },
+  "C2F20151204T154905345@jeesay": {
+    "ID": "C2F20151204T154905345@jeesay",
+    "summary": "F6BS9202",
+    "date_start": "2015-12-14T14:00",
+    "date_end": "2015-12-14T17:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "None::None@000",
+    "description": "None",
+    "comment": "Cours+TD"
   }
 }
