@@ -1535,6 +1535,8 @@ function findEvent(events,start,col) {
     for (var i = 0; i < events.length; i++) {
         var startMin = Math.round(events[i].startDate.getHours()*60+events[i].startDate.getMinutes() );
         var startDay = events[i].weekdayIndex;
+        
+        console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
         if (startMin == start && startDay == day) {
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
