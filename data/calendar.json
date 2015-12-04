@@ -245,5 +245,15 @@
     "location": "Talence::A29-CREMI@005",
     "description": "None",
     "comment": "Cours+TD"
+  },
+  "C2F20151204T151915517@jeesay": {
+    "ID": "C2F20151204T151915517@jeesay",
+    "summary": "J1INAW12",
+    "date_start": "2015-12-15T14:00",
+    "date_end": "2015-12-15T17:00",
+    "lecturer": "------",
+    "location": "None@000",
+    "description": "None",
+    "comment": "Examen"
   }
 }
