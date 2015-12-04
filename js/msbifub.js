@@ -1533,7 +1533,7 @@ function findEvent(events,start,col) {
     var day = col + 1 // col#0 = MONDAY = day#1
     var html='';
     for (var i = 0; i < events.length; i++) {
-        var startMin = Math.round(events[i].startDate.getHours()+events[i].startDate.getMinutes()/60.0 )*60;
+        var startMin = Math.round(events[i].startDate.getHours()*30 + events[i].startDate.getMinutes()/30.0 ) * 2;
         var startDay = events[i].weekdayIndex;
         
         if (startMin == start && startDay == day) {
