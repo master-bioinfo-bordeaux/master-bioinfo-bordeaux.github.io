@@ -1539,7 +1539,7 @@ function findEvent(events,start,col) {
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
                 console.log('table ',(start - 480 )/30 +t,' ',day);
-                table.cells[(start - 480 )/30 + t][col]++;
+                table.cells[Math.round((start - 480 )/30) + t][col]++;
             }
         }
     }
