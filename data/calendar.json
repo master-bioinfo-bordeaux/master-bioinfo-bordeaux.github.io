@@ -18,7 +18,7 @@
     "date_start": "20150804T0800",
     "description": "",
     "group": "B",
-    "lecturer": "P ThÃÂ©bault",
+    "lecturer": "P ThÃÂÃÂ©bault",
     "location": "room41@ED::Carreire",
     "summary": "J1BS7M01-Imag"
   },
@@ -151,5 +151,15 @@
     "location": "Talence::A29-CREMI@202",
     "description": "None",
     "comment": "Cours"
+  },
+  "C2F20151204T135523932@jeesay": {
+    "ID": "C2F20151204T135523932@jeesay",
+    "summary": "",
+    "date_start": "20151210T1020",
+    "date_end": "20151210T1220",
+    "lecturer": "Domenger JP",
+    "location": "Talence::A29-CREMI@204",
+    "description": "None",
+    "comment": ""
   }
 }
