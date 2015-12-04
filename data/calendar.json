@@ -18,7 +18,7 @@
     "date_start": "20150804T0800",
     "description": "",
     "group": "B",
-    "lecturer": "P ThÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©bault",
+    "lecturer": "P ThÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©bault",
     "location": "room41@ED::Carreire",
     "summary": "J1BS7M01-Imag"
   },
@@ -220,6 +220,20 @@
     "lecturer": "Pinaud B",
     "location": "Talence::A29-CREMI@201",
     "description": "None",
-    "comment": "TD machine"
+    "comment": "TD machine",
+    "title": "S09::AlgoGraph",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 5
+  },
+  "C2F20151204T151150584@jeesay": {
+    "ID": "C2F20151204T151150584@jeesay",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-15T08:00",
+    "date_end": "2015-12-15T12:00",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@",
+    "description": "None",
+    "comment": "Cours+TD"
   }
 }
