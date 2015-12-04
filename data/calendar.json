@@ -326,6 +326,23 @@
     "lecturer": "Th&eacute;bault P",
     "location": "None::None@000",
     "description": "None",
-    "comment": "Cours+TD"
+    "comment": "Cours+TD",
+    "title": "S09::Entreprise",
+    "warnings": [
+      " No address!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
+  },
+  "C2F20151204T155535674@jeesay": {
+    "ID": "C2F20151204T155535674@jeesay",
+    "summary": "B0BS9319",
+    "date_start": "2015-12-14T09:00",
+    "date_end": "2015-12-14T12:00",
+    "lecturer": "Bernaulte JJ",
+    "location": "Talence::A21-OMEGA@156",
+    "description": "None",
+    "comment": "TD"
   }
 }
