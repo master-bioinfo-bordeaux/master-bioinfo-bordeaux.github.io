@@ -1536,8 +1536,9 @@ function findEvent(events,start,col) {
         var startMin = Math.round(events[i].startDate.getHours()*60+events[i].startDate.getMinutes() );
         var startDay = events[i].weekdayIndex;
         
-        console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
         if (startMin == start && startDay == day) {
+            console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
+
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
                 console.log('table ',(start - 480 )/30 +t,' ',day);
@@ -1555,7 +1556,7 @@ function createEmptyCell() {
 
 
 function createEventCell(cal_event) {
-    console.log(cal_event);
+    console.log(JSON.stringify(cal_event) );
     var ID = cal_event.ID;
     
     var html = '';
