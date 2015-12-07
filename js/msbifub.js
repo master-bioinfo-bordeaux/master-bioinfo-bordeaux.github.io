@@ -1563,7 +1563,7 @@ function createEventCell(cal_event) {
     var ID = cal_event.ID;
     
     var html = '';
-    if (ID[0] === 'C') {
+    if (ID[0] === 'C' || ID[0] === 'E') {
         var courseID = calendar_data[ID].summary;
         var the_course = course_data[courseID];
 
@@ -1574,7 +1574,7 @@ function createEventCell(cal_event) {
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
         html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required event' btn-danger and Blue: 'elective' btn-primary
-        html += 'onclick="displayCalendarModal(\'' + cal_event.ID + '\')">';
+        html += 'onclick="displayCalendarModal(\'' + ID + '\')">';
         html += the_course.acronym + '</a>'; // TODO: &nbsp;[' + cal_event.Nbsession +'] ' Sessions number ??
         console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
         var hh = (parseInt(cal_event.startDate.getHours())   < 10) ? ('0'+ cal_event.startDate.getHours())   : cal_event.startDate.getHours();
