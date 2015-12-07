@@ -12,18 +12,21 @@ var course_data = {
         'acronym'   : "Conf",
         'visibility'        : 'visible', // visible or hidden 
         'background_color'  : '#eef409',
+        'icon'              : 'fa fa-comments'
     
     },
     'HOLIDAYS' : {
         'acronym'   : "Holidays",
         'visibility'        : 'visible', // visible or hidden 
         'background_color'  : '#eef409',
+        'icon'              : 'fa fa-globe'
     
     },
     'PRESS' : {
-        'acronym'   : "Press",
+        'acronym'   : "Press Highlights",
         'visibility'        : 'visible', // visible or hidden 
         'background_color'  : '#eef409',
+        'icon'              : 'fa fa-newspaper-o'
     
     },
     
@@ -1512,7 +1515,7 @@ function createEventModal(ID) {
     var html = '';
     html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
-    html += '<h4 class="modal-title">'+the_event.acronym +'</h4>';
+    html += '<h4 class="modal-title">'+the_event.acronym +'<span class="pull-right"><i class="' + the_event.icon +'"> </i>&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>';
     html += '</div>';
     html += '<div class="modal-body">';
     //html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
