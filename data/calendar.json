@@ -352,15 +352,32 @@
   "E26120151207T134201143@jeesay": {
     "ID": "E26120151207T134201143@jeesay",
     "summary": "Event",
-    "title": "Introduction au web sémantique",
-    "lecturer": "Pr Fernández-Breis JT",
+    "title": "Event",
+    "lecturer": "Pr FernÃ¡ndez-Breis JT",
     "year": "2",
     "date_start": "2015-12-16T14:00",
     "date_end": "2015-12-16T17:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@176",
-    "description": "Introduction au web sémantique",
+    "description": "Introduction au web sÃ©mantique",
     "comment": "Conference",
-    "tracks": "61"
+    "tracks": "61",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 3
+  },
+  "E3f20151207T140414497@jeesay": {
+    "ID": "E3f20151207T140414497@jeesay",
+    "summary": "Event",
+    "title": "Revue de Presse de DÃ©cembre",
+    "lecturer": "-- Etudiants ",
+    "year": "3",
+    "date_start": "2015-12-16T13:00",
+    "date_end": "2015-12-16T13:50",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@000",
+    "description": "Revue de Presse de DÃ©cembre",
+    "comment": "RevuePresse",
+    "tracks": "f"
   }
 }
