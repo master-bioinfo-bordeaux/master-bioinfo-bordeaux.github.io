@@ -59,7 +59,7 @@
     "lecturer": "Desbarats P",
     "location": "Talence::A29-CREMI@204",
     "summary": "J1BS9204",
-    "title": "S09::ClassData",
+    "title": "S09::ClssData",
     "warnings": [],
     "hours": "09:00-12:00",
     "weekdayIndex": 5
@@ -207,7 +207,7 @@
     "location": "Talence::A29-CREMI@201",
     "description": "None",
     "comment": "TD machine",
-    "title": "S09::AlgoGraph",
+    "title": "S09::AlgoGrph",
     "warnings": [],
     "hours": "16:20-18:20",
     "weekdayIndex": 5
@@ -221,7 +221,7 @@
     "location": "Talence::A29-CREMI@201",
     "description": "None",
     "comment": "TD machine",
-    "title": "S09::AlgoGraph",
+    "title": "S09::AlgoGrph",
     "warnings": [],
     "hours": "14:00-16:00",
     "weekdayIndex": 5
@@ -343,6 +343,24 @@
     "lecturer": "Bernaulte JJ",
     "location": "Talence::A21-OMEGA@156",
     "description": "None",
-    "comment": "TD"
+    "comment": "TD",
+    "title": "S09::AnglaisM2",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
+  },
+  "E26120151207T134201143@jeesay": {
+    "ID": "E26120151207T134201143@jeesay",
+    "summary": "Event",
+    "title": "Introduction au web sémantique",
+    "lecturer": "Pr Fernández-Breis JT",
+    "year": "2",
+    "date_start": "2015-12-16T14:00",
+    "date_end": "2015-12-16T17:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@176",
+    "description": "Introduction au web sémantique",
+    "comment": "Conference",
+    "tracks": "61"
   }
 }
