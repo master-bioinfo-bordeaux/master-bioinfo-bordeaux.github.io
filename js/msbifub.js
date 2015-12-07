@@ -1524,7 +1524,7 @@ function createEventModal(ID) {
     html += '<h4 class="modal-title">'+the_event.title +'<span class="pull-right"><i class="' + the_event.icon +'"> </i>&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>';
     html += '</div>';
     html += '<div class="modal-body">';
-    html += '<p><img class="img-responsive" src="img/'+image+'" alt=""></p>';
+    html += '<p><img class="img-responsive" src="img/' + the_event.image + '" alt=""></p>';
     html += '';
     html += '<h2>' + calendar_data[ID].title + '</h2>'; // HACK
     html += calendar_data[ID].description; // HACK
