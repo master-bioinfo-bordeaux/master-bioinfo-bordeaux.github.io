@@ -4,6 +4,30 @@ var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master
 var course_data = {
 
 /**********************************************
+ SPECIAL EVENTS
+
+**********************************************/
+
+    'CONFERENCE' : {
+        'acronym'   : "Conf",
+        'visibility'        : 'visible', // visible or hidden 
+        'background_color'  : '#eef409',
+    
+    },
+    'HOLIDAYS' : {
+        'acronym'   : "Holidays",
+        'visibility'        : 'visible', // visible or hidden 
+        'background_color'  : '#eef409',
+    
+    },
+    'PRESS' : {
+        'acronym'   : "Press",
+        'visibility'        : 'visible', // visible or hidden 
+        'background_color'  : '#eef409',
+    
+    },
+    
+/**********************************************
 Semester 7:
 Anglais	                                                3   30h	
 Projet tutoré : réalisation logicielle	                3   27h		
