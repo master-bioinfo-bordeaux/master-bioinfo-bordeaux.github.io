@@ -1507,14 +1507,17 @@ function createCourseModal(ID) {
 }
 
 function createEventModal(ID) {
+    var the_event = course_data[calendar_data[ID].summary];
+
     var html = '';
     html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
-    html += '<h4 class="modal-title">'+calendar_data[ID].title+'</h4>';
+    html += '<h4 class="modal-title">'+the_event.acronym +'</h4>';
     html += '</div>';
     html += '<div class="modal-body">';
-    html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
+    //html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
     html += '';
+    html += '<h2>' + calendar_data[ID].title + '</h2>'; // HACK
     html += calendar_data[ID].description; // HACK
     html += '</div>';
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
@@ -1597,7 +1600,12 @@ function createEventCell(cal_event) {
         html += '<li>';
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
-        html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required event' btn-danger and Blue: 'elective' btn-primary
+        if (ID[0] === 'C') {
+            html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger and Green: 'elective' btn-success
+        }
+        else {
+            html += 'class="btn btn-info btn-xs" '; // Color is Light blue for Event
+        }
         html += 'onclick="displayCalendarModal(\'' + ID + '\')">';
         html += the_course.acronym + '</a>'; // TODO: &nbsp;[' + cal_event.Nbsession +'] ' Sessions number ??
         console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
