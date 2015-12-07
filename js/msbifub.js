@@ -1510,12 +1510,12 @@ function createEventModal(ID) {
     var html = '';
     html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
-    html += '<h4 class="modal-title">'+title+'</h4>';
+    html += '<h4 class="modal-title">'+calendar_data[ID].title+'</h4>';
     html += '</div>';
     html += '<div class="modal-body">';
     html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
     html += '';
-    html += 'Here is the contents of the event'; // HACK
+    html += calendar_data[ID].description; // HACK
     html += '</div>';
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
