@@ -9,24 +9,30 @@ var course_data = {
 **********************************************/
 
     'CONFERENCE' : {
-        'acronym'   : "Conf",
+        'acronym'           : "Conf",
+        'title'             : "Conference",
         'visibility'        : 'visible', // visible or hidden 
-        'background_color'  : '#eef409',
-        'icon'              : 'fa fa-comments'
+        'background_color'  : '#FA5858',
+        'icon'              : 'fa fa-comments',
+        'image'             : 'headconf.jpg'
     
     },
     'HOLIDAYS' : {
         'acronym'   : "Holidays",
         'visibility'        : 'visible', // visible or hidden 
-        'background_color'  : '#eef409',
-        'icon'              : 'fa fa-globe'
+        'background_color'  : '#FA5858',
+        'icon'              : 'fa fa-globe',
+        'image'             : 'headholidays.jpg'
     
     },
     'PRESS' : {
-        'acronym'   : "Press Highlights",
+        'acronym'   : "Press",
+        'title'             : "Press Highlights",
         'visibility'        : 'visible', // visible or hidden 
-        'background_color'  : '#eef409',
-        'icon'              : 'fa fa-newspaper-o'
+        'background_color'  : '#FA5858',
+        'icon'              : 'fa fa-newspaper-o',
+        'image'             : 'headpress.jpg'
+
     
     },
     
@@ -1515,10 +1521,10 @@ function createEventModal(ID) {
     var html = '';
     html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
-    html += '<h4 class="modal-title">'+the_event.acronym +'<span class="pull-right"><i class="' + the_event.icon +'"> </i>&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>';
+    html += '<h4 class="modal-title">'+the_event.title +'<span class="pull-right"><i class="' + the_event.icon +'"> </i>&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>';
     html += '</div>';
     html += '<div class="modal-body">';
-    //html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
+    html += '<p><img class="img-responsive" src="img/'+image+'" alt=""></p>';
     html += '';
     html += '<h2>' + calendar_data[ID].title + '</h2>'; // HACK
     html += calendar_data[ID].description; // HACK
