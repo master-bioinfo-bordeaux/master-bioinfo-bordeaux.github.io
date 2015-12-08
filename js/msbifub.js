@@ -1526,8 +1526,8 @@ function createEventModal(ID) {
     html += '<div class="modal-body">';
     html += '<p><img class="img-responsive" src="img/' + the_event.image + '" alt=""></p>';
     html += '';
-    html += '<h2>' + calendar_data[ID].title + '</h2>'; // HACK
-    html += calendar_data[ID].description; // HACK
+    html += '<h2>' + decodeURIComponent(escape(calendar_data[ID].title)) + '</h2>'; // HACK
+    html += decodeURIComponent(escape(calendar_data[ID].description)); // HACK
     html += '</div>';
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
@@ -1626,7 +1626,7 @@ function createEventCell(cal_event) {
         html += hh + ':' + mm + '</span>';
         html += '</li>';
         html += '<li>'+cal_event.comment +'</li>';
-        html += '<li>'+cal_event.lecturer+'</li>';
+        html += '<li>'+ decodeURIComponent(escape(cal_event.lecturer))+'</li>';
         html += '<li>'+cal_event.location+'</li>';
         html += '</ul>';
         html += '</div>';
