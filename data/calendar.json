@@ -48,7 +48,10 @@
       " No classroom!!"
     ],
     "hours": "08:00-12:00",
-    "weekdayIndex": 2
+    "weekdayIndex": 2,
+    "acronym": "S09::Prot3D",
+    "locationBuilding": "Talence::A29-CREMI",
+    "locationRoom": "000"
   },
   "C2F20151125T130656844@jeesay": {
     "ID": "C2F20151125T130656844@jeesay",
@@ -352,14 +355,14 @@
   "E26120151207T134201143@jeesay": {
     "ID": "E26120151207T134201143@jeesay",
     "summary": "CONFERENCE",
-    "title": "Introduction au web sémantique",
-    "lecturer": "Pr Fernández-Breis JT",
+    "title": "Conference",
+    "lecturer": "Pr FernÃ¡ndez-Breis JT",
     "year": "2",
     "date_start": "2015-12-16T14:00",
     "date_end": "2015-12-16T17:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@176",
-    "description": "Introduction au web sémantique",
+    "description": "Introduction au web sÃ©mantique",
     "comment": "Conference",
     "tracks": "61",
     "warnings": [],
@@ -369,7 +372,7 @@
   "E3f20151207T140414497@jeesay": {
     "ID": "E3f20151207T140414497@jeesay",
     "summary": "PRESS",
-    "title": "Revue de Presse de DÃ©cembre",
+    "title": "Press",
     "lecturer": "-- Etudiants ",
     "year": "3",
     "date_start": "2015-12-16T13:00",
@@ -378,6 +381,19 @@
     "location": "Talence::A30-LaBRI@000",
     "description": "Revue de Presse de D%C3%A9cembre",
     "comment": "RevuePresse",
-    "tracks": "f"
+    "tracks": "f",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "13:00-13:50",
+    "weekdayIndex": 3
+  },
+  "C2F20151208T135843823@jeesay": {
+    "ID": "C2F20151208T135843823@jeesay",
+    "summary": "",
+    "date_start": "undefinedTundefined:undefined",
+    "date_end": "undefinedTundefined:undefined",
+    "location": "undefined@undefined",
+    "description": "None"
   }
 }
