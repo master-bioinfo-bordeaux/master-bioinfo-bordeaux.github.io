@@ -355,14 +355,14 @@
   "E26120151207T134201143@jeesay": {
     "ID": "E26120151207T134201143@jeesay",
     "summary": "CONFERENCE",
-    "title": "Introduction au web sÃ©mantique",
-    "lecturer": "Pr FernÃÂ¡ndez-Breis JT",
+    "title": "Introduction au web sÃÂÃÂ©mantique",
+    "lecturer": "Pr FernÃÂÃÂÃÂÃÂ¡ndez-Breis JT",
     "year": "2",
     "date_start": "2015-12-16T13:30",
     "date_end": "2015-12-16T17:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@176",
-    "description": "Introduction au web sÃ©mantique",
+    "description": "Introduction au web sÃÂÃÂ©mantique",
     "comment": "Conference",
     "tracks": "0xe1",
     "warnings": [],
@@ -382,7 +382,7 @@
     "date_end": "2015-12-15T13:50",
     "group": "All",
     "location": "Talence::A30-LaBRI@000",
-    "description": "<p>Revue de Presse de Novembre par R. Anne, B.Baro S.Besse, Q.CavaillÃÂÃÂ©, M. Lopez, A. Perdriau</p>\r\n<p>Ce mois-ci, plusieurs articles ont retenu notre attention dans le domaine de l'immunologie avec un premier article tirÃÂ© du magasine BioMedicalCentral et un second tout droit sorti de Briefings in Bioinformatics. Nous nous sommes ÃÂÃÂ©galement penchÃÂÃÂ© sur les ÃÂÃÂ©tudes bioinformatiques permettant de traiter des donnÃÂÃÂ©es issus de tissus tumoraux. Nous prÃÂÃÂ©senterons donc deux articles issu de Journal of Bioinformatics.[...]</p>",
+    "description": "<p>Revue de Presse de Novembre par R. Anne, B.Baro S.Besse, Q.CavaillÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©, M. Lopez, A. Perdriau</p>\r\n<p>Ce mois-ci, plusieurs articles ont retenu notre attention dans le domaine de l'immunologie avec un premier article tirÃÂÃÂÃÂÃÂ© du magasine BioMedicalCentral et un second tout droit sorti de Briefings in Bioinformatics. Nous nous sommes ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©galement penchÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© sur les ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©tudes bioinformatiques permettant de traiter des donnÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©es issus de tissus tumoraux. Nous prÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©senterons donc deux articles issu de Journal of Bioinformatics.[...]</p>",
     "comment": "RevuePresse",
     "tracks": "0xf",
     "warnings": [
@@ -401,5 +401,19 @@
     "date_end": "undefinedTundefined:undefined",
     "location": "undefined@undefined",
     "description": "None"
+  },
+  "E3f20151209T101612393@jeesay": {
+    "ID": "E3f20151209T101612393@jeesay",
+    "summary": "Event",
+    "title": "Vacances de NoÃ«l",
+    "lecturer": "-- PÃ¨re NoÃ«l ",
+    "year": "3",
+    "date_start": "2015-12-24T08:00",
+    "date_end": "2015-12-24T19:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "Vacances de NoÃ«l",
+    "comment": "Unknown",
+    "tracks": "0xf"
   }
 }
