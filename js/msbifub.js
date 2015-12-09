@@ -1258,8 +1258,20 @@ function updateCalendarBody(y,m,d) {
         
         for (var index in calendar_data) {
             var element = calendar_data[index];
-            var startDate = new Date(element.date_start);
-            var endDate   = new Date(element.date_end);
+            var startDate = new Date(
+                parseInt(element.date_start.substr(0,4)),
+                parseInt(element.date_start.substr(5,2)) - 1,
+                parseInt(element.date_start.substr(8,2)),
+                parseInt(element.date_start.substr(11,2)),
+                parseInt(element.date_start.substr(14,2))
+            );
+            var endDate   = new Date(
+                parseInt(element.date_end.substr(0,4)),
+                parseInt(element.date_end.substr(5,2)) - 1,
+                parseInt(element.date_end.substr(8,2)),
+                parseInt(element.date_end.substr(11,2)),
+                parseInt(element.date_end.substr(14,2))
+            );
             console.log('START ' + startDate);
             
             // From MON to FRI
