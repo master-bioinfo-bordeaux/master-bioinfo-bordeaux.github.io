@@ -1275,7 +1275,8 @@ function updateCalendarBody(y,m,d) {
                     var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                     element.startDate = startDate;
                     element.endDate   = endDate;
-                    element.duration  = Math.ceil(timeDiff / (1000 * 60));
+                    // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
+                    element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
                     weekevents.push(element);
                 }
             }
