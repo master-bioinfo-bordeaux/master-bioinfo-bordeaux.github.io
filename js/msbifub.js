@@ -1527,8 +1527,8 @@ function createEventModal(ID) {
     html += '<div class="modal-body">';
     html += '<p><img class="img-responsive" src="img/' + the_event.image + '" alt=""></p>';
     html += '';
-    html += '<h2>' + decodeURIComponent(escape(calendar_data[ID].title)) + '</h2>'; // HACK
-    html += decodeURIComponent(escape(calendar_data[ID].description)); // HACK
+    html += '<h2>' + calendar_data[ID].title + '</h2>'; 
+    html += calendar_data[ID].description; 
     html += '</div>';
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
