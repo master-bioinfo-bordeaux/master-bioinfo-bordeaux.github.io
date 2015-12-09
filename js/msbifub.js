@@ -1502,7 +1502,7 @@ function createCourseModal(ID) {
     console.log(calendar_data[ID]);
     var courseID = calendar_data[ID].summary;
     var the_course = course_data[courseID];
-    var image = 'course_header';
+    var image = 'headinfo.jpg';
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
     
     if (the_course.link !== undefined) {
@@ -1515,7 +1515,7 @@ function createCourseModal(ID) {
     html += '<h4 class="modal-title">'+the_course.title+'<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span></h4>';
     html += '</div>';
     html += '<div class="modal-body">';
-    html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
+    html += '<p><img class="img-responsive" src="img/'+image+'" alt=""></p>';
     html += '';
     html += the_course.contents[lang];
     html += '<a class="pull-right" href="' + the_course.html + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;<br>';
@@ -1593,7 +1593,7 @@ function findEvent(events,start,col) {
 
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
-                console.log('table ',(start - 480 )/30 +t,' Start Time: ',day,events[i].startDate.getHours());
+                console.log('table ',(start - 480 )/30 +t,day,' Start Time: ', events[i].startDate.getHours());
                 table.cells[(start - 480 )/30 + t][col]++;
             }
         }
