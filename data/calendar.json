@@ -362,7 +362,7 @@
     "date_end": "2015-12-16T17:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@176",
-    "description": "The Semantic Web is the Next Generation Web that enables the machines to understand the meaning of the web content. <p>This course introduces the series of technologies and languages that enable to represent and exploit the web content in a meaningful manner, as well as describes how modeling should be approached for developing and deploying applications in Semantic Web environments.</p><p>Examples of how the semantic web approach is being included in web content and how the Web of Data is becoming a reality will be used.</p>",
+    "description": "<p>The Semantic Web is the Next Generation Web that enables the machines to understand the meaning of the web content.</p> <p>This course introduces the series of technologies and languages that enable to represent and exploit the web content in a meaningful manner, as well as describes how modeling should be approached for developing and deploying applications in Semantic Web environments.</p><p>Examples of how the semantic web approach is being included in web content and how the Web of Data is becoming a reality will be used.</p>",
     "comment": "Conference",
     "tracks": "0xe1",
     "warnings": [],
