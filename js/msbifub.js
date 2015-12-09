@@ -1626,8 +1626,8 @@ function createEventCell(cal_event) {
         mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
         html += hh + ':' + mm + '</span>';
         html += '</li>';
-        html += '<li>'+cal_event.comment +'</li>';
-        html += '<li>'+ decodeURIComponent(escape(cal_event.lecturer))+'</li>';
+        //html += '<li>'+ cal_event.comment +'</li>';
+        html += '<li>'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.comment+'</span></li>';
         
         // Location: Campus::Bldg@Room
         var tmp = cal_event.location.match(/(.+)::/);
