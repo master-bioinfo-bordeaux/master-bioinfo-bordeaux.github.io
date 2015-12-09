@@ -1628,7 +1628,17 @@ function createEventCell(cal_event) {
         html += '</li>';
         html += '<li>'+cal_event.comment +'</li>';
         html += '<li>'+ decodeURIComponent(escape(cal_event.lecturer))+'</li>';
-        html += '<li>'+cal_event.location+'</li>';
+        
+        // Location: Campus::Bldg@Room
+        var tmp = cal_event.location.match(/(.+)::/);
+        var campus = tmp[1];
+        tmp = cal_event.location.match(/::(.+)@/);
+        var bldg = tmp[1];
+        tmp = cal_event.location.match(/@(\d+)/);
+        var room = tmp[1];
+        html += '<li>Campus: '+ campus+'</li>';
+        html += '<li>Bldg: '+ bldg  +'</li>';
+        html += '<li>Room/Amphi: '+ room  +'</li>';
         html += '</ul>';
         html += '</div>';
         html += '</td>';
