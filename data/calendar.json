@@ -382,7 +382,7 @@
     "date_end": "2015-12-15T13:50",
     "group": "All",
     "location": "Talence::A30-LaBRI@000",
-    "description": "<p>Revue de Presse de Novembre par R. Anne, B.Baro S.Besse, Q.CavaillÃ©, M. Lopez, A. Perdriau</p>\r\n<p>Ce mois-ci, plusieurs articles ont retenu notre attention dans le domaine de l'immunologie avec un premier article tirÃ© du magasine BioMedicalCentral et un second tout droit sorti de Briefings in Bioinformatics. Nous nous sommes Ã©galement penchÃ© sur les Ã©tudes bioinformatiques permettant de traiter des donnÃ©es issus de tissus tumoraux. Nous prÃ©senterons donc deux articles issu de Journal of Bioinformatics.[...]</p>",
+    "description": "<p>Revue de Presse de Novembre par R. Anne, B.Baro S.Besse, Q.CavaillÃÂ©, M. Lopez, A. Perdriau</p>\r\n<p>Ce mois-ci, plusieurs articles ont retenu notre attention dans le domaine de l'immunologie avec un premier article tirÃÂ© du magasine BioMedicalCentral et un second tout droit sorti de Briefings in Bioinformatics. Nous nous sommes ÃÂ©galement penchÃÂ© sur les ÃÂ©tudes bioinformatiques permettant de traiter des donnÃÂ©es issus de tissus tumoraux. Nous prÃÂ©senterons donc deux articles issu de Journal of Bioinformatics.[...]</p>",
     "comment": "RevuePresse",
     "tracks": "0xf",
     "warnings": [
@@ -397,19 +397,30 @@
   "E3f20151209T101612393@jeesay": {
     "ID": "E3f20151209T101612393@jeesay",
     "summary": "EVENT",
-    "title": "Vacances de NoÃ«l",
-    "lecturer": "-- PÃ¨re NoÃ«l ",
+    "title": "Vacances de NoÃÂ«l",
+    "lecturer": "-- PÃÂ¨re NoÃÂ«l ",
     "year": "3",
     "date_start": "2015-12-24T08:00",
     "date_end": "2015-12-24T19:00",
     "group": "All",
     "location": "None::None@000",
-    "description": "Vacances de NoÃ«l",
+    "description": "Vacances de NoÃÂ«l",
     "comment": "Unknown",
     "tracks": "0xf"
   },
   "C2F20160105T202133541@jeesay": {
     "ID": "C2F20160105T202133541@jeesay",
+    "apogee": "J1BS9203",
+    "acronym": "S09::Prot3D",
+    "summary": "J1BS9203",
+    "date_start": "20160104T0800",
+    "date_end": "20160104T1200",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None"
+  },
+  "C2F20160105T202245263@jeesay": {
+    "ID": "C2F20160105T202245263@jeesay",
     "apogee": "J1BS9203",
     "acronym": "S09::Prot3D",
     "summary": "J1BS9203",
