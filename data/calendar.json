@@ -470,29 +470,18 @@
   },
   "E3720160106T072635656@jeesay": {
     "ID": "E3720160106T072635656@jeesay",
-    "summary": {
-      "apogee": "CONFERENCE",
-      "type": "Conference"
-    },
-    "title": "PrÃÂÃÂ©sentation du travail de ClÃÂÃÂ©ment Delestre",
+    "summary": "CONFERENCE",
+    "title": "Présentation du travail de Clément Delestre",
     "lecturer": "Mr Delestre C",
     "year": "3",
     "date_start": "2016-01-04T16:00",
     "date_end": "2016-01-04T17:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@076",
-    "description": "PrÃÂÃÂ©sentation du travail de ClÃÂÃÂ©ment Delestre",
+    "description": "Présentation du travail de Clément Delestre",
     "comment": "Conference",
     "tracks": "0x70",
     "acronym": "Conference",
-    "warnings": [],
-    "hours": "16:00-17:00",
-    "weekdayIndex": 1,
-    "locationBuilding": "Talence::A30-LaBRI",
-    "locationRoom": "076",
-    "apogee": {
-      "apogee": "CONFERENCE",
-      "type": "Conference"
-    }
+    "apogee": "CONFERENCE"
   }
 }
