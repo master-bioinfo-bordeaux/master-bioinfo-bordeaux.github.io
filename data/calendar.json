@@ -382,7 +382,7 @@
   "C2F20160106T071929339@jeesay": {
     "ID": "C2F20160106T071929339@jeesay",
     "apogee": "F1BS9201",
-    "acronym": "unknown",
+    "acronym": "S09::CPR&D",
     "summary": "F1BS9201",
     "date_start": "2016-01-12T09:00",
     "date_end": "2016-01-12T12:00",
@@ -453,7 +453,9 @@
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
-    "weekdayIndex": 4
+    "weekdayIndex": 4,
+    "locationBuilding": "Talence::A29-CREMI",
+    "locationRoom": "007"
   },
   "C2F20160106T102303330@jeesay": {
     "ID": "C2F20160106T102303330@jeesay",
@@ -486,11 +488,36 @@
   "C2F20160106T102430247@jeesay": {
     "ID": "C2F20160106T102430247@jeesay",
     "apogee": "F6BS9202",
-    "acronym": "unknown",
+    "acronym": "S09::Entreprise",
     "summary": "F6BS9202",
     "date_start": "2016-01-08T09:00",
     "date_end": "2016-01-08T12:00",
     "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
+  },
+  "C2F20160106T150913813@Pthebault33": {
+    "ID": "C2F20160106T150913813@Pthebault33",
+    "apogee": "F1BS9201",
+    "acronym": "unknown",
+    "summary": "F1BS9201",
+    "date_start": "2016-01-13T09:00",
+    "date_end": "2016-01-13T12:00",
+    "lecturer": "Uricaru R",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None"
+  },
+  "C2F20160106T150913815@Pthebault33": {
+    "ID": "C2F20160106T150913815@Pthebault33",
+    "apogee": "F1BS9201",
+    "acronym": "unknown",
+    "summary": "F1BS9201",
+    "date_start": "2016-01-20T09:00",
+    "date_end": "2016-01-20T12:00",
+    "lecturer": "Uricaru R",
     "location": "Talence::A29-CREMI@007",
     "description": "None"
   }
