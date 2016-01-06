@@ -411,7 +411,7 @@
   },
   "E37020160106T094745530@jeesay": {
     "ID": "E37020160106T094745530@jeesay",
-    "summary": "Event",
+    "summary": "CONFERENCE",
     "title": "Presentation du travail de Clement Delestre",
     "lecturer": "Mr Delestre C",
     "year": "3",
@@ -420,7 +420,8 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@076",
     "description": "Questions / Reponses au sujet du quotidien d'un chercheur en bioinformatique",
-    "acronym": "CONFERENCE",
+    "acronym": "Conference",
+    "apogee": "CONFERENCE",
     "tracks": "0x70"
   }
 }
