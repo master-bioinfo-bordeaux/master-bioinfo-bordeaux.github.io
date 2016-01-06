@@ -502,13 +502,16 @@
   "C2F20160106T150913813@Pthebault33": {
     "ID": "C2F20160106T150913813@Pthebault33",
     "apogee": "F1BS9201",
-    "acronym": "unknown",
+    "acronym": "S09::CPR&D",
     "summary": "F1BS9201",
     "date_start": "2016-01-13T09:00",
     "date_end": "2016-01-13T12:00",
     "lecturer": "Uricaru R",
     "location": "Talence::A29-CREMI@007",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 3
   },
   "C2F20160106T150913815@Pthebault33": {
     "ID": "C2F20160106T150913815@Pthebault33",
@@ -519,6 +522,18 @@
     "date_end": "2016-01-20T12:00",
     "lecturer": "Uricaru R",
     "location": "Talence::A29-CREMI@007",
+    "description": "None"
+  },
+  "C2F20160106T153354877@Pthebault33": {
+    "ID": "C2F20160106T153354877@Pthebault33",
+    "apogee": "C1BS9205",
+    "acronym": "unknown",
+    "type": "Presentation",
+    "summary": "C1BS9205",
+    "date_start": "2016-01-15T14:00",
+    "date_end": "2016-01-15T18:00",
+    "lecturer": "Dieuaide M",
+    "location": "Talence::A30-LaBRI@076",
     "description": "None"
   }
 }
