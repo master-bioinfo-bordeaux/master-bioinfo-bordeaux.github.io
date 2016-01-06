@@ -408,5 +408,19 @@
     "warnings": [],
     "hours": "09:00-12:00",
     "weekdayIndex": 2
+  },
+  "E37020160106T094745530@jeesay": {
+    "ID": "E37020160106T094745530@jeesay",
+    "summary": "Event",
+    "title": "Presentation du travail de Clement Delestre",
+    "lecturer": "Mr Delestre C",
+    "year": "3",
+    "date_start": "2016-01-04T16:00",
+    "date_end": "2016-01-04T17:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@076",
+    "description": "Questions / Reponses au sujet du quotidien d'un chercheur en bioinformatique",
+    "acronym": "Conference",
+    "tracks": "0x70"
   }
 }
