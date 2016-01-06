@@ -422,6 +422,20 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@076",
     "description": "Questions / Reponses au sujet du quotidien d'un chercheur en bioinformatique",
-    "tracks": "0x70"
+    "tracks": "0x70",
+    "warnings": [],
+    "hours": "16:00-17:00",
+    "weekdayIndex": 1
+  },
+  "C2F20160106T102124375@jeesay": {
+    "ID": "C2F20160106T102124375@jeesay",
+    "apogee": "J1BS9207",
+    "acronym": "unknown",
+    "summary": "J1BS9207",
+    "date_start": "2016-01-05T14:00",
+    "date_end": "2016-01-05T17:00",
+    "lecturer": "Melancon G",
+    "location": "Talence::A29-CREMI@202",
+    "description": "None"
   }
 }
