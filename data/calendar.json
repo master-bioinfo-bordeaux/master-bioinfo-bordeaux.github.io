@@ -382,7 +382,7 @@
     "date_end": "2015-12-15T13:50",
     "group": "All",
     "location": "Talence::A30-LaBRI@000",
-    "description": "<p>Revue de Presse de Novembre par R. Anne, B.Baro S.Besse, Q.CavaillÃÂÃÂ©, M. Lopez, A. Perdriau</p>\r\n<p>Ce mois-ci, plusieurs articles ont retenu notre attention dans le domaine de l'immunologie avec un premier article tirÃÂÃÂ© du magasine BioMedicalCentral et un second tout droit sorti de Briefings in Bioinformatics. Nous nous sommes ÃÂÃÂ©galement penchÃÂÃÂ© sur les ÃÂÃÂ©tudes bioinformatiques permettant de traiter des donnÃÂÃÂ©es issus de tissus tumoraux. Nous prÃÂÃÂ©senterons donc deux articles issu de Journal of Bioinformatics.[...]</p>",
+    "description": "<p>Revue de Presse de Novembre par R. Anne, B.Baro S.Besse, Q.CavaillÃÂÃÂÃÂÃÂ©, M. Lopez, A. Perdriau</p>\r\n<p>Ce mois-ci, plusieurs articles ont retenu notre attention dans le domaine de l'immunologie avec un premier article tirÃÂÃÂÃÂÃÂ© du magasine BioMedicalCentral et un second tout droit sorti de Briefings in Bioinformatics. Nous nous sommes ÃÂÃÂÃÂÃÂ©galement penchÃÂÃÂÃÂÃÂ© sur les ÃÂÃÂÃÂÃÂ©tudes bioinformatiques permettant de traiter des donnÃÂÃÂÃÂÃÂ©es issus de tissus tumoraux. Nous prÃÂÃÂÃÂÃÂ©senterons donc deux articles issu de Journal of Bioinformatics.[...]</p>",
     "comment": "RevuePresse",
     "tracks": "0xf",
     "warnings": [
@@ -397,14 +397,14 @@
   "E3f20151209T101612393@jeesay": {
     "ID": "E3f20151209T101612393@jeesay",
     "summary": "EVENT",
-    "title": "Vacances de NoÃÂÃÂ«l",
-    "lecturer": "-- PÃÂÃÂ¨re NoÃÂÃÂ«l ",
+    "title": "Vacances de NoÃÂÃÂÃÂÃÂ«l",
+    "lecturer": "-- PÃÂÃÂÃÂÃÂ¨re NoÃÂÃÂÃÂÃÂ«l ",
     "year": "3",
     "date_start": "2015-12-24T08:00",
     "date_end": "2015-12-24T19:00",
     "group": "All",
     "location": "None::None@000",
-    "description": "Vacances de NoÃÂÃÂ«l",
+    "description": "Vacances de NoÃÂÃÂÃÂÃÂ«l",
     "comment": "Unknown",
     "tracks": "0xf"
   },
@@ -416,6 +416,43 @@
     "date_start": "2016-01-04T08:00",
     "date_end": "2016-01-04T12:00",
     "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None",
+    "title": "S09::Prot3D",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 1
+  },
+  "C2F20160106T071929337@jeesay": {
+    "ID": "C2F20160106T071929337@jeesay",
+    "apogee": "F1BS9201",
+    "acronym": "unknown",
+    "summary": "F1BS9201",
+    "date_start": "2016-01-05T09:00",
+    "date_end": "2016-01-05T12:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None"
+  },
+  "C2F20160106T071929339@jeesay": {
+    "ID": "C2F20160106T071929339@jeesay",
+    "apogee": "F1BS9201",
+    "acronym": "unknown",
+    "summary": "F1BS9201",
+    "date_start": "2016-01-12T09:00",
+    "date_end": "2016-01-12T12:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None"
+  },
+  "C2F20160106T071929341@jeesay": {
+    "ID": "C2F20160106T071929341@jeesay",
+    "apogee": "F1BS9201",
+    "acronym": "unknown",
+    "summary": "F1BS9201",
+    "date_start": "2016-01-19T09:00",
+    "date_end": "2016-01-19T12:00",
+    "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@007",
     "description": "None"
   }
