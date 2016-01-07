@@ -42,7 +42,8 @@
     "title": "S09::ClssData",
     "warnings": [],
     "hours": "09:00-12:00",
-    "weekdayIndex": 5
+    "weekdayIndex": 5,
+    "acronym": "S09::ClssData"
   },
   "C2F20151125T130901436@jeesay": {
     "ID": "C2F20151125T130901436@jeesay",
@@ -56,7 +57,8 @@
     "title": "S09::CPR&D",
     "warnings": [],
     "hours": "14:00-17:00",
-    "weekdayIndex": 1
+    "weekdayIndex": 1,
+    "acronym": "S09::CPR&D"
   },
   "C2F20151125T131057252@jeesay": {
     "ID": "C2F20151125T131057252@jeesay",
@@ -70,7 +72,8 @@
     "title": "S09::SysAuto",
     "warnings": [],
     "hours": "13:00-18:00",
-    "weekdayIndex": 4
+    "weekdayIndex": 4,
+    "acronym": "S09::SysAuto"
   },
   "C2F20151125T131213146@jeesay": {
     "ID": "C2F20151125T131213146@jeesay",
@@ -86,7 +89,8 @@
       " No lecturer!!"
     ],
     "hours": "16:00-18:00",
-    "weekdayIndex": 3
+    "weekdayIndex": 3,
+    "acronym": "S09::POA"
   },
   "C2F20150801T1459@jeesay": {
     "ID": "C2F20150801T1459@jeesay",
@@ -148,7 +152,8 @@
     "title": "S09::AnglaisM2",
     "warnings": [],
     "hours": "09:00-12:00",
-    "weekdayIndex": 1
+    "weekdayIndex": 1,
+    "acronym": "S09::AnglaisM2"
   },
   "C2F20151130T103705158@jeesay": {
     "ID": "C2F20151130T103705158@jeesay",
@@ -162,7 +167,8 @@
     "title": "S09::OICI",
     "warnings": [],
     "hours": "10:00-12:00",
-    "weekdayIndex": 3
+    "weekdayIndex": 3,
+    "acronym": "S09::OICI"
   },
   "C2F20151204T135523932@jeesay": {
     "ID": "C2F20151204T135523932@jeesay",
@@ -176,7 +182,8 @@
     "title": "S09::OICI",
     "warnings": [],
     "hours": "10:20-12:20",
-    "weekdayIndex": 4
+    "weekdayIndex": 4,
+    "acronym": "S09::OICI"
   },
   "C2F20151204T145908704@jeesay": {
     "ID": "C2F20151204T145908704@jeesay",
@@ -190,7 +197,8 @@
     "title": "S09::AlgoGrph",
     "warnings": [],
     "hours": "16:20-18:20",
-    "weekdayIndex": 5
+    "weekdayIndex": 5,
+    "acronym": "S09::AlgoGrph"
   },
   "C2F20151204T150228253@jeesay": {
     "ID": "C2F20151204T150228253@jeesay",
@@ -204,7 +212,8 @@
     "title": "S09::AlgoGrph",
     "warnings": [],
     "hours": "14:00-16:00",
-    "weekdayIndex": 5
+    "weekdayIndex": 5,
+    "acronym": "S09::AlgoGrph"
   },
   "C2F20151204T151150584@jeesay": {
     "ID": "C2F20151204T151150584@jeesay",
@@ -220,7 +229,8 @@
       " No classroom!!"
     ],
     "hours": "08:00-12:00",
-    "weekdayIndex": 2
+    "weekdayIndex": 2,
+    "acronym": "S09::Prot3D"
   },
   "C2F20151204T151730531@jeesay": {
     "ID": "C2F20151204T151730531@jeesay",
@@ -234,7 +244,8 @@
     "title": "S09::SysAuto",
     "warnings": [],
     "hours": "13:00-18:00",
-    "weekdayIndex": 4
+    "weekdayIndex": 4,
+    "acronym": "S09::SysAuto"
   },
   "C2F20151204T151915517@jeesay": {
     "ID": "C2F20151204T151915517@jeesay",
@@ -252,7 +263,8 @@
       " No classroom!!"
     ],
     "hours": "14:00-17:00",
-    "weekdayIndex": 2
+    "weekdayIndex": 2,
+    "acronym": "S09::AppObj"
   },
   "C2F20151204T153609209@jeesay": {
     "ID": "C2F20151204T153609209@jeesay",
@@ -268,7 +280,8 @@
       " No classroom!!"
     ],
     "hours": "14:00-17:00",
-    "weekdayIndex": 2
+    "weekdayIndex": 2,
+    "acronym": "S09::CPR&D"
   },
   "C2F20151204T154300582@jeesay": {
     "ID": "C2F20151204T154300582@jeesay",
@@ -282,7 +295,8 @@
     "title": "S09::OICI",
     "warnings": [],
     "hours": "10:00-12:00",
-    "weekdayIndex": 3
+    "weekdayIndex": 3,
+    "acronym": "S09::OICI"
   },
   "C2F20151204T154622710@jeesay": {
     "ID": "C2F20151204T154622710@jeesay",
@@ -296,7 +310,8 @@
     "title": "S09::OICI",
     "warnings": [],
     "hours": "10:10-12:10",
-    "weekdayIndex": 4
+    "weekdayIndex": 4,
+    "acronym": "S09::OICI"
   },
   "C2F20151204T154905345@jeesay": {
     "ID": "C2F20151204T154905345@jeesay",
@@ -313,7 +328,8 @@
       " No classroom!!"
     ],
     "hours": "14:00-17:00",
-    "weekdayIndex": 1
+    "weekdayIndex": 1,
+    "acronym": "S09::Entreprise"
   },
   "C2F20151204T155535674@jeesay": {
     "ID": "C2F20151204T155535674@jeesay",
@@ -327,7 +343,8 @@
     "title": "S09::AnglaisM2",
     "warnings": [],
     "hours": "09:00-12:00",
-    "weekdayIndex": 1
+    "weekdayIndex": 1,
+    "acronym": "S09::AnglaisM2"
   },
   "E26120151207T134201143@jeesay": {
     "ID": "E26120151207T134201143@jeesay",
@@ -575,37 +592,82 @@
   "C2F20160106T205708417@Pthebault33": {
     "ID": "C2F20160106T205708417@Pthebault33",
     "apogee": "J1BS9203",
-    "acronym": "unknown",
+    "acronym": "S09::Prot3D",
     "type": "Cours+TD",
     "summary": "J1BS9203",
     "date_start": "2016-01-18T08:00",
     "date_end": "2016-01-18T12:00",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@007",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 1
   },
   "C2F20160106T205708419@Pthebault33": {
     "ID": "C2F20160106T205708419@Pthebault33",
     "apogee": "J1BS9203",
-    "acronym": "unknown",
+    "acronym": "S09::Prot3D",
     "type": "Cours+TD",
     "summary": "J1BS9203",
     "date_start": "2016-01-22T08:00",
     "date_end": "2016-01-22T12:00",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@007",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 5
   },
   "C2F20160106T205708420@Pthebault33": {
     "ID": "C2F20160106T205708420@Pthebault33",
     "apogee": "J1BS9203",
-    "acronym": "unknown",
+    "acronym": "S09::Prot3D",
     "type": "Cours+TD",
     "summary": "J1BS9203",
     "date_start": "2016-01-29T08:00",
     "date_end": "2016-01-29T12:00",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@007",
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 5
+  },
+  "C2F20160107T082019397@jeesay": {
+    "ID": "C2F20160107T082019397@jeesay",
+    "apogee": "J1BS9203",
+    "acronym": "S09::Prot3D",
+    "type": "Cours+TD",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-28T08:00",
+    "date_end": "2015-12-28T12:00",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@007",
+    "description": "None"
+  },
+  "C2F20160107T082019401@jeesay": {
+    "ID": "C2F20160107T082019401@jeesay",
+    "apogee": "J1BS9203",
+    "acronym": "S09::Prot3D",
+    "type": "Cours+TD",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-29T08:30",
+    "date_end": "2015-12-29T12:30",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@008",
+    "description": "None"
+  },
+  "C2F20160107T082019403@jeesay": {
+    "ID": "C2F20160107T082019403@jeesay",
+    "apogee": "J1BS9203",
+    "acronym": "S09::Prot3D",
+    "type": "Cours+TD",
+    "summary": "J1BS9203",
+    "date_start": "2015-12-30T15:30",
+    "date_end": "2015-12-30T16:30",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@009",
     "description": "None"
   }
 }
