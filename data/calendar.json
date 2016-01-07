@@ -656,19 +656,19 @@
     "date_end": "2015-12-28T12:00",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@007",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 1
   },
   "C2F20160107T082019401@jeesay": {
     "ID": "C2F20160107T082019401@jeesay",
-    "apogee": "J1BS9203",
-    "acronym": "S09::Prot3D",
-    "type": "Cours+TD",
     "summary": "J1BS9203",
+    "lecturer": "Taveau JC",
     "date_start": "2015-12-29T08:30",
     "date_end": "2015-12-29T12:30",
-    "lecturer": "Taveau JC",
-    "location": "Talence::A29-CREMI@008",
-    "description": "None"
+    "location": "None::None@008",
+    "comment": "Cours+TD"
   },
   "C2F20160107T082019403@jeesay": {
     "ID": "C2F20160107T082019403@jeesay",
@@ -680,7 +680,10 @@
     "date_end": "2015-12-30T16:30",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@009",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "15:30-16:30",
+    "weekdayIndex": 3
   },
   "C2F20160107T084717663@jeesay": {
     "ID": "C2F20160107T084717663@jeesay",
@@ -693,6 +696,9 @@
     "date_end": "2016-01-11T12:00",
     "location": "Talence::A29-CREMI@007",
     "comment": "Unknown",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 1
   }
 }
