@@ -681,5 +681,17 @@
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@009",
     "description": "None"
+  },
+  "C2F20160107T083322808@jeesay": {
+    "ID": "C2F20160107T083322808@jeesay",
+    "apogee": "J1BS9203",
+    "acronym": "S09::Prot3D",
+    "type": "Cours+TD",
+    "summary": "J1BS9203",
+    "date_start": "2016-01-11T08:00",
+    "date_end": "2016-01-11T12:00",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@",
+    "description": "None"
   }
 }
