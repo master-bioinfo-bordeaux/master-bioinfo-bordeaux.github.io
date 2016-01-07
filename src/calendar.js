@@ -5,6 +5,31 @@
  * 2015
  ************************************/
 
+
+// Polyfill
+if ( !Date.prototype.toCalString ) {
+  ( function() {
+    
+    function pad(number) {
+      if ( number < 10 ) {
+        return '0' + number;
+      }
+      return number;
+    }
+ 
+    Date.prototype.toCalString = function() {
+      return this.getFullYear() +
+        '-' + pad( this.getMonth() + 1 ) +
+        '-' + pad( this.getDate() ) +
+        'T' + pad( this.getHours() ) +
+        ':' + pad( this.getMinutes() ) +
+        ':' + pad( this.getSeconds() ) +
+        '.' + (this.getMilliseconds() / 1000).toFixed(3).slice(2, 5);
+    };
+  
+  }() );
+}
+
 var calendar_data = null;
 var table = new TableCal();
 
@@ -38,9 +63,14 @@ function loadCalendarData() {
 
 }
 
+
+/*************************
 function getEventsOfWeek(weeknum,cal_data) {
     var today = new Date(y,m,d);
     var weekevents = [];
+    
+
+
     // Search events occuring during this week 
     for (var index in cal_data) {
         var element = cal_data[index];
@@ -101,6 +131,7 @@ function getEventsOfWeek(weeknum,cal_data) {
     
     return weekevents;
 }
+******************************************************************************************************/
 
 
 function processCalendarData() {
@@ -138,64 +169,69 @@ function updateCalendarBody(y,m,d) {
     // console.log(calendar_data);
     var today = new Date(y,m,d);
     var weekevents = [];
+
     // Search events occuring during this week 
+    
     for (var index in calendar_data) {
         var element = calendar_data[index];
         var startDate = new Date(
             parseInt(element.date_start.substr(0,4)),
-            parseInt(element.date_start.substr(4,2)) - 1,
-            parseInt(element.date_start.substr(6,2)),
-            parseInt(element.date_start.substr(9,2)),
-            parseInt(element.date_start.substr(11,2)) 
+            parseInt(element.date_start.substr(5,2)) - 1,
+            parseInt(element.date_start.substr(8,2)),
+            parseInt(element.date_start.substr(11,2)),
+            parseInt(element.date_start.substr(14,2))
         );
         var endDate   = new Date(
             parseInt(element.date_end.substr(0,4)),
-            parseInt(element.date_end.substr(4,2)) - 1,
-            parseInt(element.date_end.substr(6,2)),
-            parseInt(element.date_end.substr(9,2)),
-            parseInt(element.date_end.substr(11,2))
+            parseInt(element.date_end.substr(5,2)) - 1,
+            parseInt(element.date_end.substr(8,2)),
+            parseInt(element.date_end.substr(11,2)),
+            parseInt(element.date_end.substr(14,2))
         );
+        // console.log('START ' + startDate);
         
         // From MON to FRI
         for (var i = 1; i < 6; i++) {
             var day = new Date(y,m,d - today.getDay() + i);
-            var dayD       = getYYYYMMDD(day);       // Days number since UTC
-            var startDateD = getYYYYMMDD(startDate); // Days number since UTC
-            var endDateD   = getYYYYMMDD(endDate);   // Days number since UTC
-            var tmp = new Date();tmp.setTime(day.getTime() );
-            console.log(dayD,startDateD,endDateD);
+            var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
+            var startDateD = element.date_start.substr(0,10); // Days number since UTC
+            var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
+            // console.log(dayD,startDateD,endDateD,day, day.toCalString());
             if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-                console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
+                // console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
                 element.weekdayIndex = i;
                 var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                 element.startDate = startDate;
                 element.endDate   = endDate;
-                element.duration     = Math.ceil(timeDiff / (1000 * 60));
-                // parseInt(element.date_end.substr(9,4) - parseInt(element.date_start.substr(9,4)));
+                // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
+                element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
                 weekevents.push(element);
             }
         }
     }
+    
     // Sort events by time from 0800 to 1900
-    weekevents.sort(function sort(a,b) {
-        if (a.startDate.getTime() > b.startDate.getTime() ) {
-            return 1;
-        }
-        else if (a.startDate.getTime() < b.startDate.getTime() ) {
-            return -1;
-        }
-        else {
-            if (a.weekdayIndex > b.weekdayIndex ) {
+    for (var i = 1; i < 6; i++) {
+        weekevents.sort(function sort(a,b) {
+            if (a.startDate.getTime() > b.startDate.getTime() ) {
                 return 1;
             }
-            else if (a.weekdayIndex < b.weekdayIndex ) {
+            else if (a.startDate.getTime() < b.startDate.getTime() ) {
                 return -1;
             }
-            else
-                return 0;
-        }
-    });
-
+            else {
+                if (a.weekdayIndex > b.weekdayIndex ) {
+                    return 1;
+                }
+                else if (a.weekdayIndex < b.weekdayIndex ) {
+                    return -1;
+                }
+                else
+                    return 0;
+            }
+        });
+    }
+        
     createEventCells(weekevents);
 }
 
@@ -210,7 +246,7 @@ function getWeekDays(y,m,d) {
         weekdays.push(shortdays[day.getDay()] +' <sub>' + day.getDate() + ' ' + months[day.getMonth()] +'</sub>');
     }
 
-    console.log(weekdays) ;
+    // console.log(weekdays) ;
     return weekdays;
 }
 
@@ -249,16 +285,6 @@ function getYYYYMMDD(date) {
     var day   = (date.getDate() < 10) ? ('0'+ date.getDate()) : date.getDate();
     return year + month + day;
 }
-
-// From pikaday 
-// https://github.com/dbushell/Pikaday/blob/master/pikaday.js
-// This formula follows the US norm 
-/***********
-function getWeekNum(y,m,d) {
-    var firstjan = new Date(y, 0, 1);
-    return Math.ceil((((new Date(y, m, d) - firstjan) / 86400000) + firstjan.getDay()+1)/7);
-}
-*************/
 
 /**
  * Get the ISO week date week number
@@ -320,9 +346,9 @@ function displayCalendarModal(eventID) {
 
 function createCourseModal(ID) {
     console.log(calendar_data[ID]);
-    var courseID = calendar_data[ID].summary;
+    var courseID = calendar_data[ID].apogee;
     var the_course = course_data[courseID];
-    var image = 'course_header';
+    var image = 'headinfo.jpg';
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
     
     if (the_course.link !== undefined) {
@@ -335,7 +361,7 @@ function createCourseModal(ID) {
     html += '<h4 class="modal-title">'+the_course.title+'<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span></h4>';
     html += '</div>';
     html += '<div class="modal-body">';
-    html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
+    html += '<p><img class="img-responsive" src="img/'+image+'" alt=""></p>';
     html += '';
     html += the_course.contents[lang];
     html += '<a class="pull-right" href="' + the_course.html + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;<br>';
@@ -349,15 +375,18 @@ function createCourseModal(ID) {
 }
 
 function createEventModal(ID) {
+    var the_event = course_data[calendar_data[ID].apogee];
+
     var html = '';
     html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
-    html += '<h4 class="modal-title">'+title+'</h4>';
+    html += '<h4 class="modal-title">'+the_event.title +'<span class="pull-right"><i class="' + the_event.icon +'"> </i>&nbsp;&nbsp;&nbsp;&nbsp;</span></h4>';
     html += '</div>';
     html += '<div class="modal-body">';
-    html += '<p><img class="img-responsive" src="img/'+image+'.jpg" alt=""></p>';
+    html += '<p><img class="img-responsive" src="img/' + the_event.image + '" alt=""></p>';
     html += '';
-    html += 'Here is the contents of the event'; // HACK
+    html += '<h2>' + calendar_data[ID].title + '</h2>'; 
+    html += calendar_data[ID].description; 
     html += '</div>';
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
@@ -402,12 +431,15 @@ function findEvent(events,start,col) {
     var day = col + 1 // col#0 = MONDAY = day#1
     var html='';
     for (var i = 0; i < events.length; i++) {
-        var startMin = events[i].startDate.getHours()*60+events[i].startDate.getMinutes();
+        var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
         var startDay = events[i].weekdayIndex;
+        
         if (startMin == start && startDay == day) {
+            console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
+
             html += createEventCell(events[i]);
             for (var t=0; t < events[i].duration / 30; t++) {
-                console.log('table ',(start - 480 )/30 +t,' ',day);
+                console.log('table ',(start - 480 )/30 +t,day,' Start Time: ', events[i].startDate.getHours());
                 table.cells[(start - 480 )/30 + t][col]++;
             }
         }
@@ -422,12 +454,12 @@ function createEmptyCell() {
 
 
 function createEventCell(cal_event) {
-    console.log(cal_event);
+    console.log(JSON.stringify(cal_event) );
     var ID = cal_event.ID;
     
     var html = '';
-    if (ID[0] === 'C') {
-        var courseID = calendar_data[ID].summary;
+    if (ID[0] === 'C' || ID[0] === 'E') {
+        var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
 
         html += '<td rowspan="'+ (cal_event.duration / 60 * 2) +'" style="background-color: '+the_course.background_color+';">';
@@ -436,8 +468,13 @@ function createEventCell(cal_event) {
         html += '<li>';
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
-        html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required event' btn-danger and Blue: 'elective' btn-primary
-        html += 'onclick="displayCalendarModal(\'' + cal_event.ID + '\')">';
+        if (ID[0] === 'C') {
+            html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger and Green: 'elective' btn-success
+        }
+        else {
+            html += 'class="btn btn-info btn-xs" '; // Color is Light blue for Event
+        }
+        html += 'onclick="displayCalendarModal(\'' + ID + '\')">';
         html += the_course.acronym + '</a>'; // TODO: &nbsp;[' + cal_event.Nbsession +'] ' Sessions number ??
         console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
         var hh = (parseInt(cal_event.startDate.getHours())   < 10) ? ('0'+ cal_event.startDate.getHours())   : cal_event.startDate.getHours();
@@ -447,9 +484,19 @@ function createEventCell(cal_event) {
         mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
         html += hh + ':' + mm + '</span>';
         html += '</li>';
-        html += '<li>'+cal_event.comment +'</li>';
-        html += '<li>'+cal_event.lecturer+'</li>';
-        html += '<li>'+cal_event.location+'</li>';
+        //html += '<li>'+ cal_event.comment +'</li>';
+        html += '<li>'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
+        
+        // Location: Campus::Bldg@Room
+        var tmp = cal_event.location.match(/(.+)::/);
+        var campus = tmp[1];
+        tmp = cal_event.location.match(/::(.+)@/);
+        var bldg = tmp[1];
+        tmp = cal_event.location.match(/@(\d+)/);
+        var room = tmp[1];
+        html += '<li>Campus: '+ campus+'</li>';
+        html += '<li>Bldg: '+ bldg  +'</li>';
+        html += '<li>Room/Amphi: '+ room  +'</li>';
         html += '</ul>';
         html += '</div>';
         html += '</td>';

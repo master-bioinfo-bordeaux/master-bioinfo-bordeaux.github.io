@@ -4,6 +4,39 @@ var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master
 var course_data = {
 
 /**********************************************
+ SPECIAL EVENTS
+
+**********************************************/
+
+    'CONFERENCE' : {
+        'acronym'           : "Conf",
+        'title'             : "Conference",
+        'visibility'        : 'visible', // visible or hidden 
+        'background_color'  : '#FA5858',
+        'icon'              : 'fa fa-comments',
+        'image'             : 'headconf.jpg'
+    
+    },
+    'HOLIDAYS' : {
+        'acronym'   : "Holidays",
+        'visibility'        : 'visible', // visible or hidden 
+        'background_color'  : '#FA5858',
+        'icon'              : 'fa fa-globe',
+        'image'             : 'headholidays.jpg'
+    
+    },
+    'PRESS' : {
+        'acronym'   : "Press",
+        'title'             : "Press Highlights",
+        'visibility'        : 'visible', // visible or hidden 
+        'background_color'  : '#FA5858',
+        'icon'              : 'fa fa-newspaper-o',
+        'image'             : 'headpress.jpg'
+
+    
+    },
+    
+/**********************************************
 Semester 7:
 Anglais	                                                3   30h	
 Projet tutoré : réalisation logicielle	                3   27h		
@@ -563,6 +596,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "background_color" : "#FA5858",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -605,6 +639,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        'background_color': '#ffffff',
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -782,6 +817,7 @@ Systemes Autonomes	                                                        6		24
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "visibility": "visible",
+        "background_color" : "#CEF6CE",
         "contents": {
             "fr": 
                 "<h2>Programme</h2>"+
@@ -905,6 +941,7 @@ Systemes Autonomes	                                                        6		24
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "visibility": "visible",
+        "background_color": "#0af9f9",
         "contents": {
             "fr": 
                 "<h2>Programme</h2>"+

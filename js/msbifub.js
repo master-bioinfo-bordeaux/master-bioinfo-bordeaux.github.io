@@ -639,6 +639,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        'background_color': '#ffffff',
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -1254,128 +1255,68 @@ function updateCalendarBody(y,m,d) {
     var today = new Date(y,m,d);
     var weekevents = [];
 
-        // Search events occuring during this week 
-        
-        for (var index in calendar_data) {
-            var element = calendar_data[index];
-            var startDate = new Date(
-                parseInt(element.date_start.substr(0,4)),
-                parseInt(element.date_start.substr(5,2)) - 1,
-                parseInt(element.date_start.substr(8,2)),
-                parseInt(element.date_start.substr(11,2)),
-                parseInt(element.date_start.substr(14,2))
-            );
-            var endDate   = new Date(
-                parseInt(element.date_end.substr(0,4)),
-                parseInt(element.date_end.substr(5,2)) - 1,
-                parseInt(element.date_end.substr(8,2)),
-                parseInt(element.date_end.substr(11,2)),
-                parseInt(element.date_end.substr(14,2))
-            );
-            console.log('START ' + startDate);
-            
-            // From MON to FRI
-            for (var i = 1; i < 6; i++) {
-                var day = new Date(y,m,d - today.getDay() + i);
-                var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
-                var startDateD = element.date_start.substr(0,10); // Days number since UTC
-                var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
-                console.log(dayD,startDateD,endDateD,day, day.toCalString());
-                if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-                    console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
-                    element.weekdayIndex = i;
-                    var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
-                    element.startDate = startDate;
-                    element.endDate   = endDate;
-                    // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
-                    element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
-                    weekevents.push(element);
-                }
-            }
-        }
-        
-        // Sort events by time from 0800 to 1900
-        for (var i = 1; i < 6; i++) {
-            weekevents.sort(function sort(a,b) {
-                if (a.startDate.getTime() > b.startDate.getTime() ) {
-                    return 1;
-                }
-                else if (a.startDate.getTime() < b.startDate.getTime() ) {
-                    return -1;
-                }
-                else {
-                    if (a.weekdayIndex > b.weekdayIndex ) {
-                        return 1;
-                    }
-                    else if (a.weekdayIndex < b.weekdayIndex ) {
-                        return -1;
-                    }
-                    else
-                        return 0;
-                }
-            });
-        }
-        
-        
-/******************************************************************************
     // Search events occuring during this week 
+    
     for (var index in calendar_data) {
         var element = calendar_data[index];
         var startDate = new Date(
             parseInt(element.date_start.substr(0,4)),
-            parseInt(element.date_start.substr(4,2)) - 1,
-            parseInt(element.date_start.substr(6,2)),
-            parseInt(element.date_start.substr(9,2)),
-            parseInt(element.date_start.substr(11,2)) 
+            parseInt(element.date_start.substr(5,2)) - 1,
+            parseInt(element.date_start.substr(8,2)),
+            parseInt(element.date_start.substr(11,2)),
+            parseInt(element.date_start.substr(14,2))
         );
         var endDate   = new Date(
             parseInt(element.date_end.substr(0,4)),
-            parseInt(element.date_end.substr(4,2)) - 1,
-            parseInt(element.date_end.substr(6,2)),
-            parseInt(element.date_end.substr(9,2)),
-            parseInt(element.date_end.substr(11,2))
+            parseInt(element.date_end.substr(5,2)) - 1,
+            parseInt(element.date_end.substr(8,2)),
+            parseInt(element.date_end.substr(11,2)),
+            parseInt(element.date_end.substr(14,2))
         );
+        // console.log('START ' + startDate);
         
         // From MON to FRI
         for (var i = 1; i < 6; i++) {
             var day = new Date(y,m,d - today.getDay() + i);
-            var dayD       = getYYYYMMDD(day);       // Days number since UTC
-            var startDateD = getYYYYMMDD(startDate); // Days number since UTC
-            var endDateD   = getYYYYMMDD(endDate);   // Days number since UTC
-            var tmp = new Date();tmp.setTime(day.getTime() );
-            console.log(dayD,startDateD,endDateD);
+            var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
+            var startDateD = element.date_start.substr(0,10); // Days number since UTC
+            var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
+            // console.log(dayD,startDateD,endDateD,day, day.toCalString());
             if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-                console.log(day + ' creates an event with ' + element.ID + ' ' +  element.summary);
+                // console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
                 element.weekdayIndex = i;
                 var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                 element.startDate = startDate;
                 element.endDate   = endDate;
-                element.duration  = Math.ceil(timeDiff / (1000 * 60));
-                // parseInt(element.date_end.substr(9,4) - parseInt(element.date_start.substr(9,4)));
+                // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
+                element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
                 weekevents.push(element);
             }
         }
     }
+    
     // Sort events by time from 0800 to 1900
-    weekevents.sort(function sort(a,b) {
-        if (a.startDate.getTime() > b.startDate.getTime() ) {
-            return 1;
-        }
-        else if (a.startDate.getTime() < b.startDate.getTime() ) {
-            return -1;
-        }
-        else {
-            if (a.weekdayIndex > b.weekdayIndex ) {
+    for (var i = 1; i < 6; i++) {
+        weekevents.sort(function sort(a,b) {
+            if (a.startDate.getTime() > b.startDate.getTime() ) {
                 return 1;
             }
-            else if (a.weekdayIndex < b.weekdayIndex ) {
+            else if (a.startDate.getTime() < b.startDate.getTime() ) {
                 return -1;
             }
-            else
-                return 0;
-        }
-    });
-***************************************************************/
+            else {
+                if (a.weekdayIndex > b.weekdayIndex ) {
+                    return 1;
+                }
+                else if (a.weekdayIndex < b.weekdayIndex ) {
+                    return -1;
+                }
+                else
+                    return 0;
+            }
+        });
+    }
+        
     createEventCells(weekevents);
 }
 
@@ -1390,7 +1331,7 @@ function getWeekDays(y,m,d) {
         weekdays.push(shortdays[day.getDay()] +' <sub>' + day.getDate() + ' ' + months[day.getMonth()] +'</sub>');
     }
 
-    console.log(weekdays) ;
+    // console.log(weekdays) ;
     return weekdays;
 }
 
@@ -1429,16 +1370,6 @@ function getYYYYMMDD(date) {
     var day   = (date.getDate() < 10) ? ('0'+ date.getDate()) : date.getDate();
     return year + month + day;
 }
-
-// From pikaday 
-// https://github.com/dbushell/Pikaday/blob/master/pikaday.js
-// This formula follows the US norm 
-/***********
-function getWeekNum(y,m,d) {
-    var firstjan = new Date(y, 0, 1);
-    return Math.ceil((((new Date(y, m, d) - firstjan) / 86400000) + firstjan.getDay()+1)/7);
-}
-*************/
 
 /**
  * Get the ISO week date week number
@@ -1500,7 +1431,7 @@ function displayCalendarModal(eventID) {
 
 function createCourseModal(ID) {
     console.log(calendar_data[ID]);
-    var courseID = calendar_data[ID].summary;
+    var courseID = calendar_data[ID].apogee;
     var the_course = course_data[courseID];
     var image = 'headinfo.jpg';
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
@@ -1529,7 +1460,7 @@ function createCourseModal(ID) {
 }
 
 function createEventModal(ID) {
-    var the_event = course_data[calendar_data[ID].summary];
+    var the_event = course_data[calendar_data[ID].apogee];
 
     var html = '';
     html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
@@ -1613,7 +1544,7 @@ function createEventCell(cal_event) {
     
     var html = '';
     if (ID[0] === 'C' || ID[0] === 'E') {
-        var courseID = calendar_data[ID].summary;
+        var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
 
         html += '<td rowspan="'+ (cal_event.duration / 60 * 2) +'" style="background-color: '+the_course.background_color+';">';
@@ -1639,7 +1570,7 @@ function createEventCell(cal_event) {
         html += hh + ':' + mm + '</span>';
         html += '</li>';
         //html += '<li>'+ cal_event.comment +'</li>';
-        html += '<li>'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.comment+'</span></li>';
+        html += '<li>'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
         
         // Location: Campus::Bldg@Room
         var tmp = cal_event.location.match(/(.+)::/);
