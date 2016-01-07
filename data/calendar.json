@@ -684,11 +684,15 @@
   },
   "C2F20160107T084717663@jeesay": {
     "ID": "C2F20160107T084717663@jeesay",
+    "apogee": "J1BS9203",
+    "acronym": "S09::Prot3D",
+    "type": "Cours+TD",
     "summary": "",
     "lecturer": "Taveau JC",
     "date_start": "2016-01-11T08:00",
     "date_end": "2016-01-11T12:00",
     "location": "Talence::A29-CREMI@007",
-    "comment": "Unknown"
+    "comment": "Unknown",
+    "description": "None"
   }
 }
