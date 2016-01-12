@@ -610,16 +610,73 @@
 		</section><!-- section -->
 		
 
-        		<div class="container" id="dec" name="december">
+        <div class="container" id="dec" name="december">
 			<div class="row white">
 			    <br>
-			    <h2>Title</h2>
-                <h4>Authors</h4>
+			    <h2>Revue de presse, Décembre 2015</h2>
+                <h4>P. BONNEAU, F. CERIL, D. COUDRIN, K. JAMART, T.A TRINH</h4>
 				<div class="col-lg-12"> 
+					<p>Bonjour à tous et bonne année 2016. Ce mois-ci dans notre revue de presse, des articles traitant de thèmes différents, à commencer par du dessin de graphe avec un article tiré de Bioinformatics. Celui-ci nous présente un algorithme de représentation de réseaux biologique avec le standard SBGN. Ensuite une méthode permettant l'amélioration des criblages phénotypiques pour la recherche de nouveaux médicaments, méthode décrite dans un article de Nature Biotechnology. Le troisième article que nous avons choisi, issu de BMC Bioinformatics traite lui de phylogénie, plus précisément d'un outils, Treelink, permettant leur visualisation mais également l'intégration de données et la réalisation d'analyses comparatives. Un autre article que nous avons sélectionné, lui aussi paru dans BMC Bioinformatics, nous présente une plateforme, Pathosphere.org, facilant l'accès aux données et outils NGS pour la détection et la caratérisation de pathogènes, et en réalise un teste de celle-ci. Enfin notre cinquième article présente MICC, un package R pour la détection d'interaction avec la chromatine depuis des données de séquençage ChIA-PET.</p>
+					<h3>Bonne lecture !</h3>
 			    </div>
 			    
                 <!-- Article 1 -->
                 <div class="row">
+                	<hr>
+			        <div class="col-lg-3 col-md-3 col-sm-3" align="justify"> 
+			            <img class="img-responsive msbinobi_img hidden-xs" src="https://upload.wikimedia.org/wikipedia/en/d/d6/Bioinformatics_journal_cover.gif"/> 
+			        </div> 
+			        <div class="col-lg-9 col-md-9 col-sm-9">
+			        	<p>Cet article<sup><a href="#dec2015ref">[1]</a></sup> paru dans le <b>Oxford journal</b> écrit par Begum Genc et Ugur Dogursoz nous explique l'amélioration d'un algorithme pour la représentation de SGBN-PD.<br>
+						Le <abbr title="Systems Biology Graphical Notation"><b>SBGN</b></abbr> est un standard permettant la <b>représentation de graphes biologiques</b>. L'une de ces représentations, le Process Description (PD), ne possède pas de layout automatique qui respecte entièrement ces conventions. Les auteurs se basent sur un algorithme qu'ils ont déjà développé, <abbr title='Compound Spring Notation'>CoSE</abbr>, afin qu'ils appliquent les conventions SBGN-PD. CoSE est un <b>Force directed Layout</b> qui simule un système physique respectant les lois de Hooke et Coulomb et positionne les noeuds et leurs arêtes. L'amélioration de cet algorithme permet l'ajout de nouveaux ports  d'entrée et de sortie sur les noeuds de réactions, évitent les croisement d'arêtes en appliquant des rotations et en regroupant les noeuds et permet la représentation de composé cellulaire. De plus, l'amélioration de CoSE ne le ralentit pas et permet d'améliorer significativement la représentation SBGN-PD.</p>
+			        </div>
+                </div>
+                <!-- Article 2 -->
+                <div class="row">
+                	<hr>
+			        <div class="col-lg-9 col-md-9 col-sm-9"> 
+			            <p>Dans cet article<sup><a href="#dec2015ref">[2]</a></sup> paru dans <b>Nature Biotechnology</b>, une équiqe du Green Center for Systems Biology (UT Southwestern Medical Center, Dallas, Texas) nous présente une méthode pour améliorer l'efficacité et la précision des <b>criblages phénotypiques</b>. L'enjeu ici est de découvrir de nouveaux médicaments, par exemple pour réduire les effets secondaires de chez des sous-groupes de patients, ou qui peuvent développer des résistances au traitement. Le point central lors de la recherche de nouveaux composés chimiques par criblage <b>basé sur l'imagerie</b>, est le choix du meilleur biomarqueur possible. Celui-ci permettra de surveiller les réponses du système au niveau de chaque cellule. Cependant peu de biormarqueur peuvent être gérés en même temps lors de l'observation des cellules par microsopie à fluorescence. De plus, il n'existe pas encore d'ensemble minimal de biomarqueurs permettant une classification précise des composés testés parmi des classes de médicaments. Ici, les auteurs vont constituer une <b>bibliothèque de lignées de cellules rapporteuses</b> (vivantes, avec différents tag fluorescents pour une large varieté de fonction biologiques). Après analyse de ces lignées cellulaires, celle présentant les profil phénotypique permettant de classer le mieux des composés testés sont identifiées. C'est l'<abbr title ="Optimal Reporter cell lines for Annotating Compound libraries"><b>ORACL</b></abbr>.</p>
+			        </div>
+			        <div class="col-lg-3 col-md-3 col-sm-3" align="justify">
+			            <img class="img-responsive msbinobi_img hidden-xs" src="http://www.nature.com/nbt/journal/v33/n12/images/homecover.gif"/> 
+			        </div> 
+			        
+                </div>
+                <!-- Article 3 -->
+                <div class="row">
+                	<hr>
+			        <div class="col-lg-3 col-md-3 col-sm-3"> 
+			            <img class="img-responsive msbinobi_img hidden-xs" src="http://www.biomedcentral.com/sites/1002/images/logo.gif"/> 
+			        </div> 
+			        <div class="col-lg-9 col-md-9 col-sm-9"> 
+			            <p><b>Treelink</b><sup><a href="#dec2015ref">[3]</a></sup> comme son semblable, la plateforme Phylogenie.fr, a été développé dans le cadre de l’analyse et la comparaison des données en terme de <b>phylogénie</b>. S’appuyant aussi sur un modèle de classification connu, Le cladogramme, à l’aspect d’un arbre, et qui classe les données attribuées sur une relation de parenté.<br>
+						Les séquences à comparer  peuvent être de nature génomique ou protéomique, de plus pour simplifier amplement la structure des arbres et afficher le maximum de divergences, des nouveaux clades ont été ajoutés.  Aussi des informations géographiques intégrées permettent à partir d’un caractère ancestral un traçage phylogéographique basé sur des algorithmes de parcimonie et de vraissemblance.</p>
+			        </div>
+                </div>
+                <!-- Article 4 -->
+                <div class="row">
+                	<hr>
+			        <div class="col-lg-9 col-md-9 col-sm-9"> 
+			            <p>Dans cet article <sup><a href="#dec2015ref">[4]</a></sup> paru dans la revue <b>BMC Bioinformatics</b>, nous est présenté un site internet récent, <b>Pathosphere</b> (disponible à Pathosphere.org). Ce site a pour but de <b>mettre à disposition des biologistes et bioinformaticiens des outils d'analyse de données obtenues via du séquençage nouvelle génération</b> (en leur fournissant les ressources matérielles et logicielles via une interface web), afin de <b>détecter la présence de possibles pathogènes dans un échantillon analysé</b> en comparant les résultats à différentes bases de données (ex: NCBI).
+			            Cette démarche s'inscrit dans un cadre communautaire, permettant le partage de ces outils d'analyse et de données de séquençage nouvelle génération par des scientifiques de tous milieux (gouvernements, industries, enseignement), et fournit à l'utilisateur des résultats aisés à traiter et à analyser.
+			            De plus, le mode de fonctionnement du site (de type <b>cloud</b>) facilite les collaborations et le partage d'informations, le site disposant d'un forum et d'autres outils de communications entre utilisateurs.
+			        	</p>
+    					<br>
+			        </div>
+			        <div class="col-lg-3 col-md-3 col-sm-3">
+			            <img class="img-responsive msbinobi_img hidden-xs" src="http://www.biomedcentral.com/sites/1002/images/logo.gif"/> 
+			        </div> 
+                </div>
+                <!-- Article 5 -->
+                <div class="row">
+                	<hr>
+			        <div class="col-lg-3 col-md-3 col-sm-3"> 
+			            <img class="img-responsive msbinobi_img hidden-xs" src="https://upload.wikimedia.org/wikipedia/en/d/d6/Bioinformatics_journal_cover.gif"/> 
+			        </div> 
+			        <div class="col-lg-9 col-md-9 col-sm-9"> 
+			            <p>MICC: an <b>R package</b> for identifying chromatin interactions from ChIA-PET data<sup><a href="#dec2015ref">[5]</a></sup>.<br>
+						<b><abbr title ="Chromatin Interaction Analysis by Paired-End Tag Sequencing">ChIA-PET</abbr> est une technologie d'étude de la chromatine</b>. Elle repose sur l'immunoprecipitation de la chromatine, et permet d'avoir des informations sur les intéractions chromatiniennes à longue distance. C'est une technologie récente de haut débit pour laquelle les méthodes d'analyses sont peu nombreuses à l'heure actuelle. En effet deux méthodes sont utilisées ChIA-PET tool et ChiaSig. La méthode ChIA-PET tool ne permet pas une gestion du bruit satisfaisant et ne rend pas compte des certaines intéractions faibles, tandis que ChiaSig bien que gérant mieux le bruit engendre de nombreux faux positifs au cours de l'analyse. <abbr title = "Model based Interaction Calling from ChIA-PET data">MICC</abbr> propose une nouvelle alternative reposant sur la formation de cluster séparés. Ces clusters seront traités avec des tests statistiques différents suivant leur nature. Les résultats montre une amélioration sur à réduction du bruit et permet une meilleure reproductivité des analyses.</p>
+			        </div>
                 </div>
                 
                 <!-- References + Abbreviations-->
@@ -630,14 +687,22 @@
                     <div class="col-lg-7"> 
                         <h2 class="centered">Références Bibliographiques</h2>
                         <ul>
-                            <li></li>
+                            <li>[1] Begum Genc and Ugur Dogrusoz : An algorithm for automated layout of process description maps drawn in SBGN <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/09/17/bioinformatics.btv516.full">doi: 10.1093/bioinformatics/btv516</a></li>
+                            <li>[2]  Jungseog Kang,	Chien-Hsiang Hsu, Qi Wu, Shanshan Liu, Adam D. Coster, Bruce A. Posner, Steven J. Altschuler & Lani F. Wu : Improving drug discovery with high-content phenotypic screens by systematic selection of reporter cell lines <a href = "http://www.nature.com/nbt/journal/v34/n1/full/nbt.3419.html#access">doi:10.1038/nbt.3419</a></li>
+                            <li>[3] Christian Allende, Adolfo Ibañez, Erik Sohn and Cedric Little : Treelink: data integration, clustering and visualization of phylogenetic trees <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0860-1">doi : 10.1186/s12859-015-0860-1</a></li>
+                            <li>[4] Kilianski et al., Pathosphere.org: pathogen detection and characterization through a web-based, open source informatics platform. BMC Bioinformatics (2015). <a href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0840-5">doi: 10.1186/s12859-015-0840-5</a></li>
+                            <li>[5] Chao He, Michael Q. Zhang and Xiaowo Wang : MICC: an R package for identifying chromatin interactions from ChIA-PET data <a href="http://bioinformatics.oxfordjournals.org/content/31/23/3832.full">doi: 10.1093/bioinformatics/btv445</a></li>
                         </ul>
                     </div>
                     
                     <div class="col-lg-5"> 
 			            <h2 class="centered">Acronymes et Abréviations</h2>
 			            <ul>
-			                <li></li>
+			                <li>SBGN : Systems Biology Graphical Notation</li>
+			                <li>CoSE : Compound Spring Embedded</li>
+			                <li>ORACL : Optimal Reporter cell lines for Annotating Compound libraries</li>
+			                <li>ChIA-PET : Chromatin Interaction Analysis by Paired-End Tag Sequencing</li>
+			                <li>MICC : Model based Interaction Calling from ChIA-PET data</li>
                         </ul>
                     </div>
 			    </div>
