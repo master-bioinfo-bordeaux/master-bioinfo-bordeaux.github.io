@@ -640,6 +640,7 @@ Systemes Autonomes	                                                        6		24
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         'background_color': '#ffffff',
+        "image"   : "headSysBio.jpg",
         "visibility": "visible",
         "contents": {
             "fr": 
