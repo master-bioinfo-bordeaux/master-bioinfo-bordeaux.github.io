@@ -1438,7 +1438,7 @@ function createCourseModal(ID) {
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
     
     if (the_course.link !== undefined) {
-        the_course = course_data[the_course.link];
+        the_course = university_path + course_data[the_course.link];
     }
 
     var html = '';
