@@ -673,12 +673,13 @@ Systemes Autonomes	                                                        6		24
 
     "J1BS9203" : {
         "id": "J1BS9203",
-        "acronym": "Prot3D",
-        "title": "Visualisation de la Structure de Protéines",
-        "ects": 3,
+        "acronym" : "Prot3D",
+        "title"   : "Visualisation de la Structure de Protéines",
+        "ects"    : 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         'background_color': '#eef409',
+        "image"   : 'headprot.jpg',
         "visibility": "visible",
         "contents": {
             "fr": 
