@@ -348,28 +348,31 @@ function createCourseModal(ID) {
     console.log(calendar_data[ID]);
     var courseID = calendar_data[ID].apogee;
     var the_course = course_data[courseID];
-    var image = 'headinfo.jpg';
+    var image = the_course.image  || 'headinfo.jpg';
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
     
+    // If the_course is a sub-course (ex: AEB-Info is a sub-part of AEB), then get the parent course for information
     if (the_course.link !== undefined) {
         the_course = course_data[the_course.link];
     }
 
     var html = '';
-    html += '<div class="modal-dialog"><div class="modal-content"><div class="modal-header">';
+    html += '<div class="modal-dialog">';
+    html +='<div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
-    html += '<h4 class="modal-title">'+the_course.title+'<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span></h4>';
-    html += '</div>';
+    html += '<h4 class="modal-title">'+the_course.title;
+    html += '<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span>';
+    html += '</h4>';
+    html += '</div>'; // modal-header
     html += '<div class="modal-body">';
     html += '<p><img class="img-responsive" src="img/'+image+'" alt=""></p>';
     html += '';
     html += the_course.contents[lang];
-    html += '<a class="pull-right" href="' + the_course.html + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;<br>';
-    html += '</div>';
+    html += '<a class="pull-right" href="' + (university_path + the_course.html) + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;<br>';
+    html += '</div>'; // modal-body
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
     html += '</div>'; // modal-dialog
-    html += '</div>'; // modal
 
     return html;
 }
@@ -391,7 +394,6 @@ function createEventModal(ID) {
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
     html += '</div>'; // modal-dialog
-    html += '</div>'; // modal
 
     return html;
 }

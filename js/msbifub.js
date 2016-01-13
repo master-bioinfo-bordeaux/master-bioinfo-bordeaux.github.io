@@ -1459,7 +1459,6 @@ function createCourseModal(ID) {
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
     html += '</div>'; // modal-dialog
-    //html += '</div>'; // modal
 
     return html;
 }
@@ -1481,7 +1480,6 @@ function createEventModal(ID) {
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
     html += '</div>'; // modal-dialog
-    html += '</div>'; // modal
 
     return html;
 }
