@@ -1437,8 +1437,9 @@ function createCourseModal(ID) {
     var image = the_course.image  || 'headinfo.jpg';
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
     
+    // If the_course is a sub-course (ex: AEB-Info is a sub-part of AEB), then get the parent course for information
     if (the_course.link !== undefined) {
-        the_course = university_path + course_data[the_course.link];
+        the_course = course_data[the_course.link];
     }
 
     var html = '';
@@ -1450,7 +1451,7 @@ function createCourseModal(ID) {
     html += '<p><img class="img-responsive" src="img/'+image+'" alt=""></p>';
     html += '';
     html += the_course.contents[lang];
-    html += '<a class="pull-right" href="' + the_course.html + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;<br>';
+    html += '<a class="pull-right" href="' + (university_path + the_course.html) + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;<br>';
     html += '</div>';
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
