@@ -1434,7 +1434,7 @@ function createCourseModal(ID) {
     console.log(calendar_data[ID]);
     var courseID = calendar_data[ID].apogee;
     var the_course = course_data[courseID];
-    var image = calendar_data[ID].image  || 'headinfo.jpg';
+    var image = the_course.image  || 'headinfo.jpg';
     var lang = (navigator.language === 'fr') ? 'fr' : 'en';
     
     if (the_course.link !== undefined) {
