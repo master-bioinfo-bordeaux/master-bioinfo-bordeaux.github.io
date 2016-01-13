@@ -45,10 +45,10 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li> <a href="#home" class="smoothScroll">Home</a></li>
+			<li> <a href="#about" class="smoothScroll"> About</a></li>
+			<li> <a href="#information" class="smoothScroll"> Information</a></li>
 			<li> <a href="#news" class="smoothScroll"> News</a></li>
 			<li> <a href="#calendar" class="smoothScroll"> Calendar</a></li>
-			<li> <a href="#information" class="smoothScroll"> Information</a></li>
-			<li> <a href="#about" class="smoothScroll"> About</a></li>
 			<li> <a href="#team" class="smoothScroll"> Team</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
         </div><!--/.nav-collapse -->
@@ -232,7 +232,6 @@
 				</div><!-- /col -->
 
 				<!-- INFORMATION IMAGE 6 -->
-
 				<div class="col-md-4 ">
 			    	<div class="grid mask">
 						<figure>
@@ -269,8 +268,18 @@
 				<hr>
 				<br>
 				<div class="col-lg-6">
+				<!-- Twitter widget -->
 				<a class="twitter-timeline" href="https://twitter.com/MSBioinfoUBX" data-widget-id="685125535232585728">Tweets de @MSBioinfoUBX</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<script>
+				    !function(d,s,id){
+				        var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+				        if(!d.getElementById(id)) {
+				            js=d.createElement(s);
+				            js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
+				            fjs.parentNode.insertBefore(js,fjs);
+				        }
+				    }(document,"script","twitter-wjs");
+				</script>
                 </div>
 				<div class="col-lg-6">
 			    	<div class="grid mask">
@@ -310,9 +319,13 @@
 				<div>
 				<div class="row">
 				    <div class="col-lg-3 col-md-3 col-xs-5"">
-                        <a id="weekBackward" class="btn btn-default" href="javascript:void(0)" onclick="previousWeek()" role="button"><i class="fa fa-backward fa-lg"></i></a>
+                        <a id="weekBackward" class="btn btn-default" href="javascript:void(0)" onclick="previousWeek()" role="button">
+                            <i class="fa fa-backward fa-lg"></i>
+                        </a>
                         <span id ="weeknum" class="week"></span>
-                        <a id="weekForward" class="btn btn-default" href="javascript:void(0)" role="button" onclick="nextWeek()"><i class="fa fa-forward fa-lg"></i></a>
+                        <a id="weekForward" class="btn btn-default" href="javascript:void(0)" role="button" onclick="nextWeek()">
+                            <i class="fa fa-forward fa-lg"></i>
+                        </a>
                     </div>
 
 				    <div class="col-lg-3 col-md-3 col-xs-3 ">
@@ -329,14 +342,14 @@
                         <select class="form-control hidden-sm hidden-xs">
                             <option>Computational Biology</option>
                             <option>From Genomes to Organisms</option>
-                            <option>From Organisms to Ecosystems</option>                  
-                            <option>BioImages, Structures, and Contents</option>                  
+                            <option>From Organisms to Ecosystems</option>
+                            <option>BioImages, Structures, and Contents</option>
                         </select>
                         <select class="form-control  hidden-lg hidden-md">
                             <option>C++BIO</option>
                             <option>GENORG</option>
-                            <option>ORGECO</option>                  
-                            <option>BSC</option>                  
+                            <option>ORGECO</option>
+                            <option>BSC</option>
                         </select>
                     </div>
                  </div>
@@ -347,295 +360,13 @@
                 </tbody>
                 </table>
                 
-                <div id="myCarousel" class="carousel slide hidden-md hidden-lg">
-  <!-- Carousel items -->
-  <div class="carousel-inner">
-    <div class="active item">
-                <table class="table table-bordered ">
-                <thead>
-                <tr>
-                <th>Hour</th><th>MON <span class="pull-right"><sup>Aug 31</sup></span></th>
-                </tr>               
-                </thead>
-                <tbody>
-                <tr> <!-- 8:00-8:30 -->
-                    <td  rowspan="2">08:00-09:00</td>
-                    <td>&nbsp;</td>
-                 </tr>
-                <tr> <!-- 8:30-9:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 9:00-9:30 -->
-                    <td rowspan="2">09:00-10:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 9:30-10:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">10:00-11:00</td>
-                    <td>&nbsp;</td>
-                 </tr>
-                <tr><!-- 10:30-11:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">11:00-12:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 11:30-12:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">12:00-13:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 12:30-13:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">13:00-14:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 13:30-14:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">14:00-15:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 14:30-15:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">15:00-16:00</td>
-                </tr>
-                <tr><!-- 15:30-16:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">16:00-17:00</td>
-                </tr>
-                <tr><!-- 16:30-17:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">17:00-18:00</td>
-                </tr>
-                <tr><!-- 17:30-18:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">18:00-19:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 18:30-19:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                </tbody>
-                </table>
-    </div>
-    <div class="item">
-                <table class="table table-bordered ">
-                <thead>
-                <tr>
-                <th>Hour</th><th>TUE <span class="pull-right"><sup>Sep 1</sup></span></th>
-                </tr>               
-                </thead>
-                <tbody>
-                <tr> <!-- 8:00-8:30 -->
-                    <td  rowspan="2">08:00-09:00</td>
-                    <td>&nbsp;</td>
-                 </tr>
-                <tr> <!-- 8:30-9:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 9:00-9:30 -->
-                    <td rowspan="2">09:00-10:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 9:30-10:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">10:00-11:00</td>
-                    <td>&nbsp;</td>
-                 </tr>
-                <tr><!-- 10:30-11:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">11:00-12:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 11:30-12:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">12:00-13:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 12:30-13:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">13:00-14:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 13:30-14:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">14:00-15:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 14:30-15:00 -->
-                    <td rowspan="6" style="background-color: #afe5f5; border: 2px solid #fff;">
-                        <ul class="list-unstyled">
-                            <li>ImagProc[2]</li>
-                            <li>JC Taveau</li>
-                            <li><b>14:30-17:30</b></li>
-                            <li>CREMI</li>
-                            <li>Room: 25</li>
-                            <li>Talence</li>
-                            <li><a data-toggle="modal" href="#myModal" class="btn btn-primary btn-xs pull-left">More...</a></li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td rowspan="2">15:00-16:00</td>
-                </tr>
-                <tr><!-- 15:30-16:00 -->
-                </tr>
-                <tr>
-                    <td rowspan="2">16:00-17:00</td>
-                </tr>
-                <tr><!-- 16:30-17:00 -->
-                </tr>
-                <tr>
-                    <td rowspan="2">17:00-18:00</td>
-                </tr>
-                <tr><!-- 17:30-18:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">18:00-19:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 18:30-19:00 -->
-                    <td>&nbsp;</td>
-                </tr>
 
-                </tbody>
-                </table>
-    </div>
-    <div class="item">
-                    <table class="table table-bordered ">
-                <thead>
-                <tr>
-                <th>Hour</th><th>WED <span class="pull-right"><sup>Sep 2</sup></span></th>
-                </tr>               
-                </thead>
-                <tbody>
-                <tr> <!-- 8:00-8:30 -->
-                    <td  rowspan="2">08:00-09:00</td>
-                    <td>&nbsp;</td>
-                 </tr>
-                <tr> <!-- 8:30-9:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 9:00-9:30 -->
-                    <td rowspan="2">09:00-10:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 9:30-10:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">10:00-11:00</td>
-                    <td>&nbsp;</td>
-                 </tr>
-                <tr><!-- 10:30-11:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">11:00-12:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 11:30-12:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">12:00-13:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 12:30-13:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">13:00-14:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 13:30-14:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">14:00-15:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 14:30-15:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">15:00-16:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 15:30-16:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">16:00-17:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 16:30-17:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">17:00-18:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 17:30-18:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">18:00-19:00</td>
-                    <td>&nbsp;</td>
-                </tr>
-                <tr><!-- 18:30-19:00 -->
-                    <td>&nbsp;</td>
-                </tr>
-                </tbody>
-                </table>
-            </div>
-  </div>
-  <!-- Carousel nav -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-</div>​
-
-
-                </div>
-            </div>
+            </div> <!-- row -->
+        </div> <!-- row -->
             
         <div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel" aria-hidden="true"></div>
 
-        </div>
+        </div> <!-- container -->
         
 		<!-- ==== SECTION DIVIDER4 -->
 		<section class="section-divider textdivider divider4">
@@ -720,7 +451,7 @@
 		<!-- ==== SECTION DIVIDER6 ==== -->
 		<section class="section-divider textdivider divider6">
 			<div class="container">
-				<h1>CRAFTED IN NEW YORK, USA.</h1>
+				<h1>University of Bordeaux, France</h1>
 				<hr>
 				<p>Some Address 987,</p>
 				<p>+34 9884 4893</p>
@@ -735,7 +466,7 @@
 				<hr>
 				<br>
 				<br>
-				<div class="col-lg-4">
+				<div class="col-lg-6">
 					<h3>Contact Information</h3>
 					<p><i class="fa fa-home fa-2x"></i> Université de Bordeaux, France<br/>
 						<i class="fa fa-phone fa-2x"></i> +33&nbsp;5&nbsp;40&nbsp;00&nbsp;xx&nbsp;xx <br/>
@@ -744,33 +475,8 @@
 					</p>
 				</div><!-- col -->
 				
-				<div class="col-lg-4">
-					<h3>Newsletter</h3>
-					<p>Register to our newsletter and be updated with the latest information regarding our services, offers and much more.</p>
-					<p>
-						<form class="form-horizontal" role="form">
-						  <div class="form-group">
-						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label for="text1" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Your Name">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <button type="submit" class="btn btn-success">Sign in</button>
-						    </div>
-						  </div>
-					   </form><!-- form -->
-					</p>
-				</div><!-- col -->
 				
-				<div class="col-lg-4">
+				<div class="col-lg-6">
 					<h3>Support Us</h3>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 				</div><!-- col -->
