@@ -1501,7 +1501,9 @@ function findEvent(events,start,col) {
         // <td> with gray  
         var background_color = (stack.length > 1) ? '#eee' : course_data[stack[0].apogee].background_color;
         html += '<td rowspan="'+ (max_duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
-        html+= '<div><i class="fa fa-object-ungroup"></i></div>';
+        if (stack.length > 1) {
+            html+= '<i class="fa fa-2x fa-object-ungroup"></i>';
+        }
         for (var i=0; i < stack.length; i++) {
            // What about simultaneous colliding events ???
             // Add each colliding event
