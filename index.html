@@ -412,27 +412,34 @@
                     </div>
 
 				    <div class="col-lg-3 col-md-3 col-xs-3 ">
-                        <select class="form-control hidden-sm hidden-xs">
-                            <option>Master 1</option>
-                            <option>Master 2</option>
+                        <select id="masterYear" class="form-control hidden-sm hidden-xs" onchange="setMasterOptions()">
+                            <option value="1">Master 1</option>
+                            <option value="2">Master 2</option>
                         </select>
                         <select class="form-control hidden-lg hidden-md">
-                            <option>M1</option>
-                            <option>M2</option>
+                            <option value="1">M1</option>
+                            <option value="2">M2</option>
                         </select>
+                        <script>
+                            if ('masterYear' in localStorage) {
+                                var e = document.getElementById('masterYear');
+                                e.value = localStorage.masterYear;
+                            }
+                        </script>
+
                     </div>
                     <div class="col-lg-4  col-md-4 col-xs-4">
-                        <select class="form-control hidden-sm hidden-xs">
-                            <option>Computational Biology</option>
-                            <option>From Genomes to Organisms</option>
-                            <option>From Organisms to Ecosystems</option>
-                            <option>BioImages, Structures, and Contents</option>
+                        <select id="masterTrack" class="form-control hidden-sm hidden-xs" onchange="setMasterOptions()">
+                            <option value="1">Computational Biology</option>
+                            <option value="2">From Genomes to Organisms</option>
+                            <option value="4">From Organisms to Ecosystems</option>
+                            <option value="8">BioImages, Structures, and Contents</option>
                         </select>
                         <select class="form-control  hidden-lg hidden-md">
-                            <option>C++BIO</option>
-                            <option>GENORG</option>
-                            <option>ORGECO</option>
-                            <option>BSC</option>
+                            <option value="1">C++BIO</option>
+                            <option value="2">GENORG</option>
+                            <option value="4">ORGECO</option>
+                            <option value="8">BSC</option>
                         </select>
                     </div>
                  </div>

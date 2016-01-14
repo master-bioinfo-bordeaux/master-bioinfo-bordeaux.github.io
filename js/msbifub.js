@@ -1117,12 +1117,71 @@ if ( !Date.prototype.toCalString ) {
   }() );
 }
 
+/******************************************************
+ *
+ * E V E N T S
+ *
+ ******************************************************/
+ 
+function setMasterOptions() {
+    if (typeof localStorage != undefined) {
+        var e = document.getElementById('masterYear');
+        var l = document.getElementById('masterTrack');
+        localStorage.masterYear  = e.options[e.selectedIndex].value;
+        localStorage.masterTrack = l.options[l.selectedIndex].value;
+    } else {
+        alert("html5:: localStorage not supported");
+    }
+    updateCalendar();
+}
+
+
+function previousWeek() {
+    var cal = document.getElementById("calendar");
+    var y = parseInt(cal.dataset.year);
+    var m = parseInt(cal.dataset.month);
+    var d = parseInt(cal.dataset.day);
+    var date = new Date(y,m,d-7);
+    cal.dataset.year  = date.getFullYear();
+    cal.dataset.month = date.getMonth();
+    cal.dataset.day   = date.getDate();
+    
+    table.reset();
+    updateCalendar();
+}
+
+function nextWeek() {
+    var cal = document.getElementById("calendar");
+    var y = parseInt(cal.dataset.year);
+    var m = parseInt(cal.dataset.month);
+    var d = parseInt(cal.dataset.day);
+    var date = new Date(y,m,d+7);
+    cal.dataset.year  = date.getFullYear();
+    cal.dataset.month = date.getMonth();
+    cal.dataset.day   = date.getDate();
+
+    table.reset();
+    updateCalendar();
+}
+
+
+/******************************************************
+ *
+ * C A L E N D A R
+ *
+ ******************************************************/
+ 
 var calendar_data = null;
 var table = new TableCal();
 
 initCalendar();
 
-
+/**
+ *
+ * Constructor
+ *
+ **/
+ 
 function initCalendar() {
     var now = new Date();
     
@@ -1133,7 +1192,6 @@ function initCalendar() {
     
     loadCalendarData();
 
-    
 }
 
 function loadCalendarData() {
@@ -1142,7 +1200,7 @@ function loadCalendarData() {
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
             calendar_data = JSON.parse(xhr.responseText); // Données textuelles récupérées
-            processCalendarData();
+            updateCalendar();
         }
     };
     xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/calendar.json", true);
@@ -1151,17 +1209,11 @@ function loadCalendarData() {
 }
 
 
-function processCalendarData() {
-    
+function updateCalendar() {
     var y = parseInt(document.getElementById("calendar").dataset.year);
     var m = parseInt(document.getElementById("calendar").dataset.month);
     var d = parseInt(document.getElementById("calendar").dataset.day);
 
-    updateCalendar(y,m,d);
-
-}
-
-function updateCalendar(y,m,d) {
     updateCalendarHeader(y,m,d);
     updateCalendarBody(y,m,d);
 }
@@ -1183,6 +1235,9 @@ function updateCalendarHeader(y,m,d) {
 }
 
 function updateCalendarBody(y,m,d) {
+    var masterYear  = localStorage.masterYear;
+    var masterTrack = localStorage.masterTrack;
+    
     // console.log(calendar_data);
     var today = new Date(y,m,d);
     var weekevents = [];
@@ -1191,42 +1246,46 @@ function updateCalendarBody(y,m,d) {
     
     for (var index in calendar_data) {
         var element = calendar_data[index];
-        var startDate = new Date(
-            parseInt(element.date_start.substr(0,4)),
-            parseInt(element.date_start.substr(5,2)) - 1,
-            parseInt(element.date_start.substr(8,2)),
-            parseInt(element.date_start.substr(11,2)),
-            parseInt(element.date_start.substr(14,2))
-        );
-        var endDate   = new Date(
-            parseInt(element.date_end.substr(0,4)),
-            parseInt(element.date_end.substr(5,2)) - 1,
-            parseInt(element.date_end.substr(8,2)),
-            parseInt(element.date_end.substr(11,2)),
-            parseInt(element.date_end.substr(14,2))
-        );
-        // console.log('START ' + startDate);
+        element.MSYear  = parseInt(element.ID[1]);
+        element.MSTrack = parseInt(element.ID[2],16);
+        console.log(element);
+        if ( (element.MSYear == masterYear || element.MSYear == 3) && (element.MSTrack & masterTrack) == masterTrack ) {
+            var startDate = new Date(
+                parseInt(element.date_start.substr(0,4)),
+                parseInt(element.date_start.substr(5,2)) - 1,
+                parseInt(element.date_start.substr(8,2)),
+                parseInt(element.date_start.substr(11,2)),
+                parseInt(element.date_start.substr(14,2))
+            );
+            var endDate   = new Date(
+                parseInt(element.date_end.substr(0,4)),
+                parseInt(element.date_end.substr(5,2)) - 1,
+                parseInt(element.date_end.substr(8,2)),
+                parseInt(element.date_end.substr(11,2)),
+                parseInt(element.date_end.substr(14,2))
+            );
+            // console.log('START ' + startDate);
         
-        // From MON to FRI
-        for (var i = 1; i < 6; i++) {
-            var day = new Date(y,m,d - today.getDay() + i);
-            var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
-            var startDateD = element.date_start.substr(0,10); // Days number since UTC
-            var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
-            // console.log(dayD,startDateD,endDateD,day, day.toCalString());
-            if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-                // console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
-                element.weekdayIndex = i;
-                var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
-                element.startDate = startDate;
-                element.endDate   = endDate;
-                // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
-                element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
-                weekevents.push(element);
+            // From MON to FRI
+            for (var i = 1; i < 6; i++) {
+                var day = new Date(y,m,d - today.getDay() + i);
+                var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
+                var startDateD = element.date_start.substr(0,10); // Days number since UTC
+                var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
+                // console.log(dayD,startDateD,endDateD,day, day.toCalString());
+                if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
+                    // console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
+                    element.weekdayIndex = i;
+                    var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
+                    element.startDate = startDate;
+                    element.endDate   = endDate;
+                    // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
+                    element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
+                    weekevents.push(element);
+                }
             }
         }
     }
-    
     // Sort events by time from 0800 to 1900
     for (var i = 1; i < 6; i++) {
         weekevents.sort(function sort(a,b) {
@@ -1248,7 +1307,7 @@ function updateCalendarBody(y,m,d) {
             }
         });
     }
-        
+
     createEventCells(weekevents);
 }
 
@@ -1267,33 +1326,6 @@ function getWeekDays(y,m,d) {
     return weekdays;
 }
 
-function previousWeek() {
-    var cal = document.getElementById("calendar");
-    var y = parseInt(cal.dataset.year);
-    var m = parseInt(cal.dataset.month);
-    var d = parseInt(cal.dataset.day);
-    var date = new Date(y,m,d-7);
-    cal.dataset.year  = date.getFullYear();
-    cal.dataset.month = date.getMonth();
-    cal.dataset.day   = date.getDate();
-    
-    table.reset();
-    updateCalendar(date.getFullYear(),date.getMonth(),date.getDate());
-}
-
-function nextWeek() {
-    var cal = document.getElementById("calendar");
-    var y = parseInt(cal.dataset.year);
-    var m = parseInt(cal.dataset.month);
-    var d = parseInt(cal.dataset.day);
-    var date = new Date(y,m,d+7);
-    cal.dataset.year  = date.getFullYear();
-    cal.dataset.month = date.getMonth();
-    cal.dataset.day   = date.getDate();
-
-    table.reset();
-    updateCalendar(date.getFullYear(),date.getMonth(),date.getDate());
-}
 
 
 function getYYYYMMDD(date) {
@@ -1432,7 +1464,7 @@ function createEventCells(events) {
         for (var column = 0; column < 5; column++) {
             // Regular events
             var contents = findEvent(events,row,column);
-            if (contents ==='' && table.cells[i][column] == 0) {
+            if (table.cells[i][column] == 0) {
                 html += createEmptyCell();
             }
             else {
@@ -1449,20 +1481,41 @@ function createEventCells(events) {
 function findEvent(events,start,col) {
     var day = col + 1 // col#0 = MONDAY = day#1
     var html='';
+    var stack = [];
+    var max_duration = 0;
     for (var i = 0; i < events.length; i++) {
         var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
         var startDay = events[i].weekdayIndex;
         
         if (startMin == start && startDay == day) {
             console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
-
-            html += createEventCell(events[i]);
-            for (var t=0; t < events[i].duration / 30; t++) {
-                console.log('table ',(start - 480 )/30 +t,day,' Start Time: ', events[i].startDate.getHours());
-                table.cells[(start - 480 )/30 + t][col]++;
-            }
+            stack.push(events[i]);
+            max_duration = Math.max(events[i].duration, max_duration);
+            
         }
     }
+    
+    if (max_duration != 0) {
+            // Choose the duration max
+        // <td> with gray  
+        var background_color = (stack.length > 1) ? '#eee' : course_data[stack[0].apogee].background_color;
+        html += '<td rowspan="'+ (max_duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
+        html+= '<i class="fa fa-object-ungroup"></i>';
+        for (var i=0; i < stack.length; i++) {
+           // What about simultaneous colliding events ???
+            // Add each colliding event
+            html += createEventCell(stack[i]);
+        }
+        // </td>
+        html += '</td>';
+    }
+    
+    // Update cells
+    for (var t=0; t < max_duration / 30; t++) {
+        console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
+        table.cells[(start - 480 )/30 + t][col]++;
+    }
+
     return html;
 }
 
@@ -1481,7 +1534,6 @@ function createEventCell(cal_event) {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
 
-        html += '<td rowspan="'+ (cal_event.duration / 60 * 2) +'" style="background-color: '+the_course.background_color+';">';
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
@@ -1518,11 +1570,9 @@ function createEventCell(cal_event) {
         html += '<li>Room/Amphi: '+ room  +'</li>';
         html += '</ul>';
         html += '</div>';
-        html += '</td>';
+
     }
     else {
-        background_color = '#ccc';
-        html += '<td rowspan="'+ (cal_event.duration / 60 * 2) +'" style="background-color: '+background_color+';">';
         html += '<div class="course">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
@@ -1539,10 +1589,7 @@ function createEventCell(cal_event) {
         html += '<li>'+cal_event.location+'</li>';
         html += '</ul>';
         html += '</div>';
-        html += '</td>';
-
     }
-
     return html;
 }
 
