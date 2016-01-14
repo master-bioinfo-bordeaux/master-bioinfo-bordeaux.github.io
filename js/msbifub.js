@@ -1146,7 +1146,6 @@ function previousWeek() {
     cal.dataset.month = date.getMonth();
     cal.dataset.day   = date.getDate();
     
-    table.reset();
     updateCalendar();
 }
 
@@ -1160,7 +1159,6 @@ function nextWeek() {
     cal.dataset.month = date.getMonth();
     cal.dataset.day   = date.getDate();
 
-    table.reset();
     updateCalendar();
 }
 
@@ -1210,6 +1208,9 @@ function loadCalendarData() {
 
 
 function updateCalendar() {
+
+    table.reset();
+    
     var y = parseInt(document.getElementById("calendar").dataset.year);
     var m = parseInt(document.getElementById("calendar").dataset.month);
     var d = parseInt(document.getElementById("calendar").dataset.day);
@@ -1398,7 +1399,7 @@ function createCourseModal(ID) {
     var courseID = calendar_data[ID].apogee;
     var the_course = course_data[courseID];
     var image = the_course.image  || 'headinfo.jpg';
-    var lang = (navigator.language === 'fr') ? 'fr' : 'en';
+    var lang = /fr/i.test(navigator.language) ? 'fr' : 'en';
     
     // If the_course is a sub-course (ex: AEB-Info is a sub-part of AEB), then get the parent course for information
     if (the_course.link !== undefined) {
@@ -1500,7 +1501,7 @@ function findEvent(events,start,col) {
         // <td> with gray  
         var background_color = (stack.length > 1) ? '#eee' : course_data[stack[0].apogee].background_color;
         html += '<td rowspan="'+ (max_duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
-        html+= '<i class="fa fa-object-ungroup"></i>';
+        html+= '<div><i class="fa fa-object-ungroup"></i></div>';
         for (var i=0; i < stack.length; i++) {
            // What about simultaneous colliding events ???
             // Add each colliding event
