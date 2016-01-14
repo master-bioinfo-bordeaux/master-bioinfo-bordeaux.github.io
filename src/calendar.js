@@ -415,7 +415,7 @@ function findEvent(events,start,col) {
         var background_color = (stack.length > 1) ? '#eee' : course_data[stack[0].apogee].background_color;
         html += '<td rowspan="'+ (max_duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
         if (stack.length > 1) {
-            html+= '<i class="fa fa-2x fa-object-ungroup"></i>';
+            html+= '<a title="Warning!! Colliding Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
         }
         for (var i=0; i < stack.length; i++) {
            // What about simultaneous colliding events ???
