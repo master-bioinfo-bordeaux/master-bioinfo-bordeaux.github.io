@@ -399,9 +399,13 @@ function findEvent(events,start,col) {
     var max_duration = 0;
     for (var i = 0; i < events.length; i++) {
         var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
+        var startMax = startMin + events[i].duration;
         var startDay = events[i].weekdayIndex;
         
-        if (startMin == start && startDay == day) {
+        // TODO: Take into account the overlapping events !!!!!!!!!!!!!!!!!!!!!!
+        // Event #1: 14:00-18:00
+        // Event #2: 15:00-16:30
+        if (startMin >= start && startDay == day) {
             console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
             stack.push(events[i]);
             max_duration = Math.max(events[i].duration, max_duration);
@@ -418,8 +422,7 @@ function findEvent(events,start,col) {
             html+= '<a title="Warning!! Colliding Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
         }
         for (var i=0; i < stack.length; i++) {
-           // What about simultaneous colliding events ???
-            // Add each colliding event
+            // Add each colliding? event
             html += createEventCell(stack[i]);
         }
         // </td>
