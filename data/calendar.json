@@ -761,6 +761,33 @@
     "date_end": "2016-03-10T12:00",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@005",
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 4
+  },
+  "C2720160309T100943297@jeesay": {
+    "ID": "C2720160309T100943297@jeesay",
+    "apogee": "C0BS8M01-Model",
+    "acronym": "S08::IApp-Model",
+    "type": "Cours+TD",
+    "summary": "C0BS8M01-Model",
+    "date_start": "2016-03-09T14:00",
+    "date_end": "2016-03-09T17:00",
+    "lecturer": "Garenne A",
+    "location": "Talence::A29-CREMI@009",
+    "description": "None"
+  },
+  "C2720160309T100943298@jeesay": {
+    "ID": "C2720160309T100943298@jeesay",
+    "apogee": "C0BS8M01-Model",
+    "acronym": "S08::IApp-Model",
+    "type": "Cours+TD",
+    "summary": "C0BS8M01-Model",
+    "date_start": "2016-03-10T14:00",
+    "date_end": "2016-03-10T17:00",
+    "lecturer": "Garenne A",
+    "location": "Talence::A29-CREMI@005",
     "description": "None"
   }
 }
