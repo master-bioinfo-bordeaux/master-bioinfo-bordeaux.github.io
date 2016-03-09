@@ -1492,7 +1492,8 @@ function findEvent(events,start,col) {
         // TODO: Take into account the overlapping events !!!!!!!!!!!!!!!!!!!!!!
         // Event #1: 14:00-18:00
         // Event #2: 15:00-16:30
-        if (startMin >= start && startDay == day) {
+        // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
+        if (startMin == start && startDay == day) {
             console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
             stack.push(events[i]);
             max_duration = Math.max(events[i].duration, max_duration);
