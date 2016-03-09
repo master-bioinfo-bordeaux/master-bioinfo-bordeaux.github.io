@@ -750,5 +750,17 @@
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@007",
     "description": "None"
+  },
+  "C2720160309T100712636@jeesay": {
+    "ID": "C2720160309T100712636@jeesay",
+    "apogee": "C0BS8M01-Imag",
+    "acronym": "S08::IApp-Imag",
+    "type": "Cours+TD",
+    "summary": "C0BS8M01-Imag",
+    "date_start": "2016-03-10T08:00",
+    "date_end": "2016-03-10T12:00",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@005",
+    "description": "None"
   }
 }
