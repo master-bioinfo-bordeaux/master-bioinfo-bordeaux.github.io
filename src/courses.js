@@ -440,7 +440,7 @@ Programmation orienté objet                             	                9	27h
         'id'                : "C0BS8M01-Model",
         'acronym'           : "InfoApp-Model",
         'visibility'        : 'visible', // visible or hidden 
-        'background_color'  : "#0a0a0a",
+        'background_color'  : "#7FD8BC",
         'color'             : "#fff",   
         'link'              : "C0BS8M01"
     },
@@ -448,7 +448,7 @@ Programmation orienté objet                             	                9	27h
         'id'                : "C0BS8M01-Imag",
         'acronym'           : "InfoApp-Imag",
         'visibility'        : 'visible', // visible or hidden 
-        'background_color'  : "#0a0a0a",
+        'background_color'  : "#7FD8BC",
         'color'             : "#fff",   
         'link'              : "C0BS8M01"
     },

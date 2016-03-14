@@ -405,7 +405,8 @@ function findEvent(events,start,col) {
         // TODO: Take into account the overlapping events !!!!!!!!!!!!!!!!!!!!!!
         // Event #1: 14:00-18:00
         // Event #2: 15:00-16:30
-        if (startMin >= start && startDay == day) {
+        // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
+        if (startMin == start && startDay == day) {
             console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
             stack.push(events[i]);
             max_duration = Math.max(events[i].duration, max_duration);
@@ -482,7 +483,7 @@ function createEventCell(cal_event) {
         var campus = tmp[1];
         tmp = cal_event.location.match(/::(.+)@/);
         var bldg = tmp[1];
-        tmp = cal_event.location.match(/@(\d+)/);
+        tmp = cal_event.location.match(/@(\w+)/);
         var room = tmp[1];
         html += '<li>Campus: '+ campus+'</li>';
         html += '<li>Bldg: '+ bldg  +'</li>';
