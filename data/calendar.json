@@ -851,6 +851,21 @@
     "date_end": "2016-03-16T17:00",
     "lecturer": "Garenne A",
     "location": "Talence::A29-CREMI@005",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 3
+  },
+  "C2720160314T104213234@jeesay": {
+    "ID": "C2720160314T104213234@jeesay",
+    "apogee": "J1BS8203",
+    "acronym": "S08::MOBioS",
+    "type": "Cours+TD",
+    "summary": "J1BS8203",
+    "date_start": "2016-03-15T14:00",
+    "date_end": "2016-03-15T17:00",
+    "lecturer": "Heric&eacute; C",
+    "location": "Talence::A29-CREMI@000",
     "description": "None"
   }
 }
