@@ -879,14 +879,11 @@
     "acronym": "S08::IApp-Imag",
     "type": "Cours+TD",
     "summary": "C0BS8M01-Imag",
-    "date_start": "2016-03-17T14:00",
-    "date_end": "2016-03-17T18:00",
+    "date_start": "2016-03-17T08:00",
+    "date_end": "2016-03-17T12:00",
     "lecturer": "Taveau JC",
     "location": "Talence::A29-CREMI@005",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-18:00",
-    "weekdayIndex": 4
+    "description": "None"
   },
   "C1720160314T104738989@jeesay": {
     "ID": "C1720160314T104738989@jeesay",
@@ -898,6 +895,9 @@
     "date_end": "2016-03-17T17:00",
     "lecturer": "Garenne A",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 4
   }
 }
