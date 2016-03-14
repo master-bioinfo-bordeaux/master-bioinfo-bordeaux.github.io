@@ -866,6 +866,23 @@
     "date_end": "2016-03-15T17:00",
     "lecturer": "Heric&eacute; C",
     "location": "Talence::A29-CREMI@000",
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
+  },
+  "C2720160314T104447366@jeesay": {
+    "ID": "C2720160314T104447366@jeesay",
+    "apogee": "C0BS8M01-Imag",
+    "acronym": "S08::IApp-Imag",
+    "type": "Cours+TD",
+    "summary": "C0BS8M01-Imag",
+    "date_start": "2016-03-17T14:00",
+    "date_end": "2016-03-17T18:00",
+    "lecturer": "Taveau JC",
+    "location": "Talence::A29-CREMI@005",
     "description": "None"
   }
 }
