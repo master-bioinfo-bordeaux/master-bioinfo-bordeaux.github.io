@@ -836,6 +836,21 @@
     "date_end": "2016-03-14T15:30",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-15:30",
+    "weekdayIndex": 1
+  },
+  "C2720160314T104120771@jeesay": {
+    "ID": "C2720160314T104120771@jeesay",
+    "apogee": "C0BS8M01-Model",
+    "acronym": "S08::IApp-Model",
+    "type": "Cours+TD",
+    "summary": "C0BS8M01-Model",
+    "date_start": "2016-03-16T13:00",
+    "date_end": "2016-03-16T17:00",
+    "lecturer": "Garenne A",
+    "location": "Talence::A29-CREMI@005",
     "description": "None"
   }
 }
