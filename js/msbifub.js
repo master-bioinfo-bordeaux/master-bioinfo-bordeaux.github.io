@@ -1570,7 +1570,7 @@ function createEventCell(cal_event) {
         var campus = tmp[1];
         tmp = cal_event.location.match(/::(.+)@/);
         var bldg = tmp[1];
-        tmp = cal_event.location.match(/@(\d+)/);
+        tmp = cal_event.location.match(/@(\w+)/);
         var room = tmp[1];
         html += '<li>Campus: '+ campus+'</li>';
         html += '<li>Bldg: '+ bldg  +'</li>';
