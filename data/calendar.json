@@ -1055,5 +1055,20 @@
     "location": "Talence::A9@003",
     "description": "Pr&eacute;sentation des d&eacute;marches administratives &agrave; r&eacute;aliser pour faire un stage &agrave; l'&eacute;tranger",
     "tracks": "0x7"
+  },
+  "E3720160329T122645990@jeesay": {
+    "ID": "E3720160329T122645990@jeesay",
+    "apogee": "HOLIDAYS",
+    "acronym": "Vacances",
+    "summary": "HOLIDAYS",
+    "title": "F&eacute;ri&eacute;",
+    "lecturer": "--  ",
+    "year": "3",
+    "date_start": "2016-03-28TAllDay:00",
+    "date_end": "2016-03-28T08:00",
+    "group": "All",
+    "location": "None::None@",
+    "description": "",
+    "tracks": "0x7"
   }
 }
