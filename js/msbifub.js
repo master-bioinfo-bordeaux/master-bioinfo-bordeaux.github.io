@@ -461,6 +461,7 @@ Programmation orienté objet                             	                9	27h
         "semester": 8,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "visibility": "visible",
+        'background_color': '#a4ff80',
         "contents": {
             "fr": 
                 "<h2>Programme</h2>"+
@@ -1453,6 +1454,7 @@ function createEventCells(events) {
     console.log(events);
     var html='';
     // ROW 0 = ALL DAY events
+    html +='<tr><td>All Day</td><td></td><td></td><td></td><td></td><td></td></tr>';
     
     // ROW 1 to n = From 08:00 to 19:00 in minutes
     for (var i = 0; i < TableCal.NROWS; i++) {
@@ -1475,6 +1477,11 @@ function createEventCells(events) {
         html += '</tr>';
         console.log(table);
     }
+    
+    // Last ROW = EVENING events
+    html +='<tr><td>Evening</td><td></td><td></td><td></td><td></td><td></td></tr>';
+    
+
     document.getElementById('calendar-lg-body').innerHTML=html;
 
 }
