@@ -940,7 +940,10 @@
     "date_end": "2016-03-29T12:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C1720160329T081924425@jeesay": {
     "ID": "C1720160329T081924425@jeesay",
@@ -952,7 +955,10 @@
     "date_end": "2016-03-29T16:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C1720160329T081924426@jeesay": {
     "ID": "C1720160329T081924426@jeesay",
@@ -976,7 +982,10 @@
     "date_end": "2016-04-08T12:10",
     "lecturer": "Benois-Pineau J",
     "location": "Talence::A9@A3",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:10-12:10",
+    "weekdayIndex": 5
   },
   "C1720160329T081924592@jeesay": {
     "ID": "C1720160329T081924592@jeesay",
@@ -986,6 +995,45 @@
     "summary": "J1BS8202",
     "date_start": "2016-04-04T13:30",
     "date_end": "2016-04-04T17:30",
+    "lecturer": "Beurton-Aimar M",
+    "location": "Talence::A29-CREMI@005",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-17:30",
+    "weekdayIndex": 1
+  },
+  "C1720160329T082239128@jeesay": {
+    "ID": "C1720160329T082239128@jeesay",
+    "apogee": "J1BS8202",
+    "acronym": "S08::POO",
+    "type": "Cours+TD",
+    "summary": "J1BS8202",
+    "date_start": "2016-04-01T10:10",
+    "date_end": "2016-04-01T12:10",
+    "lecturer": "Benois-Pineau J",
+    "location": "Talence::A9@A3",
+    "description": "None"
+  },
+  "C1720160329T082239130@jeesay": {
+    "ID": "C1720160329T082239130@jeesay",
+    "apogee": "J1BS8202",
+    "acronym": "S08::POO",
+    "type": "Cours+TD",
+    "summary": "J1BS8202",
+    "date_start": "2016-04-11T13:30",
+    "date_end": "2016-04-11T17:30",
+    "lecturer": "Beurton-Aimar M",
+    "location": "Talence::A29-CREMI@005",
+    "description": "None"
+  },
+  "C1720160329T082239131@jeesay": {
+    "ID": "C1720160329T082239131@jeesay",
+    "apogee": "J1BS8202",
+    "acronym": "S08::POO",
+    "type": "Cours+TD",
+    "summary": "J1BS8202",
+    "date_start": "2016-04-13T10:00",
+    "date_end": "2016-04-13T12:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
     "description": "None"
