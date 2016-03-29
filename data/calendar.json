@@ -1056,26 +1056,6 @@
     "description": "Pr&eacute;sentation des d&eacute;marches administratives &agrave; r&eacute;aliser pour faire un stage &agrave; l'&eacute;tranger",
     "tracks": "0x7"
   },
-  "E3720160329T122645990@jeesay": {
-    "ID": "E3720160329T122645990@jeesay",
-    "apogee": "HOLIDAYS",
-    "acronym": "Vacances",
-    "summary": "HOLIDAYS",
-    "title": "F&eacute;ri&eacute;",
-    "lecturer": "--  ",
-    "year": "3",
-    "date_start": "2016-03-28TAllDay:00",
-    "date_end": "2016-03-28T08:00",
-    "group": "All",
-    "location": "None::None@",
-    "description": "",
-    "tracks": "0x7",
-    "warnings": [
-      " No building!!"
-    ],
-    "hours": "AllDa-08:00",
-    "weekdayIndex": 1
-  },
   "E3720160329T122709547@jeesay": {
     "ID": "E3720160329T122709547@jeesay",
     "apogee": "HOLIDAYS",
@@ -1089,26 +1069,7 @@
     "group": "All",
     "location": "Talence::A29-CREMI@000",
     "description": "",
-    "tracks": "0x7",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "AllDa-08:00",
-    "weekdayIndex": 1
-  },
-  "E3720160329T122746507@jeesay": {
-    "ID": "E3720160329T122746507@jeesay",
-    "apogee": "HOLIDAYS",
-    "acronym": "Vacances",
-    "summary": "HOLIDAYS",
-    "title": "F&eacute;ri&eacute;",
-    "lecturer": "--  ",
-    "year": "3",
-    "date_start": "2016-03-28TAllDay:00",
-    "date_end": "2016-03-28T08:00",
-    "group": "All",
-    "location": "Talence::A29-CREMI@999",
-    "description": "",
     "tracks": "0x7"
   }
+
 }
