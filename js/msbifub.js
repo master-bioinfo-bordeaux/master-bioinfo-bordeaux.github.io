@@ -19,6 +19,7 @@ var course_data = {
     },
     'HOLIDAYS' : {
         'acronym'   : "Holidays",
+        'title'     : "Jours Fériés, Vacances | Bank Holidays, Holidays",
         'visibility'        : 'visible', // visible or hidden 
         'background_color'  : '#FA5858',
         'icon'              : 'fa fa-globe',

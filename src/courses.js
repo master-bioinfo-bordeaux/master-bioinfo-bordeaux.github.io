@@ -19,6 +19,7 @@ var course_data = {
     },
     'HOLIDAYS' : {
         'acronym'   : "Holidays",
+        'title'     : "Jours Fériés, Vacances | Bank Holidays, Holidays",
         'visibility'        : 'visible', // visible or hidden 
         'background_color'  : '#FA5858',
         'icon'              : 'fa fa-globe',
@@ -461,6 +462,7 @@ Programmation orienté objet                             	                9	27h
         "semester": 8,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "visibility": "visible",
+        'background_color': '#a4ff80',
         "contents": {
             "fr": 
                 "<h2>Programme</h2>"+
