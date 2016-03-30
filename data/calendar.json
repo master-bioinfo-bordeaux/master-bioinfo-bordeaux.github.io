@@ -1054,8 +1054,11 @@
     "date_end": "2016-04-07T12:00",
     "group": "All",
     "location": "Talence::A9@003",
-    "description": "Pr&eacute;sentation des d&eacute;marches administratives &agrave; r&eacute;aliser pour faire un stage &agrave; l'&eacute;tranger<p>Le monde du travail s'internationalise. Beaucoup d’entreprises incitent leurs collaborateurs &agrave; partir d&eacute;velopper des activit&eacute;s &agrave; l'&eacute;tranger et les favorisent d&egrave;s leur retour en m&eacute;tropole (avancement dans la hi&eacute;rarchie). Les &eacute;quipes en France travaillent avec des filiales et des sous-traitants &agrave; l’&eacute;tranger dans tous les domaines des sciences et technologies. Les collaborateurs poss&eacute;dant parfaitement l'anglais et ayant une exp&eacute;rience de l'&eacute;tranger se trouvent favoris&eacute;s.</p><p>Des jeunes dipl&ocirc;m&eacute;s avec l’exp&eacute;rience internationale int&eacute;ressent des futurs employeurs.<br>Vous êtes &eacute;tudiant du master M1 au collège Science et Technologies et l’ann&eacute;e prochaine vous devez choisir votre stage de fin d’ann&eacute;e. Nous souhaitons vous pr&eacute;senter les informations quant aux stages &agrave; l’&eacute;tranger dans le milieu industriel : la recherche, l’accompagnement, les dispositifs.</p>",
-    "tracks": "0x7"
+    "description": "Pr&eacute;sentation des d&eacute;marches administratives &agrave; r&eacute;aliser pour faire un stage &agrave; l'&eacute;tranger<p>Le monde du travail s'internationalise. Beaucoup dÃ¢ÂÂentreprises incitent leurs collaborateurs &agrave; partir d&eacute;velopper des activit&eacute;s &agrave; l'&eacute;tranger et les favorisent d&egrave;s leur retour en m&eacute;tropole (avancement dans la hi&eacute;rarchie). Les &eacute;quipes en France travaillent avec des filiales et des sous-traitants &agrave; lÃ¢ÂÂ&eacute;tranger dans tous les domaines des sciences et technologies. Les collaborateurs poss&eacute;dant parfaitement l'anglais et ayant une exp&eacute;rience de l'&eacute;tranger se trouvent favoris&eacute;s.</p><p>Des jeunes dipl&ocirc;m&eacute;s avec lÃ¢ÂÂexp&eacute;rience internationale int&eacute;ressent des futurs employeurs.<br>Vous ÃÂªtes &eacute;tudiant du master M1 au collÃÂ¨ge Science et Technologies et lÃ¢ÂÂann&eacute;e prochaine vous devez choisir votre stage de fin dÃ¢ÂÂann&eacute;e. Nous souhaitons vous pr&eacute;senter les informations quant aux stages &agrave; lÃ¢ÂÂ&eacute;tranger dans le milieu industriel : la recherche, lÃ¢ÂÂaccompagnement, les dispositifs.</p>",
+    "tracks": "0x7",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 4
   },
   "E3720160329T122709547@jeesay": {
     "ID": "E3720160329T122709547@jeesay",
@@ -1089,6 +1092,27 @@
     "date_end": "2016-03-31T16:00",
     "lecturer": "Boussicault A",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 4
+  },
+  "E1720160330T144928781@jeesay": {
+    "ID": "E1720160330T144928781@jeesay",
+    "apogee": "HOLIDAYS",
+    "acronym": "Vacances",
+    "summary": "HOLIDAYS",
+    "title": "Vacances de Printemps",
+    "lecturer": "--  ",
+    "year": "1",
+    "date_start": "2016-04-18T00:00",
+    "date_end": "2016-04-18T00:00",
+    "group": "All",
+    "location": "None::None@",
+    "description": "",
+    "tracks": "0x7"
   }
 }
