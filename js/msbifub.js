@@ -1251,6 +1251,7 @@ function updateCalendarBody(y,m,d) {
         var element = calendar_data[index];
         element.MSYear  = parseInt(element.ID[1]);
         element.MSTrack = parseInt(element.ID[2],16);
+        element.weekdayIndex = -1;
         console.log(element);
         if ( (element.MSYear == masterYear || element.MSYear == 3) && (element.MSTrack & masterTrack) == masterTrack ) {
             var startDate = new Date(
@@ -1285,13 +1286,25 @@ function updateCalendarBody(y,m,d) {
                 // console.log(dayD,startDateD,endDateD,day, day.toCalString());
                 if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
                     // console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
-                    element.weekdayIndex = i;
                     var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                     element.startDate = startDate;
                     element.endDate   = endDate;
                     // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
                     element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
-                    weekevents.push(element);
+                    if (element.weekdayIndex == -1) {
+                        element.weekdayIndex = i;
+                        weekevents.push(element);
+                    }
+                    else {
+                        // Already exists aka multiday event
+                        // Copy element
+                        var elementClone = element.constructor();
+                        for (var attr in element) {
+                            if (element.hasOwnProperty(attr)) elementClone[attr] = element[attr];
+                        }
+                        elementClone.weekdayIndex = i;
+                        weekevents.push(elementClone);
+                    }
                 }
             }
         }
