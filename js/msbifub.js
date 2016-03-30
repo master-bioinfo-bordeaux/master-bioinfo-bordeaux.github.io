@@ -1126,8 +1126,8 @@ if ( !Date.prototype.toCalString ) {
  
 function setMasterOptions() {
     if (typeof localStorage != undefined) {
-        var e = document.getElementById('masterYear');
-        var l = document.getElementById('masterTrack');
+        var e = document.getElementById('masterYear') || 1;
+        var l = document.getElementById('masterTrack') || 1;
         localStorage.masterYear  = e.options[e.selectedIndex].value;
         localStorage.masterTrack = l.options[l.selectedIndex].value;
     } else {
@@ -1266,6 +1266,13 @@ function updateCalendarBody(y,m,d) {
                 parseInt(element.date_end.substr(11,2)),
                 parseInt(element.date_end.substr(14,2))
             );
+            
+            if (parseInt(element.date_start.substr(11,2)) == 0) {
+                element.allDay = true;
+            }
+            else {
+                element.allDay = false;
+            }
             // console.log('START ' + startDate);
         
             // From MON to FRI
@@ -1454,7 +1461,18 @@ function createEventCells(events) {
     console.log(events);
     var html='';
     // ROW 0 = ALL DAY events
-    html +='<tr><td>All Day</td><td></td><td></td><td></td><td></td><td></td></tr>';
+    html +='<tr><td>All Day</td>';
+    for (var column = 0; column < 5; column++) {
+        html +='<td>';
+        // AllDay events
+        for (var i = 0; i < events.length; i++) {
+            if ( events[i].weekdayIndex == (column+1) && events[i].allDay === true) {
+                html += createEventCell(events[i]);
+            }
+        }
+        html +='</td>';
+    }
+    html +='</tr>';
     
     // ROW 1 to n = From 08:00 to 19:00 in minutes
     for (var i = 0; i < TableCal.NROWS; i++) {
@@ -1564,10 +1582,17 @@ function createEventCell(cal_event) {
         console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
         var hh = (parseInt(cal_event.startDate.getHours())   < 10) ? ('0'+ cal_event.startDate.getHours())   : cal_event.startDate.getHours();
         var mm = (parseInt(cal_event.startDate.getMinutes()) < 10) ? ('0'+ cal_event.startDate.getMinutes()) : cal_event.startDate.getMinutes();
-        html += '<span class="pull-right" style="font-weight: bold">' + hh + ':' + mm + '-';
-        hh = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
-        mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
-        html += hh + ':' + mm + '</span>';
+        
+        if (hh !== "00") {
+            html += '<span class="pull-right" style="font-weight: bold">' + hh + ':' + mm + '-';
+            hh = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
+            mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
+            html += hh + ':' + mm + '</span>';
+        }
+        else {
+            html += '<span class="pull-right" style="font-weight: bold">All Day</span>';
+        }
+
         html += '</li>';
         //html += '<li>'+ cal_event.comment +'</li>';
         html += '<li>'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
@@ -1575,13 +1600,16 @@ function createEventCell(cal_event) {
         // Location: Campus::Bldg@Room
         var tmp = cal_event.location.match(/(.+)::/);
         var campus = tmp[1];
-        tmp = cal_event.location.match(/::(.+)@/);
-        var bldg = tmp[1];
-        tmp = cal_event.location.match(/@(\w+)/);
-        var room = tmp[1];
-        html += '<li>Campus: '+ campus+'</li>';
-        html += '<li>Bldg: '+ bldg  +'</li>';
-        html += '<li>Room/Amphi: '+ room  +'</li>';
+        if (campus !== "None") {
+            tmp = cal_event.location.match(/::(.+)@/);
+            var bldg = tmp[1];
+            tmp = cal_event.location.match(/@(\w+)/);
+            var room = tmp[1];
+            html += '<li>Campus: '+ campus+'</li>';
+            html += '<li>Bldg: '+ bldg  +'</li>';
+            html += '<li>Room/Amphi: '+ room  +'</li>';
+        }
+
         html += '</ul>';
         html += '</div>';
 
