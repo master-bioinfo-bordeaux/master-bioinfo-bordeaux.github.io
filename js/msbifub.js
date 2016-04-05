@@ -52,6 +52,11 @@ Algorithmique et Programmation                          9	27h
         'ects'      : 3,
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        "block"     : {
+            "fr": "Fondements de la Bioinformatique",
+            "en": "Fondamentals of Bioinformatics"
+        },
+        "tracks"    : "0x7",
         'visibility': 'visible', // <visible|hidden>     
         'title'     : "Anglais",
         'contents'  : {
@@ -87,6 +92,11 @@ Algorithmique et Programmation                          9	27h
         "ects"      : 3,
         "semester"  : 7,
         "students"  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        "block"     : {
+            "fr": "Fondements de la Bioinformatique",
+            "en": "Fondamentals of Bioinformatics"
+        },
+        "tracks"    : "0x7",
         "visibility": 'visible', // <visible|hidden>     
         "contents": {
             'fr': 
@@ -115,6 +125,11 @@ Algorithmique et Programmation                          9	27h
         'ects'      : 6,
         'semester'  : 7, // semester 7 and 8 = M1  9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        "block"     : {
+            "fr": "Fondements de la Bioinformatique",
+            "en": "Fondamentals of Bioinformatics"
+        },
+        "tracks"    : "0x7",
         'visibility': 'hidden', // <visible|hidden>     
         'background_color': '#eef409',
         'title'     : "Approches Expérimentales en Biologie",
@@ -207,6 +222,11 @@ Algorithmique et Programmation                          9	27h
         'ects'      : 9,
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
+        "block"     : {
+            "fr": "Fondements de la Bioinformatique",
+            "en": "Fondamentals of Bioinformatics"
+        },
+        "tracks"    : "0x7",
         'visibility': 'hidden', // <visible|hidden>     
         'title'     : "Biomodélisation, simulation de processus biologiques",
         'contents'  : {
@@ -287,6 +307,11 @@ Algorithmique et Programmation                          9	27h
         "ects": 9,
         "semester": 7,
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[required]',
+        "block"     : {
+            "fr": "Fondements de la Bioinformatique",
+            "en": "Fondamentals of Bioinformatics"
+        },
+        "tracks"    : "0x7",
         'visibility': 'visible', // <visible|hidden>     
         "contents": {
             "fr":
@@ -337,6 +362,11 @@ Programmation orienté objet                             	                9	27h
         "ects": 12,
         "semester": 8,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "block"     : {
+            "fr": "Systèmes de gestion de données et Applications",
+            "en": "Databases and Applications"
+        },
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": "<h2>Programme</h2>"+
@@ -355,6 +385,11 @@ Programmation orienté objet                             	                9	27h
         "ects": 9,
         "semester": 8,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "block"     : {
+            "fr": "Systèmes de gestion de données et Applications",
+            "en": "Databases and Applications"
+        },
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -379,6 +414,11 @@ Programmation orienté objet                             	                9	27h
         "ects": 9,
         "semester": 8,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
+        "block"     : {
+            "fr": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
+            "en": "Elective Courses - 1 unit of 9 ECTS"
+        },
         "visibility": "hidden",
         "contents": {
             "fr": 
@@ -461,6 +501,11 @@ Programmation orienté objet                             	                9	27h
         "ects": 9,
         "semester": 8,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
+        "block"     : {
+            "fr": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
+            "en": "Elective Courses - 1 unit of 9 ECTS"
+        },
         "visibility": "visible",
         'background_color': '#a4ff80',
         "contents": {
@@ -519,6 +564,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "tracks"    : "0x7",
         'background_color': '#ff9100',
         "visibility": "visible",
         "contents": {
@@ -554,6 +600,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 9,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "tracks"    : "0x7",
         'background_color': '#a4ff80',
         "visibility": "visible",
         "contents": {
@@ -598,6 +645,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "tracks"    : "0x7",
         "background_color" : "#FA5858",
         "visibility": "visible",
         "contents": {
@@ -641,6 +689,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "tracks"    : "0x7",
         'background_color': '#ffffff',
         "image"   : "headSysBio.jpg",
         "visibility": "visible",
@@ -681,6 +730,7 @@ Systemes Autonomes	                                                        6		24
         "ects"    : 3,
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "tracks"    : "0x61",
         'background_color': '#eef409',
         "image"   : 'headprot.jpg',
         "visibility": "visible",
@@ -713,12 +763,13 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x70",
         'background_color': '#0095ff',
         "visibility": "visible",
         "contents": {
             "fr": 
                 "<h2>Programme</h2>"+
-                "<ul><li>Conférences scientifiques et débats par des scientifiques anglophonesAnalyses d'articles scientifiques "+
+                "<ul><li>Conférences scientifiques et débats par des scientifiques anglophones. Analyses d'articles scientifiques "+
                 "ou de rapport en anglais</li>"+
                 "<li>Initiation a la rédaction de productions scientifiques en anglais</li>"+
                 "</ul>",
@@ -728,12 +779,13 @@ Systemes Autonomes	                                                        6		24
     },
     
     "C6SB9M02" : {
-        "id": "C6SB9M02",
-        "acronym": "ArchiGen",
-        "title": "Architecture du génome",
-        "ects": 3,
-        "semester": 9,
-        "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "id"        : "C6SB9M02",
+        "acronym"   : "ArchiGen",
+        "title"     : "Architecture du génome",
+        "ects"      : 3,
+        "semester"  : 9,
+        "students"  : "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x70",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -762,6 +814,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -790,6 +843,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -820,6 +874,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "background_color" : "#CEF6CE",
         "contents": {
@@ -861,6 +916,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 3,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -903,6 +959,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 6,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         'background_color': '#e8e8e8',
         "visibility": "visible",
         "contents": {
@@ -919,6 +976,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 6,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": 
@@ -944,6 +1002,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 6,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "background_color": "#0af9f9",
         "contents": {
@@ -965,6 +1024,7 @@ Systemes Autonomes	                                                        6		24
         "ects": 6,
         "semester": 9,
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
+        "tracks"    : "0x7",
         'background_color': '#ffa6fa',
         "visibility": "visible",
         "contents": {
@@ -1023,6 +1083,7 @@ Réalisation d'un projet de recherche et/ou développement
         "ects": 30,
         "semester": 10,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
+        "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
             "fr": "<h2>Programme</h2>"+
