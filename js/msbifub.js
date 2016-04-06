@@ -11,38 +11,38 @@ var course_data = {
     'CONFERENCE' : {
         'acronym'           : "Conf",
         'title'             : "Conference",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : '#FA5858',
         'icon'              : 'fa fa-comments',
         'image'             : 'headconf.jpg'
-    
+
     },
     'HOLIDAYS' : {
         'acronym'   : "Holidays",
         'title'     : "Jours Fériés, Vacances | Bank Holidays, Holidays",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : '#FA5858',
         'icon'              : 'fa fa-bicycle',
         'image'             : 'headholidays.jpg'
-    
+
     },
     'PRESS' : {
         'acronym'   : "Press",
         'title'             : "Press Highlights",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : '#FA5858',
         'icon'              : 'fa fa-newspaper-o',
         'image'             : 'headpress.jpg'
 
-    
+
     },
-    
+
 /**********************************************
 Semester 7:
-Anglais	                                                3   30h	
-Projet tutoré : réalisation logicielle	                3   27h		
-Approches expérimentales en biologie	                6	26h 28h	
-Biomodélisation et simulation de processus biologiques	9	27h		
+Anglais	                                                3   30h
+Projet tutoré : réalisation logicielle	                3   27h
+Approches expérimentales en biologie	                6	26h 28h
+Biomodélisation et simulation de processus biologiques	9	27h
 Algorithmique et Programmation                          9	27h
 **********************************************/
 
@@ -50,14 +50,15 @@ Algorithmique et Programmation                          9	27h
         'id'        : "B1BS7M06",
         'acronym'   : "Anglais",
         'ects'      : 3,
-        'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
+        'semester'  : 7, // semester 7 and 8 = M1, 9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
         "block"     : {
-            "fr": "Fondements de la Bioinformatique",
-            "en": "Fondamentals of Bioinformatics"
+            "c++bio": "Fondements de la Bioinformatique",
+            "geneco": "Fondements de la Bioinformatique",
+            "bao"   : "Fundamentals of Bioinformatics"
         },
         "tracks"    : "0x7",
-        'visibility': 'visible', // <visible|hidden>     
+        'visibility': 'visible', // <visible|hidden>
         'title'     : "Anglais",
         'contents'  : {
             'fr':
@@ -84,7 +85,7 @@ Algorithmique et Programmation                          9	27h
         },
         'html'      : "ENB1BS7M06_01/anglais",
     },
-    
+
     'F1BS7201' : {
     	"id": "F1BS7201",
         "acronym"   : "ProjLog",
@@ -93,13 +94,14 @@ Algorithmique et Programmation                          9	27h
         "semester"  : 7,
         "students"  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
         "block"     : {
-            "fr": "Fondements de la Bioinformatique",
-            "en": "Fondamentals of Bioinformatics"
+            "c++bio": "Fondements de la Bioinformatique",
+            "geneco": "Fondements de la Bioinformatique",
+            "bao"   : "Fundamentals of Bioinformatics"
         },
         "tracks"    : "0x7",
-        "visibility": 'visible', // <visible|hidden>     
+        "visibility": 'visible', // <visible|hidden>
         "contents": {
-            'fr': 
+            'fr':
                 "<ul><li>Mise à niveau notions et principes de base."+
                 "<ul>"+
                 "<li>Le système d'exploitation."+
@@ -115,10 +117,10 @@ Algorithmique et Programmation                          9	27h
                 "</ul>",
             'en': ""
         },
-        'html'      : "ENF1BS7201_01/projet-tutore-realisation-logicielle",    
+        'html'      : "ENF1BS7201_01/projet-tutore-realisation-logicielle",
     },
 
-    
+
     'F6BS7M02' : {
         'id'        : "F6BS7M02", // F6BS7M02 ou KM1BS10U
         'acronym'   : "AEB",
@@ -126,15 +128,16 @@ Algorithmique et Programmation                          9	27h
         'semester'  : 7, // semester 7 and 8 = M1  9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
         "block"     : {
-            "fr": "Fondements de la Bioinformatique",
-            "en": "Fondamentals of Bioinformatics"
+            "c++bio": "Fondements de la Bioinformatique",
+            "geneco": "Fondements de la Bioinformatique",
+            "bao"   : "Fundamentals of Bioinformatics"
         },
         "tracks"    : "0x7",
-        'visibility': 'hidden', // <visible|hidden>     
+        'visibility': 'hidden', // <visible|hidden>
         'background_color': '#eef409',
         'title'     : "Approches Expérimentales en Biologie",
         'contents'  : {
-            'fr': 
+            'fr':
                 "<h2>Programme</h2>"+
                 "<h3>Les Omics (30 h)</h3>"+
                 "<ul>"+
@@ -187,35 +190,35 @@ Algorithmique et Programmation                          9	27h
                 "<h2>Exploitation of databases (16 h)</h2>"+
                 "<ul><li>Contenu des bases de données en biologie. Méthodes bioinformatiques.</li>"+
                 "<li>Comparaison et analyse des séquences biologiques.</li>"+
-                "<li>Prédictions de structure et de fonction (y compris structure 3D).</li></ul>",          
+                "<li>Prédictions de structure et de fonction (y compris structure 3D).</li></ul>",
         },
         'html'      : "ENF6BS7M02_01/approches-experimentales-en-biologie",
     },
     'F6BS7M02-Omics' : {
         'id'                : "F6BS7M02-Omics",
         'acronym'           : "AEB-Omics",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : '#eef409',
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "F6BS7M02"
     },
     'F6BS7M02-Stats' : {
         'id'                : "F6BS7M02-Stats",
         'acronym'           : "AEB-Stats",
-        'visibility'        : 'visible', // visible or hidden     
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : '#eef409',
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "F6BS7M02"
     },
     'F6BS7M02-Info' : {
         'id'                : "F6BS7M02-Info",
         'acronym'           : "AEB-Info",
-        'visibility'        : 'visible', // visible or hidden     
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : '#eef409',
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "F6BS7M02"
     },
-    
+
     'J1BS7M01' : {
         'id'        : "J1BS7M01",
         'acronym'   : "BioMod",
@@ -223,11 +226,12 @@ Algorithmique et Programmation                          9	27h
         'semester'  : 7, // semester 7 and 8 = M1 			"<li>9 and 10 = M2
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[elective]',
         "block"     : {
-            "fr": "Fondements de la Bioinformatique",
-            "en": "Fondamentals of Bioinformatics"
+            "c++bio": "Fondements de la Bioinformatique",
+            "geneco": "Fondements de la Bioinformatique",
+            "bao"   : "Fundamentals of Bioinformatics"
         },
         "tracks"    : "0x7",
-        'visibility': 'hidden', // <visible|hidden>     
+        'visibility': 'hidden', // <visible|hidden>
         'title'     : "Biomodélisation, simulation de processus biologiques",
         'contents'  : {
             'fr': "<h2>Programme</h2>"+
@@ -269,7 +273,7 @@ Algorithmique et Programmation                          9	27h
 			    "<li>Imagerie: Appréhender les divers moyens d'amélioration des images scientifiques dans les "+
 			    "domaines des microscopies (optique et électronique) en vue de leur analyse.</li>"+
                 "<li>Imagerie: Savoir utiliser une librairie de traitement d'images.</li>"+
-                "</ul>",			
+                "</ul>",
             'en': ""
         },
         'html'      : "ENJ1BS7M01_01/biomodelisation-et-simulation-de-processus-biologiques",
@@ -278,28 +282,28 @@ Algorithmique et Programmation                          9	27h
      'J1BS7M01-Prog' : {
         'id'                : "J1BS7M01-Prog",
         'acronym'           : "BioMod-Prog",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : "#0a0a0a",
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "J1BS7M01"
     },
     'J1BS7M01-Imag' : {
         'id'                : "J1BS7M01-Imag",
         'acronym'           : "BioMod-Imag",
-        'visibility'        : 'visible', // visible or hidden     
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : "#0a0a0a",
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "J1BS7M01"
     },
     'J1BS7M01-Stats' : {
         'id'                : "J1BS7M01-Stats",
         'acronym'           : "BioMod-Stats",
-        'visibility'        : 'visible', // visible or hidden     
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : "#0a0a0a",
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "J1BS7M01"
     },
-    
+
     "J1BS7202" : {
         "id": "J1BS7202",
         "acronym": "AlgoProg",
@@ -308,11 +312,12 @@ Algorithmique et Programmation                          9	27h
         "semester": 7,
         'students'  : 'C++BIO[required],GENORG[required],ORGECO[required],BSC[required]',
         "block"     : {
-            "fr": "Fondements de la Bioinformatique",
-            "en": "Fondamentals of Bioinformatics"
+            "c++bio": "Fondements de la Bioinformatique",
+            "geneco": "Fondements de la Bioinformatique",
+            "bao"   : "Fundamentals of Bioinformatics"
         },
         "tracks"    : "0x7",
-        'visibility': 'visible', // <visible|hidden>     
+        'visibility': 'visible', // <visible|hidden>
         "contents": {
             "fr":
                 "<h2>Programme</h2>"+
@@ -346,12 +351,12 @@ Algorithmique et Programmation                          9	27h
 Semester 8:
 
 Enseignements obligatoires                                                  ECTS	CM	TD	TP
-Initiation à la Recherche et/ou Développement	 F1BS8201                   12		45h	
-Méthodes et outils pour la biologie des systèmes	J1BS8203                9	27h		
+Initiation à la Recherche et/ou Développement	 F1BS8201                   12		45h
+Méthodes et outils pour la biologie des systèmes	J1BS8203                9	27h
 
 Choix 1 UE de 9 ECTS                                                        ECTS	CM	TD	TP
-Informatique appliquée à la biologie: modélisation et ima	C0BS8M01  KM2BS04U      9	10h	5h	
-Programmation orienté objet                             	                9	27h		
+Informatique appliquée à la biologie: modélisation et ima	C0BS8M01  KM2BS04U      9	10h	5h
+Programmation orienté objet                             	                9	27h
 
 **********************************************/
 
@@ -363,8 +368,9 @@ Programmation orienté objet                             	                9	27h
         "semester": 8,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "block"     : {
-            "fr": "Systèmes de gestion de données et Applications",
-            "en": "Databases and Applications"
+            "c++bio": "Systèmes de gestion de données et Applications",
+            "geneco": "Systèmes de gestion de données et Applications",
+            "bao"   : "Databases and Applications"
         },
         "tracks"    : "0x7",
         "visibility": "visible",
@@ -377,7 +383,7 @@ Programmation orienté objet                             	                9	27h
         },
         "html": "ENF1BS8201_01/initiation-a-la-recherche-et-ou-developpement"
     },
-    
+
     "J1BS8203" : {
         "id": "J1BS8203",
         "acronym": "MOBioS",
@@ -386,13 +392,14 @@ Programmation orienté objet                             	                9	27h
         "semester": 8,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "block"     : {
-            "fr": "Systèmes de gestion de données et Applications",
-            "en": "Databases and Applications"
+            "c++bio": "Systèmes de gestion de données et Applications",
+            "geneco": "Systèmes de gestion de données et Applications",
+            "bao"   : "Databases and Applications"
         },
         "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul>"+
                 "<li>Récursivité, structures linéaires, structures arborescentes.</li>"+
@@ -416,12 +423,13 @@ Programmation orienté objet                             	                9	27h
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "tracks"    : "0x7",
         "block"     : {
-            "fr": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
-            "en": "Elective Courses - 1 unit of 9 ECTS"
+            "c++bio": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
+            "geneco": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
+            "bao"   : "Elective Courses - 1 unit of 9 ECTS"
         },
         "visibility": "hidden",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<h3>Modélisation</h3>"+
                 "<ul>"+
@@ -476,21 +484,21 @@ Programmation orienté objet                             	                9	27h
         },
         "html": "ENC0BS8M01_01/informatique-appliquee-a-la-biologie-modelisation-et-ima"
     },
-    
+
     'C0BS8M01-Model' : {
         'id'                : "C0BS8M01-Model",
         'acronym'           : "InfoApp-Model",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : "#7FD8BC",
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "C0BS8M01"
     },
     'C0BS8M01-Imag' : {
         'id'                : "C0BS8M01-Imag",
         'acronym'           : "InfoApp-Imag",
-        'visibility'        : 'visible', // visible or hidden 
+        'visibility'        : 'visible', // visible or hidden
         'background_color'  : "#7FD8BC",
-        'color'             : "#fff",   
+        'color'             : "#fff",
         'link'              : "C0BS8M01"
     },
 
@@ -503,13 +511,14 @@ Programmation orienté objet                             	                9	27h
         "students": "C++BIO[elective],GENORG[elective],ORGECO[elective],BSC[elective]",
         "tracks"    : "0x7",
         "block"     : {
-            "fr": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
-            "en": "Elective Courses - 1 unit of 9 ECTS"
+            "c++bio": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
+            "geneco": "Liste à choix d'UE obligatoires 1 UE de 9 ECTS",
+            "bao"   : "Elective Courses - 1 unit of 9 ECTS"
         },
         "visibility": "visible",
         'background_color': '#a4ff80',
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                     "<ul>"+
                     "<li>Modélisation objet:"+
@@ -532,29 +541,29 @@ Programmation orienté objet                             	                9	27h
         },
         "html": "ENJ1BS8202_01/programmation-oriente-objet"
     },
-    
+
 /**********************************************
 Semester 9:
 Enseignements obligatoires                                                  ECTS	CM	TD	TP
-Modélisation des systèmes biologiques	                                    3		15h	
-Communication et conception d'un projet de recherche et/ou développement	9			
-Connaissance de l'entreprise	                                            3		15h	
-Visualisation de la Structure de Proteines	                                3			
-Classification des données issues des banques de données biologiques	    3		15h	
+Modélisation des systèmes biologiques	                                    3		15h
+Communication et conception d'un projet de recherche et/ou développement	9
+Connaissance de l'entreprise	                                            3		15h
+Visualisation de la Structure de Proteines	                                3
+Classification des données issues des banques de données biologiques	    3		15h
 
 Choix 1 UE de 3 ECTS                                                        ECTS	CM	TD	TP
-Anglais	                                                                    3		60h	
-Architecture du génome	                                                    3	10h	10h	
-Génétique Humaine	                                                        3	10h	10h	
-Division et cycle cellulaire	                                            3	10h	10h	
-Algorithmique pour la bio-informatique et graphe	                        3		15h	
+Anglais	                                                                    3		60h
+Architecture du génome	                                                    3	10h	10h
+Génétique Humaine	                                                        3	10h	10h
+Division et cycle cellulaire	                                            3	10h	10h
+Algorithmique pour la bio-informatique et graphe	                        3		15h
 http://www.u-bordeaux.fr/formation/2015/PRMASB_171/master-biologie-sante-specialite-bioimagerie/enseignement/ENJ1SB9700_01/visualisation-et-exploration-de-donnees-3d
 
 Choix 1 UE de 6 ECTS                                                        ECTS	CM	TD	TP
-Programmation Objet Avancée	                                                6		30h	
-Approche objet	                                                            6	28h	30h	
-Outils d'indexation et de classification de l'information	                6		24h	
-Systemes Autonomes	                                                        6		24h	
+Programmation Objet Avancée	                                                6		30h
+Approche objet	                                                            6	28h	30h
+Outils d'indexation et de classification de l'information	                6		24h
+Systemes Autonomes	                                                        6		24h
 **********************************************/
 
     "J1BS9204" : {
@@ -568,7 +577,7 @@ Systemes Autonomes	                                                        6		24
         'background_color': '#ff9100',
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Data mining : introduction du concept d'extraction de connaissances à partir de données brutes.</li>"+
                 "<li>Algorithmes de classification (bayesienne et par arbres de décision) et étude des problèmes de regroupement (clustering).</li>"+
@@ -604,7 +613,7 @@ Systemes Autonomes	                                                        6		24
         'background_color': '#a4ff80',
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<p>Programme des enseignements théoriques</p>"+
                 "<ul><li>Méthodes d'analyse et de conception des systèmes informatiques:</li>"+
@@ -649,7 +658,7 @@ Systemes Autonomes	                                                        6		24
         "background_color" : "#FA5858",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<p>Découverte du secteur et les métiers de la bioinformatique industrielle.</p>"+
                 "<p>Programme détaillé</p>"+
@@ -694,7 +703,7 @@ Systemes Autonomes	                                                        6		24
         "image"   : "headSysBio.jpg",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<h3>Programme des enseignements théoriques</h3>"+
                 "<ul><li>Aperçu du métabolisme cellulaire</li>"+
@@ -731,11 +740,16 @@ Systemes Autonomes	                                                        6		24
         "semester": 9,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "tracks"    : "0x61",
+        "block"     : {
+            "c++bio": "Liste d'UE obligatoires",
+            "geneco": "Liste à choix d'UE obligatoires - choisir 1 UE de 6 ECTS",
+            "bao"   : "Elective Courses - select 1 course of 6 ECTS"
+        },
         'background_color': '#eef409',
         "image"   : 'headprot.jpg',
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
             "<h2>Programme</h2>"+
             "<p>Initier les étudiants à la visualisation et à l'exploration des structures 3D.</p"+
             "><p>Programme des enseignements théoriques</p><ul><li>Organisation structurale des macromolécules biologiques.</li>"+
@@ -755,7 +769,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENJ1BS9203_01/visualisation-de-la-structure-de-proteines"
     },
-    
+
     "B0BS9319" : {
         "id": "B0BS9319",
         "acronym": "AnglaisM2",
@@ -767,7 +781,7 @@ Systemes Autonomes	                                                        6		24
         'background_color': '#0095ff',
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Conférences scientifiques et débats par des scientifiques anglophones. Analyses d'articles scientifiques "+
                 "ou de rapport en anglais</li>"+
@@ -777,7 +791,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENB0BS9319_01/anglais"
     },
-    
+
     "C6SB9M02" : {
         "id"        : "C6SB9M02",
         "acronym"   : "ArchiGen",
@@ -788,7 +802,7 @@ Systemes Autonomes	                                                        6		24
         "tracks"    : "0x70",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Architecture du génome : centromère, télomère et topologie de la chromatine</li>"+
                 "<li>Organisation des génomes : séquences répétées, familles multigéniques et domaines répétés</li>"+
@@ -806,7 +820,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENC6SB9M02_01/architecture-du-genome"
     },
-    
+
     "C6SB9M03" : {
         "id": "C6SB9M03",
         "acronym": "GenHuman",
@@ -817,7 +831,7 @@ Systemes Autonomes	                                                        6		24
         "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Génome humain </li>"+
                 "<li>Génétique médicale et conseil génétique</li>"+
@@ -835,7 +849,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENC6SB9M03_01/genetique-humaine"
     },
-    
+
     "C6SB9M04" : {
         "id": "C6SB9M04",
         "acronym": "DivCell",
@@ -846,7 +860,7 @@ Systemes Autonomes	                                                        6		24
         "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Machinerie du cycle cellulaire et check points. </li>"+
                 "<li>Le contrôle du cycle cellulaire chez les eucaryotes. </li>"+
@@ -866,7 +880,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENC6SB9M04_01/division-et-cycle-cellulaire"
     },
-    
+
     "J1BS9207" : {
         "id": "J1BS9207",
         "acronym": "AlgoBioGraph",
@@ -878,7 +892,7 @@ Systemes Autonomes	                                                        6		24
         "visibility": "visible",
         "background_color" : "#CEF6CE",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Traitement automatique et analyse d'objets biologiques arborescents (structures secondaires d'ARNs, "+
                 "architecture de plantes, etc.): "+
@@ -919,7 +933,7 @@ Systemes Autonomes	                                                        6		24
         "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Traitement automatique et analyse d'objets biologiques arborescents (structures secondaires d'ARNs, "+
                 "architecture de plantes, etc.): "+
@@ -968,7 +982,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENJ1BS9206_01/programmation-objet-avancee"
     },
-    
+
     "J1INAW12" : {
         "id": "J1INAW12",
         "acronym": "AppObj",
@@ -979,7 +993,7 @@ Systemes Autonomes	                                                        6		24
         "tracks"    : "0x7",
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<ul><li>Rappels de programmation objet</li>"+
 				"<li>Concepts avancés : exceptions, clonage, classes génériques, collections, itérations, classes internes...</li>"+
@@ -994,7 +1008,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENJ1INAW12_01/approche-objet"
     },
-    
+
     "J1IN9413" : {
         "id": "J1IN9413",
         "acronym": "OICI",
@@ -1006,7 +1020,7 @@ Systemes Autonomes	                                                        6		24
         "visibility": "visible",
         "background_color": "#0af9f9",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2>"+
                 "<p>Analyse de données</p>"+
                 "<h2>Objectifs et compétences</h2>"+
@@ -1016,7 +1030,7 @@ Systemes Autonomes	                                                        6		24
         },
         "html": "ENJ1IN9413_01/outils-d-indexation-et-de-classification-de-l-information"
     },
-    
+
     "J1IN9523" : {
         "id": "J1IN9523",
         "acronym": "SysAuto",
@@ -1028,7 +1042,7 @@ Systemes Autonomes	                                                        6		24
         'background_color': '#ffa6fa',
         "visibility": "visible",
         "contents": {
-            "fr": 
+            "fr":
                 "<h2>Programme</h2><p>Le programme comprend en particulier les points suivants:</p>"+
                 "<h3>Configurations et plates-formes :</h3>"+
                 "<p>Les systèmes actuels les plus pertinents seront étudiés:</p>"+
@@ -1122,7 +1136,7 @@ Réalisation d'un projet de recherche et/ou développement
         },
         "html": "ENF1BS0201_01/realisation-d-un-projet-de-recherche-et-ou-developpement"
     }
-    
+
 }
 ;/************************************
  * Jean-Christophe Taveau
