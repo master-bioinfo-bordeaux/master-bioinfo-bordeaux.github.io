@@ -1121,7 +1121,7 @@
     "apogee": "CONFERENCE",
     "acronym": "Conference",
     "summary": "CONFERENCE",
-    "title": "RentrÃÂ©e",
+    "title": "RentrÃÂÃÂÃÂÃÂ©e",
     "lecturer": "--  ",
     "year": "3",
     "date_start": "2016-09-05T10:00",
@@ -1129,7 +1129,10 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@076",
     "description": "",
-    "tracks": "0x7"
+    "tracks": "0x7",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 1
   },
   "C2720160602T093918733@Pthebault33": {
     "ID": "C2720160602T093918733@Pthebault33",
@@ -1154,5 +1157,20 @@
     "lecturer": "S&eacute;n&eacute;chal N",
     "location": "Talence::B5@000",
     "description": "None"
+  },
+  "E3720160602T120504198@jeesay": {
+    "ID": "E3720160602T120504198@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Sxx::Holidays",
+    "summary": "4TBIVACA",
+    "title": "Vacances d'Automne",
+    "lecturer": "--  ",
+    "year": "3",
+    "date_start": "2016-10-31T08:00",
+    "date_end": "2016-10-31T08:00",
+    "group": "All",
+    "location": "None::None@",
+    "description": "",
+    "tracks": "0x7"
   }
 }
