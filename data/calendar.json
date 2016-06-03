@@ -1116,7 +1116,7 @@
     "description": "",
     "tracks": "0x7"
   },
-  "E3720160602T093449276@Pthebault33": {
+  "E30720160602T093449276@Pthebault33": {
     "ID": "E3720160602T093449276@Pthebault33",
     "apogee": "4TBIMEET",
     "acronym": "Evt::Conference",
@@ -1134,7 +1134,7 @@
     "hours": "10:00-12:00",
     "weekdayIndex": 1
   },
-  "C2720160602T093918733@Pthebault33": {
+  "C10F20160602T093918733@Pthebault33": {
     "ID": "C2720160602T093918733@Pthebault33",
     "apogee": "4TEC701U",
     "acronym": "S07::TDE",
@@ -1146,7 +1146,7 @@
     "location": "Talence::B5@000",
     "description": "None"
   },
-  "C2720160602T093918736@Pthebault33": {
+  "C10F20160602T093918736@Pthebault33": {
     "ID": "C2720160602T093918736@Pthebault33",
     "apogee": "4TEC701U",
     "acronym": "S07::TDE",
@@ -1158,7 +1158,7 @@
     "location": "Talence::B5@000",
     "description": "None"
   },
-  "E3720160602T120504198@jeesay": {
+  "E30720160602T120504198@jeesay": {
     "ID": "E3720160602T120504198@jeesay",
     "apogee": "4TBIVACA",
     "acronym": "Evt::Holidays",
@@ -1172,18 +1172,6 @@
     "location": "None::None@000",
     "description": "",
     "tracks": "0x7"
-  },
-  "C10x20160603T075620282@jeesay": {
-    "ID": "C10x20160603T075620282@jeesay",
-    "apogee": "4TEC701U",
-    "acronym": "S07::TDE",
-    "type": "Cours",
-    "summary": "4TEC701U",
-    "date_start": "2016-09-19T09:00",
-    "date_end": "2016-09-19T12:00",
-    "lecturer": "S&eacute;n&eacute;chal N",
-    "location": "None::None@000",
-    "description": "None"
   },
   "C10F20160603T080116795@jeesay": {
     "ID": "C10F20160603T080116795@jeesay",
