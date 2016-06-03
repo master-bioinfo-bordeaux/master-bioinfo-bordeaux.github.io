@@ -1268,5 +1268,17 @@
     "lecturer": "Boussicault A",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C27020160603T124213656@jeesay": {
+    "ID": "C27020160603T124213656@jeesay",
+    "apogee": "4TBE901U",
+    "acronym": "S09::TDE++",
+    "type": "Cours+TD",
+    "summary": "4TBE901U",
+    "date_start": "2016-07-12T14:00",
+    "date_end": "2016-07-12T16:00",
+    "lecturer": "Nogu&egrave;s X",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
