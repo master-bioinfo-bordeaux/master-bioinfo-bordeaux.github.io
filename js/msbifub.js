@@ -1,12 +1,614 @@
 
 var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
 
+/**
+ * 2016 - 2020
+ */
+
 var course_data = {
+  "4TBA804U": {
+    "acronym": "BBP", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBA804U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Biologie et Biotechnologies des Plantes", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBA806U": {
+    "acronym": "Genepi", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBA806U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "G\u00e9n\u00e9tique, g\u00e9nomique et \u00e9pig\u00e9n\u00e9tique des plantes", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBA903U": {
+    "acronym": "QPGE", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBA903U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Quantitative and population genetics and evolution", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBA904U": {
+    "acronym": "PlantBr", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBA904U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Plant Breeding", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBC801U": {
+    "acronym": "POO", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBC801U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Programmation orient\u00e9e objet", 
+    "tracks": "0x10", 
+    "visibility": "visible"
+  }, 
+  "4TBC901U": {
+    "acronym": "AppO", 
+    "background_color": "#ffffff", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBC901U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Approche Objet", 
+    "tracks": "0x10", 
+    "visibility": "visible"
+  }, 
+  "4TBE801U": {
+    "acronym": "BioDiv", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE801U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Biodiversit\u00e9", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBE802U": {
+    "acronym": "EcoTerr", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE802U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Gestion, conservation et restauration des \u00e9cosyst\u00e8mes terrestres", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBE803U": {
+    "acronym": "Aqua", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE803U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Gestion des milieux aquatiques continentaux", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBE901U": {
+    "acronym": "TDE++", 
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE901U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Traitement des donn\u00e9es environnementales - Perfectionnement", 
+    "tracks": "0x70", 
+    "visibility": "visible"
+  }, 
+  "4TBE902U": {
+    "acronym": "EcoComm", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE902U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Ecologie \u00e9volutive des communaut\u00e9s", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBI001U": {
+    "acronym": "Stage", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 30, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI001U", 
+    "image": "headinfo.jpg", 
+    "semester": 10, 
+    "title": "Stage Recherche , Pro ou R&D", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI701U": {
+    "acronym": "IMAJS", 
+    "background_color": "#7FD8BC", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI701U", 
+    "image": "headinfo.jpg", 
+    "semester": 7, 
+    "title": "Initiation \u00e0 l'exploration d'images num\u00e9riques", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI702U": {
+    "acronym": "APU", 
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U", 
+    "image": "headnetwork.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "hidden"
+  }, 
+  "4TBI702U-Prog": {
+    "acronym": "APU-Prog", 
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U-Prog", 
+    "image": "headnetwork.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI702U-USI": {
+    "acronym": "APU-USI", 
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U-USI", 
+    "image": "headnetwork.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI703U": {
+    "acronym": "OBI", 
+    "background_color": "#eef409", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI703U", 
+    "image": "headinfo.jpg", 
+    "semester": 7, 
+    "title": "Omiques et BioInformatique", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI704U": {
+    "acronym": "Anglais", 
+    "background_color": "#a4ff80", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI704U", 
+    "image": "headinfo.jpg", 
+    "semester": 7, 
+    "title": "Anglais", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI801U": {
+    "acronym": "AlgoPrg2", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI801U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Algorithmique et Programmation Avanc\u00e9es", 
+    "tracks": "0x01", 
+    "visibility": "visible"
+  }, 
+  "4TBI802U": {
+    "acronym": "CPRD", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI802U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Conception d'un Projet de Recherche et de D\u00e9veloppement", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI803U": {
+    "acronym": "BDD", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI803U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Bases de Donn\u00e9es : fondements et applications", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI804U": {
+    "acronym": "NGS", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI804U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Nouvelles G\u00e9n\u00e9rations de Sequen\u00e7age", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI805U": {
+    "acronym": "ViMod", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI805U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Traitement de Vid\u00e9os et Mod\u00e9lisation des Processus Dynamiques", 
+    "tracks": "0x70", 
+    "visibility": "visible"
+  }, 
+  "4TBI901U": {
+    "acronym": "StrubiGL", 
+    "background_color": "#7FD8BC", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI901U", 
+    "image": "headprot.jpg", 
+    "semester": 9, 
+    "title": "Bioinformatique Structurale", 
+    "tracks": "0x61", 
+    "visibility": "visible"
+  }, 
+  "4TBI902U": {
+    "acronym": "FILBI", 
+    "background_color": "#A4FF80", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI902U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Fili\u00e8res de la Bioinformatique", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI903U": {
+    "acronym": "ProjLog", 
+    "background_color": "#009558", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI903U", 
+    "image": "headproj.jpg", 
+    "semester": 9, 
+    "title": "G\u00e9nie Logiciel et Gestion de Projet", 
+    "tracks": "0x61", 
+    "visibility": "visible"
+  }, 
+  "4TBI904U": {
+    "acronym": "DEA", 
+    "background_color": "#ffbc00", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI904U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Donn\u00e9es: De l'Entrep\u00f4t \u00e0 l'Analyse", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI905U": {
+    "acronym": "IRD", 
+    "background_color": "#cef6ce", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI905U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Initiation \u00e0 la Recherche et au D\u00e9veloppement", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI906U": {
+    "acronym": "MOCELL", 
+    "background_color": "#EEF409", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI906U", 
+    "image": "headbio.jpg", 
+    "semester": 9, 
+    "title": "Mod\u00e9lisation qualitative et quantitative de la cellule", 
+    "tracks": "0x70", 
+    "visibility": "visible"
+  }, 
+  "4TBIEVNT": {
+    "acronym": "Event", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBIEVNT", 
+    "image": "headinfo.jpg", 
+    "semester": 11, 
+    "title": "Event", 
+    "tracks": "0x00", 
+    "visibility": "visible"
+  }, 
+  "4TBIMEET": {
+    "acronym": "Conference", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-comments", 
+    "id": "4TBIMEET", 
+    "image": "headconf.jpg", 
+    "semester": 11, 
+    "title": "Conference - Workshop - Meeting", 
+    "tracks": "0x00", 
+    "visibility": "visible"
+  }, 
+  "4TBIN01U": {
+    "acronym": "StgVol", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBIN01U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Stage volontaire", 
+    "tracks": "0xF0", 
+    "visibility": "visible"
+  }, 
+  "4TBIPRSS": {
+    "acronym": "Press", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-newspaper-o", 
+    "id": "4TBIPRSS", 
+    "image": "headpress.jpg", 
+    "semester": 11, 
+    "title": "Press Highlights", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBIVACA": {
+    "acronym": "Holidays", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-bicycle", 
+    "id": "4TBIVACA", 
+    "image": "headholidays.jpg", 
+    "semester": 11, 
+    "title": "Holidays", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TDE901U": {
+    "acronym": "SIG", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TDE901U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Syst\u00e8me d'information G\u00e9ographique", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TDE902U": {
+    "acronym": "InnovTech", 
+    "background_color": "#0a0a0a", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TDE902U", 
+    "image": "headinfo.jpg", 
+    "semester": 9, 
+    "title": "Innovations Biotechnologies et Sant\u00e9", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TEC701U": {
+    "acronym": "TDE", 
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TEC701U", 
+    "image": "headinfo.jpg", 
+    "semester": 7, 
+    "title": "Traitement des donn\u00e9es environnementales", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }
+};
+
 
 /**********************************************
- SPECIAL EVENTS
+ *
+ * 2011 - 2015
+ *
+ **********************************************/
 
-**********************************************/
+var course_data_2015 = {
+
 
     'CONFERENCE' : {
         'acronym'           : "Conf",
@@ -1313,8 +1915,8 @@ function updateCalendarHeader(y,m,d) {
 }
 
 function updateCalendarBody(y,m,d) {
-    var masterYear  = localStorage.masterYear;
-    var masterTrack = localStorage.masterTrack;
+    var masterYear  = parseInt(localStorage.masterYear) || 1; // Default M1
+    var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
     
     // console.log(calendar_data);
     var today = new Date(y,m,d);
@@ -1325,10 +1927,11 @@ function updateCalendarBody(y,m,d) {
     for (var index in calendar_data) {
         var element = calendar_data[index];
         element.MSYear  = parseInt(element.ID[1]);
-        element.MSTrack = parseInt(element.ID[2],16);
+        element.MSTrack = parseInt(element.ID.substr(2,2),16);
         element.weekdayIndex = -1;
         console.log(element);
-        if ( (element.MSYear == masterYear || element.MSYear == 3) && (element.MSTrack & masterTrack) == masterTrack ) {
+        if (   (element.MSYear == masterYear || element.MSYear === 3) 
+            && ((element.MSTrack & masterTrack) === masterTrack || (element.MSTrack & masterTrack*16) === masterTrack*16 ) ) {
             var startDate = new Date(
                 parseInt(element.date_start.substr(0,4)),
                 parseInt(element.date_start.substr(5,2)) - 1,
@@ -1654,14 +2257,20 @@ function createEventCell(cal_event) {
     if (ID[0] === 'C' || ID[0] === 'E') {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
+        var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
+        console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
+        +((parseInt(the_course.tracks,16) & masterTrack)) );
 
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
-        if (ID[0] === 'C') {
-            html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger and Green: 'elective' btn-success
+        if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack) === masterTrack) {
+            html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger 
+        }
+        else if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack*16) === masterTrack*16) {
+            html += 'class="btn btn-primary btn-xs" '; // Color is Green: 'elective' btn-success
         }
         else {
             html += 'class="btn btn-info btn-xs" '; // Color is Light blue for Event

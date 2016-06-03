@@ -149,8 +149,8 @@ function updateCalendarHeader(y,m,d) {
 }
 
 function updateCalendarBody(y,m,d) {
-    var masterYear  = localStorage.masterYear;
-    var masterTrack = localStorage.masterTrack;
+    var masterYear  = parseInt(localStorage.masterYear) || 1; // Default M1
+    var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
     
     // console.log(calendar_data);
     var today = new Date(y,m,d);
@@ -161,10 +161,11 @@ function updateCalendarBody(y,m,d) {
     for (var index in calendar_data) {
         var element = calendar_data[index];
         element.MSYear  = parseInt(element.ID[1]);
-        element.MSTrack = parseInt(element.ID[2],16);
+        element.MSTrack = parseInt(element.ID.substr(2,2),16);
         element.weekdayIndex = -1;
         console.log(element);
-        if ( (element.MSYear == masterYear || element.MSYear == 3) && (element.MSTrack & masterTrack) == masterTrack ) {
+        if (   (element.MSYear == masterYear || element.MSYear === 3) 
+            && ((element.MSTrack & masterTrack) === masterTrack || (element.MSTrack & masterTrack*16) === masterTrack*16 ) ) {
             var startDate = new Date(
                 parseInt(element.date_start.substr(0,4)),
                 parseInt(element.date_start.substr(5,2)) - 1,
@@ -490,14 +491,20 @@ function createEventCell(cal_event) {
     if (ID[0] === 'C' || ID[0] === 'E') {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
+        var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
+        console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
+        +((parseInt(the_course.tracks,16) & masterTrack)) );
 
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
-        if (ID[0] === 'C') {
-            html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger and Green: 'elective' btn-success
+        if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack) === masterTrack) {
+            html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger 
+        }
+        else if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack*16) === masterTrack*16) {
+            html += 'class="btn btn-primary btn-xs" '; // Color is Green: 'elective' btn-success
         }
         else {
             html += 'class="btn btn-info btn-xs" '; // Color is Light blue for Event
