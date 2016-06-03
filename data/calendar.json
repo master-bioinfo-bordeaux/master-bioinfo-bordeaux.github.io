@@ -1208,5 +1208,17 @@
     "lecturer": "Beurton-Aimar M",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C10F20160603T122511907@jeesay": {
+    "ID": "C10F20160603T122511907@jeesay",
+    "apogee": "4TBI703U",
+    "acronym": "S07::OBI",
+    "type": "Cours+TD",
+    "summary": "4TBI703U",
+    "date_start": "2016-07-13T08:00",
+    "date_end": "2016-07-13T12:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
