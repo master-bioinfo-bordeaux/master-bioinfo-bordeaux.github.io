@@ -1232,5 +1232,17 @@
     "lecturer": "Bernaulte JJ",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C10F20160603T122611265@jeesay": {
+    "ID": "C10F20160603T122611265@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "Cours",
+    "summary": "4TEC701U",
+    "date_start": "2016-07-15T08:00",
+    "date_end": "2016-07-15T12:00",
+    "lecturer": "Dubois S",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
