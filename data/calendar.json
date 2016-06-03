@@ -1195,7 +1195,13 @@
     "date_end": "2016-07-11T12:00",
     "lecturer": "Taveau JC",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 1
   },
   "C10F20160603T122444863@jeesay": {
     "ID": "C10F20160603T122444863@jeesay",
@@ -1207,7 +1213,13 @@
     "date_end": "2016-07-12T12:00",
     "lecturer": "Beurton-Aimar M",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 2
   },
   "C10F20160603T122511907@jeesay": {
     "ID": "C10F20160603T122511907@jeesay",
@@ -1219,7 +1231,13 @@
     "date_end": "2016-07-13T12:00",
     "lecturer": "Th&eacute;bault P",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20160603T122541507@jeesay": {
     "ID": "C10F20160603T122541507@jeesay",
@@ -1231,7 +1249,13 @@
     "date_end": "2016-07-14T12:00",
     "lecturer": "Bernaulte JJ",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 4
   },
   "C10F20160603T122611265@jeesay": {
     "ID": "C10F20160603T122611265@jeesay",
@@ -1243,7 +1267,13 @@
     "date_end": "2016-07-15T12:00",
     "lecturer": "Dubois S",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720160603T124046344@jeesay": {
     "ID": "C20720160603T124046344@jeesay",
@@ -1255,7 +1285,13 @@
     "date_end": "2016-07-11T16:00",
     "lecturer": "Beurton-Aimar M",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 1
   },
   "C21020160603T124136986@jeesay": {
     "ID": "C21020160603T124136986@jeesay",
@@ -1267,7 +1303,13 @@
     "date_end": "2016-07-11T18:00",
     "lecturer": "Boussicault A",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 1
   },
   "C27020160603T124213656@jeesay": {
     "ID": "C27020160603T124213656@jeesay",
@@ -1278,6 +1320,24 @@
     "date_start": "2016-07-12T14:00",
     "date_end": "2016-07-12T16:00",
     "lecturer": "Nogu&egrave;s X",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
+  },
+  "C26120160603T124621619@jeesay": {
+    "ID": "C26120160603T124621619@jeesay",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "date_start": "2016-07-12T16:00",
+    "date_end": "2016-07-12T18:00",
+    "lecturer": "Taveau JC",
     "location": "None::None@000",
     "description": "None"
   }
