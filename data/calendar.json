@@ -1184,5 +1184,221 @@
     "lecturer": "S&eacute;n&eacute;chal N",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C10F20160603T122358564@jeesay": {
+    "ID": "C10F20160603T122358564@jeesay",
+    "apogee": "4TBI701U",
+    "acronym": "S07::IMAJS",
+    "type": "Cours+TD",
+    "summary": "4TBI701U",
+    "date_start": "2016-07-11T08:00",
+    "date_end": "2016-07-11T12:00",
+    "lecturer": "Taveau JC",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 1
+  },
+  "C10F20160603T122444863@jeesay": {
+    "ID": "C10F20160603T122444863@jeesay",
+    "apogee": "4TBI702U-Prog",
+    "acronym": "S07::APU-Prog",
+    "type": "Cours+TD",
+    "summary": "4TBI702U-Prog",
+    "date_start": "2016-07-12T08:00",
+    "date_end": "2016-07-12T12:00",
+    "lecturer": "Beurton-Aimar M",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 2
+  },
+  "C10F20160603T122511907@jeesay": {
+    "ID": "C10F20160603T122511907@jeesay",
+    "apogee": "4TBI703U",
+    "acronym": "S07::OBI",
+    "type": "Cours+TD",
+    "summary": "4TBI703U",
+    "date_start": "2016-07-13T08:00",
+    "date_end": "2016-07-13T12:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
+  },
+  "C10F20160603T122541507@jeesay": {
+    "ID": "C10F20160603T122541507@jeesay",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "TD",
+    "summary": "4TBI704U",
+    "date_start": "2016-07-14T08:00",
+    "date_end": "2016-07-14T12:00",
+    "lecturer": "Bernaulte JJ",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 4
+  },
+  "C10F20160603T122611265@jeesay": {
+    "ID": "C10F20160603T122611265@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "Cours",
+    "summary": "4TEC701U",
+    "date_start": "2016-07-15T08:00",
+    "date_end": "2016-07-15T12:00",
+    "lecturer": "Dubois S",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 5
+  },
+  "C20720160603T124046344@jeesay": {
+    "ID": "C20720160603T124046344@jeesay",
+    "apogee": "4TBI905U",
+    "acronym": "S09::IRD",
+    "type": "Cours+TD",
+    "summary": "4TBI905U",
+    "date_start": "2016-07-11T14:00",
+    "date_end": "2016-07-11T16:00",
+    "lecturer": "Beurton-Aimar M",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 1
+  },
+  "C21020160603T124136986@jeesay": {
+    "ID": "C21020160603T124136986@jeesay",
+    "apogee": "4TBC901U",
+    "acronym": "S09::AppO",
+    "type": "Cours+TD",
+    "summary": "4TBC901U",
+    "date_start": "2016-07-11T16:00",
+    "date_end": "2016-07-11T18:00",
+    "lecturer": "Boussicault A",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 1
+  },
+  "C27020160603T124213656@jeesay": {
+    "ID": "C27020160603T124213656@jeesay",
+    "apogee": "4TBE901U",
+    "acronym": "S09::TDE++",
+    "type": "Cours+TD",
+    "summary": "4TBE901U",
+    "date_start": "2016-07-12T14:00",
+    "date_end": "2016-07-12T16:00",
+    "lecturer": "Nogu&egrave;s X",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
+  },
+  "C26120160603T124621619@jeesay": {
+    "ID": "C26120160603T124621619@jeesay",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "date_start": "2016-07-12T16:00",
+    "date_end": "2016-07-12T18:00",
+    "lecturer": "Taveau JC",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
+  },
+  "C20F20160603T124654081@jeesay": {
+    "ID": "C20F20160603T124654081@jeesay",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "date_start": "2016-07-13T14:00",
+    "date_end": "2016-07-13T16:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "None::None@000",
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 3
+  },
+  "C26120160603T124724480@jeesay": {
+    "ID": "C26120160603T124724480@jeesay",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "date_start": "2016-07-13T16:00",
+    "date_end": "2016-07-13T17:00",
+    "lecturer": "Beurton-Aimar M",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C20720160603T130026958@jeesay": {
+    "ID": "C20720160603T130026958@jeesay",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "date_start": "2016-07-14T10:00",
+    "date_end": "2016-07-14T12:00",
+    "lecturer": "Desbarats P",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C27020160603T130104524@jeesay": {
+    "ID": "C27020160603T130104524@jeesay",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-07-14T14:00",
+    "date_end": "2016-07-14T16:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
