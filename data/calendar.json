@@ -1244,5 +1244,17 @@
     "lecturer": "Dubois S",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C20720160603T124046344@jeesay": {
+    "ID": "C20720160603T124046344@jeesay",
+    "apogee": "4TBI905U",
+    "acronym": "S09::IRD",
+    "type": "Cours+TD",
+    "summary": "4TBI905U",
+    "date_start": "2016-07-11T14:00",
+    "date_end": "2016-07-11T16:00",
+    "lecturer": "Beurton-Aimar M",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
