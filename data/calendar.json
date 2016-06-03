@@ -1376,5 +1376,17 @@
     "lecturer": "Beurton-Aimar M",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C20720160603T130026958@jeesay": {
+    "ID": "C20720160603T130026958@jeesay",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "date_start": "2016-07-14T10:00",
+    "date_end": "2016-07-14T12:00",
+    "lecturer": "Desbarats P",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
