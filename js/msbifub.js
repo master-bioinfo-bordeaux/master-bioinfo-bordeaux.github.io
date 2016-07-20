@@ -6,6 +6,38 @@ var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master
  */
 
 var course_data = {
+  "4TBIEVNT": {
+    "acronym": "Event", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBIEVNT", 
+    "image": "headinfo.jpg", 
+    "semester": 11, 
+    "title": "Event", 
+    "tracks": "0x00", 
+    "visibility": "visible"
+  }, 
+  "4TBIMEET": {
+    "acronym": "Conference", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-comments", 
+    "id": "4TBIMEET", 
+    "image": "headconf.jpg", 
+    "semester": 11, 
+    "title": "Conference - Workshop - Meeting", 
+    "tracks": "0x00", 
+    "visibility": "visible"
+  },
   "4TBA804U": {
     "acronym": "BBP", 
     "background_color": "#0a0a0a", 
@@ -184,7 +216,7 @@ var course_data = {
   }, 
   "4TBI001U": {
     "acronym": "Stage", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#7FD8BC", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -288,7 +320,7 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI704U", 
-    "image": "headinfo.jpg", 
+    "image": "headlondon.jpg", 
     "semester": 7, 
     "title": "Anglais", 
     "tracks": "0x0F", 
@@ -469,39 +501,7 @@ var course_data = {
     "title": "Mod\u00e9lisation qualitative et quantitative de la cellule", 
     "tracks": "0x70", 
     "visibility": "visible"
-  }, 
-  "4TBIEVNT": {
-    "acronym": "Event", 
-    "background_color": "#FA5858", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 0, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBIEVNT", 
-    "image": "headinfo.jpg", 
-    "semester": 11, 
-    "title": "Event", 
-    "tracks": "0x00", 
-    "visibility": "visible"
-  }, 
-  "4TBIMEET": {
-    "acronym": "Conference", 
-    "background_color": "#FA5858", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 0, 
-    "icon": "fa fa-comments", 
-    "id": "4TBIMEET", 
-    "image": "headconf.jpg", 
-    "semester": 11, 
-    "title": "Conference - Workshop - Meeting", 
-    "tracks": "0x00", 
-    "visibility": "visible"
-  }, 
+  },  
   "4TBIN01U": {
     "acronym": "StgVol", 
     "background_color": "#0a0a0a", 
@@ -1700,6 +1700,7 @@ Réalisation d'un projet de recherche et/ou développement
         "semester": 10,
         "students": "C++BIO[required],GENORG[required],ORGECO[required],BSC[required]",
         "tracks"    : "0x7",
+        'background_color': '#ffa6fa',
         "visibility": "visible",
         "contents": {
             "fr": "<h2>Programme</h2>"+
