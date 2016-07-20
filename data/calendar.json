@@ -1442,20 +1442,5 @@
     ],
     "hours": "08:00-18:00",
     "weekdayIndex": 5
-  },
-  "E02520160720T145715835@jeesay": {
-    "ID": "E02520160720T145715835@jeesay",
-    "apogee": "4TBIMEET",
-    "acronym": "Evt::Conference",
-    "summary": "4TBIMEET",
-    "title": "test",
-    "lecturer": "--  ",
-    "year": "0",
-    "date_start": "2016-07-21T08:00",
-    "date_end": "2016-07-21T08:30",
-    "group": "All",
-    "location": "None::None@000",
-    "description": "",
-    "tracks": "0x25"
   }
 }
