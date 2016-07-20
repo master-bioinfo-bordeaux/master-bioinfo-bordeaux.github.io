@@ -1435,6 +1435,27 @@
     "group": "All",
     "location": "None::None@000",
     "description": "Soutenance de stage des &eacute;tudiants de M2",
-    "tracks": "0x07"
+    "tracks": "0x07",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-18:00",
+    "weekdayIndex": 5
+  },
+  "E3720160720T145055476@jeesay": {
+    "ID": "E3720160720T145055476@jeesay",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "summary": "4TBIMEET",
+    "title": "test",
+    "lecturer": "--  ",
+    "year": "3",
+    "date_start": "2016-07-21T08:00",
+    "date_end": "2016-07-21T09:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "",
+    "tracks": "0x7"
   }
 }
