@@ -1411,6 +1411,28 @@
     "date_end": "2016-09-09T18:00",
     "lecturer": "------",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-18:00",
+    "weekdayIndex": 5
+  },
+  "E1NaN20160720T091807436@jeesay": {
+    "ID": "E1NaN20160720T091807436@jeesay",
+    "apogee": "4TBIDFNS",
+    "acronym": "Evt::Defense",
+    "summary": "4TBIDFNS",
+    "title": "Soutenance de stage des &eacute;tudiants de M2",
+    "lecturer": "--  ",
+    "year": "1",
+    "date_start": "2016-09-09T08:00",
+    "date_end": "2016-09-09T18:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "Soutenance de stage des &eacute;tudiants de M2",
+    "tracks": "0xNaN"
   }
 }
