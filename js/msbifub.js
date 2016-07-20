@@ -39,7 +39,7 @@ var course_data = {
     "visibility": "visible"
   },
   "4TBIDFNS": {
-    "acronym": "Conference", 
+    "acronym": "Defense", 
     "background_color": "#FA5858", 
     "contents": {
       "en": "Coming soon.", 
