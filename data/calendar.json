@@ -1420,8 +1420,8 @@
     "hours": "08:00-18:00",
     "weekdayIndex": 5
   },
-  "E1NaN20160720T091807436@jeesay": {
-    "ID": "E1NaN20160720T091807436@jeesay",
+  "E10720160720T091807436@jeesay": {
+    "ID": "E10720160720T091807436@jeesay",
     "apogee": "4TBIDFNS",
     "acronym": "Evt::Defense",
     "summary": "4TBIDFNS",
@@ -1433,6 +1433,6 @@
     "group": "All",
     "location": "None::None@000",
     "description": "Soutenance de stage des &eacute;tudiants de M2",
-    "tracks": "0xNaN"
+    "tracks": "0x07"
   }
 }
