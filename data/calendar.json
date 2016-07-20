@@ -1116,24 +1116,6 @@
     "description": "",
     "tracks": "0x7"
   },
-  "E30720160602T093449276@Pthebault33": {
-    "ID": "E30720160602T093449276@Pthebault33",
-    "apogee": "4TBIMEET",
-    "acronym": "Evt::Conference",
-    "summary": "4TBIMEET",
-    "title": "Rentr&eacute;e",
-    "lecturer": "--  ",
-    "year": "3",
-    "date_start": "2016-09-05T10:00",
-    "date_end": "2016-09-05T12:00",
-    "group": "All",
-    "location": "Talence::A30-LaBRI@076",
-    "description": "",
-    "tracks": "0x7",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 1
-  },
   "C10F20160602T093918733@Pthebault33": {
     "ID": "C10F20160602T093918733@Pthebault33",
     "apogee": "4TEC701U",
@@ -1414,6 +1396,9 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@178",
     "description": "",
-    "tracks": "0x7"
+    "tracks": "0x7",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   }
 }
