@@ -38,6 +38,22 @@ var course_data = {
     "tracks": "0x00", 
     "visibility": "visible"
   },
+  "4TBIDFNS": {
+    "acronym": "Conference", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-comments", 
+    "id": "4TBIDFNS", 
+    "image": "headconf.jpg", 
+    "semester": 11, 
+    "title": "Defense - Soutenance", 
+    "tracks": "0x00", 
+    "visibility": "visible"
+  },
   "4TBA804U": {
     "acronym": "BBP", 
     "background_color": "#0a0a0a", 
