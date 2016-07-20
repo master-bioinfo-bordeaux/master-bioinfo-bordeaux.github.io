@@ -1400,5 +1400,17 @@
     "warnings": [],
     "hours": "10:00-12:00",
     "weekdayIndex": 2
+  },
+  "C20F20160720T082953934@jeesay": {
+    "ID": "C20F20160720T082953934@jeesay",
+    "apogee": "4TBI001U",
+    "acronym": "S10::Stage",
+    "type": "Soutenance",
+    "summary": "4TBI001U",
+    "date_start": "2016-09-09T08:00",
+    "date_end": "2016-09-09T18:00",
+    "lecturer": "------",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
