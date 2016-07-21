@@ -1442,5 +1442,20 @@
     ],
     "hours": "08:00-18:00",
     "weekdayIndex": 5
+  },
+  "E1720160721T092341329@Pthebault33": {
+    "ID": "E1720160721T092341329@Pthebault33",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "summary": "4TBIMEET",
+    "title": "Welcoming Bilbao Students",
+    "lecturer": "Pr  ",
+    "year": "1",
+    "date_start": "2016-09-05T14:00",
+    "date_end": "2016-09-05T17:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@76",
+    "description": "",
+    "tracks": "0x7"
   }
 }
