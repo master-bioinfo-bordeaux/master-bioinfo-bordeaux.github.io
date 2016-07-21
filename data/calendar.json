@@ -1481,5 +1481,101 @@
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@005",
     "description": "None"
+  },
+  "C27020160721T153546493@Pthebault33": {
+    "ID": "C27020160721T153546493@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-09-07T09:00",
+    "date_end": "2016-09-07T11:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546496@Pthebault33": {
+    "ID": "C27020160721T153546496@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-09-14T09:00",
+    "date_end": "2016-09-14T11:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546499@Pthebault33": {
+    "ID": "C27020160721T153546499@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-09-21T09:00",
+    "date_end": "2016-09-21T11:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546502@Pthebault33": {
+    "ID": "C27020160721T153546502@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-09-28T09:00",
+    "date_end": "2016-09-28T11:00",
+    "lecturer": "de Daruvar A",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546505@Pthebault33": {
+    "ID": "C27020160721T153546505@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-10-05T09:00",
+    "date_end": "2016-10-05T11:00",
+    "lecturer": "de Daruvar A",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546508@Pthebault33": {
+    "ID": "C27020160721T153546508@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-10-12T09:00",
+    "date_end": "2016-10-12T11:00",
+    "lecturer": "de Daruvar A",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546511@Pthebault33": {
+    "ID": "C27020160721T153546511@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-10-19T09:00",
+    "date_end": "2016-10-19T11:00",
+    "lecturer": "de Daruvar A",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160721T153546514@Pthebault33": {
+    "ID": "C27020160721T153546514@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-09T09:00",
+    "date_end": "2016-11-09T11:00",
+    "lecturer": "Th&eacute;bault P",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
   }
 }
