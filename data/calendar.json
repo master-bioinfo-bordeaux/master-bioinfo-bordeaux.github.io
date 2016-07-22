@@ -1126,7 +1126,12 @@
     "date_end": "2016-10-19T12:00",
     "lecturer": "S&eacute;n&eacute;chal N",
     "location": "Talence::B5@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20160602T093918736@Pthebault33": {
     "ID": "C10F20160602T093918736@Pthebault33",
@@ -1138,7 +1143,12 @@
     "date_end": "2016-09-26T12:00",
     "lecturer": "S&eacute;n&eacute;chal N",
     "location": "Talence::B5@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "E30720160602T120504198@jeesay": {
     "ID": "E30720160602T120504198@jeesay",
@@ -1153,7 +1163,13 @@
     "group": "All",
     "location": "None::None@000",
     "description": "",
-    "tracks": "0x7"
+    "tracks": "0x7",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "00:00-00:00",
+    "weekdayIndex": 5
   },
   "C10F20160603T080116795@jeesay": {
     "ID": "C10F20160603T080116795@jeesay",
@@ -1165,7 +1181,13 @@
     "date_end": "2016-09-19T12:00",
     "lecturer": "S&eacute;n&eacute;chal N",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "C10F20160603T122358564@jeesay": {
     "ID": "C10F20160603T122358564@jeesay",
@@ -1357,7 +1379,13 @@
     "date_end": "2016-07-13T17:00",
     "lecturer": "Beurton-Aimar M",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "16:00-17:00",
+    "weekdayIndex": 3
   },
   "C20720160603T130026958@jeesay": {
     "ID": "C20720160603T130026958@jeesay",
@@ -1369,7 +1397,13 @@
     "date_end": "2016-07-14T12:00",
     "lecturer": "Desbarats P",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 4
   },
   "C27020160603T130104524@jeesay": {
     "ID": "C27020160603T130104524@jeesay",
@@ -1381,7 +1415,13 @@
     "date_end": "2016-07-14T16:00",
     "lecturer": "Th&eacute;bault P",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 4
   },
   "E3720160606T133023103@Pthebault33": {
     "ID": "E3720160606T133023103@Pthebault33",
@@ -1456,7 +1496,10 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@76",
     "description": "",
-    "tracks": "0x7"
+    "tracks": "0x7",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
   },
   "C10F20160721T095040285@Marie-Beurton-Aimar": {
     "ID": "C10F20160721T095040285@Marie-Beurton-Aimar",
@@ -1468,7 +1511,10 @@
     "date_end": "2016-09-12T10:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 1
   },
   "C10F20160721T095040286@Marie-Beurton-Aimar": {
     "ID": "C10F20160721T095040286@Marie-Beurton-Aimar",
@@ -1480,7 +1526,10 @@
     "date_end": "2016-09-19T10:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 1
   },
   "C27020160721T153546493@Pthebault33": {
     "ID": "C27020160721T153546493@Pthebault33",
@@ -1492,7 +1541,12 @@
     "date_end": "2016-09-07T11:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546496@Pthebault33": {
     "ID": "C27020160721T153546496@Pthebault33",
@@ -1504,7 +1558,12 @@
     "date_end": "2016-09-14T11:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546499@Pthebault33": {
     "ID": "C27020160721T153546499@Pthebault33",
@@ -1516,7 +1575,12 @@
     "date_end": "2016-09-21T11:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546502@Pthebault33": {
     "ID": "C27020160721T153546502@Pthebault33",
@@ -1528,7 +1592,12 @@
     "date_end": "2016-09-28T11:00",
     "lecturer": "de Daruvar A",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546505@Pthebault33": {
     "ID": "C27020160721T153546505@Pthebault33",
@@ -1540,7 +1609,12 @@
     "date_end": "2016-10-05T11:00",
     "lecturer": "de Daruvar A",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546508@Pthebault33": {
     "ID": "C27020160721T153546508@Pthebault33",
@@ -1552,7 +1626,12 @@
     "date_end": "2016-10-12T11:00",
     "lecturer": "de Daruvar A",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546511@Pthebault33": {
     "ID": "C27020160721T153546511@Pthebault33",
@@ -1564,7 +1643,12 @@
     "date_end": "2016-10-19T11:00",
     "lecturer": "de Daruvar A",
     "location": "Talence::A29-CREMI@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546514@Pthebault33": {
     "ID": "C27020160721T153546514@Pthebault33",
@@ -1572,8 +1656,8 @@
     "acronym": "S09::MOCELL",
     "type": "Cours+TD",
     "summary": "4TBI906U",
-    "date_start": "2016-11-09T09:00",
-    "date_end": "2016-11-09T11:00",
+    "date_start": "2016-10-26T09:00",
+    "date_end": "2016-10-26T11:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@000",
     "description": "None"
