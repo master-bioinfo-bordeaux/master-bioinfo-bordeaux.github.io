@@ -1660,6 +1660,143 @@
     "date_end": "2016-10-26T11:00",
     "lecturer": "Th&eacute;bault P",
     "location": "Talence::A29-CREMI@000",
+    "description": "None",
+    "warnings": [
+      " No classroom!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
+  },
+  "C27020160722T152416630@Pthebault33": {
+    "ID": "C27020160722T152416630@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-09T10:00",
+    "date_end": "2016-11-09T12:00",
+    "lecturer": "Beauvoit B",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416633@Pthebault33": {
+    "ID": "C27020160722T152416633@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-16T10:00",
+    "date_end": "2016-11-16T12:00",
+    "lecturer": "Beauvoit B",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416637@Pthebault33": {
+    "ID": "C27020160722T152416637@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-30T14:00",
+    "date_end": "2016-11-30T16:00",
+    "lecturer": "Beauvoit B",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416642@Pthebault33": {
+    "ID": "C27020160722T152416642@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-16T14:00",
+    "date_end": "2016-11-16T16:00",
+    "lecturer": "Dieuaide M",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416645@Pthebault33": {
+    "ID": "C27020160722T152416645@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-23T10:00",
+    "date_end": "2016-11-23T12:00",
+    "lecturer": "Dieuaide M",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416649@Pthebault33": {
+    "ID": "C27020160722T152416649@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-12-07T14:00",
+    "date_end": "2016-12-07T16:00",
+    "lecturer": "Dieuaide M",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416652@Pthebault33": {
+    "ID": "C27020160722T152416652@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-12-14T14:00",
+    "date_end": "2016-12-14T16:00",
+    "lecturer": "Dieuaide M",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416655@Pthebault33": {
+    "ID": "C27020160722T152416655@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-23T14:00",
+    "date_end": "2016-11-23T16:00",
+    "lecturer": "Colombi&eacute; S",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416659@Pthebault33": {
+    "ID": "C27020160722T152416659@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-11-30T10:00",
+    "date_end": "2016-11-30T12:00",
+    "lecturer": "Colombi&eacute; S",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416663@Pthebault33": {
+    "ID": "C27020160722T152416663@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-12-07T10:00",
+    "date_end": "2016-12-07T12:00",
+    "lecturer": "Colombi&eacute; S",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
+  },
+  "C27020160722T152416667@Pthebault33": {
+    "ID": "C27020160722T152416667@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "date_start": "2016-12-14T10:00",
+    "date_end": "2016-12-14T12:00",
+    "lecturer": "Colombi&eacute; S",
+    "location": "Talence::A29-CREMI@000",
     "description": "None"
   }
 }
