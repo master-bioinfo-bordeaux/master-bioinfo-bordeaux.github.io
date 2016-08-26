@@ -1832,5 +1832,17 @@
     ],
     "hours": "10:00-12:00",
     "weekdayIndex": 4
+  },
+  "C10F20160826T085150247@Marie-Beurton-Aimar": {
+    "ID": "C10F20160826T085150247@Marie-Beurton-Aimar",
+    "apogee": "4TBI702U-USI",
+    "acronym": "S07::APU-USI",
+    "type": "Cours",
+    "summary": "4TBI702U-USI",
+    "date_start": "2016-09-06T14:00",
+    "date_end": "2016-09-06T16:00",
+    "lecturer": "Delmas O",
+    "location": "Talence::A29-CREMI@000",
+    "description": "None"
   }
 }
