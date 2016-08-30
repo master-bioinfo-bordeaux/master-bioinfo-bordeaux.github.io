@@ -1860,7 +1860,10 @@
     "date_end": "2016-09-07T12:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 3
   },
   "C26120160826T085414695@Marie-Beurton-Aimar": {
     "ID": "C26120160826T085414695@Marie-Beurton-Aimar",
@@ -1870,6 +1873,21 @@
     "summary": "4TBI903U",
     "date_start": "2016-09-08T09:00",
     "date_end": "2016-09-08T12:00",
+    "lecturer": "Beurton-Aimar M",
+    "location": "Talence::A29-CREMI@005",
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 4
+  },
+  "C26120160830T094046281@Marie-Beurton-Aimar": {
+    "ID": "C26120160830T094046281@Marie-Beurton-Aimar",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "date_start": "2016-09-06T14:00",
+    "date_end": "2016-09-06T17:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
     "description": "None"
