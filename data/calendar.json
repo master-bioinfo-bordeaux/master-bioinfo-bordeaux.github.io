@@ -250,21 +250,6 @@
     "hours": "15:30-16:30",
     "weekdayIndex": 3
   },
-  "C2F20160107T084717663@jeesay": {
-    "ID": "C2F20160107T084717663@jeesay",
-    "apogee": "J1BS9203",
-    "acronym": "S09::Prot3D",
-    "type": "Cours+TD",
-    "summary": "J1BS9203",
-    "date_start": "2016-01-11T08:00",
-    "date_end": "2016-01-11T12:10",
-    "lecturer": "Taveau JC",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-12:10",
-    "weekdayIndex": 1
-  },
   "E3720160112T141349082@Pthebault33": {
     "ID": "E3720160112T141349082@Pthebault33",
     "apogee": "PRESS",
