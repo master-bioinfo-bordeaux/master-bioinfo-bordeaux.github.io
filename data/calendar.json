@@ -474,23 +474,6 @@
     "hours": "13:00-17:00",
     "weekdayIndex": 3
   },
-  "C1720160314T104213234@jeesay": {
-    "ID": "C1720160314T104213234@jeesay",
-    "apogee": "J1BS8203",
-    "acronym": "S08::MOBioS",
-    "type": "Cours+TD",
-    "summary": "J1BS8203",
-    "date_start": "2016-03-15T14:00",
-    "date_end": "2016-03-15T17:00",
-    "lecturer": "Heric&eacute; C",
-    "location": "Talence::A29-CREMI@000",
-    "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 2
-  },
   "C1720160314T104447366@jeesay": {
     "ID": "C1720160314T104447366@jeesay",
     "apogee": "C0BS8M01-Imag",
