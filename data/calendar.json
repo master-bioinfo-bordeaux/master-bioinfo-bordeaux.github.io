@@ -563,21 +563,6 @@
     "location": "Talence::A9@A3",
     "description": "None"
   },
-  "C1720160329T081924424@jeesay": {
-    "ID": "C1720160329T081924424@jeesay",
-    "apogee": "J1BS8202",
-    "acronym": "S08::POO",
-    "type": "Cours+TD",
-    "summary": "J1BS8202",
-    "date_start": "2016-03-29T10:00",
-    "date_end": "2016-03-29T12:00",
-    "lecturer": "Beurton-Aimar M",
-    "location": "Talence::A29-CREMI@005",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 2
-  },
   "C1720160329T081924425@jeesay": {
     "ID": "C1720160329T081924425@jeesay",
     "apogee": "J1BS8202",
