@@ -161,9 +161,10 @@
     "acronym": "S07::OBI",
     "type": "Cours+TD",
     "summary": "4TBI703U",
+    "lecturer": "Th&eacute;bault P",
     "date_start": "2016-09-12T08:00",
     "date_end": "2016-09-12T10:00",
-    "lecturer": "Th&eacute;bault P",
+    "group": "B",
     "location": "Talence::A29-CREMI@005",
     "description": "None"
   },
