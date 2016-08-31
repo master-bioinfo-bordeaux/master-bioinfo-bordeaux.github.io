@@ -1261,24 +1261,6 @@
     "hours": "08:00-12:00",
     "weekdayIndex": 5
   },
-  "C21020160603T124136986@jeesay": {
-    "ID": "C21020160603T124136986@jeesay",
-    "apogee": "4TBC901U",
-    "acronym": "S09::AppO",
-    "type": "Cours+TD",
-    "summary": "4TBC901U",
-    "date_start": "2016-07-11T16:00",
-    "date_end": "2016-07-11T18:00",
-    "lecturer": "Boussicault A",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "16:00-18:00",
-    "weekdayIndex": 1
-  },
   "C27020160603T124213656@jeesay": {
     "ID": "C27020160603T124213656@jeesay",
     "apogee": "4TBE901U",
