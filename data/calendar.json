@@ -142,21 +142,6 @@
     "hours": "14:00-18:00",
     "weekdayIndex": 5
   },
-  "C2F20160106T205217641@Pthebault33": {
-    "ID": "C2F20160106T205217641@Pthebault33",
-    "apogee": "J1BS9204",
-    "acronym": "S09::ClssData",
-    "type": "Cours+TD",
-    "summary": "J1BS9204",
-    "date_start": "2016-01-15T10:00",
-    "date_end": "2016-01-15T12:00",
-    "lecturer": "Desbarats P",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 5
-  },
   "C2F20160107T082019397@jeesay": {
     "ID": "C2F20160107T082019397@jeesay",
     "apogee": "J1BS9203",
