@@ -1225,24 +1225,6 @@
     "hours": "08:00-12:00",
     "weekdayIndex": 5
   },
-  "C26120160603T124724480@jeesay": {
-    "ID": "C26120160603T124724480@jeesay",
-    "apogee": "4TBI903U",
-    "acronym": "S09::ProjLog",
-    "type": "Cours+TD",
-    "summary": "4TBI903U",
-    "date_start": "2016-07-13T16:00",
-    "date_end": "2016-07-13T17:00",
-    "lecturer": "Beurton-Aimar M",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "16:00-17:00",
-    "weekdayIndex": 3
-  },
   "C20720160603T130026958@jeesay": {
     "ID": "C20720160603T130026958@jeesay",
     "apogee": "4TBI904U",
