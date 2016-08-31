@@ -1207,24 +1207,6 @@
     "hours": "08:00-12:00",
     "weekdayIndex": 5
   },
-  "C20720160603T130026958@jeesay": {
-    "ID": "C20720160603T130026958@jeesay",
-    "apogee": "4TBI904U",
-    "acronym": "S09::DEA",
-    "type": "Cours+TD",
-    "summary": "4TBI904U",
-    "date_start": "2016-07-14T10:00",
-    "date_end": "2016-07-14T12:00",
-    "lecturer": "Desbarats P",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 4
-  },
   "C27020160603T130104524@jeesay": {
     "ID": "C27020160603T130104524@jeesay",
     "apogee": "4TBI906U",
