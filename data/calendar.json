@@ -31,22 +31,6 @@
     "hours": "09:00-12:00",
     "weekdayIndex": 2
   },
-  "C2F20160106T071929339@jeesay": {
-    "ID": "C2F20160106T071929339@jeesay",
-    "apogee": "F1BS9201",
-    "acronym": "S09::CPR&D",
-    "type": "Cours+TD",
-    "summary": "F1BS9201",
-    "date_start": "2016-01-12T09:00",
-    "date_end": "2016-01-12T12:00",
-    "lecturer": "Th&eacute;bault P",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "title": "S09::CPR&D",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 2
-  },
   "E37020160106T100425190@jeesay": {
     "ID": "E37020160106T100425190@jeesay",
     "apogee": "CONFERENCE",
