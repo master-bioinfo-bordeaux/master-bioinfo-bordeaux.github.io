@@ -733,22 +733,6 @@
     "hours": "14:00-16:00",
     "weekdayIndex": 4
   },
-  "E1720160330T144928781@jeesay": {
-    "ID": "E1720160330T144928781@jeesay",
-    "apogee": "HOLIDAYS",
-    "acronym": "Vacances",
-    "summary": "HOLIDAYS",
-    "type": "Vacances",
-    "title": "Vacances de Printemps",
-    "lecturer": "--  ",
-    "year": "1",
-    "date_start": "2016-04-18T00:00",
-    "date_end": "2016-04-22T00:00",
-    "group": "All",
-    "location": "None::None@000",
-    "description": "",
-    "tracks": "0x7"
-  },
   "C10F20160602T093918733@Pthebault33": {
     "ID": "C10F20160602T093918733@Pthebault33",
     "apogee": "4TEC701U",
@@ -1289,6 +1273,9 @@
     "date_end": "2016-09-06T17:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
   }
 }
