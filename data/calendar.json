@@ -16,21 +16,6 @@
     "locationBuilding": "Talence::A29-CREMI",
     "locationRoom": "007"
   },
-  "C2F20160106T102303330@jeesay": {
-    "ID": "C2F20160106T102303330@jeesay",
-    "apogee": "J1BS9204",
-    "acronym": "S09::ClssData",
-    "type": "Cours+TD",
-    "summary": "J1BS9204",
-    "date_start": "2016-01-06T10:00",
-    "date_end": "2016-01-06T12:00",
-    "lecturer": "Desbarats P",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 3
-  },
   "C2F20160106T102341640@jeesay": {
     "ID": "C2F20160106T102341640@jeesay",
     "apogee": "J1IN9523",
