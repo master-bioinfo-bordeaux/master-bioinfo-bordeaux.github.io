@@ -1189,24 +1189,6 @@
     "hours": "09:00-12:00",
     "weekdayIndex": 1
   },
-  "C10F20160603T122444863@jeesay": {
-    "ID": "C10F20160603T122444863@jeesay",
-    "apogee": "4TBI702U-Prog",
-    "acronym": "S07::APU-Prog",
-    "type": "Cours+TD",
-    "summary": "4TBI702U-Prog",
-    "date_start": "2016-07-12T08:00",
-    "date_end": "2016-07-12T12:00",
-    "lecturer": "Beurton-Aimar M",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "08:00-12:00",
-    "weekdayIndex": 2
-  },
   "C10F20160603T122511907@jeesay": {
     "ID": "C10F20160603T122511907@jeesay",
     "apogee": "4TBI703U",
