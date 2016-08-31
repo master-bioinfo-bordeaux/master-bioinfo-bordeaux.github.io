@@ -1,16 +1,4 @@
 {
-  "C1720160329T081924426@jeesay": {
-    "ID": "C1720160329T081924426@jeesay",
-    "apogee": "J1BS8202",
-    "acronym": "S08::POO",
-    "type": "Cours+TD",
-    "summary": "J1BS8202",
-    "date_start": "T10:10",
-    "date_end": "T12:10",
-    "lecturer": "Benois-Pineau J",
-    "location": "Talence::A9@A3",
-    "description": "None"
-  },
   "C10F20160602T093918733@Pthebault33": {
     "ID": "C10F20160602T093918733@Pthebault33",
     "apogee": "4TEC701U",
@@ -49,6 +37,7 @@
     "ID": "E30720160602T120504198@jeesay",
     "apogee": "4TBIVACA",
     "acronym": "Evt::Holidays",
+    "type": "Vacances",
     "summary": "4TBIVACA",
     "title": "Vacances d'Automne - Fall Holidays",
     "lecturer": "--  ",
