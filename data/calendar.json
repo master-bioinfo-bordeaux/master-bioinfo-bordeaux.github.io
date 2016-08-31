@@ -234,21 +234,6 @@
     "hours": "13:00-18:00",
     "weekdayIndex": 4
   },
-  "C2F20160106T205708417@Pthebault33": {
-    "ID": "C2F20160106T205708417@Pthebault33",
-    "apogee": "J1BS9203",
-    "acronym": "S09::Prot3D",
-    "type": "Cours+TD",
-    "summary": "J1BS9203",
-    "date_start": "2016-01-18T08:00",
-    "date_end": "2016-01-18T12:00",
-    "lecturer": "Taveau JC",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-12:00",
-    "weekdayIndex": 1
-  },
   "C2F20160107T082019397@jeesay": {
     "ID": "C2F20160107T082019397@jeesay",
     "apogee": "J1BS9203",
@@ -352,7 +337,10 @@
     "date_end": "2016-01-18T16:00",
     "lecturer": "Beurton-Aimar M",
     "location": "Talence::A29-CREMI@007",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 1
   },
   "C1720160329T081924426@jeesay": {
     "ID": "C1720160329T081924426@jeesay",
