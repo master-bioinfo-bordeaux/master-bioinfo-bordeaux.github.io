@@ -560,5 +560,21 @@
     "location": "None::None@000",
     "description": "",
     "tracks": "0x7"
+  },
+  "E3720160831T135719423@jeesay": {
+    "ID": "E3720160831T135719423@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "type": "Vacances",
+    "summary": "4TBIVACA",
+    "title": "Vacances de fin d'ann&eacute;e - End-Of-Year Holidays",
+    "lecturer": "--  ",
+    "year": "3",
+    "date_start": "2016-12-19T00:00",
+    "date_end": "2016-12-19T00:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "",
+    "tracks": "0x7"
   }
 }
