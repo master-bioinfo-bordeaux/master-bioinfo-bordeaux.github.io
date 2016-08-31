@@ -327,21 +327,6 @@
     "location": "Talence::A29-CREMI@011",
     "description": "None"
   },
-  "C2720160118T133251913@jeesay": {
-    "ID": "C2720160118T133251913@jeesay",
-    "apogee": "F1BS9201",
-    "acronym": "S09::CPR&D",
-    "type": "Presentation",
-    "summary": "F1BS9201",
-    "date_start": "2016-01-18T14:00",
-    "date_end": "2016-01-18T16:00",
-    "lecturer": "Beurton-Aimar M",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-16:00",
-    "weekdayIndex": 1
-  },
   "C1720160329T081924426@jeesay": {
     "ID": "C1720160329T081924426@jeesay",
     "apogee": "J1BS8202",
