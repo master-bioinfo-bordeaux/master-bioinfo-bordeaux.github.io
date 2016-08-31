@@ -1,19 +1,4 @@
 {
-  "C2F20160106T102124375@jeesay": {
-    "ID": "C2F20160106T102124375@jeesay",
-    "apogee": "J1BS9207",
-    "acronym": "S09::AlgoGrph",
-    "type": "Cours+TD",
-    "summary": "J1BS9207",
-    "date_start": "2016-01-05T14:00",
-    "date_end": "2016-01-05T17:00",
-    "lecturer": "Melancon G",
-    "location": "Talence::A29-CREMI@202",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 2
-  },
   "C2F20160106T102223855@jeesay": {
     "ID": "C2F20160106T102223855@jeesay",
     "apogee": "F1BS9201",
