@@ -590,24 +590,6 @@
     "hours": "10:10-12:10",
     "weekdayIndex": 5
   },
-  "C1720160330T142130545@jeesay": {
-    "ID": "C1720160330T142130545@jeesay",
-    "apogee": "J1BS8203",
-    "acronym": "S08::MOBioS",
-    "type": "Examen",
-    "summary": "J1BS8203",
-    "date_start": "2016-03-31T14:00",
-    "date_end": "2016-03-31T16:00",
-    "lecturer": "Boussicault A",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "14:00-16:00",
-    "weekdayIndex": 4
-  },
   "C10F20160602T093918733@Pthebault33": {
     "ID": "C10F20160602T093918733@Pthebault33",
     "apogee": "4TEC701U",
