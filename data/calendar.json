@@ -620,28 +620,6 @@
     "hours": "10:10-12:10",
     "weekdayIndex": 5
   },
-  "E3720160329T122709547@jeesay": {
-    "ID": "E3720160329T122709547@jeesay",
-    "apogee": "HOLIDAYS",
-    "acronym": "Holidays",
-    "type": "Vacances",
-    "summary": "HOLIDAYS",
-    "title": "F&eacute;ri&eacute;",
-    "lecturer": "--  ",
-    "year": "3",
-    "date_start": "2016-03-28T00:00",
-    "date_end": "2016-03-28T08:00",
-    "group": "All",
-    "location": "None::None@000",
-    "description": "",
-    "tracks": "0x7",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "00:00-08:00",
-    "weekdayIndex": 1
-  },
   "C1720160330T142130545@jeesay": {
     "ID": "C1720160330T142130545@jeesay",
     "apogee": "J1BS8203",
