@@ -127,21 +127,6 @@
     "hours": "09:00-12:00",
     "weekdayIndex": 5
   },
-  "C2F20160106T153354877@Pthebault33": {
-    "ID": "C2F20160106T153354877@Pthebault33",
-    "apogee": "C1BS9205",
-    "acronym": "S09::ModSysBio",
-    "type": "Presentation",
-    "summary": "C1BS9205",
-    "date_start": "2016-01-15T14:00",
-    "date_end": "2016-01-15T18:00",
-    "lecturer": "Dieuaide M",
-    "location": "Talence::A30-LaBRI@076",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-18:00",
-    "weekdayIndex": 5
-  },
   "C2F20160107T082019397@jeesay": {
     "ID": "C2F20160107T082019397@jeesay",
     "apogee": "J1BS9203",
