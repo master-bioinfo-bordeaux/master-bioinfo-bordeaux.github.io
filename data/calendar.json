@@ -1,21 +1,4 @@
 {
-  "C2F20160106T102223855@jeesay": {
-    "ID": "C2F20160106T102223855@jeesay",
-    "apogee": "F1BS9201",
-    "acronym": "S09::CPR&D",
-    "type": "Cours+TD",
-    "summary": "F1BS9201",
-    "date_start": "2016-01-07T09:00",
-    "date_end": "2016-01-07T12:00",
-    "lecturer": "Uricaru R",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 4,
-    "locationBuilding": "Talence::A29-CREMI",
-    "locationRoom": "007"
-  },
   "C2F20160106T102341640@jeesay": {
     "ID": "C2F20160106T102341640@jeesay",
     "apogee": "J1IN9523",
