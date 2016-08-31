@@ -459,21 +459,6 @@
     "hours": "13:30-15:30",
     "weekdayIndex": 1
   },
-  "C1720160314T104738989@jeesay": {
-    "ID": "C1720160314T104738989@jeesay",
-    "apogee": "C0BS8M01-Model",
-    "acronym": "S08::App-Model",
-    "type": "Cours+TD",
-    "summary": "C0BS8M01-Model",
-    "date_start": "2016-03-17T13:00",
-    "date_end": "2016-03-17T17:00",
-    "lecturer": "Garenne A",
-    "location": "Talence::A29-CREMI@005",
-    "description": "None",
-    "warnings": [],
-    "hours": "13:00-17:00",
-    "weekdayIndex": 4
-  },
   "C1720160329T081924426@jeesay": {
     "ID": "C1720160329T081924426@jeesay",
     "apogee": "J1BS8202",
