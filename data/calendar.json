@@ -1243,24 +1243,6 @@
     "hours": "08:00-12:00",
     "weekdayIndex": 5
   },
-  "C26120160603T124621619@jeesay": {
-    "ID": "C26120160603T124621619@jeesay",
-    "apogee": "4TBI901U",
-    "acronym": "S09::StrubiGL",
-    "type": "Cours+TD",
-    "summary": "4TBI901U",
-    "date_start": "2016-07-12T16:00",
-    "date_end": "2016-07-12T18:00",
-    "lecturer": "Taveau JC",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "16:00-18:00",
-    "weekdayIndex": 2
-  },
   "C20F20160603T124654081@jeesay": {
     "ID": "C20F20160603T124654081@jeesay",
     "apogee": "4TBI902U",
