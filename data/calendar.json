@@ -15,25 +15,6 @@
     "hours": "09:00-12:00",
     "weekdayIndex": 2
   },
-  "E37020160106T100425190@jeesay": {
-    "ID": "E37020160106T100425190@jeesay",
-    "apogee": "CONFERENCE",
-    "acronym": "Conference",
-    "type": "Conference",
-    "summary": "CONFERENCE",
-    "title": "Presentation du travail de Clement Delestre",
-    "lecturer": "Mr Delestre C",
-    "year": "3",
-    "date_start": "2016-01-04T16:00",
-    "date_end": "2016-01-04T17:00",
-    "group": "All",
-    "location": "Talence::A30-LaBRI@076",
-    "description": "Questions / Reponses au sujet du quotidien d'un chercheur en bioinformatique",
-    "tracks": "0x70",
-    "warnings": [],
-    "hours": "16:00-17:00",
-    "weekdayIndex": 1
-  },
   "C2F20160106T102124375@jeesay": {
     "ID": "C2F20160106T102124375@jeesay",
     "apogee": "J1BS9207",
