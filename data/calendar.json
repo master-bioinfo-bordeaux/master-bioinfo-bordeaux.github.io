@@ -158,21 +158,6 @@
     "hours": "09:00-12:00",
     "weekdayIndex": 3
   },
-  "C2F20160106T150913815@Pthebault33": {
-    "ID": "C2F20160106T150913815@Pthebault33",
-    "apogee": "F1BS9201",
-    "acronym": "S09::CPR&D",
-    "type": "Cours+TD",
-    "summary": "F1BS9201",
-    "date_start": "2016-01-20T09:00",
-    "date_end": "2016-01-20T12:00",
-    "lecturer": "Uricaru R",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 3
-  },
   "C2F20160106T153354877@Pthebault33": {
     "ID": "C2F20160106T153354877@Pthebault33",
     "apogee": "C1BS9205",
