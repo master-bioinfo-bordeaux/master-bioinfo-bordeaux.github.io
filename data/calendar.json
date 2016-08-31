@@ -1,19 +1,4 @@
 {
-  "C2F20160106T102430247@jeesay": {
-    "ID": "C2F20160106T102430247@jeesay",
-    "apogee": "F6BS9202",
-    "acronym": "S09::Entreprise",
-    "type": "Cours+TD",
-    "summary": "F6BS9202",
-    "date_start": "2016-01-08T09:00",
-    "date_end": "2016-01-08T12:00",
-    "lecturer": "Th&eacute;bault P",
-    "location": "Talence::A29-CREMI@007",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 5
-  },
   "C2F20160107T082019397@jeesay": {
     "ID": "C2F20160107T082019397@jeesay",
     "apogee": "J1BS9203",
