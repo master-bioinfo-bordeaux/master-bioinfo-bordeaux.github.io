@@ -88,7 +88,7 @@
     "date_start": "2016-09-06T10:00",
     "date_end": "2016-09-06T12:00",
     "group": "All",
-    "location": "Talence::A30-LaBRI@178",
+    "location": "Talence::A29@B",
     "description": "",
     "tracks": "0x7",
     "warnings": [],
@@ -165,7 +165,7 @@
     "date_start": "2016-09-12T08:00",
     "date_end": "2016-09-12T10:00",
     "group": "B",
-    "location": "Talence::A29-CREMI@005",
+    "location": "Talence::A28-CREMI@005",
     "description": "None"
   },
   "C10F20160721T095040286@Marie-Beurton-Aimar": {
@@ -178,7 +178,7 @@
     "date_end": "2016-09-19T10:00",
     "lecturer": "Th&eacute;bault P",
     "group": "All",
-    "location": "Talence::A29-CREMI@005",
+    "location": "Talence::A28-CREMI@005",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -194,7 +194,7 @@
     "date_end": "2016-09-07T11:00",
     "lecturer": "Th&eacute;bault P",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -212,7 +212,7 @@
     "date_end": "2016-09-14T11:00",
     "lecturer": "Th&eacute;bault P",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -230,7 +230,7 @@
     "date_end": "2016-09-21T11:00",
     "lecturer": "Th&eacute;bault P",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -248,7 +248,7 @@
     "date_end": "2016-09-28T11:00",
     "lecturer": "de Daruvar A",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -266,7 +266,7 @@
     "date_end": "2016-10-05T11:00",
     "lecturer": "de Daruvar A",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -284,7 +284,7 @@
     "date_end": "2016-10-12T11:00",
     "lecturer": "de Daruvar A",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -302,7 +302,7 @@
     "date_end": "2016-10-19T11:00",
     "lecturer": "de Daruvar A",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -320,7 +320,7 @@
     "date_end": "2016-10-26T11:00",
     "lecturer": "Th&eacute;bault P",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -338,7 +338,7 @@
     "date_end": "2016-11-09T12:00",
     "lecturer": "Beauvoit B",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416633@Pthebault33": {
@@ -351,7 +351,7 @@
     "date_end": "2016-11-16T12:00",
     "lecturer": "Beauvoit B",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416637@Pthebault33": {
@@ -364,7 +364,7 @@
     "date_end": "2016-11-30T16:00",
     "lecturer": "Beauvoit B",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416642@Pthebault33": {
@@ -377,7 +377,7 @@
     "date_end": "2016-11-16T16:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416645@Pthebault33": {
@@ -390,7 +390,7 @@
     "date_end": "2016-11-23T12:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416649@Pthebault33": {
@@ -403,7 +403,7 @@
     "date_end": "2016-12-07T16:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416652@Pthebault33": {
@@ -416,7 +416,7 @@
     "date_end": "2016-12-14T16:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416655@Pthebault33": {
@@ -429,7 +429,7 @@
     "date_end": "2016-11-23T16:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416659@Pthebault33": {
@@ -442,7 +442,7 @@
     "date_end": "2016-11-30T12:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416663@Pthebault33": {
@@ -455,7 +455,7 @@
     "date_end": "2016-12-07T12:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C27020160722T152416667@Pthebault33": {
@@ -468,7 +468,7 @@
     "date_end": "2016-12-14T12:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   },
   "C10F20160826T085025727@Marie-Beurton-Aimar": {
@@ -481,7 +481,7 @@
     "date_end": "2016-09-07T12:00",
     "lecturer": "Delmas O",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -499,7 +499,7 @@
     "date_end": "2016-09-08T12:00",
     "lecturer": "Delmas O",
     "group": "All",
-    "location": "Talence::A29-CREMI@000",
+    "location": "Talence::A28-CREMI@000",
     "description": "None",
     "warnings": [
       " No classroom!!"
@@ -517,7 +517,7 @@
     "date_end": "2016-09-06T16:00",
     "group": "All",
     "lecturer": "Delmas O",
-    "location": "Talence::A29-CREMI@107",
+    "location": "Talence::A28-CREMI@107",
     "description": "None"
   },
   "C26120160826T085414683@Marie-Beurton-Aimar": {
@@ -530,7 +530,7 @@
     "date_end": "2016-09-07T12:00",
     "lecturer": "Beurton-Aimar M",
     "group": "All",
-    "location": "Talence::A29-CREMI@005",
+    "location": "Talence::A28-CREMI@005",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -546,7 +546,7 @@
     "date_end": "2016-09-08T12:00",
     "lecturer": "Beurton-Aimar M",
     "group": "All",
-    "location": "Talence::A29-CREMI@005",
+    "location": "Talence::A28-CREMI@005",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -562,7 +562,7 @@
     "date_end": "2016-09-06T17:00",
     "lecturer": "Beurton-Aimar M",
     "group": "All",
-    "location": "Talence::A29-CREMI@005",
+    "location": "Talence::A28-CREMI@005",
     "description": "None",
     "warnings": [],
     "hours": "14:00-17:00",
