@@ -5,17 +5,12 @@
     "acronym": "S07::TDE",
     "type": "Cours",
     "summary": "4TEC701U",
-    "date_start": "2016-10-19T09:00",
-    "date_end": "2016-10-19T12:00",
     "lecturer": "S&eacute;n&eacute;chal N",
+    "date_start": "2016-10-10T09:00",
+    "date_end": "2016-10-10T12:00",
     "group": "All",
-    "location": "Talence::B5@000",
-    "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 3
+    "location": "None::None@000",
+    "description": "None"
   },
   "C10F20160602T093918736@Pthebault33": {
     "ID": "C10F20160602T093918736@Pthebault33",
