@@ -68,7 +68,10 @@
     "date_end": "2016-09-19T12:00",
     "group": "All",
     "location": "Talence::B5@PABA",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "E3720160606T133023103@Pthebault33": {
     "ID": "E3720160606T133023103@Pthebault33",
@@ -168,15 +171,12 @@
     "acronym": "S07::OBI",
     "type": "Cours+TD",
     "summary": "4TBI703U",
-    "date_start": "2016-09-19T08:00",
-    "date_end": "2016-09-19T10:00",
     "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-09-20T08:00",
+    "date_end": "2016-09-20T10:00",
     "group": "All",
     "location": "Talence::A28-CREMI@005",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-10:00",
-    "weekdayIndex": 1
+    "description": "None"
   },
   "C27020160721T153546496@Pthebault33": {
     "ID": "C27020160721T153546496@Pthebault33",
