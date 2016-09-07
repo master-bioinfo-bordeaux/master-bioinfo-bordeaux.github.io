@@ -445,7 +445,10 @@
     "date_end": "2016-09-07T12:00",
     "group": "All",
     "location": "Talence::A29@amphi E",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20160826T085025728@Marie-Beurton-Aimar": {
     "ID": "C10F20160826T085025728@Marie-Beurton-Aimar",
@@ -453,17 +456,12 @@
     "acronym": "S07::APU-USI",
     "type": "Cours+TD",
     "summary": "4TBI702U-USI",
+    "lecturer": "Delmas O",
     "date_start": "2016-09-08T10:00",
     "date_end": "2016-09-08T12:00",
-    "lecturer": "Delmas O",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
-    "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 4
+    "location": "Talence::A29@Amphi B",
+    "description": "None"
   },
   "C10F20160826T085150247@Marie-Beurton-Aimar": {
     "ID": "C10F20160826T085150247@Marie-Beurton-Aimar",
