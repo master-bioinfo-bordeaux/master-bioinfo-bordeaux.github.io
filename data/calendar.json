@@ -97,19 +97,12 @@
     "acronym": "S10::Stage",
     "type": "Soutenance",
     "summary": "4TBI001U",
+    "lecturer": "------",
     "date_start": "2016-09-09T08:00",
     "date_end": "2016-09-09T18:00",
-    "lecturer": "------",
     "group": "All",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No lecturer!!",
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "08:00-18:00",
-    "weekdayIndex": 5
+    "location": "Talence::A30-LaBRI@Amphi",
+    "description": "None"
   },
   "E10720160720T091807436@jeesay": {
     "ID": "E10720160720T091807436@jeesay",
@@ -783,7 +776,10 @@
     "date_end": "2016-09-05T15:00",
     "group": "All",
     "location": "Talence::A9@Amphi_E",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-15:00",
+    "weekdayIndex": 1
   },
   "C21020160907T110756731@Pthebault33": {
     "ID": "C21020160907T110756731@Pthebault33",
@@ -796,7 +792,10 @@
     "date_end": "2016-09-06T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756733@Pthebault33": {
     "ID": "C21020160907T110756733@Pthebault33",
