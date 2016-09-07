@@ -501,15 +501,12 @@
     "acronym": "S09::ProjLog",
     "type": "Cours+TD",
     "summary": "4TBI903U",
-    "date_start": "2016-09-08T09:00",
-    "date_end": "2016-09-08T12:00",
     "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-09-08T14:00",
+    "date_end": "2016-09-08T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@005",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 4
+    "description": "None"
   },
   "C26120160830T094046281@Marie-Beurton-Aimar": {
     "ID": "C26120160830T094046281@Marie-Beurton-Aimar",
@@ -806,7 +803,10 @@
     "date_end": "2016-09-13T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756735@Pthebault33": {
     "ID": "C21020160907T110756735@Pthebault33",
