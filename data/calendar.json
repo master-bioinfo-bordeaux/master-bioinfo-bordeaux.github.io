@@ -612,5 +612,83 @@
     "group": "All",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C10F20160907T084325424@jeesay": {
+    "ID": "C10F20160907T084325424@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2016-09-26T09:00",
+    "date_end": "2016-09-26T11:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C10F20160907T084325425@jeesay": {
+    "ID": "C10F20160907T084325425@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2016-10-03T17:00",
+    "date_end": "2016-10-03T19:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C10F20160907T084325426@jeesay": {
+    "ID": "C10F20160907T084325426@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2016-10-17T10:00",
+    "date_end": "2016-10-17T12:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C10F20160907T084325427@jeesay": {
+    "ID": "C10F20160907T084325427@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2016-11-07T15:00",
+    "date_end": "2016-11-07T17:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C10F20160907T084325438@jeesay": {
+    "ID": "C10F20160907T084325438@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "Gr&eacute;mare A",
+    "date_start": "2016-11-28T10:00",
+    "date_end": "2016-11-28T12:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "None"
+  },
+  "C10F20160907T084325511@jeesay": {
+    "ID": "C10F20160907T084325511@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2016-11-07T13:00",
+    "date_end": "2016-11-07T15:00",
+    "group": "All",
+    "location": "None::None@000",
+    "description": "None"
   }
 }
