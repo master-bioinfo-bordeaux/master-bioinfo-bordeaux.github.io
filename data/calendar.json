@@ -5,7 +5,7 @@
     "acronym": "S07::TDE",
     "type": "Cours",
     "summary": "4TEC701U",
-    "lecturer": "S&eacute;n&eacute;chal N",
+    "lecturer": "Gr&eacute;mare A",
     "date_start": "2016-10-10T09:00",
     "date_end": "2016-10-10T12:00",
     "group": "All",
@@ -23,7 +23,10 @@
     "date_end": "2016-10-03T10:00",
     "group": "All",
     "location": "Talence::A29@Amphi_E",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 1
   },
   "E30720160602T120504198@jeesay": {
     "ID": "E30720160602T120504198@jeesay",
