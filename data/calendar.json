@@ -702,7 +702,10 @@
     "date_end": "2016-09-12T19:00",
     "group": "A",
     "location": "Talence::B5@004",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "17:00-19:00",
+    "weekdayIndex": 1
   },
   "C10F20160907T085525886@jeesay": {
     "ID": "C10F20160907T085525886@jeesay",
@@ -767,6 +770,19 @@
     "date_end": "2016-11-28T10:00",
     "group": "A",
     "location": "Talence::B5@005",
+    "description": "None"
+  },
+  "C10F20160907T093015098@jeesay": {
+    "ID": "C10F20160907T093015098@jeesay",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "Cours",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2016-09-05T13:00",
+    "date_end": "2016-09-05T15:00",
+    "group": "All",
+    "location": "Talence::A9@Amphi_E",
     "description": "None"
   }
 }
