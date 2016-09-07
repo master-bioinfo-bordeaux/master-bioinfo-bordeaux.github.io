@@ -2166,8 +2166,9 @@ function createEventModal(ID) {
 }
 
 function createEventCells(events) {
-    console.log("EVENTS OF THIS WEEK");
-    console.log(events);
+    //console.log("EVENTS OF THIS WEEK");
+    //console.log(events);
+    
     var html='';
     // ROW 0 = ALL DAY events
     html +='<tr><td>All Day</td>';
@@ -2183,6 +2184,14 @@ function createEventCells(events) {
     }
     html +='</tr>';
     
+    // Check Overlaps
+    for (var day = 0; day < 5; day++) {
+        for (var i = 0; i < events.length; i++) {
+            if ( events[i].weekdayIndex == (day+1) && events[i].allDay === true) {
+            }
+        }
+        html +='</td>';
+    }
     // ROW 1 to n = From 08:00 to 19:00 in minutes
     for (var i = 0; i < TableCal.NROWS; i++) {
         var row = i*30 + 480;
@@ -2261,7 +2270,7 @@ function findEvent(events,start,col) {
 }
 
 function createEmptyCell() {
-    return '<td class="hidden-sm hidden-xs">&nbsp;</td>';
+    return '<td class="hidden-xs">&nbsp;</td>';
 
 }
 
