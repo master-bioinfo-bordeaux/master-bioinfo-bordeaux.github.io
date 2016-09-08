@@ -1920,7 +1920,7 @@ function updateCalendarHeader(y,m,d) {
     // Update table header thead
     var days = getWeekDays(y, m, d);
     var element = document.getElementById('calendar-lg-head');
-    var html = '<tr><th>Hour</th>';
+    var html = '<tr><th class="hidden-xs">Hour</th>';
     for (var i = 0; i < days.length;i++) {
         html +='<th class="centered">'+days[i]+'</th>';
     }
@@ -1937,7 +1937,13 @@ function updateCalendarBody(y,m,d) {
     
     // console.log(calendar_data);
     var today = new Date(y,m,d);
-    var weekevents = [];
+    var weekdays = [];
+    weekdays[0] = {events:[]}; // MON
+    weekdays[1] = {events:[]}; // TUE
+    weekdays[2] = {events:[]}; // WED
+    weekdays[3] = {events:[]}; // THU
+    weekdays[4] = {events:[]}; // FRI
+
 
     // Search events occuring during this week 
     
@@ -1988,7 +1994,7 @@ function updateCalendarBody(y,m,d) {
                     element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
                     if (element.weekdayIndex == -1) {
                         element.weekdayIndex = i;
-                        weekevents.push(element);
+                        weekdays[i-1].events.push(element);
                     }
                     else {
                         // Already exists aka multiday event
@@ -1998,15 +2004,42 @@ function updateCalendarBody(y,m,d) {
                             if (element.hasOwnProperty(attr)) elementClone[attr] = element[attr];
                         }
                         elementClone.weekdayIndex = i;
-                        weekevents.push(elementClone);
+                        weekdays[i-1].events.push(elementClone);
                     }
                 }
             }
         }
     }
-    // Sort events by time from 0800 to 1900
-    for (var i = 1; i < 6; i++) {
-        weekevents.sort(function sort(a,b) {
+
+    // Clean up daily events
+    for (var i = 0; i < 5; i++) {
+        // 1- Check Overlap(s)
+        a_day = weekdays[i];
+        a_day.boxes = [];
+        for (var j = 0; j < a_day.events.length - 1; j++) {
+            if (!a_day.events[j].allDay && !a_day.events[j].overlap) {
+                var box = {
+                    startDate: a_day.events[j].startDate,
+                    endDate  : a_day.events[j].endDate,
+                    children: []
+                };
+                box.children.push(a_day.events[j]);
+                a_day.boxes.push(box);
+                var start = a_day.events[j].startDate.getTime();
+                var end   = a_day.events[j].endDate.getTime();
+                for (var k = j +1; k < a_day.events.length; k++) {
+                    if (start <= a_day.events[k].endDate.getTime() && end >= a_day.events[k].startDate.getTime() && a_day.events[k].allDay) {
+                        a_day.events[j].overlap = true;
+                        box.startDate = Math.min(box.startDate,a_day.events[k].startDate);
+                        box.endDate   = Math.max(box.endDate, a_day.events[k].endDate);
+                        box.children.push(a_day.events[j]);
+                    }
+                }
+            }
+        }
+        
+        // 2- Sort events by time from 0800 to 1900
+        weekdays[i].events.sort(function sort(a,b) {
             if (a.startDate.getTime() > b.startDate.getTime() ) {
                 return 1;
             }
@@ -2014,19 +2047,12 @@ function updateCalendarBody(y,m,d) {
                 return -1;
             }
             else {
-                if (a.weekdayIndex > b.weekdayIndex ) {
-                    return 1;
-                }
-                else if (a.weekdayIndex < b.weekdayIndex ) {
-                    return -1;
-                }
-                else
-                    return 0;
+                return 0;
             }
         });
     }
 
-    createEventCells(weekevents);
+    createEventCells(weekdays);
 }
 
 
@@ -2165,44 +2191,37 @@ function createEventModal(ID) {
     return html;
 }
 
-function createEventCells(events) {
+function createEventCells(days) {
     //console.log("EVENTS OF THIS WEEK");
-    //console.log(events);
+    console.log(days);
     
     var html='';
     // ROW 0 = ALL DAY events
-    html +='<tr><td>All Day</td>';
+    html +='<tr><td  class="hidden-xs">All Day</td>';
     for (var column = 0; column < 5; column++) {
         html +='<td>';
         // AllDay events
-        for (var i = 0; i < events.length; i++) {
-            if ( events[i].weekdayIndex == (column+1) && events[i].allDay === true) {
-                html += createEventCell(events[i]);
+        for (var i = 0; i < days[column].events.length; i++) {
+            if ( days[column].events[i].weekdayIndex == (column+1) && days[column].events[i].allDay === true) {
+                html += createEventCell(days[column].events[i]);
             }
         }
         html +='</td>';
     }
     html +='</tr>';
     
-    // Check Overlaps
-    for (var day = 0; day < 5; day++) {
-        for (var i = 0; i < events.length; i++) {
-            if ( events[i].weekdayIndex == (day+1) && events[i].allDay === true) {
-            }
-        }
-        html +='</td>';
-    }
+
     // ROW 1 to n = From 08:00 to 19:00 in minutes
     for (var i = 0; i < TableCal.NROWS; i++) {
         var row = i*30 + 480;
         html += '<tr>';
         console.log(row);
         if ( (row % 60) == 0) {
-            html += '<td  rowspan="2">'+ ( (Math.ceil(row/60) < 10) ? ('0'+Math.ceil(row/60) ) : Math.ceil(row/60) )+':00</td>';
+            html += '<td class="hidden-xs" rowspan="2">'+ ( (Math.ceil(row/60) < 10) ? ('0'+Math.ceil(row/60) ) : Math.ceil(row/60) )+':00</td>';
         }
         for (var column = 0; column < 5; column++) {
             // Regular events
-            var contents = findEvent(events,row,column);
+            var contents = findEvent(days[column].events,row,column);
             if (table.cells[i][column] == 0) {
                 html += createEmptyCell();
             }
@@ -2215,7 +2234,7 @@ function createEventCells(events) {
     }
     
     // Last ROW = EVENING events
-    html +='<tr><td>Evening</td><td></td><td></td><td></td><td></td><td></td></tr>';
+    html +='<tr><td class="hidden-xs">Evening</td><td></td><td></td><td></td><td></td><td></td></tr>';
     
 
     document.getElementById('calendar-lg-body').innerHTML=html;
@@ -2270,7 +2289,7 @@ function findEvent(events,start,col) {
 }
 
 function createEmptyCell() {
-    return '<td class="hidden-xs">&nbsp;</td>';
+    return '<td>&nbsp;</td>';
 
 }
 
