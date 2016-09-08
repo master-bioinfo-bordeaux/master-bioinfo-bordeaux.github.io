@@ -2327,24 +2327,26 @@ function createEventCell(cal_event) {
         var mm = (parseInt(cal_event.startDate.getMinutes()) < 10) ? ('0'+ cal_event.startDate.getMinutes()) : cal_event.startDate.getMinutes();
         
         if (hh !== "00") {
-            html += '<span class="pull-right hidden-xs" style="font-weight: bold">' + hh + ':' + mm + '-';
-            hh = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
-            mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
-            html += hh + ':' + mm + '</span>';
-            html += '<li class="hidden-lg hidden-md hidden-sm" style="font-weight: bold">' + hh + ':' + mm + '-';
+            var hh_lg = hh;
+            var mm_lg = mm;
+            html += '<span class="pull-right  hidden-sm hidden-xs" style="font-weight: bold">' + hh_lg + ':' + mm_lg + '-';
+            hh_lg = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
+            mm_lg = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
+            html += hh_lg + ':' + mm_lg + '</span>';
+            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '-';
             hh = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
             mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
             html += hh + ':' + mm + '</li>';
 
         }
         else {
-            html += '<span class="pull-right hidden-xs" style="font-weight: bold">All Day</span>';
-            html += '<li class="hidden-lg hidden-md hidden-sm" style="font-weight: bold">All Day</li>';
+            html += '<span class="pull-right  hidden-sm hidden-xs" style="font-weight: bold">All Day</span>';
+            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">All Day</li>';
         }
 
         html += '</li>';
         //html += '<li>'+ cal_event.comment +'</li>';
-        html += '<li class="hidden-xs">'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
+        html += '<li class=" hidden-sm hidden-xs">'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
         
         // Location: Campus::Bldg@Room
         var tmp = cal_event.location.match(/(.+)::/);
@@ -2354,11 +2356,11 @@ function createEventCell(cal_event) {
             var bldg = tmp[1];
             tmp = cal_event.location.match(/@(\w+)/);
             var room = tmp[1];
-            html += '<li class="hidden-xs">Campus: '+ campus+'</li>';
-            html += '<li class="hidden-xs">Bldg: '+ bldg  +'</li>';
-            html += '<li class="hidden-lg hidden-md hidden-sm">'+ bldg  +'</li>';
-            html += '<li class="hidden-xs>Room/Amphi: '+ room  +'</li>';
-            html += '<li class="hidden-lg hidden-md hidden-sm>Num: '+ room  +'</li>';
+            html += '<li class=" hidden-sm hidden-xs">Campus: '+ campus+'</li>';
+            html += '<li class=" hidden-sm hidden-xs">Bldg: '+ bldg  +'</li>';
+            html += '<li class=" hidden-lg hidden-md">'+ bldg  +'</li>';
+            html += '<li class=" hidden-sm hidden-xs>Room/Amphi: '+ room  +'</li>';
+            html += '<li class="hidden-lg hidden-md>Num: '+ room  +'</li>';
         }
 
         html += '</ul>';
