@@ -940,5 +940,31 @@
     "group": "All",
     "location": "None::None@000",
     "description": "None"
+  },
+  "C26120160909T094249915@Pthebault33": {
+    "ID": "C26120160909T094249915@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-09-14T14:00",
+    "date_end": "2016-09-14T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@202",
+    "description": "None"
+  },
+  "C26120160909T094249917@Pthebault33": {
+    "ID": "C26120160909T094249917@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-09-12T09:00",
+    "date_end": "2016-09-12T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@005",
+    "description": "None"
   }
 }
