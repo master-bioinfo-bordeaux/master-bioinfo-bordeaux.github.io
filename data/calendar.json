@@ -955,7 +955,10 @@
     "date_end": "2016-09-12T18:00",
     "group": "All",
     "location": "Talence::A28-CREMI@009",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 1
   },
   "C21020160909T122703568@Pthebault33": {
     "ID": "C21020160909T122703568@Pthebault33",
@@ -968,7 +971,10 @@
     "date_end": "2016-09-13T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703570@Pthebault33": {
     "ID": "C21020160909T122703570@Pthebault33",
@@ -981,7 +987,10 @@
     "date_end": "2016-09-20T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703572@Pthebault33": {
     "ID": "C21020160909T122703572@Pthebault33",
@@ -994,7 +1003,10 @@
     "date_end": "2016-09-27T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703574@Pthebault33": {
     "ID": "C21020160909T122703574@Pthebault33",
@@ -1007,7 +1019,10 @@
     "date_end": "2016-10-04T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703577@Pthebault33": {
     "ID": "C21020160909T122703577@Pthebault33",
@@ -1036,7 +1051,10 @@
     "date_end": "2016-10-18T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703581@Pthebault33": {
     "ID": "C21020160909T122703581@Pthebault33",
@@ -1166,7 +1184,10 @@
     "date_end": "2016-09-14T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503646@Pthebault33": {
     "ID": "C21020160909T123503646@Pthebault33",
@@ -1179,7 +1200,10 @@
     "date_end": "2016-09-21T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503649@Pthebault33": {
     "ID": "C21020160909T123503649@Pthebault33",
@@ -1192,7 +1216,10 @@
     "date_end": "2016-09-28T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503652@Pthebault33": {
     "ID": "C21020160909T123503652@Pthebault33",
@@ -1205,7 +1232,10 @@
     "date_end": "2016-10-05T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503654@Pthebault33": {
     "ID": "C21020160909T123503654@Pthebault33",
@@ -1218,7 +1248,10 @@
     "date_end": "2016-10-12T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503657@Pthebault33": {
     "ID": "C21020160909T123503657@Pthebault33",
@@ -1231,7 +1264,10 @@
     "date_end": "2016-10-19T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503660@Pthebault33": {
     "ID": "C21020160909T123503660@Pthebault33",
@@ -1296,6 +1332,19 @@
     "date_end": "2016-11-30T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
+    "description": "None"
+  },
+  "C20F20160909T150434427@Pthebault33": {
+    "ID": "C20F20160909T150434427@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-09-15T14:00",
+    "date_end": "2016-09-15T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@000",
     "description": "None"
   }
 }
