@@ -1020,7 +1020,10 @@
     "date_end": "2016-10-11T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703579@Pthebault33": {
     "ID": "C21020160909T122703579@Pthebault33",
@@ -1098,6 +1101,58 @@
     "date_end": "2016-11-29T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
+    "description": "None"
+  },
+  "C21020160909T123044955@Pthebault33": {
+    "ID": "C21020160909T123044955@Pthebault33",
+    "apogee": "4TBC901U",
+    "acronym": "S09::AppO",
+    "type": "Cours",
+    "summary": "4TBC901U",
+    "lecturer": "Cl&eacute;ment Lionel",
+    "date_start": "2016-11-08T14:00",
+    "date_end": "2016-11-08T16:00",
+    "group": "All",
+    "location": "Talence::B6@Amphi",
+    "description": "None"
+  },
+  "C21020160909T123044957@Pthebault33": {
+    "ID": "C21020160909T123044957@Pthebault33",
+    "apogee": "4TBC901U",
+    "acronym": "S09::AppO",
+    "type": "Cours",
+    "summary": "4TBC901U",
+    "lecturer": "Cl&eacute;ment Lionel",
+    "date_start": "2016-11-15T14:00",
+    "date_end": "2016-11-15T16:00",
+    "group": "All",
+    "location": "Talence::B6@Amphi",
+    "description": "None"
+  },
+  "C21020160909T123044959@Pthebault33": {
+    "ID": "C21020160909T123044959@Pthebault33",
+    "apogee": "4TBC901U",
+    "acronym": "S09::AppO",
+    "type": "Cours",
+    "summary": "4TBC901U",
+    "lecturer": "Cl&eacute;ment Lionel",
+    "date_start": "2016-11-22T14:00",
+    "date_end": "2016-11-22T16:00",
+    "group": "All",
+    "location": "Talence::B6@Amphi",
+    "description": "None"
+  },
+  "C21020160909T123044961@Pthebault33": {
+    "ID": "C21020160909T123044961@Pthebault33",
+    "apogee": "4TBC901U",
+    "acronym": "S09::AppO",
+    "type": "Cours",
+    "summary": "4TBC901U",
+    "lecturer": "Cl&eacute;ment Lionel",
+    "date_start": "2016-11-29T14:00",
+    "date_end": "2016-11-29T16:00",
+    "group": "All",
+    "location": "Talence::B6@Amphi",
     "description": "None"
   }
 }
