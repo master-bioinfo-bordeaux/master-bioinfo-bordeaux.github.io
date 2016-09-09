@@ -822,7 +822,10 @@
     "date_end": "2016-09-20T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756736@Pthebault33": {
     "ID": "C21020160907T110756736@Pthebault33",
@@ -835,7 +838,10 @@
     "date_end": "2016-09-27T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756738@Pthebault33": {
     "ID": "C21020160907T110756738@Pthebault33",
@@ -848,7 +854,10 @@
     "date_end": "2016-10-04T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756740@Pthebault33": {
     "ID": "C21020160907T110756740@Pthebault33",
@@ -861,7 +870,10 @@
     "date_end": "2016-10-11T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756741@Pthebault33": {
     "ID": "C21020160907T110756741@Pthebault33",
@@ -874,7 +886,10 @@
     "date_end": "2016-10-18T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160907T110756743@Pthebault33": {
     "ID": "C21020160907T110756743@Pthebault33",
@@ -889,19 +904,6 @@
     "location": "Talence::B6@Amphi",
     "description": "None"
   },
-  "C26020160907T160212609@Pthebault33": {
-    "ID": "C26020160907T160212609@Pthebault33",
-    "apogee": "4TBE902U",
-    "acronym": "S09::EcoComm",
-    "type": "Cours",
-    "summary": "4TBE902U",
-    "lecturer": "David V",
-    "date_start": "2016-10-18T08:00",
-    "date_end": "2016-10-18T09:00",
-    "group": "All",
-    "location": "None::None@000",
-    "description": "None"
-  },
   "C26020160907T160212611@Pthebault33": {
     "ID": "C26020160907T160212611@Pthebault33",
     "apogee": "4TBE902U",
@@ -913,7 +915,13 @@
     "date_end": "2016-10-19T09:00",
     "group": "All",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-09:00",
+    "weekdayIndex": 3
   },
   "C26020160907T160212612@Pthebault33": {
     "ID": "C26020160907T160212612@Pthebault33",
@@ -926,7 +934,13 @@
     "date_end": "2016-10-20T09:00",
     "group": "All",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-09:00",
+    "weekdayIndex": 4
   },
   "C26020160907T160212615@Pthebault33": {
     "ID": "C26020160907T160212615@Pthebault33",
@@ -939,7 +953,13 @@
     "date_end": "2016-10-21T09:00",
     "group": "All",
     "location": "None::None@000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!",
+      " No classroom!!"
+    ],
+    "hours": "08:00-09:00",
+    "weekdayIndex": 5
   },
   "C26120160909T094249915@Pthebault33": {
     "ID": "C26120160909T094249915@Pthebault33",
@@ -952,7 +972,10 @@
     "date_end": "2016-09-14T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@202",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 3
   },
   "C26120160909T094249917@Pthebault33": {
     "ID": "C26120160909T094249917@Pthebault33",
@@ -965,6 +988,9 @@
     "date_end": "2016-09-12T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   }
 }
