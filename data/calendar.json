@@ -904,25 +904,6 @@
     "location": "Talence::B6@Amphi",
     "description": "None"
   },
-  "C26020160907T160212612@Pthebault33": {
-    "ID": "C26020160907T160212612@Pthebault33",
-    "apogee": "4TBE902U",
-    "acronym": "S09::EcoComm",
-    "type": "Cours",
-    "summary": "4TBE902U",
-    "lecturer": "David V",
-    "date_start": "2016-10-20T08:00",
-    "date_end": "2016-10-20T09:00",
-    "group": "All",
-    "location": "None::None@000",
-    "description": "None",
-    "warnings": [
-      " No building!!",
-      " No classroom!!"
-    ],
-    "hours": "08:00-09:00",
-    "weekdayIndex": 4
-  },
   "C26020160907T160212615@Pthebault33": {
     "ID": "C26020160907T160212615@Pthebault33",
     "apogee": "4TBE902U",
