@@ -2280,7 +2280,7 @@ function findEvent(events,start,col) {
         var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
         html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
         if (found.children.length > 1) {
-            html+= '<a title="Warning!! Colliding Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
+            html+= '<a title="Overlapping Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
             for (var i=0; i < found.children.length; i++) {
                 // Add each colliding event
                 html += createEventCell(found.children[i]);
