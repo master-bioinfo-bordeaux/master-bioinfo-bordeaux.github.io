@@ -1938,11 +1938,11 @@ function updateCalendarBody(y,m,d) {
     // console.log(calendar_data);
     var today = new Date(y,m,d);
     var weekdays = [];
-    weekdays[0] = {events:[]}; // MON
-    weekdays[1] = {events:[]}; // TUE
-    weekdays[2] = {events:[]}; // WED
-    weekdays[3] = {events:[]}; // THU
-    weekdays[4] = {events:[]}; // FRI
+    weekdays[0] = {events:[],boxes:[]}; // MON
+    weekdays[1] = {events:[],boxes:[]}; // TUE
+    weekdays[2] = {events:[],boxes:[]}; // WED
+    weekdays[3] = {events:[],boxes:[]}; // THU
+    weekdays[4] = {events:[],boxes:[]}; // FRI
 
 
     // Search events occuring during this week 
@@ -1990,6 +1990,7 @@ function updateCalendarBody(y,m,d) {
                     var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                     element.startDate = startDate;
                     element.endDate   = endDate;
+                    element.overlap   = false;
                     // element.duration  = Math.ceil(timeDiff / (1000 * 60)); // ms -> min
                     element.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
                     if (element.weekdayIndex == -1) {
@@ -2015,31 +2016,40 @@ function updateCalendarBody(y,m,d) {
     for (var i = 0; i < 5; i++) {
         // 1- Check Overlap(s)
         a_day = weekdays[i];
-        a_day.boxes = [];
-        for (var j = 0; j < a_day.events.length - 1; j++) {
+        for (var j = 0; j < a_day.events.length; j++) {
             if (!a_day.events[j].allDay && !a_day.events[j].overlap) {
                 var box = {
                     startDate: a_day.events[j].startDate,
                     endDate  : a_day.events[j].endDate,
+                    weekdayIndex : a_day.events[j].weekdayIndex,
                     children: []
                 };
                 box.children.push(a_day.events[j]);
                 a_day.boxes.push(box);
                 var start = a_day.events[j].startDate.getTime();
                 var end   = a_day.events[j].endDate.getTime();
-                for (var k = j +1; k < a_day.events.length; k++) {
-                    if (start <= a_day.events[k].endDate.getTime() && end >= a_day.events[k].startDate.getTime() && a_day.events[k].allDay) {
-                        a_day.events[j].overlap = true;
-                        box.startDate = Math.min(box.startDate,a_day.events[k].startDate);
-                        box.endDate   = Math.max(box.endDate, a_day.events[k].endDate);
-                        box.children.push(a_day.events[j]);
+                for (var k = j + 1; k < a_day.events.length; k++) {
+                    if (start < a_day.events[k].endDate.getTime() && end > a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
+                        a_day.events[k].overlap = true;
+                        box.startDate = new Date(Math.min(box.startDate,a_day.events[k].startDate) );
+                        box.endDate   = new Date(Math.max(box.endDate, a_day.events[k].endDate) );
+                        box.children.push(a_day.events[k]);
                     }
                 }
+                var timeDiff = Math.abs(box.endDate.getTime() - box.startDate.getTime());
+                box.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
+
             }
         }
+        console.log('BOX ' +i+':');
+        if (weekdays[i].boxes[0] !== undefined) {
+            console.log(weekdays[i].boxes[0].startDate.toString() + ' - ' +  weekdays[i].boxes[0].endDate.toString());
+             console.log(weekdays[i].boxes[0]);
+        }
+
         
         // 2- Sort events by time from 0800 to 1900
-        weekdays[i].events.sort(function sort(a,b) {
+        weekdays[i].boxes.sort(function sort(a,b) {
             if (a.startDate.getTime() > b.startDate.getTime() ) {
                 return 1;
             }
@@ -2221,7 +2231,7 @@ function createEventCells(days) {
         }
         for (var column = 0; column < 5; column++) {
             // Regular events
-            var contents = findEvent(days[column].events,row,column);
+            var contents = findEvent(days[column].boxes,row,column);
             if (table.cells[i][column] == 0) {
                 html += createEmptyCell();
             }
@@ -2246,6 +2256,7 @@ function findEvent(events,start,col) {
     var html='';
     var stack = [];
     var max_duration = 0;
+    var found;
     for (var i = 0; i < events.length; i++) {
         var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
         var startMax = startMin + events[i].duration;
@@ -2256,34 +2267,41 @@ function findEvent(events,start,col) {
         // Event #2: 15:00-16:30
         // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
         if (startMin == start && startDay == day) {
-            console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate);
-            stack.push(events[i]);
+            console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
+            found = events[i];
             max_duration = Math.max(events[i].duration, max_duration);
             
         }
     }
     
-    if (max_duration != 0) {
+    if (found !== undefined) {
             // Choose the duration max
         // <td> with gray  
-        var background_color = (stack.length > 1) ? '#eee' : course_data[stack[0].apogee].background_color;
-        html += '<td rowspan="'+ (max_duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
-        if (stack.length > 1) {
+        var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
+        html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
+        if (found.children.length > 1) {
             html+= '<a title="Warning!! Colliding Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
+            for (var i=0; i < found.children.length; i++) {
+                // Add each colliding event
+                html += createEventCell(found.children[i]);
+            }
         }
-        for (var i=0; i < stack.length; i++) {
-            // Add each colliding? event
-            html += createEventCell(stack[i]);
+        else {
+            html += createEventCell(found.children[0]);
         }
+
         // </td>
         html += '</td>';
+        
+        // Update cells
+        for (var t=0; t < found.duration / 30; t++) {
+            // console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
+            table.cells[(start - 480 )/30 + t][col]++;
+        }
+        
     }
     
-    // Update cells
-    for (var t=0; t < max_duration / 30; t++) {
-        console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
-        table.cells[(start - 480 )/30 + t][col]++;
-    }
+
 
     return html;
 }
@@ -2347,6 +2365,7 @@ function createEventCell(cal_event) {
         html += '</li>';
         //html += '<li>'+ cal_event.comment +'</li>';
         html += '<li class=" hidden-sm hidden-xs">'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
+        html += '<li">Grp: '+ cal_event.group+'</li>';
         
         // Location: Campus::Bldg@Room
         var tmp = cal_event.location.match(/(.+)::/);
@@ -2356,11 +2375,11 @@ function createEventCell(cal_event) {
             var bldg = tmp[1];
             tmp = cal_event.location.match(/@(\w+)/);
             var room = tmp[1];
-            html += '<li class=" hidden-sm hidden-xs">Campus: '+ campus+'</li>';
-            html += '<li class=" hidden-sm hidden-xs">Bldg: '+ bldg  +'</li>';
-            html += '<li class=" hidden-lg hidden-md">'+ bldg  +'</li>';
-            html += '<li class=" hidden-sm hidden-xs>Room/Amphi: '+ room  +'</li>';
-            html += '<li class="hidden-lg hidden-md>Num: '+ room  +'</li>';
+            html += '<li class="hidden-sm hidden-xs">Campus: '+ campus+'</li>';
+            html += '<li class="hidden-sm hidden-xs">Bldg: '+ bldg  +'</li>';
+            html += '<li class="hidden-lg hidden-md">'+ bldg  +'</li>';
+            html += '<li class="hidden-sm hidden-xs">Room/Amphi: '+ room  +'</li>';
+            html += '<li class="hidden-lg hidden-md">Room: '+ room  +'</li>';
         }
 
         html += '</ul>';
