@@ -1928,7 +1928,8 @@ function updateCalendarHeader(y,m,d) {
     element.innerHTML = html;
     
     // Update Week Number
-    var weekNum = document.getElementById('weeknum').innerHTML = 'Week ' + getISOWeekNum(y,m,d);
+    document.getElementById('weeknum').innerHTML = 'Week ' + getISOWeekNum(y,m,d);
+    document.getElementById('weeknum-small').innerHTML = '# ' + getISOWeekNum(y,m,d);
 }
 
 function updateCalendarBody(y,m,d) {
@@ -2041,12 +2042,13 @@ function updateCalendarBody(y,m,d) {
 
             }
         }
+        /*
         console.log('BOX ' +i+':');
         if (weekdays[i].boxes[0] !== undefined) {
             console.log(weekdays[i].boxes[0].startDate.toString() + ' - ' +  weekdays[i].boxes[0].endDate.toString());
              console.log(weekdays[i].boxes[0]);
         }
-
+        */
         
         // 2- Sort events by time from 0800 to 1900
         weekdays[i].boxes.sort(function sort(a,b) {
@@ -2321,8 +2323,8 @@ function createEventCell(cal_event) {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
         var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
-        console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
-        +((parseInt(the_course.tracks,16) & masterTrack)) );
+        // console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
+        // +((parseInt(the_course.tracks,16) & masterTrack)) );
 
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
@@ -2351,10 +2353,10 @@ function createEventCell(cal_event) {
             hh_lg = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
             mm_lg = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
             html += hh_lg + ':' + mm_lg + '</span>';
-            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '-';
+            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '</li>';
             hh = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
             mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
-            html += hh + ':' + mm + '</li>';
+            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '</li>';
 
         }
         else {

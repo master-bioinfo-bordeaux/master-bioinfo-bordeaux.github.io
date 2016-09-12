@@ -641,6 +641,29 @@ a:after {
 		font-size: 30px;
 		line-height: 38px;
 	}
+	
+	#calendar-options {
+	    font-size : 12px;
+	}
+	
+	#weeknum-small {
+	    font-size: 14px
+	}
+	#masterYear, #masterTrack {
+	    font-size: 12px;
+	}
+	
+	.calendar ul {
+	    font-size: 10px;
+	}
+	
+	.table-condensed > tbody > tr > td {
+	    padding: 0px;
+	}
+	
+	.calendar .btn-xs {
+	    font-size: 10px;
+	}
 }
 
 

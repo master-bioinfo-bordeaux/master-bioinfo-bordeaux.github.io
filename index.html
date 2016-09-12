@@ -456,25 +456,30 @@ This international program is both based on the experience of metagenomics data 
 				<hr>
 				<br>
 				<div>
-				<div class="row">
-				    <div class="col-lg-3 col-md-3 col-xs-5"">
+				<div id="calendar-options" class="row">
+				    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                         <a id="weekBackward" class="btn btn-default" href="javascript:void(0)" onclick="previousWeek()" role="button">
-                            <i class="fa fa-backward fa-lg"></i>
+                            <i class="fa fa-backward fa-fw"></i>
                         </a>
                         <span id ="weeknum" class="week"></span>
                         <a id="weekForward" class="btn btn-default" href="javascript:void(0)" role="button" onclick="nextWeek()">
-                            <i class="fa fa-forward fa-lg"></i>
+                            <i class="fa fa-forward fa-fw"></i>
+                        </a>
+                    </div>
+				    <div class="hidden-lg hidden-md col-sm-3 col-xs-3"">
+                        <a id="weekBackward" class="btn btn-xs" href="javascript:void(0)" onclick="previousWeek()" role="button">
+                            <i class="fa fa-backward fa-fw"></i>
+                        </a>
+                        <span id ="weeknum-small" class="week"></span>
+                        <a id="weekForward" class="btn btn-xs" href="javascript:void(0)" role="button" onclick="nextWeek()">
+                            <i class="fa fa-forward fa-fw"></i>
                         </a>
                     </div>
 
 				    <div class="col-lg-3 col-md-3 col-xs-3 ">
-                        <select id="masterYear" class="form-control hidden-sm hidden-xs" onchange="setMasterOptions()">
+                        <select id="masterYear" class="form-control" onchange="setMasterOptions()">
                             <option value="1">Master 1</option>
                             <option value="2">Master 2</option>
-                        </select>
-                        <select class="form-control hidden-lg hidden-md">
-                            <option value="1">M1</option>
-                            <option value="2">M2</option>
                         </select>
                         <script>
                             if ('masterYear' in localStorage) {
@@ -484,18 +489,12 @@ This international program is both based on the experience of metagenomics data 
                         </script>
 
                     </div>
-                    <div class="col-lg-4  col-md-4 col-xs-4">
-                        <select id="masterTrack" class="form-control hidden-sm hidden-xs" onchange="setMasterOptions()">
+                    <div class="col-lg-4  col-md-4 col-xs-6">
+                        <select id="masterTrack" class="form-control" onchange="setMasterOptions()">
                             <option value="1">Computational Biology</option>
                             <option value="2">From Genomes to Ecosystems</option>
                             <option value="4">BioInformatics and Omics</option>
                             <option value="8">Formation continue</option>
-                        </select>
-                        <select class="form-control  hidden-lg hidden-md">
-                            <option value="1">CompBIO</option>
-                            <option value="2">GENECO</option>
-                            <option value="4">BAO</option>
-                            <option value="8">FCont</option>
                         </select>
                         <script>
                             if ('masterTrack' in localStorage) {
