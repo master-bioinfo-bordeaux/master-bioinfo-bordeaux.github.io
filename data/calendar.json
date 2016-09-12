@@ -1395,6 +1395,37 @@
     "date_end": "2016-09-15T17:00",
     "group": "A2",
     "location": "Talence::A28-CREMI@008",
+    "description": "None",
+    "warnings": [
+      " No lecturer!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 4
+  },
+  "C10F20160912T135530121@Marie-Beurton-Aimar": {
+    "ID": "C10F20160912T135530121@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2016-09-14T13:00",
+    "date_end": "2016-09-14T16:00",
+    "group": "A",
+    "location": "Talence::A29@amphi B",
+    "description": "None"
+  },
+  "C10F20160912T135530122@Marie-Beurton-Aimar": {
+    "ID": "C10F20160912T135530122@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2016-09-21T13:00",
+    "date_end": "2016-09-21T15:30",
+    "group": "A",
+    "location": "Talence::A21-OMEGA@",
     "description": "None"
   }
 }
