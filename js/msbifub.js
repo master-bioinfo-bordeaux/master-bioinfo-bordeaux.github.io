@@ -1929,7 +1929,7 @@ function updateCalendarHeader(y,m,d) {
     
     // Update Week Number
     document.getElementById('weeknum').innerHTML = 'Week ' + getISOWeekNum(y,m,d);
-    document.getElementById('weeknum-small').innerHTML = '# ' + getISOWeekNum(y,m,d);
+    document.getElementById('weeknum-small').innerHTML = getISOWeekNum(y,m,d);
 }
 
 function updateCalendarBody(y,m,d) {
