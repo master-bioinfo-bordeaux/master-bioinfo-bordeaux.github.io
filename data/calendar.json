@@ -171,17 +171,12 @@
     "acronym": "S09::MOCELL",
     "type": "Cours+TD",
     "summary": "4TBI906U",
+    "lecturer": "Th&eacute;bault P",
     "date_start": "2016-09-14T09:00",
     "date_end": "2016-09-14T11:00",
-    "lecturer": "Th&eacute;bault P",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
-    "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "09:00-11:00",
-    "weekdayIndex": 3
+    "location": "Talence::A28-CREMI@102",
+    "description": "None"
   },
   "C27020160721T153546499@Pthebault33": {
     "ID": "C27020160721T153546499@Pthebault33",
