@@ -176,7 +176,10 @@
     "date_end": "2016-09-14T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@102",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546499@Pthebault33": {
     "ID": "C27020160721T153546499@Pthebault33",
@@ -1336,16 +1339,11 @@
     "type": "Cours+TD",
     "summary": "4TBI902U",
     "lecturer": "Th&eacute;bault P",
-    "date_start": "2016-09-15T14:00",
-    "date_end": "2016-09-15T17:00",
+    "date_start": "2016-09-15T13:00",
+    "date_end": "2016-09-15T16:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
-    "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 4
+    "location": "Talence::A28-CREMI@203",
+    "description": "None"
   },
   "C10F20160912T134923041@Marie-Beurton-Aimar": {
     "ID": "C10F20160912T134923041@Marie-Beurton-Aimar",
