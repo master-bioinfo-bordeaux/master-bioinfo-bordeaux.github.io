@@ -272,24 +272,9 @@
     "date_end": "2016-10-26T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@102",
-    "description": "None"
-  },
-  "C27020160722T152416630@Pthebault33": {
-    "ID": "C27020160722T152416630@Pthebault33",
-    "apogee": "4TBI906U",
-    "acronym": "S09::MOCELL",
-    "type": "Cours+TD",
-    "summary": "4TBI906U",
-    "date_start": "2016-11-09T10:00",
-    "date_end": "2016-11-09T12:00",
-    "lecturer": "Beauvoit B",
-    "group": "All",
-    "location": "Talence::A28-CREMI@000",
     "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "10:00-12:00",
+    "warnings": [],
+    "hours": "09:00-11:00",
     "weekdayIndex": 3
   },
   "C27020160722T152416633@Pthebault33": {
@@ -1066,7 +1051,10 @@
     "date_end": "2016-11-08T18:00",
     "group": "A",
     "location": "Talence::A28-CREMI@101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020160909T122703585@Pthebault33": {
     "ID": "C21020160909T122703585@Pthebault33",
@@ -1118,7 +1106,10 @@
     "date_end": "2016-11-08T16:00",
     "group": "All",
     "location": "Talence::B6@Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C21020160909T123044957@Pthebault33": {
     "ID": "C21020160909T123044957@Pthebault33",
@@ -1282,7 +1273,10 @@
     "date_end": "2016-11-09T10:00",
     "group": "B",
     "location": "Talence::A28-CREMI@208",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C21020160909T123503666@Pthebault33": {
     "ID": "C21020160909T123503666@Pthebault33",
