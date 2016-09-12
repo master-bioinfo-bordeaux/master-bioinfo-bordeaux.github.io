@@ -1379,6 +1379,22 @@
     "date_end": "2016-09-16T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@009",
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
+  },
+  "C10F20160912T135259956@Marie-Beurton-Aimar": {
+    "ID": "C10F20160912T135259956@Marie-Beurton-Aimar",
+    "apogee": "4TBI702U-Prog",
+    "acronym": "S07::APU-Prog",
+    "type": "Cours+TD",
+    "summary": "4TBI702U-Prog",
+    "lecturer": "------",
+    "date_start": "2016-09-15T14:00",
+    "date_end": "2016-09-15T17:00",
+    "group": "A2",
+    "location": "Talence::A28-CREMI@008",
     "description": "None"
   }
 }
