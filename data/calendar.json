@@ -192,7 +192,10 @@
     "date_end": "2016-09-21T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@102",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546502@Pthebault33": {
     "ID": "C27020160721T153546502@Pthebault33",
@@ -200,17 +203,12 @@
     "acronym": "S09::MOCELL",
     "type": "Cours+TD",
     "summary": "4TBI906U",
+    "lecturer": "de Daruvar A",
     "date_start": "2016-09-28T09:00",
     "date_end": "2016-09-28T11:00",
-    "lecturer": "de Daruvar A",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
-    "description": "None",
-    "warnings": [
-      " No classroom!!"
-    ],
-    "hours": "09:00-11:00",
-    "weekdayIndex": 3
+    "location": "Talence::A28-CREMI@102",
+    "description": "None"
   },
   "C27020160721T153546505@Pthebault33": {
     "ID": "C27020160721T153546505@Pthebault33",
