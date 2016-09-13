@@ -1819,10 +1819,10 @@ if ( !Date.prototype.toCalString ) {
  *
  ******************************************************/
  
-function setMasterOptions() {
+function setMasterOptions(extension) {
     if (typeof localStorage != undefined) {
-        var e = document.getElementById('masterYear') || 1;
-        var l = document.getElementById('masterTrack') || 1;
+        var e = document.getElementById('masterYear' + extension) || 1;
+        var l = document.getElementById('masterTrack'+ extension) || 1;
         localStorage.masterYear  = e.options[e.selectedIndex].value;
         localStorage.masterTrack = l.options[l.selectedIndex].value;
     } else {

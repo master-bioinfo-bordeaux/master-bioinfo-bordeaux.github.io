@@ -466,7 +466,7 @@ This international program is both based on the experience of metagenomics data 
                             <i class="fa fa-forward fa-fw"></i>
                         </a>
                     </div>
-				    <div class="hidden-lg hidden-md col-sm-3 col-xs-3"">
+				    <div class="hidden-lg hidden-md col-sm-3 col-xs-4"">
                         <a id="weekBackward" class="btn btn-xs" href="javascript:void(0)" onclick="previousWeek()" role="button">
                             <i class="fa fa-backward fa-fw"></i>
                         </a>
@@ -476,8 +476,8 @@ This international program is both based on the experience of metagenomics data 
                         </a>
                     </div>
 
-				    <div class="col-lg-3 col-md-3 col-xs-3 ">
-                        <select id="masterYear" class="form-control" onchange="setMasterOptions()">
+				    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs ">
+                        <select id="masterYear" class="form-control" onchange="setMasterOptions('')">
                             <option value="1">Master 1</option>
                             <option value="2">Master 2</option>
                         </select>
@@ -489,16 +489,43 @@ This international program is both based on the experience of metagenomics data 
                         </script>
 
                     </div>
-                    <div class="col-lg-4  col-md-4 col-xs-6">
-                        <select id="masterTrack" class="form-control" onchange="setMasterOptions()">
+				    <div class="hidden-lg hidden-md col-sm-3 col-xs-3 ">
+                        <select id="masterYear-small" class="form-control" onchange="setMasterOptions('-small')">
+                            <option value="1">M1</option>
+                            <option value="2">M2</option>
+                        </select>
+                        <script>
+                            if ('masterYear' in localStorage) {
+                                var e = document.getElementById('masterYear-small');
+                                e.value = localStorage.masterYear;
+                            }
+                        </script>
+
+                    </div>
+                    <div class="col-lg-4  col-md-4 hidden-sm hidden-xs">
+                        <select id="masterTrack" class="form-control" onchange="setMasterOptions('')">
                             <option value="1">Computational Biology</option>
                             <option value="2">From Genomes to Ecosystems</option>
                             <option value="4">BioInformatics and Omics</option>
-                            <option value="8">Formation continue</option>
+                            <option value="8">Formation continue</option>>
                         </select>
                         <script>
                             if ('masterTrack' in localStorage) {
                                 var e = document.getElementById('masterTrack');
+                                e.value = localStorage.masterTrack;
+                            }
+                        </script>
+                    </div>
+                    <div class="hidden-lg  hidden-md col-sm-5 col-xs-5">
+                        <select id="masterTrack-small" class="form-control" onchange="setMasterOptions('-small')">
+                            <option value="1">CompBio</option>
+                            <option value="2">GenEco</option>
+                            <option value="4">BAO</option>
+                            <option value="8">F.cont.</option>
+                        </select>
+                        <script>
+                            if ('masterTrack' in localStorage) {
+                                var e = document.getElementById('masterTrack-small');
                                 e.value = localStorage.masterTrack;
                             }
                         </script>
