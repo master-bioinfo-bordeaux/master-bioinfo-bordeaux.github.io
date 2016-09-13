@@ -9,7 +9,7 @@
     "date_start": "2016-10-10T09:00",
     "date_end": "2016-10-10T12:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None",
     "warnings": [
       " No building!!",
@@ -46,7 +46,7 @@
     "date_start": "2016-10-31T00:00",
     "date_end": "2016-11-04T00:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "",
     "tracks": "0x7",
     "warnings": [
@@ -66,7 +66,7 @@
     "date_start": "2016-09-19T09:00",
     "date_end": "2016-09-19T12:00",
     "group": "All",
-    "location": "Talence::B5@PABA",
+    "location": "Talence::B5@Amphi_PABA",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -84,7 +84,7 @@
     "date_start": "2016-09-06T10:00",
     "date_end": "2016-09-06T12:00",
     "group": "All",
-    "location": "Talence::A29@B",
+    "location": "Talence::A29@Amphi_B",
     "description": "",
     "tracks": "0x7",
     "warnings": [],
@@ -101,7 +101,7 @@
     "date_start": "2016-09-09T08:00",
     "date_end": "2016-09-09T18:00",
     "group": "All",
-    "location": "Talence::A30-LaBRI@Amphi",
+    "location": "Talence::A30-LaBRI@Amphi_050",
     "description": "None",
     "warnings": [
       " No lecturer!!"
@@ -121,7 +121,7 @@
     "date_start": "2016-09-09T08:00",
     "date_end": "2016-09-09T18:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "Soutenance de stage des &eacute;tudiants de M2",
     "tracks": "0x07",
     "warnings": [
@@ -142,7 +142,7 @@
     "date_start": "2016-09-05T14:00",
     "date_end": "2016-09-05T17:00",
     "group": "All",
-    "location": "Talence::A30-LaBRI@76",
+    "location": "Talence::A30-LaBRI@Room_076",
     "description": "",
     "tracks": "0x7",
     "warnings": [],
@@ -159,7 +159,7 @@
     "date_start": "2016-09-20T08:00",
     "date_end": "2016-09-20T10:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -175,7 +175,7 @@
     "date_start": "2016-09-14T09:00",
     "date_end": "2016-09-14T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -191,7 +191,7 @@
     "date_start": "2016-09-21T09:00",
     "date_end": "2016-09-21T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -207,7 +207,7 @@
     "date_start": "2016-09-28T09:00",
     "date_end": "2016-09-28T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -223,7 +223,7 @@
     "date_start": "2016-10-05T09:00",
     "date_end": "2016-10-05T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -239,7 +239,7 @@
     "date_start": "2016-10-12T09:00",
     "date_end": "2016-10-12T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -255,7 +255,7 @@
     "date_start": "2016-10-19T09:00",
     "date_end": "2016-10-19T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -271,7 +271,7 @@
     "date_start": "2016-10-26T09:00",
     "date_end": "2016-10-26T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@102",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None",
     "warnings": [],
     "hours": "09:00-11:00",
@@ -287,7 +287,7 @@
     "date_end": "2016-11-16T12:00",
     "lecturer": "Beauvoit B",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416637@Pthebault33": {
@@ -300,7 +300,7 @@
     "date_end": "2016-11-30T16:00",
     "lecturer": "Beauvoit B",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416642@Pthebault33": {
@@ -313,7 +313,7 @@
     "date_end": "2016-11-16T16:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416645@Pthebault33": {
@@ -326,7 +326,7 @@
     "date_end": "2016-11-23T12:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416649@Pthebault33": {
@@ -339,7 +339,7 @@
     "date_end": "2016-12-07T16:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416652@Pthebault33": {
@@ -352,7 +352,7 @@
     "date_end": "2016-12-14T16:00",
     "lecturer": "Dieuaide M",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416655@Pthebault33": {
@@ -365,7 +365,7 @@
     "date_end": "2016-11-23T16:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416659@Pthebault33": {
@@ -378,7 +378,7 @@
     "date_end": "2016-11-30T12:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416663@Pthebault33": {
@@ -391,7 +391,7 @@
     "date_end": "2016-12-07T12:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C27020160722T152416667@Pthebault33": {
@@ -404,7 +404,7 @@
     "date_end": "2016-12-14T12:00",
     "lecturer": "Colombi&eacute; S",
     "group": "All",
-    "location": "Talence::A28-CREMI@000",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   },
   "C10F20160826T085025727@Marie-Beurton-Aimar": {
@@ -446,7 +446,7 @@
     "date_start": "2016-09-06T15:10",
     "date_end": "2016-09-06T17:10",
     "group": "All",
-    "location": "Talence::A28-CREMI@107",
+    "location": "Talence::A28-CREMI@Room_107",
     "description": "None",
     "warnings": [],
     "hours": "15:10-17:10",
@@ -462,7 +462,7 @@
     "date_end": "2016-09-07T12:00",
     "lecturer": "Beurton-Aimar M",
     "group": "All",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -478,7 +478,7 @@
     "date_start": "2016-09-08T14:00",
     "date_end": "2016-09-08T17:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "14:00-17:00",
@@ -494,7 +494,7 @@
     "date_end": "2016-09-06T17:00",
     "lecturer": "Beurton-Aimar M",
     "group": "All",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "14:00-17:00",
@@ -512,7 +512,7 @@
     "date_start": "2016-11-11T00:00",
     "date_end": "2016-11-11T00:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "",
     "tracks": "0x7",
     "warnings": [
@@ -534,7 +534,7 @@
     "date_start": "2016-12-19T00:00",
     "date_end": "2017-01-02T00:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "",
     "tracks": "0x7"
   },
@@ -548,7 +548,7 @@
     "date_start": "2016-11-07T09:00",
     "date_end": "2016-11-07T12:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T082727692@jeesay": {
@@ -561,7 +561,7 @@
     "date_start": "2016-11-14T09:00",
     "date_end": "2016-11-14T12:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T082727693@jeesay": {
@@ -574,7 +574,7 @@
     "date_start": "2016-11-21T08:00",
     "date_end": "2016-11-21T10:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T084325424@jeesay": {
@@ -587,7 +587,7 @@
     "date_start": "2016-09-26T09:00",
     "date_end": "2016-09-26T11:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T084325425@jeesay": {
@@ -600,7 +600,7 @@
     "date_start": "2016-10-03T17:00",
     "date_end": "2016-10-03T19:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T084325426@jeesay": {
@@ -613,7 +613,7 @@
     "date_start": "2016-10-17T10:00",
     "date_end": "2016-10-17T12:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T084325427@jeesay": {
@@ -626,7 +626,7 @@
     "date_start": "2016-11-07T15:00",
     "date_end": "2016-11-07T17:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T084325438@jeesay": {
@@ -639,7 +639,7 @@
     "date_start": "2016-11-28T10:00",
     "date_end": "2016-11-28T12:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T084325511@jeesay": {
@@ -652,7 +652,7 @@
     "date_start": "2016-11-07T13:00",
     "date_end": "2016-11-07T15:00",
     "group": "All",
-    "location": "None::None@000",
+    "location": "None::None@Room_000",
     "description": "None"
   },
   "C10F20160907T085525885@jeesay": {
@@ -665,7 +665,7 @@
     "date_start": "2016-09-12T14:00",
     "date_end": "2016-09-12T17:00",
     "group": "A1",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "14:00-17:00",
@@ -681,7 +681,7 @@
     "date_start": "2016-09-26T17:00",
     "date_end": "2016-09-26T19:00",
     "group": "A",
-    "location": "Talence::B5@005",
+    "location": "Talence::B5@Room_005",
     "description": "None"
   },
   "C10F20160907T085525887@jeesay": {
@@ -694,7 +694,7 @@
     "date_start": "2016-10-17T13:00",
     "date_end": "2016-10-17T15:00",
     "group": "A",
-    "location": "Talence::B5@004",
+    "location": "Talence::B5@Room_004",
     "description": "None"
   },
   "C10F20160907T085525888@jeesay": {
@@ -707,7 +707,7 @@
     "date_start": "2016-11-14T13:00",
     "date_end": "2016-11-14T15:00",
     "group": "A",
-    "location": "Talence::B5@001",
+    "location": "Talence::B5@Room_001",
     "description": "None"
   },
   "C10F20160907T085525914@jeesay": {
@@ -720,7 +720,7 @@
     "date_start": "2016-11-28T13:00",
     "date_end": "2016-11-28T15:00",
     "group": "A",
-    "location": "Talence::B5@001",
+    "location": "Talence::B5@Room_001",
     "description": "None"
   },
   "C10F20160907T085525950@jeesay": {
@@ -733,7 +733,7 @@
     "date_start": "2016-11-28T08:00",
     "date_end": "2016-11-28T10:00",
     "group": "A",
-    "location": "Talence::B5@005",
+    "location": "Talence::B5@Room_005",
     "description": "None"
   },
   "C10F20160907T093015098@jeesay": {
@@ -762,7 +762,7 @@
     "date_start": "2016-09-06T14:00",
     "date_end": "2016-09-06T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -778,7 +778,7 @@
     "date_start": "2016-09-13T14:00",
     "date_end": "2016-09-13T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -794,7 +794,7 @@
     "date_start": "2016-09-20T14:00",
     "date_end": "2016-09-20T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -810,7 +810,7 @@
     "date_start": "2016-09-27T14:00",
     "date_end": "2016-09-27T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -826,7 +826,7 @@
     "date_start": "2016-10-04T14:00",
     "date_end": "2016-10-04T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -842,7 +842,7 @@
     "date_start": "2016-10-11T14:00",
     "date_end": "2016-10-11T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -858,7 +858,7 @@
     "date_start": "2016-10-18T14:00",
     "date_end": "2016-10-18T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -874,7 +874,7 @@
     "date_start": "2016-10-25T14:00",
     "date_end": "2016-10-25T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -890,7 +890,7 @@
     "date_start": "2016-09-14T14:00",
     "date_end": "2016-09-14T17:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@202",
+    "location": "Talence::A28-CREMI@Room_202",
     "description": "None",
     "warnings": [],
     "hours": "14:00-17:00",
@@ -906,7 +906,7 @@
     "date_start": "2016-09-12T09:00",
     "date_end": "2016-09-12T12:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -922,7 +922,7 @@
     "date_start": "2016-09-12T16:00",
     "date_end": "2016-09-12T18:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@009",
+    "location": "Talence::A28-CREMI@Room_009",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -938,7 +938,7 @@
     "date_start": "2016-09-13T16:00",
     "date_end": "2016-09-13T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -954,7 +954,7 @@
     "date_start": "2016-09-20T16:00",
     "date_end": "2016-09-20T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -970,7 +970,7 @@
     "date_start": "2016-09-27T16:00",
     "date_end": "2016-09-27T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -986,7 +986,7 @@
     "date_start": "2016-10-04T16:00",
     "date_end": "2016-10-04T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -1002,7 +1002,7 @@
     "date_start": "2016-10-11T16:00",
     "date_end": "2016-10-11T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -1018,7 +1018,7 @@
     "date_start": "2016-10-18T16:00",
     "date_end": "2016-10-18T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -1034,7 +1034,7 @@
     "date_start": "2016-10-25T16:00",
     "date_end": "2016-10-25T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@103",
+    "location": "Talence::A28-CREMI@Room_103",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -1050,7 +1050,7 @@
     "date_start": "2016-11-08T16:00",
     "date_end": "2016-11-08T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None",
     "warnings": [],
     "hours": "16:00-18:00",
@@ -1066,7 +1066,7 @@
     "date_start": "2016-11-15T16:00",
     "date_end": "2016-11-15T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None"
   },
   "C21020160909T122703588@Pthebault33": {
@@ -1079,7 +1079,7 @@
     "date_start": "2016-11-22T16:00",
     "date_end": "2016-11-22T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None"
   },
   "C21020160909T122703590@Pthebault33": {
@@ -1092,7 +1092,7 @@
     "date_start": "2016-11-29T16:00",
     "date_end": "2016-11-29T18:00",
     "group": "A",
-    "location": "Talence::A28-CREMI@101",
+    "location": "Talence::A28-CREMI@Room_101",
     "description": "None"
   },
   "C21020160909T123044955@Pthebault33": {
@@ -1105,7 +1105,7 @@
     "date_start": "2016-11-08T14:00",
     "date_end": "2016-11-08T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None",
     "warnings": [],
     "hours": "14:00-16:00",
@@ -1121,7 +1121,7 @@
     "date_start": "2016-11-15T14:00",
     "date_end": "2016-11-15T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None"
   },
   "C21020160909T123044959@Pthebault33": {
@@ -1134,7 +1134,7 @@
     "date_start": "2016-11-22T14:00",
     "date_end": "2016-11-22T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None"
   },
   "C21020160909T123044961@Pthebault33": {
@@ -1147,7 +1147,7 @@
     "date_start": "2016-11-29T14:00",
     "date_end": "2016-11-29T16:00",
     "group": "All",
-    "location": "Talence::B6@Amphi",
+    "location": "Talence::B6@Amphi_000",
     "description": "None"
   },
   "C21020160909T123503644@Pthebault33": {
@@ -1160,7 +1160,7 @@
     "date_start": "2016-09-14T08:00",
     "date_end": "2016-09-14T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1176,7 +1176,7 @@
     "date_start": "2016-09-21T08:00",
     "date_end": "2016-09-21T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1192,7 +1192,7 @@
     "date_start": "2016-09-28T08:00",
     "date_end": "2016-09-28T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1208,7 +1208,7 @@
     "date_start": "2016-10-05T08:00",
     "date_end": "2016-10-05T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1224,7 +1224,7 @@
     "date_start": "2016-10-12T08:00",
     "date_end": "2016-10-12T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1240,7 +1240,7 @@
     "date_start": "2016-10-19T08:00",
     "date_end": "2016-10-19T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1256,7 +1256,7 @@
     "date_start": "2016-10-26T08:00",
     "date_end": "2016-10-26T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1272,7 +1272,7 @@
     "date_start": "2016-11-09T08:00",
     "date_end": "2016-11-09T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None",
     "warnings": [],
     "hours": "08:00-10:00",
@@ -1288,7 +1288,7 @@
     "date_start": "2016-11-16T08:00",
     "date_end": "2016-11-16T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None"
   },
   "C21020160909T123503669@Pthebault33": {
@@ -1301,7 +1301,7 @@
     "date_start": "2016-11-23T08:00",
     "date_end": "2016-11-23T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None"
   },
   "C21020160909T123503671@Pthebault33": {
@@ -1314,7 +1314,7 @@
     "date_start": "2016-11-30T08:00",
     "date_end": "2016-11-30T10:00",
     "group": "B",
-    "location": "Talence::A28-CREMI@208",
+    "location": "Talence::A28-CREMI@Room_208",
     "description": "None"
   },
   "C20F20160909T150434427@Pthebault33": {
@@ -1327,7 +1327,7 @@
     "date_start": "2016-09-15T13:00",
     "date_end": "2016-09-15T16:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@203",
+    "location": "Talence::A28-CREMI@Room_203",
     "description": "None",
     "warnings": [],
     "hours": "13:00-16:00",
@@ -1343,7 +1343,7 @@
     "date_start": "2016-09-15T09:00",
     "date_end": "2016-09-15T12:00",
     "group": "A1",
-    "location": "Talence::A28-CREMI@005",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -1359,7 +1359,7 @@
     "date_start": "2016-09-16T09:00",
     "date_end": "2016-09-16T12:00",
     "group": "A1",
-    "location": "Talence::A28-CREMI@009",
+    "location": "Talence::A28-CREMI@Room_009",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -1375,7 +1375,7 @@
     "date_start": "2016-09-15T14:00",
     "date_end": "2016-09-15T17:00",
     "group": "A2",
-    "location": "Talence::A28-CREMI@008",
+    "location": "Talence::A28-CREMI@Room_008",
     "description": "None",
     "warnings": [
       " No lecturer!!"
@@ -1409,7 +1409,7 @@
     "date_start": "2016-09-21T13:00",
     "date_end": "2016-09-21T15:30",
     "group": "A",
-    "location": "Talence::A21-OMEGA@000",
+    "location": "Talence::A21-OMEGA@Room_000",
     "description": "None"
   },
   "C10F20160912T135626064@Marie-Beurton-Aimar": {
@@ -1422,7 +1422,7 @@
     "date_start": "2016-09-16T09:00",
     "date_end": "2016-09-16T12:00",
     "group": "A2",
-    "location": "Talence::A28-CREMI@007",
+    "location": "Talence::A28-CREMI@Room_007",
     "description": "None",
     "warnings": [
       " No lecturer!!"
@@ -1440,7 +1440,7 @@
     "date_start": "2016-09-14T09:00",
     "date_end": "2016-09-14T12:00",
     "group": "A1",
-    "location": "Talence::A28-CREMI@202",
+    "location": "Talence::A28-CREMI@Room_202",
     "description": "None",
     "warnings": [],
     "hours": "09:00-12:00",
@@ -1456,7 +1456,7 @@
     "date_start": "2016-09-13T14:00",
     "date_end": "2016-09-13T17:00",
     "group": "A1",
-    "location": "Talence::A28-CREMI@103",
+    "location": "Talence::A28-CREMI@Room_103",
     "description": "None",
     "warnings": [],
     "hours": "14:00-17:00",
@@ -1472,7 +1472,7 @@
     "date_start": "2016-09-13T14:00",
     "date_end": "2016-09-13T17:00",
     "group": "A2",
-    "location": "Talence::A28-CREMI@104",
+    "location": "Talence::A28-CREMI@Room_104",
     "description": "None"
   }
 }
