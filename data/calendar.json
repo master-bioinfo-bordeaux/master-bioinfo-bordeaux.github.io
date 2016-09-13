@@ -684,15 +684,12 @@
     "acronym": "S07::TDE",
     "type": "TD machine",
     "summary": "4TEC701U",
-    "lecturer": "David V",
-    "date_start": "2016-09-26T17:00",
-    "date_end": "2016-09-26T19:00",
-    "group": "A",
+    "lecturer": "Nogu&egrave;s X",
+    "date_start": "2016-09-26T14:00",
+    "date_end": "2016-09-26T17:00",
+    "group": "A1",
     "location": "Talence::B5@Room_005",
-    "description": "None",
-    "warnings": [],
-    "hours": "17:00-19:00",
-    "weekdayIndex": 1
+    "description": "None"
   },
   "C10F20160907T085525887@jeesay": {
     "ID": "C10F20160907T085525887@jeesay",
