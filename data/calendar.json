@@ -154,15 +154,12 @@
     "acronym": "S07::OBI",
     "type": "Cours+TD",
     "summary": "4TBI703U",
-    "lecturer": "Th&eacute;bault P",
-    "date_start": "2016-09-20T08:00",
-    "date_end": "2016-09-20T10:00",
+    "lecturer": "Taveau JC",
+    "date_start": "2016-09-20T10:00",
+    "date_end": "2016-09-20T12:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_005",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-10:00",
-    "weekdayIndex": 2
+    "location": "Talence::A29@",
+    "description": "None"
   },
   "C27020160721T153546496@Pthebault33": {
     "ID": "C27020160721T153546496@Pthebault33",
@@ -689,7 +686,10 @@
     "date_end": "2016-09-26T17:00",
     "group": "A1",
     "location": "Talence::B5@Room_005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
   },
   "C10F20160907T085525887@jeesay": {
     "ID": "C10F20160907T085525887@jeesay",
