@@ -159,7 +159,10 @@
     "date_end": "2016-09-20T12:00",
     "group": "A",
     "location": "Talence::A29@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C27020160721T153546496@Pthebault33": {
     "ID": "C27020160721T153546496@Pthebault33",
@@ -586,13 +589,8 @@
     "date_start": "2016-09-26T09:00",
     "date_end": "2016-09-26T11:00",
     "group": "All",
-    "location": "None::None@Room_000",
-    "description": "None",
-    "warnings": [
-      " No building!!"
-    ],
-    "hours": "09:00-11:00",
-    "weekdayIndex": 1
+    "location": "Talence::B6@Amphi_PABA",
+    "description": "None"
   },
   "C10F20160907T084325425@jeesay": {
     "ID": "C10F20160907T084325425@jeesay",
@@ -605,7 +603,12 @@
     "date_end": "2016-10-03T19:00",
     "group": "All",
     "location": "None::None@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "17:00-19:00",
+    "weekdayIndex": 1
   },
   "C10F20160907T084325426@jeesay": {
     "ID": "C10F20160907T084325426@jeesay",
