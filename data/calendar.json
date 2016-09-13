@@ -125,8 +125,7 @@
     "description": "Soutenance de stage des &eacute;tudiants de M2",
     "tracks": "0x07",
     "warnings": [
-      " No building!!",
-      " No classroom!!"
+      " No building!!"
     ],
     "hours": "08:00-18:00",
     "weekdayIndex": 5
@@ -434,7 +433,10 @@
     "date_end": "2016-09-08T12:00",
     "group": "All",
     "location": "Talence::A29@Amphi_B",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 4
   },
   "C10F20160826T085150247@Marie-Beurton-Aimar": {
     "ID": "C10F20160826T085150247@Marie-Beurton-Aimar",
@@ -1473,6 +1475,24 @@
     "date_end": "2016-09-13T17:00",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_104",
+    "description": "None",
+    "warnings": [
+      " No lecturer!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
+  },
+  "C20F20160913T081426228@jeesay": {
+    "ID": "C20F20160913T081426228@jeesay",
+    "apogee": "4TBI001U",
+    "acronym": "S10::Stage",
+    "type": "Unknown",
+    "summary": "4TBI001U",
+    "lecturer": "------",
+    "date_start": "2016-08-22T08:00",
+    "date_end": "2016-08-22T18:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@undefined",
     "description": "None"
   }
 }
