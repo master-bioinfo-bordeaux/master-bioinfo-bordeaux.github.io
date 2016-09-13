@@ -1493,6 +1493,24 @@
     "date_end": "2016-08-22T18:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_020",
+    "description": "None",
+    "warnings": [
+      " No lecturer!!"
+    ],
+    "hours": "08:00-18:00",
+    "weekdayIndex": 1
+  },
+  "C20F20160913T082044230@jeesay": {
+    "ID": "C20F20160913T082044230@jeesay",
+    "apogee": "4TBI001U",
+    "acronym": "S10::Stage",
+    "type": "Unknown",
+    "summary": "4TBI001U",
+    "lecturer": "------",
+    "date_start": "2016-08-23T08:00",
+    "date_end": "2016-08-23T12:00",
+    "group": "All",
+    "location": "None::None@Room_123",
     "description": "None"
   }
 }
