@@ -207,7 +207,10 @@
     "date_end": "2016-09-28T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_009",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-11:00",
+    "weekdayIndex": 3
   },
   "C27020160721T153546505@Pthebault33": {
     "ID": "C27020160721T153546505@Pthebault33",
@@ -216,14 +219,11 @@
     "type": "Cours+TD",
     "summary": "4TBI906U",
     "lecturer": "de Daruvar A",
-    "date_start": "2016-10-05T09:00",
+    "date_start": "2016-10-05T08:00",
     "date_end": "2016-10-05T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_009",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-11:00",
-    "weekdayIndex": 3
+    "description": "None"
   },
   "C27020160721T153546508@Pthebault33": {
     "ID": "C27020160721T153546508@Pthebault33",
