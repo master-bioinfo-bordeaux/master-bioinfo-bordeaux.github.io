@@ -1648,7 +1648,10 @@
     "date_end": "2016-09-30T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_207",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720160919T124603337@Pthebault33": {
     "ID": "C20720160919T124603337@Pthebault33",
@@ -1700,6 +1703,61 @@
     "date_end": "2016-09-20T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_102",
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 2
+  },
+  "C20F20160919T125234524@Pthebault33": {
+    "ID": "C20F20160919T125234524@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-10-25T09:00",
+    "date_end": "2016-10-25T11:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_102",
+    "description": "None"
+  },
+  "C20F20160919T125234527@Pthebault33": {
+    "ID": "C20F20160919T125234527@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-11-17T14:00",
+    "date_end": "2016-11-17T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_005",
+    "description": "None"
+  },
+  "C20F20160919T125234532@Pthebault33": {
+    "ID": "C20F20160919T125234532@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-11-24T13:00",
+    "date_end": "2016-11-24T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_103",
+    "description": "None"
+  },
+  "C20F20160919T125234535@Pthebault33": {
+    "ID": "C20F20160919T125234535@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-12-01T13:00",
+    "date_end": "2016-12-01T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_104",
     "description": "None"
   }
 }
