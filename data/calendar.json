@@ -1859,13 +1859,10 @@
     "type": "Cours+TD",
     "summary": "4TBI906U",
     "lecturer": "Beauvoit B",
-    "date_start": "2016-11-17T13:00",
-    "date_end": "2016-11-17T16:00",
+    "date_start": "2016-11-24T13:00",
+    "date_end": "2016-11-24T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None",
-    "warnings": [],
-    "hours": "13:00-16:00",
-    "weekdayIndex": 4
+    "description": "None"
   }
 }
