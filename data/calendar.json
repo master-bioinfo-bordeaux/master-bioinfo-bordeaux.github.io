@@ -50,8 +50,7 @@
     "description": "",
     "tracks": "0x7",
     "warnings": [
-      " No building!!",
-      " No classroom!!"
+      " No building!!"
     ],
     "hours": "00:00-00:00",
     "weekdayIndex": 5
@@ -518,8 +517,7 @@
     "description": "",
     "tracks": "0x7",
     "warnings": [
-      " No building!!",
-      " No classroom!!"
+      " No building!!"
     ],
     "hours": "00:00-00:00",
     "weekdayIndex": 5
@@ -1719,7 +1717,10 @@
     "date_end": "2016-10-25T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_102",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 2
   },
   "C20F20160919T125234527@Pthebault33": {
     "ID": "C20F20160919T125234527@Pthebault33",
@@ -1758,6 +1759,19 @@
     "date_end": "2016-12-01T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
+    "description": "None"
+  },
+  "C20F20160919T125650267@Pthebault33": {
+    "ID": "C20F20160919T125650267@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-11-04T14:00",
+    "date_end": "2016-11-04T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_005",
     "description": "None"
   }
 }
