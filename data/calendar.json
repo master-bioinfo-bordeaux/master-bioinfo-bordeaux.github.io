@@ -1788,19 +1788,6 @@
     "hours": "09:00-11:00",
     "weekdayIndex": 2
   },
-  "C20F20160919T130316861@Pthebault33": {
-    "ID": "C20F20160919T130316861@Pthebault33",
-    "apogee": "4TBI902U",
-    "acronym": "S09::FILBI",
-    "type": "Cours+TD",
-    "summary": "4TBI902U",
-    "lecturer": "Th&eacute;bault P",
-    "date_start": "2016-11-03T14:00",
-    "date_end": "2016-11-03T17:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_005",
-    "description": "None"
-  },
   "C20F20160919T130316868@Pthebault33": {
     "ID": "C20F20160919T130316868@Pthebault33",
     "apogee": "4TBI902U",
@@ -1812,7 +1799,10 @@
     "date_end": "2016-11-10T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   },
   "C20F20160919T130316871@Pthebault33": {
     "ID": "C20F20160919T130316871@Pthebault33",
@@ -1825,7 +1815,10 @@
     "date_end": "2016-11-24T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   },
   "C20F20160919T130316875@Pthebault33": {
     "ID": "C20F20160919T130316875@Pthebault33",
@@ -1838,7 +1831,10 @@
     "date_end": "2016-12-01T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   },
   "C20F20160919T130316880@Pthebault33": {
     "ID": "C20F20160919T130316880@Pthebault33",
@@ -1867,6 +1863,9 @@
     "date_end": "2016-11-17T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   }
 }
