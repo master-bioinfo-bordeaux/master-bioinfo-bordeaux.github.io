@@ -1632,7 +1632,10 @@
     "date_end": "2016-09-23T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_207",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720160919T124603332@Pthebault33": {
     "ID": "C20720160919T124603332@Pthebault33",
@@ -1684,6 +1687,19 @@
     "date_end": "2016-12-16T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_008",
+    "description": "None"
+  },
+  "C27020160919T124748052@Pthebault33": {
+    "ID": "C27020160919T124748052@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-09-20T09:00",
+    "date_end": "2016-09-20T11:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_102",
     "description": "None"
   }
 }
