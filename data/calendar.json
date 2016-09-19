@@ -1851,6 +1851,22 @@
     "date_end": "2016-12-08T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
+  },
+  "C27020160919T130417788@Pthebault33": {
+    "ID": "C27020160919T130417788@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Cours+TD",
+    "summary": "4TBI906U",
+    "lecturer": "Beauvoit B",
+    "date_start": "2016-11-17T13:00",
+    "date_end": "2016-11-17T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_104",
     "description": "None"
   }
 }
