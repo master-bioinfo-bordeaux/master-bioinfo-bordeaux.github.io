@@ -1652,13 +1652,10 @@
     "summary": "4TBI903U",
     "lecturer": "Beurton-Aimar M",
     "date_start": "2016-09-21T14:00",
-    "date_end": "2016-09-21T17:00",
+    "date_end": "2016-09-21T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_201",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 3
+    "description": "None"
   },
   "C26120160919T123623252@Pthebault33": {
     "ID": "C26120160919T123623252@Pthebault33",
@@ -1879,6 +1876,9 @@
     "date_end": "2016-12-15T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   }
 }
