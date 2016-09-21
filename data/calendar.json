@@ -545,7 +545,12 @@
     "group": "All",
     "location": "None::None@Room_000",
     "description": "",
-    "tracks": "0x7"
+    "tracks": "0x7",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "00:00-00:00",
+    "weekdayIndex": 5
   },
   "C10F20160907T082727690@jeesay": {
     "ID": "C10F20160907T082727690@jeesay",
@@ -1814,5 +1819,109 @@
     "warnings": [],
     "hours": "13:00-16:00",
     "weekdayIndex": 4
+  },
+  "C20720160921T145603782@Pthebault33": {
+    "ID": "C20720160921T145603782@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-10-07T08:00",
+    "date_end": "2016-10-07T11:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_207",
+    "description": "None"
+  },
+  "C20720160921T145603790@Pthebault33": {
+    "ID": "C20720160921T145603790@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-10-14T08:00",
+    "date_end": "2016-10-14T11:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_207",
+    "description": "None"
+  },
+  "C20720160921T145603797@Pthebault33": {
+    "ID": "C20720160921T145603797@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-10-21T08:00",
+    "date_end": "2016-10-21T11:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_207",
+    "description": "None"
+  },
+  "C20720160921T145603801@Pthebault33": {
+    "ID": "C20720160921T145603801@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-11-04T09:00",
+    "date_end": "2016-11-04T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_101",
+    "description": "None"
+  },
+  "C20720160921T145603805@Pthebault33": {
+    "ID": "C20720160921T145603805@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-11-18T09:00",
+    "date_end": "2016-11-18T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_103",
+    "description": "None"
+  },
+  "C20720160921T145603810@Pthebault33": {
+    "ID": "C20720160921T145603810@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-11-25T09:00",
+    "date_end": "2016-11-25T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_201",
+    "description": "None"
+  },
+  "C20720160921T145603814@Pthebault33": {
+    "ID": "C20720160921T145603814@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-12-02T08:00",
+    "date_end": "2016-12-02T11:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_206",
+    "description": "None"
+  },
+  "C20720160921T145603817@Pthebault33": {
+    "ID": "C20720160921T145603817@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Desbarats P",
+    "date_start": "2016-12-16T10:00",
+    "date_end": "2016-12-16T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_008",
+    "description": "None"
   }
 }
