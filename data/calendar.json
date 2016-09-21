@@ -1687,22 +1687,6 @@
     "hours": "09:00-12:00",
     "weekdayIndex": 5
   },
-  "C20720160919T124603337@Pthebault33": {
-    "ID": "C20720160919T124603337@Pthebault33",
-    "apogee": "4TBI904U",
-    "acronym": "S09::DEA",
-    "type": "Cours+TD",
-    "summary": "4TBI904U",
-    "lecturer": "Desbarats P",
-    "date_start": "2016-11-18T09:00",
-    "date_end": "2016-11-18T12:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_207",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 5
-  },
   "C20720160919T124603340@Pthebault33": {
     "ID": "C20720160919T124603340@Pthebault33",
     "apogee": "4TBI904U",
