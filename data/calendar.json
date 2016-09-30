@@ -1916,7 +1916,10 @@
     "date_end": "2016-11-18T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_103",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720160921T145603810@Pthebault33": {
     "ID": "C20720160921T145603810@Pthebault33",
@@ -2226,7 +2229,20 @@
     "date_end": "2016-12-08T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@undefined_undefined",
-    "description": "Colloque \"Futur en Bioinformatique\" organisé par AMBB",
+    "description": "Colloque \"Futur en Bioinformatique\" organisÃ© par AMBB",
     "tracks": "0x7"
+  },
+  "C26020160930T110723809@Pthebault33": {
+    "ID": "C26020160930T110723809@Pthebault33",
+    "apogee": "4TBE902U",
+    "acronym": "S09::EcoComm",
+    "type": "Cours",
+    "summary": "4TBE902U",
+    "lecturer": "David V",
+    "date_start": "2016-10-18T09:00",
+    "date_end": "2016-10-18T12:00",
+    "group": "All",
+    "location": "Talence::B6@Room_16",
+    "description": "None"
   }
 }
