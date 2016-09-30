@@ -529,7 +529,7 @@
       " No building!!"
     ],
     "hours": "00:00-00:00",
-    "weekdayIndex": 5
+    "weekdayIndex": 3
   },
   "E3720160831T091612587@jeesay": {
     "ID": "E3720160831T091612587@jeesay",
@@ -1900,7 +1900,10 @@
     "date_end": "2016-11-04T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720160921T145603805@Pthebault33": {
     "ID": "C20720160921T145603805@Pthebault33",
@@ -2061,7 +2064,10 @@
     "date_end": "2016-10-18T17:00",
     "group": "All",
     "location": "Talence::B5@Room_1",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 2
   },
   "C26020160930T105837174@Pthebault33": {
     "ID": "C26020160930T105837174@Pthebault33",
@@ -2074,7 +2080,10 @@
     "date_end": "2016-10-19T16:00",
     "group": "All",
     "location": "Talence::B5@Room_3",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 3
   },
   "C26020160930T105837176@Pthebault33": {
     "ID": "C26020160930T105837176@Pthebault33",
@@ -2087,7 +2096,10 @@
     "date_end": "2016-10-20T16:00",
     "group": "All",
     "location": "Talence::B5@Room_1",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   },
   "C26020160930T105837180@Pthebault33": {
     "ID": "C26020160930T105837180@Pthebault33",
@@ -2100,7 +2112,10 @@
     "date_end": "2016-10-21T16:00",
     "group": "All",
     "location": "Talence::B5@Room_3",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 5
   },
   "C26020160930T105837184@Pthebault33": {
     "ID": "C26020160930T105837184@Pthebault33",
@@ -2113,7 +2128,10 @@
     "date_end": "2016-10-25T12:00",
     "group": "All",
     "location": "Talence::B5@Room_1",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 2
   },
   "C26020160930T105837188@Pthebault33": {
     "ID": "C26020160930T105837188@Pthebault33",
@@ -2126,7 +2144,10 @@
     "date_end": "2016-10-24T16:00",
     "group": "All",
     "location": "Talence::B5@Room_1",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 1
   },
   "C26020160930T105837191@Pthebault33": {
     "ID": "C26020160930T105837191@Pthebault33",
@@ -2139,7 +2160,10 @@
     "date_end": "2016-10-26T16:00",
     "group": "All",
     "location": "Talence::B5@Room_1",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 3
   },
   "C26020160930T105837193@Pthebault33": {
     "ID": "C26020160930T105837193@Pthebault33",
@@ -2152,7 +2176,10 @@
     "date_end": "2016-11-04T12:00",
     "group": "All",
     "location": "Talence::B5@Room_1",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 5
   },
   "C26020160930T105837197@Pthebault33": {
     "ID": "C26020160930T105837197@Pthebault33",
@@ -2165,7 +2192,10 @@
     "date_end": "2016-11-03T16:00",
     "group": "All",
     "location": "Talence::B5@Room_5",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   },
   "C26020160930T105837200@Pthebault33": {
     "ID": "C26020160930T105837200@Pthebault33",
@@ -2178,6 +2208,25 @@
     "date_end": "2016-11-03T12:00",
     "group": "All",
     "location": "Talence::B6@Room_2",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 4
+  },
+  "E3720160930T110517888@Pthebault33": {
+    "ID": "E3720160930T110517888@Pthebault33",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "type": "Conference",
+    "summary": "4TBIMEET",
+    "title": "Colloque Bioinformatique ",
+    "lecturer": "Mr AMBB ",
+    "year": "3",
+    "date_start": "2016-12-08T13:00",
+    "date_end": "2016-12-08T17:00",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@undefined_undefined",
+    "description": "Colloque \"Futur en Bioinformatique\" organisé par AMBB",
+    "tracks": "0x7"
   }
 }
