@@ -2213,7 +2213,7 @@
     "date_end": "2016-12-08T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@undefined_undefined",
-    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂ© par AMBB",
+    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂ© par AMBB",
     "tracks": "0x7"
   },
   "C26020160930T110723809@Pthebault33": {
@@ -2231,5 +2231,83 @@
     "warnings": [],
     "hours": "09:00-12:00",
     "weekdayIndex": 2
+  },
+  "C26120161006T093259078@Pthebault33": {
+    "ID": "C26120161006T093259078@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-10-13T13:00",
+    "date_end": "2016-10-13T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161006T093259081@Pthebault33": {
+    "ID": "C26120161006T093259081@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-11-07T09:00",
+    "date_end": "2016-11-07T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161006T093259084@Pthebault33": {
+    "ID": "C26120161006T093259084@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-11-07T14:00",
+    "date_end": "2016-11-07T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161006T093259089@Pthebault33": {
+    "ID": "C26120161006T093259089@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-11-14T14:00",
+    "date_end": "2016-11-14T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161006T093259092@Pthebault33": {
+    "ID": "C26120161006T093259092@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-11-28T14:00",
+    "date_end": "2016-11-28T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161006T093259096@Pthebault33": {
+    "ID": "C26120161006T093259096@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Cours+TD",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2016-12-05T14:00",
+    "date_end": "2016-12-05T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
   }
 }
