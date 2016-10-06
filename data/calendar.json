@@ -2197,7 +2197,7 @@
     "date_end": "2016-12-08T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@undefined_undefined",
-    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂÃÂÃÂ© par AMBB",
+    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© par AMBB",
     "tracks": "0x7"
   },
   "C26020160930T110723809@Pthebault33": {
@@ -2292,6 +2292,19 @@
     "date_end": "2016-12-05T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20F20161006T093508513@Pthebault33": {
+    "ID": "C20F20161006T093508513@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-10-24T14:00",
+    "date_end": "2016-10-24T17:00",
+    "group": "All",
+    "location": "None::None@Room_102",
     "description": "None"
   }
 }
