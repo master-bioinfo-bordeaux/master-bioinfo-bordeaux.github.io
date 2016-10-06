@@ -529,7 +529,7 @@
       " No building!!"
     ],
     "hours": "00:00-00:00",
-    "weekdayIndex": 3
+    "weekdayIndex": 5
   },
   "E3720160831T091612587@jeesay": {
     "ID": "E3720160831T091612587@jeesay",
@@ -1617,22 +1617,6 @@
     "hours": "14:00-17:00",
     "weekdayIndex": 1
   },
-  "C26120160915T155222463@Pthebault33": {
-    "ID": "C26120160915T155222463@Pthebault33",
-    "apogee": "4TBI903U",
-    "acronym": "S09::ProjLog",
-    "type": "Cours+TD",
-    "summary": "4TBI903U",
-    "lecturer": "Beurton-Aimar M",
-    "date_start": "2016-10-24T14:00",
-    "date_end": "2016-10-24T17:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_102",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 1
-  },
   "C26120160915T155222465@Pthebault33": {
     "ID": "C26120160915T155222465@Pthebault33",
     "apogee": "4TBI903U",
@@ -2213,7 +2197,7 @@
     "date_end": "2016-12-08T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@undefined_undefined",
-    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂ© par AMBB",
+    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂÃÂÃÂ© par AMBB",
     "tracks": "0x7"
   },
   "C26020160930T110723809@Pthebault33": {
