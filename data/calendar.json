@@ -2197,7 +2197,7 @@
     "date_end": "2016-12-08T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@undefined_undefined",
-    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© par AMBB",
+    "description": "Colloque \"Futur en Bioinformatique\" organisÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ© par AMBB",
     "tracks": "0x7"
   },
   "C26020160930T110723809@Pthebault33": {
@@ -2243,7 +2243,10 @@
     "date_end": "2016-11-07T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "C26120161006T093259084@Pthebault33": {
     "ID": "C26120161006T093259084@Pthebault33",
@@ -2255,11 +2258,8 @@
     "date_start": "2016-11-07T14:00",
     "date_end": "2016-11-07T17:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 1
+    "location": "Talence::A28-CREMI@Room_102",
+    "description": "None"
   },
   "C26120161006T093259089@Pthebault33": {
     "ID": "C26120161006T093259089@Pthebault33",
