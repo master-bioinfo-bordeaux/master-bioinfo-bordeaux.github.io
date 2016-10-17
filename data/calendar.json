@@ -281,7 +281,10 @@
     "date_end": "2016-11-30T15:30",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-15:30",
+    "weekdayIndex": 3
   },
   "C27020160722T152416642@Pthebault33": {
     "ID": "C27020160722T152416642@Pthebault33",
@@ -401,15 +404,12 @@
     "acronym": "S09::MOCELL",
     "type": "Cours+TD",
     "summary": "4TBI906U",
-    "date_start": "2016-12-14T10:00",
-    "date_end": "2016-12-14T12:00",
     "lecturer": "Colombi&eacute; S",
+    "date_start": "2016-12-14T09:00",
+    "date_end": "2016-12-14T11:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 3
+    "description": "None"
   },
   "C10F20160826T085025727@Marie-Beurton-Aimar": {
     "ID": "C10F20160826T085025727@Marie-Beurton-Aimar",
@@ -1929,7 +1929,10 @@
     "date_end": "2016-12-16T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_008",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 5
   },
   "C26020160930T105251482@Pthebault33": {
     "ID": "C26020160930T105251482@Pthebault33",
@@ -2313,7 +2316,10 @@
     "date_end": "2016-12-05T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_102",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
   },
   "C20F20161006T093508513@Pthebault33": {
     "ID": "C20F20161006T093508513@Pthebault33",
