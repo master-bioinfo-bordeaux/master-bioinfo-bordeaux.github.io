@@ -329,7 +329,10 @@
     "date_end": "2016-12-07T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_205",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 3
   },
   "C27020160722T152416652@Pthebault33": {
     "ID": "C27020160722T152416652@Pthebault33",
@@ -405,11 +408,8 @@
     "date_start": "2016-12-14T09:00",
     "date_end": "2016-12-14T11:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-11:00",
-    "weekdayIndex": 3
+    "location": "Talence::A28-CREMI@Room_105",
+    "description": "None"
   },
   "C10F20160826T085025727@Marie-Beurton-Aimar": {
     "ID": "C10F20160826T085025727@Marie-Beurton-Aimar",
