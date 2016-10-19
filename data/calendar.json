@@ -1769,7 +1769,10 @@
     "date_end": "2016-11-24T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_007",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 4
   },
   "C20F20160919T131013918@Pthebault33": {
     "ID": "C20F20160919T131013918@Pthebault33",
@@ -2351,5 +2354,31 @@
     "warnings": [],
     "hours": "09:00-11:00",
     "weekdayIndex": 3
+  },
+  "C20F20161019T063449453@Pthebault33": {
+    "ID": "C20F20161019T063449453@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours",
+    "summary": "4TBI902U",
+    "lecturer": "de Daruvar A",
+    "date_start": "2016-11-14T10:00",
+    "date_end": "2016-11-14T12:00",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "None"
+  },
+  "C20F20161019T075154539@Pthebault33": {
+    "ID": "C20F20161019T075154539@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours",
+    "summary": "4TBI902U",
+    "lecturer": "de Daruvar A",
+    "date_start": "2016-11-14T10:00",
+    "date_end": "2016-11-14T12:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@Room_000",
+    "description": "None"
   }
 }
