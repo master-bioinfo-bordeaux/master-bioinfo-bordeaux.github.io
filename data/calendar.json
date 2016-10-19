@@ -329,7 +329,10 @@
     "date_end": "2016-12-07T15:30",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_205",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-15:30",
+    "weekdayIndex": 3
   },
   "C27020160722T152416652@Pthebault33": {
     "ID": "C27020160722T152416652@Pthebault33",
@@ -338,8 +341,8 @@
     "type": "Cours+TD",
     "summary": "4TBI906U",
     "lecturer": "Dieuaide M",
-    "date_start": "2016-12-14T14:00",
-    "date_end": "2016-12-14T16:00",
+    "date_start": "2016-12-14T13:30",
+    "date_end": "2016-12-14T15:30",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_205",
     "description": "None"
