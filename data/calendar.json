@@ -2370,5 +2370,31 @@
     "warnings": [],
     "hours": "13:00-16:00",
     "weekdayIndex": 4
+  },
+  "C27020161026T082802315@Pthebault33": {
+    "ID": "C27020161026T082802315@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Examen",
+    "summary": "4TBI906U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-11-17T13:00",
+    "date_end": "2016-11-17T14:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_103",
+    "description": "None"
+  },
+  "C27020161026T082802322@Pthebault33": {
+    "ID": "C27020161026T082802322@Pthebault33",
+    "apogee": "4TBI906U",
+    "acronym": "S09::MOCELL",
+    "type": "Soutenance",
+    "summary": "4TBI906U",
+    "lecturer": "de Daruvar A",
+    "date_start": "2016-11-17T14:00",
+    "date_end": "2016-11-17T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_103",
+    "description": "None"
   }
 }
