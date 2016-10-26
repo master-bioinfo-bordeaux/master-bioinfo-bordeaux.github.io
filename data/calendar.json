@@ -2355,22 +2355,6 @@
     "hours": "10:00-12:00",
     "weekdayIndex": 1
   },
-  "C27020161024T093641108@Pthebault33": {
-    "ID": "C27020161024T093641108@Pthebault33",
-    "apogee": "4TBI906U",
-    "acronym": "S09::MOCELL",
-    "type": "Examen",
-    "summary": "4TBI906U",
-    "lecturer": "Th&eacute;bault P",
-    "date_start": "2016-11-10T13:00",
-    "date_end": "2016-11-10T14:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_005",
-    "description": "None",
-    "warnings": [],
-    "hours": "13:00-14:00",
-    "weekdayIndex": 4
-  },
   "C27020161024T093641120@Pthebault33": {
     "ID": "C27020161024T093641120@Pthebault33",
     "apogee": "4TBI906U",
@@ -2398,6 +2382,9 @@
     "date_end": "2016-11-10T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_005",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 4
   }
 }
