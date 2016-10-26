@@ -2355,22 +2355,6 @@
     "hours": "10:00-12:00",
     "weekdayIndex": 1
   },
-  "C27020161024T093641120@Pthebault33": {
-    "ID": "C27020161024T093641120@Pthebault33",
-    "apogee": "4TBI906U",
-    "acronym": "S09::MOCELL",
-    "type": "Projet",
-    "summary": "4TBI906U",
-    "lecturer": "de Daruvar A",
-    "date_start": "2016-11-10T14:00",
-    "date_end": "2016-11-10T16:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_005",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-16:00",
-    "weekdayIndex": 4
-  },
   "C20F20161026T082611502@Pthebault33": {
     "ID": "C20F20161026T082611502@Pthebault33",
     "apogee": "4TBI902U",
