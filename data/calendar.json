@@ -2386,5 +2386,18 @@
     "warnings": [],
     "hours": "14:00-16:00",
     "weekdayIndex": 4
+  },
+  "C20F20161026T082611502@Pthebault33": {
+    "ID": "C20F20161026T082611502@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Cours+TD",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-11-10T13:00",
+    "date_end": "2016-11-10T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_005",
+    "description": "None"
   }
 }
