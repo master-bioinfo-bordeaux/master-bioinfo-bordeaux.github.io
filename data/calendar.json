@@ -2540,18 +2540,5 @@
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
-  },
-  "C20720161104T122216114@Pthebault33": {
-    "ID": "C20720161104T122216114@Pthebault33",
-    "apogee": "4TBI904U",
-    "acronym": "S09::DEA",
-    "type": "Cours+TD",
-    "summary": "4TBI904U",
-    "lecturer": "Th&eacute;bault P",
-    "date_start": "2016-11-01T14:00",
-    "date_end": "2016-11-01T17:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
   }
 }
