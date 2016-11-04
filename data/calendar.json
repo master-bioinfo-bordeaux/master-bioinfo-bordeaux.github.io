@@ -571,7 +571,7 @@
       " No building!!"
     ],
     "hours": "00:00-00:00",
-    "weekdayIndex": 5
+    "weekdayIndex": 1
   },
   "C10F20160907T082727690@jeesay": {
     "ID": "C10F20160907T082727690@jeesay",
@@ -2419,7 +2419,12 @@
     "date_end": "2016-12-13T12:00",
     "group": "All",
     "location": "None::None@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C20720161104T121210617@Pthebault33": {
     "ID": "C20720161104T121210617@Pthebault33",
@@ -2448,7 +2453,10 @@
     "date_end": "2016-12-16T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 5
   },
   "C20720161104T121210628@Pthebault33": {
     "ID": "C20720161104T121210628@Pthebault33",
@@ -2461,7 +2469,10 @@
     "date_end": "2017-01-04T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 3
   },
   "C20720161104T121210631@Pthebault33": {
     "ID": "C20720161104T121210631@Pthebault33",
@@ -2474,7 +2485,10 @@
     "date_end": "2017-01-06T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720161104T121210662@Pthebault33": {
     "ID": "C20720161104T121210662@Pthebault33",
@@ -2487,7 +2501,10 @@
     "date_end": "2017-01-10T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C20720161104T121210677@Pthebault33": {
     "ID": "C20720161104T121210677@Pthebault33",
@@ -2500,7 +2517,10 @@
     "date_end": "2017-01-13T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720161104T122216008@Pthebault33": {
     "ID": "C20720161104T122216008@Pthebault33",
@@ -2513,7 +2533,10 @@
     "date_end": "2017-01-03T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
   },
   "C20720161104T122216033@Pthebault33": {
     "ID": "C20720161104T122216033@Pthebault33",
@@ -2526,7 +2549,10 @@
     "date_end": "2017-01-10T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
   },
   "C20720161104T122216067@Pthebault33": {
     "ID": "C20720161104T122216067@Pthebault33",
@@ -2537,6 +2563,87 @@
     "lecturer": "Th&eacute;bault P",
     "date_start": "2017-01-17T14:00",
     "date_end": "2017-01-17T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
+  },
+  "C26120161104T135755123@Pthebault33": {
+    "ID": "C26120161104T135755123@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-01-05T08:00",
+    "date_end": "2017-01-05T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161104T135755147@Pthebault33": {
+    "ID": "C26120161104T135755147@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-01-03T08:00",
+    "date_end": "2017-01-03T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161104T135755153@Pthebault33": {
+    "ID": "C26120161104T135755153@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-01-12T08:00",
+    "date_end": "2017-01-12T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161104T135755157@Pthebault33": {
+    "ID": "C26120161104T135755157@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-01-19T08:00",
+    "date_end": "2017-01-19T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161104T135755163@Pthebault33": {
+    "ID": "C26120161104T135755163@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-01-26T08:00",
+    "date_end": "2017-01-26T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161104T135755184@Pthebault33": {
+    "ID": "C26120161104T135755184@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-02-02T08:00",
+    "date_end": "2017-02-02T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
