@@ -281,7 +281,10 @@
     "date_end": "2016-11-30T15:30",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-15:30",
+    "weekdayIndex": 3
   },
   "C27020160722T152416642@Pthebault33": {
     "ID": "C27020160722T152416642@Pthebault33",
@@ -2398,6 +2401,102 @@
     "date_end": "2016-12-06T12:00",
     "group": "All",
     "location": "None::None@Room_000",
+    "description": "None",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
+  },
+  "C20720161104T121210603@Pthebault33": {
+    "ID": "C20720161104T121210603@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2016-12-13T10:00",
+    "date_end": "2016-12-13T12:00",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "None"
+  },
+  "C20720161104T121210617@Pthebault33": {
+    "ID": "C20720161104T121210617@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "TD machine",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2016-12-09T09:00",
+    "date_end": "2016-12-09T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T121210621@Pthebault33": {
+    "ID": "C20720161104T121210621@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "TD machine",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2016-12-16T14:00",
+    "date_end": "2016-12-16T16:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T121210628@Pthebault33": {
+    "ID": "C20720161104T121210628@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "TD machine",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2017-01-04T10:00",
+    "date_end": "2017-01-04T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T121210631@Pthebault33": {
+    "ID": "C20720161104T121210631@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "TD machine",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2017-01-06T10:00",
+    "date_end": "2017-01-06T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T121210662@Pthebault33": {
+    "ID": "C20720161104T121210662@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "TD machine",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2017-01-10T10:00",
+    "date_end": "2017-01-10T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T121210677@Pthebault33": {
+    "ID": "C20720161104T121210677@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "TD machine",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2017-01-13T10:00",
+    "date_end": "2017-01-13T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   }
 }
