@@ -2432,7 +2432,10 @@
     "date_end": "2016-12-09T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C20720161104T121210621@Pthebault33": {
     "ID": "C20720161104T121210621@Pthebault33",
@@ -2495,6 +2498,58 @@
     "lecturer": "Bourqui R",
     "date_start": "2017-01-13T10:00",
     "date_end": "2017-01-13T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T122216008@Pthebault33": {
+    "ID": "C20720161104T122216008@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2017-01-03T14:00",
+    "date_end": "2017-01-03T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T122216033@Pthebault33": {
+    "ID": "C20720161104T122216033@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2017-01-10T14:00",
+    "date_end": "2017-01-10T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T122216067@Pthebault33": {
+    "ID": "C20720161104T122216067@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2017-01-17T14:00",
+    "date_end": "2017-01-17T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20720161104T122216114@Pthebault33": {
+    "ID": "C20720161104T122216114@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours+TD",
+    "summary": "4TBI904U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2016-11-01T14:00",
+    "date_end": "2016-11-01T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
