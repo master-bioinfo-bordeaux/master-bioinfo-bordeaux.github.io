@@ -2386,5 +2386,18 @@
     "warnings": [],
     "hours": "14:00-16:00",
     "weekdayIndex": 4
+  },
+  "C20720161104T120909228@Pthebault33": {
+    "ID": "C20720161104T120909228@Pthebault33",
+    "apogee": "4TBI904U",
+    "acronym": "S09::DEA",
+    "type": "Cours",
+    "summary": "4TBI904U",
+    "lecturer": "Bourqui R",
+    "date_start": "2016-12-06T10:00",
+    "date_end": "2016-12-06T12:00",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "None"
   }
 }
