@@ -2666,5 +2666,44 @@
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
+  },
+  "C26120161108T124552307@Pthebault33": {
+    "ID": "C26120161108T124552307@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2017-01-09T14:00",
+    "date_end": "2017-01-09T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161108T124552311@Pthebault33": {
+    "ID": "C26120161108T124552311@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2017-01-16T14:00",
+    "date_end": "2017-01-16T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C26120161108T124552320@Pthebault33": {
+    "ID": "C26120161108T124552320@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2017-01-23T14:00",
+    "date_end": "2017-01-23T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
   }
 }
