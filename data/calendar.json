@@ -2529,8 +2529,8 @@
     "type": "Cours+TD",
     "summary": "4TBI904U",
     "lecturer": "Th&eacute;bault P",
-    "date_start": "2017-01-24T14:00",
-    "date_end": "2017-01-24T17:00",
+    "date_start": "2017-02-17T09:00",
+    "date_end": "2017-02-17T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
@@ -2636,7 +2636,10 @@
     "date_end": "2017-01-26T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 4
   },
   "C26120161104T135755184@Pthebault33": {
     "ID": "C26120161104T135755184@Pthebault33",
@@ -2710,6 +2713,9 @@
     "date_end": "2017-01-23T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
   }
 }
