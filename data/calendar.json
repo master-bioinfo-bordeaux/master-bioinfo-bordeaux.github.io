@@ -2555,14 +2555,11 @@
     "type": "Cours+TD",
     "summary": "4TBI904U",
     "lecturer": "Th&eacute;bault P",
-    "date_start": "2017-01-17T14:00",
-    "date_end": "2017-01-17T17:00",
+    "date_start": "2017-02-15T09:00",
+    "date_end": "2017-02-15T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 2
+    "description": "None"
   },
   "C26120161104T135755123@Pthebault33": {
     "ID": "C26120161104T135755123@Pthebault33",
