@@ -1765,17 +1765,14 @@
     "ID": "C20F20160919T131221231@Pthebault33",
     "apogee": "4TBI902U",
     "acronym": "S09::FILBI",
-    "type": "Cours+TD",
+    "type": "Soutenance",
     "summary": "4TBI902U",
     "lecturer": "Th&eacute;bault P",
     "date_start": "2016-12-15T13:00",
-    "date_end": "2016-12-15T16:00",
+    "date_end": "2016-12-15T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None",
-    "warnings": [],
-    "hours": "13:00-16:00",
-    "weekdayIndex": 4
+    "description": "None"
   },
   "C20720160921T145603782@Pthebault33": {
     "ID": "C20720160921T145603782@Pthebault33",
