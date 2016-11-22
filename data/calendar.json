@@ -1772,7 +1772,10 @@
     "date_end": "2016-12-15T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_104",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 4
   },
   "C20720160921T145603782@Pthebault33": {
     "ID": "C20720160921T145603782@Pthebault33",
@@ -2398,7 +2401,10 @@
     "date_end": "2016-12-06T12:00",
     "group": "All",
     "location": "Talence::B7@Room_002",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C20720161104T121210603@Pthebault33": {
     "ID": "C20720161104T121210603@Pthebault33",
@@ -2410,13 +2416,8 @@
     "date_start": "2016-12-13T10:00",
     "date_end": "2016-12-13T12:00",
     "group": "All",
-    "location": "None::None@Room_000",
-    "description": "None",
-    "warnings": [
-      " No building!!"
-    ],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 2
+    "location": "Talence::B7@Room_003",
+    "description": "None"
   },
   "C20720161104T121210617@Pthebault33": {
     "ID": "C20720161104T121210617@Pthebault33",
