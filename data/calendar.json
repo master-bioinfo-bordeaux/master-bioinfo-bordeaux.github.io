@@ -2762,5 +2762,24 @@
     "group": "All",
     "location": "None::None@Room_000",
     "description": "None"
-  }
+  },
+   "E3720161130T110517888@jeesay": {
+    "ID": "E3720161130T110517888@jeesay",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "type": "Conference",
+    "summary": "4TBIMEET",
+    "title": "Nuit de l'info",
+    "lecturer": "None",
+    "year": "3",
+    "date_start": "2016-12-01T138:00",
+    "date_end": "2016-12-01T23:50",
+    "group": "All",
+    "location": "Talence::A29-LaBRI@Room_000",
+    "description": "Tous les d&eacute; tails sont &agrave; http://www.nuitdelinfo.com/nuitinfo/infos:com.<img src='http://www.nuitdelinfo.com/nuitinfo/_media/infos:affiche_sponsors_medium.png?w=400&tok=8e8003'>",
+    "tracks": "0x7",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 4
+   }
 }
