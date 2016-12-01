@@ -1739,11 +1739,8 @@
     "date_start": "2016-12-08T09:00",
     "date_end": "2016-12-08T12:00",
     "group": "All",
-    "location": "Talence::A21-OMEGA@Room_B",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 4
+    "location": "Talence::A29@Room_amphi B",
+    "description": "None"
   },
   "C27020160919T130417788@Pthebault33": {
     "ID": "C27020160919T130417788@Pthebault33",
