@@ -2763,7 +2763,7 @@
     "location": "None::None@Room_000",
     "description": "None"
   },
-   "E3720161130T110517888@jeesay": {
+  "E3720161130T110517888@jeesay": {
     "ID": "E3720161130T110517888@jeesay",
     "apogee": "4TBIMEET",
     "acronym": "Evt::Conference",
@@ -2779,7 +2779,20 @@
     "description": "Tous les d&eacute; tails sont &agrave; http://www.nuitdelinfo.com/nuitinfo/infos:com.<img src='http://www.nuitdelinfo.com/nuitinfo/_media/infos:affiche_sponsors_medium.png?w=400&tok=8e8003'>",
     "tracks": "0x7",
     "warnings": [],
-    "hours": "13:00-17:00",
+    "hours": "19:00-23:50",
     "weekdayIndex": 4
-   }
+  },
+  "C21020161201T125716205@Pthebault33": {
+    "ID": "C21020161201T125716205@Pthebault33",
+    "apogee": "4TBC901U",
+    "acronym": "S09::AppO",
+    "type": "Examen",
+    "summary": "4TBC901U",
+    "lecturer": "Cl&eacute;ment Lionel",
+    "date_start": "2016-12-08T14:30",
+    "date_end": "2016-12-08T17:30",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "None"
+  }
 }
