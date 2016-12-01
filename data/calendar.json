@@ -1740,7 +1740,10 @@
     "date_end": "2016-12-08T12:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@Room_B",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 4
   },
   "C27020160919T130417788@Pthebault33": {
     "ID": "C27020160919T130417788@Pthebault33",
@@ -2156,25 +2159,6 @@
     "description": "None",
     "warnings": [],
     "hours": "10:00-12:00",
-    "weekdayIndex": 4
-  },
-  "E3720160930T110517888@Pthebault33": {
-    "ID": "E3720160930T110517888@Pthebault33",
-    "apogee": "4TBIMEET",
-    "acronym": "Evt::Conference",
-    "type": "Conference",
-    "summary": "4TBIMEET",
-    "title": "Colloque Bioinformatique ",
-    "lecturer": "Mr AMBB ",
-    "year": "3",
-    "date_start": "2016-12-08T13:00",
-    "date_end": "2016-12-08T17:00",
-    "group": "All",
-    "location": "Talence::A21-OMEGA@Room_000",
-    "description": "Colloque \"Futur en Bioinformatique\" organise par AMBB",
-    "tracks": "0x7",
-    "warnings": [],
-    "hours": "13:00-17:00",
     "weekdayIndex": 4
   },
   "C26020160930T110723809@Pthebault33": {
