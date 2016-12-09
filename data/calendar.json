@@ -1768,14 +1768,11 @@
     "type": "Soutenance",
     "summary": "4TBI902U",
     "lecturer": "Th&eacute;bault P",
-    "date_start": "2016-12-15T13:00",
-    "date_end": "2016-12-15T17:00",
+    "date_start": "2017-01-10T14:00",
+    "date_end": "2017-01-10T17:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_104",
-    "description": "None",
-    "warnings": [],
-    "hours": "13:00-17:00",
-    "weekdayIndex": 4
+    "location": "Talence::A30-LaBRI@Room_",
+    "description": "None"
   },
   "C20720160921T145603782@Pthebault33": {
     "ID": "C20720160921T145603782@Pthebault33",
