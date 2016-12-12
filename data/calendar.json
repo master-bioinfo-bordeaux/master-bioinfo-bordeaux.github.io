@@ -2426,11 +2426,8 @@
     "date_start": "2017-01-04T10:00",
     "date_end": "2017-01-04T12:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 3
+    "location": "Talence::A28-CREMI@Room_204",
+    "description": "None"
   },
   "C20720161104T121210631@Pthebault33": {
     "ID": "C20720161104T121210631@Pthebault33",
@@ -2552,7 +2549,10 @@
     "date_end": "2017-01-03T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_204",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 2
   },
   "C26120161104T135755153@Pthebault33": {
     "ID": "C26120161104T135755153@Pthebault33",
