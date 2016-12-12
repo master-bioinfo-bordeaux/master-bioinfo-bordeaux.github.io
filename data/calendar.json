@@ -2410,11 +2410,8 @@
     "date_start": "2016-12-16T14:00",
     "date_end": "2016-12-16T16:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-16:00",
-    "weekdayIndex": 5
+    "location": "Talence::A28-CREMI@Room_204",
+    "description": "None"
   },
   "C20720161104T121210628@Pthebault33": {
     "ID": "C20720161104T121210628@Pthebault33",
