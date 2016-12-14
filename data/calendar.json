@@ -2804,5 +2804,21 @@
     "warnings": [],
     "hours": "14:00-17:00",
     "weekdayIndex": 2
+  },
+  "E3NaN20161214T160140327@Pthebault33": {
+    "ID": "E3NaN20161214T160140327@Pthebault33",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "type": "Conference",
+    "summary": "4TBIMEET",
+    "title": "Retours des anciens",
+    "lecturer": "-- Charlotte Héricé et Lavielle Noweln ",
+    "year": "3",
+    "date_start": "2017-01-03T14:00",
+    "date_end": "2017-01-03T16:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@undefined_undefined",
+    "description": "",
+    "tracks": "0xNaN"
   }
 }
