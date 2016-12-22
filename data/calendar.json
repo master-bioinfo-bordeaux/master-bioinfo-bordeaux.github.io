@@ -2544,22 +2544,6 @@
     "hours": "08:00-12:00",
     "weekdayIndex": 4
   },
-  "C26120161104T135755147@Pthebault33": {
-    "ID": "C26120161104T135755147@Pthebault33",
-    "apogee": "4TBI901U",
-    "acronym": "S09::StrubiGL",
-    "type": "Cours+TD",
-    "summary": "4TBI901U",
-    "lecturer": "Taveau JC",
-    "date_start": "2017-01-03T08:00",
-    "date_end": "2017-01-03T12:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_204",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-12:00",
-    "weekdayIndex": 2
-  },
   "C26120161104T135755153@Pthebault33": {
     "ID": "C26120161104T135755153@Pthebault33",
     "apogee": "4TBI901U",
@@ -2623,6 +2607,22 @@
     "warnings": [],
     "hours": "08:00-12:00",
     "weekdayIndex": 4
+  },
+  "C26120161104T135755147@Pthebault33": {
+    "ID": "C26120161104T135755147@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours+TD",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-02-09T08:00",
+    "date_end": "2017-02-09T12:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_204",
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 2
   },
   "C26120161108T124451659@Pthebault33": {
     "ID": "C26120161108T124451659@Pthebault33",
