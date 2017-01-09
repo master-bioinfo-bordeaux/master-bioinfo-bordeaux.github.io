@@ -1761,22 +1761,6 @@
     "hours": "14:00-16:00",
     "weekdayIndex": 4
   },
-  "C20F20160919T131221231@Pthebault33": {
-    "ID": "C20F20160919T131221231@Pthebault33",
-    "apogee": "4TBI902U",
-    "acronym": "S09::FILBI",
-    "type": "Soutenance",
-    "summary": "4TBI902U",
-    "lecturer": "Th&eacute;bault P",
-    "date_start": "2017-01-10T14:00",
-    "date_end": "2017-01-10T17:00",
-    "group": "All",
-    "location": "Talence::A30-LaBRI@Room_",
-    "description": "None",
-    "warnings": [],
-    "hours": "14:00-17:00",
-    "weekdayIndex": 2
-  },
   "C20720160921T145603782@Pthebault33": {
     "ID": "C20720160921T145603782@Pthebault33",
     "apogee": "4TBI904U",
@@ -2832,7 +2816,10 @@
     "date_end": "2017-01-10T18:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_178",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-18:00",
+    "weekdayIndex": 2
   },
   "C20F20170109T130657327@Pthebault33": {
     "ID": "C20F20170109T130657327@Pthebault33",
@@ -2845,6 +2832,9 @@
     "date_end": "2017-01-10T18:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_178",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-18:00",
+    "weekdayIndex": 2
   }
 }
