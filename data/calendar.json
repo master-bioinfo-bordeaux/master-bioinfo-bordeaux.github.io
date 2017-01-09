@@ -2795,7 +2795,7 @@
     "acronym": "Evt::Conference",
     "type": "Conference",
     "summary": "4TBIMEET",
-    "title": "Retours d'exp&eacute;rience d'anciens &eacute;tudiants du master de Bioinformatique", 
+    "title": "Retours d'exp&eacute;rience d'anciens &eacute;tudiants du master de Bioinformatique",
     "lecturer": "Charlotte H&eacute;ric&eacute; et Lavielle Noweln",
     "year": "3",
     "date_start": "2017-01-03T14:00",
@@ -2819,6 +2819,19 @@
     "date_end": "2017-01-17T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C20F20170109T130624004@Pthebault33": {
+    "ID": "C20F20170109T130624004@Pthebault33",
+    "apogee": "4TBI902U",
+    "acronym": "S09::FILBI",
+    "type": "Examen",
+    "summary": "4TBI902U",
+    "lecturer": "Th&eacute;bault P",
+    "date_start": "2017-01-10T14:00",
+    "date_end": "2017-01-10T18:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@Room_178",
     "description": "None"
   }
 }
