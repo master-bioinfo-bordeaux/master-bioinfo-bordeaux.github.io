@@ -2606,7 +2606,7 @@
     "description": "None",
     "warnings": [],
     "hours": "08:00-12:00",
-    "weekdayIndex": 2
+    "weekdayIndex": 4
   },
   "C26120161108T124451659@Pthebault33": {
     "ID": "C26120161108T124451659@Pthebault33",
@@ -2835,6 +2835,22 @@
     "date_end": "2017-01-24T12:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
+  },
+  "C26120170123T161934301@Pthebault33": {
+    "ID": "C26120170123T161934301@Pthebault33",
+    "apogee": "4TBI903U",
+    "acronym": "S09::ProjLog",
+    "type": "Examen",
+    "summary": "4TBI903U",
+    "lecturer": "Beurton-Aimar M",
+    "date_start": "2017-02-10T09:00",
+    "date_end": "2017-02-10T12:00",
+    "group": "All",
+    "location": "None::None@Room_000",
     "description": "None"
   }
 }
