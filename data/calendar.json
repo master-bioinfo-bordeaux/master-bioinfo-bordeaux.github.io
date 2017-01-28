@@ -2844,5 +2844,18 @@
     ],
     "hours": "09:00-12:00",
     "weekdayIndex": 5
+  },
+  "C26120170128T092854271@Pthebault33": {
+    "ID": "C26120170128T092854271@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Unknown",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-02-13T14:00",
+    "date_end": "2017-02-13T17:00",
+    "group": "All",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
   }
 }
