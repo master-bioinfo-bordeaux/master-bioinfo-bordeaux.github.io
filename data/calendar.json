@@ -2467,22 +2467,6 @@
     "hours": "10:00-12:00",
     "weekdayIndex": 5
   },
-  "C20720161104T122216008@Pthebault33": {
-    "ID": "C20720161104T122216008@Pthebault33",
-    "apogee": "4TBI904U",
-    "acronym": "S09::DEA",
-    "type": "Cours+TD",
-    "summary": "4TBI904U",
-    "lecturer": "Th&eacute;bault P",
-    "date_start": "2017-02-17T09:00",
-    "date_end": "2017-02-17T12:00",
-    "group": "All",
-    "location": "Talence::A28-CREMI@Room_205",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 5
-  },
   "C26120161104T135755123@Pthebault33": {
     "ID": "C26120161104T135755123@Pthebault33",
     "apogee": "4TBI901U",
