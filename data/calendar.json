@@ -2849,13 +2849,13 @@
     "ID": "C26120170128T092854271@Pthebault33",
     "apogee": "4TBI901U",
     "acronym": "S09::StrubiGL",
-    "type": "Unknown",
+    "type": "Examen",
     "summary": "4TBI901U",
     "lecturer": "Taveau JC",
-    "date_start": "2017-02-14T14:00",
-    "date_end": "2017-02-14T17:00",
+    "date_start": "2017-02-14T10:00",
+    "date_end": "2017-02-14T12:00",
     "group": "All",
-    "location": "Talence::A28-CREMI@Room_000",
+    "location": "Talence::A28-CREMI@Room_205",
     "description": "None"
   }
 }
