@@ -2830,5 +2830,18 @@
     "tracks": "0x7",
     "hours": "00:00-00:00",
     "weekdayIndex": 1
-}
+  },
+  "C20F20170216T092500071@jeesay": {
+    "ID": "C20F20170216T092500071@jeesay",
+    "apogee": "4TBI001U",
+    "acronym": "S10::Stage",
+    "type": "Unknown",
+    "summary": "4TBI001U",
+    "lecturer": "------",
+    "date_start": "2017-03-01T00:00",
+    "date_end": "2017-03-01T19:00",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "None"
+  }
 }
