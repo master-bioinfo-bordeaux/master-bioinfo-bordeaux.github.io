@@ -2831,6 +2831,21 @@
     "hours": "00:00-00:00",
     "weekdayIndex": 1
   },
+    "E1720170216T092600071@jeesay": {
+    "ID": "E1720170216T092600071@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "type": "Vacances",
+    "summary": "4TBIVACA",
+    "title": "Vacances de Printemps - Spring Holidays",
+    "lecturer": "--  ",
+    "year": "1",
+    "date_start": "2017-02-20T00:00",
+    "date_end": "2017-02-24T00:00",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "",
+  },
   "C20F20170216T092500071@jeesay": {
     "ID": "C20F20170216T092500071@jeesay",
     "apogee": "4TBI001U",
@@ -2839,7 +2854,7 @@
     "summary": "4TBI001U",
     "lecturer": "------",
     "date_start": "2017-03-01T00:00",
-    "date_end": "2017-03-01T19:00",
+    "date_end": "2017-08-31T00:00",
     "group": "All",
     "location": "None::None@Room_000",
     "description": "None"
