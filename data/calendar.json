@@ -2812,5 +2812,23 @@
     "warnings": [],
     "hours": "10:00-12:00",
     "weekdayIndex": 2
-  }
+  },
+  "E3720170216T135719423@jeesay": {
+    "ID": "E3720170216T135719423@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "type": "Vacances",
+    "summary": "4TBIVACA",
+    "title": "Vacances d'hiver - Winter Holidays",
+    "lecturer": "--  ",
+    "year": "3",
+    "date_start": "2017-02-20T00:00",
+    "date_end": "2017-02-24T00:00",
+    "group": "All",
+    "location": "None::None@Room_000",
+    "description": "",
+    "tracks": "0x7",
+    "hours": "00:00-00:00",
+    "weekdayIndex": 1
+},
 }
