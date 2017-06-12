@@ -557,6 +557,8 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI804U": {
+    "short": "NGS and Tools",
+    "language": "French",
     "acronym": "NGS", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -566,7 +568,7 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI804U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_ngs.jpg", 
     "semester": 8, 
     "title": "Nouvelles G\u00e9n\u00e9rations de Sequen\u00e7age", 
     "tracks": "0x07", 
