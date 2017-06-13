@@ -593,6 +593,8 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI901U": {
+    "short": "Structural Bioinformatics",
+    "language": "French or English depending of the audience",
     "acronym": "StrubiGL", 
     "background_color": "#7FD8BC", 
     "contents": {
@@ -602,13 +604,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI901U", 
-    "image": "headprot.jpg", 
+    "image": "ue_strubigl.jpg", 
     "semester": 9, 
     "title": "Bioinformatique Structurale", 
     "tracks": "0x61", 
     "visibility": "visible"
   }, 
   "4TBI902U": {
+    "short": "Bioinformatics Sector",
+    "language": "French",
     "acronym": "FILBI", 
     "background_color": "#A4FF80", 
     "contents": {
@@ -618,13 +622,15 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI902U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_sector.jpg", 
     "semester": 9, 
     "title": "Fili\u00e8res de la Bioinformatique", 
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
   "4TBI903U": {
+    "short": "Software Engineering",
+    "language": "French",
     "acronym": "ProjLog", 
     "background_color": "#009558", 
     "contents": {
@@ -634,13 +640,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI903U", 
-    "image": "headproj.jpg", 
+    "image": "ue_project_dev.jpg", 
     "semester": 9, 
     "title": "G\u00e9nie Logiciel et Gestion de Projet", 
     "tracks": "0x61", 
     "visibility": "visible"
   }, 
   "4TBI904U": {
+    "short": "Data Science",
+    "language": "French",
     "acronym": "DEA", 
     "background_color": "#ffbc00", 
     "contents": {
@@ -650,13 +658,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI904U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_data.jpg", 
     "semester": 9, 
     "title": "Donn\u00e9es: De l'Entrep\u00f4t \u00e0 l'Analyse", 
     "tracks": "0x07", 
     "visibility": "visible"
   }, 
   "4TBI905U": {
+    "short": "Research & Dev",
+    "language": "French",
     "acronym": "IRD", 
     "background_color": "#cef6ce", 
     "contents": {
@@ -666,7 +676,7 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI905U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_ird.jpg", 
     "semester": 9, 
     "title": "Initiation \u00e0 la Recherche et au D\u00e9veloppement", 
     "tracks": "0x07", 
