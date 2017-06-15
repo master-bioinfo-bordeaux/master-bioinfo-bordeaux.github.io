@@ -94,7 +94,8 @@ var course_data = {
     "contents": {
       "en": {
         'program': `
-        <h4>Prerequisites</h4> <ul>
+        <h4>Prerequisites</h4> 
+        <ul>
         <li>First year of Master in Biological science</li>
         <li>Basis Statistics and R, basis genetics and genomics.</li>
         </ul>
@@ -598,7 +599,21 @@ var course_data = {
     "acronym": "StrubiGL", 
     "background_color": "#7FD8BC", 
     "contents": {
-      "en": "Coming soon.", 
+      "en": {
+        "program": `
+        <p>This course is composed of various aspects of structural bioinformatics
+        <h4>3D Alignments</h4> 
+        
+        <h4>Visualization: WebGL 2.x</h4> 
+        <ul>
+        <li>Principles of hardware-accelerated 2D and 3D graphics</li>
+        <li>WebGL: Graphics primitives, texture, shaders &mdash; vector and fragment &mdash; , GLSL, </li>
+        <li> Via a collaborative programming project, in-depth look to the ins and outs of webgl 2.x</li>
+        </ul>
+        `,
+        'objectives': ``,
+        "skills": ``
+      }, 
       "fr": "Bient&ocirc;t disponible."
     }, 
     "ects": 6, 
