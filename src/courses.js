@@ -1,6 +1,6 @@
 
-var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
-
+// var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
+var university_path = "https://www.u-bordeaux.fr/formation/2016/PRMA_74/bio-informatique/enseignement/";
 /**
  * 2016 - 2020
  */
@@ -264,6 +264,8 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE901U": {
+    "short" : "BioStatistics 2",
+    "language": "French",
     "acronym": "TDE++", 
     "background_color": "#D0A6FF", 
     "contents": {
@@ -273,13 +275,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE901U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_stats.jpg", 
     "semester": 9, 
     "title": "Traitement des donn\u00e9es environnementales - Perfectionnement", 
     "tracks": "0x70", 
     "visibility": "visible"
   }, 
   "4TBE902U": {
+    "short": "Evolutionary Ecology",
+    "language": "French",
     "acronym": "EcoComm", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -289,7 +293,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE902U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_ecology.jpg", 
     "semester": 9, 
     "title": "Ecologie \u00e9volutive des communaut\u00e9s", 
     "tracks": "0x60", 
@@ -439,8 +443,42 @@ var course_data = {
     "acronym": "OBI", 
     "background_color": "#eef409", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        'program': `<p>In this course, we will explore the bioinformatician core activities ranging from the data mining using databases 
+        in molecular biology to the design of bioanalysis while exploiting methods dedicated to alignment sequences or phylogen. </p>
+        <p>The Big Data era will also be introduced regarding the massive production of omics data and will be linked to algorithmics 
+        approaches dedicated to the exploitation of biological data. </p>
+        <h4>References</h4>
+        <ul><li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
+        Oxford University Press; ISBN: 0199251967</li></ul>`, 
+        "objectives": `<ul>
+        <li>Use of classical software packages like EMBOSS (European Molecular Biology Open Software Suite) to develop new analytical pipelines.</li>
+        <li>Use and understanding of the main steps for building and analyzing phylogenetic studies.</li>
+        <li> The most common algorithms used in bioinformatics will be studied using Python programming language.</li>
+        </ul>`,
+        "skills": `<ul>
+        <li>Write a function in Python to solve a simple bioinformatics problem.</li>
+        <li>Knowing the various families of algorithms used in bioinformatics.</li>
+        <li>Understanding the various pipelines in phylogenetic projects</li></ul>`
+      },
+      "fr": {
+        "program": `<p> Dans ce cours, nous explorerons les activités principales de la bioinformatique allant de l'exploration de données à l'aide de bases de données
+        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement ou à la phylogénie. </p>
+        <P> L'ère des <em>Big Data</em> sera également présentée dans le cadre de la production massive de données omiques et sera liée aux approches algorithmiques 
+        dédiées à l'exploitation des données biologiques. </p>
+        <h4> Références </h4>
+        <ul> <li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
+        Oxford University Press; ISBN: 0199251967</li></ul> `,
+        "objectives": `<ul>
+        <li> Utilisation de logiciels classiques comme EMBOSS (European Molecular Biology Open Software Suite) pour développer de nouveaux pipelines analytiques. </li>
+        <li> Utilisation et compréhension des étapes principales pour la construction et l'analyse d'études phylogénétiques. </li>
+        <li> Les algorithmes les plus courants utilisés en bioinformatique seront étudiés à l'aide du langage de programmation Python. </li>
+        </ul> `,
+        "skills": `<ul>
+        <li> Savoir écrire en Python une fonction pour résoudre un problème de bioinformatique simple. </li>
+        <li> Connaître les grandes familles algorithmiques utilisés en bioinformatique.</li>
+        <li> Comprendre les différentes pipelines dans les projets phylogénétiques </li> </ul> `
+      }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
@@ -449,7 +487,8 @@ var course_data = {
     "semester": 7, 
     "title": "Omiques et BioInformatique", 
     "tracks": "0x0F", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_2289/omiques-et-bioinformatique"
   }, 
   "4TBI704U": {
     "short": "English",
@@ -601,9 +640,15 @@ var course_data = {
     "contents": {
       "en": {
         "program": `
-        <p>This course is composed of various aspects of structural bioinformatics
-        <h4>3D Alignments</h4> 
-        
+        <h4>Prerequisites</h4>
+        <ul><li>Knowledge of main algorithms used in bioinformatics (e.g. 2D exact alignments: Needleman & Wunsch, Smith & Waterman).</li>
+        <li>Programming skill in JavaScript programming language is highly recommended.</li></ul>
+        <h4>Protein Structure</h4> 
+        <ul>
+        <li>Exploring the PDB file format.</li>
+        <li>Secondary Structures: DSSP.</li>
+        <li>3D Alignments</li> 
+        </ul>
         <h4>Visualization: WebGL 2.x</h4> 
         <ul>
         <li>Principles of hardware-accelerated 2D and 3D graphics</li>
@@ -611,7 +656,9 @@ var course_data = {
         <li> Via a collaborative programming project, in-depth look to the ins and outs of webgl 2.x</li>
         </ul>
         `,
-        'objectives': ``,
+        'objectives': `<ul><li>Develop his/her own strategies for solving a problem (<em>Learning how to learn</em>).</li>
+        <li>Improve your knowledge of low-level aspect of computer science (use of hardware-accelerated graphics).</li>
+        </ul>`,
         "skills": ``
       }, 
       "fr": "Bient&ocirc;t disponible."
@@ -698,6 +745,8 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI906U": {
+    "short" : "Modeling Cell",
+    "language": "French",
     "acronym": "MOCELL", 
     "background_color": "#EEF409", 
     "contents": {
@@ -707,7 +756,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI906U", 
-    "image": "headbio.jpg", 
+    "image": "ue_mocell.jpg", 
     "semester": 9, 
     "title": "Mod\u00e9lisation qualitative et quantitative de la cellule", 
     "tracks": "0x70", 
@@ -762,22 +811,46 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TDE901U": {
+    "short": "GIS: Geo. Info. Systems",
+    "language": "french",
     "acronym": "SIG", 
     "background_color": "#0a0a0a", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        "program": `French version available`,
+        "objectives": `Coming soon`,
+        "skills": `Coming soon`
+      }, 
+      "fr": {
+              "program": `<p>Cette formation est divisée en deux modules : SIG 1 & SIG 2 (Modules 4TMR003U & 4TMR004U). SIG 1 est en enseignement théorique et SIG 2 pratique basé sur la réalisation de projets SIG. Cet enseignement est organisé en deux semaines.</p>
+<ul><li>Présentation du module - Manipulations de base - Géodésie</li>
+<li>Les données vectorielles - les requêtes</li>
+<li>Création et traitement des rasters</li>
+<li>Modélisation hydrologique & Model builder</li>
+<li>Les données multi-dimensionnelles</li>
+<li>Le géoréférencement & les outils d'édition</li>
+<li>Géotraitement & Analyse spatiale</li>
+<li>Le système GPS - Levé topographique par GPS</li>
+<li>Cartographie nomade</li>
+</ul>
+<p><a href="http://www.geocean.net/wikisig/doku.php?id=master:start">Plus de détails...</a></p>
+<p>La deuxième semaine est constituée par la réalisation d'un projet SIG. Pour les étudiants de l'Ecole doctorale et des Masters recherche ces sujets porteront obligatoirement sur leurs sujets de thèse ou sur leurs stages de Master 2. Pour les étudiants du master pro les sujets seront choisis en fonctions de leurs stages en entreprise ou de leurs projets professionnels.</p>`,
+              "objectives": `Au terme de cette formation vous serez en mesure de gérer un projet cartographique depuis <ul><li>l'acquisition des données sur le terrain,</li> <li>la prise en compte des informations géodésiques,</li> <li>le traitement des données via un Système d'Information Géographique (QGIS, ArcGIS), </li><li>le couplage à d'autres informations (photos aériennes, images satellites…) et </li><li>la réalisation de documents cartographiques publiables.</li></ul>`,
+              "skills": ``
+      }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TDE901U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_gis.jpg", 
     "semester": 9, 
     "title": "Syst\u00e8me d'information G\u00e9ographique", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TDE902U": {
+    "short": "Health Innovation",
+    "language": "french",
     "apogee": "4TDE902U",
     "acronym": "InnovTech", 
     "background_color": "#0a0a0a", 
@@ -788,7 +861,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TDE902U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_health.jpg", 
     "semester": 9, 
     "title": "Innovations Biotechnologies et Sant\u00e9", 
     "tracks": "0x60", 
