@@ -55,6 +55,8 @@ var course_data = {
     "visibility": "visible"
   },
   "4TBA804U": {
+    "short": "Plant Biotechnology",
+    "language": "French",
     "acronym": "BBP", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -64,13 +66,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBA804U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_plant1.jpg", 
     "semester": 8, 
     "title": "Biologie et Biotechnologies des Plantes", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBA806U": {
+    "short": "Plant Genetics",
+    "language": "French",
     "acronym": "Genepi", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -80,7 +84,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBA806U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_plant2.jpg", 
     "semester": 8, 
     "title": "G\u00e9n\u00e9tique, g\u00e9nomique et \u00e9pig\u00e9n\u00e9tique des plantes", 
     "tracks": "0x60", 
@@ -216,6 +220,8 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE801U": {
+    "short" : "Biodiversity",
+    'language': "French",
     "acronym": "BioDiv", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -225,13 +231,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE801U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_biodiversity.jpg", 
     "semester": 8, 
     "title": "Biodiversit\u00e9", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBE802U": {
+    "short" : "Terrestrial Ecosystems",
+    'language': "French",
     "acronym": "EcoTerr", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -241,13 +249,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE802U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_terrestrial.jpg", 
     "semester": 8, 
     "title": "Gestion, conservation et restauration des \u00e9cosyst\u00e8mes terrestres", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBE803U": {
+    "short" : "Aquatic Environments",
+    'language': "French",
     "acronym": "Aqua", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -257,7 +267,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE803U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_aquatic.jpg", 
     "semester": 8, 
     "title": "Gestion des milieux aquatiques continentaux", 
     "tracks": "0x60", 
