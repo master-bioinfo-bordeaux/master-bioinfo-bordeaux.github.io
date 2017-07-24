@@ -311,15 +311,49 @@ var course_data = {
   }, 
   "4TBI001U": {
     "acronym": "Stage", 
+    "short":  "Stage", 
+    "language": "French or English",
     "background_color": "#7FD8BC", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        'program': "See french version",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        "program": `
+             <ul><li>Stage en laboratoire de recherche ou en entreprise d'une durée de 5 à 6 mois.</li>
+            <li>Il repose sur un projet scientifique préalablement rédigé et soumis aux responsables de la spécialité.</li>
+            <li>Ce stage peut avoir lieu en France ou à l'étranger.
+            <ul><li><b>Parcours recherche</b>: Sujet de stage proposé par le Maître de Stage après validation par la commission pédagogique 
+            de Master et choisi par l’étudiant en accord avec le responsable du stage.</li>
+            <li><b>Parcours professionnel</b>: Sujet de stage défini par le Maître de Stage et l’étudiant en accord avec le responsable pédagogique.</li></ul>
+            </li></ul></li></ul>`,
+         "objectives": `
+            <ul><li>Mise en situation dans un environnement professionnel pour la réalisation d'un projet de recherche 
+            et/ou développement</li>
+            <li>Application des notions fondamentales de gestion d'un projet de recherche et/ou développement:
+                <ul><li>Préparation</li>
+                <li>Réalisation</li>
+                <li>Analyse critique des résultats</li>
+                <li>Synthèse et Présentation des résultats</li>
+                <li>Applications de \"bonnes pratiques\" et de la \"démarche qualité\".</li>
+                </ul>
+            </li></ul>`,
+         "skills": `
+            <ul><li>Compétence dans la gestion d'un projet de recherche et/ou développement.</li>
+            <li>Acquérir l'autonomie nécessaire pour mener un projet de recherche et/ou de développement</li>
+            <li>Acquérir la notion de travail en équipe projet.</li>
+            <li>Compétences , à analyser et critiquer les résultats, à synthétiser des résultats, à présenter à l'écrit 
+            et à l'oral un projet et les résultats obtenus dans le cadre de ce projet.</li>
+            <li>Maîtrise de l’anglais pour les étudiants qui partent à l’étranger.</li>
+            </ul>`
+        }
     }, 
     "ects": 30, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI001U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_stagem2.jpg", 
     "semester": 10, 
     "title": "Stage Recherche , Pro ou R&D", 
     "tracks": "0x0F", 
