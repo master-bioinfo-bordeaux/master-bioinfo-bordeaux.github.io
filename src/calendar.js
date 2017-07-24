@@ -36,10 +36,10 @@ if ( !Date.prototype.toCalString ) {
  *
  ******************************************************/
  
-function setMasterOptions() {
+function setMasterOptions(extension) {
     if (typeof localStorage != undefined) {
-        var e = document.getElementById('masterYear') || 1;
-        var l = document.getElementById('masterTrack') || 1;
+        var e = document.getElementById('masterYear' + extension) || 1;
+        var l = document.getElementById('masterTrack'+ extension) || 1;
         localStorage.masterYear  = e.options[e.selectedIndex].value;
         localStorage.masterTrack = l.options[l.selectedIndex].value;
     } else {
@@ -145,7 +145,8 @@ function updateCalendarHeader(y,m,d) {
     element.innerHTML = html;
     
     // Update Week Number
-    var weekNum = document.getElementById('weeknum').innerHTML = 'Week ' + getISOWeekNum(y,m,d);
+    document.getElementById('weeknum').innerHTML = 'Week ' + getISOWeekNum(y,m,d);
+    document.getElementById('weeknum-small').innerHTML = getISOWeekNum(y,m,d);
 }
 
 function updateCalendarBody(y,m,d) {
@@ -258,12 +259,13 @@ function updateCalendarBody(y,m,d) {
 
             }
         }
+        /*
         console.log('BOX ' +i+':');
         if (weekdays[i].boxes[0] !== undefined) {
             console.log(weekdays[i].boxes[0].startDate.toString() + ' - ' +  weekdays[i].boxes[0].endDate.toString());
              console.log(weekdays[i].boxes[0]);
         }
-
+        */
         
         // 2- Sort events by time from 0800 to 1900
         weekdays[i].boxes.sort(function sort(a,b) {
@@ -380,6 +382,52 @@ function createCourseModal(ID) {
     html += '<div class="modal-dialog">';
     html +='<div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
+    html += '<h4 class="modal-title">'+the_course.short;
+    html += '<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span>';
+    html += '</h4>';
+    html += '</div>'; // modal-header
+    html += '<div class="modal-body">';
+    html += '<div style="width:570px;height:80px;overflow:hidden">';
+    html += '<img class="img-responsive" style="margin-top:-100px" src="img/'+image+'" alt="">';
+    html += '</div>';
+    html += '<h2>'+ the_course.title +'</h2>';
+    html += '<ul class="nav nav-tabs">';
+    html += '<li class="active"><a href="#en" data-toggle="tab">En</a></li>';
+    html += '<li><a href="#fr" data-toggle="tab">Fr</a></li>';
+    html += '<li><a href="#id" data-toggle="tab"><i class="fa fa-gears"></i></a></li></ul>';
+    html += '<div class="tab-content clearfix">',
+    html += '<div class="tab-pane active" id="en">'
+    html += '<h3>Content</h3>' + (the_course.contents.en.program || 'Coming soon');
+    html += '<h3>Objectives</h3>' + (the_course.contents.en.objectives || 'Coming soon');
+    html += '<h3>Skills</h3>' + (the_course.contents.en.skills || 'Coming soon');
+    html += '</div>';
+    html += '<div class="tab-pane" id="fr">'
+    html += '<h3>Programme</h3>' + (the_course.contents.fr.program || 'Bientôt disponible');
+    html += '<h3>Objectifs</h3>' + (the_course.contents.fr.objectives || 'Bientôt disponible');
+    html += '<h3>Compétences acquises</h3>' + (the_course.contents.fr.skills || 'Bientôt disponible');
+    html += "</div>";
+    html += '<div class="tab-pane" id="id">'
+    html += '<br><dl class="dl-horizontal">';
+    html += '<dt>Title:</dt><dd>'+ the_course.title +'</dd>';
+    html += '<dt>Short Title:</dt><dd>'+ the_course.short +'</dd>';
+    html += '<dt>Acronym:</dt><dd>'+ the_course.acronym +'</dd>';
+    html += '<dt>Language:</dt><dd>'+ the_course.language +'</dd>';
+    html += '<dt>Credits:</dt><dd>'+ the_course.ects +' ECTS</dd>';
+    html += '<dt>Apogee:</dt><dd>'+ the_course.id +'</dd>';
+    html += '</dl>';
+    html += "</div>";
+    html += "</div><hr>";
+    html += '<a class="pull-right" href="' + (university_path + the_course.html) + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;';
+    // html += '<button class="pull-right" href="' + (university_path + the_course.html) + '" target="_blank"> Moodle</button>&nbsp;&nbsp;<br>';
+    html += '</div>'; // modal-body
+    html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
+    html += '</div>'; // modal-content
+    html += '</div>'; // modal-dialog
+
+/*    var html = '';
+    html += '<div class="modal-dialog">';
+    html +='<div class="modal-content"><div class="modal-header">';
+    html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
     html += '<h4 class="modal-title">'+the_course.title;
     html += '<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span>';
     html += '</h4>';
@@ -393,6 +441,7 @@ function createCourseModal(ID) {
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
     html += '</div>'; // modal-dialog
+*/
 
     return html;
 }
@@ -538,8 +587,8 @@ function createEventCell(cal_event) {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
         var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
-        console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
-        +((parseInt(the_course.tracks,16) & masterTrack)) );
+        // console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
+        // +((parseInt(the_course.tracks,16) & masterTrack)) );
 
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
@@ -568,10 +617,10 @@ function createEventCell(cal_event) {
             hh_lg = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
             mm_lg = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
             html += hh_lg + ':' + mm_lg + '</span>';
-            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '-';
+            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '</li>';
             hh = (parseInt(cal_event.endDate.getHours())   < 10) ? ('0'+ cal_event.endDate.getHours())   : cal_event.endDate.getHours();
             mm = (parseInt(cal_event.endDate.getMinutes()) < 10) ? ('0'+ cal_event.endDate.getMinutes()) : cal_event.endDate.getMinutes();
-            html += hh + ':' + mm + '</li>';
+            html += '<li class="hidden-lg hidden-md" style="font-weight: bold">' + hh + ':' + mm + '</li>';
 
         }
         else {

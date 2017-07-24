@@ -1,6 +1,6 @@
 
-var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
-
+// var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
+var university_path = "https://www.u-bordeaux.fr/formation/2016/PRMA_74/bio-informatique/enseignement/";
 /**
  * 2016 - 2020
  */
@@ -55,6 +55,8 @@ var course_data = {
     "visibility": "visible"
   },
   "4TBA804U": {
+    "short": "Plant Biotechnology",
+    "language": "French",
     "acronym": "BBP", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -64,13 +66,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBA804U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_plant1.jpg", 
     "semester": 8, 
     "title": "Biologie et Biotechnologies des Plantes", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBA806U": {
+    "short": "Plant Genetics",
+    "language": "French",
     "acronym": "Genepi", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -80,41 +84,106 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBA806U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_plant2.jpg", 
     "semester": 8, 
     "title": "G\u00e9n\u00e9tique, g\u00e9nomique et \u00e9pig\u00e9n\u00e9tique des plantes", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBA903U": {
-    "acronym": "QPGE", 
+    "short" : "Population Genetics",
+    "language": "English",
+    "acronym": "QPG", 
     "background_color": "#0a0a0a", 
     "contents": {
-      "en": "Coming soon.", 
+      "en": {
+        'program': `
+        <h4>Prerequisites</h4> 
+        <ul>
+        <li>First year of Master in Biological science</li>
+        <li>Basis Statistics and R, basis genetics and genomics.</li>
+        </ul>
+        <h4>Description</h4>
+        <p>This course is organized via in-class face-to-face, seminars, flipped classroom, 
+        Data and <em>in silico</em> study, work on dataset and professional seminars. Focus will be put on dataset work.
+        <br>Work on dataset will be co-coordinated with statistics and R
+            teaching. The project will be conducted on a dataset integrating population
+            diversity analysis and population structure, linkage
+            disequilibrium estimation and association genetics to detect
+            loci involved quantitative traits in crops.
+            </p>
+        <ul>
+        <li>Population genetics and genetic diversity</li>
+        <li>Haplotype structure</li>
+        <li>Domestication and genetic consequences</li>
+        <li>Linkage disequilibrium</li>
+        <li>Genetic variance, estimating variance components,
+        heritability</li>
+        <li>Genetic correlations</li>
+        <li>Association genetics, genomic selection</li>
+        <li>induced diversity TILLinG, natural diversity ecoTILLinG</li>
+        <li>Linking genetics, genomics and bioinformatics : from fine-
+        mapping to gene cloning; genotyping by sequencing.</li>
+        </ul>
+        `,
+        'objectives': `
+            Students will be able to :<ul>
+            <li>calculate and explain genetic diversity estimates, alleles
+            frequency</li>
+            <li>integrate theoretical and practical knowledge in detecting loci
+            involved in quantitative traits</li>
+            <li>integrate advanced statistics, bioinformatics, highthrough-put
+            phenotyping and genome data</li></ul>
+            `,
+        'skills':''
+      }, 
       "fr": "Bient&ocirc;t disponible."
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBA903U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_pop_genetics.jpg", 
     "semester": 9, 
     "title": "Quantitative and population genetics and evolution", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBA904U": {
-    "acronym": "PlantBr", 
+    "short" : "Plant Development",
+    "acronym": "PDR", 
+    'language': "English",
     "background_color": "#0a0a0a", 
     "contents": {
-      "en": "Coming soon.", 
+      "en": {
+        'program': `
+        <ul><li>Content of the course is related to different aspects of plant
+        development, and analysis of the mechanisms that control it.</li>
+        <li>The use of state of the art technologies in Molecular Biology,
+        (including omics), developmental biology, Cell Imaging
+        approaches to address various aspects of plant development,
+        reproduction and applications in plant Biotechnologies will be
+        highlighted by case studies from the literature.</li></ul>`,
+        'objectives': `
+        <ul><li>Most recent advances in plant development and reproduction
+        with up to date approaches including genetic, reverse genetic
+        and NGS based approaches.</li>
+        <li>Epigenetic mechanisms in plants and their functions in plant
+        development and reproduction.</li>
+        <li>Genetic and molecular mechanisms underlying plant
+        development control, and possible biotechnological
+        applications.</li>
+        <li>Case studies using recent article on various plant model to
+        analyse mechanisms controlling plant development.</li></ul>`,
+        'skills': ``
+        },
       "fr": "Bient&ocirc;t disponible."
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TBA904U", 
-    "image": "headinfo.jpg", 
+    "id": "4TBA904U - must be checked", 
+    "image": "ue_plant_dev.jpg", 
     "semester": 9, 
-    "title": "Plant Breeding", 
+    "title": "Plant Development and Reproduction", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
@@ -151,6 +220,8 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE801U": {
+    "short" : "Biodiversity",
+    'language': "French",
     "acronym": "BioDiv", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -160,13 +231,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE801U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_biodiversity.jpg", 
     "semester": 8, 
     "title": "Biodiversit\u00e9", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBE802U": {
+    "short" : "Terrestrial Ecosystems",
+    'language': "French",
     "acronym": "EcoTerr", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -176,13 +249,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE802U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_terrestrial.jpg", 
     "semester": 8, 
     "title": "Gestion, conservation et restauration des \u00e9cosyst\u00e8mes terrestres", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBE803U": {
+    "short" : "Aquatic Environments",
+    'language': "French",
     "acronym": "Aqua", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -192,13 +267,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE803U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_aquatic.jpg", 
     "semester": 8, 
     "title": "Gestion des milieux aquatiques continentaux", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TBE901U": {
+    "short" : "BioStatistics 2",
+    "language": "French",
     "acronym": "TDE++", 
     "background_color": "#D0A6FF", 
     "contents": {
@@ -208,13 +285,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE901U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_stats.jpg", 
     "semester": 9, 
     "title": "Traitement des donn\u00e9es environnementales - Perfectionnement", 
     "tracks": "0x70", 
     "visibility": "visible"
   }, 
   "4TBE902U": {
+    "short": "Evolutionary Ecology",
+    "language": "French",
     "acronym": "EcoComm", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -224,7 +303,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBE902U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_ecology.jpg", 
     "semester": 9, 
     "title": "Ecologie \u00e9volutive des communaut\u00e9s", 
     "tracks": "0x60", 
@@ -247,32 +326,89 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI701U": {
+    "apogee": "4TBI701U",
+    "short": "Image Processing",
+    "language": "English",
     "acronym": "IMAJS", 
     "background_color": "#7FD8BC", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        "program": `
+        <p>First, this course presents an overview of the main image processings and analyses 
+        completed by tutorials based on the &mdash; very popular in the biological community &mdash; ImageJ software.
+        Second, an introduction to the JavaScript programming language is performed in order to automate image processing tasks via ImageJ.</p>
+        <ul>
+        <li>Definition of a digital image: resolution, dynamic range</li>
+        <li>Image Enhancement: Brightness, Contrast, Noise</li>
+        <li>Convolution, filters, Fourier Transform</li>
+        <li>Analysis: Measurements, Shape descriptors</li>
+        </ul>`,
+        "objectives": `
+        <ul>
+        <li>Be familiar with the various concepts and tools for processing and analyzing digital images.</li>
+        <li>Understanding the main functions of ImageJ required to execute small scripts written in JavaScript for ImageJ.</li>
+        </ul>`,
+        "skills": ``
+      }, 
+      "fr": {
+        "program": `
+        <P> Tout d'abord, ce cours présente un aperçu des principaux traitements et analyses d'images numériques
+         complété par des travaux dirigés fondés sur le &mdash; très populaire dans la communauté biologique &mdash; logiciel ImageJ.
+         Puis, une introduction au langage de programmation JavaScript est effectuée afin d'automatiser les tâches de traitement d'images via ImageJ. </ P>
+         <ul>
+         <li> Définition d'une image numérique: résolution, plage dynamique </li>
+         <li> Amélioration de l'image: luminosité, contraste, bruit </li>
+         <li> Convolution, filtres, Transformée de Fourier </li>
+          <li>Analyse: Mesures, Descripteurs de forme </li>
+         </ul> `,
+         "objectives": `
+         <ul>
+         <li> Se familiariser avec les différents concepts et outils pour le traitement et l'analyse des images numériques. </li>
+         <li> Comprendre les principales fonctions d'ImageJ requises pour exécuter de petits scripts écrits en JavaScript pour ImageJ. </li>
+         </ul> `,
+        "skills": ``
+      }, 
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI701U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_imajs.jpg", 
     "semester": 7, 
     "title": "Initiation \u00e0 l'exploration d'images num\u00e9riques", 
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
   "4TBI702U": {
+    "apogee": "4TBI702U",
+    "short" : "Algo-Prog-USI",
     "acronym": "APU", 
+    "language": "English + French",
     "background_color": "#0095FF", 
     "contents": {
       "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "fr": {
+        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
+                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
+                "<li>Complexité : quelques notions à partir d'exemples</li>"+
+				"<li>Programmation : "+
+                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
+                "tests logiques, boucles.</li>"+
+				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
+                "ou de modules prédéfinis.</li></ul>",
+        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
+                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
+				"</ul>",
+		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
+                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
+                "</ul>"
+      }
     }, 
     "ects": 9, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI702U", 
-    "image": "headnetwork.jpg", 
+    "image": "ue_algoprogusi.jpg", 
     "semester": 7, 
     "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
     "tracks": "0x0F", 
@@ -288,7 +424,7 @@ var course_data = {
     "ects": 9, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI702U-Prog", 
-    "image": "headnetwork.jpg", 
+    "image": "ue_algoprogusi.jpg", 
     "semester": 7, 
     "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
     "tracks": "0x0F", 
@@ -304,45 +440,121 @@ var course_data = {
     "ects": 9, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI702U-USI", 
-    "image": "headnetwork.jpg", 
+    "image": "ue_algoprogusi.jpg", 
     "semester": 7, 
     "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
   "4TBI703U": {
+    "apogee": "4TBI703U",
+    "short": "Omics & Bioinformatics",
+    "language": "English",
     "acronym": "OBI", 
     "background_color": "#eef409", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        'program': `<p>In this course, we will explore the bioinformatician core activities ranging from the data mining using databases 
+        in molecular biology to the design of bioanalysis while exploiting methods dedicated to alignment sequences or phylogen. </p>
+        <p>The Big Data era will also be introduced regarding the massive production of omics data and will be linked to algorithmics 
+        approaches dedicated to the exploitation of biological data. </p>
+        <h4>References</h4>
+        <ul><li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
+        Oxford University Press; ISBN: 0199251967</li></ul>`, 
+        "objectives": `<ul>
+        <li>Use of classical software packages like EMBOSS (European Molecular Biology Open Software Suite) to develop new analytical pipelines.</li>
+        <li>Use and understanding of the main steps for building and analyzing phylogenetic studies.</li>
+        <li> The most common algorithms used in bioinformatics will be studied using Python programming language.</li>
+        </ul>`,
+        "skills": `<ul>
+        <li>Write a function in Python to solve a simple bioinformatics problem.</li>
+        <li>Knowing the various families of algorithms used in bioinformatics.</li>
+        <li>Understanding the various pipelines in phylogenetic projects</li></ul>`
+      },
+      "fr": {
+        "program": `<p> Dans ce cours, nous explorerons les activités principales de la bioinformatique allant de l'exploration de données à l'aide de bases de données
+        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement ou à la phylogénie. </p>
+        <P> L'ère des <em>Big Data</em> sera également présentée dans le cadre de la production massive de données omiques et sera liée aux approches algorithmiques 
+        dédiées à l'exploitation des données biologiques. </p>
+        <h4> Références </h4>
+        <ul> <li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
+        Oxford University Press; ISBN: 0199251967</li></ul> `,
+        "objectives": `<ul>
+        <li> Utilisation de logiciels classiques comme EMBOSS (European Molecular Biology Open Software Suite) pour développer de nouveaux pipelines analytiques. </li>
+        <li> Utilisation et compréhension des étapes principales pour la construction et l'analyse d'études phylogénétiques. </li>
+        <li> Les algorithmes les plus courants utilisés en bioinformatique seront étudiés à l'aide du langage de programmation Python. </li>
+        </ul> `,
+        "skills": `<ul>
+        <li> Savoir écrire en Python une fonction pour résoudre un problème de bioinformatique simple. </li>
+        <li> Connaître les grandes familles algorithmiques utilisés en bioinformatique.</li>
+        <li> Comprendre les différentes pipelines dans les projets phylogénétiques </li> </ul> `
+      }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI703U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_obi.jpg", 
     "semester": 7, 
     "title": "Omiques et BioInformatique", 
     "tracks": "0x0F", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_2289/omiques-et-bioinformatique"
   }, 
   "4TBI704U": {
+    "short": "English",
+    "language": "English",
     "acronym": "Anglais", 
     "background_color": "#a4ff80", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "fr": {
+        'program': "<ul>"+
+            "<li>Construire une communication scientifique orale en anglais à partir de l’analyse de documents "+
+            "de divers genres scientifiques et répondre en anglais aux questions sur ce travail.</li>"+
+            "<li>Prendre la parole et interagir dans des situations diverses.</li>"+
+            "<li>Renforcer la compréhension écrite et orale.</li>"+
+            "</ul>",
+        'objectives': "<ul>"+
+            "<li>Développer les compétences de communication scientifique pertinentes aux contextes "+
+            "professionnels de la recherche. </li>"+
+            "<li>Renforcer les 4 compétences langagières (compréhension "+
+            "et production de l’anglais, orale et écrite).</li></ul>",
+        'skills': "<ul><li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
+            "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
+            "<li>Techniques de compréhension de l’anglais scientifique</li>"+
+            "<liCommunication scientifique orale et écrite en anglais.</li>"+
+            "</ul>"
+      },
+      "en": {
+        'program': "<ul>"+
+            "<li> Building an oral scientific communication in English from the analysis of documents "+
+             "of various scientific genres and answer in English questions about this work. </li>" +
+             "<Li> Speaking and interacting in a variety of situations. </li>" +
+             "<Li> Strengthen written and oral comprehension. </li>" +
+            "</ul>",
+        'objectives': "<ul>"+
+            "<li>Developing scientific communication skills relevant to the professional contexts of research.</li>"+
+             "<li> Strengthen the four language skills (understanding and production of English, oral and written).</li>" + 
+             "</ul>",
+        'skills': "<ul><li> English language skills: from and depending on the initial level to " + 
+         "<em>Level B2</em> and beyond according to the criteria of the Common European Framework of Reference. </li>" +
+         "<li> Techniques for understanding scientific English </li>" +
+         "<li>Oral and written scientific communication in English. </li>" +
+         "</ul>"
+      }
     }, 
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI704U", 
-    "image": "headlondon.jpg", 
+    "image": "ue_english.jpg", 
     "semester": 7, 
     "title": "Anglais", 
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
   "4TBI801U": {
+    "apogee": "4TBI801U",
+    "short": "Algo-Prog 2",
+    "language": "French",
     "acronym": "AlgoPrg2", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -352,13 +564,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI801U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_algoprog2.jpg", 
     "semester": 8, 
     "title": "Algorithmique et Programmation Avanc\u00e9es", 
     "tracks": "0x01", 
     "visibility": "visible"
   }, 
   "4TBI802U": {
+    "short": "R&D Project",
+    "language": "English or French depending of the tutor",
     "acronym": "CPRD", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -368,13 +582,15 @@ var course_data = {
     "ects": 9, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI802U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_project_s8.jpg", 
     "semester": 8, 
     "title": "Conception d'un Projet de Recherche et de D\u00e9veloppement", 
     "tracks": "0x07", 
     "visibility": "visible"
   }, 
   "4TBI803U": {
+    "short": "Databases",
+    "language": "French",
     "acronym": "BDD", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -384,13 +600,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI803U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_datacenter.jpg", 
     "semester": 8, 
     "title": "Bases de Donn\u00e9es : fondements et applications", 
     "tracks": "0x07", 
     "visibility": "visible"
   }, 
   "4TBI804U": {
+    "short": "NGS and Tools",
+    "language": "French",
     "acronym": "NGS", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -400,13 +618,15 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI804U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_ngs.jpg", 
     "semester": 8, 
     "title": "Nouvelles G\u00e9n\u00e9rations de Sequen\u00e7age", 
     "tracks": "0x07", 
     "visibility": "visible"
   }, 
   "4TBI805U": {
+    "short": "Video & Dynamic Process",
+    "language": "English or French depending of the teacher",
     "acronym": "ViMod", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -416,29 +636,55 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI805U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_videos.jpg", 
     "semester": 8, 
     "title": "Traitement de Vid\u00e9os et Mod\u00e9lisation des Processus Dynamiques", 
     "tracks": "0x70", 
     "visibility": "visible"
   }, 
   "4TBI901U": {
+    "short": "Structural Bioinformatics",
+    "language": "French or English depending of the audience",
     "acronym": "StrubiGL", 
     "background_color": "#7FD8BC", 
     "contents": {
-      "en": "Coming soon.", 
+      "en": {
+        "program": `
+        <h4>Prerequisites</h4>
+        <ul><li>Knowledge of main algorithms used in bioinformatics (e.g. 2D exact alignments: Needleman & Wunsch, Smith & Waterman).</li>
+        <li>Programming skill in JavaScript programming language is highly recommended.</li></ul>
+        <h4>Protein Structure</h4> 
+        <ul>
+        <li>Exploring the PDB file format.</li>
+        <li>Secondary Structures: DSSP.</li>
+        <li>3D Alignments</li> 
+        </ul>
+        <h4>Visualization: WebGL 2.x</h4> 
+        <ul>
+        <li>Principles of hardware-accelerated 2D and 3D graphics</li>
+        <li>WebGL: Graphics primitives, texture, shaders &mdash; vector and fragment &mdash; , GLSL, </li>
+        <li> Via a collaborative programming project, in-depth look to the ins and outs of webgl 2.x</li>
+        </ul>
+        `,
+        'objectives': `<ul><li>Develop his/her own strategies for solving a problem (<em>Learning how to learn</em>).</li>
+        <li>Improve your knowledge of low-level aspect of computer science (use of hardware-accelerated graphics).</li>
+        </ul>`,
+        "skills": ``
+      }, 
       "fr": "Bient&ocirc;t disponible."
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI901U", 
-    "image": "headprot.jpg", 
+    "image": "ue_strubigl.jpg", 
     "semester": 9, 
     "title": "Bioinformatique Structurale", 
     "tracks": "0x61", 
     "visibility": "visible"
   }, 
   "4TBI902U": {
+    "short": "Bioinformatics Sector",
+    "language": "French",
     "acronym": "FILBI", 
     "background_color": "#A4FF80", 
     "contents": {
@@ -448,13 +694,15 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI902U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_sector.jpg", 
     "semester": 9, 
     "title": "Fili\u00e8res de la Bioinformatique", 
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
   "4TBI903U": {
+    "short": "Software Engineering",
+    "language": "French",
     "acronym": "ProjLog", 
     "background_color": "#009558", 
     "contents": {
@@ -464,13 +712,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI903U", 
-    "image": "headproj.jpg", 
+    "image": "ue_project_dev.jpg", 
     "semester": 9, 
     "title": "G\u00e9nie Logiciel et Gestion de Projet", 
     "tracks": "0x61", 
     "visibility": "visible"
   }, 
   "4TBI904U": {
+    "short": "Data Science",
+    "language": "French",
     "acronym": "DEA", 
     "background_color": "#ffbc00", 
     "contents": {
@@ -480,13 +730,15 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI904U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_data.jpg", 
     "semester": 9, 
     "title": "Donn\u00e9es: De l'Entrep\u00f4t \u00e0 l'Analyse", 
     "tracks": "0x07", 
     "visibility": "visible"
   }, 
   "4TBI905U": {
+    "short": "Research & Dev",
+    "language": "French",
     "acronym": "IRD", 
     "background_color": "#cef6ce", 
     "contents": {
@@ -496,13 +748,15 @@ var course_data = {
     "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI905U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_ird.jpg", 
     "semester": 9, 
     "title": "Initiation \u00e0 la Recherche et au D\u00e9veloppement", 
     "tracks": "0x07", 
     "visibility": "visible"
   }, 
   "4TBI906U": {
+    "short" : "Modeling Cell",
+    "language": "French",
     "acronym": "MOCELL", 
     "background_color": "#EEF409", 
     "contents": {
@@ -512,7 +766,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI906U", 
-    "image": "headbio.jpg", 
+    "image": "ue_mocell.jpg", 
     "semester": 9, 
     "title": "Mod\u00e9lisation qualitative et quantitative de la cellule", 
     "tracks": "0x70", 
@@ -567,22 +821,47 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TDE901U": {
+    "short": "GIS: Geo. Info. Systems",
+    "language": "french",
     "acronym": "SIG", 
     "background_color": "#0a0a0a", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        "program": `French version available`,
+        "objectives": `Coming soon`,
+        "skills": `Coming soon`
+      }, 
+      "fr": {
+              "program": `<p>Cette formation est divisée en deux modules : SIG 1 & SIG 2 (Modules 4TMR003U & 4TMR004U). SIG 1 est en enseignement théorique et SIG 2 pratique basé sur la réalisation de projets SIG. Cet enseignement est organisé en deux semaines.</p>
+<ul><li>Présentation du module - Manipulations de base - Géodésie</li>
+<li>Les données vectorielles - les requêtes</li>
+<li>Création et traitement des rasters</li>
+<li>Modélisation hydrologique & Model builder</li>
+<li>Les données multi-dimensionnelles</li>
+<li>Le géoréférencement & les outils d'édition</li>
+<li>Géotraitement & Analyse spatiale</li>
+<li>Le système GPS - Levé topographique par GPS</li>
+<li>Cartographie nomade</li>
+</ul>
+<p><a href="http://www.geocean.net/wikisig/doku.php?id=master:start">Plus de détails...</a></p>
+<p>La deuxième semaine est constituée par la réalisation d'un projet SIG. Pour les étudiants de l'Ecole doctorale et des Masters recherche ces sujets porteront obligatoirement sur leurs sujets de thèse ou sur leurs stages de Master 2. Pour les étudiants du master pro les sujets seront choisis en fonctions de leurs stages en entreprise ou de leurs projets professionnels.</p>`,
+              "objectives": `Au terme de cette formation vous serez en mesure de gérer un projet cartographique depuis <ul><li>l'acquisition des données sur le terrain,</li> <li>la prise en compte des informations géodésiques,</li> <li>le traitement des données via un Système d'Information Géographique (QGIS, ArcGIS), </li><li>le couplage à d'autres informations (photos aériennes, images satellites…) et </li><li>la réalisation de documents cartographiques publiables.</li></ul>`,
+              "skills": ``
+      }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TDE901U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_gis.jpg", 
     "semester": 9, 
     "title": "Syst\u00e8me d'information G\u00e9ographique", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TDE902U": {
+    "short": "Health Innovation",
+    "language": "french",
+    "apogee": "4TDE902U",
     "acronym": "InnovTech", 
     "background_color": "#0a0a0a", 
     "contents": {
@@ -592,13 +871,16 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TDE902U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_health.jpg", 
     "semester": 9, 
     "title": "Innovations Biotechnologies et Sant\u00e9", 
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
   "4TEC701U": {
+    "apogee": "4TEC701U",
+    "short": "BioStatistics",
+    "language": "English (practicals) + French (lectures).",
     "acronym": "TDE", 
     "background_color": "#D0A6FF", 
     "contents": {
@@ -608,12 +890,87 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TEC701U", 
-    "image": "headinfo.jpg", 
+    "image": "ue_biostats.jpg", 
     "semester": 7, 
     "title": "Traitement des donn\u00e9es environnementales", 
     "tracks": "0x0F", 
     "visibility": "visible"
-  }
+  },
+    "BILBAO_001": {
+    "short": "NGS & Methods",
+    "language": "English",
+    "acronym": "NGS", 
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 5, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "None", 
+    "image": "ue_ngs.jpg", 
+    "semester": 8, 
+    "title": "Introduction to NGS and Methods", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  },
+    "BILBAO_002": {
+    "apogee": "None",
+    "short": "Softwares in Omics",
+    "language": "English",
+    "acronym": "SMOW", 
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 5, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "None", 
+    "image": "ue_soft_omics.jpg", 
+    "semester": 8, 
+    "title": "Softwares and Methods in Omics World", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  },
+    "BILBAO_003": {
+    "apogee": "None",
+    "short": "Applications",
+    "language": "English",
+    "acronym": "BBE", 
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 5, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "None", 
+    "image": "ue_ngs_method.jpg", 
+    "semester": 8, 
+    "title": "Bioinformatics for Biomedecine or Environment", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  },
+    "BILBAO_004": {
+    "apogee": "None",
+    "short": "Internship",
+    "language": "English",
+    "acronym": "Internship", 
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 12, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "None", 
+    "image": "ue_internship.jpg", 
+    "semester": 8, 
+    "title": "Internship", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }  
 };
 
 
@@ -2165,6 +2522,52 @@ function createCourseModal(ID) {
     html += '<div class="modal-dialog">';
     html +='<div class="modal-content"><div class="modal-header">';
     html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
+    html += '<h4 class="modal-title">'+the_course.short;
+    html += '<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span>';
+    html += '</h4>';
+    html += '</div>'; // modal-header
+    html += '<div class="modal-body">';
+    html += '<div style="width:570px;height:80px;overflow:hidden">';
+    html += '<img class="img-responsive" style="margin-top:-100px" src="img/'+image+'" alt="">';
+    html += '</div>';
+    html += '<h2>'+ the_course.title +'</h2>';
+    html += '<ul class="nav nav-tabs">';
+    html += '<li class="active"><a href="#en" data-toggle="tab">En</a></li>';
+    html += '<li><a href="#fr" data-toggle="tab">Fr</a></li>';
+    html += '<li><a href="#id" data-toggle="tab"><i class="fa fa-gears"></i></a></li></ul>';
+    html += '<div class="tab-content clearfix">',
+    html += '<div class="tab-pane active" id="en">'
+    html += '<h3>Content</h3>' + (the_course.contents.en.program || 'Coming soon');
+    html += '<h3>Objectives</h3>' + (the_course.contents.en.objectives || 'Coming soon');
+    html += '<h3>Skills</h3>' + (the_course.contents.en.skills || 'Coming soon');
+    html += '</div>';
+    html += '<div class="tab-pane" id="fr">'
+    html += '<h3>Programme</h3>' + (the_course.contents.fr.program || 'Bientôt disponible');
+    html += '<h3>Objectifs</h3>' + (the_course.contents.fr.objectives || 'Bientôt disponible');
+    html += '<h3>Compétences acquises</h3>' + (the_course.contents.fr.skills || 'Bientôt disponible');
+    html += "</div>";
+    html += '<div class="tab-pane" id="id">'
+    html += '<br><dl class="dl-horizontal">';
+    html += '<dt>Title:</dt><dd>'+ the_course.title +'</dd>';
+    html += '<dt>Short Title:</dt><dd>'+ the_course.short +'</dd>';
+    html += '<dt>Acronym:</dt><dd>'+ the_course.acronym +'</dd>';
+    html += '<dt>Language:</dt><dd>'+ the_course.language +'</dd>';
+    html += '<dt>Credits:</dt><dd>'+ the_course.ects +' ECTS</dd>';
+    html += '<dt>Apogee:</dt><dd>'+ the_course.id +'</dd>';
+    html += '</dl>';
+    html += "</div>";
+    html += "</div><hr>";
+    html += '<a class="pull-right" href="' + (university_path + the_course.html) + '" target="_blank"> <i class="fa fa-university fa-2x"></i></a>&nbsp;&nbsp;';
+    // html += '<button class="pull-right" href="' + (university_path + the_course.html) + '" target="_blank"> Moodle</button>&nbsp;&nbsp;<br>';
+    html += '</div>'; // modal-body
+    html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
+    html += '</div>'; // modal-content
+    html += '</div>'; // modal-dialog
+
+/*    var html = '';
+    html += '<div class="modal-dialog">';
+    html +='<div class="modal-content"><div class="modal-header">';
+    html += '<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>';
     html += '<h4 class="modal-title">'+the_course.title;
     html += '<span class="pull-right"><i class="fa fa-graduation-cap"> </i>&nbsp;'+the_course.ects+' ECTS&nbsp;&nbsp;&nbsp;</span>';
     html += '</h4>';
@@ -2178,6 +2581,7 @@ function createCourseModal(ID) {
     html += '<div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>';
     html += '</div>'; // modal-content
     html += '</div>'; // modal-dialog
+*/
 
     return html;
 }

@@ -93,7 +93,7 @@ var course_data = {
   "4TBA903U": {
     "short" : "Population Genetics",
     "language": "English",
-    "acronym": "QPGE", 
+    "acronym": "QPG", 
     "background_color": "#0a0a0a", 
     "contents": {
       "en": {
@@ -150,7 +150,7 @@ var course_data = {
   }, 
   "4TBA904U": {
     "short" : "Plant Development",
-    "acronym": "PlantDev", 
+    "acronym": "PDR", 
     'language': "English",
     "background_color": "#0a0a0a", 
     "contents": {
@@ -363,7 +363,7 @@ var course_data = {
          </ul> `,
          "objectives": `
          <ul>
-         <li> Se familiariseravec les différents concepts et outils pour le traitement et l'analyse des images numériques. </li>
+         <li> Se familiariser avec les différents concepts et outils pour le traitement et l'analyse des images numériques. </li>
          <li> Comprendre les principales fonctions d'ImageJ requises pour exécuter de petits scripts écrits en JavaScript pour ImageJ. </li>
          </ul> `,
         "skills": ``
