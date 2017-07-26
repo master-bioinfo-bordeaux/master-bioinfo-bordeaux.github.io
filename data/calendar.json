@@ -1,15 +1,4 @@
 {
-  "E20F20170726T083523079@import": {
-    "ID": "E20F20170726T083523079@import", 
-    "acronym": "Evt::Conference", 
-    "apogee": "4TBIMEET", 
-    "date_end": "2017-09-01T12:00", 
-    "date_start": "2017-09-01T10:00", 
-    "lecturer": "------", 
-    "location": "None::None@Room_000", 
-    "title": "Rentr&eacute;e", 
-    "type": "Conference"
-  }, 
   "C20F20170216T092500071@jeesay": {
     "ID": "C20F20170216T092500071@jeesay", 
     "acronym": "S10::Stage", 
@@ -46,6 +35,18 @@
     "title": "None", 
     "type": "Cours+TD"
   }, 
+  "C26020170726T092829139@import": {
+    "ID": "C26020170726T092829139@import", 
+    "acronym": "S09::QPG", 
+    "apogee": "4TBA903U", 
+    "date_end": "2017-09-22T11:00", 
+    "date_start": "2017-09-22T08:00", 
+    "group": "All", 
+    "lecturer": "Schurdi-Levraud V", 
+    "location": "None::None@Room_000", 
+    "title": "None", 
+    "type": "Cours+TD"
+  }, 
   "C26120170726T085515769@import": {
     "ID": "C26120170726T085515769@import", 
     "acronym": "S09::StrubiGL", 
@@ -72,6 +73,17 @@
     "title": "Jour F&eacute;ri&eacute; - Bank Holidays", 
     "type": "Vacances", 
     "year": "3"
+  }, 
+  "E20F20170726T083523079@import": {
+    "ID": "E20F20170726T083523079@import", 
+    "acronym": "Evt::Conference", 
+    "apogee": "4TBIMEET", 
+    "date_end": "2017-09-01T12:00", 
+    "date_start": "2017-09-01T10:00", 
+    "lecturer": "------", 
+    "location": "None::None@Room_000", 
+    "title": "Rentr&eacute;e", 
+    "type": "Conference"
   }
 }
 
