@@ -34,6 +34,30 @@
     "title": "None", 
     "type": "Cours+TD"
   }, 
+  "C26020170726T085515769@import": {
+    "ID": "C26020170726T085515769@import", 
+    "acronym": "S09::QPG", 
+    "apogee": "4TBA903U", 
+    "date_end": "2017-09-22T11:00", 
+    "date_start": "2017-09-22T08:00", 
+    "group": "All", 
+    "lecturer": "Schurdi-Levraud V", 
+    "location": "None::None@Room_000", 
+    "title": "None", 
+    "type": "Cours+TD"
+  }, 
+  "C26120170726T085515769@import": {
+    "ID": "C26120170726T085515769@import", 
+    "acronym": "S09::StrubiGL", 
+    "apogee": "4TBI901U", 
+    "date_end": "2017-09-22T11:00", 
+    "date_start": "2017-09-22T09:00", 
+    "group": "All", 
+    "lecturer": "Taveau JC", 
+    "location": "None::None@Room_000", 
+    "title": "None", 
+    "type": "Cours+TD"
+  }, 
   "E17220170216T093000000@jeesay": {
     "ID": "E17220170216T093000000@jeesay", 
     "acronym": "Evt::Holidays", 
