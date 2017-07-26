@@ -29,6 +29,36 @@
     "year": "3"
   }, 
 
+"E30720170726T134849025@import": {
+      "ID"         :"E30720170726T134849025@import",
+      "apogee"     :"4TBIVACA",
+      "acronym"    :"Evt::Holidays",
+      "date_start" :"2017-10-30T00:00",
+      "date_end"   :"2017-11-03T00:00",
+      "lecturer"   :"------",
+      "location"   :"None::None@Room_000",
+      "group"      :"All",
+      "type"       :"Vacances",
+      "year"       :"3",
+      "tracks"     :"0x07",
+      "title"      :"Vacances d’automne | Fall Holidays",
+      "description":"" },
+"E30720170726T134849040@import": {
+      "ID"         :"E30720170726T134849040@import",
+      "apogee"     :"4TBIVACA",
+      "acronym"    :"Evt::Holidays",
+      "date_start" :"2017-12-25T00:00",
+      "date_end"   :"2018-01-05T00:00",
+      "lecturer"   :"------",
+      "location"   :"None::None@Room_000",
+      "group"      :"All",
+      "type"       :"Vacances",
+      "year"       :"3",
+      "tracks"     :"0x07",
+      "title"      :"Vacances de fin d’année | End-of-year Holidays",
+      "description":"" },
+      
+      
 
 "E30F20170726T134129001@import": {
       "ID"         :"E30F20170726T134129001@import",
