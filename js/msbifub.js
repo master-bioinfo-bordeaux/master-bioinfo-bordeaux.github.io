@@ -94,7 +94,7 @@ var course_data = {
     "short" : "Population Genetics",
     "language": "English",
     "acronym": "QPG", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#0dc623", 
     "contents": {
       "en": {
         'program': `
