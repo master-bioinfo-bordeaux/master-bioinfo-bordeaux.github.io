@@ -28,7 +28,6 @@
     "type": "Vacances", 
     "year": "3"
   }, 
-  
 
 "E30F20170726T132251860@import": {
       "ID"         :"E30F20170726T132251860@import",
@@ -379,7 +378,7 @@
       "group"     :"All",
       "type"      :"Cours+TD",
       "year"      :"2",
-      "tracks"    :"0x60"},
+      "tracks"    :"0x60"}
 }
 
 
