@@ -29,8 +29,9 @@
     "year": "3"
   }, 
 
-"E30F20170726T132251860@import": {
-      "ID"         :"E30F20170726T132251860@import",
+
+"E30F20170726T134129001@import": {
+      "ID"         :"E30F20170726T134129001@import",
       "apogee"     :"4TBIMEET",
       "acronym"    :"Evt::Conference",
       "date_start" :"2017-09-04T10:00",
@@ -43,8 +44,8 @@
       "tracks"     :"0x0F",
       "title"      :"Rentrée M1 et M2",
       "description":"" },
-"C26020170726T132251863@import": {
-      "ID"        :"C26020170726T132251863@import",
+"C26020170726T134129002@import": {
+      "ID"        :"C26020170726T134129002@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-09-12T16:00",
@@ -55,8 +56,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251864@import": {
-      "ID"        :"C26020170726T132251864@import",
+"C26020170726T134129003@import": {
+      "ID"        :"C26020170726T134129003@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-09-13T08:00",
@@ -67,8 +68,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C20F20170726T132251866@import": {
-      "ID"        :"C20F20170726T132251866@import",
+"C20F20170726T134129004@import": {
+      "ID"        :"C20F20170726T134129004@import",
       "apogee"    :"4TBI001U",
       "acronym"   :"S10::Stage",
       "date_start":"2017-09-14T08:00",
@@ -79,8 +80,8 @@
       "type"      :"Soutenance",
       "year"      :"2",
       "tracks"    :"0x0F"},
-"C20F20170726T132251867@import": {
-      "ID"        :"C20F20170726T132251867@import",
+"C20F20170726T134129005@import": {
+      "ID"        :"C20F20170726T134129005@import",
       "apogee"    :"4TBI001U",
       "acronym"   :"S10::Stage",
       "date_start":"2017-09-15T08:00",
@@ -91,8 +92,8 @@
       "type"      :"Soutenance",
       "year"      :"2",
       "tracks"    :"0x0F"},
-"C26020170726T132251867@import": {
-      "ID"        :"C26020170726T132251867@import",
+"C26020170726T134129006@import": {
+      "ID"        :"C26020170726T134129006@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-09-18T08:00",
@@ -103,8 +104,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251868@import": {
-      "ID"        :"C26020170726T132251868@import",
+"C26020170726T134129007@import": {
+      "ID"        :"C26020170726T134129007@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-09-20T16:00",
@@ -115,8 +116,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251872@import": {
-      "ID"        :"C26020170726T132251872@import",
+"C26020170726T134129008@import": {
+      "ID"        :"C26020170726T134129008@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-09-22T09:00",
@@ -127,8 +128,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26120170726T132251873@import": {
-      "ID"        :"C26120170726T132251873@import",
+"C26120170726T134129009@import": {
+      "ID"        :"C26120170726T134129009@import",
       "apogee"    :"4TBI901U",
       "acronym"   :"S09::StrubiGL",
       "date_start":"2017-09-22T09:00",
@@ -139,8 +140,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x61"},
-"C26020170726T132251874@import": {
-      "ID"        :"C26020170726T132251874@import",
+"C26020170726T134129010@import": {
+      "ID"        :"C26020170726T134129010@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-09-22T08:00",
@@ -151,8 +152,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251873@import": {
-      "ID"        :"C26020170726T132251873@import",
+"C26020170726T134129011@import": {
+      "ID"        :"C26020170726T134129011@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-09-25T08:00",
@@ -163,8 +164,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251873@import": {
-      "ID"        :"C26020170726T132251873@import",
+"C26020170726T134129012@import": {
+      "ID"        :"C26020170726T134129012@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-09-27T08:00",
@@ -175,8 +176,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251873@import": {
-      "ID"        :"C26020170726T132251873@import",
+"C26020170726T134129013@import": {
+      "ID"        :"C26020170726T134129013@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-10-02T08:00",
@@ -187,8 +188,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251874@import": {
-      "ID"        :"C26020170726T132251874@import",
+"C26020170726T134129014@import": {
+      "ID"        :"C26020170726T134129014@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-10-04T08:00",
@@ -199,8 +200,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251874@import": {
-      "ID"        :"C26020170726T132251874@import",
+"C26020170726T134129015@import": {
+      "ID"        :"C26020170726T134129015@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-10-09T08:00",
@@ -211,8 +212,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251875@import": {
-      "ID"        :"C26020170726T132251875@import",
+"C26020170726T134129016@import": {
+      "ID"        :"C26020170726T134129016@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-10-11T14:00",
@@ -223,8 +224,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251875@import": {
-      "ID"        :"C26020170726T132251875@import",
+"C26020170726T134129017@import": {
+      "ID"        :"C26020170726T134129017@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-10-11T08:00",
@@ -235,8 +236,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251875@import": {
-      "ID"        :"C26020170726T132251875@import",
+"C26020170726T134129018@import": {
+      "ID"        :"C26020170726T134129018@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-10-16T08:00",
@@ -247,8 +248,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251875@import": {
-      "ID"        :"C26020170726T132251875@import",
+"C26020170726T134129019@import": {
+      "ID"        :"C26020170726T134129019@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-10-18T14:00",
@@ -259,8 +260,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251876@import": {
-      "ID"        :"C26020170726T132251876@import",
+"C26020170726T134129020@import": {
+      "ID"        :"C26020170726T134129020@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-10-20T14:00",
@@ -271,8 +272,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251876@import": {
-      "ID"        :"C26020170726T132251876@import",
+"C26020170726T134129021@import": {
+      "ID"        :"C26020170726T134129021@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-10-23T08:00",
@@ -283,8 +284,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251876@import": {
-      "ID"        :"C26020170726T132251876@import",
+"C26020170726T134129022@import": {
+      "ID"        :"C26020170726T134129022@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-10-25T14:00",
@@ -295,8 +296,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251879@import": {
-      "ID"        :"C26020170726T132251879@import",
+"C26020170726T134129023@import": {
+      "ID"        :"C26020170726T134129023@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-11-06T08:00",
@@ -307,8 +308,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251880@import": {
-      "ID"        :"C26020170726T132251880@import",
+"C26020170726T134129024@import": {
+      "ID"        :"C26020170726T134129024@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-11-13T08:00",
@@ -319,8 +320,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251881@import": {
-      "ID"        :"C26020170726T132251881@import",
+"C26020170726T134129025@import": {
+      "ID"        :"C26020170726T134129025@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-11-20T08:00",
@@ -331,8 +332,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251886@import": {
-      "ID"        :"C26020170726T132251886@import",
+"C26020170726T134129026@import": {
+      "ID"        :"C26020170726T134129026@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-11-27T08:00",
@@ -343,8 +344,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251886@import": {
-      "ID"        :"C26020170726T132251886@import",
+"C26020170726T134129027@import": {
+      "ID"        :"C26020170726T134129027@import",
       "apogee"    :"4TBA904U",
       "acronym"   :"S09::PDR",
       "date_start":"2017-11-28T14:00",
@@ -355,8 +356,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251887@import": {
-      "ID"        :"C26020170726T132251887@import",
+"C26020170726T134129028@import": {
+      "ID"        :"C26020170726T134129028@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-11-30T08:00",
@@ -367,8 +368,8 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"},
-"C26020170726T132251888@import": {
-      "ID"        :"C26020170726T132251888@import",
+"C26020170726T134129029@import": {
+      "ID"        :"C26020170726T134129029@import",
       "apogee"    :"4TBA903U",
       "acronym"   :"S09::QPG",
       "date_start":"2017-12-04T08:00",
@@ -379,6 +380,9 @@
       "type"      :"Cours+TD",
       "year"      :"2",
       "tracks"    :"0x60"}
+      
+      
+
 }
 
 
