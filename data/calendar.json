@@ -36,12 +36,12 @@
   }, 
   "C26020170726T085515769@import": {
     "ID": "C26020170726T085515769@import", 
-    "acronym": "S09::QPG", 
-    "apogee": "4TBA903U", 
-    "date_end": "2017-09-22T11:00", 
-    "date_start": "2017-09-22T08:00", 
+    "acronym": "S09::PDR", 
+    "apogee": "4TBA904U", 
+    "date_end": "2017-09-22T12:00", 
+    "date_start": "2017-09-22T09:00", 
     "group": "All", 
-    "lecturer": "Schurdi-Levraud V", 
+    "lecturer": "------", 
     "location": "None::None@Room_000", 
     "title": "None", 
     "type": "Cours+TD"
