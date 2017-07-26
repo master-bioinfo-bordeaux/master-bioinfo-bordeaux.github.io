@@ -152,7 +152,7 @@ var course_data = {
     "short" : "Plant Development",
     "acronym": "PDR", 
     'language': "English",
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6a00", 
     "contents": {
       "en": {
         'program': `
