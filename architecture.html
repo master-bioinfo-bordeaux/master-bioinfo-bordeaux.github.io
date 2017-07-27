@@ -413,7 +413,7 @@
 							    <img class="img-responsive" src="img/ue_oop.jpg" alt="">
 							    <figcaption>
 								    <h5>Object Programming</h5>
-								    <a href="who_are_we.html" class="btn btn-primary btn-lg">More...</a>
+								    <a data-toggle="modal" onclick="createCourseContent('4TBC801U')" class="btn btn-primary btn-lg">More...</a>
 							    </figcaption><!-- /figcaption -->
 						    </figure><!-- /figure -->
 			        	</div><!-- /grid-mask -->
@@ -642,7 +642,7 @@
 							    <img class="img-responsive" src="img/ue_oop2.jpg" alt="">
 							    <figcaption>
 								    <h5>Object Programming 2</h5>
-								    <a href="who_are_we.html" class="btn btn-primary btn-lg">More...</a>
+								    <a  data-toggle="modal" onclick="createCourseContent('4TBC901U')" class="btn btn-primary btn-lg">More...</a>
 							    </figcaption><!-- /figcaption -->
 						    </figure><!-- /figure -->
 			        	</div><!-- /grid-mask -->
@@ -875,6 +875,7 @@
             html += '<div class="tab-pane" id="id">'
             html += '<br><dl class="dl-horizontal">';
             html += '<dt>Title:</dt><dd>'+ the_course.title +'</dd>';
+            html += (the_course.coordinators) ? `<dt>Coordinator(s):</dt><dd>${the_course.coordinators}</dd>` : '';
             html += '<dt>Short Title:</dt><dd>'+ the_course.short +'</dd>';
             html += '<dt>Acronym:</dt><dd>'+ the_course.acronym +'</dd>';
             html += '<dt>Language:</dt><dd>'+ the_course.language +'</dd>';
