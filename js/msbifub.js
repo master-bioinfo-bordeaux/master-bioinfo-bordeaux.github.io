@@ -970,7 +970,7 @@ var course_data = {
     "language": "french",
     "apogee": "4TDE902U",
     "acronym": "InnovTech", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#00e6f7", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
