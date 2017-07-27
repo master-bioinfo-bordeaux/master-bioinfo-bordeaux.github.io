@@ -54,6 +54,259 @@ var course_data = {
     "tracks": "0x00", 
     "visibility": "visible"
   },
+  "4TBI701U": {
+    "apogee": "4TBI701U",
+    "short": "Image Processing",
+    "language": "English",
+    "acronym": "IMAJS", 
+    "coordinators": 'Taveau JC',
+    "background_color": "#7FD8BC", 
+    "contents": {
+      "en": {
+        "program": `
+        <p>First, this course presents an overview of the main image processings and analyses 
+        completed by tutorials based on the &mdash; very popular in the biological community &mdash; ImageJ software.
+        Second, an introduction to the JavaScript programming language is performed in order to automate image processing tasks via ImageJ.</p>
+        <ul>
+        <li>Definition of a digital image: resolution, dynamic range</li>
+        <li>Image Enhancement: Brightness, Contrast, Noise</li>
+        <li>Convolution, filters, Fourier Transform</li>
+        <li>Analysis: Measurements, Shape descriptors</li>
+        </ul>`,
+        "objectives": `
+        <ul>
+        <li>Be familiar with the various concepts and tools for processing and analyzing digital images.</li>
+        <li>Understanding the main functions of ImageJ required to execute small scripts written in JavaScript for ImageJ.</li>
+        </ul>`,
+        "skills": ``
+      }, 
+      "fr": {
+        "program": `
+        <P> Tout d'abord, ce cours présente un aperçu des principaux traitements et analyses d'images numériques
+         complété par des travaux dirigés fondés sur le &mdash; très populaire dans la communauté biologique &mdash; logiciel ImageJ.
+         Puis, une introduction au langage de programmation JavaScript est effectuée afin d'automatiser les tâches de traitement d'images via ImageJ. </ P>
+         <ul>
+         <li> Définition d'une image numérique: résolution, plage dynamique </li>
+         <li> Amélioration de l'image: luminosité, contraste, bruit </li>
+         <li> Convolution, filtres, Transformée de Fourier </li>
+          <li>Analyse: Mesures, Descripteurs de forme </li>
+         </ul> `,
+         "objectives": `
+         <ul>
+         <li> Se familiariser avec les différents concepts et outils pour le traitement et l'analyse des images numériques. </li>
+         <li> Comprendre les principales fonctions d'ImageJ requises pour exécuter de petits scripts écrits en JavaScript pour ImageJ. </li>
+         </ul> `,
+        "skills": ``
+      }, 
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI701U", 
+    "image": "ue_imajs.jpg", 
+    "semester": 7, 
+    "title": "Initiation \u00e0 l'exploration d'images num\u00e9riques", 
+    "tracks": "0x0F", 
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_3586/initiation-a-l-exploration-d-images-numeriques"
+  }, 
+  "4TBI702U": {
+    "apogee": "4TBI702U",
+    "short" : "Algo-Prog-USI",
+    "acronym": "APU", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
+                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
+                "<li>Complexité : quelques notions à partir d'exemples</li>"+
+				"<li>Programmation : "+
+                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
+                "tests logiques, boucles.</li>"+
+				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
+                "ou de modules prédéfinis.</li></ul>",
+        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
+                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
+				"</ul>",
+		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
+                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
+  }, 
+  "4TBI702U-Prog": {
+    "acronym": "APU-Prog", 
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U-Prog", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI702U-USI": {
+    "acronym": "APU-USI", 
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U-USI", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
+  "4TBI703U": {
+    "apogee": "4TBI703U",
+    "short": "Omics & Bioinformatics",
+    "language": "English",
+    "acronym": "OBI", 
+    "coordinators": 'Taveau JC, Th&eacute;bault P',
+    "background_color": "#eef409", 
+    "contents": {
+      "en": {
+        'program': `<p>In this course, we will explore the bioinformatician core activities ranging from the data mining using databases 
+        in molecular biology to the design of bioanalysis while exploiting methods dedicated to alignment sequences or phylogen. </p>
+        <p>The Big Data era will also be introduced regarding the massive production of omics data and will be linked to algorithmics 
+        approaches dedicated to the exploitation of biological data. </p>
+        <h4>References</h4>
+        <ul><li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
+        Oxford University Press; ISBN: 0199251967</li></ul>`, 
+        "objectives": `<ul>
+        <li>Use of classical software packages like EMBOSS (European Molecular Biology Open Software Suite) to develop new analytical pipelines.</li>
+        <li>Use and understanding of the main steps for building and analyzing phylogenetic studies.</li>
+        <li> The most common algorithms used in bioinformatics will be studied using Python programming language.</li>
+        </ul>`,
+        "skills": `<ul>
+        <li>Write a function in Python to solve a simple bioinformatics problem.</li>
+        <li>Knowing the various families of algorithms used in bioinformatics.</li>
+        <li>Understanding the various pipelines in phylogenetic projects</li></ul>`
+      },
+      "fr": {
+        "program": `<p> Dans ce cours, nous explorerons les activités principales de la bioinformatique allant de l'exploration de données à l'aide de bases de données
+        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement ou à la phylogénie. </p>
+        <P> L'ère des <em>Big Data</em> sera également présentée dans le cadre de la production massive de données omiques et sera liée aux approches algorithmiques 
+        dédiées à l'exploitation des données biologiques. </p>
+        <h4> Références </h4>
+        <ul> <li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
+        Oxford University Press; ISBN: 0199251967</li></ul> `,
+        "objectives": `<ul>
+        <li> Utilisation de logiciels classiques comme EMBOSS (European Molecular Biology Open Software Suite) pour développer de nouveaux pipelines analytiques. </li>
+        <li> Utilisation et compréhension des étapes principales pour la construction et l'analyse d'études phylogénétiques. </li>
+        <li> Les algorithmes les plus courants utilisés en bioinformatique seront étudiés à l'aide du langage de programmation Python. </li>
+        </ul> `,
+        "skills": `<ul>
+        <li> Savoir écrire en Python une fonction pour résoudre un problème de bioinformatique simple. </li>
+        <li> Connaître les grandes familles algorithmiques utilisés en bioinformatique.</li>
+        <li> Comprendre les différentes pipelines dans les projets phylogénétiques </li> </ul> `
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI703U", 
+    "image": "ue_obi.jpg", 
+    "semester": 7, 
+    "title": "Omiques et BioInformatique", 
+    "tracks": "0x0F", 
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_2289/omiques-et-bioinformatique"
+  }, 
+  "4TBI704U": {
+    "short": "English",
+    "language": "English",
+    "acronym": "Anglais",
+    "coordinators": "Bernaulte JJ",
+    "background_color": "#a4ff80", 
+    "contents": {
+      "fr": {
+        'program': "<ul>"+
+            "<li>Construire une communication scientifique orale en anglais à partir de l’analyse de documents "+
+            "de divers genres scientifiques et répondre en anglais aux questions sur ce travail.</li>"+
+            "<li>Prendre la parole et interagir dans des situations diverses.</li>"+
+            "<li>Renforcer la compréhension écrite et orale.</li>"+
+            "</ul>",
+        'objectives': "<ul>"+
+            "<li>Développer les compétences de communication scientifique pertinentes aux contextes "+
+            "professionnels de la recherche. </li>"+
+            "<li>Renforcer les 4 compétences langagières (compréhension "+
+            "et production de l’anglais, orale et écrite).</li></ul>",
+        'skills': "<ul><li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
+            "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
+            "<li>Techniques de compréhension de l’anglais scientifique</li>"+
+            "<liCommunication scientifique orale et écrite en anglais.</li>"+
+            "</ul>"
+      },
+      "en": {
+        'program': "<ul>"+
+            "<li> Building an oral scientific communication in English from the analysis of documents "+
+             "of various scientific genres and answer in English questions about this work. </li>" +
+             "<Li> Speaking and interacting in a variety of situations. </li>" +
+             "<Li> Strengthen written and oral comprehension. </li>" +
+            "</ul>",
+        'objectives': "<ul>"+
+            "<li>Developing scientific communication skills relevant to the professional contexts of research.</li>"+
+             "<li> Strengthen the four language skills (understanding and production of English, oral and written).</li>" + 
+             "</ul>",
+        'skills': "<ul><li> English language skills: from and depending on the initial level to " + 
+         "<em>Level B2</em> and beyond according to the criteria of the Common European Framework of Reference. </li>" +
+         "<li> Techniques for understanding scientific English </li>" +
+         "<li>Oral and written scientific communication in English. </li>" +
+         "</ul>"
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI704U", 
+    "image": "ue_english.jpg", 
+    "semester": 7, 
+    "title": "Anglais", 
+    "tracks": "0x0F", 
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_2923/anglais"
+  },
+  "4TEC701U": {
+    "apogee": "4TEC701U",
+    "short": "BioStatistics",
+    "language": "English (tutorials) + French (lectures).",
+    "acronym": "TDE", 
+    "coordinators": 'David V',
+    "background_color": "#D0A6FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TEC701U", 
+    "image": "ue_biostats.jpg", 
+    "semester": 7, 
+    "title": "Traitement des donn\u00e9es environnementales", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
   "4TBA804U": {
     "short": "Plant Biotechnology",
     "language": "French",
@@ -94,7 +347,8 @@ var course_data = {
     "short" : "Population Genetics",
     "language": "English",
     "acronym": "QPG", 
-    "background_color": "#0a0a0a", 
+    "coordinators": 'Schurdi-Levraud V',
+    "background_color": "#0dc623", 
     "contents": {
       "en": {
         'program': `
@@ -152,7 +406,7 @@ var course_data = {
     "short" : "Plant Development",
     "acronym": "PDR", 
     'language': "English",
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6a00", 
     "contents": {
       "en": {
         'program': `
@@ -185,38 +439,6 @@ var course_data = {
     "semester": 9, 
     "title": "Plant Development and Reproduction", 
     "tracks": "0x60", 
-    "visibility": "visible"
-  }, 
-  "4TBC801U": {
-    "acronym": "POO", 
-    "background_color": "#0a0a0a", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBC801U", 
-    "image": "headinfo.jpg", 
-    "semester": 8, 
-    "title": "Programmation orient\u00e9e objet", 
-    "tracks": "0x10", 
-    "visibility": "visible"
-  }, 
-  "4TBC901U": {
-    "acronym": "AppO", 
-    "background_color": "#ffffff", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBC901U", 
-    "image": "headinfo.jpg", 
-    "semester": 9, 
-    "title": "Approche Objet", 
-    "tracks": "0x10", 
     "visibility": "visible"
   }, 
   "4TBE801U": {
@@ -359,232 +581,45 @@ var course_data = {
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
-  "4TBI701U": {
-    "apogee": "4TBI701U",
-    "short": "Image Processing",
-    "language": "English",
-    "acronym": "IMAJS", 
-    "background_color": "#7FD8BC", 
+  "4TBC801U" : {
+    "short" : "Object Programming",
+    "language": "French",
+    "acronym": "POO", 
+    "background_color": "#EEF409", 
     "contents": {
       "en": {
+        "program": `See French Version`,
+        "objectives": 'Coming soon',
+        "skills": 'Coming soon'
+      }, 
+      "fr": {
         "program": `
-        <p>First, this course presents an overview of the main image processings and analyses 
-        completed by tutorials based on the &mdash; very popular in the biological community &mdash; ImageJ software.
-        Second, an introduction to the JavaScript programming language is performed in order to automate image processing tasks via ImageJ.</p>
-        <ul>
-        <li>Definition of a digital image: resolution, dynamic range</li>
-        <li>Image Enhancement: Brightness, Contrast, Noise</li>
-        <li>Convolution, filters, Fourier Transform</li>
-        <li>Analysis: Measurements, Shape descriptors</li>
-        </ul>`,
+          <ul>
+            <li>Modélisation objet:
+              <ul><li>Héritage simple.</li>
+            <li>Héritage complexe.</li>
+            <li>Classes abstraites.</li>
+          </ul>
+          </li>
+          <li>Traduction en langages C++, java.</li>
+          <li>Gestion dynamique: exceptions</li>
+          <li>Modèles de classes templates.</li>
+          </ul>`,
         "objectives": `
-        <ul>
-        <li>Be familiar with the various concepts and tools for processing and analyzing digital images.</li>
-        <li>Understanding the main functions of ImageJ required to execute small scripts written in JavaScript for ImageJ.</li>
-        </ul>`,
-        "skills": ``
-      }, 
-      "fr": {
-        "program": `
-        <P> Tout d'abord, ce cours présente un aperçu des principaux traitements et analyses d'images numériques
-         complété par des travaux dirigés fondés sur le &mdash; très populaire dans la communauté biologique &mdash; logiciel ImageJ.
-         Puis, une introduction au langage de programmation JavaScript est effectuée afin d'automatiser les tâches de traitement d'images via ImageJ. </ P>
-         <ul>
-         <li> Définition d'une image numérique: résolution, plage dynamique </li>
-         <li> Amélioration de l'image: luminosité, contraste, bruit </li>
-         <li> Convolution, filtres, Transformée de Fourier </li>
-          <li>Analyse: Mesures, Descripteurs de forme </li>
-         </ul> `,
-         "objectives": `
-         <ul>
-         <li> Se familiariser avec les différents concepts et outils pour le traitement et l'analyse des images numériques. </li>
-         <li> Comprendre les principales fonctions d'ImageJ requises pour exécuter de petits scripts écrits en JavaScript pour ImageJ. </li>
-         </ul> `,
-        "skills": ``
-      }, 
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI701U", 
-    "image": "ue_imajs.jpg", 
-    "semester": 7, 
-    "title": "Initiation \u00e0 l'exploration d'images num\u00e9riques", 
-    "tracks": "0x0F", 
-    "visibility": "visible"
-  }, 
-  "4TBI702U": {
-    "apogee": "4TBI702U",
-    "short" : "Algo-Prog-USI",
-    "acronym": "APU", 
-    "language": "English + French",
-    "background_color": "#0095FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": {
-        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
-                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
-                "<li>Complexité : quelques notions à partir d'exemples</li>"+
-				"<li>Programmation : "+
-                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
-                "tests logiques, boucles.</li>"+
-				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
-                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
-                "ou de modules prédéfinis.</li></ul>",
-        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
-                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
-                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
-				"</ul>",
-		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
-                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
-                "</ul>"
-      }
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI702U", 
-    "image": "ue_algoprogusi.jpg", 
-    "semester": 7, 
-    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
-    "tracks": "0x0F", 
-    "visibility": "hidden"
-  }, 
-  "4TBI702U-Prog": {
-    "acronym": "APU-Prog", 
-    "background_color": "#0095FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI702U-Prog", 
-    "image": "ue_algoprogusi.jpg", 
-    "semester": 7, 
-    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
-    "tracks": "0x0F", 
-    "visibility": "visible"
-  }, 
-  "4TBI702U-USI": {
-    "acronym": "APU-USI", 
-    "background_color": "#0095FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI702U-USI", 
-    "image": "ue_algoprogusi.jpg", 
-    "semester": 7, 
-    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
-    "tracks": "0x0F", 
-    "visibility": "visible"
-  }, 
-  "4TBI703U": {
-    "apogee": "4TBI703U",
-    "short": "Omics & Bioinformatics",
-    "language": "English",
-    "acronym": "OBI", 
-    "background_color": "#eef409", 
-    "contents": {
-      "en": {
-        'program': `<p>In this course, we will explore the bioinformatician core activities ranging from the data mining using databases 
-        in molecular biology to the design of bioanalysis while exploiting methods dedicated to alignment sequences or phylogen. </p>
-        <p>The Big Data era will also be introduced regarding the massive production of omics data and will be linked to algorithmics 
-        approaches dedicated to the exploitation of biological data. </p>
-        <h4>References</h4>
-        <ul><li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
-        Oxford University Press; ISBN: 0199251967</li></ul>`, 
-        "objectives": `<ul>
-        <li>Use of classical software packages like EMBOSS (European Molecular Biology Open Software Suite) to develop new analytical pipelines.</li>
-        <li>Use and understanding of the main steps for building and analyzing phylogenetic studies.</li>
-        <li> The most common algorithms used in bioinformatics will be studied using Python programming language.</li>
-        </ul>`,
-        "skills": `<ul>
-        <li>Write a function in Python to solve a simple bioinformatics problem.</li>
-        <li>Knowing the various families of algorithms used in bioinformatics.</li>
-        <li>Understanding the various pipelines in phylogenetic projects</li></ul>`
-      },
-      "fr": {
-        "program": `<p> Dans ce cours, nous explorerons les activités principales de la bioinformatique allant de l'exploration de données à l'aide de bases de données
-        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement ou à la phylogénie. </p>
-        <P> L'ère des <em>Big Data</em> sera également présentée dans le cadre de la production massive de données omiques et sera liée aux approches algorithmiques 
-        dédiées à l'exploitation des données biologiques. </p>
-        <h4> Références </h4>
-        <ul> <li>Introduction to Bioinformatics - Arthur M. Lesk, by Arthur M. Lesk. Paperback 1st Edition (Sept 2002) 
-        Oxford University Press; ISBN: 0199251967</li></ul> `,
-        "objectives": `<ul>
-        <li> Utilisation de logiciels classiques comme EMBOSS (European Molecular Biology Open Software Suite) pour développer de nouveaux pipelines analytiques. </li>
-        <li> Utilisation et compréhension des étapes principales pour la construction et l'analyse d'études phylogénétiques. </li>
-        <li> Les algorithmes les plus courants utilisés en bioinformatique seront étudiés à l'aide du langage de programmation Python. </li>
-        </ul> `,
-        "skills": `<ul>
-        <li> Savoir écrire en Python une fonction pour résoudre un problème de bioinformatique simple. </li>
-        <li> Connaître les grandes familles algorithmiques utilisés en bioinformatique.</li>
-        <li> Comprendre les différentes pipelines dans les projets phylogénétiques </li> </ul> `
+          <h4>Objectifs pédagogiques</h4>
+          <ul><li>Maîtriser les concepts de la programmation objet.</li></ul>`,
+        "skills": 'Bientôt disponible'
       }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TBI703U", 
-    "image": "ue_obi.jpg", 
-    "semester": 7, 
-    "title": "Omiques et BioInformatique", 
-    "tracks": "0x0F", 
-    "visibility": "visible",
-    "html": "FRUAI0333298FCOEN_2289/omiques-et-bioinformatique"
-  }, 
-  "4TBI704U": {
-    "short": "English",
-    "language": "English",
-    "acronym": "Anglais", 
-    "background_color": "#a4ff80", 
-    "contents": {
-      "fr": {
-        'program': "<ul>"+
-            "<li>Construire une communication scientifique orale en anglais à partir de l’analyse de documents "+
-            "de divers genres scientifiques et répondre en anglais aux questions sur ce travail.</li>"+
-            "<li>Prendre la parole et interagir dans des situations diverses.</li>"+
-            "<li>Renforcer la compréhension écrite et orale.</li>"+
-            "</ul>",
-        'objectives': "<ul>"+
-            "<li>Développer les compétences de communication scientifique pertinentes aux contextes "+
-            "professionnels de la recherche. </li>"+
-            "<li>Renforcer les 4 compétences langagières (compréhension "+
-            "et production de l’anglais, orale et écrite).</li></ul>",
-        'skills': "<ul><li>Compétences langagières en anglais : à partir et en fonction du niveau initial vers "+
-            "le niveau B2 et au delà selon les critères du Cadre Européen Commun de Référence.</li>"+
-            "<li>Techniques de compréhension de l’anglais scientifique</li>"+
-            "<liCommunication scientifique orale et écrite en anglais.</li>"+
-            "</ul>"
-      },
-      "en": {
-        'program': "<ul>"+
-            "<li> Building an oral scientific communication in English from the analysis of documents "+
-             "of various scientific genres and answer in English questions about this work. </li>" +
-             "<Li> Speaking and interacting in a variety of situations. </li>" +
-             "<Li> Strengthen written and oral comprehension. </li>" +
-            "</ul>",
-        'objectives': "<ul>"+
-            "<li>Developing scientific communication skills relevant to the professional contexts of research.</li>"+
-             "<li> Strengthen the four language skills (understanding and production of English, oral and written).</li>" + 
-             "</ul>",
-        'skills': "<ul><li> English language skills: from and depending on the initial level to " + 
-         "<em>Level B2</em> and beyond according to the criteria of the Common European Framework of Reference. </li>" +
-         "<li> Techniques for understanding scientific English </li>" +
-         "<li>Oral and written scientific communication in English. </li>" +
-         "</ul>"
-      }
-    }, 
-    "ects": 3, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI704U", 
-    "image": "ue_english.jpg", 
-    "semester": 7, 
-    "title": "Anglais", 
-    "tracks": "0x0F", 
+    "id": "4TBC801U", 
+    "image": "ue_oop.jpg", 
+    "semester": 9, 
+    "title": "Programmation orientée Objet", 
+    "tracks": "0x10", 
     "visibility": "visible"
-  }, 
+  },
   "4TBI801U": {
     "apogee": "4TBI801U",
     "short": "Algo-Prog 2",
@@ -675,7 +710,45 @@ var course_data = {
     "title": "Traitement de Vid\u00e9os et Mod\u00e9lisation des Processus Dynamiques", 
     "tracks": "0x70", 
     "visibility": "visible"
-  }, 
+  },
+  "4TBC901U" : {
+    "short" : "Object Programming 2",
+    "language": "French",
+    "acronym": "POO++", 
+    "background_color": "#EEF409", 
+    "contents": {
+      "en": {
+        "program": `See French Version`,
+        "objectives": 'Coming soon',
+        "skills": 'Coming soon'
+      }, 
+      "fr": {
+        "program": `
+          <h4>Pré-requis</h4>
+          <ul>
+          <li>Connaissances de la programmation impérative (langage C)</li>
+          <li>Connaissance et première utilisation d'un langage de programmation à objet (Java,C++,...)</li>
+          </ul>
+          <h4>Description</h4>
+          <ul>
+          <li>Rappels de programmation objet</li>
+          <li>Concepts avancés : exceptions, clonage, classes génériques, collections, itérations, classes internes...</li>
+          <li>Utilisation de quelques modèles de conception objets : Adaptateur, Décorateur, Observable ...</li>
+          <li>Utilisation de la programmation objet dans certains types de développements : IHM, Système ...</li>
+          </ul>`,
+        "objectives": 'Bientôt disponible',
+        "skills": 'Bientôt disponible'
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBC901U", 
+    "image": "ue_oop2.jpg", 
+    "semester": 9, 
+    "title": "Approche Objet", 
+    "tracks": "0x10", 
+    "visibility": "visible"
+  },
   "4TBI901U": {
     "short": "Structural Bioinformatics",
     "language": "French or English depending of the audience",
@@ -805,7 +878,7 @@ var course_data = {
     "title": "Mod\u00e9lisation qualitative et quantitative de la cellule", 
     "tracks": "0x70", 
     "visibility": "visible"
-  },  
+  },
   "4TBIN01U": {
     "acronym": "StgVol", 
     "background_color": "#0a0a0a", 
@@ -911,25 +984,6 @@ var course_data = {
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
-  "4TEC701U": {
-    "apogee": "4TEC701U",
-    "short": "BioStatistics",
-    "language": "English (practicals) + French (lectures).",
-    "acronym": "TDE", 
-    "background_color": "#D0A6FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TEC701U", 
-    "image": "ue_biostats.jpg", 
-    "semester": 7, 
-    "title": "Traitement des donn\u00e9es environnementales", 
-    "tracks": "0x0F", 
-    "visibility": "visible"
-  },
     "BILBAO_001": {
     "short": "NGS & Methods",
     "language": "English",
