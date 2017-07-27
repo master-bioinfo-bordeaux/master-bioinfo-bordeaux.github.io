@@ -517,7 +517,7 @@ var course_data = {
     "short": "Evolutionary Ecology",
     "language": "French",
     "acronym": "EcoComm", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6bff", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -715,7 +715,7 @@ var course_data = {
     "short" : "Object Programming 2",
     "language": "French",
     "acronym": "POO++", 
-    "background_color": "#EEF409", 
+    "background_color": "#ff6a00", 
     "contents": {
       "en": {
         "program": `See French Version`,
@@ -931,7 +931,7 @@ var course_data = {
     "short": "GIS: Geo. Info. Systems",
     "language": "french",
     "acronym": "SIG", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6bab", 
     "contents": {
       "en": {
         "program": `French version available`,
