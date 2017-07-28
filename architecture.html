@@ -881,6 +881,7 @@
             html += '<dt>Language:</dt><dd>'+ the_course.language +'</dd>';
             html += '<dt>Credits:</dt><dd>'+ the_course.ects +' ECTS</dd>';
             html += '<dt>Apogee:</dt><dd>'+ the_course.id +'</dd>';
+            html += (the_course.id_other) ? `<dt>Other:</dt><dd>${the_course.id_other}</dd>` : '';
             html += '</dl>';
             html += "</div>";
             html += "</div><hr>";
