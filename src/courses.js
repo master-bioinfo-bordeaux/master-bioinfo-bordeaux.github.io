@@ -501,8 +501,29 @@ var course_data = {
     "acronym": "TDE++", 
     "background_color": "#D0A6FF", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        "program": "See French Version",
+        "objectives": "Coming soon.",
+        "skills": "Coming soon."
+      }, 
+      "fr": {
+        "program": `
+          Cette UE abordera sous forme de cours, TD machines diverses types de statistiques avancées comme 
+          la classification et les méthodes de <em>clustering</em>.<br>
+          Les notions abordées &mdash; entre autres &mdash; sont:
+          <ul>
+          <li>Analysis of similarities (ANOSIM)</li>
+          <li>Permutational multivariate analysis of variance (PERMANOVA)</li>
+          <li>Modèle Linéaire Général (GLM)</li>
+          <li>Statistiques Spatiales</li>
+          <li>Similiarity Profile Analysis (SIMPROF)</li>
+          <li>Indicator Value (IndVAL)</li>
+          <li>Similarity Percentage (SIMPER)</li>
+          </ul>
+          <p>Parallèlement, un projet sur les modèles lineaires et les Analyses Multivariées sera réalisé sur deux séances.</p>`,
+        "objectives": "Bient&ocirc;t disponible.",
+        "skills"    : "Bient&ocirc;t disponible.",
+      },
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
@@ -517,7 +538,7 @@ var course_data = {
     "short": "Evolutionary Ecology",
     "language": "French",
     "acronym": "EcoComm", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6bff", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -715,7 +736,7 @@ var course_data = {
     "short" : "Object Programming 2",
     "language": "French",
     "acronym": "POO++", 
-    "background_color": "#EEF409", 
+    "background_color": "#ff6a00", 
     "contents": {
       "en": {
         "program": `See French Version`,
@@ -931,7 +952,7 @@ var course_data = {
     "short": "GIS: Geo. Info. Systems",
     "language": "french",
     "acronym": "SIG", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6bab", 
     "contents": {
       "en": {
         "program": `French version available`,
@@ -970,7 +991,7 @@ var course_data = {
     "language": "french",
     "apogee": "4TDE902U",
     "acronym": "InnovTech", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#00e6f7", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
