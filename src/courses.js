@@ -764,6 +764,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBC901U", 
+    "id_other": "4TIN706U &mdash; UF Info",
     "image": "ue_oop2.jpg", 
     "semester": 9, 
     "title": "Approche Objet", 
@@ -950,8 +951,9 @@ var course_data = {
   }, 
   "4TDE901U": {
     "short": "GIS: Geo. Info. Systems",
-    "language": "french",
+    "language": "French",
     "acronym": "SIG", 
+    "coordinators": "Zaragosi S",
     "background_color": "#ff6bab", 
     "contents": {
       "en": {
@@ -980,6 +982,7 @@ var course_data = {
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TDE901U", 
+    "id_other": "4TMR003U + 4TMR004U &mdash; UF STE",
     "image": "ue_gis.jpg", 
     "semester": 9, 
     "title": "Syst\u00e8me d'information G\u00e9ographique", 
