@@ -295,8 +295,36 @@ var course_data = {
     "coordinators": 'David V',
     "background_color": "#D0A6FF", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': `<h4>Statistiques Inférentielles</h4>
+            <ul>
+            <li> Comparaison d'échantillons d'une variable 
+              <ul>
+                <li>Conditions d'application</li>
+                <li>Tests paramétriques et non paramétriques: Shapiro-Wilk, Fisher, Student, U.</li>
+              </ul>
+            </li>
+            <li> Comparaison d'échantillons de variables 
+              <ul>
+                <li>Relier une variable qualitative à une variable qualitative</li>
+                <li>Utilisation de modèles linéaires: Régressions et Analyses de variance</li>
+              </ul>
+            </li>
+            </ul>
+            <h4>Initiation au langage R</h4>
+            <ul>
+            <li>Installation et Environnement</li>
+            <li>Import et Manipulation de Données</li>
+            <li>Edition de Graphiques</li>
+            </ul>`,
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
