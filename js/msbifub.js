@@ -1006,7 +1006,7 @@ var course_data = {
 <p><a href="http://www.geocean.net/wikisig/doku.php?id=master:start">Plus de détails...</a></p>
 <p>La deuxième semaine est constituée par la réalisation d'un projet SIG. Pour les étudiants de l'Ecole doctorale et des Masters recherche ces sujets porteront obligatoirement sur leurs sujets de thèse ou sur leurs stages de Master 2. Pour les étudiants du master pro les sujets seront choisis en fonctions de leurs stages en entreprise ou de leurs projets professionnels.</p>`,
               "objectives": `Au terme de cette formation vous serez en mesure de gérer un projet cartographique depuis <ul><li>l'acquisition des données sur le terrain,</li> <li>la prise en compte des informations géodésiques,</li> <li>le traitement des données via un Système d'Information Géographique (QGIS, ArcGIS), </li><li>le couplage à d'autres informations (photos aériennes, images satellites…) et </li><li>la réalisation de documents cartographiques publiables.</li></ul>`,
-              "skills": ``
+              "skills": `Contenu des UEs d'origine <a href="http://www.u-bordeaux.fr/formation/2016/PRMA_25/sciences-de-la-mer/enseignement/FRUAI0333298FCOEN_4820/systemes-d-information-geographique-1"><i class="fa fa-university fa-2x"></i></a> et <a href="http://www.u-bordeaux.fr/formation/2016/PRMA_25/sciences-de-la-mer/enseignement/FRUAI0333298FCOEN_4823/systemes-d-information-geographique-2"><i class="fa fa-university fa-2x"></i></a>`
       }
     }, 
     "ects": 6, 
@@ -1017,7 +1017,8 @@ var course_data = {
     "semester": 9, 
     "title": "Syst\u00e8me d'information G\u00e9ographique", 
     "tracks": "0x60", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html":"FRUAI0333298FCOEN_13214/systeme-d-information-geographique"
   }, 
   "4TDE902U": {
     "short": "Health Innovation",
