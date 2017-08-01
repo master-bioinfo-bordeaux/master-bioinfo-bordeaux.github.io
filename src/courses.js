@@ -322,7 +322,8 @@ var course_data = {
             <li>Import et Manipulation de Données</li>
             <li>Edition de Graphiques</li>
             </ul>`,
-        'objectives': "Bient&ocirc;t disponible.",
+        'objectives': `Savoir choisir, mettre en œuvre et interpréter des analyses numériques en adéquation 
+        avec les objectifs et les plans d’échantillonnage/expérimentaux adoptés`,
         'skills': "Bient&ocirc;t disponible."
       }
     }, 
@@ -333,7 +334,8 @@ var course_data = {
     "semester": 7, 
     "title": "Traitement des donn\u00e9es environnementales", 
     "tracks": "0x0F", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_3699/traitement-des-donnees-environnementales"
   }, 
   "4TBA804U": {
     "short": "Plant Biotechnology",
