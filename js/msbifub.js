@@ -1045,53 +1045,92 @@ var course_data = {
     "acronym": "NGS", 
     "background_color": "#D0A6FF", 
     "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "en": {
+        "program": `
+        <ul>
+        <li>Introduction to sequencing technologies, methods and designing and experiment</li>
+        <li>Human genomics</li>
+        <li>Epigenetics and epigenomics: concepts and bioinformatics approaches</li>
+        <li>Bioinformatics strategies for Mendelian and complex diseases (Genotype)</li>
+        <li>NGS data analysis: Identification of cancer-causing variants</li>
+        <li>Bioinformatics strategies for complex traits and diseases (Transcriptome)</li>
+        <li>Networks and Systems Biology</li>
+        <li>Bioinformatics tools for the integration of different types of NGS-generated Omics data</li>
+        </ul>`,
+        "objectives": "Coming soon",
+        "skills": "Coming soon"
+      }, 
+      "fr": {
+        "program": "Voir la version anglaise.",
+        "objectives": "Voir la version anglaise.",
+        "skills": "Voir la version anglaise."
+      }
     }, 
-    "ects": 5, 
+    "ects": 7.5, 
     "icon": "fa fa-graduation-cap", 
     "id": "None", 
     "image": "ue_ngs.jpg", 
     "semester": 8, 
-    "title": "Introduction to NGS and Methods", 
+    "title": "From Genome to Individual", 
     "tracks": "0x0F", 
     "visibility": "visible"
   },
     "BILBAO_002": {
     "apogee": "None",
-    "short": "Softwares in Omics",
+    "short": "Metagenomics",
     "language": "English",
-    "acronym": "SMOW", 
+    "acronym": "MetaGen", 
     "background_color": "#D0A6FF", 
     "contents": {
-      "en": "Coming soon.", 
+      "en": {
+        "program": `
+        <ul>
+        <li>Amplicon metagenomics/metabarcoding</li>
+        <li>Metagenomics/Metatranscriptomics</li>
+        <li>Pangenomes</li>
+        <li>Metagenomics in human diseases</li>
+        <li>Introduction to scientific communication</li>
+        </ul>`,
+        "objectives": "Coming soon.", 
+        "skills": "Coming soon."
+      },
       "fr": "Bient&ocirc;t disponible."
     }, 
-    "ects": 5, 
+    "ects": 4.5, 
     "icon": "fa fa-graduation-cap", 
     "id": "None", 
     "image": "ue_soft_omics.jpg", 
     "semester": 8, 
-    "title": "Softwares and Methods in Omics World", 
+    "title": "From Genomes to Communities", 
     "tracks": "0x0F", 
     "visibility": "visible"
   },
     "BILBAO_003": {
     "apogee": "None",
-    "short": "Applications",
+    "short": "Population Genomics",
     "language": "English",
-    "acronym": "BBE", 
+    "acronym": "PopGen", 
     "background_color": "#D0A6FF", 
     "contents": {
-      "en": "Coming soon.", 
+      "en": {
+        "program": `
+        <ul>
+        <li>Population Genomics In-model organism (human)</li>
+        <li>Population Genomics In non-model organisms. Reduced genome sequencing: - SNP discovery in the transcriptome</li>
+        <li>Population Genomics In non-model organisms. Reduced genome sequencing: - Genotyping by Sequencing and Landscape Genetics</li>
+        <li>Applications of Phylogenetic Analysis
+        </ul>`,
+        "objectives": "Coming soon.",
+        "skills": "Coming soon."
+      },
       "fr": "Bient&ocirc;t disponible."
     }, 
-    "ects": 5, 
+    "ects": 4, 
     "icon": "fa fa-graduation-cap", 
     "id": "None", 
     "image": "ue_ngs_method.jpg", 
     "semester": 8, 
-    "title": "Bioinformatics for Biomedecine or Environment", 
+    "title": "From Genomes to Populations", 
     "tracks": "0x0F", 
     "visibility": "visible"
   },
@@ -1102,10 +1141,14 @@ var course_data = {
     "acronym": "Internship", 
     "background_color": "#D0A6FF", 
     "contents": {
-      "en": "Coming soon.", 
+     "en": {
+        "program": "Coming soon.",
+        "objectives": "Coming soon.",
+        "skills": "Coming soon."
+      },
       "fr": "Bient&ocirc;t disponible."
     }, 
-    "ects": 12, 
+    "ects": 14, 
     "icon": "fa fa-graduation-cap", 
     "id": "None", 
     "image": "ue_internship.jpg", 
