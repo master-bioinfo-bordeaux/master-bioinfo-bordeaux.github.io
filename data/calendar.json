@@ -24,7 +24,7 @@
     "type": "Vacances",
     "year": "3",
     "tracks": "0x07",
-    "title": "Vacances dâautomne | Fall Holidays",
+    "title": "Vacances dÃ¢ÂÂautomne | Fall Holidays",
     "description": ""
   },
   "E30720170726T134849040@jeesay": {
@@ -39,7 +39,7 @@
     "type": "Vacances",
     "year": "3",
     "tracks": "0x07",
-    "title": "Vacances de fin dâannÃ©e | End-of-year Holidays",
+    "title": "Vacances de fin dÃ¢ÂÂannÃÂ©e | End-of-year Holidays",
     "description": ""
   },
   "E30F20170728T135315001@import": {
@@ -54,7 +54,7 @@
     "type": "Conference",
     "year": "3",
     "tracks": "0x0F",
-    "title": "RentrÃ©e M1 et M2",
+    "title": "RentrÃÂ©e M1 et M2",
     "description": "",
     "comment": "Imported from import/test.ods - Fri Jul 28 2017 15:53:15 GMT+0200 (CEST)",
     "warnings": [
@@ -956,6 +956,22 @@
     "date_end": "2017-09-04T16:00",
     "group": "All",
     "location": "Talence::B5@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 1
+  },
+  "C10F20170901T064242100@Marie-Beurton-Aimar": {
+    "ID": "C10F20170901T064242100@Marie-Beurton-Aimar",
+    "apogee": "4TBI702U-USI",
+    "acronym": "S07::APU-USI",
+    "type": "Cours",
+    "summary": "4TBI702U-USI",
+    "lecturer": "Delmas O",
+    "date_start": "2017-09-05T10:00",
+    "date_end": "2017-09-05T12:00",
+    "group": "All",
+    "location": "Talence::A29@Room_105",
     "description": "None"
   }
 }
