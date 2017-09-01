@@ -24,7 +24,7 @@
     "type": "Vacances",
     "year": "3",
     "tracks": "0x07",
-    "title": "Vacances dÃÂÃÂ¢ÃÂÃÂÃÂÃÂautomne | Fall Holidays",
+    "title": "Vacances dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂautomne | Fall Holidays",
     "description": ""
   },
   "E30720170726T134849040@jeesay": {
@@ -39,7 +39,7 @@
     "type": "Vacances",
     "year": "3",
     "tracks": "0x07",
-    "title": "Vacances de fin dÃÂÃÂ¢ÃÂÃÂÃÂÃÂannÃÂÃÂÃÂÃÂ©e | End-of-year Holidays",
+    "title": "Vacances de fin dÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂannÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e | End-of-year Holidays",
     "description": ""
   },
   "E30F20170728T135315001@import": {
@@ -54,7 +54,7 @@
     "type": "Conference",
     "year": "3",
     "tracks": "0x0F",
-    "title": "RentrÃÂÃÂÃÂÃÂ©e M1 et M2",
+    "title": "RentrÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©e M1 et M2",
     "description": "",
     "comment": "Imported from import/test.ods - Fri Jul 28 2017 15:53:15 GMT+0200 (CEST)",
     "warnings": [
@@ -999,7 +999,7 @@
     "acronym": "S07::APU-USI",
     "type": "Unknown",
     "summary": "4TBI702U-USI",
-    "lecturer": "------",
+    "lecturer": "Delmas O",
     "date_start": "2017-09-08T10:00",
     "date_end": "2017-09-08T12:00",
     "group": "All",
