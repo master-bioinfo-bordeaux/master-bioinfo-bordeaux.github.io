@@ -151,7 +151,12 @@
     "type": " Cours+TD",
     "year": "2",
     "tracks": "0x61",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 1
   },
   "C26020170903T135907007@import": {
     "ID": "C26020170903T135907007@import",
@@ -165,7 +170,12 @@
     "type": "Cours+TD",
     "year": "2",
     "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020170903T135907008@import": {
     "ID": "C21020170903T135907008@import",
@@ -179,7 +189,12 @@
     "type": "TD",
     "year": "2",
     "tracks": "0x10",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "16:00-18:00",
+    "weekdayIndex": 2
   },
   "C21020170903T135907009@import": {
     "ID": "C21020170903T135907009@import",
@@ -193,21 +208,25 @@
     "type": "COURS",
     "year": "2",
     "tracks": "0x10",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C26020170903T135907010@import": {
     "ID": "C26020170903T135907010@import",
     "apogee": "4TDE902U",
     "acronym": "S09::IBS",
+    "type": "Cours",
+    "summary": "4TDE902U",
+    "lecturer": "------",
     "date_start": "2017-09-12T10:00",
     "date_end": "2017-09-12T12:00",
-    "lecturer": "Beven L",
-    "location": "None::None@Room_000",
     "group": "All",
-    "type": "Cours",
-    "year": "2",
-    "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "location": "Carreire::ED@Room_27A",
+    "description": "None"
   },
   "C27020170903T135907011@import": {
     "ID": "C27020170903T135907011@import",
@@ -221,7 +240,12 @@
     "type": "Cours",
     "year": "2",
     "tracks": "0x70",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "08:00-09:00",
+    "weekdayIndex": 2
   },
   "C26020170903T135907012@import": {
     "ID": "C26020170903T135907012@import",
@@ -235,7 +259,12 @@
     "type": "Cours",
     "year": "2",
     "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 3
   },
   "C26020170903T135907013@import": {
     "ID": "C26020170903T135907013@import",
@@ -249,7 +278,13 @@
     "type": "Cours+TD",
     "year": "2",
     "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!"
+    ],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
   },
   "C21020170903T135907014@import": {
     "ID": "C21020170903T135907014@import",
@@ -263,7 +298,12 @@
     "type": "TD",
     "year": "2",
     "tracks": "0x10",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 3
   },
   "C20F20170903T135907015@import": {
     "ID": "C20F20170903T135907015@import",
@@ -277,7 +317,13 @@
     "type": "Soutenance",
     "year": "2",
     "tracks": "0x0F",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!"
+    ],
+    "hours": "08:00-19:00",
+    "weekdayIndex": 4
   },
   "C26020170903T135907016@import": {
     "ID": "C26020170903T135907016@import",
@@ -291,7 +337,12 @@
     "type": "Cours",
     "year": "2",
     "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 5
   },
   "C26020170903T135907017@import": {
     "ID": "C26020170903T135907017@import",
@@ -305,7 +356,13 @@
     "type": "Cours+TD",
     "year": "2",
     "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 5
   },
   "C20F20170903T135907018@import": {
     "ID": "C20F20170903T135907018@import",
@@ -319,7 +376,13 @@
     "type": "Soutenance",
     "year": "2",
     "tracks": "0x0F",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!"
+    ],
+    "hours": "08:00-19:00",
+    "weekdayIndex": 5
   },
   "C26120170903T135907019@import": {
     "ID": "C26120170903T135907019@import",
@@ -2085,7 +2148,7 @@
     "description": "Defense Day for student of promotion 2017",
     "tracks": "0x07"
   },
-    "E1720170904T111251873@jeesay": {
+  "E1720170904T111251873@jeesay": {
     "ID": "E1720170904T111251873@jeesay",
     "apogee": "4TBIMEET",
     "acronym": "Evt::Conference",
