@@ -2062,6 +2062,27 @@
     "date_end": "2017-09-07T11:00",
     "group": "All",
     "location": "None::None@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 4
+  },
+  "E1720170904T111251872@jeesay": {
+    "ID": "E1720170904T111251872@jeesay",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "type": "Conference",
+    "summary": "4TBIMEET",
+    "title": "Soutenance Stage M2",
+    "lecturer": "--  ",
+    "year": "1",
+    "date_start": "2017-09-14T08:00",
+    "date_end": "2017-09-14T18:30",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@undefined_undefined",
+    "description": "Defense Day for student of promotion 2017",
+    "tracks": "0x7"
   }
 }
