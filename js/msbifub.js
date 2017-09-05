@@ -567,11 +567,33 @@ var course_data = {
   "4TBE902U": {
     "short": "Evolutionary Ecology",
     "language": "French",
-    "acronym": "EcoComm", 
+    "acronym": "EvoComm", 
     "background_color": "#ff6bff", 
     "contents": {
       "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
+      "fr": {
+        'program': `Une communauté d’organisme est un ensemble d’organismes qui co-existent au même endroit à un même moment…
+          <ul><li>co-évoluent-ils ensemble ?</li>
+          <li>quelles peuvent en être les conséquences ?</li>
+          </ul>
+          <p>Les concepts d’écologie et d’évolution :
+          <ul><li>co-évolution</li>
+          <li>la géographie de la co-évolution</li>
+          <li>co-évoluer et évolution rapide chez les organismes longévifs</li>
+          <li>évolution rapide et démographie</li>
+          <li>co-évolution et interactions directes et indirectes dans les communautés complexes</li>
+          </ul></p>
+          <p>Les concepts de philosophie des sciences :
+          <ul><li>l’histoire de la démarche de rationalité</li>
+          <li>la rationalité dans l’étude des systèmes complexes</li>
+          </ul></p>
+          <p>Des réflexions autour des écosystèmes forestiers et autour du microbiote</p>
+          <h4>Organisation</h4>
+          Cours + Interventions de professionnels de la recherche
+          Construction d’un projet bibliographique (la question est définie à partir d’une réflexion commune partant des contenus suivi de TD d’apprentissage de la recherche bibliographique)`,
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
@@ -862,7 +884,7 @@ var course_data = {
   "4TBI903U": {
     "short": "Software Engineering",
     "language": "French",
-    "acronym": "ProjLog", 
+    "acronym": "GLog", 
     "background_color": "#009558", 
     "contents": {
       "en": "Coming soon.", 
@@ -1249,7 +1271,7 @@ Algorithmique et Programmation                          9	27h
 
     'F1BS7201' : {
     	"id": "F1BS7201",
-        "acronym"   : "ProjLog",
+        "acronym"   : "GLog",
         "title"     : "Projet tutoré: réalisation logicielle",
         "ects"      : 3,
         "semester"  : 7,
