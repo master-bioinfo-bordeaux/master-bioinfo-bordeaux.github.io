@@ -95,6 +95,20 @@
     "location": "Talence::A9@Amphi_002",
     "description": "None"
   },
+  "C26020170905T123116005@import": {
+      "ID"        :"C26020170905T123116005@import",
+      "apogee"    :"4TBE902U",
+      "acronym"   :"S09::EvoCom",
+      "date_start":"2017-09-05T09:00",
+      "date_end"  :"2017-09-05T12:00",
+      "lecturer"  :"Fi&eacute;vet V",
+      "location"  :"Talence::B4@Room_A2",
+      "group"     :"All",
+      "type"      :"Conference",
+      "year"      :"2",
+      "tracks"    :"0x60",
+      "comment"   :"Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)"
+  },
   "C26120170903T135907004@import": {
     "ID": "C26120170903T135907004@import",
     "apogee": "4TBI903U",
