@@ -86,20 +86,14 @@
     "ID": "C21020170903T135907003@import",
     "apogee": "4TBC901U",
     "acronym": "S09::POO++",
+    "type": "Cours",
+    "summary": "4TBC901U",
+    "lecturer": "Cl&eacute;ment L",
     "date_start": "2017-09-05T14:00",
     "date_end": "2017-09-05T16:00",
-    "lecturer": "Cl&eacute;ment L",
-    "location": "None::None@Room_000",
     "group": "All",
-    "type": "COURS",
-    "year": "2",
-    "tracks": "0x10",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
-    "warnings": [
-      " No building!!"
-    ],
-    "hours": "14:00-16:00",
-    "weekdayIndex": 2
+    "location": "Talence::A9@Amphi_002",
+    "description": "None"
   },
   "C26120170903T135907004@import": {
     "ID": "C26120170903T135907004@import",
