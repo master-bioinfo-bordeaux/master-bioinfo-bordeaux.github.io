@@ -25,7 +25,13 @@
     "year": "3",
     "tracks": "0x07",
     "title": "Vacances d&apos;automne | Fall Holidays",
-    "description": ""
+    "description": "",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!"
+    ],
+    "hours": "00:00-00:00",
+    "weekdayIndex": 5
   },
   "E30720170726T134849040@jeesay": {
     "ID": "E30720170726T134849040@jeesay",
@@ -96,18 +102,18 @@
     "description": "None"
   },
   "C26020170905T123116005@import": {
-      "ID"        :"C26020170905T123116005@import",
-      "apogee"    :"4TBE902U",
-      "acronym"   :"S09::EvoCom",
-      "date_start":"2017-09-06T09:30",
-      "date_end"  :"2017-09-06T12:00",
-      "lecturer"  :"Fi&eacute;vet V",
-      "location"  :"Talence::B4@Room_A2",
-      "group"     :"All",
-      "type"      :"Conference",
-      "year"      :"2",
-      "tracks"    :"0x60",
-      "comment"   :"Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)"
+    "ID": "C26020170905T123116005@import",
+    "apogee": "4TBE902U",
+    "acronym": "S09::EvoCom",
+    "date_start": "2017-09-06T09:30",
+    "date_end": "2017-09-06T12:00",
+    "lecturer": "Fi&eacute;vet V",
+    "location": "Talence::B4@Room_A2",
+    "group": "All",
+    "type": "Conference",
+    "year": "2",
+    "tracks": "0x60",
+    "comment": "Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)"
   },
   "C26120170903T135907004@import": {
     "ID": "C26120170903T135907004@import",
@@ -2100,7 +2106,7 @@
     "date_start": "2017-09-06T10:00",
     "date_end": "2017-09-06T12:00",
     "group": "All",
-    "location": "Talence::A29@Room_000",
+    "location": "Talence::A29@Room_107",
     "description": "None",
     "warnings": [],
     "hours": "10:00-12:00",
@@ -2116,11 +2122,8 @@
     "date_start": "2017-09-08T10:00",
     "date_end": "2017-09-08T12:00",
     "group": "All",
-    "location": "Talence::A29@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 5
+    "location": "Talence::A29@Room_107",
+    "description": "None"
   },
   "C26120170904T095220576@Pthebault33": {
     "ID": "C26120170904T095220576@Pthebault33",
@@ -2154,7 +2157,10 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_000",
     "description": "Defense Day for student of promotion 2017",
-    "tracks": "0x07"
+    "tracks": "0x07",
+    "warnings": [],
+    "hours": "08:00-18:30",
+    "weekdayIndex": 4
   },
   "E1720170904T111251873@jeesay": {
     "ID": "E1720170904T111251873@jeesay",
@@ -2170,6 +2176,121 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_000",
     "description": "Defense Day for student of promotion 2017",
-    "tracks": "0x07"
+    "tracks": "0x07",
+    "warnings": [],
+    "hours": "08:00-18:30",
+    "weekdayIndex": 5
+  },
+  "C10F20170906T055857698@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055857698@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-09-13T13:30",
+    "date_end": "2017-09-13T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
+  },
+  "C10F20170906T055857702@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055857702@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-09-20T13:30",
+    "date_end": "2017-09-20T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
+  },
+  "C10F20170906T055857788@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055857788@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-09-27T13:30",
+    "date_end": "2017-09-27T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
+  },
+  "C10F20170906T055857943@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055857943@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-10-04T13:30",
+    "date_end": "2017-10-04T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
+  },
+  "C10F20170906T055858094@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055858094@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-10-11T13:30",
+    "date_end": "2017-10-11T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
+  },
+  "C10F20170906T055858248@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055858248@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-10-18T13:30",
+    "date_end": "2017-10-18T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
+  },
+  "C10F20170906T055858401@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T055858401@Marie-Beurton-Aimar",
+    "apogee": "4TBI704U",
+    "acronym": "S07::Anglais",
+    "type": "Cours+TD",
+    "summary": "4TBI704U",
+    "lecturer": "Bernaulte JJ",
+    "date_start": "2017-10-25T13:30",
+    "date_end": "2017-10-25T16:30",
+    "group": "All",
+    "location": "Talence::A21-OMEGA@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-16:30",
+    "weekdayIndex": 3
   }
 }
