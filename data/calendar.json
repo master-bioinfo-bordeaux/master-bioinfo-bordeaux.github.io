@@ -2101,7 +2101,10 @@
     "date_end": "2017-09-06T12:00",
     "group": "All",
     "location": "Talence::A29@Room_105",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20170901T064350874@Marie-Beurton-Aimar": {
     "ID": "C10F20170901T064350874@Marie-Beurton-Aimar",
@@ -2113,11 +2116,8 @@
     "date_start": "2017-09-08T10:00",
     "date_end": "2017-09-08T12:00",
     "group": "All",
-    "location": "Talence::A29@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 5
+    "location": "Talence::A29@Room_105",
+    "description": "None"
   },
   "C26120170904T095220576@Pthebault33": {
     "ID": "C26120170904T095220576@Pthebault33",
