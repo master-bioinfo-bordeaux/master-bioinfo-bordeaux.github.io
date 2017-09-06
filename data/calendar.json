@@ -2220,7 +2220,10 @@
     "date_end": "2017-09-20T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 3
   },
   "C10F20170906T055857788@Marie-Beurton-Aimar": {
     "ID": "C10F20170906T055857788@Marie-Beurton-Aimar",
@@ -2229,14 +2232,11 @@
     "type": "Cours+TD",
     "summary": "4TBI704U",
     "lecturer": "Bernaulte JJ",
-    "date_start": "2017-09-27T13:30",
-    "date_end": "2017-09-27T16:30",
+    "date_start": "2017-09-27T13:00",
+    "date_end": "2017-09-27T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "13:30-16:30",
-    "weekdayIndex": 3
+    "description": "None"
   },
   "C10F20170906T055857943@Marie-Beurton-Aimar": {
     "ID": "C10F20170906T055857943@Marie-Beurton-Aimar",
