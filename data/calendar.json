@@ -99,7 +99,10 @@
     "date_end": "2017-09-05T16:00",
     "group": "All",
     "location": "Talence::A9@Amphi_002",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 2
   },
   "C26020170905T123116005@import": {
     "ID": "C26020170905T123116005@import",
@@ -113,7 +116,10 @@
     "type": "Conference",
     "year": "2",
     "tracks": "0x60",
-    "comment": "Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)"
+    "comment": "Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)",
+    "warnings": [],
+    "hours": "09:30-12:00",
+    "weekdayIndex": 3
   },
   "C26120170903T135907004@import": {
     "ID": "C26120170903T135907004@import",
@@ -2137,9 +2143,7 @@
     "group": "All",
     "location": "Talence::A22@Room_119",
     "description": "None",
-    "warnings": [
-      " No building!!"
-    ],
+    "warnings": [],
     "hours": "09:00-11:00",
     "weekdayIndex": 4
   },
@@ -2292,5 +2296,18 @@
     "warnings": [],
     "hours": "13:30-16:30",
     "weekdayIndex": 3
+  },
+  "C27020170906T094842480@Pthebault33": {
+    "ID": "C27020170906T094842480@Pthebault33",
+    "apogee": "4TBE901U",
+    "acronym": "S09::TDE++",
+    "type": "Projet",
+    "summary": "4TBE901U",
+    "lecturer": "David V",
+    "date_start": "2017-09-08T09:00",
+    "date_end": "2017-09-08T11:00",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@Room_73",
+    "description": "None"
   }
 }
