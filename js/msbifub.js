@@ -1046,7 +1046,7 @@ var course_data = {
     "short": "Health Innovation",
     "language": "french",
     "apogee": "4TDE902U",
-    "acronym": "InnovTech", 
+    "acronym": "IBS", 
     "background_color": "#00e6f7", 
     "contents": {
       "en": "Coming soon.", 
