@@ -246,7 +246,12 @@
     "date_end": "2017-09-12T12:00",
     "group": "All",
     "location": "Carreire::ED@Room_27A",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No lecturer!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C27020170903T135907011@import": {
     "ID": "C27020170903T135907011@import",
@@ -2308,6 +2313,32 @@
     "date_end": "2017-09-08T11:00",
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_73",
+    "description": "None"
+  },
+  "C10F20170906T100707159@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T100707159@Marie-Beurton-Aimar",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "Cours",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2017-09-11T09:00",
+    "date_end": "2017-09-11T12:00",
+    "group": "All",
+    "location": "Talence::B18@Room_amphi",
+    "description": "None"
+  },
+  "C10F20170906T100707160@Marie-Beurton-Aimar": {
+    "ID": "C10F20170906T100707160@Marie-Beurton-Aimar",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "Cours",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2017-09-18T09:00",
+    "date_end": "2017-09-18T12:00",
+    "group": "All",
+    "location": "Talence::B18@Room_amphi",
     "description": "None"
   }
 }
