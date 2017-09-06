@@ -96,18 +96,18 @@
     "description": "None"
   },
   "C26020170905T123116005@import": {
-      "ID"        :"C26020170905T123116005@import",
-      "apogee"    :"4TBE902U",
-      "acronym"   :"S09::EvoCom",
-      "date_start":"2017-09-06T09:30",
-      "date_end"  :"2017-09-06T12:00",
-      "lecturer"  :"Fi&eacute;vet V",
-      "location"  :"Talence::B4@Room_A2",
-      "group"     :"All",
-      "type"      :"Conference",
-      "year"      :"2",
-      "tracks"    :"0x60",
-      "comment"   :"Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)"
+    "ID": "C26020170905T123116005@import",
+    "apogee": "4TBE902U",
+    "acronym": "S09::EvoCom",
+    "date_start": "2017-09-06T09:30",
+    "date_end": "2017-09-06T12:00",
+    "lecturer": "Fi&eacute;vet V",
+    "location": "Talence::B4@Room_A2",
+    "group": "All",
+    "type": "Conference",
+    "year": "2",
+    "tracks": "0x60",
+    "comment": "Imported from import/edt_m2_release_2017_09_05_2.ods - Tue Sep 05 2017 14:31:16 GMT+0200 (CEST)"
   },
   "C26120170903T135907004@import": {
     "ID": "C26120170903T135907004@import",
@@ -2100,11 +2100,8 @@
     "date_start": "2017-09-06T10:00",
     "date_end": "2017-09-06T12:00",
     "group": "All",
-    "location": "Talence::A29@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 3
+    "location": "Talence::A29@Room_105",
+    "description": "None"
   },
   "C10F20170901T064350874@Marie-Beurton-Aimar": {
     "ID": "C10F20170901T064350874@Marie-Beurton-Aimar",
