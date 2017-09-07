@@ -2350,7 +2350,7 @@ TableCal.prototype.reset = function() {
 /************************************
  * Jean-Christophe Taveau
  * Calendar
- * 2015
+ * 2015-2017
  ************************************/
 
 
@@ -2988,19 +2988,20 @@ function createEventCell(cal_event) {
         html += '<li class=" hidden-sm hidden-xs">'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
         html += '<li">Grp: '+ cal_event.group+'</li>';
         
-        // Location: Campus::Bldg@Room
+        // Location: Campus::Bldg@[Room\Amphi]_name
         var tmp = cal_event.location.match(/(.+)::/);
         var campus = tmp[1];
         if (campus !== "None") {
             tmp = cal_event.location.match(/::(.+)@/);
             var bldg = tmp[1];
             tmp = cal_event.location.match(/@(\w+)/);
-            var room = tmp[1];
+            let room = 'Room';
+            let room_name = '000';
+            [room,room_name] = tmp[1].split('_');
             html += '<li class="hidden-sm hidden-xs">Campus: '+ campus+'</li>';
             html += '<li class="hidden-sm hidden-xs">Bldg: '+ bldg  +'</li>';
             html += '<li class="hidden-lg hidden-md">'+ bldg  +'</li>';
-            html += '<li class="hidden-sm hidden-xs">Room/Amphi: '+ room  +'</li>';
-            html += '<li class="hidden-lg hidden-md">Room: '+ room  +'</li>';
+            html += '<li>'+room +': '+ room_name  +'</li>';
         }
 
         html += '</ul>';

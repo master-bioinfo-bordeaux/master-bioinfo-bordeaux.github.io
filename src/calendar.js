@@ -2,7 +2,7 @@
 /************************************
  * Jean-Christophe Taveau
  * Calendar
- * 2015
+ * 2015-2017
  ************************************/
 
 
@@ -82,7 +82,7 @@ function nextWeek() {
  *
  ******************************************************/
  
-var calendar_data = null;
+var calendar_data = {};
 var table = new TableCal();
 
 initCalendar();
@@ -101,20 +101,27 @@ function initCalendar() {
     cal.dataset.month = now.getMonth();
     cal.dataset.day   = now.getDate();
     
-    loadCalendarData();
+    // Load M1 events
+    loadCalendarData('calendar.json');
+    // Load M2 events
+    loadCalendarData('calendar_m2.json');
+    // Load not-course events
+    loadCalendarData('calendar_event.json');
 
 }
 
-function loadCalendarData() {
+function loadCalendarData(filename) {
+    console.log('LOAD ' + filename);
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
-            calendar_data = JSON.parse(xhr.responseText); // Données textuelles récupérées
+            let data = JSON.parse(xhr.responseText); // Données textuelles récupérées
+            Object.assign(calendar_data,data); // ECMAScript 2015
             updateCalendar();
         }
     };
-    xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/calendar.json", true);
+    xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/"+ filename, true);
     xhr.send(null);
 
 }
@@ -633,19 +640,20 @@ function createEventCell(cal_event) {
         html += '<li class=" hidden-sm hidden-xs">'+ cal_event.lecturer+'<span class="pull-right">'+cal_event.type+'</span></li>';
         html += '<li">Grp: '+ cal_event.group+'</li>';
         
-        // Location: Campus::Bldg@Room
+        // Location: Campus::Bldg@[Room\Amphi]_name
         var tmp = cal_event.location.match(/(.+)::/);
         var campus = tmp[1];
         if (campus !== "None") {
             tmp = cal_event.location.match(/::(.+)@/);
             var bldg = tmp[1];
             tmp = cal_event.location.match(/@(\w+)/);
-            var room = tmp[1];
+            let room = 'Room';
+            let room_name = '000';
+            [room,room_name] = tmp[1].split('_');
             html += '<li class="hidden-sm hidden-xs">Campus: '+ campus+'</li>';
             html += '<li class="hidden-sm hidden-xs">Bldg: '+ bldg  +'</li>';
             html += '<li class="hidden-lg hidden-md">'+ bldg  +'</li>';
-            html += '<li class="hidden-sm hidden-xs">Room/Amphi: '+ room  +'</li>';
-            html += '<li class="hidden-lg hidden-md">Room: '+ room  +'</li>';
+            html += '<li>'+room +': '+ room_name  +'</li>';
         }
 
         html += '</ul>';
