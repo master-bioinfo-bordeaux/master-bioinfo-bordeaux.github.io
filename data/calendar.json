@@ -386,18 +386,5 @@
     "warnings": [],
     "hours": "14:00-17:00",
     "weekdayIndex": 2
-  },
-  "C10F20170907T150757163@jeesay": {
-    "ID": "C10F20170907T150757163@jeesay",
-    "apogee": "4TBI701U",
-    "acronym": "S07::IMAJS",
-    "type": "Cours+TD",
-    "summary": "4TBI701U",
-    "lecturer": "Taveau JC",
-    "date_start": "2017-08-28T08:00",
-    "date_end": "2017-08-28T10:00",
-    "group": "A1",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
   }
 }
