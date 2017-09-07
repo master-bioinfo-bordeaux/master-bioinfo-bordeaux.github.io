@@ -2430,7 +2430,7 @@ function nextWeek() {
  *
  ******************************************************/
  
-var calendar_data = null;
+var calendar_data = {};
 var table = new TableCal();
 
 initCalendar();
@@ -2449,20 +2449,27 @@ function initCalendar() {
     cal.dataset.month = now.getMonth();
     cal.dataset.day   = now.getDate();
     
-    loadCalendarData();
+    // Load M1 events
+    loadCalendarData('calendar.json');
+    // Load M2 events
+    loadCalendarData('calendar_m2.json');
+    // Load not-course events
+    loadCalendarData('calendar_event.json');
 
 }
 
-function loadCalendarData() {
+function loadCalendarData(filename) {
+    console.log('LOAD ' + filename);
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
-            calendar_data = JSON.parse(xhr.responseText); // Données textuelles récupérées
+            let data = JSON.parse(xhr.responseText); // Données textuelles récupérées
+            Object.assign(calendar_data,data); // ECMAScript 2015
             updateCalendar();
         }
     };
-    xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/calendar.json", true);
+    xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/"+ filename, true);
     xhr.send(null);
 
 }
