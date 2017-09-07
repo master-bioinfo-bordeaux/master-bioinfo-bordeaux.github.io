@@ -386,5 +386,18 @@
     "warnings": [],
     "hours": "14:00-17:00",
     "weekdayIndex": 2
+  },
+  "C10F20170907T153134419@jeesay": {
+    "ID": "C10F20170907T153134419@jeesay",
+    "apogee": "4TBI703U",
+    "acronym": "S07::OBI",
+    "type": "Cours",
+    "summary": "4TBI703U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-08-28T08:00",
+    "date_end": "2017-08-28T10:00",
+    "group": "All",
+    "location": "Talence::A22@Amphi_Biblio RdC",
+    "description": "None"
   }
 }
