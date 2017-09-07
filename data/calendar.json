@@ -283,7 +283,10 @@
     "date_end": "2017-09-11T16:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 1
   },
   "C10F20170907T060746272@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T060746272@Marie-Beurton-Aimar",
@@ -311,11 +314,8 @@
     "date_start": "2017-09-12T08:00",
     "date_end": "2017-09-12T10:00",
     "group": "All",
-    "location": "Talence::A33@Room_Grand Amphi de Maths",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-10:00",
-    "weekdayIndex": 2
+    "location": "Talence::A33@Amphi_Maths",
+    "description": "None"
   },
   "C10F20170907T061211327@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T061211327@Marie-Beurton-Aimar",
