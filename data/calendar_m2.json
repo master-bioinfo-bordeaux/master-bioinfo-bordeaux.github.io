@@ -2013,5 +2013,21 @@
     "group": "All",
     "location": "Talence::A30-LaBRI@Room_73",
     "description": "None"
+  },
+  "C26120170904T095220576@Pthebault33": {
+    "ID": "C26120170904T095220576@Pthebault33",
+    "apogee": "4TBI901U",
+    "acronym": "S09::StrubiGL",
+    "type": "Cours",
+    "summary": "4TBI901U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-09-07T09:00",
+    "date_end": "2017-09-07T11:00",
+    "group": "All",
+    "location": "Talence::A22@Room_119",
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-11:00",
+    "weekdayIndex": 4
   }
 }
