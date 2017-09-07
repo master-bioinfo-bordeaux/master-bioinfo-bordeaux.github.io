@@ -154,7 +154,10 @@
     "date_end": "2017-10-25T17:00",
     "group": "All",
     "location": "Talence::A21-OMEGA@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-17:00",
+    "weekdayIndex": 3
   },
   "C27020170906T094842480@Pthebault33": {
     "ID": "C27020170906T094842480@Pthebault33",
@@ -347,7 +350,10 @@
     "date_end": "2017-09-26T10:00",
     "group": "All",
     "location": "Talence::A9@Amphi_001",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   },
   "C10F20170907T061614273@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T061614273@Marie-Beurton-Aimar",
@@ -380,5 +386,18 @@
     "warnings": [],
     "hours": "14:00-17:00",
     "weekdayIndex": 2
+  },
+  "C10F20170907T150757163@jeesay": {
+    "ID": "C10F20170907T150757163@jeesay",
+    "apogee": "4TBI701U",
+    "acronym": "S07::IMAJS",
+    "type": "Cours+TD",
+    "summary": "4TBI701U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-08-28T08:00",
+    "date_end": "2017-08-28T10:00",
+    "group": "A1",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
   }
 }
