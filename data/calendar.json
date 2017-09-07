@@ -2409,7 +2409,10 @@
     "date_end": "2017-09-11T16:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:00-16:00",
+    "weekdayIndex": 1
   },
   "C10F20170907T060746272@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T060746272@Marie-Beurton-Aimar",
@@ -2418,14 +2421,11 @@
     "type": "TD machine",
     "summary": "4TEC701U",
     "lecturer": "Th&eacute;bault P",
-    "date_start": "2017-09-11T15:30",
-    "date_end": "2017-09-11T17:30",
-    "group": "A1",
+    "date_start": "2017-09-11T16:00",
+    "date_end": "2017-09-11T19:00",
+    "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "15:30-17:30",
-    "weekdayIndex": 1
+    "description": "None"
   },
   "C10F20170907T061211326@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T061211326@Marie-Beurton-Aimar",
