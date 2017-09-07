@@ -1,0 +1,112 @@
+{
+{
+  "C20F20170216T092500071@jeesay": {
+    "ID": "C20F20170216T092500071@jeesay",
+    "acronym": "S10::Stage",
+    "apogee": "4TBI001U",
+    "date_end": "2017-08-31T00:00",
+    "date_start": "2017-03-01T00:00",
+    "description": "None",
+    "group": "All",
+    "lecturer": "------",
+    "location": "None::None@Room_000",
+    "summary": "4TBI001U",
+    "type": "Unknown"
+  },
+  "E30720170726T134849025@jeesay": {
+    "ID": "E30720170726T134849025@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "date_start": "2017-10-30T00:00",
+    "date_end": "2017-11-03T00:00",
+    "lecturer": "------",
+    "location": "None::None@Room_000",
+    "group": "All",
+    "type": "Vacances",
+    "year": "3",
+    "tracks": "0x07",
+    "title": "Vacances d&apos;automne | Fall Holidays",
+    "description": "",
+    "warnings": [
+      " No lecturer!!",
+      " No building!!"
+    ],
+    "hours": "00:00-00:00",
+    "weekdayIndex": 5
+  },
+  "E30720170726T134849040@jeesay": {
+    "ID": "E30720170726T134849040@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "date_start": "2017-12-25T00:00",
+    "date_end": "2018-01-05T00:00",
+    "lecturer": "------",
+    "location": "None::None@Room_000",
+    "group": "All",
+    "type": "Vacances",
+    "year": "3",
+    "tracks": "0x07",
+    "title": "Vacances de fin d&apos;ann&eacute;e | End-of-year Holidays",
+    "description": ""
+  },
+  "E30F20170903T135907002@jeesay": {
+    "ID": "E30F20170903T135907002@jeesay",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "date_start": "2017-09-04T10:00",
+    "date_end": "2017-09-04T12:00",
+    "lecturer": "------",
+    "location": "Talence::A29@Room_105",
+    "group": "All",
+    "type": "Rentr&eacute;e",
+    "year": "3",
+    "tracks": "0x0F",
+    "title": "Rentr&eacute;e M1 et M2",
+    "description": "",
+    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
+    "warnings": [
+      " No lecturer!!"
+    ],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 1
+  },
+  "E1720170904T111251872@jeesay": {
+    "ID": "E1720170904T111251872@jeesay",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "type": "Conference",
+    "summary": "4TBIMEET",
+    "title": "Soutenance Stage M2",
+    "lecturer": "--  ",
+    "year": "1",
+    "date_start": "2017-09-14T08:00",
+    "date_end": "2017-09-14T18:30",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@Room_000",
+    "description": "Defense Day for student of promotion 2017",
+    "tracks": "0x07",
+    "warnings": [],
+    "hours": "08:00-18:30",
+    "weekdayIndex": 4
+  },
+  "E1720170904T111251873@jeesay": {
+    "ID": "E1720170904T111251873@jeesay",
+    "apogee": "4TBIMEET",
+    "acronym": "Evt::Conference",
+    "type": "Conference",
+    "summary": "4TBIMEET",
+    "title": "Soutenance Stage M2",
+    "lecturer": "--  ",
+    "year": "1",
+    "date_start": "2017-09-15T08:00",
+    "date_end": "2017-09-15T18:30",
+    "group": "All",
+    "location": "Talence::A30-LaBRI@Room_000",
+    "description": "Defense Day for student of promotion 2017",
+    "tracks": "0x07",
+    "warnings": [],
+    "hours": "08:00-18:30",
+    "weekdayIndex": 5
+  }
+  }
+  
