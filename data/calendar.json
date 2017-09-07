@@ -2413,7 +2413,10 @@
     "date_end": "2017-09-11T15:30",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "13:30-15:30",
+    "weekdayIndex": 1
   },
   "C10F20170907T060746272@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T060746272@Marie-Beurton-Aimar",
@@ -2426,6 +2429,48 @@
     "date_end": "2017-09-11T17:30",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "15:30-17:30",
+    "weekdayIndex": 1
+  },
+  "C10F20170907T061211326@Marie-Beurton-Aimar": {
+    "ID": "C10F20170907T061211326@Marie-Beurton-Aimar",
+    "apogee": "4TBI703U",
+    "acronym": "S07::OBI",
+    "type": "Cours",
+    "summary": "4TBI703U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-09-12T08:00",
+    "date_end": "2017-09-12T10:00",
+    "group": "All",
+    "location": "Talence::A33@Room_Grand Amphi de Maths",
+    "description": "None"
+  },
+  "C10F20170907T061211327@Marie-Beurton-Aimar": {
+    "ID": "C10F20170907T061211327@Marie-Beurton-Aimar",
+    "apogee": "4TBI703U",
+    "acronym": "S07::OBI",
+    "type": "Cours",
+    "summary": "4TBI703U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-09-19T08:00",
+    "date_end": "2017-09-19T10:00",
+    "group": "All",
+    "location": "Talence::B6@Room_Amphi ",
+    "description": "None"
+  },
+  "C10F20170907T061211445@Marie-Beurton-Aimar": {
+    "ID": "C10F20170907T061211445@Marie-Beurton-Aimar",
+    "apogee": "4TBI703U",
+    "acronym": "S07::OBI",
+    "type": "Cours",
+    "summary": "4TBI703U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-09-26T08:00",
+    "date_end": "2017-09-26T10:00",
+    "group": "All",
+    "location": "Talence::A9@Room_Amphi 1",
     "description": "None"
   }
 }
