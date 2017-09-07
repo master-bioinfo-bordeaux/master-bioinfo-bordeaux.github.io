@@ -334,21 +334,14 @@
     "ID": "C20F20170903T135907015@import",
     "apogee": "4TBI001U",
     "acronym": "S10::Stage",
+    "type": "Soutenance",
+    "summary": "4TBI001U",
+    "lecturer": "------",
     "date_start": "2017-09-14T08:00",
     "date_end": "2017-09-14T19:00",
-    "lecturer": "------",
-    "location": "None::None@Room_000",
     "group": "All",
-    "type": "Soutenance",
-    "year": "2",
-    "tracks": "0x0F",
-    "comment": "Imported from import/edt_m2_release_2017_09_03.ods - Sun Sep 03 2017 15:59:07 GMT+0200 (CEST)",
-    "warnings": [
-      " No lecturer!!",
-      " No building!!"
-    ],
-    "hours": "08:00-19:00",
-    "weekdayIndex": 4
+    "location": "Talence::A30-LaBRI@Room_Amphi",
+    "description": "None"
   },
   "C26020170903T135907016@import": {
     "ID": "C26020170903T135907016@import",
@@ -2445,7 +2438,10 @@
     "date_end": "2017-09-12T10:00",
     "group": "All",
     "location": "Talence::A33@Room_Grand Amphi de Maths",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   },
   "C10F20170907T061211327@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T061211327@Marie-Beurton-Aimar",
