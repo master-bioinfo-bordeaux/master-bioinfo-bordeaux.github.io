@@ -472,7 +472,10 @@
     "date_end": "2017-09-22T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 5
   },
   "C10F20170908T072418479@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T072418479@Marie-Beurton-Aimar",
@@ -484,6 +487,19 @@
     "date_start": "2017-09-29T09:00",
     "date_end": "2017-09-29T12:00",
     "group": "A2",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C10F20170908T072539083@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T072539083@Marie-Beurton-Aimar",
+    "apogee": "4TBI702U-Prog",
+    "acronym": "S07::APU-Prog",
+    "type": "Cours+TD",
+    "summary": "4TBI702U-Prog",
+    "lecturer": "Baldacci F",
+    "date_start": "2017-09-21T09:20",
+    "date_end": "2017-09-21T12:20",
+    "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   }
