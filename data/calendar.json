@@ -498,12 +498,9 @@
     "lecturer": "Beurton-Aimar M",
     "date_start": "2017-09-29T09:00",
     "date_end": "2017-09-29T12:00",
-    "group": "A2",
+    "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 5
+    "description": "None"
   },
   "C10F20170908T072539083@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T072539083@Marie-Beurton-Aimar",
@@ -756,7 +753,12 @@
     "date_end": "2017-10-10T10:00",
     "group": "All",
     "location": "None::None@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   },
   "C10F20170908T075513526@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T075513526@Marie-Beurton-Aimar",
@@ -814,7 +816,10 @@
     "date_end": "2017-10-13T12:20",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:20-12:20",
+    "weekdayIndex": 5
   },
   "C10F20170908T080104980@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T080104980@Marie-Beurton-Aimar",
