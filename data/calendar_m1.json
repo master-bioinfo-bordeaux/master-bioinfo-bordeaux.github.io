@@ -1,0 +1,23 @@
+20 'BEGIN:VEVENT'
+26 'DTSTART;TZID=Europe/Paris:20170908T140000'
+20170908T140000
+2017 2017
+20170908T170000
+2017 2017
+PUSH  { content: 'OBI**THEBAULT**COURS**A1',
+  start: { year: 2017, month: 10, day: 8, time: '14:00' },
+  end: { year: 2017, month: 10, day: 8, time: '17:00' },
+  location: 'Talence::A22@Amphi_Maths' }
+"C10F20170908T135640001@import": {
+        "ID"        :"C10F20170908T135640001@import",
+        "apogee"    :"4TBI703U",
+        "acronym"   :"S07::OBI",
+        "date_start":"2017-10-08T14:00",
+        "date_end"  :"2017-10-08T17:00",
+        "lecturer"  :"Th&eacute;bault P",
+        "location"  :"Talence::A22@Amphi_Maths",
+        "group"     :"A1",
+        "type"      :"Cours",
+        "year"      :"1",
+        "tracks"    :"0x0F",
+        "comment"   :"Imported from ../import/Mon_agenda_2017_09_08.ics - Fri Sep 08 2017 15:56:40 GMT+0200 (CEST)"},
