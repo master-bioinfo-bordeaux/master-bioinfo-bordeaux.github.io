@@ -499,12 +499,9 @@
     "lecturer": "Baldacci F",
     "date_start": "2017-09-21T09:20",
     "date_end": "2017-09-21T12:20",
-    "group": "A1",
+    "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:20-12:20",
-    "weekdayIndex": 4
+    "description": "None"
   },
   "C10F20170908T072651568@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T072651568@Marie-Beurton-Aimar",
@@ -533,6 +530,9 @@
     "date_end": "2017-09-21T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 4
   }
 }
