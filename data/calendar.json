@@ -507,7 +507,10 @@
     "date_end": "2017-09-21T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 4
   },
   "C10F20170908T072651568@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T072651568@Marie-Beurton-Aimar",
@@ -532,14 +535,11 @@
     "type": "Cours+TD",
     "summary": "4TBI702U-Prog",
     "lecturer": "Beurton-Aimar M",
-    "date_start": "2017-09-21T09:00",
-    "date_end": "2017-09-21T12:00",
+    "date_start": "2017-09-21T14:00",
+    "date_end": "2017-09-21T17:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None",
-    "warnings": [],
-    "hours": "09:00-12:00",
-    "weekdayIndex": 4
+    "description": "None"
   },
   "C10F20170908T073240706@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T073240706@Marie-Beurton-Aimar",
