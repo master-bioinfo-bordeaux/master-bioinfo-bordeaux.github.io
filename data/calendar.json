@@ -399,5 +399,18 @@
     "group": "All",
     "location": "Talence::A33@Room_Grand Amphi de Maths",
     "description": "None"
+  },
+  "C10F20170908T065730992@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T065730992@Marie-Beurton-Aimar",
+    "apogee": "4TBI701U",
+    "acronym": "S07::IMAJS",
+    "type": "Cours",
+    "summary": "4TBI701U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-09-12T10:00",
+    "date_end": "2017-09-12T12:00",
+    "group": "All",
+    "location": "Talence::A33@Room_amphi",
+    "description": "None"
   }
 }
