@@ -263,7 +263,10 @@
     "lecturer": "Gr&eacute;mare A",
     "location": "Talence::B18@Amphi_000",
     "summary": "4TEC701U",
-    "type": "Cours"
+    "type": "Cours",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "C10F20170906T131146514@Marie-Beurton-Aimar": {
     "ID": "C10F20170906T131146514@Marie-Beurton-Aimar",
@@ -822,7 +825,10 @@
     "date_end": "2017-10-20T12:20",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:20-12:20",
+    "weekdayIndex": 5
   },
   "C10F20170908T080104997@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T080104997@Marie-Beurton-Aimar",
@@ -835,7 +841,10 @@
     "date_end": "2017-10-27T12:20",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:20-12:20",
+    "weekdayIndex": 5
   },
   "C10F20170908T080105060@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T080105060@Marie-Beurton-Aimar",
@@ -848,19 +857,9 @@
     "date_end": "2017-11-10T12:20",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
-  },
-  "C10F20170908T080105119@Marie-Beurton-Aimar": {
-    "ID": "C10F20170908T080105119@Marie-Beurton-Aimar",
-    "apogee": "4TBI702U-Algo",
-    "acronym": "S07::APU-Algo",
-    "type": "Cours+TD",
-    "summary": "4TBI702U-Algo",
-    "lecturer": "Baldacci F",
-    "date_start": "2017-09-15T09:20",
-    "date_end": "2017-09-15T12:20",
-    "group": "A2",
-    "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "09:20-12:20",
+    "weekdayIndex": 5
   }
 }
