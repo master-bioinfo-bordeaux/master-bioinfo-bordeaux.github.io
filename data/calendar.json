@@ -767,14 +767,11 @@
     "type": "Cours",
     "summary": "4TBI701U",
     "lecturer": "Taveau JC",
-    "date_start": "2017-10-24T08:00",
-    "date_end": "2017-10-24T10:00",
+    "date_start": "2017-10-03T08:00",
+    "date_end": "2017-10-03T10:00",
     "group": "All",
     "location": "Talence::B6@Room_Amphi",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-10:00",
-    "weekdayIndex": 2
+    "description": "None"
   },
   "C10F20170908T075513543@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T075513543@Marie-Beurton-Aimar",
