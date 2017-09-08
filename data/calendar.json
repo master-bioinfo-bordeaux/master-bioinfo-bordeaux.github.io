@@ -587,6 +587,48 @@
     "date_end": "2017-09-19T17:00",
     "group": "All",
     "location": "Talence::A28-CREMI@Room_000",
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 2
+  },
+  "C10F20170908T074427637@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T074427637@Marie-Beurton-Aimar",
+    "apogee": "4TBI701U",
+    "acronym": "S07::IMAJS",
+    "type": "TD",
+    "summary": "4TBI701U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-09-21T08:00",
+    "date_end": "2017-09-21T12:00",
+    "group": "A2",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C10F20170908T074427638@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T074427638@Marie-Beurton-Aimar",
+    "apogee": "4TBI701U",
+    "acronym": "S07::IMAJS",
+    "type": "TD",
+    "summary": "4TBI701U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-10-05T08:00",
+    "date_end": "2017-10-05T12:00",
+    "group": "A2",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
+  },
+  "C10F20170908T074427639@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T074427639@Marie-Beurton-Aimar",
+    "apogee": "4TBI701U",
+    "acronym": "S07::IMAJS",
+    "type": "TD",
+    "summary": "4TBI701U",
+    "lecturer": "Taveau JC",
+    "date_start": "2017-10-26T08:00",
+    "date_end": "2017-10-26T12:00",
+    "group": "A2",
+    "location": "Talence::A28-CREMI@Room_000",
     "description": "None"
   }
 }
