@@ -507,7 +507,10 @@
     "date_end": "2017-09-21T17:00",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "14:00-17:00",
+    "weekdayIndex": 4
   },
   "C10F20170908T072651568@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T072651568@Marie-Beurton-Aimar",
@@ -572,5 +575,18 @@
     "warnings": [],
     "hours": "09:00-12:00",
     "weekdayIndex": 1
+  },
+  "C10F20170908T074108987@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T074108987@Marie-Beurton-Aimar",
+    "apogee": "4TBI702U-USI",
+    "acronym": "S07::APU-USI",
+    "type": "TD",
+    "summary": "4TBI702U-USI",
+    "lecturer": "Delmas O",
+    "date_start": "2017-09-18T14:00",
+    "date_end": "2017-09-18T17:00",
+    "group": "A1",
+    "location": "Talence::A28-CREMI@Room_000",
+    "description": "None"
   }
 }
