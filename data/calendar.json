@@ -231,7 +231,10 @@
     "lecturer": "Gr&eacute;mare A",
     "location": "Talence::B5@Amphi_GABA",
     "summary": "4TEC701U",
-    "type": "Cours"
+    "type": "Cours",
+    "warnings": [],
+    "hours": "09:00-12:00",
+    "weekdayIndex": 1
   },
   "C10F20170906T094933564@Marie-Beurton-Aimar": {
     "ID": "C10F20170906T094933564@Marie-Beurton-Aimar",
@@ -244,7 +247,10 @@
     "lecturer": "Gr&eacute;mare A",
     "location": "Talence::B5@Amphi_GABA",
     "summary": "4TEC701U",
-    "type": "Cours"
+    "type": "Cours",
+    "warnings": [],
+    "hours": "14:00-16:00",
+    "weekdayIndex": 1
   },
   "C10F20170906T094933748@Marie-Beurton-Aimar": {
     "ID": "C10F20170906T094933748@Marie-Beurton-Aimar",
@@ -619,7 +625,10 @@
     "date_end": "2017-10-05T12:00",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 4
   },
   "C10F20170908T074427639@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T074427639@Marie-Beurton-Aimar",
@@ -632,7 +641,10 @@
     "date_end": "2017-10-26T12:00",
     "group": "A2",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 4
   },
   "C10F20170908T074619517@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T074619517@Marie-Beurton-Aimar",
@@ -661,7 +673,10 @@
     "date_end": "2017-10-04T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20170908T074619519@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T074619519@Marie-Beurton-Aimar",
@@ -674,7 +689,10 @@
     "date_end": "2017-10-18T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20170908T074619529@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T074619529@Marie-Beurton-Aimar",
@@ -687,7 +705,10 @@
     "date_end": "2017-10-25T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20170908T074619546@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T074619546@Marie-Beurton-Aimar",
@@ -700,7 +721,10 @@
     "date_end": "2017-11-08T12:00",
     "group": "A1",
     "location": "Talence::A28-CREMI@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-12:00",
+    "weekdayIndex": 3
   },
   "C10F20170908T075513514@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T075513514@Marie-Beurton-Aimar",
@@ -713,7 +737,10 @@
     "date_end": "2017-09-19T10:00",
     "group": "All",
     "location": "Talence::B6@Room_Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   },
   "C10F20170908T075513515@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T075513515@Marie-Beurton-Aimar",
@@ -726,7 +753,12 @@
     "date_end": "2017-10-17T10:00",
     "group": "All",
     "location": "None::None@Room_000",
-    "description": "None"
+    "description": "None",
+    "warnings": [
+      " No building!!"
+    ],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   },
   "C10F20170908T075513526@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T075513526@Marie-Beurton-Aimar",
@@ -739,7 +771,10 @@
     "date_end": "2017-10-24T10:00",
     "group": "All",
     "location": "Talence::B6@Room_Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   },
   "C10F20170908T075513543@Marie-Beurton-Aimar": {
     "ID": "C10F20170908T075513543@Marie-Beurton-Aimar",
@@ -752,19 +787,9 @@
     "date_end": "2017-11-07T10:00",
     "group": "All",
     "location": "Talence::A22@Room_101",
-    "description": "None"
-  },
-  "C10F20170908T075513688@Marie-Beurton-Aimar": {
-    "ID": "C10F20170908T075513688@Marie-Beurton-Aimar",
-    "apogee": "4TBI701U",
-    "acronym": "S07::IMAJS",
-    "type": "Cours",
-    "summary": "4TBI701U",
-    "lecturer": "Taveau JC",
-    "date_start": "2017-11-14T08:00",
-    "date_end": "2017-11-14T10:00",
-    "group": "All",
-    "location": "Talence::A22@Room_101",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "08:00-10:00",
+    "weekdayIndex": 2
   }
 }
