@@ -780,13 +780,10 @@
     "type": "Cours",
     "summary": "4TBI701U",
     "lecturer": "Taveau JC",
-    "date_start": "2017-11-07T08:00",
-    "date_end": "2017-11-07T10:00",
+    "date_start": "2017-09-26T08:00",
+    "date_end": "2017-09-26T10:00",
     "group": "All",
     "location": "Talence::A22@Room_101",
-    "description": "None",
-    "warnings": [],
-    "hours": "08:00-10:00",
-    "weekdayIndex": 2
+    "description": "None"
   }
 }
