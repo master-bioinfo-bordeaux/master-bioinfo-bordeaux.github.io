@@ -334,7 +334,10 @@
     "date_end": "2017-09-19T12:00",
     "group": "All",
     "location": "Talence::B6@Room_Amphi",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C10F20170907T061211445@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T061211445@Marie-Beurton-Aimar",
@@ -412,5 +415,18 @@
     "warnings": [],
     "hours": "08:00-10:00",
     "weekdayIndex": 2
+  },
+  "C10F20170908T071527051@Marie-Beurton-Aimar": {
+    "ID": "C10F20170908T071527051@Marie-Beurton-Aimar",
+    "apogee": "4TEC701U",
+    "acronym": "S07::TDE",
+    "type": "TD",
+    "summary": "4TEC701U",
+    "lecturer": "David V",
+    "date_start": "2017-09-18T13:00",
+    "date_end": "2017-09-18T16:00",
+    "group": "All",
+    "location": "Talence::B7@Room_006",
+    "description": "None"
   }
 }
