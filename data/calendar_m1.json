@@ -8,8 +8,8 @@ PUSH  { content: 'OBI**THEBAULT**COURS**A1',
   start: { year: 2017, month: 10, day: 8, time: '14:00' },
   end: { year: 2017, month: 10, day: 8, time: '17:00' },
   location: 'Talence::A22@Amphi_Maths' }
-"C10F20170908T135640001@import": {
-        "ID"        :"C10F20170908T135640001@import",
+"C10F20170908T145434001@import": {
+        "ID"        :"C10F20170908T145434001@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-08T14:00",
@@ -20,4 +20,4 @@ PUSH  { content: 'OBI**THEBAULT**COURS**A1',
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from ../import/Mon_agenda_2017_09_08.ics - Fri Sep 08 2017 15:56:40 GMT+0200 (CEST)"},
+        "comment"   :"Imported from ../import/Mon_agenda_2017_09_08.ics - Fri Sep 08 2017 16:54:34 GMT+0200 (CEST)"},
