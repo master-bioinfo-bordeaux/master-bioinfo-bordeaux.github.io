@@ -1,3 +1,4 @@
+{
 "C20720170908T155502001@import": {
         "ID"        :"C20720170908T155502001@import",
         "apogee"    :"4TBI904U",
@@ -1895,4 +1896,6 @@
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Fri Sep 08 2017 17:55:05 GMT+0200 (CEST)"},
+        "comment"   :"Imported from .ics - Fri Sep 08 2017 17:55:05 GMT+0200 (CEST)"}
+}
+
