@@ -4793,3 +4793,2765 @@ PUSH  { start: { year: 2017, month: 9, day: 28, time: '9:00' },
         "year"      :"2",
         "tracks"    :"0x70",
         "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:31:59 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20170906T073000Z'
+8 'BEGIN:VEVENT'
+9 'DTSTART:20171121T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 21, time: '14:00' },
+  end: { year: 2017, month: 11, day: 21, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TP' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20171122T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 22, time: '8:00' },
+  end: { year: 2017, month: 11, day: 22, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TP' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20170927T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 27, time: '8:00' },
+  end: { year: 2017, month: 9, day: 27, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20171107T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 7, time: '8:00' },
+  end: { year: 2017, month: 11, day: 7, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TD' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20171114T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 14, time: '14:00' },
+  end: { year: 2017, month: 11, day: 14, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TP' }
+78 'BEGIN:VEVENT'
+79 'DTSTART:20170920T090000Z'
+PUSH  { start: { year: 2017, month: 9, day: 20, time: '11:00' },
+  end: { year: 2017, month: 9, day: 20, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+92 'BEGIN:VEVENT'
+93 'DTSTART:20171004T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 4, time: '8:00' },
+  end: { year: 2017, month: 10, day: 4, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+106 'BEGIN:VEVENT'
+107 'DTSTART:20170926T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 26, time: '10:00' },
+  end: { year: 2017, month: 9, day: 26, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+120 'BEGIN:VEVENT'
+121 'DTSTART:20171115T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 15, time: '14:00' },
+  end: { year: 2017, month: 11, day: 15, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TP' }
+134 'BEGIN:VEVENT'
+135 'DTSTART:20170913T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 13, time: '10:00' },
+  end: { year: 2017, month: 9, day: 13, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+148 'BEGIN:VEVENT'
+149 'DTSTART:20170915T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 15, time: '10:00' },
+  end: { year: 2017, month: 9, day: 15, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+162 'BEGIN:VEVENT'
+163 'DTSTART:20171110T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 10, time: '8:00' },
+  end: { year: 2017, month: 11, day: 10, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**DALENCON**COURS' }
+176 'BEGIN:VEVENT'
+177 'DTSTART:20170912T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 12, time: '10:00' },
+  end: { year: 2017, month: 9, day: 12, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Carreire::ED@Room_27A',
+  content: 'IBS**------**COURS' }
+190 'BEGIN:VEVENT'
+191 'DTSTART:20170918T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 18, time: '8:00' },
+  end: { year: 2017, month: 9, day: 18, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+204 'BEGIN:VEVENT'
+205 'DTSTART:20171123T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 23, time: '8:00' },
+  end: { year: 2017, month: 11, day: 23, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TP' }
+218 'BEGIN:VEVENT'
+219 'DTSTART:20170922T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 22, time: '10:00' },
+  end: { year: 2017, month: 9, day: 22, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+232 'BEGIN:VEVENT'
+233 'DTSTART:20171010T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 10, time: '8:00' },
+  end: { year: 2017, month: 10, day: 10, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+246 'BEGIN:VEVENT'
+247 'DTSTART:20171024T080000Z'
+PUSH  { start: { year: 2017, month: 10, day: 24, time: '10:00' },
+  end: { year: 2017, month: 10, day: 24, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TD' }
+260 'BEGIN:VEVENT'
+261 'DTSTART:20171122T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 22, time: '14:00' },
+  end: { year: 2017, month: 11, day: 22, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**TP' }
+274 'BEGIN:VEVENT'
+275 'DTSTART:20170925T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 25, time: '10:00' },
+  end: { year: 2017, month: 9, day: 25, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+288 'BEGIN:VEVENT'
+289 'DTSTART:20171002T070000Z'
+PUSH  { start: { year: 2017, month: 10, day: 2, time: '9:00' },
+  end: { year: 2017, month: 10, day: 2, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'IBS**BEVEN**COURS' }
+"C26020170908T153336001@import": {
+        "ID"        :"C26020170908T153336001@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-21T14:00",
+        "date_end"  :"2017-11-21T18:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TP",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336002@import": {
+        "ID"        :"C26020170908T153336002@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-22T8:00",
+        "date_end"  :"2017-11-22T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TP",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336003@import": {
+        "ID"        :"C26020170908T153336003@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-27T8:00",
+        "date_end"  :"2017-09-27T10:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336004@import": {
+        "ID"        :"C26020170908T153336004@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-07T8:00",
+        "date_end"  :"2017-11-07T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336005@import": {
+        "ID"        :"C26020170908T153336005@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-14T14:00",
+        "date_end"  :"2017-11-14T18:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TP",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336006@import": {
+        "ID"        :"C26020170908T153336006@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-20T11:00",
+        "date_end"  :"2017-09-20T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336007@import": {
+        "ID"        :"C26020170908T153336007@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-10-04T8:00",
+        "date_end"  :"2017-10-04T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336008@import": {
+        "ID"        :"C26020170908T153336008@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-26T10:00",
+        "date_end"  :"2017-09-26T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336009@import": {
+        "ID"        :"C26020170908T153336009@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-15T14:00",
+        "date_end"  :"2017-11-15T18:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TP",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336010@import": {
+        "ID"        :"C26020170908T153336010@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-13T10:00",
+        "date_end"  :"2017-09-13T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336011@import": {
+        "ID"        :"C26020170908T153336011@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-15T10:00",
+        "date_end"  :"2017-09-15T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336012@import": {
+        "ID"        :"C26020170908T153336012@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-10T8:00",
+        "date_end"  :"2017-11-10T12:00",
+        "lecturer"  :"DALENCON",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336013@import": {
+        "ID"        :"C26020170908T153336013@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-12T10:00",
+        "date_end"  :"2017-09-12T12:00",
+        "lecturer"  :"------",
+        "location"  :"Carreire::ED@Room_27A",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336014@import": {
+        "ID"        :"C26020170908T153336014@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-18T8:00",
+        "date_end"  :"2017-09-18T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336015@import": {
+        "ID"        :"C26020170908T153336015@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-23T8:00",
+        "date_end"  :"2017-11-23T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TP",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336016@import": {
+        "ID"        :"C26020170908T153336016@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-22T10:00",
+        "date_end"  :"2017-09-22T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336017@import": {
+        "ID"        :"C26020170908T153336017@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-10-10T8:00",
+        "date_end"  :"2017-10-10T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336018@import": {
+        "ID"        :"C26020170908T153336018@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-10-24T10:00",
+        "date_end"  :"2017-10-24T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336019@import": {
+        "ID"        :"C26020170908T153336019@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-11-22T14:00",
+        "date_end"  :"2017-11-22T18:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TP",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336020@import": {
+        "ID"        :"C26020170908T153336020@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-09-25T10:00",
+        "date_end"  :"2017-09-25T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+"C26020170908T153336021@import": {
+        "ID"        :"C26020170908T153336021@import",
+        "apogee"    :"4TDE902U",
+        "acronym"   :"S09::IBS",
+        "date_start":"2017-10-02T9:00",
+        "date_end"  :"2017-10-02T12:00",
+        "lecturer"  :"Beven L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/IBS_f94c7p7ddijilhh3ed32vbukns@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:36 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20170913T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 13, time: '8:00' },
+  end: { year: 2017, month: 9, day: 13, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**THEBAULT**CI' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20170920T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 20, time: '8:00' },
+  end: { year: 2017, month: 9, day: 20, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DARUVAR**CI' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20170927T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 27, time: '8:00' },
+  end: { year: 2017, month: 9, day: 27, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**THEBAULT**CI' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20171004T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 4, time: '8:00' },
+  end: { year: 2017, month: 10, day: 4, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**THEBAULT**CI' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20171011T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 11, time: '8:00' },
+  end: { year: 2017, month: 10, day: 11, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DARUVAR**CI' }
+78 'BEGIN:VEVENT'
+79 'DTSTART:20171018T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 18, time: '8:00' },
+  end: { year: 2017, month: 10, day: 18, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DARUVAR**CI' }
+92 'BEGIN:VEVENT'
+93 'DTSTART:20171025T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 25, time: '8:00' },
+  end: { year: 2017, month: 10, day: 25, time: '11:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DARUVAR**CI' }
+106 'BEGIN:VEVENT'
+107 'DTSTART:20171108T083000Z'
+PUSH  { start: { year: 2017, month: 11, day: 8, time: '9:30' },
+  end: { year: 2017, month: 11, day: 8, time: '11:30' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DIEUAIDE**CI' }
+120 'BEGIN:VEVENT'
+121 'DTSTART:20171108T120000Z'
+PUSH  { start: { year: 2017, month: 11, day: 8, time: '13:00' },
+  end: { year: 2017, month: 11, day: 8, time: '15:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**BEAUVOIT**CI' }
+134 'BEGIN:VEVENT'
+135 'DTSTART:20171115T083000Z'
+PUSH  { start: { year: 2017, month: 11, day: 15, time: '9:30' },
+  end: { year: 2017, month: 11, day: 15, time: '11:30' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**COLOMBIER**CI' }
+148 'BEGIN:VEVENT'
+149 'DTSTART:20171115T120000Z'
+PUSH  { start: { year: 2017, month: 11, day: 15, time: '13:00' },
+  end: { year: 2017, month: 11, day: 15, time: '15:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**BEAUVOIT**CI' }
+162 'BEGIN:VEVENT'
+163 'DTSTART:20171122T083000Z'
+PUSH  { start: { year: 2017, month: 11, day: 22, time: '9:30' },
+  end: { year: 2017, month: 11, day: 22, time: '11:30' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**COLOMBIER**CI' }
+176 'BEGIN:VEVENT'
+177 'DTSTART:20171122T120000Z'
+PUSH  { start: { year: 2017, month: 11, day: 22, time: '13:00' },
+  end: { year: 2017, month: 11, day: 22, time: '15:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DIEUAIDE**CI' }
+190 'BEGIN:VEVENT'
+191 'DTSTART:20171129T083000Z'
+PUSH  { start: { year: 2017, month: 11, day: 29, time: '9:30' },
+  end: { year: 2017, month: 11, day: 29, time: '11:30' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**COLOMBIER**CI' }
+204 'BEGIN:VEVENT'
+205 'DTSTART:20171129T120000Z'
+PUSH  { start: { year: 2017, month: 11, day: 29, time: '13:00' },
+  end: { year: 2017, month: 11, day: 29, time: '15:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**BEAUVOIT**CI' }
+218 'BEGIN:VEVENT'
+219 'DTSTART:20171206T083000Z'
+PUSH  { start: { year: 2017, month: 12, day: 6, time: '9:30' },
+  end: { year: 2017, month: 12, day: 6, time: '11:30' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DIEUAIDE**CI' }
+232 'BEGIN:VEVENT'
+233 'DTSTART:20171206T120000Z'
+PUSH  { start: { year: 2017, month: 12, day: 6, time: '13:00' },
+  end: { year: 2017, month: 12, day: 6, time: '15:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**DIEUAIDE**CI' }
+246 'BEGIN:VEVENT'
+247 'DTSTART:20171213T083000Z'
+PUSH  { start: { year: 2017, month: 12, day: 13, time: '9:30' },
+  end: { year: 2017, month: 12, day: 13, time: '11:30' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**COLOMBIER**CI' }
+260 'BEGIN:VEVENT'
+261 'DTSTART:20171213T120000Z'
+PUSH  { start: { year: 2017, month: 12, day: 13, time: '13:00' },
+  end: { year: 2017, month: 12, day: 13, time: '15:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'MOCELL**BEAUVOIT**CI' }
+"C27020170908T153337001@import": {
+        "ID"        :"C27020170908T153337001@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-09-13T8:00",
+        "date_end"  :"2017-09-13T11:00",
+        "lecturer"  :"Th&eacute;bault P",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337002@import": {
+        "ID"        :"C27020170908T153337002@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-09-20T8:00",
+        "date_end"  :"2017-09-20T11:00",
+        "lecturer"  :"de Daruvar A",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337003@import": {
+        "ID"        :"C27020170908T153337003@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-09-27T8:00",
+        "date_end"  :"2017-09-27T11:00",
+        "lecturer"  :"Th&eacute;bault P",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337004@import": {
+        "ID"        :"C27020170908T153337004@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-10-04T8:00",
+        "date_end"  :"2017-10-04T11:00",
+        "lecturer"  :"Th&eacute;bault P",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337005@import": {
+        "ID"        :"C27020170908T153337005@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-10-11T8:00",
+        "date_end"  :"2017-10-11T11:00",
+        "lecturer"  :"de Daruvar A",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337006@import": {
+        "ID"        :"C27020170908T153337006@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-10-18T8:00",
+        "date_end"  :"2017-10-18T11:00",
+        "lecturer"  :"de Daruvar A",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337007@import": {
+        "ID"        :"C27020170908T153337007@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-10-25T8:00",
+        "date_end"  :"2017-10-25T11:00",
+        "lecturer"  :"de Daruvar A",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337008@import": {
+        "ID"        :"C27020170908T153337008@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-08T9:30",
+        "date_end"  :"2017-11-08T11:30",
+        "lecturer"  :"Dieuaide M",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337009@import": {
+        "ID"        :"C27020170908T153337009@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-08T13:00",
+        "date_end"  :"2017-11-08T15:00",
+        "lecturer"  :"Beauvoit B",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337010@import": {
+        "ID"        :"C27020170908T153337010@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-15T9:30",
+        "date_end"  :"2017-11-15T11:30",
+        "lecturer"  :"COLOMBIER",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337011@import": {
+        "ID"        :"C27020170908T153337011@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-15T13:00",
+        "date_end"  :"2017-11-15T15:00",
+        "lecturer"  :"Beauvoit B",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337012@import": {
+        "ID"        :"C27020170908T153337012@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-22T9:30",
+        "date_end"  :"2017-11-22T11:30",
+        "lecturer"  :"COLOMBIER",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337013@import": {
+        "ID"        :"C27020170908T153337013@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-22T13:00",
+        "date_end"  :"2017-11-22T15:00",
+        "lecturer"  :"Dieuaide M",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337014@import": {
+        "ID"        :"C27020170908T153337014@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-29T9:30",
+        "date_end"  :"2017-11-29T11:30",
+        "lecturer"  :"COLOMBIER",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337015@import": {
+        "ID"        :"C27020170908T153337015@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-11-29T13:00",
+        "date_end"  :"2017-11-29T15:00",
+        "lecturer"  :"Beauvoit B",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337016@import": {
+        "ID"        :"C27020170908T153337016@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-12-06T9:30",
+        "date_end"  :"2017-12-06T11:30",
+        "lecturer"  :"Dieuaide M",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337017@import": {
+        "ID"        :"C27020170908T153337017@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-12-06T13:00",
+        "date_end"  :"2017-12-06T15:00",
+        "lecturer"  :"Dieuaide M",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337018@import": {
+        "ID"        :"C27020170908T153337018@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-12-13T9:30",
+        "date_end"  :"2017-12-13T11:30",
+        "lecturer"  :"COLOMBIER",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C27020170908T153337019@import": {
+        "ID"        :"C27020170908T153337019@import",
+        "apogee"    :"4TBI906U",
+        "acronym"   :"S09::MOCELL",
+        "date_start":"2017-12-13T13:00",
+        "date_end"  :"2017-12-13T15:00",
+        "lecturer"  :"Beauvoit B",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/MOCELL_f42rotc35cslvfvf3au4rhv400@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20170913T080000Z'
+PUSH  { start: { year: 2017, month: 9, day: 13, time: '10:00' },
+  end: { year: 2017, month: 9, day: 13, time: '14:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20170915T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 15, time: '16:00' },
+  end: { year: 2017, month: 9, day: 15, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20170920T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 20, time: '16:00' },
+  end: { year: 2017, month: 9, day: 20, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20170927T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 27, time: '8:00' },
+  end: { year: 2017, month: 9, day: 27, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_002',
+  content: 'PDR**------**CI' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20171004T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 4, time: '8:00' },
+  end: { year: 2017, month: 10, day: 4, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**----**CI' }
+78 'BEGIN:VEVENT'
+79 'DTSTART:20171011T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 11, time: '8:00' },
+  end: { year: 2017, month: 10, day: 11, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+92 'BEGIN:VEVENT'
+93 'DTSTART:20171018T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 18, time: '14:00' },
+  end: { year: 2017, month: 10, day: 18, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+106 'BEGIN:VEVENT'
+107 'DTSTART:20171020T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 20, time: '14:00' },
+  end: { year: 2017, month: 10, day: 20, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+120 'BEGIN:VEVENT'
+121 'DTSTART:20171023T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 23, time: '8:00' },
+  end: { year: 2017, month: 10, day: 23, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'PDR**------**CI' }
+134 'BEGIN:VEVENT'
+135 'DTSTART:20171025T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 25, time: '14:00' },
+  end: { year: 2017, month: 10, day: 25, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+148 'BEGIN:VEVENT'
+149 'DTSTART:20171128T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 28, time: '14:00' },
+  end: { year: 2017, month: 11, day: 28, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'PDR**------**CI' }
+"C26020170908T153337001@import": {
+        "ID"        :"C26020170908T153337001@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-09-13T10:00",
+        "date_end"  :"2017-09-13T14:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337002@import": {
+        "ID"        :"C26020170908T153337002@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-09-15T16:00",
+        "date_end"  :"2017-09-15T18:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337003@import": {
+        "ID"        :"C26020170908T153337003@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-09-20T16:00",
+        "date_end"  :"2017-09-20T18:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337004@import": {
+        "ID"        :"C26020170908T153337004@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-09-27T8:00",
+        "date_end"  :"2017-09-27T12:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_002",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337005@import": {
+        "ID"        :"C26020170908T153337005@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-10-04T8:00",
+        "date_end"  :"2017-10-04T12:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337006@import": {
+        "ID"        :"C26020170908T153337006@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-10-11T8:00",
+        "date_end"  :"2017-10-11T12:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337007@import": {
+        "ID"        :"C26020170908T153337007@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-10-18T14:00",
+        "date_end"  :"2017-10-18T18:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337008@import": {
+        "ID"        :"C26020170908T153337008@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-10-20T14:00",
+        "date_end"  :"2017-10-20T18:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337009@import": {
+        "ID"        :"C26020170908T153337009@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-10-23T8:00",
+        "date_end"  :"2017-10-23T12:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337010@import": {
+        "ID"        :"C26020170908T153337010@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-10-25T14:00",
+        "date_end"  :"2017-10-25T18:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C26020170908T153337011@import": {
+        "ID"        :"C26020170908T153337011@import",
+        "apogee"    :"4TBA904U",
+        "acronym"   :"S09::PDR",
+        "date_start":"2017-11-28T14:00",
+        "date_end"  :"2017-11-28T18:00",
+        "lecturer"  :"------",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/PDR_3huo038tah0nog4jes8rucinq8@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20171128T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 28, time: '14:00' },
+  end: { year: 2017, month: 11, day: 28, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20170926T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 26, time: '14:00' },
+  end: { year: 2017, month: 9, day: 26, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20171004T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 4, time: '8:00' },
+  end: { year: 2017, month: 10, day: 4, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20171011T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 11, time: '8:00' },
+  end: { year: 2017, month: 10, day: 11, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20171121T150000Z'
+PUSH  { start: { year: 2017, month: 11, day: 21, time: '16:00' },
+  end: { year: 2017, month: 11, day: 21, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+78 'BEGIN:VEVENT'
+79 'DTSTART:20171017T140000Z'
+PUSH  { start: { year: 2017, month: 10, day: 17, time: '16:00' },
+  end: { year: 2017, month: 10, day: 17, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+92 'BEGIN:VEVENT'
+93 'DTSTART:20171115T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 15, time: '8:00' },
+  end: { year: 2017, month: 11, day: 15, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+106 'BEGIN:VEVENT'
+107 'DTSTART:20171010T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 10, time: '14:00' },
+  end: { year: 2017, month: 10, day: 10, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+120 'BEGIN:VEVENT'
+121 'DTSTART:20171017T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 17, time: '14:00' },
+  end: { year: 2017, month: 10, day: 17, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+134 'BEGIN:VEVENT'
+135 'DTSTART:20170912T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 12, time: '16:00' },
+  end: { year: 2017, month: 9, day: 12, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+148 'BEGIN:VEVENT'
+149 'DTSTART:20171025T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 25, time: '8:00' },
+  end: { year: 2017, month: 10, day: 25, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+162 'BEGIN:VEVENT'
+163 'DTSTART:20171128T150000Z'
+PUSH  { start: { year: 2017, month: 11, day: 28, time: '16:00' },
+  end: { year: 2017, month: 11, day: 28, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+176 'BEGIN:VEVENT'
+177 'DTSTART:20171122T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 22, time: '8:00' },
+  end: { year: 2017, month: 11, day: 22, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+190 'BEGIN:VEVENT'
+191 'DTSTART:20170927T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 27, time: '8:00' },
+  end: { year: 2017, month: 9, day: 27, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+204 'BEGIN:VEVENT'
+205 'DTSTART:20171206T070000Z'
+PUSH  { start: { year: 2017, month: 12, day: 6, time: '8:00' },
+  end: { year: 2017, month: 12, day: 6, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+218 'BEGIN:VEVENT'
+219 'DTSTART:20170905T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 5, time: '14:00' },
+  end: { year: 2017, month: 9, day: 5, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::A9@Amphi_002',
+  content: 'POO++**CLEMENT**COURS' }
+232 'BEGIN:VEVENT'
+233 'DTSTART:20171024T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 24, time: '14:00' },
+  end: { year: 2017, month: 10, day: 24, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+246 'BEGIN:VEVENT'
+247 'DTSTART:20170919T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 19, time: '14:00' },
+  end: { year: 2017, month: 9, day: 19, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+260 'BEGIN:VEVENT'
+261 'DTSTART:20171024T140000Z'
+PUSH  { start: { year: 2017, month: 10, day: 24, time: '16:00' },
+  end: { year: 2017, month: 10, day: 24, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+274 'BEGIN:VEVENT'
+275 'DTSTART:20171108T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 8, time: '8:00' },
+  end: { year: 2017, month: 11, day: 8, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+288 'BEGIN:VEVENT'
+289 'DTSTART:20171003T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 3, time: '14:00' },
+  end: { year: 2017, month: 10, day: 3, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+302 'BEGIN:VEVENT'
+303 'DTSTART:20171129T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 29, time: '8:00' },
+  end: { year: 2017, month: 11, day: 29, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+316 'BEGIN:VEVENT'
+317 'DTSTART:20170913T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 13, time: '8:00' },
+  end: { year: 2017, month: 9, day: 13, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+330 'BEGIN:VEVENT'
+331 'DTSTART:20171121T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 21, time: '14:00' },
+  end: { year: 2017, month: 11, day: 21, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+344 'BEGIN:VEVENT'
+345 'DTSTART:20171114T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 14, time: '14:00' },
+  end: { year: 2017, month: 11, day: 14, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+358 'BEGIN:VEVENT'
+359 'DTSTART:20171018T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 18, time: '8:00' },
+  end: { year: 2017, month: 10, day: 18, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+372 'BEGIN:VEVENT'
+373 'DTSTART:20171003T140000Z'
+PUSH  { start: { year: 2017, month: 10, day: 3, time: '16:00' },
+  end: { year: 2017, month: 10, day: 3, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+386 'BEGIN:VEVENT'
+387 'DTSTART:20170926T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 26, time: '16:00' },
+  end: { year: 2017, month: 9, day: 26, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+400 'BEGIN:VEVENT'
+401 'DTSTART:20171114T150000Z'
+PUSH  { start: { year: 2017, month: 11, day: 14, time: '16:00' },
+  end: { year: 2017, month: 11, day: 14, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+414 'BEGIN:VEVENT'
+415 'DTSTART:20171107T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 7, time: '14:00' },
+  end: { year: 2017, month: 11, day: 7, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+428 'BEGIN:VEVENT'
+429 'DTSTART:20171107T150000Z'
+PUSH  { start: { year: 2017, month: 11, day: 7, time: '16:00' },
+  end: { year: 2017, month: 11, day: 7, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+442 'BEGIN:VEVENT'
+443 'DTSTART:20170912T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 12, time: '14:00' },
+  end: { year: 2017, month: 9, day: 12, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**COURS' }
+456 'BEGIN:VEVENT'
+457 'DTSTART:20171205T150000Z'
+PUSH  { start: { year: 2017, month: 12, day: 5, time: '16:00' },
+  end: { year: 2017, month: 12, day: 5, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+470 'BEGIN:VEVENT'
+471 'DTSTART:20171010T140000Z'
+PUSH  { start: { year: 2017, month: 10, day: 10, time: '16:00' },
+  end: { year: 2017, month: 10, day: 10, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'POO++**CLEMENT**TD' }
+"C21020170908T153337001@import": {
+        "ID"        :"C21020170908T153337001@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-28T14:00",
+        "date_end"  :"2017-11-28T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337002@import": {
+        "ID"        :"C21020170908T153337002@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-26T14:00",
+        "date_end"  :"2017-09-26T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337003@import": {
+        "ID"        :"C21020170908T153337003@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-04T8:00",
+        "date_end"  :"2017-10-04T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337004@import": {
+        "ID"        :"C21020170908T153337004@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-11T8:00",
+        "date_end"  :"2017-10-11T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337005@import": {
+        "ID"        :"C21020170908T153337005@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-21T16:00",
+        "date_end"  :"2017-11-21T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337006@import": {
+        "ID"        :"C21020170908T153337006@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-17T16:00",
+        "date_end"  :"2017-10-17T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337007@import": {
+        "ID"        :"C21020170908T153337007@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-15T8:00",
+        "date_end"  :"2017-11-15T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337008@import": {
+        "ID"        :"C21020170908T153337008@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-10T14:00",
+        "date_end"  :"2017-10-10T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337009@import": {
+        "ID"        :"C21020170908T153337009@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-17T14:00",
+        "date_end"  :"2017-10-17T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337010@import": {
+        "ID"        :"C21020170908T153337010@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-12T16:00",
+        "date_end"  :"2017-09-12T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337011@import": {
+        "ID"        :"C21020170908T153337011@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-25T8:00",
+        "date_end"  :"2017-10-25T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337012@import": {
+        "ID"        :"C21020170908T153337012@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-28T16:00",
+        "date_end"  :"2017-11-28T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337013@import": {
+        "ID"        :"C21020170908T153337013@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-22T8:00",
+        "date_end"  :"2017-11-22T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337014@import": {
+        "ID"        :"C21020170908T153337014@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-27T8:00",
+        "date_end"  :"2017-09-27T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337015@import": {
+        "ID"        :"C21020170908T153337015@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-12-06T8:00",
+        "date_end"  :"2017-12-06T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337016@import": {
+        "ID"        :"C21020170908T153337016@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-05T14:00",
+        "date_end"  :"2017-09-05T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"Talence::A9@Amphi_002",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337017@import": {
+        "ID"        :"C21020170908T153337017@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-24T14:00",
+        "date_end"  :"2017-10-24T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337018@import": {
+        "ID"        :"C21020170908T153337018@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-19T14:00",
+        "date_end"  :"2017-09-19T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337019@import": {
+        "ID"        :"C21020170908T153337019@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-24T16:00",
+        "date_end"  :"2017-10-24T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337020@import": {
+        "ID"        :"C21020170908T153337020@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-08T8:00",
+        "date_end"  :"2017-11-08T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337021@import": {
+        "ID"        :"C21020170908T153337021@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-03T14:00",
+        "date_end"  :"2017-10-03T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337022@import": {
+        "ID"        :"C21020170908T153337022@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-29T8:00",
+        "date_end"  :"2017-11-29T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337023@import": {
+        "ID"        :"C21020170908T153337023@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-13T8:00",
+        "date_end"  :"2017-09-13T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153337024@import": {
+        "ID"        :"C21020170908T153337024@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-21T14:00",
+        "date_end"  :"2017-11-21T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338025@import": {
+        "ID"        :"C21020170908T153338025@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-14T14:00",
+        "date_end"  :"2017-11-14T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338026@import": {
+        "ID"        :"C21020170908T153338026@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-18T8:00",
+        "date_end"  :"2017-10-18T10:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338027@import": {
+        "ID"        :"C21020170908T153338027@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-03T16:00",
+        "date_end"  :"2017-10-03T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338028@import": {
+        "ID"        :"C21020170908T153338028@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-26T16:00",
+        "date_end"  :"2017-09-26T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338029@import": {
+        "ID"        :"C21020170908T153338029@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-14T16:00",
+        "date_end"  :"2017-11-14T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338030@import": {
+        "ID"        :"C21020170908T153338030@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-07T14:00",
+        "date_end"  :"2017-11-07T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338031@import": {
+        "ID"        :"C21020170908T153338031@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-11-07T16:00",
+        "date_end"  :"2017-11-07T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338032@import": {
+        "ID"        :"C21020170908T153338032@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-09-12T14:00",
+        "date_end"  :"2017-09-12T16:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338033@import": {
+        "ID"        :"C21020170908T153338033@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-12-05T16:00",
+        "date_end"  :"2017-12-05T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+"C21020170908T153338034@import": {
+        "ID"        :"C21020170908T153338034@import",
+        "apogee"    :"4TBC901U",
+        "acronym"   :"S09::POO++",
+        "date_start":"2017-10-10T16:00",
+        "date_end"  :"2017-10-10T18:00",
+        "lecturer"  :"Cl&eacute;ment L",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from ../import/m2_2017_09_08/POO++_61v3in5jn2igb9i44kkqtumo38@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:37 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20170912T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 12, time: '16:00' },
+  end: { year: 2017, month: 9, day: 12, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_IBVM',
+  content: 'QPG**SCHURDI**CI' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20170922T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 22, time: '8:00' },
+  end: { year: 2017, month: 9, day: 22, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20170918T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 18, time: '8:00' },
+  end: { year: 2017, month: 9, day: 18, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20170925T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 25, time: '8:00' },
+  end: { year: 2017, month: 9, day: 25, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20170926T060000Z'
+PUSH  { start: { year: 2017, month: 9, day: 26, time: '8:00' },
+  end: { year: 2017, month: 9, day: 26, time: '18:00' },
+  description: 'DESCRIPTION:This is an event reminder',
+  location: 'None::None@Room_000',
+  content: 'QPG**SCHURDI**CONFERENCE' }
+83 'BEGIN:VEVENT'
+84 'DTSTART:20171002T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 2, time: '8:00' },
+  end: { year: 2017, month: 10, day: 2, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+97 'BEGIN:VEVENT'
+98 'DTSTART:20171009T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 9, time: '8:00' },
+  end: { year: 2017, month: 10, day: 9, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+111 'BEGIN:VEVENT'
+112 'DTSTART:20171011T120000Z'
+PUSH  { start: { year: 2017, month: 10, day: 11, time: '14:00' },
+  end: { year: 2017, month: 10, day: 11, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+125 'BEGIN:VEVENT'
+126 'DTSTART:20171016T060000Z'
+PUSH  { start: { year: 2017, month: 10, day: 16, time: '8:00' },
+  end: { year: 2017, month: 10, day: 16, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+139 'BEGIN:VEVENT'
+140 'DTSTART:20171106T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 6, time: '8:00' },
+  end: { year: 2017, month: 11, day: 6, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+153 'BEGIN:VEVENT'
+154 'DTSTART:20171107T130000Z'
+PUSH  { start: { year: 2017, month: 11, day: 7, time: '14:00' },
+  end: { year: 2017, month: 11, day: 7, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+167 'BEGIN:VEVENT'
+168 'DTSTART:20171113T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 13, time: '8:00' },
+  end: { year: 2017, month: 11, day: 13, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+181 'BEGIN:VEVENT'
+182 'DTSTART:20171120T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 20, time: '8:00' },
+  end: { year: 2017, month: 11, day: 20, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+195 'BEGIN:VEVENT'
+196 'DTSTART:20171127T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 27, time: '8:00' },
+  end: { year: 2017, month: 11, day: 27, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+209 'BEGIN:VEVENT'
+210 'DTSTART:20171130T070000Z'
+PUSH  { start: { year: 2017, month: 11, day: 30, time: '8:00' },
+  end: { year: 2017, month: 11, day: 30, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_viro',
+  content: 'QPG**SCHURDI**CI' }
+223 'BEGIN:VEVENT'
+224 'DTSTART:20171204T070000Z'
+PUSH  { start: { year: 2017, month: 12, day: 4, time: '8:00' },
+  end: { year: 2017, month: 12, day: 4, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'INRA::IBVM@Room_mollicutes',
+  content: 'QPG**SCHURDI**CI' }
+"C26020170908T153338001@import": {
+        "ID"        :"C26020170908T153338001@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-09-12T16:00",
+        "date_end"  :"2017-09-12T18:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_IBVM",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338002@import": {
+        "ID"        :"C26020170908T153338002@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-09-22T8:00",
+        "date_end"  :"2017-09-22T10:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338003@import": {
+        "ID"        :"C26020170908T153338003@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-09-18T8:00",
+        "date_end"  :"2017-09-18T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338004@import": {
+        "ID"        :"C26020170908T153338004@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-09-25T8:00",
+        "date_end"  :"2017-09-25T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338005@import": {
+        "ID"        :"C26020170908T153338005@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-09-26T8:00",
+        "date_end"  :"2017-09-26T18:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"CONFERENCE",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338006@import": {
+        "ID"        :"C26020170908T153338006@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-10-02T8:00",
+        "date_end"  :"2017-10-02T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338007@import": {
+        "ID"        :"C26020170908T153338007@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-10-09T8:00",
+        "date_end"  :"2017-10-09T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338008@import": {
+        "ID"        :"C26020170908T153338008@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-10-11T14:00",
+        "date_end"  :"2017-10-11T18:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338009@import": {
+        "ID"        :"C26020170908T153338009@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-10-16T8:00",
+        "date_end"  :"2017-10-16T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338010@import": {
+        "ID"        :"C26020170908T153338010@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-11-06T8:00",
+        "date_end"  :"2017-11-06T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338011@import": {
+        "ID"        :"C26020170908T153338011@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-11-07T14:00",
+        "date_end"  :"2017-11-07T18:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338012@import": {
+        "ID"        :"C26020170908T153338012@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-11-13T8:00",
+        "date_end"  :"2017-11-13T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338013@import": {
+        "ID"        :"C26020170908T153338013@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-11-20T8:00",
+        "date_end"  :"2017-11-20T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338014@import": {
+        "ID"        :"C26020170908T153338014@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-11-27T8:00",
+        "date_end"  :"2017-11-27T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338015@import": {
+        "ID"        :"C26020170908T153338015@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-11-30T8:00",
+        "date_end"  :"2017-11-30T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_viro",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338016@import": {
+        "ID"        :"C26020170908T153338016@import",
+        "apogee"    :"4TBA903U",
+        "acronym"   :"S09::QPG",
+        "date_start":"2017-12-04T8:00",
+        "date_end"  :"2017-12-04T12:00",
+        "lecturer"  :"Schurdi-Levraud V",
+        "location"  :"INRA::IBVM@Room_mollicutes",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/QPG_6d1ovd6bc1goatkrtubtubi4j4@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20180109T090000Z'
+PUSH  { start: { year: 2018, month: 1, day: 9, time: '10:00' },
+  end: { year: 2018, month: 1, day: 9, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**BUJAN**CI' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20180118T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 18, time: '14:00' },
+  end: { year: 2018, month: 1, day: 18, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20180112T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 12, time: '14:00' },
+  end: { year: 2018, month: 1, day: 12, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**CI' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20180119T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 19, time: '14:00' },
+  end: { year: 2018, month: 1, day: 19, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20180108T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 8, time: '9:00' },
+  end: { year: 2018, month: 1, day: 8, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**CI' }
+78 'BEGIN:VEVENT'
+79 'DTSTART:20180109T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 9, time: '14:00' },
+  end: { year: 2018, month: 1, day: 9, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**HANQUIEZ**CI' }
+92 'BEGIN:VEVENT'
+93 'DTSTART:20180111T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 11, time: '14:00' },
+  end: { year: 2018, month: 1, day: 11, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**COCHARD**CI' }
+106 'BEGIN:VEVENT'
+107 'DTSTART:20180117T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 17, time: '14:00' },
+  end: { year: 2018, month: 1, day: 17, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+120 'BEGIN:VEVENT'
+121 'DTSTART:20180110T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 10, time: '9:00' },
+  end: { year: 2018, month: 1, day: 10, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**CI' }
+134 'BEGIN:VEVENT'
+135 'DTSTART:20180109T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 9, time: '9:00' },
+  end: { year: 2018, month: 1, day: 9, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**NORMANDIN**CI' }
+148 'BEGIN:VEVENT'
+149 'DTSTART:20180115T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 15, time: '14:00' },
+  end: { year: 2018, month: 1, day: 15, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+162 'BEGIN:VEVENT'
+163 'DTSTART:20180118T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 18, time: '9:00' },
+  end: { year: 2018, month: 1, day: 18, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+176 'BEGIN:VEVENT'
+177 'DTSTART:20180108T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 8, time: '14:00' },
+  end: { year: 2018, month: 1, day: 8, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**HANQUIEZ**CI' }
+190 'BEGIN:VEVENT'
+191 'DTSTART:20180116T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 16, time: '9:00' },
+  end: { year: 2018, month: 1, day: 16, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+204 'BEGIN:VEVENT'
+205 'DTSTART:20180117T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 17, time: '9:00' },
+  end: { year: 2018, month: 1, day: 17, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+218 'BEGIN:VEVENT'
+219 'DTSTART:20180112T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 12, time: '9:00' },
+  end: { year: 2018, month: 1, day: 12, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**CI' }
+232 'BEGIN:VEVENT'
+233 'DTSTART:20180119T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 19, time: '9:00' },
+  end: { year: 2018, month: 1, day: 19, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+246 'BEGIN:VEVENT'
+247 'DTSTART:20180110T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 10, time: '14:00' },
+  end: { year: 2018, month: 1, day: 10, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**CI' }
+260 'BEGIN:VEVENT'
+261 'DTSTART:20180116T130000Z'
+PUSH  { start: { year: 2018, month: 1, day: 16, time: '14:00' },
+  end: { year: 2018, month: 1, day: 16, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+274 'BEGIN:VEVENT'
+275 'DTSTART:20180115T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 15, time: '9:00' },
+  end: { year: 2018, month: 1, day: 15, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**ZARAGOSI**PROJET' }
+288 'BEGIN:VEVENT'
+289 'DTSTART:20180111T080000Z'
+PUSH  { start: { year: 2018, month: 1, day: 11, time: '9:00' },
+  end: { year: 2018, month: 1, day: 11, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'None::None@Room_000',
+  content: 'SIG**COCHARD**CI' }
+"C26020170908T153338001@import": {
+        "ID"        :"C26020170908T153338001@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-09T10:00",
+        "date_end"  :"2018-01-09T12:00",
+        "lecturer"  :"Bujan S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338002@import": {
+        "ID"        :"C26020170908T153338002@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-18T14:00",
+        "date_end"  :"2018-01-18T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338003@import": {
+        "ID"        :"C26020170908T153338003@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-12T14:00",
+        "date_end"  :"2018-01-12T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338004@import": {
+        "ID"        :"C26020170908T153338004@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-19T14:00",
+        "date_end"  :"2018-01-19T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338005@import": {
+        "ID"        :"C26020170908T153338005@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-08T9:00",
+        "date_end"  :"2018-01-08T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338006@import": {
+        "ID"        :"C26020170908T153338006@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-09T14:00",
+        "date_end"  :"2018-01-09T17:00",
+        "lecturer"  :"Hanquiez V",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338007@import": {
+        "ID"        :"C26020170908T153338007@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-11T14:00",
+        "date_end"  :"2018-01-11T17:00",
+        "lecturer"  :"Cochard D",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338008@import": {
+        "ID"        :"C26020170908T153338008@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-17T14:00",
+        "date_end"  :"2018-01-17T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338009@import": {
+        "ID"        :"C26020170908T153338009@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-10T9:00",
+        "date_end"  :"2018-01-10T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338010@import": {
+        "ID"        :"C26020170908T153338010@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-09T9:00",
+        "date_end"  :"2018-01-09T10:00",
+        "lecturer"  :"Normandin C",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338011@import": {
+        "ID"        :"C26020170908T153338011@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-15T14:00",
+        "date_end"  :"2018-01-15T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338012@import": {
+        "ID"        :"C26020170908T153338012@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-18T9:00",
+        "date_end"  :"2018-01-18T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338013@import": {
+        "ID"        :"C26020170908T153338013@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-08T14:00",
+        "date_end"  :"2018-01-08T17:00",
+        "lecturer"  :"Hanquiez V",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338014@import": {
+        "ID"        :"C26020170908T153338014@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-16T9:00",
+        "date_end"  :"2018-01-16T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338015@import": {
+        "ID"        :"C26020170908T153338015@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-17T9:00",
+        "date_end"  :"2018-01-17T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338016@import": {
+        "ID"        :"C26020170908T153338016@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-12T9:00",
+        "date_end"  :"2018-01-12T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338017@import": {
+        "ID"        :"C26020170908T153338017@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-19T9:00",
+        "date_end"  :"2018-01-19T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338018@import": {
+        "ID"        :"C26020170908T153338018@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-10T14:00",
+        "date_end"  :"2018-01-10T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338019@import": {
+        "ID"        :"C26020170908T153338019@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-16T14:00",
+        "date_end"  :"2018-01-16T17:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338020@import": {
+        "ID"        :"C26020170908T153338020@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-15T9:00",
+        "date_end"  :"2018-01-15T12:00",
+        "lecturer"  :"Zaragosi S",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"PROJET",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+"C26020170908T153338021@import": {
+        "ID"        :"C26020170908T153338021@import",
+        "apogee"    :"4TDE901U",
+        "acronym"   :"S09::SIG",
+        "date_start":"2018-01-11T9:00",
+        "date_end"  :"2018-01-11T12:00",
+        "lecturer"  :"Cochard D",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours+TD",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from ../import/m2_2017_09_08/SIG_u5oumdo3qhjs5k9qqcvci7lhak@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:38 GMT+0200 (CEST)"},
+8 'BEGIN:VEVENT'
+9 'DTSTART:20170929T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 29, time: '9:00' },
+  end: { year: 2017, month: 9, day: 29, time: '13:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::None@Room_000',
+  content: 'TDE++**DAVID**TDM' }
+22 'BEGIN:VEVENT'
+23 'DTSTART:20170920T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 20, time: '9:00' },
+  end: { year: 2017, month: 9, day: 20, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_001',
+  content: 'TDE++**DROUINEAU**TDM' }
+36 'BEGIN:VEVENT'
+37 'DTSTART:20170920T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 20, time: '14:00' },
+  end: { year: 2017, month: 9, day: 20, time: '18:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_002',
+  content: 'TDE++**DAVID**TDM' }
+50 'BEGIN:VEVENT'
+51 'DTSTART:20170908T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 8, time: '9:00' },
+  end: { year: 2017, month: 9, day: 8, time: '10:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::A30-LaBRI@Room_073',
+  content: 'TDE++**DAVID**CM' }
+64 'BEGIN:VEVENT'
+65 'DTSTART:20170918T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 18, time: '9:00' },
+  end: { year: 2017, month: 9, day: 18, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Amphi_GABA',
+  content: 'TDE++**BENOT**CM' }
+78 'BEGIN:VEVENT'
+79 'DTSTART:20170918T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 18, time: '14:00' },
+  end: { year: 2017, month: 9, day: 18, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Amphi_GABA',
+  content: 'TDE++**BENOT**CM' }
+92 'BEGIN:VEVENT'
+93 'DTSTART:20170919T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 19, time: '9:00' },
+  end: { year: 2017, month: 9, day: 19, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B18@Amphi_B18',
+  content: 'TDE++**DROUINEAU**CM' }
+106 'BEGIN:VEVENT'
+107 'DTSTART:20170919T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 19, time: '14:00' },
+  end: { year: 2017, month: 9, day: 19, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B7@Room_003',
+  content: 'TDE++**DAVID**TD' }
+120 'BEGIN:VEVENT'
+121 'DTSTART:20170921T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 21, time: '14:00' },
+  end: { year: 2017, month: 9, day: 21, time: '16:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B7@Room_003',
+  content: 'TDE++**DAVID**TD' }
+134 'BEGIN:VEVENT'
+135 'DTSTART:20170922T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 22, time: '9:00' },
+  end: { year: 2017, month: 9, day: 22, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Amphi_GABA',
+  content: 'TDE++**GREMARE**CM' }
+148 'BEGIN:VEVENT'
+149 'DTSTART:20170922T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 22, time: '16:00' },
+  end: { year: 2017, month: 9, day: 22, time: '19:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_002',
+  content: 'TDE++**DAVID**TDM' }
+162 'BEGIN:VEVENT'
+163 'DTSTART:20170925T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 25, time: '9:00' },
+  end: { year: 2017, month: 9, day: 25, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Amphi_GABA',
+  content: 'TDE++**BENOT**CM' }
+176 'BEGIN:VEVENT'
+177 'DTSTART:20170926T120000Z'
+PUSH  { start: { year: 2017, month: 9, day: 26, time: '14:00' },
+  end: { year: 2017, month: 9, day: 26, time: '17:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_001',
+  content: 'TDE++**GREMARE**TDM' }
+190 'BEGIN:VEVENT'
+191 'DTSTART:20170927T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 27, time: '9:00' },
+  end: { year: 2017, month: 9, day: 27, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_002',
+  content: 'TDE++**BENOT**TDM' }
+204 'BEGIN:VEVENT'
+205 'DTSTART:20170927T140000Z'
+PUSH  { start: { year: 2017, month: 9, day: 27, time: '16:00' },
+  end: { year: 2017, month: 9, day: 27, time: '19:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_001',
+  content: 'TDE++**DAVID**TDM' }
+218 'BEGIN:VEVENT'
+219 'DTSTART:20170928T070000Z'
+PUSH  { start: { year: 2017, month: 9, day: 28, time: '9:00' },
+  end: { year: 2017, month: 9, day: 28, time: '12:00' },
+  description: 'DESCRIPTION:',
+  location: 'Talence::B5@Room_000',
+  content: 'TDE++**BENOT**TDM' }
+"C27020170908T153339001@import": {
+        "ID"        :"C27020170908T153339001@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-29T9:00",
+        "date_end"  :"2017-09-29T13:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::None@Room_000",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339002@import": {
+        "ID"        :"C27020170908T153339002@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-20T9:00",
+        "date_end"  :"2017-09-20T12:00",
+        "lecturer"  :"Drouineau H",
+        "location"  :"Talence::B5@Room_001",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339003@import": {
+        "ID"        :"C27020170908T153339003@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-20T14:00",
+        "date_end"  :"2017-09-20T18:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::B5@Room_002",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339004@import": {
+        "ID"        :"C27020170908T153339004@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-08T9:00",
+        "date_end"  :"2017-09-08T10:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::A30-LaBRI@Room_073",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339005@import": {
+        "ID"        :"C27020170908T153339005@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-18T9:00",
+        "date_end"  :"2017-09-18T12:00",
+        "lecturer"  :"Benot ML",
+        "location"  :"Talence::B5@Amphi_GABA",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339006@import": {
+        "ID"        :"C27020170908T153339006@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-18T14:00",
+        "date_end"  :"2017-09-18T17:00",
+        "lecturer"  :"Benot ML",
+        "location"  :"Talence::B5@Amphi_GABA",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339007@import": {
+        "ID"        :"C27020170908T153339007@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-19T9:00",
+        "date_end"  :"2017-09-19T12:00",
+        "lecturer"  :"Drouineau H",
+        "location"  :"Talence::B18@Amphi_B18",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339008@import": {
+        "ID"        :"C27020170908T153339008@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-19T14:00",
+        "date_end"  :"2017-09-19T16:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::B7@Room_003",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339009@import": {
+        "ID"        :"C27020170908T153339009@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-21T14:00",
+        "date_end"  :"2017-09-21T16:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::B7@Room_003",
+        "group"     :"All",
+        "type"      :"TD",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339010@import": {
+        "ID"        :"C27020170908T153339010@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-22T9:00",
+        "date_end"  :"2017-09-22T12:00",
+        "lecturer"  :"Gr&eacute;mare A",
+        "location"  :"Talence::B5@Amphi_GABA",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339011@import": {
+        "ID"        :"C27020170908T153339011@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-22T16:00",
+        "date_end"  :"2017-09-22T19:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::B5@Room_002",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339012@import": {
+        "ID"        :"C27020170908T153339012@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-25T9:00",
+        "date_end"  :"2017-09-25T12:00",
+        "lecturer"  :"Benot ML",
+        "location"  :"Talence::B5@Amphi_GABA",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339013@import": {
+        "ID"        :"C27020170908T153339013@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-26T14:00",
+        "date_end"  :"2017-09-26T17:00",
+        "lecturer"  :"Gr&eacute;mare A",
+        "location"  :"Talence::B5@Room_001",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339014@import": {
+        "ID"        :"C27020170908T153339014@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-27T9:00",
+        "date_end"  :"2017-09-27T12:00",
+        "lecturer"  :"Benot ML",
+        "location"  :"Talence::B5@Room_002",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339015@import": {
+        "ID"        :"C27020170908T153339015@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-27T16:00",
+        "date_end"  :"2017-09-27T19:00",
+        "lecturer"  :"David V",
+        "location"  :"Talence::B5@Room_001",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
+"C27020170908T153339016@import": {
+        "ID"        :"C27020170908T153339016@import",
+        "apogee"    :"4TBE901U",
+        "acronym"   :"S09::TDE++",
+        "date_start":"2017-09-28T9:00",
+        "date_end"  :"2017-09-28T12:00",
+        "lecturer"  :"Benot ML",
+        "location"  :"Talence::B5@Room_000",
+        "group"     :"All",
+        "type"      :"TD machine",
+        "year"      :"2",
+        "tracks"    :"0x70",
+        "comment"   :"Imported from ../import/m2_2017_09_08/TDE++_u80fp1govpan1j6gvaam9rftlc@group.calendar.google.com.ics - Fri Sep 08 2017 17:33:39 GMT+0200 (CEST)"},
