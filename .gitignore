@@ -7,4 +7,6 @@
 **/*.old
 
 node_modules/
+import/
+
 
