@@ -318,7 +318,10 @@
     "date_end": "2017-09-12T12:00",
     "group": "All",
     "location": "Talence::A33@Amphi_Maths",
-    "description": "None"
+    "description": "None",
+    "warnings": [],
+    "hours": "10:00-12:00",
+    "weekdayIndex": 2
   },
   "C10F20170907T061211327@Marie-Beurton-Aimar": {
     "ID": "C10F20170907T061211327@Marie-Beurton-Aimar",
@@ -404,13 +407,10 @@
     "type": "Cours",
     "summary": "4TBI701U",
     "lecturer": "Taveau JC",
-    "date_start": "2017-09-12T10:00",
-    "date_end": "2017-09-12T12:00",
+    "date_start": "2017-09-12T08:00",
+    "date_end": "2017-09-12T10:00",
     "group": "All",
     "location": "Talence::A33@Room_amphi",
-    "description": "None",
-    "warnings": [],
-    "hours": "10:00-12:00",
-    "weekdayIndex": 2
+    "description": "None"
   }
 }
