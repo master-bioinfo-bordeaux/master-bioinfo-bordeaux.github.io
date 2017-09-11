@@ -38,8 +38,7 @@
         "year"      :"2",
         "tracks"    :"0x07",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:46 GMT+0200 (CEST)"}
-}
-{
+,
 "C26120170911T120147001@import": {
         "ID"        :"C26120170911T120147001@import",
         "apogee"    :"4TBI903U",
@@ -66,8 +65,7 @@
         "year"      :"2",
         "tracks"    :"0x61",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:47 GMT+0200 (CEST)"}
-}
-{
+,
 "C26020170911T120147001@import": {
         "ID"        :"C26020170911T120147001@import",
         "apogee"    :"4TDE902U",
@@ -341,8 +339,7 @@
         "year"      :"2",
         "tracks"    :"0x60",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:47 GMT+0200 (CEST)"}
-}
-{
+,
 "C27020170911T120147001@import": {
         "ID"        :"C27020170911T120147001@import",
         "apogee"    :"4TBI906U",
@@ -590,8 +587,7 @@
         "year"      :"2",
         "tracks"    :"0x70",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:47 GMT+0200 (CEST)"}
-}
-{
+,
 "C26020170911T120148001@import": {
         "ID"        :"C26020170911T120148001@import",
         "apogee"    :"4TBA904U",
@@ -735,8 +731,7 @@
         "year"      :"2",
         "tracks"    :"0x60",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:48 GMT+0200 (CEST)"}
-}
-{
+,
 "C21020170911T120148001@import": {
         "ID"        :"C21020170911T120148001@import",
         "apogee"    :"4TBC901U",
@@ -1179,8 +1174,7 @@
         "year"      :"2",
         "tracks"    :"0x10",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:48 GMT+0200 (CEST)"}
-}
-{
+,
 "C26020170911T120148001@import": {
         "ID"        :"C26020170911T120148001@import",
         "apogee"    :"4TBA903U",
@@ -1389,8 +1383,7 @@
         "year"      :"2",
         "tracks"    :"0x60",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:48 GMT+0200 (CEST)"}
-}
-{
+,
 "C26020170911T120149001@import": {
         "ID"        :"C26020170911T120149001@import",
         "apogee"    :"4TDE901U",
@@ -1664,8 +1657,7 @@
         "year"      :"2",
         "tracks"    :"0x60",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:49 GMT+0200 (CEST)"}
-}
-{
+,
 "C26120170911T120149001@import": {
         "ID"        :"C26120170911T120149001@import",
         "apogee"    :"4TBI901U",
@@ -1731,8 +1723,7 @@
         "year"      :"2",
         "tracks"    :"0x61",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:49 GMT+0200 (CEST)"}
-}
-{
+,
 "C27020170911T120150001@import": {
         "ID"        :"C27020170911T120150001@import",
         "apogee"    :"4TBE901U",
@@ -1941,6 +1932,5 @@
         "year"      :"2",
         "tracks"    :"0x70",
         "comment"   :"Imported from .ics - Mon Sep 11 2017 14:01:50 GMT+0200 (CEST)"}
-}
-{
+,
 }
