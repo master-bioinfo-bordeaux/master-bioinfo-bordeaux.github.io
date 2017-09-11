@@ -2450,7 +2450,7 @@ function initCalendar() {
     cal.dataset.day   = now.getDate();
     
     // Load M1 events
-    loadCalendarData('calendar.json');
+    loadCalendarData('calendar_m1.json');
     // Load M2 events
     loadCalendarData('calendar_m2.json');
     // Load not-course events
