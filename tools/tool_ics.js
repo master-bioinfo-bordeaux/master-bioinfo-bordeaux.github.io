@@ -212,6 +212,7 @@ function parse_ics(data) {
 }
 
 function output_events(all) {
+  console.log('{');
   // Display events
   for (var i in all) {
     var event = all[i];
@@ -248,9 +249,16 @@ function output_events(all) {
         "description":"",
         "comment"    :"${comment}"}`;
     }
-
+    
+    if (i != (all.length - 1) ) {
       console.log(`"${event.ID}": ${txt},` );
+    }
+    else {
+      console.log(`"${event.ID}": ${txt}` );
+    }
+
   }
+  console.log('}');
 }
 /***************** M A I N *****************/
 
