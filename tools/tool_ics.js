@@ -174,7 +174,6 @@ function parse_ics(data) {
   var rows = data.split(/\r?\n/);
   for (var i = 0; i < rows.length;i++) {
     var str = rows[i];
-
     if (str.indexOf('BEGIN') !== -1 && str.indexOf('VEVENT') !== -1) {
       // New event
       ev = {};
@@ -198,8 +197,8 @@ function parse_ics(data) {
     else if (str.indexOf('SUMMARY') !== -1) {
       ev.content = str.substr(str.indexOf(':')+1);
     }
-    else if (str.indexOf('LOCATION') !== -1 && str.indexOf('VEVENT') !== -1) {
-      ev.location = str.substr(str.indexOf(':')+1) || 'None::None@Room_000';
+    else if (str.indexOf('LOCATION') !== -1 && ev !== undefined) {
+      ev.location = str.substr(str.indexOf('TION:')+5) || 'None::None@Room_000';
     }
     else if (str.indexOf('DESCRIPTION') !== -1) {
       ev.description = str;
@@ -267,7 +266,7 @@ const TRCK_GENECO  = 2;
 let EVENT_COUNT = 0;
 
 if (process.argv.length <= 3) {
-  console.log('USAGE: nodejs import.js -i ../import/my_path/filename.ics > ../data/calendar_m<master_year>.json');
+  console.log('USAGE: nodejs tool_ics.js -i ../import/my_path/filename.ics > ../data/calendar_m<master_year>.json');
   return;
 }
 
