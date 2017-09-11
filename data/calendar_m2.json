@@ -1,9 +1,6 @@
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
 {
-"C20720170911T132332001@import": {
-        "ID"        :"C20720170911T132332001@import",
+"C20720170911T132526001@import": {
+        "ID"        :"C20720170911T132526001@import",
         "apogee"    :"4TBI904U",
         "acronym"   :"S09::DEA",
         "date_start":"2017-10-06T8:00",
@@ -14,9 +11,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:32 GMT+0200 (CEST)"},
-"C20720170911T132332002@import": {
-        "ID"        :"C20720170911T132332002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:26 GMT+0200 (CEST)"},
+"C20720170911T132526002@import": {
+        "ID"        :"C20720170911T132526002@import",
         "apogee"    :"4TBI904U",
         "acronym"   :"S09::DEA",
         "date_start":"2017-11-10T8:00",
@@ -27,9 +24,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:32 GMT+0200 (CEST)"},
-"C20720170911T132332003@import": {
-        "ID"        :"C20720170911T132332003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:26 GMT+0200 (CEST)"},
+"C20720170911T132526003@import": {
+        "ID"        :"C20720170911T132526003@import",
         "apogee"    :"4TBI904U",
         "acronym"   :"S09::DEA",
         "date_start":"2018-01-12T8:00",
@@ -40,14 +37,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:32 GMT+0200 (CEST)"}
-}
-LOC Talence::B4@Room_A2
-LOC Talence::A::29cremi@Room_000
-LOC Talence::A29cremi@Room_000
-{
-"C26120170911T132333001@import": {
-        "ID"        :"C26120170911T132333001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:26 GMT+0200 (CEST)"},
+"C26120170911T132526001@import": {
+        "ID"        :"C26120170911T132526001@import",
         "apogee"    :"4TBI903U",
         "acronym"   :"S09::GLog",
         "date_start":"2017-09-11T14:00",
@@ -58,9 +50,9 @@ LOC Talence::A29cremi@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26120170911T132333002@import": {
-        "ID"        :"C26120170911T132333002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:26 GMT+0200 (CEST)"},
+"C26120170911T132526002@import": {
+        "ID"        :"C26120170911T132526002@import",
         "apogee"    :"4TBI903U",
         "acronym"   :"S09::GLog",
         "date_start":"2017-09-11T14:00",
@@ -71,30 +63,9 @@ LOC Talence::A29cremi@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"}
-}
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-{
-"C27020170911T132333001@import": {
-        "ID"        :"C27020170911T132333001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:26 GMT+0200 (CEST)"},
+"C27020170911T132527001@import": {
+        "ID"        :"C27020170911T132527001@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-09-13T8:00",
@@ -105,9 +76,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333002@import": {
-        "ID"        :"C27020170911T132333002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527002@import": {
+        "ID"        :"C27020170911T132527002@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-09-20T8:00",
@@ -118,9 +89,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333003@import": {
-        "ID"        :"C27020170911T132333003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527003@import": {
+        "ID"        :"C27020170911T132527003@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-09-27T8:00",
@@ -131,9 +102,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333004@import": {
-        "ID"        :"C27020170911T132333004@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527004@import": {
+        "ID"        :"C27020170911T132527004@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-04T8:00",
@@ -144,9 +115,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333005@import": {
-        "ID"        :"C27020170911T132333005@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527005@import": {
+        "ID"        :"C27020170911T132527005@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-11T8:00",
@@ -157,9 +128,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333006@import": {
-        "ID"        :"C27020170911T132333006@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527006@import": {
+        "ID"        :"C27020170911T132527006@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-18T8:00",
@@ -170,9 +141,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333007@import": {
-        "ID"        :"C27020170911T132333007@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527007@import": {
+        "ID"        :"C27020170911T132527007@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-25T8:00",
@@ -183,9 +154,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333008@import": {
-        "ID"        :"C27020170911T132333008@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527008@import": {
+        "ID"        :"C27020170911T132527008@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-08T9:30",
@@ -196,9 +167,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333009@import": {
-        "ID"        :"C27020170911T132333009@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527009@import": {
+        "ID"        :"C27020170911T132527009@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-08T13:00",
@@ -209,9 +180,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333010@import": {
-        "ID"        :"C27020170911T132333010@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527010@import": {
+        "ID"        :"C27020170911T132527010@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-15T9:30",
@@ -222,9 +193,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333011@import": {
-        "ID"        :"C27020170911T132333011@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527011@import": {
+        "ID"        :"C27020170911T132527011@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-15T13:00",
@@ -235,9 +206,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333012@import": {
-        "ID"        :"C27020170911T132333012@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527012@import": {
+        "ID"        :"C27020170911T132527012@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-22T9:30",
@@ -248,9 +219,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333013@import": {
-        "ID"        :"C27020170911T132333013@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527013@import": {
+        "ID"        :"C27020170911T132527013@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-22T13:00",
@@ -261,9 +232,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333014@import": {
-        "ID"        :"C27020170911T132333014@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527014@import": {
+        "ID"        :"C27020170911T132527014@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-29T9:30",
@@ -274,9 +245,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333015@import": {
-        "ID"        :"C27020170911T132333015@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527015@import": {
+        "ID"        :"C27020170911T132527015@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-29T13:00",
@@ -287,9 +258,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333016@import": {
-        "ID"        :"C27020170911T132333016@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527016@import": {
+        "ID"        :"C27020170911T132527016@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-06T9:30",
@@ -300,9 +271,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333017@import": {
-        "ID"        :"C27020170911T132333017@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527017@import": {
+        "ID"        :"C27020170911T132527017@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-06T13:00",
@@ -313,9 +284,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333018@import": {
-        "ID"        :"C27020170911T132333018@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527018@import": {
+        "ID"        :"C27020170911T132527018@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-13T9:30",
@@ -326,9 +297,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C27020170911T132333019@import": {
-        "ID"        :"C27020170911T132333019@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C27020170911T132527019@import": {
+        "ID"        :"C27020170911T132527019@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-13T13:00",
@@ -339,22 +310,9 @@ LOC None::None@Room_000
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"}
-}
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_002
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_IBVM
-{
-"C26020170911T132333001@import": {
-        "ID"        :"C26020170911T132333001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527001@import": {
+        "ID"        :"C26020170911T132527001@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-13T10:00",
@@ -365,9 +323,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333002@import": {
-        "ID"        :"C26020170911T132333002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527002@import": {
+        "ID"        :"C26020170911T132527002@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-15T16:00",
@@ -378,9 +336,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333003@import": {
-        "ID"        :"C26020170911T132333003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527003@import": {
+        "ID"        :"C26020170911T132527003@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-20T16:00",
@@ -391,9 +349,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333004@import": {
-        "ID"        :"C26020170911T132333004@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527004@import": {
+        "ID"        :"C26020170911T132527004@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-27T8:00",
@@ -404,9 +362,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333005@import": {
-        "ID"        :"C26020170911T132333005@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527005@import": {
+        "ID"        :"C26020170911T132527005@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-04T8:00",
@@ -417,9 +375,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333006@import": {
-        "ID"        :"C26020170911T132333006@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527006@import": {
+        "ID"        :"C26020170911T132527006@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-11T8:00",
@@ -430,9 +388,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333007@import": {
-        "ID"        :"C26020170911T132333007@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527007@import": {
+        "ID"        :"C26020170911T132527007@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-18T14:00",
@@ -443,9 +401,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333008@import": {
-        "ID"        :"C26020170911T132333008@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527008@import": {
+        "ID"        :"C26020170911T132527008@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-20T14:00",
@@ -456,9 +414,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333009@import": {
-        "ID"        :"C26020170911T132333009@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527009@import": {
+        "ID"        :"C26020170911T132527009@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-23T8:00",
@@ -469,9 +427,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333010@import": {
-        "ID"        :"C26020170911T132333010@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527010@import": {
+        "ID"        :"C26020170911T132527010@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-25T14:00",
@@ -482,9 +440,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"},
-"C26020170911T132333011@import": {
-        "ID"        :"C26020170911T132333011@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132527011@import": {
+        "ID"        :"C26020170911T132527011@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-11-28T14:00",
@@ -495,45 +453,9 @@ LOC INRA::IBVM@Room_IBVM
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:33 GMT+0200 (CEST)"}
-}
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC Talence::A9@Amphi_002
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC None::None@Room_000
-{
-"C21020170911T132334001@import": {
-        "ID"        :"C21020170911T132334001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527001@import": {
+        "ID"        :"C21020170911T132527001@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-28T14:00",
@@ -544,9 +466,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334002@import": {
-        "ID"        :"C21020170911T132334002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527002@import": {
+        "ID"        :"C21020170911T132527002@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-26T14:00",
@@ -557,9 +479,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334003@import": {
-        "ID"        :"C21020170911T132334003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527003@import": {
+        "ID"        :"C21020170911T132527003@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-04T8:00",
@@ -570,9 +492,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334004@import": {
-        "ID"        :"C21020170911T132334004@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527004@import": {
+        "ID"        :"C21020170911T132527004@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-11T8:00",
@@ -583,9 +505,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334005@import": {
-        "ID"        :"C21020170911T132334005@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527005@import": {
+        "ID"        :"C21020170911T132527005@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-21T16:00",
@@ -596,9 +518,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334006@import": {
-        "ID"        :"C21020170911T132334006@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527006@import": {
+        "ID"        :"C21020170911T132527006@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-17T16:00",
@@ -609,9 +531,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334007@import": {
-        "ID"        :"C21020170911T132334007@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527007@import": {
+        "ID"        :"C21020170911T132527007@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-15T8:00",
@@ -622,9 +544,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334008@import": {
-        "ID"        :"C21020170911T132334008@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527008@import": {
+        "ID"        :"C21020170911T132527008@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-10T14:00",
@@ -635,9 +557,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334009@import": {
-        "ID"        :"C21020170911T132334009@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527009@import": {
+        "ID"        :"C21020170911T132527009@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-17T14:00",
@@ -648,9 +570,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334010@import": {
-        "ID"        :"C21020170911T132334010@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527010@import": {
+        "ID"        :"C21020170911T132527010@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-12T16:00",
@@ -661,9 +583,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334011@import": {
-        "ID"        :"C21020170911T132334011@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527011@import": {
+        "ID"        :"C21020170911T132527011@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-25T8:00",
@@ -674,9 +596,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334012@import": {
-        "ID"        :"C21020170911T132334012@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527012@import": {
+        "ID"        :"C21020170911T132527012@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-28T16:00",
@@ -687,9 +609,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334013@import": {
-        "ID"        :"C21020170911T132334013@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527013@import": {
+        "ID"        :"C21020170911T132527013@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-22T8:00",
@@ -700,9 +622,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334014@import": {
-        "ID"        :"C21020170911T132334014@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527014@import": {
+        "ID"        :"C21020170911T132527014@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-27T8:00",
@@ -713,9 +635,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334015@import": {
-        "ID"        :"C21020170911T132334015@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527015@import": {
+        "ID"        :"C21020170911T132527015@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-12-06T8:00",
@@ -726,9 +648,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334016@import": {
-        "ID"        :"C21020170911T132334016@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527016@import": {
+        "ID"        :"C21020170911T132527016@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-05T14:00",
@@ -739,9 +661,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334017@import": {
-        "ID"        :"C21020170911T132334017@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527017@import": {
+        "ID"        :"C21020170911T132527017@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-24T14:00",
@@ -752,9 +674,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334018@import": {
-        "ID"        :"C21020170911T132334018@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527018@import": {
+        "ID"        :"C21020170911T132527018@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-19T14:00",
@@ -765,9 +687,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334019@import": {
-        "ID"        :"C21020170911T132334019@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527019@import": {
+        "ID"        :"C21020170911T132527019@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-24T16:00",
@@ -778,9 +700,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334020@import": {
-        "ID"        :"C21020170911T132334020@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527020@import": {
+        "ID"        :"C21020170911T132527020@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-08T8:00",
@@ -791,9 +713,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334021@import": {
-        "ID"        :"C21020170911T132334021@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527021@import": {
+        "ID"        :"C21020170911T132527021@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-03T14:00",
@@ -804,9 +726,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334022@import": {
-        "ID"        :"C21020170911T132334022@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527022@import": {
+        "ID"        :"C21020170911T132527022@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-29T8:00",
@@ -817,9 +739,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334023@import": {
-        "ID"        :"C21020170911T132334023@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527023@import": {
+        "ID"        :"C21020170911T132527023@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-13T8:00",
@@ -830,9 +752,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334024@import": {
-        "ID"        :"C21020170911T132334024@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527024@import": {
+        "ID"        :"C21020170911T132527024@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-21T14:00",
@@ -843,9 +765,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334025@import": {
-        "ID"        :"C21020170911T132334025@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527025@import": {
+        "ID"        :"C21020170911T132527025@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-14T14:00",
@@ -856,9 +778,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334026@import": {
-        "ID"        :"C21020170911T132334026@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527026@import": {
+        "ID"        :"C21020170911T132527026@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-18T8:00",
@@ -869,9 +791,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334027@import": {
-        "ID"        :"C21020170911T132334027@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527027@import": {
+        "ID"        :"C21020170911T132527027@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-03T16:00",
@@ -882,9 +804,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334028@import": {
-        "ID"        :"C21020170911T132334028@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527028@import": {
+        "ID"        :"C21020170911T132527028@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-26T16:00",
@@ -895,9 +817,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334029@import": {
-        "ID"        :"C21020170911T132334029@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527029@import": {
+        "ID"        :"C21020170911T132527029@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-14T16:00",
@@ -908,9 +830,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334030@import": {
-        "ID"        :"C21020170911T132334030@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527030@import": {
+        "ID"        :"C21020170911T132527030@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-07T14:00",
@@ -921,9 +843,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334031@import": {
-        "ID"        :"C21020170911T132334031@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527031@import": {
+        "ID"        :"C21020170911T132527031@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-07T16:00",
@@ -934,9 +856,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334032@import": {
-        "ID"        :"C21020170911T132334032@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527032@import": {
+        "ID"        :"C21020170911T132527032@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-12T14:00",
@@ -947,9 +869,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334033@import": {
-        "ID"        :"C21020170911T132334033@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527033@import": {
+        "ID"        :"C21020170911T132527033@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-12-05T16:00",
@@ -960,9 +882,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C21020170911T132334034@import": {
-        "ID"        :"C21020170911T132334034@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C21020170911T132527034@import": {
+        "ID"        :"C21020170911T132527034@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-10T16:00",
@@ -973,27 +895,9 @@ LOC None::None@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"}
-}
-LOC INRA::IBVM@Room_IBVM
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC None::None@Room_000
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_viro
-LOC INRA::IBVM@Room_mollicutes
-{
-"C26020170911T132334001@import": {
-        "ID"        :"C26020170911T132334001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:27 GMT+0200 (CEST)"},
+"C26020170911T132528001@import": {
+        "ID"        :"C26020170911T132528001@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-12T16:00",
@@ -1004,9 +908,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334002@import": {
-        "ID"        :"C26020170911T132334002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528002@import": {
+        "ID"        :"C26020170911T132528002@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-22T8:00",
@@ -1017,9 +921,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334003@import": {
-        "ID"        :"C26020170911T132334003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528003@import": {
+        "ID"        :"C26020170911T132528003@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-18T8:00",
@@ -1030,9 +934,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334004@import": {
-        "ID"        :"C26020170911T132334004@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528004@import": {
+        "ID"        :"C26020170911T132528004@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-25T8:00",
@@ -1043,9 +947,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334005@import": {
-        "ID"        :"C26020170911T132334005@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528005@import": {
+        "ID"        :"C26020170911T132528005@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-26T8:00",
@@ -1056,9 +960,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"CONFERENCE",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334006@import": {
-        "ID"        :"C26020170911T132334006@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528006@import": {
+        "ID"        :"C26020170911T132528006@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-02T8:00",
@@ -1069,9 +973,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334007@import": {
-        "ID"        :"C26020170911T132334007@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528007@import": {
+        "ID"        :"C26020170911T132528007@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-09T8:00",
@@ -1082,9 +986,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334008@import": {
-        "ID"        :"C26020170911T132334008@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528008@import": {
+        "ID"        :"C26020170911T132528008@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-11T14:00",
@@ -1095,9 +999,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334009@import": {
-        "ID"        :"C26020170911T132334009@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528009@import": {
+        "ID"        :"C26020170911T132528009@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-16T8:00",
@@ -1108,9 +1012,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334010@import": {
-        "ID"        :"C26020170911T132334010@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528010@import": {
+        "ID"        :"C26020170911T132528010@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-06T8:00",
@@ -1121,9 +1025,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334011@import": {
-        "ID"        :"C26020170911T132334011@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528011@import": {
+        "ID"        :"C26020170911T132528011@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-07T14:00",
@@ -1134,9 +1038,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334012@import": {
-        "ID"        :"C26020170911T132334012@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528012@import": {
+        "ID"        :"C26020170911T132528012@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-13T8:00",
@@ -1147,9 +1051,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334013@import": {
-        "ID"        :"C26020170911T132334013@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528013@import": {
+        "ID"        :"C26020170911T132528013@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-20T8:00",
@@ -1160,9 +1064,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334014@import": {
-        "ID"        :"C26020170911T132334014@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528014@import": {
+        "ID"        :"C26020170911T132528014@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-27T8:00",
@@ -1173,9 +1077,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334015@import": {
-        "ID"        :"C26020170911T132334015@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528015@import": {
+        "ID"        :"C26020170911T132528015@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-30T8:00",
@@ -1186,9 +1090,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"},
-"C26020170911T132334016@import": {
-        "ID"        :"C26020170911T132334016@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26020170911T132528016@import": {
+        "ID"        :"C26020170911T132528016@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-12-04T8:00",
@@ -1199,16 +1103,9 @@ LOC INRA::IBVM@Room_mollicutes
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:34 GMT+0200 (CEST)"}
-}
-LOC Talence::A22@Room_119
-LOC None::None@Room_000
-LOC None::None@Room_000
-LOC Talence::A29-CREMI@Room_000
-LOC None::None@Room_000
-{
-"C26120170911T132335001@import": {
-        "ID"        :"C26120170911T132335001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26120170911T132528001@import": {
+        "ID"        :"C26120170911T132528001@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-09-07T9:00",
@@ -1219,9 +1116,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C26120170911T132335002@import": {
-        "ID"        :"C26120170911T132335002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26120170911T132528002@import": {
+        "ID"        :"C26120170911T132528002@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-10-05T14:00",
@@ -1232,9 +1129,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C26120170911T132335003@import": {
-        "ID"        :"C26120170911T132335003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26120170911T132528003@import": {
+        "ID"        :"C26120170911T132528003@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-11-07T10:00",
@@ -1245,9 +1142,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C26120170911T132335004@import": {
-        "ID"        :"C26120170911T132335004@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26120170911T132528004@import": {
+        "ID"        :"C26120170911T132528004@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-11-09T14:00",
@@ -1258,9 +1155,9 @@ LOC None::None@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C26120170911T132335005@import": {
-        "ID"        :"C26120170911T132335005@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C26120170911T132528005@import": {
+        "ID"        :"C26120170911T132528005@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-11-14T9:00",
@@ -1271,27 +1168,9 @@ LOC None::None@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"}
-}
-LOC Talence::None@Room_000
-LOC Talence::B5@Room_001
-LOC Talence::B5@Room_002
-LOC Talence::A30-LaBRI@Room_073
-LOC Talence::B5@Amphi_GABA
-LOC Talence::B5@Amphi_GABA
-LOC Talence::B18@Amphi_B18
-LOC Talence::B7@Room_003
-LOC Talence::B7@Room_003
-LOC Talence::B5@Amphi_GABA
-LOC Talence::B5@Room_002
-LOC Talence::B5@Amphi_GABA
-LOC Talence::B5@Room_001
-LOC Talence::B5@Room_002
-LOC Talence::B5@Room_001
-LOC Talence::B5@Room_000
-{
-"C27020170911T132335001@import": {
-        "ID"        :"C27020170911T132335001@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528001@import": {
+        "ID"        :"C27020170911T132528001@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-29T9:00",
@@ -1302,9 +1181,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335002@import": {
-        "ID"        :"C27020170911T132335002@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528002@import": {
+        "ID"        :"C27020170911T132528002@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-20T9:00",
@@ -1315,9 +1194,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335003@import": {
-        "ID"        :"C27020170911T132335003@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528003@import": {
+        "ID"        :"C27020170911T132528003@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-20T14:00",
@@ -1328,9 +1207,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335004@import": {
-        "ID"        :"C27020170911T132335004@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528004@import": {
+        "ID"        :"C27020170911T132528004@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-08T9:00",
@@ -1341,9 +1220,9 @@ LOC Talence::B5@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335005@import": {
-        "ID"        :"C27020170911T132335005@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528005@import": {
+        "ID"        :"C27020170911T132528005@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-18T9:00",
@@ -1354,9 +1233,9 @@ LOC Talence::B5@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335006@import": {
-        "ID"        :"C27020170911T132335006@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528006@import": {
+        "ID"        :"C27020170911T132528006@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-18T14:00",
@@ -1367,9 +1246,9 @@ LOC Talence::B5@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335007@import": {
-        "ID"        :"C27020170911T132335007@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528007@import": {
+        "ID"        :"C27020170911T132528007@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-19T9:00",
@@ -1380,9 +1259,9 @@ LOC Talence::B5@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335008@import": {
-        "ID"        :"C27020170911T132335008@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528008@import": {
+        "ID"        :"C27020170911T132528008@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-19T14:00",
@@ -1393,9 +1272,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335009@import": {
-        "ID"        :"C27020170911T132335009@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528009@import": {
+        "ID"        :"C27020170911T132528009@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-21T14:00",
@@ -1406,9 +1285,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335010@import": {
-        "ID"        :"C27020170911T132335010@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528010@import": {
+        "ID"        :"C27020170911T132528010@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-22T9:00",
@@ -1419,9 +1298,9 @@ LOC Talence::B5@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335011@import": {
-        "ID"        :"C27020170911T132335011@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528011@import": {
+        "ID"        :"C27020170911T132528011@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-22T16:00",
@@ -1432,9 +1311,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335012@import": {
-        "ID"        :"C27020170911T132335012@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528012@import": {
+        "ID"        :"C27020170911T132528012@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-25T9:00",
@@ -1445,9 +1324,9 @@ LOC Talence::B5@Room_000
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335013@import": {
-        "ID"        :"C27020170911T132335013@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528013@import": {
+        "ID"        :"C27020170911T132528013@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-26T14:00",
@@ -1458,9 +1337,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335014@import": {
-        "ID"        :"C27020170911T132335014@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528014@import": {
+        "ID"        :"C27020170911T132528014@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-27T9:00",
@@ -1471,9 +1350,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335015@import": {
-        "ID"        :"C27020170911T132335015@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528015@import": {
+        "ID"        :"C27020170911T132528015@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-27T16:00",
@@ -1484,9 +1363,9 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"},
-"C27020170911T132335016@import": {
-        "ID"        :"C27020170911T132335016@import",
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"},
+"C27020170911T132528016@import": {
+        "ID"        :"C27020170911T132528016@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-28T9:00",
@@ -1497,5 +1376,5 @@ LOC Talence::B5@Room_000
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:23:35 GMT+0200 (CEST)"}
+        "comment"   :"Imported from .ics - Mon Sep 11 2017 15:25:28 GMT+0200 (CEST)"}
 }
