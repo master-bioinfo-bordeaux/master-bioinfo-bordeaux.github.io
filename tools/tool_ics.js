@@ -94,7 +94,7 @@ function getDate(str) {
     // Timezone forced to Europe/Paris
     return new Date( Date.UTC(
       parseInt(time.substr(0,4)),
-      parseInt(time.substr(4,2))-1,
+      parseInt(time.substr(4,2))-1, // Month from 0 to 11
       parseInt(time.substr(6,2)),
       parseInt(time.substr(9,2)),
       parseInt(time.substr(11,2))
@@ -104,7 +104,7 @@ function getDate(str) {
 
   return new Date(
     parseInt(time.substr(0,4)),
-    parseInt(time.substr(4,2)),
+    parseInt(time.substr(4,2))-1, // Month from 0 to 11
     parseInt(time.substr(6,2)),
     parseInt(time.substr(9,2)),
     parseInt(time.substr(11,2)) 

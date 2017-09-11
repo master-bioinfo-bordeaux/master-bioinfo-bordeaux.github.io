@@ -43,8 +43,12 @@ do
   nodejs tool_ics.js -i $file >> `pwd`/../data/calendar_m2.json
 done
 
+# Cleanup
+printf 'Cleanup.....\n'
+perl -0777 -i.json -pe 's/\n\}\n\{/,/igs' `pwd`/../data/calendar_m2.json
+perl -0777 -pe 's/,\n\}/\n\}/igs' `pwd`/../data/calendar_m2.json
 
-
+printf 'Update file.....\n'
 git add ../data/calendar_m2.json
 git commit -m 'Update calendar M2'
 git push
