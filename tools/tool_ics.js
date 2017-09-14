@@ -17,6 +17,7 @@
  *  You should have received a copy of the GNU General Public License
  *  along with calendarmgr.  If not, see <http://www.gnu.org/licenses/>.
  *
+ *../node_modules/.bin/babel tool_ics.js -o tool_ics_j5.js
  *
  * Authors:
  * Jean-Christophe Taveau
@@ -74,21 +75,60 @@ function getCourseType(type = "Cours+TD") {
     // Synonym
     return 'Cours';
   }
+  else if (type === 'CONFERENCE' || type === 'MEETING') {
+    // Synonym
+    return 'Conference';
+  }
   return type;
 }
 
 function getLocation(loc = "None::None@Room_000") {
-  if (loc.indexOf('@') === -1 || loc.indexOf('::') === -1 ) {
-    return "None::None@Room_000";
+  let keywords = { NONE : 'None',TALENCE: 'Talence',CARREIRE: 'Carreire',INRA: 'INRA',ISVV: 'ISVV', 'ROOM': 'Room', AMPHI: 'Amphi'};
+  let buildings = { A21: 'A21-OMEGA', A29 : 'A29-CREMI',A30: 'A30-LaBRI'};
+  let campus;
+  let building;
+  let type;
+  let name;
+  // Check common mistakes - No separator or redundant separators/keywords
+  if (loc.indexOf('@') === -1 || loc.indexOf('::') === -1 || loc.indexOf('_') === -1 ) {
+    console.log(`ERROR: Missing separators in >>> ${loc} <<<`);
+    console.log('Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>');
+    process.exit();
   }
-  return loc;
+  else if ( (loc.match(/::/g) || []).length > 1 || (loc.match(/@/g) || []).length > 1 || (loc.match(/_/g) || []).length > 1 ) {
+    console.log(`ERROR: Redundant separators in >>> ${loc} <<<`);
+    console.log('Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>');
+    process.exit();
+  }
+  else if ( (loc.toUpperCase().match(/ROOM/g) || []).length > 1 || (loc.toUpperCase().match(/AMPHI/g) || []).length > 1 ) {
+    console.log(`ERROR: Redundant words 'Room' or 'Amphi' in >>> ${loc} <<<`);
+    console.log('Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>');
+    process.exit();
+  }
+  // Correct values of each field?
+  campus = loc.trim().substr(0,loc.indexOf('::'));
+  building = loc.trim().substring(loc.indexOf('::')+2,loc.indexOf('@'));
+  type = loc.trim().substring(loc.indexOf('@')+1,loc.indexOf('_'));
+  name = loc.trim().substr(loc.indexOf('_')+1);
+  
+  if ('NONE,TALENCE,CARREIRE,INRA,ISVV'.indexOf(campus.toUpperCase()) === -1 ) {
+    console.log(`ERROR: Unknown campus of >>> ${campus} <<< in ${loc}`);
+    console.log('Available campus: None,Talence,Carreire,INRA,ISVV');
+    process.exit();
+  }
+  else {
+    campus = keywords[campus.toUpperCase()];
+  }
+  building = buildings[building.substring(0,3)] || building;
+
+  return `${campus}::${building}@${type}_${name}`;
 }
 
 function getDate(str) {
   // Format with TimeZone ID= DTSTART;TZID=Europe/Paris:20170908T140000
   // Format with GMT = DTSTART:20170908T140000
   
-  var time = str.substr(str.indexOf(':')+1 );
+  var time = str.substr(str.indexOf(':')+1 ).trim();
   if (time.indexOf('Z') !== -1) {
     // UTC Time
     // Timezone forced to Europe/Paris
@@ -115,9 +155,31 @@ function getDescription(title = "None") {
   return title;
 }
 
+function createCalendarID(e) {
+  let login = 'import';
+  let id = 'None@import';
+  if (e.acronym) {
+    let timestamp = new Date().toISOString().replace(/[-:.Z]/g,'');
+    timestamp = timestamp.substr(0,timestamp.length -3) + (++EVENT_COUNT).toString().padStart(3,'0');
+    id = ( (e.isCourse) ? "C" : "E") + e.year + e.tracks + timestamp + "@" + login; 
+  }
+  return id;
+}
+
+/**
+ * Create event for Master Agenda
+ *
+ * The syntax is the following for the event/course description:
+ * - Course: <Acronym>**<Lecturer>**<Type>**<Group>
+ * - Event : <Acronym>**<Description>**<Lecturer>
+ *
+ * For the location, the syntax is:
+ * <campus>::<building>@<[Room|Amphi]_<number_or_name>
+ * Ex: Talence::A29-CREMI@Room_999
+ *
+ */
 function createEvent(e) {
-  // Course: Acronym ** Lecturer ** Type ** Location
-  // Event : Acronym ** Description ** Lecturer ** Location
+
   let ev = {};
   ev.date_start  = `${e.start.year}-${e.start.month.toString().padStart(2,'0')}-${e.start.day.toString().padStart(2,'0')}T`;
   ev.date_end    = ev.date_start;
@@ -146,28 +208,11 @@ function createEvent(e) {
   return ev;
 }
 
-function createCalendarID(e) {
-  let login = 'import';
-  let id = 'None@import';
-  if (e.acronym) {
-    let timestamp = new Date().toISOString().replace(/[-:.Z]/g,'');
-    timestamp = timestamp.substr(0,timestamp.length -3) + (++EVENT_COUNT).toString().padStart(3,'0');
-    id = ( (e.isCourse) ? "C" : "E") + e.year + e.tracks + timestamp + "@" + login; 
-  }
-  return id;
-}
-
-function isMultiDay(e,cell_val) {
-  // Check if multiday event
-  let j = 0;
-  while (j < e.length && e[j].content !== cell_val + ';') {
-    j++;
-  }
-  j--;
-  let isMultiDay = (j === (event.length - 1) ) ? false : true;
-  return isMultiDay;
-}
-
+/**
+ * Parse ics file
+ *
+ * @author: Jean-Christophe Taveau
+ */
 function parse_ics(data) {
   var all_events = [];
   var ev;
@@ -176,7 +221,7 @@ function parse_ics(data) {
     var str = rows[i];
     if (str.indexOf('BEGIN') !== -1 && str.indexOf('VEVENT') !== -1) {
       // New event
-      ev = {};
+      ev = {sequence:0,location:'None::None@Room_000'};
     }
     else if (str.indexOf('DTSTART') !== -1 && ev !== undefined) {
       var date = getDate(str);
@@ -210,6 +255,11 @@ function parse_ics(data) {
   return all_events;
 }
 
+/**
+ * Display JSON events
+ *
+ * @author: Jean-Christophe Taveau
+ */
 function output_events(all) {
   console.log('{');
   // Display events
@@ -259,15 +309,21 @@ function output_events(all) {
   }
   console.log('}');
 }
-/***************** M A I N *****************/
+
+/***************************
+ *
+ *        M  A  I  N 
+ *
+ ***************************/
 
 const TRCK_BIOCOMP = 1;
 const TRCK_GENECO  = 2;
 let EVENT_COUNT = 0;
 
 if (process.argv.length <= 3) {
+  console.log('ERROR: Wrong number of arguments');
   console.log('USAGE: nodejs tool_ics.js -i ../import/my_path/filename.ics > ../data/calendar_m<master_year>.json');
-  return;
+  process.exit();
 }
 
 let comment = `Imported from ${process.argv[3].substring(process.argv[3].indexOf(/\/[A-Z]/)+1,process.argv[3].indexOf(/[A-Z\+]_/)+1)}.ics - ${new Date()}`;
@@ -287,33 +343,6 @@ if (format === '-i') {
     output_events(events);
   });
    
-
-  
-/*  var data = ical.parseFile(filename);
-  for (var k in data){
-    if (data.hasOwnProperty(k)) {
-      let ev = data[k];
-      if (ev.type === 'VEVENT') {
-        ev.start.tz = 'CEST';
-        let event = {};
-        event.content = ev.summary;
-        
-        let event_header = {};
-        event_header.year = ev.start.getFullYear();
-        event_header.month = ev.start.getMonth() + 1;
-        event_header.day = ev.start.getDate();
-        event.time = {
-          start: `${ev.start.getHours()}:${ev.start.getMinutes().toString().padStart(2,'0')}`, 
-          end  : `${ev.end.getHours()}:${ev.end.getMinutes().toString().padStart(2,'0')}` 
-        };
-        all_events.push(createEvent(event, event_header));
-      }
-
-    }
-  }
-  */
-
-
 }
 
 
