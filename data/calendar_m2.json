@@ -1,6 +1,6 @@
 {
-"C20720170917T144257001@import": {
-        "ID"        :"C20720170917T144257001@import",
+"C20720170917T144520001@import": {
+        "ID"        :"C20720170917T144520001@import",
         "apogee"    :"4TBI904U",
         "acronym"   :"S09::DEA",
         "date_start":"2017-10-06T8:00",
@@ -11,9 +11,9 @@
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:57 GMT+0200 (CEST)"},
-"C20720170917T144257002@import": {
-        "ID"        :"C20720170917T144257002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:20 GMT+0200 (CEST)"},
+"C20720170917T144520002@import": {
+        "ID"        :"C20720170917T144520002@import",
         "apogee"    :"4TBI904U",
         "acronym"   :"S09::DEA",
         "date_start":"2017-11-10T8:00",
@@ -24,9 +24,9 @@
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:57 GMT+0200 (CEST)"},
-"C20720170917T144257003@import": {
-        "ID"        :"C20720170917T144257003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:20 GMT+0200 (CEST)"},
+"C20720170917T144520003@import": {
+        "ID"        :"C20720170917T144520003@import",
         "apogee"    :"4TBI904U",
         "acronym"   :"S09::DEA",
         "date_start":"2018-01-12T8:00",
@@ -37,9 +37,9 @@
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:57 GMT+0200 (CEST)"},
-"C26020170917T144258001@import": {
-        "ID"        :"C26020170917T144258001@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:20 GMT+0200 (CEST)"},
+"C26020170917T144521001@import": {
+        "ID"        :"C26020170917T144521001@import",
         "apogee"    :"4TBE902U",
         "acronym"   :"S09::EvoComm",
         "date_start":"2017-09-06T9:30",
@@ -50,9 +50,9 @@
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C26020170917T144258002@import": {
-        "ID"        :"C26020170917T144258002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"},
+"C26020170917T144521002@import": {
+        "ID"        :"C26020170917T144521002@import",
         "apogee"    :"4TBE902U",
         "acronym"   :"S09::EvoComm",
         "date_start":"2017-10-04T14:00",
@@ -63,9 +63,9 @@
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C26020170917T144258003@import": {
-        "ID"        :"C26020170917T144258003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"},
+"C26020170917T144521003@import": {
+        "ID"        :"C26020170917T144521003@import",
         "apogee"    :"4TBE902U",
         "acronym"   :"S09::EvoComm",
         "date_start":"2017-10-11T14:00",
@@ -76,9 +76,9 @@
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C26020170917T144258004@import": {
-        "ID"        :"C26020170917T144258004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"},
+"C26020170917T144521004@import": {
+        "ID"        :"C26020170917T144521004@import",
         "apogee"    :"4TBE902U",
         "acronym"   :"S09::EvoComm",
         "date_start":"2017-10-25T9:00",
@@ -89,9 +89,9 @@
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C26020170917T144258005@import": {
-        "ID"        :"C26020170917T144258005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"},
+"C26020170917T144521005@import": {
+        "ID"        :"C26020170917T144521005@import",
         "apogee"    :"4TBE902U",
         "acronym"   :"S09::EvoComm",
         "date_start":"2017-11-08T9:00",
@@ -102,13 +102,39 @@
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"}
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"},
+"C26020170917T144521006@import": {
+        "ID"        :"C26020170917T144521006@import",
+        "apogee"    :"4TBE902U",
+        "acronym"   :"S09::EvoComm",
+        "date_start":"2017-11-15T9:00",
+        "date_end"  :"2017-11-15T12:00",
+        "lecturer"  :"Fi&eacute;vet V",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"},
+"C26020170917T144521007@import": {
+        "ID"        :"C26020170917T144521007@import",
+        "apogee"    :"4TBE902U",
+        "acronym"   :"S09::EvoComm",
+        "date_start":"2017-11-15T14:00",
+        "date_end"  :"2017-11-15T18:00",
+        "lecturer"  :"Fi&eacute;vet V",
+        "location"  :"None::None@Room_000",
+        "group"     :"All",
+        "type"      :"Cours",
+        "year"      :"2",
+        "tracks"    :"0x60",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:21 GMT+0200 (CEST)"}
 }
 ERROR: Redundant separators in >>> Talence::A::29cremi@Room_000 <<<
 Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
 {
-"C27020170917T144258001@import": {
-        "ID"        :"C27020170917T144258001@import",
+"C27020170917T144522001@import": {
+        "ID"        :"C27020170917T144522001@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-09-13T8:00",
@@ -119,9 +145,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258002@import": {
-        "ID"        :"C27020170917T144258002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522002@import": {
+        "ID"        :"C27020170917T144522002@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-08T9:30",
@@ -132,9 +158,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258003@import": {
-        "ID"        :"C27020170917T144258003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522003@import": {
+        "ID"        :"C27020170917T144522003@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-08T13:00",
@@ -145,9 +171,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258004@import": {
-        "ID"        :"C27020170917T144258004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522004@import": {
+        "ID"        :"C27020170917T144522004@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-15T9:30",
@@ -158,9 +184,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258005@import": {
-        "ID"        :"C27020170917T144258005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522005@import": {
+        "ID"        :"C27020170917T144522005@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-15T13:00",
@@ -171,9 +197,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258006@import": {
-        "ID"        :"C27020170917T144258006@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522006@import": {
+        "ID"        :"C27020170917T144522006@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-22T9:30",
@@ -184,9 +210,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258007@import": {
-        "ID"        :"C27020170917T144258007@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522007@import": {
+        "ID"        :"C27020170917T144522007@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-22T13:00",
@@ -197,9 +223,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258008@import": {
-        "ID"        :"C27020170917T144258008@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522008@import": {
+        "ID"        :"C27020170917T144522008@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-29T9:30",
@@ -210,9 +236,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258009@import": {
-        "ID"        :"C27020170917T144258009@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522009@import": {
+        "ID"        :"C27020170917T144522009@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-11-29T13:00",
@@ -223,9 +249,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258010@import": {
-        "ID"        :"C27020170917T144258010@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522010@import": {
+        "ID"        :"C27020170917T144522010@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-06T9:30",
@@ -236,9 +262,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258011@import": {
-        "ID"        :"C27020170917T144258011@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522011@import": {
+        "ID"        :"C27020170917T144522011@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-06T13:00",
@@ -249,9 +275,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258012@import": {
-        "ID"        :"C27020170917T144258012@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522012@import": {
+        "ID"        :"C27020170917T144522012@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-13T9:30",
@@ -262,9 +288,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258013@import": {
-        "ID"        :"C27020170917T144258013@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522013@import": {
+        "ID"        :"C27020170917T144522013@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-12-13T13:00",
@@ -275,9 +301,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258014@import": {
-        "ID"        :"C27020170917T144258014@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522014@import": {
+        "ID"        :"C27020170917T144522014@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-09-20T8:00",
@@ -288,9 +314,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258015@import": {
-        "ID"        :"C27020170917T144258015@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522015@import": {
+        "ID"        :"C27020170917T144522015@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-09-27T8:00",
@@ -301,9 +327,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258016@import": {
-        "ID"        :"C27020170917T144258016@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522016@import": {
+        "ID"        :"C27020170917T144522016@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-04T8:00",
@@ -314,9 +340,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258017@import": {
-        "ID"        :"C27020170917T144258017@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522017@import": {
+        "ID"        :"C27020170917T144522017@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-11T8:00",
@@ -327,9 +353,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258018@import": {
-        "ID"        :"C27020170917T144258018@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522018@import": {
+        "ID"        :"C27020170917T144522018@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-18T8:00",
@@ -340,9 +366,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C27020170917T144258019@import": {
-        "ID"        :"C27020170917T144258019@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C27020170917T144522019@import": {
+        "ID"        :"C27020170917T144522019@import",
         "apogee"    :"4TBI906U",
         "acronym"   :"S09::MOCELL",
         "date_start":"2017-10-25T8:00",
@@ -353,9 +379,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:58 GMT+0200 (CEST)"},
-"C26020170917T144259001@import": {
-        "ID"        :"C26020170917T144259001@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522001@import": {
+        "ID"        :"C26020170917T144522001@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-13T10:00",
@@ -366,9 +392,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259002@import": {
-        "ID"        :"C26020170917T144259002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522002@import": {
+        "ID"        :"C26020170917T144522002@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-15T16:00",
@@ -379,9 +405,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259003@import": {
-        "ID"        :"C26020170917T144259003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522003@import": {
+        "ID"        :"C26020170917T144522003@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-20T16:00",
@@ -392,9 +418,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259004@import": {
-        "ID"        :"C26020170917T144259004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522004@import": {
+        "ID"        :"C26020170917T144522004@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-09-27T8:00",
@@ -405,9 +431,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259005@import": {
-        "ID"        :"C26020170917T144259005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522005@import": {
+        "ID"        :"C26020170917T144522005@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-04T8:00",
@@ -418,9 +444,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259006@import": {
-        "ID"        :"C26020170917T144259006@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522006@import": {
+        "ID"        :"C26020170917T144522006@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-11T8:00",
@@ -431,9 +457,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259007@import": {
-        "ID"        :"C26020170917T144259007@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522007@import": {
+        "ID"        :"C26020170917T144522007@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-18T14:00",
@@ -444,9 +470,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259008@import": {
-        "ID"        :"C26020170917T144259008@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522008@import": {
+        "ID"        :"C26020170917T144522008@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-20T14:00",
@@ -457,9 +483,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259009@import": {
-        "ID"        :"C26020170917T144259009@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522009@import": {
+        "ID"        :"C26020170917T144522009@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-23T8:00",
@@ -470,9 +496,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259010@import": {
-        "ID"        :"C26020170917T144259010@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522010@import": {
+        "ID"        :"C26020170917T144522010@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-10-25T14:00",
@@ -483,9 +509,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259011@import": {
-        "ID"        :"C26020170917T144259011@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144522011@import": {
+        "ID"        :"C26020170917T144522011@import",
         "apogee"    :"4TBA904U",
         "acronym"   :"S09::PDR",
         "date_start":"2017-11-28T14:00",
@@ -496,9 +522,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259001@import": {
-        "ID"        :"C21020170917T144259001@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522001@import": {
+        "ID"        :"C21020170917T144522001@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-28T14:00",
@@ -509,9 +535,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259002@import": {
-        "ID"        :"C21020170917T144259002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522002@import": {
+        "ID"        :"C21020170917T144522002@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-26T14:00",
@@ -522,9 +548,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259003@import": {
-        "ID"        :"C21020170917T144259003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522003@import": {
+        "ID"        :"C21020170917T144522003@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-04T8:00",
@@ -535,9 +561,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259004@import": {
-        "ID"        :"C21020170917T144259004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522004@import": {
+        "ID"        :"C21020170917T144522004@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-11T8:00",
@@ -548,9 +574,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259005@import": {
-        "ID"        :"C21020170917T144259005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522005@import": {
+        "ID"        :"C21020170917T144522005@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-21T16:00",
@@ -561,9 +587,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259006@import": {
-        "ID"        :"C21020170917T144259006@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522006@import": {
+        "ID"        :"C21020170917T144522006@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-17T16:00",
@@ -574,9 +600,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259007@import": {
-        "ID"        :"C21020170917T144259007@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522007@import": {
+        "ID"        :"C21020170917T144522007@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-15T8:00",
@@ -587,9 +613,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259008@import": {
-        "ID"        :"C21020170917T144259008@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522008@import": {
+        "ID"        :"C21020170917T144522008@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-10T14:00",
@@ -600,9 +626,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259009@import": {
-        "ID"        :"C21020170917T144259009@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522009@import": {
+        "ID"        :"C21020170917T144522009@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-17T14:00",
@@ -613,9 +639,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259010@import": {
-        "ID"        :"C21020170917T144259010@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522010@import": {
+        "ID"        :"C21020170917T144522010@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-12T16:00",
@@ -626,9 +652,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259011@import": {
-        "ID"        :"C21020170917T144259011@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522011@import": {
+        "ID"        :"C21020170917T144522011@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-25T8:00",
@@ -639,9 +665,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259012@import": {
-        "ID"        :"C21020170917T144259012@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522012@import": {
+        "ID"        :"C21020170917T144522012@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-28T16:00",
@@ -652,9 +678,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259013@import": {
-        "ID"        :"C21020170917T144259013@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522013@import": {
+        "ID"        :"C21020170917T144522013@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-22T8:00",
@@ -665,9 +691,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259014@import": {
-        "ID"        :"C21020170917T144259014@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522014@import": {
+        "ID"        :"C21020170917T144522014@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-27T8:00",
@@ -678,9 +704,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259015@import": {
-        "ID"        :"C21020170917T144259015@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522015@import": {
+        "ID"        :"C21020170917T144522015@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-12-06T8:00",
@@ -691,9 +717,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259016@import": {
-        "ID"        :"C21020170917T144259016@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522016@import": {
+        "ID"        :"C21020170917T144522016@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-05T14:00",
@@ -704,9 +730,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259017@import": {
-        "ID"        :"C21020170917T144259017@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522017@import": {
+        "ID"        :"C21020170917T144522017@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-24T14:00",
@@ -717,9 +743,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259018@import": {
-        "ID"        :"C21020170917T144259018@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522018@import": {
+        "ID"        :"C21020170917T144522018@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-19T14:00",
@@ -730,9 +756,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259019@import": {
-        "ID"        :"C21020170917T144259019@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522019@import": {
+        "ID"        :"C21020170917T144522019@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-24T16:00",
@@ -743,9 +769,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259020@import": {
-        "ID"        :"C21020170917T144259020@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522020@import": {
+        "ID"        :"C21020170917T144522020@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-08T8:00",
@@ -756,9 +782,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259021@import": {
-        "ID"        :"C21020170917T144259021@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522021@import": {
+        "ID"        :"C21020170917T144522021@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-03T14:00",
@@ -769,9 +795,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259022@import": {
-        "ID"        :"C21020170917T144259022@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522022@import": {
+        "ID"        :"C21020170917T144522022@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-29T8:00",
@@ -782,9 +808,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259023@import": {
-        "ID"        :"C21020170917T144259023@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522023@import": {
+        "ID"        :"C21020170917T144522023@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-13T8:00",
@@ -795,9 +821,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259024@import": {
-        "ID"        :"C21020170917T144259024@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522024@import": {
+        "ID"        :"C21020170917T144522024@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-21T14:00",
@@ -808,9 +834,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259025@import": {
-        "ID"        :"C21020170917T144259025@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522025@import": {
+        "ID"        :"C21020170917T144522025@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-14T14:00",
@@ -821,9 +847,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259026@import": {
-        "ID"        :"C21020170917T144259026@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522026@import": {
+        "ID"        :"C21020170917T144522026@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-18T8:00",
@@ -834,9 +860,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259027@import": {
-        "ID"        :"C21020170917T144259027@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522027@import": {
+        "ID"        :"C21020170917T144522027@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-03T16:00",
@@ -847,9 +873,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259028@import": {
-        "ID"        :"C21020170917T144259028@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522028@import": {
+        "ID"        :"C21020170917T144522028@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-26T16:00",
@@ -860,9 +886,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259029@import": {
-        "ID"        :"C21020170917T144259029@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522029@import": {
+        "ID"        :"C21020170917T144522029@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-14T16:00",
@@ -873,9 +899,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259030@import": {
-        "ID"        :"C21020170917T144259030@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522030@import": {
+        "ID"        :"C21020170917T144522030@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-07T14:00",
@@ -886,9 +912,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259031@import": {
-        "ID"        :"C21020170917T144259031@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522031@import": {
+        "ID"        :"C21020170917T144522031@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-11-07T16:00",
@@ -899,9 +925,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259032@import": {
-        "ID"        :"C21020170917T144259032@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522032@import": {
+        "ID"        :"C21020170917T144522032@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-09-12T14:00",
@@ -912,9 +938,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259033@import": {
-        "ID"        :"C21020170917T144259033@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522033@import": {
+        "ID"        :"C21020170917T144522033@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-12-05T16:00",
@@ -925,9 +951,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C21020170917T144259034@import": {
-        "ID"        :"C21020170917T144259034@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C21020170917T144522034@import": {
+        "ID"        :"C21020170917T144522034@import",
         "apogee"    :"4TBC901U",
         "acronym"   :"S09::POO++",
         "date_start":"2017-10-10T16:00",
@@ -938,9 +964,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259001@import": {
-        "ID"        :"C26020170917T144259001@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:22 GMT+0200 (CEST)"},
+"C26020170917T144523001@import": {
+        "ID"        :"C26020170917T144523001@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-12T16:00",
@@ -951,9 +977,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259002@import": {
-        "ID"        :"C26020170917T144259002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523002@import": {
+        "ID"        :"C26020170917T144523002@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-22T8:00",
@@ -964,9 +990,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259003@import": {
-        "ID"        :"C26020170917T144259003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523003@import": {
+        "ID"        :"C26020170917T144523003@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-18T8:00",
@@ -977,9 +1003,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259004@import": {
-        "ID"        :"C26020170917T144259004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523004@import": {
+        "ID"        :"C26020170917T144523004@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-25T8:00",
@@ -990,9 +1016,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259005@import": {
-        "ID"        :"C26020170917T144259005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523005@import": {
+        "ID"        :"C26020170917T144523005@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-09-26T8:00",
@@ -1003,9 +1029,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Conference",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259006@import": {
-        "ID"        :"C26020170917T144259006@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523006@import": {
+        "ID"        :"C26020170917T144523006@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-02T8:00",
@@ -1016,9 +1042,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259007@import": {
-        "ID"        :"C26020170917T144259007@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523007@import": {
+        "ID"        :"C26020170917T144523007@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-09T8:00",
@@ -1029,9 +1055,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259008@import": {
-        "ID"        :"C26020170917T144259008@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523008@import": {
+        "ID"        :"C26020170917T144523008@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-11T14:00",
@@ -1042,9 +1068,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259009@import": {
-        "ID"        :"C26020170917T144259009@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523009@import": {
+        "ID"        :"C26020170917T144523009@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-10-16T8:00",
@@ -1055,9 +1081,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259010@import": {
-        "ID"        :"C26020170917T144259010@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523010@import": {
+        "ID"        :"C26020170917T144523010@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-06T8:00",
@@ -1068,9 +1094,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259011@import": {
-        "ID"        :"C26020170917T144259011@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523011@import": {
+        "ID"        :"C26020170917T144523011@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-07T14:00",
@@ -1081,9 +1107,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259012@import": {
-        "ID"        :"C26020170917T144259012@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523012@import": {
+        "ID"        :"C26020170917T144523012@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-13T8:00",
@@ -1094,9 +1120,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259013@import": {
-        "ID"        :"C26020170917T144259013@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523013@import": {
+        "ID"        :"C26020170917T144523013@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-20T8:00",
@@ -1107,9 +1133,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259014@import": {
-        "ID"        :"C26020170917T144259014@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523014@import": {
+        "ID"        :"C26020170917T144523014@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-27T8:00",
@@ -1120,9 +1146,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259015@import": {
-        "ID"        :"C26020170917T144259015@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523015@import": {
+        "ID"        :"C26020170917T144523015@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-11-30T8:00",
@@ -1133,9 +1159,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26020170917T144259016@import": {
-        "ID"        :"C26020170917T144259016@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26020170917T144523016@import": {
+        "ID"        :"C26020170917T144523016@import",
         "apogee"    :"4TBA903U",
         "acronym"   :"S09::QPG",
         "date_start":"2017-12-04T8:00",
@@ -1146,9 +1172,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours+TD",
         "year"      :"2",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:42:59 GMT+0200 (CEST)"},
-"C26120170917T144300001@import": {
-        "ID"        :"C26120170917T144300001@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26120170917T144523001@import": {
+        "ID"        :"C26120170917T144523001@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-09-07T9:00",
@@ -1159,9 +1185,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C26120170917T144300002@import": {
-        "ID"        :"C26120170917T144300002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26120170917T144523002@import": {
+        "ID"        :"C26120170917T144523002@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-10-05T14:00",
@@ -1172,9 +1198,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C26120170917T144300003@import": {
-        "ID"        :"C26120170917T144300003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26120170917T144523003@import": {
+        "ID"        :"C26120170917T144523003@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-11-07T10:00",
@@ -1185,9 +1211,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C26120170917T144300004@import": {
-        "ID"        :"C26120170917T144300004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26120170917T144523004@import": {
+        "ID"        :"C26120170917T144523004@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-11-09T14:00",
@@ -1198,9 +1224,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C26120170917T144300005@import": {
-        "ID"        :"C26120170917T144300005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C26120170917T144523005@import": {
+        "ID"        :"C26120170917T144523005@import",
         "apogee"    :"4TBI901U",
         "acronym"   :"S09::StrubiGL",
         "date_start":"2017-11-14T9:00",
@@ -1211,9 +1237,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x61",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300001@import": {
-        "ID"        :"C27020170917T144300001@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523001@import": {
+        "ID"        :"C27020170917T144523001@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-29T9:00",
@@ -1224,9 +1250,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300002@import": {
-        "ID"        :"C27020170917T144300002@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523002@import": {
+        "ID"        :"C27020170917T144523002@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-20T9:00",
@@ -1237,9 +1263,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300003@import": {
-        "ID"        :"C27020170917T144300003@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523003@import": {
+        "ID"        :"C27020170917T144523003@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-20T14:00",
@@ -1250,9 +1276,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300004@import": {
-        "ID"        :"C27020170917T144300004@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523004@import": {
+        "ID"        :"C27020170917T144523004@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-08T9:00",
@@ -1263,9 +1289,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300005@import": {
-        "ID"        :"C27020170917T144300005@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523005@import": {
+        "ID"        :"C27020170917T144523005@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-18T9:00",
@@ -1276,9 +1302,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300006@import": {
-        "ID"        :"C27020170917T144300006@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523006@import": {
+        "ID"        :"C27020170917T144523006@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-18T14:00",
@@ -1289,9 +1315,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300007@import": {
-        "ID"        :"C27020170917T144300007@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523007@import": {
+        "ID"        :"C27020170917T144523007@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-19T9:00",
@@ -1302,9 +1328,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300008@import": {
-        "ID"        :"C27020170917T144300008@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523008@import": {
+        "ID"        :"C27020170917T144523008@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-19T14:00",
@@ -1315,9 +1341,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300009@import": {
-        "ID"        :"C27020170917T144300009@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523009@import": {
+        "ID"        :"C27020170917T144523009@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-21T14:00",
@@ -1328,9 +1354,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300010@import": {
-        "ID"        :"C27020170917T144300010@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523010@import": {
+        "ID"        :"C27020170917T144523010@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-22T9:00",
@@ -1341,9 +1367,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300011@import": {
-        "ID"        :"C27020170917T144300011@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523011@import": {
+        "ID"        :"C27020170917T144523011@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-22T16:00",
@@ -1354,9 +1380,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300012@import": {
-        "ID"        :"C27020170917T144300012@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523012@import": {
+        "ID"        :"C27020170917T144523012@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-25T9:00",
@@ -1367,9 +1393,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"Cours",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300013@import": {
-        "ID"        :"C27020170917T144300013@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523013@import": {
+        "ID"        :"C27020170917T144523013@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-26T14:00",
@@ -1380,9 +1406,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300014@import": {
-        "ID"        :"C27020170917T144300014@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523014@import": {
+        "ID"        :"C27020170917T144523014@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-27T9:00",
@@ -1393,9 +1419,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300015@import": {
-        "ID"        :"C27020170917T144300015@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523015@import": {
+        "ID"        :"C27020170917T144523015@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-27T16:00",
@@ -1406,9 +1432,9 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"},
-"C27020170917T144300016@import": {
-        "ID"        :"C27020170917T144300016@import",
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"},
+"C27020170917T144523016@import": {
+        "ID"        :"C27020170917T144523016@import",
         "apogee"    :"4TBE901U",
         "acronym"   :"S09::TDE++",
         "date_start":"2017-09-28T9:00",
@@ -1419,5 +1445,5 @@ Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>
         "type"      :"TD machine",
         "year"      :"2",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:43:00 GMT+0200 (CEST)"}
+        "comment"   :"Imported from .ics - Sun Sep 17 2017 16:45:23 GMT+0200 (CEST)"}
 }
