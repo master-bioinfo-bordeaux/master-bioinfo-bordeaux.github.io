@@ -177,7 +177,7 @@ function updateCalendarBody(y,m,d) {
         element.MSYear  = parseInt(element.ID[1]);
         element.MSTrack = parseInt(element.ID.substr(2,2),16);
         element.weekdayIndex = -1;
-        console.log(element);
+        // HACK: console.log(element);
         if (   (element.MSYear == masterYear || element.MSYear === 3) 
             && ((element.MSTrack & masterTrack) === masterTrack || (element.MSTrack & masterTrack*16) === masterTrack*16 ) ) {
             var startDate = new Date(
@@ -201,7 +201,7 @@ function updateCalendarBody(y,m,d) {
             else {
                 element.allDay = false;
             }
-            // console.log('START ' + startDate);
+            // HACK: console.log('START ' + startDate);
         
             // From MON to FRI
             for (var i = 1; i < 6; i++) {
@@ -209,9 +209,9 @@ function updateCalendarBody(y,m,d) {
                 var dayD       = day.toCalString().substr(0,10);  // Days number since UTC
                 var startDateD = element.date_start.substr(0,10); // Days number since UTC
                 var endDateD   = element.date_end.substr(0,10);   // Days number since UTC
-                // console.log(dayD,startDateD,endDateD,day, day.toCalString());
+                // HACK: console.log(dayD,startDateD,endDateD,day, day.toCalString());
                 if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-                    // console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
+                    // HACK: console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
                     var timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
                     element.startDate = startDate;
                     element.endDate   = endDate;
@@ -354,7 +354,7 @@ function getISOWeekNum(y,m,d) {
 function displayCalendarModal(eventID) {
     var type = eventID[0];  // C = Course or E = Event
     var html = ''; 
-    console.log('event ' + eventID + ' ' + type);
+    // HACK: console.log('event ' + eventID + ' ' + type);
     if (type === 'C') {
         html = createCourseModal(eventID);
     }
@@ -367,14 +367,14 @@ function displayCalendarModal(eventID) {
     
     var el = document.getElementById('calendarModal');
     el.innerHTML = html;
-    console.log(el);
+    // HACK: console.log(el);
    
     // el.modal('show');
     $('#calendarModal').modal('show');
 }
 
 function createCourseModal(ID) {
-    console.log(calendar_data[ID]);
+    // HACK: console.log(calendar_data[ID]);
     var courseID = calendar_data[ID].apogee;
     var the_course = course_data[courseID];
     var image = the_course.image  || 'headinfo.jpg';
@@ -476,7 +476,7 @@ function createEventModal(ID) {
 
 function createEventCells(days) {
     //console.log("EVENTS OF THIS WEEK");
-    console.log(days);
+    // HACK: console.log(days);
     
     var html='';
     // ROW 0 = ALL DAY events
@@ -498,7 +498,7 @@ function createEventCells(days) {
     for (var i = 0; i < TableCal.NROWS; i++) {
         var row = i*30 + 480;
         html += '<tr>';
-        console.log(row);
+        // HACK: console.log(row);
         if ( (row % 60) == 0) {
             html += '<td class="hidden-xs" rowspan="2">'+ ( (Math.ceil(row/60) < 10) ? ('0'+Math.ceil(row/60) ) : Math.ceil(row/60) )+':00</td>';
         }
@@ -513,7 +513,7 @@ function createEventCells(days) {
             }
         }
         html += '</tr>';
-        console.log(table);
+        // HACK: console.log(table);
     }
     
     // Last ROW = EVENING events
@@ -540,7 +540,7 @@ function findEvent(events,start,col) {
         // Event #2: 15:00-16:30
         // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
         if (startMin == start && startDay == day) {
-            console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
+            // HACK: console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
             found = events[i];
             max_duration = Math.max(events[i].duration, max_duration);
             
@@ -568,7 +568,7 @@ function findEvent(events,start,col) {
         
         // Update cells
         for (var t=0; t < found.duration / 30; t++) {
-            // console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
+            // HACK: console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
             table.cells[(start - 480 )/30 + t][col]++;
         }
         
@@ -586,7 +586,7 @@ function createEmptyCell() {
 
 
 function createEventCell(cal_event) {
-    console.log(JSON.stringify(cal_event) );
+    // HACK: console.log(JSON.stringify(cal_event) );
     var ID = cal_event.ID;
     
     var html = '';
@@ -594,7 +594,7 @@ function createEventCell(cal_event) {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
         var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
-        // console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
+        // HACK: console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
         // +((parseInt(the_course.tracks,16) & masterTrack)) );
 
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
@@ -613,7 +613,7 @@ function createEventCell(cal_event) {
         }
         html += 'onclick="displayCalendarModal(\'' + ID + '\')">';
         html += the_course.acronym + '</a>'; // TODO: &nbsp;[' + cal_event.Nbsession +'] ' Sessions number ??
-        console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
+        // HACK: console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
         var hh = (parseInt(cal_event.startDate.getHours())   < 10) ? ('0'+ cal_event.startDate.getHours())   : cal_event.startDate.getHours();
         var mm = (parseInt(cal_event.startDate.getMinutes()) < 10) ? ('0'+ cal_event.startDate.getMinutes()) : cal_event.startDate.getMinutes();
         
@@ -666,7 +666,7 @@ function createEventCell(cal_event) {
         html += '<li>';
         html += '<a href="javascript:void(0)" class="btn btn-success btn-xs" '; // Color is Red: 'required event' btn-danger and Blue: 'elective' btn-primary
         html += '>'+ cal_event.summary +'</a>';
-        console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
+        // HACK: console.log(cal_event.startDate.getHours()  + ' '+ (parseInt(cal_event.startDate.getHours())   < 10) );
         var hh = (parseInt(cal_event.startDate.getHours())   < 10) ? ('0'+ cal_event.startDate.getHours())   : cal_event.startDate.getHours();
         var mm = (parseInt(cal_event.startDate.getMinutes()) < 10) ? ('0'+ cal_event.startDate.getMinutes()) : cal_event.startDate.getMinutes();
         html += '<span class="pull-right" style="font-weight: bold">' + hh + ':' + mm + '-';
