@@ -25,8 +25,8 @@
 
 /*****************  R E Q U I R E M E N T  *****************/
 
-var fs = require('fs');
-var calDB = require('./calmgr.json');
+const fs = require('fs');
+const calDB = require('./calmgr.json');
 
 
 /***************** F U N C T I O N S  *****************/
@@ -229,7 +229,7 @@ function parse_ics(data) {
       ev.start.year = date.getFullYear();
       ev.start.month = date.getMonth() + 1;
       ev.start.day = date.getDate();
-      ev.start.time = `${date.getHours()}:${date.getMinutes().toString().padStart(2,'0')}`;
+      ev.start.time = `${date.getHours().toString().padStart(2,'0')}:${date.getMinutes().toString().padStart(2,'0')}`;
     }
     else if (str.indexOf('DTEND') !== -1) {
       var date = getDate(str);
@@ -237,7 +237,7 @@ function parse_ics(data) {
       ev.end.year = date.getFullYear();
       ev.end.month = date.getMonth() + 1;
       ev.end.day = date.getDate();
-      ev.end.time = `${date.getHours()}:${date.getMinutes().toString().padStart(2,'0')}`;
+      ev.end.time = `${date.getHours().toString().padStart(2,'0')}:${date.getMinutes().toString().padStart(2,'0')}`;
     }
     else if (str.indexOf('SUMMARY') !== -1) {
       ev.content = str.substr(str.indexOf(':')+1);
@@ -322,7 +322,9 @@ let EVENT_COUNT = 0;
 
 if (process.argv.length <= 3) {
   console.log('ERROR: Wrong number of arguments');
-  console.log('USAGE: nodejs tool_ics.js -i ../import/my_path/filename.ics > ../data/calendar_m<master_year>.json');
+  console.log('USAGE: nodejs tool_ics.js -[i|d]-i ../import/my_path/filename.ics > ../data/calendar_m<master_year>.json');
+  console.log('USAGE: Option -i: input single ics filename');
+  console.log('USAGE: Option -d: input directory containing ics files');
   process.exit();
 }
 
@@ -330,11 +332,10 @@ let comment = `Imported from ${process.argv[3].substring(process.argv[3].indexOf
 
 let format = process.argv[2];
 
+// Read one ics file. Option `-i` = input filename
 if (format === '-i') {
-  var filename = process.argv[3];
-  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  
-
+  let filename = process.argv[3];
+  // const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   fs.readFile(filename, 'utf8', function (err,data) {
     if (err) {
       return console.log(err);
@@ -344,6 +345,30 @@ if (format === '-i') {
   });
    
 }
+// Read all ics files contained in directory. Option `-d`
+else if (format === '-d') {
+  let folder = process.argv[3];
+  let agendas = [];
+  let events;
+  fs.readdir(folder, function(err, filenames) {
+    if (err) {
+      return console.log(err);
+    }
+    filenames.forEach(function(filename) {
+      fs.readFile(folder+filename, 'utf8', function (err,data) {
+        if (err) {
+          return console.log(err);
+        }
+        agendas.push(parse_ics(data));
+        console.log(agendas[0]);
+      });
+
+          output_events(events);
+    });
+  });
+  
+}
+
 
 
 
