@@ -31,25 +31,32 @@ fi
 #
 
 cd `pwd`
+printf 'Step #1: Git Pull.....\n'
 git pull
-printf 'Conversion.....\n'
+printf 'Step #2: Conversion.....\n'
 rm -f `pwd`/../data/calendar_m2.json
 touch `pwd`/../data/calendar_m2.json
+cat $1*.ics > merged_tmp.ics
+calendar=`pwd`/../data/calendar_m2.json
+nodejs tool_ics.js -i merged_tmp.ics > `pwd`/../data/calendar_m2.json
 
-for file in $1/*
-do
-  printf 'Convert: %s\n' $file
-  #Run conversion ics to JSON
-  nodejs tool_ics.js -i $file >> `pwd`/../data/calendar_m2.json
-done
-
-# Cleanup
-printf 'Cleanup.....\n'
-perl -0777 -i.json -pe 's/\n\}\n\{/,/igs' `pwd`/../data/calendar_m2.json
-perl -0777 -i.json -pe 's/,\n\}/\n\}/igs' `pwd`/../data/calendar_m2.json
-
-printf 'Update file.....\n'
+if grep -q ERROR "$calendar"; then
+   printf '>>> ERROR: Check the content of calendar_m2.json\n>>> '
+   grep ERROR "$calendar"
+   printf '>>> END of process...\n'
+   exit
+ fi
+printf 'Step #3: Update file.....\n'
 git add ../data/calendar_m2.json
 git commit -m 'Update calendar M2'
 git push
  
+# Cleanup
+printf 'Step #4: Cleanup.....\n'
+rm merged_tmp.ics
+
+#End
+printf 'Step #5: End of update.....\n'
+
+
+
