@@ -38,18 +38,25 @@ rm -f `pwd`/../data/calendar_m2.json
 touch `pwd`/../data/calendar_m2.json
 cat $1*.ics > merged_tmp.ics
 calendar=`pwd`/../data/calendar_m2.json
-nodejs tool_ics.js -i merged_tmp.ics > `pwd`/../data/calendar_m2.json
+node tool_ics.js -i merged_tmp.ics > `pwd`/../data/calendar_m2.json
 
 if grep -q ERROR "$calendar"; then
    printf '>>> ERROR: Check the content of calendar_m2.json\n>>> '
    grep ERROR "$calendar"
    printf '>>> END of process...\n'
    exit
- fi
-printf 'Step #3: Update file.....\n'
-git add ../data/calendar_m2.json
-git commit -m 'Update calendar M2'
-git push
+fi
+
+while true; do
+    read -p "Push this calendar to github [y|n] ?" yn
+    case $yn in
+        [Yy]* ) printf 'Step #3: Commit/push calendar_m2.json .....\n';git add ../data/calendar_m2.json;git commit -m 'Update calendar M2';git push; break;;
+        [Nn]* ) printf 'Update stopped.....\n';exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+
  
 # Cleanup
 printf 'Step #4: Cleanup.....\n'
