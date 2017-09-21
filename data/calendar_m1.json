@@ -1,6 +1,6 @@
 {
-"C10F20170920T094817001@import": {
-        "ID"        :"C10F20170920T094817001@import",
+"C10F20170921T064737001@import": {
+        "ID"        :"C10F20170921T064737001@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-04T14:00",
@@ -11,9 +11,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817002@import": {
-        "ID"        :"C10F20170920T094817002@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737002@import": {
+        "ID"        :"C10F20170921T064737002@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-05T10:00",
@@ -24,9 +24,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817003@import": {
-        "ID"        :"C10F20170920T094817003@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737003@import": {
+        "ID"        :"C10F20170921T064737003@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-05T10:00",
@@ -37,9 +37,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817004@import": {
-        "ID"        :"C10F20170920T094817004@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737004@import": {
+        "ID"        :"C10F20170921T064737004@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-06T10:00",
@@ -50,9 +50,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817005@import": {
-        "ID"        :"C10F20170920T094817005@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737005@import": {
+        "ID"        :"C10F20170921T064737005@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-08T10:00",
@@ -63,12 +63,12 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817006@import": {
-        "ID"        :"C10F20170920T094817006@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737006@import": {
+        "ID"        :"C10F20170921T064737006@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
-        "date_start":"2017-09-11T9:00",
+        "date_start":"2017-09-11T09:00",
         "date_end"  :"2017-09-11T12:00",
         "lecturer"  :"David V",
         "location"  :"Talence::B18@Amphi_000",
@@ -76,9 +76,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817007@import": {
-        "ID"        :"C10F20170920T094817007@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737007@import": {
+        "ID"        :"C10F20170921T064737007@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-11T13:00",
@@ -89,9 +89,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817008@import": {
-        "ID"        :"C10F20170920T094817008@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737008@import": {
+        "ID"        :"C10F20170921T064737008@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-11T16:00",
@@ -102,9 +102,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817009@import": {
-        "ID"        :"C10F20170920T094817009@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737009@import": {
+        "ID"        :"C10F20170921T064737009@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-09-12T10:00",
@@ -115,12 +115,12 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817010@import": {
-        "ID"        :"C10F20170920T094817010@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737010@import": {
+        "ID"        :"C10F20170921T064737010@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-09-12T8:00",
+        "date_start":"2017-09-12T08:00",
         "date_end"  :"2017-09-12T10:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A33@Room_amphi",
@@ -128,9 +128,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817011@import": {
-        "ID"        :"C10F20170920T094817011@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737011@import": {
+        "ID"        :"C10F20170921T064737011@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-12T14:00",
@@ -141,9 +141,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817012@import": {
-        "ID"        :"C10F20170920T094817012@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737012@import": {
+        "ID"        :"C10F20170921T064737012@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-12T14:00",
@@ -154,12 +154,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817013@import": {
-        "ID"        :"C10F20170920T094817013@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737013@import": {
+        "ID"        :"C10F20170921T064737013@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
-        "date_start":"2017-09-18T9:00",
+        "date_start":"2017-09-18T09:00",
         "date_end"  :"2017-09-18T12:00",
         "lecturer"  :"David V",
         "location"  :"Talence::B18@Amphi_000",
@@ -167,12 +167,12 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817014@import": {
-        "ID"        :"C10F20170920T094817014@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737014@import": {
+        "ID"        :"C10F20170921T064737014@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-09-19T8:00",
+        "date_start":"2017-09-19T08:00",
         "date_end"  :"2017-09-19T10:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::B6@Room_Amphi",
@@ -180,9 +180,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817015@import": {
-        "ID"        :"C10F20170920T094817015@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737015@import": {
+        "ID"        :"C10F20170921T064737015@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-09-19T10:00",
@@ -193,9 +193,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817016@import": {
-        "ID"        :"C10F20170920T094817016@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737016@import": {
+        "ID"        :"C10F20170921T064737016@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-19T14:00",
@@ -206,9 +206,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817017@import": {
-        "ID"        :"C10F20170920T094817017@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737017@import": {
+        "ID"        :"C10F20170921T064737017@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-19T14:00",
@@ -219,9 +219,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817018@import": {
-        "ID"        :"C10F20170920T094817018@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737018@import": {
+        "ID"        :"C10F20170921T064737018@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-20T13:00",
@@ -232,9 +232,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817019@import": {
-        "ID"        :"C10F20170920T094817019@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737019@import": {
+        "ID"        :"C10F20170921T064737019@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-20T15:00",
@@ -245,12 +245,12 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817020@import": {
-        "ID"        :"C10F20170920T094817020@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737020@import": {
+        "ID"        :"C10F20170921T064737020@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
-        "date_start":"2017-09-22T9:00",
+        "date_start":"2017-09-22T09:00",
         "date_end"  :"2017-09-22T12:00",
         "lecturer"  :"Beurton-Aimar M",
         "location"  :"Talence::A28-CREMI@Room_005",
@@ -258,12 +258,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817021@import": {
-        "ID"        :"C10F20170920T094817021@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737021@import": {
+        "ID"        :"C10F20170921T064737021@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
-        "date_start":"2017-09-22T9:30",
+        "date_start":"2017-09-22T09:30",
         "date_end"  :"2017-09-22T12:30",
         "lecturer"  :"Baldacci F",
         "location"  :"Talence::A28-CREMI@Room_201",
@@ -271,9 +271,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817022@import": {
-        "ID"        :"C10F20170920T094817022@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737022@import": {
+        "ID"        :"C10F20170921T064737022@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-25T14:00",
@@ -284,12 +284,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817023@import": {
-        "ID"        :"C10F20170920T094817023@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737023@import": {
+        "ID"        :"C10F20170921T064737023@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-09-26T8:00",
+        "date_start":"2017-09-26T08:00",
         "date_end"  :"2017-09-26T10:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A9@Room_Amphi1",
@@ -297,9 +297,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817024@import": {
-        "ID"        :"C10F20170920T094817024@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737024@import": {
+        "ID"        :"C10F20170921T064737024@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-09-26T10:00",
@@ -310,9 +310,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817025@import": {
-        "ID"        :"C10F20170920T094817025@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737025@import": {
+        "ID"        :"C10F20170921T064737025@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-26T14:00",
@@ -323,9 +323,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817026@import": {
-        "ID"        :"C10F20170920T094817026@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737026@import": {
+        "ID"        :"C10F20170921T064737026@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-26T14:00",
@@ -336,12 +336,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817027@import": {
-        "ID"        :"C10F20170920T094817027@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737027@import": {
+        "ID"        :"C10F20170921T064737027@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-09-27T8:00",
+        "date_start":"2017-09-27T08:00",
         "date_end"  :"2017-09-27T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_105",
@@ -349,9 +349,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817028@import": {
-        "ID"        :"C10F20170920T094817028@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737028@import": {
+        "ID"        :"C10F20170921T064737028@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-27T13:00",
@@ -362,9 +362,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817029@import": {
-        "ID"        :"C10F20170920T094817029@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737029@import": {
+        "ID"        :"C10F20170921T064737029@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-27T15:00",
@@ -375,12 +375,12 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817030@import": {
-        "ID"        :"C10F20170920T094817030@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737030@import": {
+        "ID"        :"C10F20170921T064737030@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-09-28T8:00",
+        "date_start":"2017-09-28T08:00",
         "date_end"  :"2017-09-28T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_005",
@@ -388,12 +388,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817031@import": {
-        "ID"        :"C10F20170920T094817031@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737031@import": {
+        "ID"        :"C10F20170921T064737031@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
-        "date_start":"2017-09-29T9:00",
+        "date_start":"2017-09-29T09:00",
         "date_end"  :"2017-09-29T12:00",
         "lecturer"  :"Beurton-Aimar M",
         "location"  :"Talence::A28-CREMI@Room_005",
@@ -401,12 +401,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817032@import": {
-        "ID"        :"C10F20170920T094817032@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737032@import": {
+        "ID"        :"C10F20170921T064737032@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
-        "date_start":"2017-09-29T9:30",
+        "date_start":"2017-09-29T09:30",
         "date_end"  :"2017-09-29T12:30",
         "lecturer"  :"Baldacci F",
         "location"  :"Talence::A28-CREMI@Room_201",
@@ -414,12 +414,12 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817033@import": {
-        "ID"        :"C10F20170920T094817033@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737033@import": {
+        "ID"        :"C10F20170921T064737033@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-03T8:00",
+        "date_start":"2017-10-03T08:00",
         "date_end"  :"2017-10-03T10:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::B6@Room_Amphi",
@@ -427,12 +427,12 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817034@import": {
-        "ID"        :"C10F20170920T094817034@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737034@import": {
+        "ID"        :"C10F20170921T064737034@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-04T8:00",
+        "date_start":"2017-10-04T08:00",
         "date_end"  :"2017-10-04T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_000",
@@ -440,9 +440,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817035@import": {
-        "ID"        :"C10F20170920T094817035@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737035@import": {
+        "ID"        :"C10F20170921T064737035@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-04T13:00",
@@ -453,9 +453,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817036@import": {
-        "ID"        :"C10F20170920T094817036@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737036@import": {
+        "ID"        :"C10F20170921T064737036@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-04T15:00",
@@ -466,12 +466,12 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817037@import": {
-        "ID"        :"C10F20170920T094817037@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737037@import": {
+        "ID"        :"C10F20170921T064737037@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-05T8:00",
+        "date_start":"2017-10-05T08:00",
         "date_end"  :"2017-10-05T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_000",
@@ -479,12 +479,12 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817038@import": {
-        "ID"        :"C10F20170920T094817038@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737038@import": {
+        "ID"        :"C10F20170921T064737038@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-10T8:00",
+        "date_start":"2017-10-10T08:00",
         "date_end"  :"2017-10-10T10:00",
         "lecturer"  :"Taveau JC",
         "location"  :"None::None@Room_000",
@@ -492,9 +492,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817039@import": {
-        "ID"        :"C10F20170920T094817039@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737039@import": {
+        "ID"        :"C10F20170921T064737039@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-10-16T13:00",
@@ -505,12 +505,12 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817040@import": {
-        "ID"        :"C10F20170920T094817040@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737040@import": {
+        "ID"        :"C10F20170921T064737040@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-18T8:00",
+        "date_start":"2017-10-18T08:00",
         "date_end"  :"2017-10-18T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_000",
@@ -518,12 +518,12 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817041@import": {
-        "ID"        :"C10F20170920T094817041@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737041@import": {
+        "ID"        :"C10F20170921T064737041@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-25T8:00",
+        "date_start":"2017-10-25T08:00",
         "date_end"  :"2017-10-25T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_000",
@@ -531,12 +531,12 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817042@import": {
-        "ID"        :"C10F20170920T094817042@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737042@import": {
+        "ID"        :"C10F20170921T064737042@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-10-26T8:00",
+        "date_start":"2017-10-26T08:00",
         "date_end"  :"2017-10-26T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_000",
@@ -544,12 +544,12 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817043@import": {
-        "ID"        :"C10F20170920T094817043@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737043@import": {
+        "ID"        :"C10F20170921T064737043@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
-        "date_start":"2017-11-06T9:00",
+        "date_start":"2017-11-06T09:00",
         "date_end"  :"2017-11-06T12:00",
         "lecturer"  :"Gr&eacute;mare A",
         "location"  :"Talence::B5@Amphi_GABA",
@@ -557,9 +557,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817044@import": {
-        "ID"        :"C10F20170920T094817044@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737044@import": {
+        "ID"        :"C10F20170921T064737044@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-06T14:00",
@@ -570,12 +570,12 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817045@import": {
-        "ID"        :"C10F20170920T094817045@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737045@import": {
+        "ID"        :"C10F20170921T064737045@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
-        "date_start":"2017-11-08T8:00",
+        "date_start":"2017-11-08T08:00",
         "date_end"  :"2017-11-08T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_000",
@@ -583,12 +583,12 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"},
-"C10F20170920T094817046@import": {
-        "ID"        :"C10F20170920T094817046@import",
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"},
+"C10F20170921T064737046@import": {
+        "ID"        :"C10F20170921T064737046@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
-        "date_start":"2017-11-20T9:00",
+        "date_start":"2017-11-20T09:00",
         "date_end"  :"2017-11-20T12:00",
         "lecturer"  :"Gr&eacute;mare A",
         "location"  :"Talence::B18@Amphi_000",
@@ -596,5 +596,5 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Sep 20 2017 11:48:17 GMT+0200 (CEST)"}
+        "comment"   :"Imported from .ics - Thu Sep 21 2017 08:47:37 GMT+0200 (CEST)"}
 }
