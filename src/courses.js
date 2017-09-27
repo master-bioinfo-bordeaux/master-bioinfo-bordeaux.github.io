@@ -149,6 +149,7 @@ var course_data = {
   }, 
   "4TBI702U-Prog": {
     "acronym": "APU-Prog", 
+    "short": "Programming",
     "background_color": "#0095FF", 
     "contents": {
       "en": "Coming soon.", 
@@ -165,6 +166,7 @@ var course_data = {
   }, 
   "4TBI702U-Algo": {
     "acronym": "APU-Algo", 
+    "short": "Algorithmics",
     "background_color": "#0095FF", 
     "contents": {
       "en": "Coming soon.", 
@@ -181,6 +183,7 @@ var course_data = {
   }, 
   "4TBI702U-USI": {
     "acronym": "APU-USI", 
+    "short": "Use of Computer Systems",
     "background_color": "#0095FF", 
     "contents": {
       "en": "Coming soon.", 
