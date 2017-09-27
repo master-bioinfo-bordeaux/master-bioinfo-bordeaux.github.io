@@ -163,6 +163,22 @@ var course_data = {
     "tracks": "0x0F", 
     "visibility": "visible"
   }, 
+  "4TBI702U-Algo": {
+    "acronym": "APU-Algo", 
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI702U-Algo", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }, 
   "4TBI702U-USI": {
     "acronym": "APU-USI", 
     "background_color": "#0095FF", 
