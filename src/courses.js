@@ -494,7 +494,7 @@ var course_data = {
     "short" : "Biodiversity",
     'language': "French",
     "acronym": "BioDiv", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#a4ff80", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -717,7 +717,7 @@ var course_data = {
     "short": "Algo-Prog 2",
     "language": "French",
     "acronym": "AlgoPrg2", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#0095ff", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -753,7 +753,7 @@ var course_data = {
     "short": "Databases",
     "language": "French",
     "acronym": "BDD", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#d0a6ff", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -771,7 +771,7 @@ var course_data = {
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#eef409", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -789,7 +789,7 @@ var course_data = {
     "short": "Video & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "ViMod", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#7fd8bc", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
