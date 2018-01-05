@@ -106,6 +106,36 @@
     "warnings": [],
     "hours": "08:00-18:30",
     "weekdayIndex": 5
+  },
+  "E30720180105T100549040@jeesay": {
+    "ID": "E30720180105T100549040@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "date_start": "2018-02-19T00:00",
+    "date_end": "2018-02-23T00:00",
+    "lecturer": "------",
+    "location": "None::None@Room_000",
+    "group": "All",
+    "type": "Vacances",
+    "year": "3",
+    "tracks": "0x07",
+    "title": "Vacances d'Hiver | Winter Holidays",
+    "description": ""
+  },
+  "E30720180105T101049040@jeesay": {
+    "ID": "E30720180105T101049040@jeesay",
+    "apogee": "4TBIVACA",
+    "acronym": "Evt::Holidays",
+    "date_start": "2018-04-16T00:00",
+    "date_end": "2018-04-20T00:00",
+    "lecturer": "------",
+    "location": "None::None@Room_000",
+    "group": "All",
+    "type": "Vacances",
+    "year": "3",
+    "tracks": "0x07",
+    "title": "Vacances de Printemps | Spring Holidays",
+    "description": ""
   }
 }
   
