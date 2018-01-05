@@ -360,7 +360,7 @@ var course_data = {
     "short": "Plant Biotechnology",
     "language": "French",
     "acronym": "BBP", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#eef409", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -386,7 +386,7 @@ var course_data = {
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
-    "background_color": "#0a0a0a", 
+    "background_color": "#ff6bab", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -406,6 +406,280 @@ var course_data = {
     "semester": 8, 
     "title": "G\u00e9n\u00e9tique, g\u00e9nomique et \u00e9pig\u00e9n\u00e9tique des plantes", 
     "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBE801U": {
+    "short" : "Biodiversity",
+    'language': "French",
+    "acronym": "BioDiv", 
+    "background_color": "#a4ff80", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE801U", 
+    "image": "ue_biodiversity.jpg", 
+    "semester": 8, 
+    "title": "Biodiversit\u00e9", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBE802U": {
+    "short" : "Terrestrial Ecosystems",
+    'language': "French",
+    "acronym": "EcoTerr", 
+    "background_color": "#ff6bff", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE802U", 
+    "image": "ue_terrestrial.jpg", 
+    "semester": 8, 
+    "title": "Gestion, conservation et restauration des \u00e9cosyst\u00e8mes terrestres", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBE803U": {
+    "short" : "Aquatic Environments",
+    'language': "French",
+    "acronym": "Aqua", 
+    "background_color": "#00e6f7", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBE803U", 
+    "image": "ue_aquatic.jpg", 
+    "semester": 8, 
+    "title": "Gestion des milieux aquatiques continentaux", 
+    "tracks": "0x60", 
+    "visibility": "visible"
+  }, 
+  "4TBC801U" : {
+    "short" : "Object Programming",
+    "language": "French",
+    "acronym": "POO", 
+    "background_color": "#ff6a00", 
+    "contents": {
+      "en": {
+        "program": `See French Version`,
+        "objectives": 'Coming soon',
+        "skills": 'Coming soon'
+      }, 
+      "fr": {
+        "program": `
+          <ul>
+            <li>Modélisation objet:
+              <ul><li>Héritage simple.</li>
+            <li>Héritage complexe.</li>
+            <li>Classes abstraites.</li>
+          </ul>
+          </li>
+          <li>Traduction en langages C++, java.</li>
+          <li>Gestion dynamique: exceptions</li>
+          <li>Modèles de classes templates.</li>
+          </ul>`,
+        "objectives": `
+          <h4>Objectifs pédagogiques</h4>
+          <ul><li>Maîtriser les concepts de la programmation objet.</li></ul>`,
+        "skills": 'Bientôt disponible'
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBC801U", 
+    "image": "ue_oop.jpg", 
+    "semester": 9, 
+    "title": "Programmation orientée Objet", 
+    "tracks": "0x10", 
+    "visibility": "visible"
+  },
+  "4TBI801U": {
+    "apogee": "4TBI801U",
+    "short": "Algo-Prog 2",
+    "language": "French",
+    "acronym": "AlgoPrg2", 
+    "background_color": "#0095ff", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI801U", 
+    "image": "ue_algoprog2.jpg", 
+    "semester": 8, 
+    "title": "Algorithmique et Programmation Avanc\u00e9es", 
+    "tracks": "0x01", 
+    "visibility": "visible"
+  }, 
+  "4TBI802U": {
+    "short": "R&D Project",
+    "language": "English or French depending of the tutor",
+    "acronym": "CPRD", 
+    "background_color": "#cef6ce", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': `<p>Ce module - réalisé sous la supervision d'un maître de stage - consiste 
+          en une réalisation informatique d'un logiciel de taille importante.</p> 
+          <p>Elle sera suivie d'un rapport écrit et d'une soutenance.</p>`,
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 9, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI802U", 
+    "image": "ue_project_s8.jpg", 
+    "semester": 8, 
+    "title": "Conception d'un Projet de Recherche et de D\u00e9veloppement", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI803U": {
+    "short": "Databases",
+    "language": "French",
+    "acronym": "BDD", 
+    "background_color": "#ffbc00", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI803U", 
+    "image": "ue_datacenter.jpg", 
+    "semester": 8, 
+    "title": "Bases de Donn\u00e9es : fondements et applications", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI804U": {
+    "short": "NGS and Tools",
+    "language": "French",
+    "acronym": "NGS", 
+    "background_color": "#eef409", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI804U", 
+    "image": "ue_ngs.jpg", 
+    "semester": 8, 
+    "title": "Nouvelles G\u00e9n\u00e9rations de Sequen\u00e7age", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBI805U": {
+    "short": "Video & Dynamic Process",
+    "language": "English or French depending of the teacher",
+    "acronym": "ViMod", 
+    "background_color": "#7fd8bc", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI805U", 
+    "image": "ue_videos.jpg", 
+    "semester": 8, 
+    "title": "Traitement de Vid\u00e9os et Mod\u00e9lisation des Processus Dynamiques", 
+    "tracks": "0x70", 
+    "visibility": "visible"
+  },
+  "4TBIN01U": {
+    "acronym": "StgVol", 
+    "background_color": "#009558", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Bient&ocirc;t disponible.",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBIN01U", 
+    "image": "headinfo.jpg", 
+    "semester": 8, 
+    "title": "Stage volontaire", 
+    "tracks": "0xF0", 
     "visibility": "visible"
   }, 
   "4TBA903U": {
@@ -506,84 +780,6 @@ var course_data = {
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
-  "4TBE801U": {
-    "short" : "Biodiversity",
-    'language': "French",
-    "acronym": "BioDiv", 
-    "background_color": "#a4ff80", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBE801U", 
-    "image": "ue_biodiversity.jpg", 
-    "semester": 8, 
-    "title": "Biodiversit\u00e9", 
-    "tracks": "0x60", 
-    "visibility": "visible"
-  }, 
-  "4TBE802U": {
-    "short" : "Terrestrial Ecosystems",
-    'language': "French",
-    "acronym": "EcoTerr", 
-    "background_color": "#aaaaaa", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBE802U", 
-    "image": "ue_terrestrial.jpg", 
-    "semester": 8, 
-    "title": "Gestion, conservation et restauration des \u00e9cosyst\u00e8mes terrestres", 
-    "tracks": "0x60", 
-    "visibility": "visible"
-  }, 
-  "4TBE803U": {
-    "short" : "Aquatic Environments",
-    'language': "French",
-    "acronym": "Aqua", 
-    "background_color": "#0a0a0a", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBE803U", 
-    "image": "ue_aquatic.jpg", 
-    "semester": 8, 
-    "title": "Gestion des milieux aquatiques continentaux", 
-    "tracks": "0x60", 
-    "visibility": "visible"
-  }, 
   "4TBE901U": {
     "short" : "BioStatistics 2",
     "language": "French",
@@ -663,226 +859,6 @@ var course_data = {
     "tracks": "0x60", 
     "visibility": "visible"
   }, 
-  "4TBI001U": {
-    "acronym": "Stage", 
-    "short":  "Stage", 
-    "language": "French or English",
-    "background_color": "#7FD8BC", 
-    "contents": {
-      "en": {
-        'program': "See french version",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        "program": `
-             <ul><li>Stage en laboratoire de recherche ou en entreprise d'une durée de 5 à 6 mois.</li>
-            <li>Il repose sur un projet scientifique préalablement rédigé et soumis aux responsables de la spécialité.</li>
-            <li>Ce stage peut avoir lieu en France ou à l'étranger.
-            <ul><li><b>Parcours recherche</b>: Sujet de stage proposé par le Maître de Stage après validation par la commission pédagogique 
-            de Master et choisi par l’étudiant en accord avec le responsable du stage.</li>
-            <li><b>Parcours professionnel</b>: Sujet de stage défini par le Maître de Stage et l’étudiant en accord avec le responsable pédagogique.</li></ul>
-            </li></ul></li></ul>`,
-         "objectives": `
-            <ul><li>Mise en situation dans un environnement professionnel pour la réalisation d'un projet de recherche 
-            et/ou développement</li>
-            <li>Application des notions fondamentales de gestion d'un projet de recherche et/ou développement:
-                <ul><li>Préparation</li>
-                <li>Réalisation</li>
-                <li>Analyse critique des résultats</li>
-                <li>Synthèse et Présentation des résultats</li>
-                <li>Applications de \"bonnes pratiques\" et de la \"démarche qualité\".</li>
-                </ul>
-            </li></ul>`,
-         "skills": `
-            <ul><li>Compétence dans la gestion d'un projet de recherche et/ou développement.</li>
-            <li>Acquérir l'autonomie nécessaire pour mener un projet de recherche et/ou de développement</li>
-            <li>Acquérir la notion de travail en équipe projet.</li>
-            <li>Compétences , à analyser et critiquer les résultats, à synthétiser des résultats, à présenter à l'écrit 
-            et à l'oral un projet et les résultats obtenus dans le cadre de ce projet.</li>
-            <li>Maîtrise de l’anglais pour les étudiants qui partent à l’étranger.</li>
-            </ul>`
-        }
-    }, 
-    "ects": 30, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI001U", 
-    "image": "ue_stagem2.jpg", 
-    "semester": 10, 
-    "title": "Stage Recherche , Pro ou R&D", 
-    "tracks": "0x0F", 
-    "visibility": "visible"
-  }, 
-  "4TBC801U" : {
-    "short" : "Object Programming",
-    "language": "French",
-    "acronym": "POO", 
-    "background_color": "#EEF409", 
-    "contents": {
-      "en": {
-        "program": `See French Version`,
-        "objectives": 'Coming soon',
-        "skills": 'Coming soon'
-      }, 
-      "fr": {
-        "program": `
-          <ul>
-            <li>Modélisation objet:
-              <ul><li>Héritage simple.</li>
-            <li>Héritage complexe.</li>
-            <li>Classes abstraites.</li>
-          </ul>
-          </li>
-          <li>Traduction en langages C++, java.</li>
-          <li>Gestion dynamique: exceptions</li>
-          <li>Modèles de classes templates.</li>
-          </ul>`,
-        "objectives": `
-          <h4>Objectifs pédagogiques</h4>
-          <ul><li>Maîtriser les concepts de la programmation objet.</li></ul>`,
-        "skills": 'Bientôt disponible'
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBC801U", 
-    "image": "ue_oop.jpg", 
-    "semester": 9, 
-    "title": "Programmation orientée Objet", 
-    "tracks": "0x10", 
-    "visibility": "visible"
-  },
-  "4TBI801U": {
-    "apogee": "4TBI801U",
-    "short": "Algo-Prog 2",
-    "language": "French",
-    "acronym": "AlgoPrg2", 
-    "background_color": "#0095ff", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI801U", 
-    "image": "ue_algoprog2.jpg", 
-    "semester": 8, 
-    "title": "Algorithmique et Programmation Avanc\u00e9es", 
-    "tracks": "0x01", 
-    "visibility": "visible"
-  }, 
-  "4TBI802U": {
-    "short": "R&D Project",
-    "language": "English or French depending of the tutor",
-    "acronym": "CPRD", 
-    "background_color": "#0a0a0a", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI802U", 
-    "image": "ue_project_s8.jpg", 
-    "semester": 8, 
-    "title": "Conception d'un Projet de Recherche et de D\u00e9veloppement", 
-    "tracks": "0x07", 
-    "visibility": "visible"
-  }, 
-  "4TBI803U": {
-    "short": "Databases",
-    "language": "French",
-    "acronym": "BDD", 
-    "background_color": "#d0a6ff", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI803U", 
-    "image": "ue_datacenter.jpg", 
-    "semester": 8, 
-    "title": "Bases de Donn\u00e9es : fondements et applications", 
-    "tracks": "0x07", 
-    "visibility": "visible"
-  }, 
-  "4TBI804U": {
-    "short": "NGS and Tools",
-    "language": "French",
-    "acronym": "NGS", 
-    "background_color": "#eef409", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 3, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI804U", 
-    "image": "ue_ngs.jpg", 
-    "semester": 8, 
-    "title": "Nouvelles G\u00e9n\u00e9rations de Sequen\u00e7age", 
-    "tracks": "0x07", 
-    "visibility": "visible"
-  }, 
-  "4TBI805U": {
-    "short": "Video & Dynamic Process",
-    "language": "English or French depending of the teacher",
-    "acronym": "ViMod", 
-    "background_color": "#7fd8bc", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 6, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI805U", 
-    "image": "ue_videos.jpg", 
-    "semester": 8, 
-    "title": "Traitement de Vid\u00e9os et Mod\u00e9lisation des Processus Dynamiques", 
-    "tracks": "0x70", 
-    "visibility": "visible"
-  },
   "4TBC901U" : {
     "short" : "Object Programming 2",
     "language": "French",
@@ -1092,62 +1068,6 @@ var course_data = {
     "tracks": "0x70", 
     "visibility": "visible"
   },
-  "4TBIN01U": {
-    "acronym": "StgVol", 
-    "background_color": "#0a0a0a", 
-    "contents": {
-      "en": {
-        'program': "See French Version. English version coming soon.",
-        'objectives': "Coming soon.",
-        'skills': "Coming soon."
-      }, 
-      "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
-      }
-    }, 
-    "ects": 3, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBIN01U", 
-    "image": "headinfo.jpg", 
-    "semester": 8, 
-    "title": "Stage volontaire", 
-    "tracks": "0xF0", 
-    "visibility": "visible"
-  }, 
-  "4TBIPRSS": {
-    "acronym": "Press", 
-    "background_color": "#FA5858", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 0, 
-    "icon": "fa fa-newspaper-o", 
-    "id": "4TBIPRSS", 
-    "image": "headpress.jpg", 
-    "semester": 11, 
-    "title": "Press Highlights", 
-    "tracks": "0x07", 
-    "visibility": "visible"
-  }, 
-  "4TBIVACA": {
-    "acronym": "Holidays", 
-    "background_color": "#FA5858", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": "Bient&ocirc;t disponible."
-    }, 
-    "ects": 0, 
-    "icon": "fa fa-bicycle", 
-    "id": "4TBIVACA", 
-    "image": "headholidays.jpg", 
-    "semester": 11, 
-    "title": "Holidays", 
-    "tracks": "0x0F", 
-    "visibility": "visible"
-  }, 
   "4TDE901U": {
     "short": "GIS: Geo. Info. Systems",
     "language": "French",
@@ -1207,8 +1127,58 @@ var course_data = {
     "title": "Innovations Biotechnologies et Sant\u00e9", 
     "tracks": "0x60", 
     "visibility": "visible"
-  }, 
-    "BILBAO_001": {
+  },
+  "4TBI001U": {
+    "acronym": "Stage", 
+    "short":  "Stage", 
+    "language": "French or English",
+    "background_color": "#7FD8BC", 
+    "contents": {
+      "en": {
+        'program': "See french version",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        "program": `
+             <ul><li>Stage en laboratoire de recherche ou en entreprise d'une durée de 5 à 6 mois.</li>
+            <li>Il repose sur un projet scientifique préalablement rédigé et soumis aux responsables de la spécialité.</li>
+            <li>Ce stage peut avoir lieu en France ou à l'étranger.
+            <ul><li><b>Parcours recherche</b>: Sujet de stage proposé par le Maître de Stage après validation par la commission pédagogique 
+            de Master et choisi par l’étudiant en accord avec le responsable du stage.</li>
+            <li><b>Parcours professionnel</b>: Sujet de stage défini par le Maître de Stage et l’étudiant en accord avec le responsable pédagogique.</li></ul>
+            </li></ul></li></ul>`,
+         "objectives": `
+            <ul><li>Mise en situation dans un environnement professionnel pour la réalisation d'un projet de recherche 
+            et/ou développement</li>
+            <li>Application des notions fondamentales de gestion d'un projet de recherche et/ou développement:
+                <ul><li>Préparation</li>
+                <li>Réalisation</li>
+                <li>Analyse critique des résultats</li>
+                <li>Synthèse et Présentation des résultats</li>
+                <li>Applications de \"bonnes pratiques\" et de la \"démarche qualité\".</li>
+                </ul>
+            </li></ul>`,
+         "skills": `
+            <ul><li>Compétence dans la gestion d'un projet de recherche et/ou développement.</li>
+            <li>Acquérir l'autonomie nécessaire pour mener un projet de recherche et/ou de développement</li>
+            <li>Acquérir la notion de travail en équipe projet.</li>
+            <li>Compétences , à analyser et critiquer les résultats, à synthétiser des résultats, à présenter à l'écrit 
+            et à l'oral un projet et les résultats obtenus dans le cadre de ce projet.</li>
+            <li>Maîtrise de l’anglais pour les étudiants qui partent à l’étranger.</li>
+            </ul>`
+        }
+    }, 
+    "ects": 30, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI001U", 
+    "image": "ue_stagem2.jpg", 
+    "semester": 10, 
+    "title": "Stage Recherche , Pro ou R&D", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  },
+  "BILBAO_001": {
     "short": "NGS & Methods",
     "language": "English",
     "acronym": "NGS", 
@@ -1274,7 +1244,7 @@ var course_data = {
     "tracks": "0x0F", 
     "visibility": "visible"
   },
-    "BILBAO_003": {
+  "BILBAO_003": {
     "apogee": "None",
     "short": "Population Genomics",
     "language": "English",
@@ -1325,6 +1295,38 @@ var course_data = {
     "title": "Internship", 
     "tracks": "0x0F", 
     "visibility": "visible"
-  }  
+  },
+  "4TBIPRSS": {
+    "acronym": "Press", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-newspaper-o", 
+    "id": "4TBIPRSS", 
+    "image": "headpress.jpg", 
+    "semester": 11, 
+    "title": "Press Highlights", 
+    "tracks": "0x07", 
+    "visibility": "visible"
+  }, 
+  "4TBIVACA": {
+    "acronym": "Holidays", 
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Bient&ocirc;t disponible."
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-bicycle", 
+    "id": "4TBIVACA", 
+    "image": "headholidays.jpg", 
+    "semester": 11, 
+    "title": "Holidays", 
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  }
 };
 
