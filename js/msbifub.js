@@ -1477,7 +1477,7 @@ function loadCalendarData(filename) {
             updateCalendar();
         }
     };
-    xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/"+ filename, true);
+    xhr.open("GET", "https://master-bioinfo-bordeaux.github.io/data/"+ filename, true);
     xhr.send(null);
 
 }
