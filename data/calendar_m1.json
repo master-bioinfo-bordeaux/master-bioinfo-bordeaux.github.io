@@ -1,6 +1,6 @@
 {
-"C10F20180425T092042001@import": {
-        "ID"        :"C10F20180425T092042001@import",
+"C10F20180430T074851001@import": {
+        "ID"        :"C10F20180430T074851001@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-04T14:00",
@@ -11,9 +11,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042002@import": {
-        "ID"        :"C10F20180425T092042002@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851002@import": {
+        "ID"        :"C10F20180430T074851002@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-05T10:00",
@@ -24,9 +24,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042003@import": {
-        "ID"        :"C10F20180425T092042003@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851003@import": {
+        "ID"        :"C10F20180430T074851003@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-05T10:00",
@@ -37,9 +37,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042004@import": {
-        "ID"        :"C10F20180425T092042004@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851004@import": {
+        "ID"        :"C10F20180430T074851004@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-06T10:00",
@@ -50,9 +50,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042005@import": {
-        "ID"        :"C10F20180425T092042005@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851005@import": {
+        "ID"        :"C10F20180430T074851005@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-08T10:00",
@@ -63,9 +63,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042006@import": {
-        "ID"        :"C10F20180425T092042006@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851006@import": {
+        "ID"        :"C10F20180430T074851006@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-11T09:00",
@@ -76,9 +76,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042007@import": {
-        "ID"        :"C10F20180425T092042007@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851007@import": {
+        "ID"        :"C10F20180430T074851007@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-11T13:00",
@@ -89,9 +89,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042008@import": {
-        "ID"        :"C10F20180425T092042008@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851008@import": {
+        "ID"        :"C10F20180430T074851008@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-11T16:00",
@@ -102,9 +102,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042009@import": {
-        "ID"        :"C10F20180425T092042009@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851009@import": {
+        "ID"        :"C10F20180430T074851009@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-09-12T10:00",
@@ -115,9 +115,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042010@import": {
-        "ID"        :"C10F20180425T092042010@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851010@import": {
+        "ID"        :"C10F20180430T074851010@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-12T08:00",
@@ -128,9 +128,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042011@import": {
-        "ID"        :"C10F20180425T092042011@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851011@import": {
+        "ID"        :"C10F20180430T074851011@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-12T14:00",
@@ -141,9 +141,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042012@import": {
-        "ID"        :"C10F20180425T092042012@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851012@import": {
+        "ID"        :"C10F20180430T074851012@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-12T14:00",
@@ -154,9 +154,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042013@import": {
-        "ID"        :"C10F20180425T092042013@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851013@import": {
+        "ID"        :"C10F20180430T074851013@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-18T09:00",
@@ -167,9 +167,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042014@import": {
-        "ID"        :"C10F20180425T092042014@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851014@import": {
+        "ID"        :"C10F20180430T074851014@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-19T08:00",
@@ -180,9 +180,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042015@import": {
-        "ID"        :"C10F20180425T092042015@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851015@import": {
+        "ID"        :"C10F20180430T074851015@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-09-19T10:00",
@@ -193,9 +193,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042016@import": {
-        "ID"        :"C10F20180425T092042016@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851016@import": {
+        "ID"        :"C10F20180430T074851016@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-19T14:00",
@@ -206,9 +206,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042017@import": {
-        "ID"        :"C10F20180425T092042017@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851017@import": {
+        "ID"        :"C10F20180430T074851017@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-19T14:00",
@@ -219,9 +219,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042018@import": {
-        "ID"        :"C10F20180425T092042018@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851018@import": {
+        "ID"        :"C10F20180430T074851018@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-20T13:00",
@@ -232,9 +232,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042019@import": {
-        "ID"        :"C10F20180425T092042019@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851019@import": {
+        "ID"        :"C10F20180430T074851019@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-20T15:00",
@@ -245,9 +245,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042020@import": {
-        "ID"        :"C10F20180425T092042020@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851020@import": {
+        "ID"        :"C10F20180430T074851020@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-09-22T09:00",
@@ -258,9 +258,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042021@import": {
-        "ID"        :"C10F20180425T092042021@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851021@import": {
+        "ID"        :"C10F20180430T074851021@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-09-22T09:30",
@@ -271,9 +271,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042022@import": {
-        "ID"        :"C10F20180425T092042022@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851022@import": {
+        "ID"        :"C10F20180430T074851022@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-25T08:00",
@@ -284,9 +284,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042023@import": {
-        "ID"        :"C10F20180425T092042023@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851023@import": {
+        "ID"        :"C10F20180430T074851023@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-25T10:00",
@@ -297,9 +297,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042024@import": {
-        "ID"        :"C10F20180425T092042024@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851024@import": {
+        "ID"        :"C10F20180430T074851024@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-09-25T14:00",
@@ -310,9 +310,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042025@import": {
-        "ID"        :"C10F20180425T092042025@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851025@import": {
+        "ID"        :"C10F20180430T074851025@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-26T08:00",
@@ -323,9 +323,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042026@import": {
-        "ID"        :"C10F20180425T092042026@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851026@import": {
+        "ID"        :"C10F20180430T074851026@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-09-26T10:00",
@@ -336,9 +336,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042027@import": {
-        "ID"        :"C10F20180425T092042027@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851027@import": {
+        "ID"        :"C10F20180430T074851027@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-26T14:00",
@@ -349,9 +349,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042028@import": {
-        "ID"        :"C10F20180425T092042028@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851028@import": {
+        "ID"        :"C10F20180430T074851028@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-09-26T14:00",
@@ -362,9 +362,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042029@import": {
-        "ID"        :"C10F20180425T092042029@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851029@import": {
+        "ID"        :"C10F20180430T074851029@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-27T08:00",
@@ -375,9 +375,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042030@import": {
-        "ID"        :"C10F20180425T092042030@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851030@import": {
+        "ID"        :"C10F20180430T074851030@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-27T13:00",
@@ -388,9 +388,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042031@import": {
-        "ID"        :"C10F20180425T092042031@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851031@import": {
+        "ID"        :"C10F20180430T074851031@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-09-27T15:00",
@@ -401,9 +401,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042032@import": {
-        "ID"        :"C10F20180425T092042032@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851032@import": {
+        "ID"        :"C10F20180430T074851032@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-09-28T08:00",
@@ -414,9 +414,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042033@import": {
-        "ID"        :"C10F20180425T092042033@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851033@import": {
+        "ID"        :"C10F20180430T074851033@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-09-29T09:00",
@@ -427,9 +427,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042034@import": {
-        "ID"        :"C10F20180425T092042034@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851034@import": {
+        "ID"        :"C10F20180430T074851034@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-09-29T09:30",
@@ -440,9 +440,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042035@import": {
-        "ID"        :"C10F20180425T092042035@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851035@import": {
+        "ID"        :"C10F20180430T074851035@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-10-02T16:00",
@@ -453,9 +453,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042036@import": {
-        "ID"        :"C10F20180425T092042036@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851036@import": {
+        "ID"        :"C10F20180430T074851036@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-03T08:00",
@@ -466,9 +466,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042037@import": {
-        "ID"        :"C10F20180425T092042037@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851037@import": {
+        "ID"        :"C10F20180430T074851037@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-03T10:00",
@@ -479,9 +479,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042038@import": {
-        "ID"        :"C10F20180425T092042038@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851038@import": {
+        "ID"        :"C10F20180430T074851038@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-10-03T14:00",
@@ -492,9 +492,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042039@import": {
-        "ID"        :"C10F20180425T092042039@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851039@import": {
+        "ID"        :"C10F20180430T074851039@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-10-03T14:00",
@@ -505,9 +505,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042040@import": {
-        "ID"        :"C10F20180425T092042040@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851040@import": {
+        "ID"        :"C10F20180430T074851040@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-04T08:00",
@@ -518,9 +518,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042041@import": {
-        "ID"        :"C10F20180425T092042041@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851041@import": {
+        "ID"        :"C10F20180430T074851041@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-04T13:00",
@@ -531,9 +531,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042042@import": {
-        "ID"        :"C10F20180425T092042042@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851042@import": {
+        "ID"        :"C10F20180430T074851042@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-04T15:00",
@@ -544,9 +544,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042043@import": {
-        "ID"        :"C10F20180425T092042043@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851043@import": {
+        "ID"        :"C10F20180430T074851043@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-05T08:00",
@@ -557,9 +557,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042044@import": {
-        "ID"        :"C10F20180425T092042044@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851044@import": {
+        "ID"        :"C10F20180430T074851044@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-06T09:00",
@@ -570,9 +570,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042045@import": {
-        "ID"        :"C10F20180425T092042045@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851045@import": {
+        "ID"        :"C10F20180430T074851045@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-06T09:30",
@@ -583,9 +583,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042046@import": {
-        "ID"        :"C10F20180425T092042046@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851046@import": {
+        "ID"        :"C10F20180430T074851046@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-10-09T14:00",
@@ -596,9 +596,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042047@import": {
-        "ID"        :"C10F20180425T092042047@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851047@import": {
+        "ID"        :"C10F20180430T074851047@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-10-09T16:00",
@@ -609,9 +609,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042048@import": {
-        "ID"        :"C10F20180425T092042048@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851048@import": {
+        "ID"        :"C10F20180430T074851048@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-10T08:00",
@@ -622,9 +622,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042049@import": {
-        "ID"        :"C10F20180425T092042049@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851049@import": {
+        "ID"        :"C10F20180430T074851049@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-10T10:00",
@@ -635,9 +635,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042050@import": {
-        "ID"        :"C10F20180425T092042050@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851050@import": {
+        "ID"        :"C10F20180430T074851050@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-10-10T14:00",
@@ -648,9 +648,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042051@import": {
-        "ID"        :"C10F20180425T092042051@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851051@import": {
+        "ID"        :"C10F20180430T074851051@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-10-10T14:00",
@@ -661,9 +661,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042052@import": {
-        "ID"        :"C10F20180425T092042052@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851052@import": {
+        "ID"        :"C10F20180430T074851052@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-11T08:00",
@@ -674,9 +674,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042053@import": {
-        "ID"        :"C10F20180425T092042053@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851053@import": {
+        "ID"        :"C10F20180430T074851053@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-11T13:00",
@@ -687,9 +687,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042054@import": {
-        "ID"        :"C10F20180425T092042054@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851054@import": {
+        "ID"        :"C10F20180430T074851054@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-11T15:00",
@@ -700,9 +700,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042055@import": {
-        "ID"        :"C10F20180425T092042055@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851055@import": {
+        "ID"        :"C10F20180430T074851055@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-12T08:00",
@@ -713,9 +713,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042056@import": {
-        "ID"        :"C10F20180425T092042056@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851056@import": {
+        "ID"        :"C10F20180430T074851056@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-12T09:00",
@@ -726,9 +726,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042057@import": {
-        "ID"        :"C10F20180425T092042057@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851057@import": {
+        "ID"        :"C10F20180430T074851057@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-13T09:30",
@@ -739,9 +739,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042058@import": {
-        "ID"        :"C10F20180425T092042058@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851058@import": {
+        "ID"        :"C10F20180430T074851058@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-10-16T13:00",
@@ -752,9 +752,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042059@import": {
-        "ID"        :"C10F20180425T092042059@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851059@import": {
+        "ID"        :"C10F20180430T074851059@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-10-17T14:00",
@@ -765,9 +765,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042060@import": {
-        "ID"        :"C10F20180425T092042060@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851060@import": {
+        "ID"        :"C10F20180430T074851060@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-10-17T14:00",
@@ -778,9 +778,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042061@import": {
-        "ID"        :"C10F20180425T092042061@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851061@import": {
+        "ID"        :"C10F20180430T074851061@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-18T08:00",
@@ -791,9 +791,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042062@import": {
-        "ID"        :"C10F20180425T092042062@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851062@import": {
+        "ID"        :"C10F20180430T074851062@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-18T08:00",
@@ -804,9 +804,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042063@import": {
-        "ID"        :"C10F20180425T092042063@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851063@import": {
+        "ID"        :"C10F20180430T074851063@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-18T13:00",
@@ -817,9 +817,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042064@import": {
-        "ID"        :"C10F20180425T092042064@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851064@import": {
+        "ID"        :"C10F20180430T074851064@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-18T15:00",
@@ -830,9 +830,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042065@import": {
-        "ID"        :"C10F20180425T092042065@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851065@import": {
+        "ID"        :"C10F20180430T074851065@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-19T08:00",
@@ -843,9 +843,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042066@import": {
-        "ID"        :"C10F20180425T092042066@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851066@import": {
+        "ID"        :"C10F20180430T074851066@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-19T09:00",
@@ -856,9 +856,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042067@import": {
-        "ID"        :"C10F20180425T092042067@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851067@import": {
+        "ID"        :"C10F20180430T074851067@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-20T08:00",
@@ -869,9 +869,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042068@import": {
-        "ID"        :"C10F20180425T092042068@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851068@import": {
+        "ID"        :"C10F20180430T074851068@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-20T09:30",
@@ -882,9 +882,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042069@import": {
-        "ID"        :"C10F20180425T092042069@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851069@import": {
+        "ID"        :"C10F20180430T074851069@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-24T09:30",
@@ -895,9 +895,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042070@import": {
-        "ID"        :"C10120180425T092042070@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851070@import": {
+        "ID"        :"C10120180430T074851070@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-12T14:00",
@@ -908,9 +908,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042071@import": {
-        "ID"        :"C10F20180425T092042071@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851071@import": {
+        "ID"        :"C10F20180430T074851071@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-10-24T14:00",
@@ -921,9 +921,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042072@import": {
-        "ID"        :"C10F20180425T092042072@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851072@import": {
+        "ID"        :"C10F20180430T074851072@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-10-24T14:00",
@@ -934,9 +934,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042073@import": {
-        "ID"        :"C10F20180425T092042073@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851073@import": {
+        "ID"        :"C10F20180430T074851073@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-25T08:00",
@@ -947,9 +947,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042074@import": {
-        "ID"        :"C10F20180425T092042074@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851074@import": {
+        "ID"        :"C10F20180430T074851074@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-25T08:00",
@@ -960,9 +960,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042075@import": {
-        "ID"        :"C10F20180425T092042075@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851075@import": {
+        "ID"        :"C10F20180430T074851075@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-25T13:00",
@@ -973,9 +973,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042076@import": {
-        "ID"        :"C10F20180425T092042076@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851076@import": {
+        "ID"        :"C10F20180430T074851076@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-10-25T15:00",
@@ -986,9 +986,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042077@import": {
-        "ID"        :"C10F20180425T092042077@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851077@import": {
+        "ID"        :"C10F20180430T074851077@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-26T08:00",
@@ -999,9 +999,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042078@import": {
-        "ID"        :"C10F20180425T092042078@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851078@import": {
+        "ID"        :"C10F20180430T074851078@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-10-26T08:00",
@@ -1012,9 +1012,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042079@import": {
-        "ID"        :"C10F20180425T092042079@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851079@import": {
+        "ID"        :"C10F20180430T074851079@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-10-26T14:00",
@@ -1025,9 +1025,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042080@import": {
-        "ID"        :"C10F20180425T092042080@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851080@import": {
+        "ID"        :"C10F20180430T074851080@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-10-27T10:00",
@@ -1038,9 +1038,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042081@import": {
-        "ID"        :"C10F20180425T092042081@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851081@import": {
+        "ID"        :"C10F20180430T074851081@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-06T09:00",
@@ -1051,9 +1051,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042082@import": {
-        "ID"        :"C10F20180425T092042082@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851082@import": {
+        "ID"        :"C10F20180430T074851082@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-06T14:00",
@@ -1064,9 +1064,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042083@import": {
-        "ID"        :"C10F20180425T092042083@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851083@import": {
+        "ID"        :"C10F20180430T074851083@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-07T14:00",
@@ -1077,9 +1077,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042084@import": {
-        "ID"        :"C10F20180425T092042084@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851084@import": {
+        "ID"        :"C10F20180430T074851084@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-07T14:00",
@@ -1090,9 +1090,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042085@import": {
-        "ID"        :"C10F20180425T092042085@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851085@import": {
+        "ID"        :"C10F20180430T074851085@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-11-08T08:00",
@@ -1103,9 +1103,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042086@import": {
-        "ID"        :"C10F20180425T092042086@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851086@import": {
+        "ID"        :"C10F20180430T074851086@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-08T08:00",
@@ -1116,9 +1116,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042087@import": {
-        "ID"        :"C10F20180425T092042087@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851087@import": {
+        "ID"        :"C10F20180430T074851087@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-11-08T13:00",
@@ -1129,9 +1129,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042088@import": {
-        "ID"        :"C10F20180425T092042088@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851088@import": {
+        "ID"        :"C10F20180430T074851088@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-11-08T15:00",
@@ -1142,9 +1142,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042089@import": {
-        "ID"        :"C10F20180425T092042089@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851089@import": {
+        "ID"        :"C10F20180430T074851089@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-11-09T08:00",
@@ -1155,9 +1155,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042090@import": {
-        "ID"        :"C10F20180425T092042090@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851090@import": {
+        "ID"        :"C10F20180430T074851090@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-09T08:00",
@@ -1168,9 +1168,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042091@import": {
-        "ID"        :"C10F20180425T092042091@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851091@import": {
+        "ID"        :"C10F20180430T074851091@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-11-10T09:00",
@@ -1181,9 +1181,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042092@import": {
-        "ID"        :"C10F20180425T092042092@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851092@import": {
+        "ID"        :"C10F20180430T074851092@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-10T09:30",
@@ -1194,9 +1194,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042093@import": {
-        "ID"        :"C10F20180425T092042093@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851093@import": {
+        "ID"        :"C10F20180430T074851093@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-13T13:00",
@@ -1207,9 +1207,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042094@import": {
-        "ID"        :"C10F20180425T092042094@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851094@import": {
+        "ID"        :"C10F20180430T074851094@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-14T14:00",
@@ -1220,9 +1220,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042095@import": {
-        "ID"        :"C10F20180425T092042095@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851095@import": {
+        "ID"        :"C10F20180430T074851095@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-11-14T14:00",
@@ -1233,9 +1233,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042096@import": {
-        "ID"        :"C10F20180425T092042096@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851096@import": {
+        "ID"        :"C10F20180430T074851096@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-15T08:00",
@@ -1246,9 +1246,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042097@import": {
-        "ID"        :"C10F20180425T092042097@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851097@import": {
+        "ID"        :"C10F20180430T074851097@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-11-15T09:00",
@@ -1259,9 +1259,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042098@import": {
-        "ID"        :"C10F20180425T092042098@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851098@import": {
+        "ID"        :"C10F20180430T074851098@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-11-15T13:00",
@@ -1272,9 +1272,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042099@import": {
-        "ID"        :"C10F20180425T092042099@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851099@import": {
+        "ID"        :"C10F20180430T074851099@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-11-15T15:00",
@@ -1285,9 +1285,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042100@import": {
-        "ID"        :"C10F20180425T092042100@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851100@import": {
+        "ID"        :"C10F20180430T074851100@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-11-16T09:00",
@@ -1298,9 +1298,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042101@import": {
-        "ID"        :"C10F20180425T092042101@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851101@import": {
+        "ID"        :"C10F20180430T074851101@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-16T08:00",
@@ -1311,9 +1311,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042102@import": {
-        "ID"        :"C10F20180425T092042102@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851102@import": {
+        "ID"        :"C10F20180430T074851102@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-11-17T09:00",
@@ -1324,9 +1324,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042103@import": {
-        "ID"        :"C10F20180425T092042103@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851103@import": {
+        "ID"        :"C10F20180430T074851103@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-11-17T09:30",
@@ -1337,9 +1337,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042104@import": {
-        "ID"        :"C10F20180425T092042104@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851104@import": {
+        "ID"        :"C10F20180430T074851104@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-20T09:00",
@@ -1350,9 +1350,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042105@import": {
-        "ID"        :"C10F20180425T092042105@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851105@import": {
+        "ID"        :"C10F20180430T074851105@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-20T13:00",
@@ -1363,9 +1363,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042106@import": {
-        "ID"        :"C10F20180425T092042106@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851106@import": {
+        "ID"        :"C10F20180430T074851106@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-20T15:00",
@@ -1376,9 +1376,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042107@import": {
-        "ID"        :"C10F20180425T092042107@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851107@import": {
+        "ID"        :"C10F20180430T074851107@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-21T14:00",
@@ -1389,9 +1389,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042108@import": {
-        "ID"        :"C10F20180425T092042108@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851108@import": {
+        "ID"        :"C10F20180430T074851108@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-21T14:00",
@@ -1402,9 +1402,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042109@import": {
-        "ID"        :"C10F20180425T092042109@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851109@import": {
+        "ID"        :"C10F20180430T074851109@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-22T08:00",
@@ -1415,9 +1415,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042110@import": {
-        "ID"        :"C10F20180425T092042110@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851110@import": {
+        "ID"        :"C10F20180430T074851110@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-11-22T08:00",
@@ -1428,9 +1428,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042111@import": {
-        "ID"        :"C10F20180425T092042111@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851111@import": {
+        "ID"        :"C10F20180430T074851111@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-11-22T13:00",
@@ -1441,9 +1441,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042112@import": {
-        "ID"        :"C10F20180425T092042112@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851112@import": {
+        "ID"        :"C10F20180430T074851112@import",
         "apogee"    :"4TBI704U",
         "acronym"   :"S07::Anglais",
         "date_start":"2017-11-22T15:00",
@@ -1454,9 +1454,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042113@import": {
-        "ID"        :"C10F20180425T092042113@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851113@import": {
+        "ID"        :"C10F20180430T074851113@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-23T08:00",
@@ -1467,9 +1467,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042114@import": {
-        "ID"        :"C10F20180425T092042114@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851114@import": {
+        "ID"        :"C10F20180430T074851114@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-11-24T09:00",
@@ -1480,9 +1480,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042115@import": {
-        "ID"        :"C10F20180425T092042115@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851115@import": {
+        "ID"        :"C10F20180430T074851115@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-11-24T09:30",
@@ -1493,9 +1493,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042116@import": {
-        "ID"        :"C10F20180425T092042116@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851116@import": {
+        "ID"        :"C10F20180430T074851116@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-27T13:00",
@@ -1506,9 +1506,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042117@import": {
-        "ID"        :"C10F20180425T092042117@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851117@import": {
+        "ID"        :"C10F20180430T074851117@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-11-27T18:00",
@@ -1519,9 +1519,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042118@import": {
-        "ID"        :"C10F20180425T092042118@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851118@import": {
+        "ID"        :"C10F20180430T074851118@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-28T14:00",
@@ -1532,9 +1532,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042119@import": {
-        "ID"        :"C10F20180425T092042119@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851119@import": {
+        "ID"        :"C10F20180430T074851119@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-28T14:00",
@@ -1545,9 +1545,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042120@import": {
-        "ID"        :"C10F20180425T092042120@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851120@import": {
+        "ID"        :"C10F20180430T074851120@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-29T08:00",
@@ -1558,9 +1558,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042121@import": {
-        "ID"        :"C10F20180425T092042121@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851121@import": {
+        "ID"        :"C10F20180430T074851121@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-11-30T09:00",
@@ -1571,9 +1571,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042122@import": {
-        "ID"        :"C10F20180425T092042122@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851122@import": {
+        "ID"        :"C10F20180430T074851122@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-11-30T08:00",
@@ -1584,9 +1584,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042123@import": {
-        "ID"        :"C10F20180425T092042123@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851123@import": {
+        "ID"        :"C10F20180430T074851123@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-11-30T14:00",
@@ -1597,9 +1597,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042124@import": {
-        "ID"        :"C10F20180425T092042124@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851124@import": {
+        "ID"        :"C10F20180430T074851124@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-12-01T09:00",
@@ -1610,9 +1610,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042125@import": {
-        "ID"        :"C10F20180425T092042125@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851125@import": {
+        "ID"        :"C10F20180430T074851125@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-12-01T09:30",
@@ -1623,9 +1623,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042126@import": {
-        "ID"        :"C10F20180425T092042126@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851126@import": {
+        "ID"        :"C10F20180430T074851126@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-12-01T14:00",
@@ -1636,9 +1636,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042127@import": {
-        "ID"        :"C10F20180425T092042127@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851127@import": {
+        "ID"        :"C10F20180430T074851127@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-12-04T09:00",
@@ -1649,9 +1649,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042128@import": {
-        "ID"        :"C10F20180425T092042128@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851128@import": {
+        "ID"        :"C10F20180430T074851128@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-12-04T13:00",
@@ -1662,9 +1662,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042129@import": {
-        "ID"        :"C10F20180425T092042129@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851129@import": {
+        "ID"        :"C10F20180430T074851129@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-12-04T16:00",
@@ -1675,9 +1675,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042130@import": {
-        "ID"        :"C10F20180425T092042130@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851130@import": {
+        "ID"        :"C10F20180430T074851130@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-12-05T14:00",
@@ -1688,9 +1688,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042131@import": {
-        "ID"        :"C10F20180425T092042131@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851131@import": {
+        "ID"        :"C10F20180430T074851131@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-12-05T14:00",
@@ -1701,9 +1701,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042132@import": {
-        "ID"        :"C10120180425T092042132@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851132@import": {
+        "ID"        :"C10120180430T074851132@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-12T14:00",
@@ -1714,9 +1714,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042133@import": {
-        "ID"        :"C10F20180425T092042133@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851133@import": {
+        "ID"        :"C10F20180430T074851133@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-12-06T10:00",
@@ -1727,9 +1727,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042134@import": {
-        "ID"        :"C10F20180425T092042134@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851134@import": {
+        "ID"        :"C10F20180430T074851134@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-12-06T08:00",
@@ -1740,9 +1740,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042135@import": {
-        "ID"        :"C10F20180425T092042135@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851135@import": {
+        "ID"        :"C10F20180430T074851135@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-12-07T09:00",
@@ -1753,9 +1753,9 @@
         "type"      :"TD machine",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042136@import": {
-        "ID"        :"C10F20180425T092042136@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851136@import": {
+        "ID"        :"C10F20180430T074851136@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-12-07T08:00",
@@ -1766,9 +1766,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042137@import": {
-        "ID"        :"C10F20180425T092042137@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851137@import": {
+        "ID"        :"C10F20180430T074851137@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-12-12T10:00",
@@ -1779,9 +1779,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042138@import": {
-        "ID"        :"C10F20180425T092042138@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851138@import": {
+        "ID"        :"C10F20180430T074851138@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-12-13T10:00",
@@ -1792,9 +1792,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042139@import": {
-        "ID"        :"C10F20180425T092042139@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851139@import": {
+        "ID"        :"C10F20180430T074851139@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-12-13T14:00",
@@ -1805,9 +1805,9 @@
         "type"      :"CC",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042140@import": {
-        "ID"        :"C10F20180425T092042140@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851140@import": {
+        "ID"        :"C10F20180430T074851140@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-12-13T14:00",
@@ -1818,9 +1818,9 @@
         "type"      :"CC",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042141@import": {
-        "ID"        :"C10F20180425T092042141@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851141@import": {
+        "ID"        :"C10F20180430T074851141@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-12-14T09:00",
@@ -1831,9 +1831,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042142@import": {
-        "ID"        :"C10F20180425T092042142@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851142@import": {
+        "ID"        :"C10F20180430T074851142@import",
         "apogee"    :"4TBI702U-Prog",
         "acronym"   :"S07::APU-Prog",
         "date_start":"2017-12-18T10:00",
@@ -1844,9 +1844,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042143@import": {
-        "ID"        :"C10F20180425T092042143@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851143@import": {
+        "ID"        :"C10F20180430T074851143@import",
         "apogee"    :"4TEC701U",
         "acronym"   :"S07::TDE",
         "date_start":"2017-12-18T14:30",
@@ -1857,9 +1857,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042144@import": {
-        "ID"        :"C10F20180425T092042144@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851144@import": {
+        "ID"        :"C10F20180430T074851144@import",
         "apogee"    :"4TBI702U-Algo",
         "acronym"   :"S07::APU-Algo",
         "date_start":"2017-12-19T10:00",
@@ -1870,9 +1870,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042145@import": {
-        "ID"        :"C10F20180425T092042145@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851145@import": {
+        "ID"        :"C10F20180430T074851145@import",
         "apogee"    :"4TBI703U",
         "acronym"   :"S07::OBI",
         "date_start":"2017-12-20T11:30",
@@ -1883,9 +1883,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042146@import": {
-        "ID"        :"C10F20180425T092042146@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851146@import": {
+        "ID"        :"C10F20180430T074851146@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2017-12-21T15:00",
@@ -1896,9 +1896,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042147@import": {
-        "ID"        :"C10F20180425T092042147@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851147@import": {
+        "ID"        :"C10F20180430T074851147@import",
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2017-12-21T11:30",
@@ -1909,9 +1909,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042148@import": {
-        "ID"        :"C10720180425T092042148@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851148@import": {
+        "ID"        :"C10720180430T074851148@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-01-08T09:00",
@@ -1922,9 +1922,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042149@import": {
-        "ID"        :"C16020180425T092042149@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851149@import": {
+        "ID"        :"C16020180430T074851149@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-08T14:00",
@@ -1935,9 +1935,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042150@import": {
-        "ID"        :"C16020180425T092042150@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851150@import": {
+        "ID"        :"C16020180430T074851150@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-09T09:00",
@@ -1948,9 +1948,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042151@import": {
-        "ID"        :"C16020180425T092042151@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851151@import": {
+        "ID"        :"C16020180430T074851151@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-09T14:00",
@@ -1961,9 +1961,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042152@import": {
-        "ID"        :"C16020180425T092042152@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851152@import": {
+        "ID"        :"C16020180430T074851152@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-10T09:00",
@@ -1974,9 +1974,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042153@import": {
-        "ID"        :"C10120180425T092042153@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851153@import": {
+        "ID"        :"C10120180430T074851153@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-10T09:00",
@@ -1987,9 +1987,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042154@import": {
-        "ID"        :"C16020180425T092042154@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851154@import": {
+        "ID"        :"C16020180430T074851154@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-10T14:00",
@@ -2000,9 +2000,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042155@import": {
-        "ID"        :"C10120180425T092042155@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851155@import": {
+        "ID"        :"C10120180430T074851155@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-11T09:00",
@@ -2013,9 +2013,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042156@import": {
-        "ID"        :"C16020180425T092042156@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851156@import": {
+        "ID"        :"C16020180430T074851156@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-11T09:00",
@@ -2026,9 +2026,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042157@import": {
-        "ID"        :"C16020180425T092042157@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851157@import": {
+        "ID"        :"C16020180430T074851157@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-11T14:00",
@@ -2039,9 +2039,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042158@import": {
-        "ID"        :"C16020180425T092042158@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851158@import": {
+        "ID"        :"C16020180430T074851158@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-12T09:00",
@@ -2052,9 +2052,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042159@import": {
-        "ID"        :"C10720180425T092042159@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851159@import": {
+        "ID"        :"C10720180430T074851159@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-01-12T13:30",
@@ -2065,9 +2065,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042160@import": {
-        "ID"        :"C16020180425T092042160@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851160@import": {
+        "ID"        :"C16020180430T074851160@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-15T14:00",
@@ -2078,9 +2078,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042161@import": {
-        "ID"        :"C10120180425T092042161@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851161@import": {
+        "ID"        :"C10120180430T074851161@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-16T09:00",
@@ -2091,9 +2091,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042162@import": {
-        "ID"        :"C16020180425T092042162@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851162@import": {
+        "ID"        :"C16020180430T074851162@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-16T09:00",
@@ -2104,9 +2104,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042163@import": {
-        "ID"        :"C16020180425T092042163@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851163@import": {
+        "ID"        :"C16020180430T074851163@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-16T14:00",
@@ -2117,9 +2117,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042164@import": {
-        "ID"        :"C10720180425T092042164@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851164@import": {
+        "ID"        :"C10720180430T074851164@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-01-17T10:00",
@@ -2130,9 +2130,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042165@import": {
-        "ID"        :"C16020180425T092042165@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851165@import": {
+        "ID"        :"C16020180430T074851165@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-17T14:00",
@@ -2143,9 +2143,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042166@import": {
-        "ID"        :"C10120180425T092042166@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851166@import": {
+        "ID"        :"C10120180430T074851166@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-18T09:00",
@@ -2156,9 +2156,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042167@import": {
-        "ID"        :"C16020180425T092042167@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851167@import": {
+        "ID"        :"C16020180430T074851167@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-18T09:00",
@@ -2169,9 +2169,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042168@import": {
-        "ID"        :"C16020180425T092042168@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851168@import": {
+        "ID"        :"C16020180430T074851168@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-18T14:00",
@@ -2182,9 +2182,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042169@import": {
-        "ID"        :"C16020180425T092042169@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851169@import": {
+        "ID"        :"C16020180430T074851169@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-19T09:00",
@@ -2195,9 +2195,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042170@import": {
-        "ID"        :"C16020180425T092042170@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851170@import": {
+        "ID"        :"C16020180430T074851170@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-19T14:00",
@@ -2208,9 +2208,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042171@import": {
-        "ID"        :"C10120180425T092042171@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851171@import": {
+        "ID"        :"C10120180430T074851171@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-22T09:00",
@@ -2221,9 +2221,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042172@import": {
-        "ID"        :"C16020180425T092042172@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851172@import": {
+        "ID"        :"C16020180430T074851172@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-01-22T09:00",
@@ -2234,9 +2234,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042173@import": {
-        "ID"        :"C16020180425T092042173@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851173@import": {
+        "ID"        :"C16020180430T074851173@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-22T14:00",
@@ -2247,9 +2247,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042174@import": {
-        "ID"        :"C10120180425T092042174@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851174@import": {
+        "ID"        :"C10120180430T074851174@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-23T09:00",
@@ -2260,9 +2260,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042175@import": {
-        "ID"        :"C16020180425T092042175@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851175@import": {
+        "ID"        :"C16020180430T074851175@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-23T14:00",
@@ -2273,9 +2273,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042176@import": {
-        "ID"        :"C10720180425T092042176@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851176@import": {
+        "ID"        :"C10720180430T074851176@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-01-24T14:00",
@@ -2286,9 +2286,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042177@import": {
-        "ID"        :"C16020180425T092042177@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851177@import": {
+        "ID"        :"C16020180430T074851177@import",
         "apogee"    :"4TBE801U",
         "acronym"   :"S08::BioDiv",
         "date_start":"2018-01-24T09:00",
@@ -2299,9 +2299,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042178@import": {
-        "ID"        :"C10720180425T092042178@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851178@import": {
+        "ID"        :"C10720180430T074851178@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-01-25T14:00",
@@ -2312,9 +2312,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042179@import": {
-        "ID"        :"C10720180425T092042179@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851179@import": {
+        "ID"        :"C10720180430T074851179@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-01-26T14:00",
@@ -2325,9 +2325,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042180@import": {
-        "ID"        :"C10120180425T092042180@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851180@import": {
+        "ID"        :"C10120180430T074851180@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-29T14:00",
@@ -2338,9 +2338,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042181@import": {
-        "ID"        :"C16020180425T092042181@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851181@import": {
+        "ID"        :"C16020180430T074851181@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-01-29T08:00",
@@ -2351,9 +2351,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042182@import": {
-        "ID"        :"C16020180425T092042182@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851182@import": {
+        "ID"        :"C16020180430T074851182@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-01-29T14:00",
@@ -2364,9 +2364,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042183@import": {
-        "ID"        :"C10120180425T092042183@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851183@import": {
+        "ID"        :"C10120180430T074851183@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-30T10:00",
@@ -2377,9 +2377,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042184@import": {
-        "ID"        :"C16020180425T092042184@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851184@import": {
+        "ID"        :"C16020180430T074851184@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-01-30T09:00",
@@ -2390,9 +2390,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042185@import": {
-        "ID"        :"C10120180425T092042185@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851185@import": {
+        "ID"        :"C10120180430T074851185@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-30T14:00",
@@ -2403,9 +2403,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042186@import": {
-        "ID"        :"C10120180425T092042186@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851186@import": {
+        "ID"        :"C10120180430T074851186@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-01-31T09:00",
@@ -2416,9 +2416,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042187@import": {
-        "ID"        :"C16020180425T092042187@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851187@import": {
+        "ID"        :"C16020180430T074851187@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-01-31T09:00",
@@ -2429,9 +2429,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042188@import": {
-        "ID"        :"C16020180425T092042188@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851188@import": {
+        "ID"        :"C16020180430T074851188@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-01-31T14:00",
@@ -2442,9 +2442,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042189@import": {
-        "ID"        :"C16020180425T092042189@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851189@import": {
+        "ID"        :"C16020180430T074851189@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-01T09:00",
@@ -2455,9 +2455,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042190@import": {
-        "ID"        :"C10720180425T092042190@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851190@import": {
+        "ID"        :"C10720180430T074851190@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-02-01T14:00",
@@ -2468,9 +2468,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042191@import": {
-        "ID"        :"C11020180425T092042191@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851191@import": {
+        "ID"        :"C11020180430T074851191@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-02-02T10:15",
@@ -2481,9 +2481,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042192@import": {
-        "ID"        :"C10720180425T092042192@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851192@import": {
+        "ID"        :"C10720180430T074851192@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-02-02T13:30",
@@ -2494,9 +2494,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042193@import": {
-        "ID"        :"C16020180425T092042193@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851193@import": {
+        "ID"        :"C16020180430T074851193@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-05T09:00",
@@ -2507,9 +2507,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042194@import": {
-        "ID"        :"C10120180425T092042194@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851194@import": {
+        "ID"        :"C10120180430T074851194@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-05T14:00",
@@ -2520,9 +2520,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042195@import": {
-        "ID"        :"C16020180425T092042195@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851195@import": {
+        "ID"        :"C16020180430T074851195@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-06T09:00",
@@ -2533,9 +2533,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042196@import": {
-        "ID"        :"C11020180425T092042196@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851196@import": {
+        "ID"        :"C11020180430T074851196@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-02-02T10:15",
@@ -2546,9 +2546,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042197@import": {
-        "ID"        :"C16020180425T092042197@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851197@import": {
+        "ID"        :"C16020180430T074851197@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-06T14:00",
@@ -2559,9 +2559,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042198@import": {
-        "ID"        :"C16020180425T092042198@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851198@import": {
+        "ID"        :"C16020180430T074851198@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-02-06T10:15",
@@ -2572,9 +2572,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042199@import": {
-        "ID"        :"C10120180425T092042199@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851199@import": {
+        "ID"        :"C10120180430T074851199@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-06T14:00",
@@ -2585,9 +2585,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042200@import": {
-        "ID"        :"C10120180425T092042200@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851200@import": {
+        "ID"        :"C10120180430T074851200@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-07T09:00",
@@ -2598,9 +2598,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042201@import": {
-        "ID"        :"C16020180425T092042201@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851201@import": {
+        "ID"        :"C16020180430T074851201@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-07T08:00",
@@ -2611,9 +2611,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042202@import": {
-        "ID"        :"C16020180425T092042202@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851202@import": {
+        "ID"        :"C16020180430T074851202@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-07T14:00",
@@ -2624,9 +2624,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042203@import": {
-        "ID"        :"C16020180425T092042203@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851203@import": {
+        "ID"        :"C16020180430T074851203@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-08T08:00",
@@ -2637,9 +2637,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042204@import": {
-        "ID"        :"C16020180425T092042204@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851204@import": {
+        "ID"        :"C16020180430T074851204@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-08T14:00",
@@ -2650,9 +2650,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042205@import": {
-        "ID"        :"C10720180425T092042205@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851205@import": {
+        "ID"        :"C10720180430T074851205@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-02-09T14:00",
@@ -2663,9 +2663,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042206@import": {
-        "ID"        :"C16020180425T092042206@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851206@import": {
+        "ID"        :"C16020180430T074851206@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-02-09T10:15",
@@ -2676,9 +2676,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042207@import": {
-        "ID"        :"C10720180425T092042207@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851207@import": {
+        "ID"        :"C10720180430T074851207@import",
         "apogee"    :"4TBI802U",
         "acronym"   :"S08::CPRD",
         "date_start":"2018-02-12T10:00",
@@ -2689,9 +2689,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042208@import": {
-        "ID"        :"C16020180425T092042208@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851208@import": {
+        "ID"        :"C16020180430T074851208@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-02-12T14:00",
@@ -2702,9 +2702,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10F20180425T092042209@import": {
-        "ID"        :"C10F20180425T092042209@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10F20180430T074851209@import": {
+        "ID"        :"C10F20180430T074851209@import",
         "apogee"    :"4TBI702U-USI",
         "acronym"   :"S07::APU-USI",
         "date_start":"2018-02-12T13:30",
@@ -2715,9 +2715,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x0F",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042210@import": {
-        "ID"        :"C10120180425T092042210@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851210@import": {
+        "ID"        :"C10120180430T074851210@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-12T14:00",
@@ -2728,9 +2728,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042211@import": {
-        "ID"        :"C11020180425T092042211@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851211@import": {
+        "ID"        :"C11020180430T074851211@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-02-13T10:15",
@@ -2741,9 +2741,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042212@import": {
-        "ID"        :"C16020180425T092042212@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851212@import": {
+        "ID"        :"C16020180430T074851212@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-13T09:00",
@@ -2754,9 +2754,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042213@import": {
-        "ID"        :"C16020180425T092042213@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851213@import": {
+        "ID"        :"C16020180430T074851213@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-13T14:00",
@@ -2767,9 +2767,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042214@import": {
-        "ID"        :"C10120180425T092042214@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851214@import": {
+        "ID"        :"C10120180430T074851214@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-13T14:00",
@@ -2780,9 +2780,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042215@import": {
-        "ID"        :"C16020180425T092042215@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851215@import": {
+        "ID"        :"C16020180430T074851215@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-14T09:00",
@@ -2793,9 +2793,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042216@import": {
-        "ID"        :"C16020180425T092042216@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851216@import": {
+        "ID"        :"C16020180430T074851216@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-14T14:00",
@@ -2806,9 +2806,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042217@import": {
-        "ID"        :"C16020180425T092042217@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851217@import": {
+        "ID"        :"C16020180430T074851217@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-15T09:00",
@@ -2819,9 +2819,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042218@import": {
-        "ID"        :"C16020180425T092042218@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851218@import": {
+        "ID"        :"C16020180430T074851218@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-15T14:00",
@@ -2832,9 +2832,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042219@import": {
-        "ID"        :"C16020180425T092042219@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851219@import": {
+        "ID"        :"C16020180430T074851219@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-02-15T08:00",
@@ -2845,9 +2845,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042220@import": {
-        "ID"        :"C16020180425T092042220@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851220@import": {
+        "ID"        :"C16020180430T074851220@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-02-15T10:15",
@@ -2858,9 +2858,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042221@import": {
-        "ID"        :"C10720180425T092042221@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851221@import": {
+        "ID"        :"C10720180430T074851221@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-02-16T08:00",
@@ -2871,9 +2871,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042222@import": {
-        "ID"        :"C16020180425T092042222@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851222@import": {
+        "ID"        :"C16020180430T074851222@import",
         "apogee"    :"4TBE802U",
         "acronym"   :"S08::EcoTerr",
         "date_start":"2018-02-16T09:00",
@@ -2884,9 +2884,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042223@import": {
-        "ID"        :"C16020180425T092042223@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851223@import": {
+        "ID"        :"C16020180430T074851223@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-02-26T14:00",
@@ -2897,9 +2897,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042224@import": {
-        "ID"        :"C11020180425T092042224@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851224@import": {
+        "ID"        :"C11020180430T074851224@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-02-27T10:15",
@@ -2910,9 +2910,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042225@import": {
-        "ID"        :"C10720180425T092042225@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851225@import": {
+        "ID"        :"C10720180430T074851225@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-02-27T08:00",
@@ -2923,9 +2923,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042226@import": {
-        "ID"        :"C10120180425T092042226@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851226@import": {
+        "ID"        :"C10120180430T074851226@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-02-27T14:00",
@@ -2936,9 +2936,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042227@import": {
-        "ID"        :"C11020180425T092042227@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851227@import": {
+        "ID"        :"C11020180430T074851227@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-02-28T08:00",
@@ -2949,9 +2949,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042228@import": {
-        "ID"        :"C10720180425T092042228@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851228@import": {
+        "ID"        :"C10720180430T074851228@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-02-28T14:00",
@@ -2962,9 +2962,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042229@import": {
-        "ID"        :"C10720180425T092042229@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851229@import": {
+        "ID"        :"C10720180430T074851229@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-01T14:00",
@@ -2975,9 +2975,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042230@import": {
-        "ID"        :"C11020180425T092042230@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851230@import": {
+        "ID"        :"C11020180430T074851230@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-02T10:15",
@@ -2988,9 +2988,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042231@import": {
-        "ID"        :"C10720180425T092042231@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851231@import": {
+        "ID"        :"C10720180430T074851231@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-02T14:00",
@@ -3001,9 +3001,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042232@import": {
-        "ID"        :"C16020180425T092042232@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851232@import": {
+        "ID"        :"C16020180430T074851232@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-03-05T08:00",
@@ -3014,9 +3014,9 @@
         "type"      :"TP",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042233@import": {
-        "ID"        :"C16020180425T092042233@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851233@import": {
+        "ID"        :"C16020180430T074851233@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-03-05T14:00",
@@ -3027,9 +3027,9 @@
         "type"      :"TP",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042234@import": {
-        "ID"        :"C11020180425T092042234@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851234@import": {
+        "ID"        :"C11020180430T074851234@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-06T10:15",
@@ -3040,9 +3040,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042235@import": {
-        "ID"        :"C17020180425T092042235@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851235@import": {
+        "ID"        :"C17020180430T074851235@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-03-06T14:00",
@@ -3053,9 +3053,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042236@import": {
-        "ID"        :"C10720180425T092042236@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851236@import": {
+        "ID"        :"C10720180430T074851236@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-07T14:00",
@@ -3066,9 +3066,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042237@import": {
-        "ID"        :"C10720180425T092042237@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851237@import": {
+        "ID"        :"C10720180430T074851237@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-08T14:00",
@@ -3079,9 +3079,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042238@import": {
-        "ID"        :"C11020180425T092042238@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851238@import": {
+        "ID"        :"C11020180430T074851238@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-09T10:15",
@@ -3092,9 +3092,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042239@import": {
-        "ID"        :"C10720180425T092042239@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851239@import": {
+        "ID"        :"C10720180430T074851239@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-09T14:00",
@@ -3105,9 +3105,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042240@import": {
-        "ID"        :"C10120180425T092042240@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851240@import": {
+        "ID"        :"C10120180430T074851240@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-03-12T14:00",
@@ -3118,9 +3118,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042241@import": {
-        "ID"        :"C10720180425T092042241@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851241@import": {
+        "ID"        :"C10720180430T074851241@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-03-13T08:00",
@@ -3131,9 +3131,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042242@import": {
-        "ID"        :"C11020180425T092042242@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851242@import": {
+        "ID"        :"C11020180430T074851242@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-13T10:15",
@@ -3144,9 +3144,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042243@import": {
-        "ID"        :"C17020180425T092042243@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851243@import": {
+        "ID"        :"C17020180430T074851243@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-03-13T14:00",
@@ -3157,9 +3157,9 @@
         "type"      :"CI ;; 1",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042244@import": {
-        "ID"        :"C10720180425T092042244@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851244@import": {
+        "ID"        :"C10720180430T074851244@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-14T10:00",
@@ -3170,9 +3170,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042245@import": {
-        "ID"        :"C16020180425T092042245@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851245@import": {
+        "ID"        :"C16020180430T074851245@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-03-14T14:00",
@@ -3183,9 +3183,9 @@
         "type"      :"TP",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042246@import": {
-        "ID"        :"C10720180425T092042246@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851246@import": {
+        "ID"        :"C10720180430T074851246@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-15T14:00",
@@ -3196,9 +3196,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042247@import": {
-        "ID"        :"C11020180425T092042247@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851247@import": {
+        "ID"        :"C11020180430T074851247@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-16T10:15",
@@ -3209,9 +3209,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042248@import": {
-        "ID"        :"C10120180425T092042248@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851248@import": {
+        "ID"        :"C10120180430T074851248@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-03-19T14:00",
@@ -3222,9 +3222,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042249@import": {
-        "ID"        :"C11020180425T092042249@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851249@import": {
+        "ID"        :"C11020180430T074851249@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-20T10:15",
@@ -3235,9 +3235,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042250@import": {
-        "ID"        :"C17020180425T092042250@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851250@import": {
+        "ID"        :"C17020180430T074851250@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-03-20T08:00",
@@ -3248,9 +3248,9 @@
         "type"      :"CI ;;2",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042251@import": {
-        "ID"        :"C10720180425T092042251@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851251@import": {
+        "ID"        :"C10720180430T074851251@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
         "date_start":"2018-03-21T10:00",
@@ -3261,9 +3261,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042252@import": {
-        "ID"        :"C11020180425T092042252@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851252@import": {
+        "ID"        :"C11020180430T074851252@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-21T14:00",
@@ -3274,9 +3274,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042253@import": {
-        "ID"        :"C16020180425T092042253@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851253@import": {
+        "ID"        :"C16020180430T074851253@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-03-21T14:00",
@@ -3287,9 +3287,9 @@
         "type"      :"TP",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042254@import": {
-        "ID"        :"C10120180425T092042254@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851254@import": {
+        "ID"        :"C10120180430T074851254@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-03-22T09:00",
@@ -3300,9 +3300,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042255@import": {
-        "ID"        :"C17020180425T092042255@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851255@import": {
+        "ID"        :"C17020180430T074851255@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-03-23T08:00",
@@ -3313,9 +3313,9 @@
         "type"      :"CI ;;3",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042256@import": {
-        "ID"        :"C11020180425T092042256@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851256@import": {
+        "ID"        :"C11020180430T074851256@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-03-23T10:15",
@@ -3326,9 +3326,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C16020180425T092042257@import": {
-        "ID"        :"C16020180425T092042257@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C16020180430T074851257@import": {
+        "ID"        :"C16020180430T074851257@import",
         "apogee"    :"4TBA804U",
         "acronym"   :"S08::BBP",
         "date_start":"2018-03-23T08:00",
@@ -3339,9 +3339,9 @@
         "type"      :"Cours",
         "year"      :"1",
         "tracks"    :"0x60",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042258@import": {
-        "ID"        :"C17020180425T092042258@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851258@import": {
+        "ID"        :"C17020180430T074851258@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-03-26T09:00",
@@ -3352,9 +3352,9 @@
         "type"      :"CI ;;1",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042259@import": {
-        "ID"        :"C10720180425T092042259@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851259@import": {
+        "ID"        :"C10720180430T074851259@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-03-26T14:00",
@@ -3365,9 +3365,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042260@import": {
-        "ID"        :"C10720180425T092042260@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851260@import": {
+        "ID"        :"C10720180430T074851260@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-03-28T14:00",
@@ -3378,9 +3378,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042261@import": {
-        "ID"        :"C10720180425T092042261@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851261@import": {
+        "ID"        :"C10720180430T074851261@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-03-29T14:00",
@@ -3391,9 +3391,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042262@import": {
-        "ID"        :"C17020180425T092042262@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851262@import": {
+        "ID"        :"C17020180430T074851262@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-03T08:00",
@@ -3404,9 +3404,9 @@
         "type"      :"CI ;;",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042263@import": {
-        "ID"        :"C11020180425T092042263@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851263@import": {
+        "ID"        :"C11020180430T074851263@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-04-03T14:00",
@@ -3417,9 +3417,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042264@import": {
-        "ID"        :"C10720180425T092042264@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851264@import": {
+        "ID"        :"C10720180430T074851264@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-04-04T14:00",
@@ -3430,9 +3430,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042265@import": {
-        "ID"        :"C17020180425T092042265@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851265@import": {
+        "ID"        :"C17020180430T074851265@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-04T09:00",
@@ -3443,9 +3443,9 @@
         "type"      :"Cours+TD",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042266@import": {
-        "ID"        :"C17020180425T092042266@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851266@import": {
+        "ID"        :"C17020180430T074851266@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-05T09:00",
@@ -3456,9 +3456,9 @@
         "type"      :"CI;;1",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042267@import": {
-        "ID"        :"C11020180425T092042267@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851267@import": {
+        "ID"        :"C11020180430T074851267@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-04-06T10:00",
@@ -3469,9 +3469,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042268@import": {
-        "ID"        :"C17020180425T092042268@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851268@import": {
+        "ID"        :"C17020180430T074851268@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-09T09:00",
@@ -3482,9 +3482,9 @@
         "type"      :"CI;;2",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042269@import": {
-        "ID"        :"C11020180425T092042269@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851269@import": {
+        "ID"        :"C11020180430T074851269@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-04-10T10:15",
@@ -3495,9 +3495,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042270@import": {
-        "ID"        :"C10720180425T092042270@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851270@import": {
+        "ID"        :"C10720180430T074851270@import",
         "apogee"    :"4TBI804U",
         "acronym"   :"S08::NGS",
         "date_start":"2018-04-11T10:00",
@@ -3508,9 +3508,9 @@
         "type"      :"EX",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042271@import": {
-        "ID"        :"C11020180425T092042271@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851271@import": {
+        "ID"        :"C11020180430T074851271@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-04-11T14:00",
@@ -3521,9 +3521,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C11020180425T092042272@import": {
-        "ID"        :"C11020180425T092042272@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851272@import": {
+        "ID"        :"C11020180430T074851272@import",
         "apogee"    :"4TBC801U",
         "acronym"   :"S08::POO",
         "date_start":"2018-04-12T08:00",
@@ -3534,9 +3534,9 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x10",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042273@import": {
-        "ID"        :"C17020180425T092042273@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851273@import": {
+        "ID"        :"C17020180430T074851273@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-12T13:30",
@@ -3547,9 +3547,9 @@
         "type"      :"CI;;2",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042274@import": {
-        "ID"        :"C17020180425T092042274@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851274@import": {
+        "ID"        :"C17020180430T074851274@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-23T14:00",
@@ -3560,9 +3560,9 @@
         "type"      :"CI;;3",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042275@import": {
-        "ID"        :"C17020180425T092042275@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851275@import": {
+        "ID"        :"C17020180430T074851275@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-24T09:00",
@@ -3573,9 +3573,9 @@
         "type"      :"CI;;4",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042276@import": {
-        "ID"        :"C10120180425T092042276@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851276@import": {
+        "ID"        :"C10120180430T074851276@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-04-24T14:00",
@@ -3586,9 +3586,9 @@
         "type"      :"EX",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042277@import": {
-        "ID"        :"C17020180425T092042277@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851277@import": {
+        "ID"        :"C17020180430T074851277@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-25T09:00",
@@ -3599,9 +3599,9 @@
         "type"      :"CI ;;4",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042278@import": {
-        "ID"        :"C17020180425T092042278@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851278@import": {
+        "ID"        :"C17020180430T074851278@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-25T13:30",
@@ -3612,9 +3612,9 @@
         "type"      :"CI ;;5",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C17020180425T092042279@import": {
-        "ID"        :"C17020180425T092042279@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C17020180430T074851279@import": {
+        "ID"        :"C17020180430T074851279@import",
         "apogee"    :"4TBI805U",
         "acronym"   :"S08::ViMod",
         "date_start":"2018-04-26T09:00",
@@ -3625,9 +3625,9 @@
         "type"      :"CI ;;6",
         "year"      :"1",
         "tracks"    :"0x70",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042280@import": {
-        "ID"        :"C10120180425T092042280@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851280@import": {
+        "ID"        :"C10120180430T074851280@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-04-27T10:00",
@@ -3638,22 +3638,35 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10720180425T092042281@import": {
-        "ID"        :"C10720180425T092042281@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C11020180430T074851281@import": {
+        "ID"        :"C11020180430T074851281@import",
+        "apogee"    :"4TBC801U",
+        "acronym"   :"S08::POO",
+        "date_start":"2018-05-02T11:30",
+        "date_end"  :"2018-05-02T13:00",
+        "lecturer"  :"Beurton-Aimar M",
+        "location"  :"Talence::A30-LaBRI@Room_064",
+        "group"     :"All",
+        "type"      :"EX",
+        "year"      :"1",
+        "tracks"    :"0x10",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10720180430T074851282@import": {
+        "ID"        :"C10720180430T074851282@import",
         "apogee"    :"4TBI803U",
         "acronym"   :"S08::BDD",
-        "date_start":"2018-05-02T10:00",
-        "date_end"  :"2018-05-02T12:00",
+        "date_start":"2018-05-02T14:00",
+        "date_end"  :"2018-05-02T16:00",
         "lecturer"  :"Maabout S",
         "location"  :"Talence::A9@Room_000",
         "group"     :"All",
         "type"      :"EX",
         "year"      :"1",
         "tracks"    :"0x07",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"},
-"C10120180425T092042282@import": {
-        "ID"        :"C10120180425T092042282@import",
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"},
+"C10120180430T074851283@import": {
+        "ID"        :"C10120180430T074851283@import",
         "apogee"    :"4TBI801U",
         "acronym"   :"S08::AlgoPrg2",
         "date_start":"2018-05-03T10:00",
@@ -3664,5 +3677,5 @@
         "type"      :"EX",
         "year"      :"1",
         "tracks"    :"0x01",
-        "comment"   :"Imported from .ics - Wed Apr 25 2018 11:20:42 GMT+0200 (CEST)"}
+        "comment"   :"Imported from .ics - Mon Apr 30 2018 09:48:51 GMT+0200 (CEST)"}
 }
