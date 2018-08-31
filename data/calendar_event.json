@@ -33,11 +33,11 @@
     "apogee": "4TBIMEET", 
     "date_end": "2018-09-03T12:00", 
     "date_start": "2018-09-03T10:00", 
-    "description": "", 
+    "description": "<p>Attendre devant le bâtiment.</p> <img src=\"../img/campusTalence.png\">", 
     "group": "All", 
     "lecturer": "------", 
     "location": "Talence::A30-LaBRI@Room_000", 
-    "title": "Rentr&eacute;e M1 et M2<p>Attendre devant le bâtiment.</p> <img src='../img/campusTalence.png'>", 
+    "title": "Rentr&eacute;e M1 et M2", 
     "tracks": "0x0F", 
     "type": "Rentr&eacute;e", 
     "year": "3"
