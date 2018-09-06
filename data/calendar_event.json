@@ -42,11 +42,11 @@
     "type": "Rentr&eacute;e", 
     "year": "3"
   }, 
-  "E30F20180904T111251872@jeesay": {
-    "ID": "E30F20180904T111251872@jeesay", 
+  "E30F20180904T111251870@jeesay": {
+    "ID": "E30F20180904T111251870@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2018-09-13T18:30", 
+    "date_end": "2018-09-13T12:00", 
     "date_start": "2018-09-13T08:00", 
     "description": "Defense Day for students of promotion 2018", 
     "group": "All", 
@@ -58,6 +58,22 @@
     "type": "Defense", 
     "year": "3"
   }, 
+    "E30F20180904T111251872@jeesay": {
+    "ID": "E30F20180904T111251872@jeesay", 
+    "acronym": "Evt::Defense", 
+    "apogee": "4TBIDFNS", 
+    "date_end": "2018-09-13T18:30", 
+    "date_start": "2018-09-13T14:00", 
+    "description": "Defense Day for students of promotion 2018", 
+    "group": "All", 
+    "lecturer": "--  ", 
+    "location": "Talence::A29@Amphi_C", 
+    "summary": "4TBIDFNS", 
+    "title": "Soutenance Stage M2", 
+    "tracks": "0x0F", 
+    "type": "Defense", 
+    "year": "3"
+  },
   "E30F20180904T111251873@jeesay": {
     "ID": "E30F20180904T111251873@jeesay", 
     "acronym": "Evt::Defense", 
