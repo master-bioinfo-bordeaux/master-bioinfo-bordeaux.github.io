@@ -78,7 +78,7 @@
     "ID": "E30F20180904T111251873@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2018-09-14T18:30", 
+    "date_end": "2018-09-14T12:00", 
     "date_start": "2018-09-14T08:00", 
     "description": "Defense Day for students of promotion 2018", 
     "group": "All", 
@@ -89,7 +89,23 @@
     "tracks": "0x0F", 
     "type": "Defense", 
     "year": "3"
-  }, 
+  },
+  "E30F20180904T111251874@jeesay": {
+    "ID": "E30F20180904T111251874@jeesay", 
+    "acronym": "Evt::Defense", 
+    "apogee": "4TBIDFNS", 
+    "date_end": "2018-09-14T18:30", 
+    "date_start": "2018-09-14T14:00", 
+    "description": "Defense Day for students of promotion 2018", 
+    "group": "All", 
+    "lecturer": "--  ", 
+    "location": "Talence::A29@Amphi_C", 
+    "summary": "4TBIDFNS", 
+    "title": "Soutenance Stage M2", 
+    "tracks": "0x0F", 
+    "type": "Defense", 
+    "year": "3"
+  },
   "E30720180726T134849025@jeesay": {
     "ID": "E30720180726T134849025@jeesay", 
     "acronym": "Evt::Holidays", 
