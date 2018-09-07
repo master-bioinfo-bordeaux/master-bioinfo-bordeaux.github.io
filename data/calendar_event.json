@@ -1,17 +1,4 @@
 {
-  "C20F20180216T092500070@jeesay": {
-    "ID": "C20F20180216T092500070@jeesay", 
-    "acronym": "S09::SIG", 
-    "apogee": "4TDE901U", 
-    "date_end": "2018-09-03T09:00", 
-    "date_start": "2018-09-03T08:00", 
-    "description": "None", 
-    "group": "All", 
-    "lecturer": "------", 
-    "location": "None::None@Room_000", 
-    "summary": "4TDE901U", 
-    "type": "Internship"
-  },
   "C20F20180216T092500071@jeesay": {
     "ID": "C20F20180216T092500071@jeesay", 
     "acronym": "S10::Stage", 
