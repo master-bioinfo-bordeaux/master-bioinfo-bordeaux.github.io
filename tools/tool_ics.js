@@ -84,7 +84,7 @@ function getCourseType(type = "Cours+TD") {
 
 function getLocation(loc = "None::None@Room_000") {
   let keywords = { NONE : 'None',TALENCE: 'Talence',CARREIRE: 'Carreire',INRA: 'INRA',ISVV: 'ISVV', 'ROOM': 'Room', AMPHI: 'Amphi'};
-  let buildings = { A21: 'A21-OMEGA', A29 : 'A29-CREMI',A30: 'A30-LaBRI'};
+  let buildings = { A21: 'A21-OMEGA', A29 : 'A28-CREMI',A30: 'A30-LaBRI'};
   let campus;
   let building;
   let type;

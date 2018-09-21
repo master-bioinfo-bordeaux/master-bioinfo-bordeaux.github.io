@@ -271,15 +271,23 @@
         "type"      :"TD",
         "year"      :"1",
         "tracks"    :"0x0F",
+<<<<<<< HEAD
         "comment"   :"Imported from .ics - Thu Sep 20 2018 14:18:44 GMT+0200 (CEST)"},
 "C10F20180920T121844022@import": {
         "ID"        :"C10F20180920T121844022@import",
+=======
+        "comment"   :"Imported from .ics - Wed Sep 19 2018 08:57:32 GMT+0200 (CEST)"},
+
+"C10F20180919T065732023@import": {
+        "ID"        :"C10F20180919T065732023@import",
+>>>>>>> 6052303aaa13b5676dd0a3bfa215c00a7f52b69c
         "apogee"    :"4TBI701U",
         "acronym"   :"S07::IMAJS",
         "date_start":"2018-09-20T08:00",
         "date_end"  :"2018-09-20T12:00",
         "lecturer"  :"Taveau JC",
         "location"  :"Talence::A28-CREMI@Room_202",
+<<<<<<< HEAD
         "group"     :"A2",
         "type"      :"TD machine",
         "year"      :"1",
@@ -293,6 +301,8 @@
         "date_end"  :"2018-09-21T12:00",
         "lecturer"  :"Baldacci F",
         "location"  :"Talence::A28-CREMI@Room_103",
+=======
+>>>>>>> 6052303aaa13b5676dd0a3bfa215c00a7f52b69c
         "group"     :"A2",
         "type"      :"TD",
         "year"      :"1",
