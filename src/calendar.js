@@ -121,7 +121,7 @@ function loadCalendarData(filename) {
             updateCalendar();
         }
     };
-    xhr.open("GET", "http://master-bioinfo-bordeaux.github.io/data/"+ filename, true);
+    xhr.open("GET", "https://master-bioinfo-bordeaux.github.io/data/"+ filename, true);
     xhr.send(null);
 
 }
@@ -548,7 +548,7 @@ function findEvent(events,start,col) {
     }
     
     if (found !== undefined) {
-            // Choose the duration max
+        // Choose the duration max
         // <td> with gray  
         var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
         html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
@@ -586,7 +586,7 @@ function createEmptyCell() {
 
 
 function createEventCell(cal_event) {
-    // HACK: console.log(JSON.stringify(cal_event) );
+    console.log(JSON.stringify(cal_event) );
     var ID = cal_event.ID;
     
     var html = '';
