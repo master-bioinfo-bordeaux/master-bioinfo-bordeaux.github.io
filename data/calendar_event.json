@@ -1,6 +1,6 @@
 {
-  "C20F20180216T092500071@jeesay": {
-    "ID": "C20F20180216T092500071@jeesay", 
+  "C20F20190216T092500071@jeesay": {
+    "ID": "C20F20190216T092500071@jeesay", 
     "acronym": "S10::Stage", 
     "apogee": "4TBI001U", 
     "date_end": "2019-08-31T00:00", 
@@ -12,8 +12,8 @@
     "summary": "4TBI001U", 
     "type": "Internship"
   },
-  "E10720180726T134849030@jeesay": {
-    "ID": "E10720180726T134849030@jeesay", 
+  "E10720190726T134849030@jeesay": {
+    "ID": "E10720190726T134849030@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
     "date_end": "2019-09-01T00:00", 
@@ -27,13 +27,13 @@
     "type": "Vacances", 
     "year": "1"
   }, 
-  "E30F20180903T135907002@jeesay": {
-    "ID": "E30F20180903T135907002@jeesay", 
+  "E30F20190903T135907002@jeesay": {
+    "ID": "E30F20190903T135907002@jeesay", 
     "acronym": "Evt::Conference", 
     "apogee": "4TBIMEET", 
     "date_end": "2019-09-02T12:00", 
     "date_start": "2019-09-02T10:00", 
-    "description": "<p><em>Grand Amphi de Mathématiques</em> du bâtiment <b>A33</b>.See map below</i></p><p>Informations générales sur le master et son organisation | <i>General information about the master and its organization</i>.</p> <img width=550 src=\"./img/campusTalence.png\">", 
+    "description": "<p><em>Grand Amphi de Mathématiques</em> du bâtiment <b>A33</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations générales sur le master et son organisation | <i>General information about the master and its organization</i>.</p>", 
     "group": "All", 
     "lecturer": "------", 
     "location": "Talence::A33@Amphi_000", 
@@ -42,13 +42,13 @@
     "type": "Rentr&eacute;e", 
     "year": "3"
   }, 
-  "E30F20180904T111251870@jeesay": {
-    "ID": "E30F20180904T111251870@jeesay", 
+  "E30F20190904T111251870@jeesay": {
+    "ID": "E30F20190904T111251870@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2018-09-13T12:00", 
-    "date_start": "2018-09-13T08:00", 
-    "description": "<h4>Defense Day for students of promotion 2018</h4><ul><li>08h00-10h00: Group #1</li><li>10h00-10h30:Coffee Break</li><li>10h30-12h00: Group #2</li></ul>", 
+    "date_end": "2019-09-13T12:00", 
+    "date_start": "2019-09-13T08:00", 
+    "description": "<h4>Defense Day for students of promotion 2019</h4><ul><li>08h00-10h00: Group #1</li><li>10h00-10h30:Coffee Break</li><li>10h30-12h00: Group #2</li></ul>", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -58,13 +58,13 @@
     "type": "Defense", 
     "year": "3"
   }, 
-    "E30F20180904T111251872@jeesay": {
-    "ID": "E30F20180904T111251872@jeesay", 
+    "E30F20190904T111251872@jeesay": {
+    "ID": "E30F20190904T111251872@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2018-09-13T18:30", 
-    "date_start": "2018-09-13T14:00", 
-    "description": "Defense Day for students of promotion 2018", 
+    "date_end": "2019-09-13T18:30", 
+    "date_start": "2019-09-13T14:00", 
+    "description": "Defense Day for students of promotion 2019", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -74,13 +74,13 @@
     "type": "Defense", 
     "year": "3"
   },
-  "E30F20180904T111251873@jeesay": {
-    "ID": "E30F20180904T111251873@jeesay", 
+  "E30F20190904T111251873@jeesay": {
+    "ID": "E30F20190904T111251873@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2018-09-14T12:00", 
-    "date_start": "2018-09-14T08:00", 
-    "description": "Defense Day for students of promotion 2018", 
+    "date_end": "2019-09-12T12:00", 
+    "date_start": "2019-09-12T08:00", 
+    "description": "Defense Day for students of promotion 2019", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -90,13 +90,13 @@
     "type": "Defense", 
     "year": "3"
   },
-  "E30F20180904T111251874@jeesay": {
-    "ID": "E30F20180904T111251874@jeesay", 
+  "E30F20190904T111251874@jeesay": {
+    "ID": "E30F20190904T111251874@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2018-09-14T18:30", 
-    "date_start": "2018-09-14T14:00", 
-    "description": "Defense Day for students of promotion 2018", 
+    "date_end": "2019-09-12T18:30", 
+    "date_start": "2019-09-12T14:00", 
+    "description": "Defense Day for students of promotion 2019", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -106,12 +106,12 @@
     "type": "Defense", 
     "year": "3"
   },
-  "E30720180726T134849025@jeesay": {
-    "ID": "E30720180726T134849025@jeesay", 
+  "E30720190726T134849025@jeesay": {
+    "ID": "E30720190726T134849025@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2018-11-04T00:00", 
-    "date_start": "2018-10-29T00:00", 
+    "date_end": "2019-11-01T00:00", 
+    "date_start": "2019-10-28T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -121,12 +121,27 @@
     "type": "Vacances", 
     "year": "3"
   }, 
-  "E30720180726T134849040@jeesay": {
-    "ID": "E30720180726T134849040@jeesay", 
+  "E30720200105T102600000@jeesay": {
+    "ID": "E30720200105T102600000@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-01-06T00:00", 
-    "date_start": "2018-12-24T00:00", 
+    "date_end": "2019-11-11T00:00", 
+    "date_start": "2019-11-11T00:00", 
+    "description": "", 
+    "group": "All", 
+    "lecturer": "------", 
+    "location": "None::None@Room_000", 
+    "title": "Jour F&eacute;ri&eacute; - Bank Holidays", 
+    "tracks": "0x07", 
+    "type": "Vacances", 
+    "year": "3"
+  }, 
+  "E30720190726T134849040@jeesay": {
+    "ID": "E30720190726T134849040@jeesay", 
+    "acronym": "Evt::Holidays", 
+    "apogee": "4TBIVACA", 
+    "date_end": "2019-01-03T00:00", 
+    "date_start": "2019-12-23T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -136,12 +151,12 @@
     "type": "Vacances", 
     "year": "3"
   }, 
-  "E30720190105T100549040@jeesay": {
-    "ID": "E30720190105T100549040@jeesay", 
+  "E30720200105T100549040@jeesay": {
+    "ID": "E30720200105T100549040@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-03-03T00:00", 
-    "date_start": "2019-02-25T00:00", 
+    "date_end": "2020-03-06T00:00", 
+    "date_start": "2020-03-02T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -151,12 +166,27 @@
     "type": "Vacances", 
     "year": "1"
   }, 
-  "E30720190105T101049040@jeesay": {
-    "ID": "E30720190105T101049040@jeesay", 
+  "E30720200105T101049040@jeesay": {
+    "ID": "E30720200105T101049040@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-04-28T00:00", 
-    "date_start": "2019-04-22T00:00", 
+    "date_end": "2020-04-13T00:00", 
+    "date_start": "2020-04-13T00:00", 
+    "description": "", 
+    "group": "All", 
+    "lecturer": "------", 
+    "location": "None::None@Room_000", 
+    "title": "Pâques | Easter", 
+    "tracks": "0x07", 
+    "type": "Vacances", 
+    "year": "1"
+  }, 
+  "E30720200105T101049040@jeesay": {
+    "ID": "E30720200105T101049040@jeesay", 
+    "acronym": "Evt::Holidays", 
+    "apogee": "4TBIVACA", 
+    "date_end": "2020-04-27T00:00", 
+    "date_start": "2020-05-01T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -166,12 +196,12 @@
     "type": "Vacances", 
     "year": "1"
   }, 
-  "E30720190105T102600000@jeesay": {
-    "ID": "E30720190105T102600000@jeesay", 
+  "E30720200105T102722200@jeesay": {
+    "ID": "E30720200105T102722200@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-05-01T00:00", 
-    "date_start": "2019-05-01T00:00", 
+    "date_end": "2020-05-08T00:00", 
+    "date_start": "2020-05-08T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -181,27 +211,12 @@
     "type": "Vacances", 
     "year": "3"
   }, 
-  "E30720190105T102722200@jeesay": {
-    "ID": "E30720190105T102722200@jeesay", 
+  "E30720200105T102745600@jeesay": {
+    "ID": "E30720200105T102745600@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-05-08T00:00", 
-    "date_start": "2019-05-08T00:00", 
-    "description": "", 
-    "group": "All", 
-    "lecturer": "------", 
-    "location": "None::None@Room_000", 
-    "title": "Jour F&eacute;ri&eacute; - Bank Holidays", 
-    "tracks": "0x07", 
-    "type": "Vacances", 
-    "year": "3"
-  }, 
-  "E30720190105T102745600@jeesay": {
-    "ID": "E30720190105T102745600@jeesay", 
-    "acronym": "Evt::Holidays", 
-    "apogee": "4TBIVACA", 
-    "date_end": "2019-05-30T00:00", 
-    "date_start": "2019-05-30T00:00", 
+    "date_end": "2020-05-21T00:00", 
+    "date_start": "2020-05-21T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -211,12 +226,12 @@
     "type": "Vacances", 
     "year": "3"
   },
-  "E30720190105T112745600@jeesay": {
-    "ID": "E30720190105T102745600@jeesay", 
+  "E30720200105T112745600@jeesay": {
+    "ID": "E30720200105T102745600@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-06-10T00:00", 
-    "date_start": "2019-06-10T00:00", 
+    "date_end": "2020-06-01T00:00", 
+    "date_start": "2020-06-01T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
