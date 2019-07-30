@@ -315,7 +315,7 @@ var course_data = {
     "apogee": "4TBI705U",
     "short": "BioStatistics",
     "language": "English (tutorials) + French (lectures).",
-    "acronym": "BioStats", 
+    "acronym": "BSTATS", 
     "coordinators": 'Nogues X',
     "background_color": "#D0A6FF", 
     "contents": {
