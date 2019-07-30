@@ -1,6 +1,11 @@
 
 // var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
-var university_path = "https://www.u-bordeaux.fr/formation/2016/PRMA_74/bio-informatique/enseignement/";
+var u_path = "https://www.u-bordeaux.fr/formation/";
+var master_path = "/PRMA_74/bio-informatique/enseignement/";
+var u_year = "2019";
+var university_path = u_path + u_year + master_path;
+
+
 /**
  * 2016 - 2020
  */
@@ -306,12 +311,12 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_2923/anglais"
   },
-  "4TEC701U": {
-    "apogee": "4TEC701U",
+  "4TBI705U": {
+    "apogee": "4TBI705U",
     "short": "BioStatistics",
     "language": "English (tutorials) + French (lectures).",
-    "acronym": "TDE", 
-    "coordinators": 'David V',
+    "acronym": "BioStats", 
+    "coordinators": 'Nogues X',
     "background_color": "#D0A6FF", 
     "contents": {
       "en": {
@@ -320,41 +325,25 @@ var course_data = {
         'skills': "Coming soon."
       }, 
       "fr": {
-        'program': `<h4>Statistiques Inférentielles</h4>
-            <ul>
-            <li> Comparaison d'échantillons d'une variable 
-              <ul>
-                <li>Conditions d'application</li>
-                <li>Tests paramétriques et non paramétriques: Shapiro-Wilk, Fisher, Student, U.</li>
-              </ul>
-            </li>
-            <li> Comparaison d'échantillons de variables 
-              <ul>
-                <li>Relier une variable qualitative à une variable qualitative</li>
-                <li>Utilisation de modèles linéaires: Régressions et Analyses de variance</li>
-              </ul>
-            </li>
-            </ul>
-            <h4>Initiation au langage R</h4>
-            <ul>
-            <li>Installation et Environnement</li>
-            <li>Import et Manipulation de Données</li>
-            <li>Edition de Graphiques</li>
-            </ul>`,
-        'objectives': `Savoir choisir, mettre en œuvre et interpréter des analyses numériques en adéquation 
-        avec les objectifs et les plans d’échantillonnage/expérimentaux adoptés`,
+        'program': `<ul>
+          <li>Consolider la capacité à mettre en œuvre les outils statistiques pour la conception de plans d'expériences et l'analyse de donnée en biologie.</li>
+          <li>Approfondir l'utilisation de certaines méthodes normalement déjà connues telles que l'analyse de variance, la régression linéaire notamment par l'initiation aux analyses de variances à 2 facteurs, la régression linéaire multiple,etc.</li>
+          <li>Initier aux analyses multivariées.</li>
+          <li>Permettre la mise en œuvre de ces analyses avec le logiciel R et former à l'interprétation des résultats.</li></ul>`,
+        'objectives': `Les objectifs principaux sont:<ul> <li>(i) de pouvoir réaliser une analyse des données correctement et en routine,</li> 
+                        et <li>(ii) d'élargir le spectre des outils maîtrisés.</li></ul>`,
         'skills': "Bient&ocirc;t disponible."
-      }
+      },
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TEC701U", 
+    "id": "4TBI705U", 
     "image": "ue_biostats.jpg", 
     "semester": 7, 
-    "title": "Traitement des donn\u00e9es environnementales", 
+    "title": "Biostatistiques", 
     "tracks": "0x0F", 
     "visibility": "visible",
-    "html": "FRUAI0333298FCOEN_3699/traitement-des-donnees-environnementales"
+    "html": "FRUAI0333298FCOEN_146310/biostatistiques"
   }, 
   "4TBA804U": {
     "short": "Plant Biotechnology",
@@ -633,7 +622,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI805U": {
-    "short": "Video & Dynamic Process",
+    "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "ViMod", 
     "background_color": "#7fd8bc", 
@@ -654,7 +643,7 @@ var course_data = {
     "id": "4TBI805U", 
     "image": "ue_videos.jpg", 
     "semester": 8, 
-    "title": "Traitement de Vid\u00e9os et Mod\u00e9lisation des Processus Dynamiques", 
+    "title": "Web avanc&eacute; et Mod\u00e9lisation des Processus Dynamiques", 
     "tracks": "0x70", 
     "visibility": "visible"
   },
