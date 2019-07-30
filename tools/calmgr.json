@@ -132,6 +132,7 @@
     "Pinaud B",
     "Schurdi-Levraud V",
     "S&eacute;n&eacute;chal N",
+    "Simon M",
     "Sirand-Pugnet P",
     "Taveau JC",
     "Th&eacute;bault P",
@@ -281,6 +282,11 @@
         "apogee": "4TBI704U",
         "tracks": "0x0F"
       },
+      "4TBI705U": {
+        "acronym": "S07::BStats",
+        "apogee": "4TBI705U",
+        "tracks": "0x0F"
+      },
       "4TBI801U": {
         "acronym": "S08::AlgoPrg2",
         "apogee": "4TBI801U",
@@ -350,11 +356,6 @@
         "acronym": "S09::IBS",
         "apogee": "4TDE902U",
         "tracks": "0x60"
-      },
-      "4TEC701U": {
-        "acronym": "S07::TDE",
-        "apogee": "4TEC701U",
-        "tracks": "0x0F"
       },
       "4TBIEVNT": {
         "acronym": "Evt::Event",
