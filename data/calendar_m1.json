@@ -309,7 +309,7 @@
     "tracks": "0F",
     "lecturer": "Baldacci F",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique A",
+    "location": "Talence::A21-OMEGA@Room_Informatique-A",
     "title": "DESCRIPTION:CELCAT_ID:423677\\,WEEK:41\\,APOGEE:4TBI702U",
     "ID": "C10F20190911T125709021@import",
     "group": "A2"
@@ -1239,7 +1239,7 @@
     "tracks": "0F",
     "lecturer": "Taveau JC",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:46\\,APOGEE:4TBI701U",
     "ID": "C10F20190911T125709083@import",
     "group": "A2"
@@ -1494,7 +1494,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:42\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709100@import",
     "group": "A1"
@@ -1509,7 +1509,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:46\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709101@import",
     "group": "A1"
@@ -1569,7 +1569,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:41\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709105@import",
     "group": "A1"
@@ -1584,7 +1584,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:40\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709106@import",
     "group": "A1"
@@ -1599,7 +1599,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:43\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709107@import",
     "group": "A1"
@@ -1674,7 +1674,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:45\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709112@import",
     "group": "A1"
@@ -1719,7 +1719,7 @@
     "tracks": "0F",
     "lecturer": "Uricaru R",
     "type": "TD",
-    "location": "Talence::A21-OMEGA@Room_Informatique C",
+    "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:47\\,APOGEE:4TBI703U",
     "ID": "C10F20190911T125709115@import",
     "group": "A1"
