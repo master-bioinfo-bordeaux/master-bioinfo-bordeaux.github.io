@@ -1997,7 +1997,7 @@ function createEventCell(cal_event) {
         if (campus !== "None") {
             tmp = cal_event.location.match(/::(.+)@/);
             var bldg = tmp[1];
-            tmp = cal_event.location.match(/@(\w+)/);
+            tmp = cal_event.location.match(/@([\w-]+)/);
             let room = 'Room';
             let room_name = '000';
             [room,room_name] = tmp[1].split('_');
