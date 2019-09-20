@@ -106,6 +106,22 @@
     "type": "Defense", 
     "year": "3"
   },
+  "E10F20190920T111251801@jeesay": {
+    "ID": "E10F20190920T111251801@jeesay", 
+    "acronym": "Evt::Presentation", 
+    "apogee": "4TBIWRKG", 
+    "date_end": "2019-10-11T12:00", 
+    "date_start": "2019-10-11T13:00", 
+    "description": "Presentation des UEs optionnelles pour le semestre de printemps| <i>Presentation of elective courses for the Spring semester</i>", 
+    "group": "All", 
+    "lecturer": "--  ", 
+    "location": "Talence::B16@Room_09", 
+    "summary": "4TBIDFNS", 
+    "title": "Presentation des UEs optionnelles", 
+    "tracks": "0x0F", 
+    "type": "Presentation", 
+    "year": "1"
+  },
   "E30720190726T134849025@jeesay": {
     "ID": "E30720190726T134849025@jeesay", 
     "acronym": "Evt::Holidays", 
