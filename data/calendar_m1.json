@@ -464,21 +464,6 @@
     "ID": "C10F20191010T073721031@import",
     "group": "A2"
   },
-  "C10F20191010T073721032@import": {
-    "date_start": "2019-10-24T09:30",
-    "date_end": "2019-10-24T12:30",
-    "apogee": "4TBI702U",
-    "acronym": "S07::APU",
-    "isCourse": true,
-    "year": 1,
-    "tracks": "0F",
-    "lecturer": "Beurton-Aimar M",
-    "type": "Cours/TD",
-    "location": "Talence::A28-CREMI@Room_207",
-    "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:43\\,APOGEE:4TBI702U",
-    "ID": "C10F20191010T073721032@import",
-    "group": "A1"
-  },
   "C10F20191010T073721033@import": {
     "date_start": "2019-11-14T09:30",
     "date_end": "2019-11-14T12:30",
