@@ -256,6 +256,21 @@
     "tracks": "0x07", 
     "type": "Vacances", 
     "year": "3"
+  },
+    "E30F20191103T135907002@jeesay": {
+    "ID": "E30F20191103T135907002@jeesay", 
+    "acronym": "Evt::Conference", 
+    "apogee": "4TBIMEET", 
+    "date_end": "2019-11-22T08:30", 
+    "date_start": "2019-11-22T15:00", 
+    "description": "<p>Workshop Fili&egrave;res de la Bioinformatique</p>", 
+    "group": "All", 
+    "lecturer": "------", 
+    "location": "Talence::A30@Amphi_000", 
+    "title": "Workshop Fili&egrave;res de la Bioinformatique", 
+    "tracks": "0x0F", 
+    "type": "Presentation", 
+    "year": "3"
   }
 
 }
