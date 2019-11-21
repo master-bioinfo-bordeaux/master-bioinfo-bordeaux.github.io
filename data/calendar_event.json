@@ -257,7 +257,7 @@
     "type": "Vacances", 
     "year": "3"
   },
-    "E30720191103T135907002@jeesay": {
+  "E30720191103T135907002@jeesay": {
     "ID": "E30720191103T135907002@jeesay", 
     "acronym": "Evt::Conference", 
     "apogee": "4TBIMEET", 
@@ -269,7 +269,7 @@
     "location": "Talence::A30@Amphi_000", 
     "title": "Workshop Fili&egrave;res de la Bioinformatique", 
     "tracks": "0x07", 
-    "type": "Presentation", 
+    "type": "Conference", 
     "year": "3"
   }
 
