@@ -1,5 +1,230 @@
 {
-  "C10F20191125T131815001@import": {
+  "C10120200102T182015001@import": {
+    "date_start": "2020-01-08T08:00",
+    "date_end": "2020-01-08T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015001@import",
+    "group": "A1"
+  },
+  "C10120200102T182015002@import": {
+    "date_start": "2020-01-15T08:00",
+    "date_end": "2020-01-15T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015002@import",
+    "group": "A1"
+  },
+  "C10120200102T182015003@import": {
+    "date_start": "2020-01-22T08:00",
+    "date_end": "2020-01-22T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015003@import",
+    "group": "A1"
+  },
+  "C10120200102T182015004@import": {
+    "date_start": "2020-01-29T08:00",
+    "date_end": "2020-01-29T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:5\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015004@import",
+    "group": "A1"
+  },
+  "C10120200102T182015005@import": {
+    "date_start": "2020-02-05T08:00",
+    "date_end": "2020-02-05T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:6\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015005@import",
+    "group": "A1"
+  },
+  "C10120200102T182015006@import": {
+    "date_start": "2020-02-12T08:00",
+    "date_end": "2020-02-12T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015006@import",
+    "group": "A1"
+  },
+  "C10120200102T182015007@import": {
+    "date_start": "2020-02-19T08:00",
+    "date_end": "2020-02-19T11:00",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Beurton-Aimar M",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015007@import",
+    "group": "A1"
+  },
+  "C10120200102T182015008@import": {
+    "date_start": "2020-02-26T09:30",
+    "date_end": "2020-02-26T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015008@import",
+    "group": "A1"
+  },
+  "C10120200102T182015009@import": {
+    "date_start": "2020-02-24T09:30",
+    "date_end": "2020-02-24T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015009@import",
+    "group": "A1"
+  },
+  "C10120200102T182015010@import": {
+    "date_start": "2020-03-11T09:30",
+    "date_end": "2020-03-11T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015010@import",
+    "group": "A1"
+  },
+  "C10120200102T182015011@import": {
+    "date_start": "2020-03-18T09:30",
+    "date_end": "2020-03-18T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015011@import",
+    "group": "A1"
+  },
+  "C10120200102T182015012@import": {
+    "date_start": "2020-03-25T09:30",
+    "date_end": "2020-03-25T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015012@import",
+    "group": "A1"
+  },
+  "C10120200102T182015013@import": {
+    "date_start": "2020-04-01T09:30",
+    "date_end": "2020-04-01T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015013@import",
+    "group": "A1"
+  },
+  "C10120200102T182015014@import": {
+    "date_start": "2020-04-08T09:30",
+    "date_end": "2020-04-08T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015014@import",
+    "group": "A1"
+  },
+  "C10120200102T182015015@import": {
+    "date_start": "2020-04-15T09:30",
+    "date_end": "2020-04-15T12:30",
+    "apogee": "4TBI801U",
+    "acronym": "S08::AlgoPrg2",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "01",
+    "lecturer": "Boussicault A",
+    "type": "Cours",
+    "location": "Talence::None?@Room_None?",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
+    "ID": "C10120200102T182015015@import",
+    "group": "A1"
+  },
+  "C10F20200102T182015016@import": {
     "date_start": "2019-09-25T15:30",
     "date_end": "2019-09-25T17:30",
     "apogee": "4TBI704U",
@@ -11,10 +236,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:39\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815001@import",
+    "ID": "C10F20200102T182015016@import",
     "group": "A2"
   },
-  "C10F20191125T131815002@import": {
+  "C10F20200102T182015017@import": {
     "date_start": "2019-11-20T13:20",
     "date_end": "2019-11-20T15:20",
     "apogee": "4TBI704U",
@@ -26,10 +251,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:47\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815002@import",
+    "ID": "C10F20200102T182015017@import",
     "group": "A1"
   },
-  "C10F20191125T131815003@import": {
+  "C10F20200102T182015018@import": {
     "date_start": "2019-10-09T13:20",
     "date_end": "2019-10-09T15:20",
     "apogee": "4TBI704U",
@@ -41,10 +266,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:41\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815003@import",
+    "ID": "C10F20200102T182015018@import",
     "group": "A1"
   },
-  "C10F20191125T131815004@import": {
+  "C10F20200102T182015019@import": {
     "date_start": "2019-11-06T13:20",
     "date_end": "2019-11-06T15:20",
     "apogee": "4TBI704U",
@@ -56,10 +281,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:45\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815004@import",
+    "ID": "C10F20200102T182015019@import",
     "group": "A1"
   },
-  "C10F20191125T131815005@import": {
+  "C10F20200102T182015020@import": {
     "date_start": "2019-09-18T13:20",
     "date_end": "2019-09-18T15:20",
     "apogee": "4TBI704U",
@@ -71,10 +296,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:38\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815005@import",
+    "ID": "C10F20200102T182015020@import",
     "group": "A1"
   },
-  "C10F20191125T131815006@import": {
+  "C10F20200102T182015021@import": {
     "date_start": "2019-10-09T15:30",
     "date_end": "2019-10-09T17:30",
     "apogee": "4TBI704U",
@@ -86,10 +311,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:41\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815006@import",
+    "ID": "C10F20200102T182015021@import",
     "group": "A2"
   },
-  "C10F20191125T131815007@import": {
+  "C10F20200102T182015022@import": {
     "date_start": "2019-10-16T13:20",
     "date_end": "2019-10-16T15:20",
     "apogee": "4TBI704U",
@@ -101,10 +326,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:42\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815007@import",
+    "ID": "C10F20200102T182015022@import",
     "group": "A1"
   },
-  "C10F20191125T131815008@import": {
+  "C10F20200102T182015023@import": {
     "date_start": "2019-11-20T15:30",
     "date_end": "2019-11-20T17:30",
     "apogee": "4TBI704U",
@@ -116,10 +341,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:47\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815008@import",
+    "ID": "C10F20200102T182015023@import",
     "group": "A2"
   },
-  "C10F20191125T131815009@import": {
+  "C10F20200102T182015024@import": {
     "date_start": "2019-09-25T13:20",
     "date_end": "2019-09-25T15:20",
     "apogee": "4TBI704U",
@@ -131,10 +356,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:39\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815009@import",
+    "ID": "C10F20200102T182015024@import",
     "group": "A1"
   },
-  "C10F20191125T131815010@import": {
+  "C10F20200102T182015025@import": {
     "date_start": "2019-11-13T15:30",
     "date_end": "2019-11-13T17:30",
     "apogee": "4TBI704U",
@@ -146,10 +371,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:46\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815010@import",
+    "ID": "C10F20200102T182015025@import",
     "group": "A2"
   },
-  "C10F20191125T131815011@import": {
+  "C10F20200102T182015026@import": {
     "date_start": "2019-10-02T15:30",
     "date_end": "2019-10-02T17:30",
     "apogee": "4TBI704U",
@@ -161,10 +386,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:40\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815011@import",
+    "ID": "C10F20200102T182015026@import",
     "group": "A2"
   },
-  "C10F20191125T131815012@import": {
+  "C10F20200102T182015027@import": {
     "date_start": "2019-11-13T13:20",
     "date_end": "2019-11-13T15:20",
     "apogee": "4TBI704U",
@@ -176,10 +401,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:46\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815012@import",
+    "ID": "C10F20200102T182015027@import",
     "group": "A1"
   },
-  "C10F20191125T131815013@import": {
+  "C10F20200102T182015028@import": {
     "date_start": "2019-09-18T15:30",
     "date_end": "2019-09-18T17:30",
     "apogee": "4TBI704U",
@@ -191,10 +416,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:38\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815013@import",
+    "ID": "C10F20200102T182015028@import",
     "group": "A2"
   },
-  "C10F20191125T131815014@import": {
+  "C10F20200102T182015029@import": {
     "date_start": "2019-10-16T15:30",
     "date_end": "2019-10-16T17:30",
     "apogee": "4TBI704U",
@@ -206,10 +431,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:42\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815014@import",
+    "ID": "C10F20200102T182015029@import",
     "group": "A2"
   },
-  "C10F20191125T131815015@import": {
+  "C10F20200102T182015030@import": {
     "date_start": "2019-10-02T13:20",
     "date_end": "2019-10-02T15:20",
     "apogee": "4TBI704U",
@@ -221,10 +446,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:40\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815015@import",
+    "ID": "C10F20200102T182015030@import",
     "group": "A1"
   },
-  "C10F20191125T131815016@import": {
+  "C10F20200102T182015031@import": {
     "date_start": "2019-11-06T15:30",
     "date_end": "2019-11-06T17:30",
     "apogee": "4TBI704U",
@@ -236,10 +461,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:45\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815016@import",
+    "ID": "C10F20200102T182015031@import",
     "group": "A2"
   },
-  "C10F20191125T131815017@import": {
+  "C10F20200102T182015032@import": {
     "date_start": "2019-09-11T13:20",
     "date_end": "2019-09-11T15:20",
     "apogee": "4TBI704U",
@@ -251,10 +476,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_153",
     "title": "DESCRIPTION:CELCAT_ID:423641\\,WEEK:37\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815017@import",
+    "ID": "C10F20200102T182015032@import",
     "group": "A1"
   },
-  "C10F20191125T131815018@import": {
+  "C10F20200102T182015033@import": {
     "date_start": "2019-11-27T13:20",
     "date_end": "2019-11-27T15:20",
     "apogee": "4TBI704U",
@@ -266,10 +491,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423662\\,WEEK:48\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815018@import",
+    "ID": "C10F20200102T182015033@import",
     "group": "A1"
   },
-  "C10F20191125T131815019@import": {
+  "C10F20200102T182015034@import": {
     "date_start": "2019-11-27T15:30",
     "date_end": "2019-11-27T17:30",
     "apogee": "4TBI704U",
@@ -281,10 +506,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_253",
     "title": "DESCRIPTION:CELCAT_ID:423663\\,WEEK:48\\,APOGEE:4TBI704U",
-    "ID": "C10F20191125T131815019@import",
+    "ID": "C10F20200102T182015034@import",
     "group": "A2"
   },
-  "C10F20191125T131815020@import": {
+  "C10F20200102T182015035@import": {
     "date_start": "2019-10-18T14:00",
     "date_end": "2019-10-18T17:00",
     "apogee": "4TBI702U",
@@ -296,10 +521,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_201",
     "title": "DESCRIPTION:CELCAT_ID:423676\\,WEEK:42\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815020@import",
+    "ID": "C10F20200102T182015035@import",
     "group": "A1"
   },
-  "C10F20191125T131815021@import": {
+  "C10F20200102T182015036@import": {
     "date_start": "2019-09-26T09:30",
     "date_end": "2019-09-26T12:30",
     "apogee": "4TBI702U",
@@ -311,10 +536,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423673\\,WEEK:39\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815021@import",
+    "ID": "C10F20200102T182015036@import",
     "group": "A2"
   },
-  "C10F20191125T131815022@import": {
+  "C10F20200102T182015037@import": {
     "date_start": "2019-09-04T09:30",
     "date_end": "2019-09-04T12:30",
     "apogee": "4TBI702U",
@@ -326,10 +551,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_101",
     "title": "DESCRIPTION:CELCAT_ID:423615\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815022@import",
+    "ID": "C10F20200102T182015037@import",
     "group": "A1"
   },
-  "C10F20191125T131815023@import": {
+  "C10F20200102T182015038@import": {
     "date_start": "2019-10-03T09:30",
     "date_end": "2019-10-03T12:30",
     "apogee": "4TBI702U",
@@ -341,10 +566,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:423675\\,WEEK:40\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815023@import",
+    "ID": "C10F20200102T182015038@import",
     "group": "A2"
   },
-  "C10F20191125T131815024@import": {
+  "C10F20200102T182015039@import": {
     "date_start": "2019-09-17T14:00",
     "date_end": "2019-09-17T17:00",
     "apogee": "4TBI702U",
@@ -356,10 +581,10 @@
     "type": "TD",
     "location": "Talence::None@Room_000",
     "title": "DESCRIPTION:CELCAT_ID:423660\\,WEEK:38\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815024@import",
+    "ID": "C10F20200102T182015039@import",
     "group": "A2"
   },
-  "C10F20191125T131815025@import": {
+  "C10F20200102T182015040@import": {
     "date_start": "2019-09-10T14:00",
     "date_end": "2019-09-10T17:00",
     "apogee": "4TBI702U",
@@ -371,10 +596,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_104",
     "title": "DESCRIPTION:CELCAT_ID:423635\\,WEEK:37\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815025@import",
+    "ID": "C10F20200102T182015040@import",
     "group": "A1"
   },
-  "C10F20191125T131815026@import": {
+  "C10F20200102T182015041@import": {
     "date_start": "2019-09-04T14:00",
     "date_end": "2019-09-04T17:00",
     "apogee": "4TBI702U",
@@ -386,10 +611,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_102",
     "title": "DESCRIPTION:CELCAT_ID:423620\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815026@import",
+    "ID": "C10F20200102T182015041@import",
     "group": "A2"
   },
-  "C10F20191125T131815027@import": {
+  "C10F20200102T182015042@import": {
     "date_start": "2019-09-18T09:30",
     "date_end": "2019-09-18T12:30",
     "apogee": "4TBI702U",
@@ -401,10 +626,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_404",
     "title": "DESCRIPTION:CELCAT_ID:423661\\,WEEK:38\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815027@import",
+    "ID": "C10F20200102T182015042@import",
     "group": "All"
   },
-  "C10F20191125T131815028@import": {
+  "C10F20200102T182015043@import": {
     "date_start": "2019-11-14T09:30",
     "date_end": "2019-11-14T12:30",
     "apogee": "4TBI702U",
@@ -416,10 +641,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:423675\\,WEEK:46\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815028@import",
+    "ID": "C10F20200102T182015043@import",
     "group": "A2"
   },
-  "C10F20191125T131815029@import": {
+  "C10F20200102T182015044@import": {
     "date_start": "2019-10-25T14:00",
     "date_end": "2019-10-25T17:00",
     "apogee": "4TBI702U",
@@ -431,10 +656,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_201",
     "title": "DESCRIPTION:CELCAT_ID:423676\\,WEEK:43\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815029@import",
+    "ID": "C10F20200102T182015044@import",
     "group": "A1"
   },
-  "C10F20191125T131815030@import": {
+  "C10F20200102T182015045@import": {
     "date_start": "2019-11-07T09:30",
     "date_end": "2019-11-07T12:30",
     "apogee": "4TBI702U",
@@ -446,10 +671,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:45\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815030@import",
+    "ID": "C10F20200102T182015045@import",
     "group": "A1"
   },
-  "C10F20191125T131815031@import": {
+  "C10F20200102T182015046@import": {
     "date_start": "2019-11-07T09:30",
     "date_end": "2019-11-07T12:30",
     "apogee": "4TBI702U",
@@ -461,10 +686,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:423675\\,WEEK:45\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815031@import",
+    "ID": "C10F20200102T182015046@import",
     "group": "A2"
   },
-  "C10F20191125T131815032@import": {
+  "C10F20200102T182015047@import": {
     "date_start": "2019-11-14T09:30",
     "date_end": "2019-11-14T12:30",
     "apogee": "4TBI702U",
@@ -476,10 +701,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:46\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815032@import",
+    "ID": "C10F20200102T182015047@import",
     "group": "A1"
   },
-  "C10F20191125T131815033@import": {
+  "C10F20200102T182015048@import": {
     "date_start": "2019-10-10T09:30",
     "date_end": "2019-10-10T12:30",
     "apogee": "4TBI702U",
@@ -491,10 +716,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:41\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815033@import",
+    "ID": "C10F20200102T182015048@import",
     "group": "A1"
   },
-  "C10F20191125T131815034@import": {
+  "C10F20200102T182015049@import": {
     "date_start": "2019-09-03T09:30",
     "date_end": "2019-09-03T11:00",
     "apogee": "4TBI702U",
@@ -506,10 +731,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423614\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815034@import",
+    "ID": "C10F20200102T182015049@import",
     "group": "All"
   },
-  "C10F20191125T131815035@import": {
+  "C10F20200102T182015050@import": {
     "date_start": "2019-09-04T14:00",
     "date_end": "2019-09-04T17:00",
     "apogee": "4TBI702U",
@@ -521,10 +746,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_101",
     "title": "DESCRIPTION:CELCAT_ID:423619\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815035@import",
+    "ID": "C10F20200102T182015050@import",
     "group": "A1"
   },
-  "C10F20191125T131815036@import": {
+  "C10F20200102T182015051@import": {
     "date_start": "2019-10-10T09:30",
     "date_end": "2019-10-10T12:30",
     "apogee": "4TBI702U",
@@ -536,10 +761,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:423675\\,WEEK:41\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815036@import",
+    "ID": "C10F20200102T182015051@import",
     "group": "A2"
   },
-  "C10F20191125T131815037@import": {
+  "C10F20200102T182015052@import": {
     "date_start": "2019-09-06T09:30",
     "date_end": "2019-09-06T12:30",
     "apogee": "4TBI702U",
@@ -551,10 +776,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_101",
     "title": "DESCRIPTION:CELCAT_ID:423627\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815037@import",
+    "ID": "C10F20200102T182015052@import",
     "group": "A1"
   },
-  "C10F20191125T131815038@import": {
+  "C10F20200102T182015053@import": {
     "date_start": "2019-10-03T09:30",
     "date_end": "2019-10-03T12:30",
     "apogee": "4TBI702U",
@@ -566,10 +791,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:40\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815038@import",
+    "ID": "C10F20200102T182015053@import",
     "group": "A1"
   },
-  "C10F20191125T131815039@import": {
+  "C10F20200102T182015054@import": {
     "date_start": "2019-09-17T14:00",
     "date_end": "2019-09-17T17:00",
     "apogee": "4TBI702U",
@@ -581,10 +806,10 @@
     "type": "TD",
     "location": "Talence::None@Room_000",
     "title": "DESCRIPTION:CELCAT_ID:423659\\,WEEK:38\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815039@import",
+    "ID": "C10F20200102T182015054@import",
     "group": "A1"
   },
-  "C10F20191125T131815040@import": {
+  "C10F20200102T182015055@import": {
     "date_start": "2019-09-04T09:30",
     "date_end": "2019-09-04T12:30",
     "apogee": "4TBI702U",
@@ -596,10 +821,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_102",
     "title": "DESCRIPTION:CELCAT_ID:423616\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815040@import",
+    "ID": "C10F20200102T182015055@import",
     "group": "A2"
   },
-  "C10F20191125T131815041@import": {
+  "C10F20200102T182015056@import": {
     "date_start": "2019-10-17T09:30",
     "date_end": "2019-10-17T12:30",
     "apogee": "4TBI702U",
@@ -611,10 +836,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:42\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815041@import",
+    "ID": "C10F20200102T182015056@import",
     "group": "A1"
   },
-  "C10F20191125T131815042@import": {
+  "C10F20200102T182015057@import": {
     "date_start": "2019-09-05T09:30",
     "date_end": "2019-09-05T12:30",
     "apogee": "4TBI702U",
@@ -626,10 +851,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_101",
     "title": "DESCRIPTION:CELCAT_ID:423623\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815042@import",
+    "ID": "C10F20200102T182015057@import",
     "group": "A1"
   },
-  "C10F20191125T131815043@import": {
+  "C10F20200102T182015058@import": {
     "date_start": "2019-10-11T14:00",
     "date_end": "2019-10-11T17:00",
     "apogee": "4TBI702U",
@@ -641,10 +866,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_201",
     "title": "DESCRIPTION:CELCAT_ID:423676\\,WEEK:41\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815043@import",
+    "ID": "C10F20200102T182015058@import",
     "group": "A1"
   },
-  "C10F20191125T131815044@import": {
+  "C10F20200102T182015059@import": {
     "date_start": "2019-09-10T14:00",
     "date_end": "2019-09-10T17:00",
     "apogee": "4TBI702U",
@@ -656,10 +881,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_206",
     "title": "DESCRIPTION:CELCAT_ID:423637\\,WEEK:37\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815044@import",
+    "ID": "C10F20200102T182015059@import",
     "group": "A2"
   },
-  "C10F20191125T131815045@import": {
+  "C10F20200102T182015060@import": {
     "date_start": "2019-09-05T09:30",
     "date_end": "2019-09-05T12:30",
     "apogee": "4TBI702U",
@@ -671,10 +896,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_102",
     "title": "DESCRIPTION:CELCAT_ID:423624\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815045@import",
+    "ID": "C10F20200102T182015060@import",
     "group": "A2"
   },
-  "C10F20191125T131815046@import": {
+  "C10F20200102T182015061@import": {
     "date_start": "2019-09-02T14:00",
     "date_end": "2019-09-02T15:20",
     "apogee": "4TBI702U",
@@ -686,10 +911,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423613\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815046@import",
+    "ID": "C10F20200102T182015061@import",
     "group": "All"
   },
-  "C10F20191125T131815047@import": {
+  "C10F20200102T182015062@import": {
     "date_start": "2019-09-17T09:30",
     "date_end": "2019-09-17T12:30",
     "apogee": "4TBI702U",
@@ -701,10 +926,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_202",
     "title": "DESCRIPTION:CELCAT_ID:423672\\,WEEK:38\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815047@import",
+    "ID": "C10F20200102T182015062@import",
     "group": "A1"
   },
-  "C10F20191125T131815048@import": {
+  "C10F20200102T182015063@import": {
     "date_start": "2019-09-06T09:30",
     "date_end": "2019-09-06T12:30",
     "apogee": "4TBI702U",
@@ -716,10 +941,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_102",
     "title": "DESCRIPTION:CELCAT_ID:423628\\,WEEK:36\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815048@import",
+    "ID": "C10F20200102T182015063@import",
     "group": "A2"
   },
-  "C10F20191125T131815049@import": {
+  "C10F20200102T182015064@import": {
     "date_start": "2019-09-24T14:00",
     "date_end": "2019-09-24T17:00",
     "apogee": "4TBI702U",
@@ -731,10 +956,10 @@
     "type": "TD",
     "location": "Talence::None@Room_000",
     "title": "DESCRIPTION:CELCAT_ID:423659\\,WEEK:39\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815049@import",
+    "ID": "C10F20200102T182015064@import",
     "group": "A1"
   },
-  "C10F20191125T131815050@import": {
+  "C10F20200102T182015065@import": {
     "date_start": "2019-10-17T09:30",
     "date_end": "2019-10-17T12:30",
     "apogee": "4TBI702U",
@@ -746,10 +971,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:423675\\,WEEK:42\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815050@import",
+    "ID": "C10F20200102T182015065@import",
     "group": "A2"
   },
-  "C10F20191125T131815051@import": {
+  "C10F20200102T182015066@import": {
     "date_start": "2019-11-08T14:00",
     "date_end": "2019-11-08T17:00",
     "apogee": "4TBI702U",
@@ -761,10 +986,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_201",
     "title": "DESCRIPTION:CELCAT_ID:423676\\,WEEK:45\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815051@import",
+    "ID": "C10F20200102T182015066@import",
     "group": "A1"
   },
-  "C10F20191125T131815052@import": {
+  "C10F20200102T182015067@import": {
     "date_start": "2019-09-24T14:00",
     "date_end": "2019-09-24T17:00",
     "apogee": "4TBI702U",
@@ -776,10 +1001,10 @@
     "type": "TD",
     "location": "Talence::None@Room_000",
     "title": "DESCRIPTION:CELCAT_ID:423660\\,WEEK:39\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815052@import",
+    "ID": "C10F20200102T182015067@import",
     "group": "A2"
   },
-  "C10F20191125T131815053@import": {
+  "C10F20200102T182015068@import": {
     "date_start": "2019-09-19T09:30",
     "date_end": "2019-09-19T12:20",
     "apogee": "4TBI702U",
@@ -791,10 +1016,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_007",
     "title": "DESCRIPTION:\\nCELCAT_ID:444017\\,WEEK:38\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,G",
-    "ID": "C10F20191125T131815053@import",
+    "ID": "C10F20200102T182015068@import",
     "group": "A2"
   },
-  "C10F20191125T131815054@import": {
+  "C10F20200102T182015069@import": {
     "date_start": "2019-10-15T14:00",
     "date_end": "2019-10-15T16:50",
     "apogee": "4TBI702U",
@@ -806,10 +1031,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_009",
     "title": "DESCRIPTION:CELCAT_ID:444019\\,WEEK:42\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP",
-    "ID": "C10F20191125T131815054@import",
+    "ID": "C10F20200102T182015069@import",
     "group": "A2"
   },
-  "C10F20191125T131815055@import": {
+  "C10F20200102T182015070@import": {
     "date_start": "2019-10-15T14:00",
     "date_end": "2019-10-15T16:50",
     "apogee": "4TBI702U",
@@ -821,10 +1046,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_104",
     "title": "DESCRIPTION:CELCAT_ID:444215\\,WEEK:42\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP",
-    "ID": "C10F20191125T131815055@import",
+    "ID": "C10F20200102T182015070@import",
     "group": "A1"
   },
-  "C10F20191125T131815056@import": {
+  "C10F20200102T182015071@import": {
     "date_start": "2019-10-08T14:00",
     "date_end": "2019-10-08T16:50",
     "apogee": "4TBI702U",
@@ -836,10 +1061,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:\\nCELCAT_ID:444018\\,WEEK:41\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,G",
-    "ID": "C10F20191125T131815056@import",
+    "ID": "C10F20200102T182015071@import",
     "group": "A1"
   },
-  "C10F20191125T131815057@import": {
+  "C10F20200102T182015072@import": {
     "date_start": "2019-10-08T14:00",
     "date_end": "2019-10-08T16:50",
     "apogee": "4TBI702U",
@@ -851,10 +1076,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_202",
     "title": "DESCRIPTION:CELCAT_ID:444212\\,WEEK:41\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP",
-    "ID": "C10F20191125T131815057@import",
+    "ID": "C10F20200102T182015072@import",
     "group": "A2"
   },
-  "C10F20191125T131815058@import": {
+  "C10F20200102T182015073@import": {
     "date_start": "2019-10-11T14:00",
     "date_end": "2019-10-11T17:00",
     "apogee": "4TBI702U",
@@ -866,10 +1091,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-A",
     "title": "DESCRIPTION:CELCAT_ID:423677\\,WEEK:41\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815058@import",
+    "ID": "C10F20200102T182015073@import",
     "group": "A2"
   },
-  "C10F20191125T131815059@import": {
+  "C10F20200102T182015074@import": {
     "date_start": "2019-12-10T14:00",
     "date_end": "2019-12-10T16:50",
     "apogee": "4TBI702U",
@@ -881,10 +1106,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:50\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815059@import",
+    "ID": "C10F20200102T182015074@import",
     "group": "All"
   },
-  "C10F20191125T131815060@import": {
+  "C10F20200102T182015075@import": {
     "date_start": "2019-11-12T14:00",
     "date_end": "2019-11-12T16:50",
     "apogee": "4TBI702U",
@@ -896,10 +1121,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:46\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815060@import",
+    "ID": "C10F20200102T182015075@import",
     "group": "All"
   },
-  "C10F20191125T131815061@import": {
+  "C10F20200102T182015076@import": {
     "date_start": "2019-11-26T14:00",
     "date_end": "2019-11-26T16:50",
     "apogee": "4TBI702U",
@@ -911,10 +1136,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:48\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815061@import",
+    "ID": "C10F20200102T182015076@import",
     "group": "All"
   },
-  "C10F20191125T131815062@import": {
+  "C10F20200102T182015077@import": {
     "date_start": "2019-11-19T14:00",
     "date_end": "2019-11-19T16:50",
     "apogee": "4TBI702U",
@@ -926,10 +1151,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:47\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815062@import",
+    "ID": "C10F20200102T182015077@import",
     "group": "All"
   },
-  "C10F20191125T131815063@import": {
+  "C10F20200102T182015078@import": {
     "date_start": "2019-11-19T14:00",
     "date_end": "2019-11-19T16:50",
     "apogee": "4TBI702U",
@@ -941,10 +1166,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:47\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815063@import",
+    "ID": "C10F20200102T182015078@import",
     "group": "All"
   },
-  "C10F20191125T131815064@import": {
+  "C10F20200102T182016079@import": {
     "date_start": "2019-11-05T14:00",
     "date_end": "2019-11-05T16:50",
     "apogee": "4TBI702U",
@@ -956,10 +1181,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:45\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815064@import",
+    "ID": "C10F20200102T182016079@import",
     "group": "All"
   },
-  "C10F20191125T131815065@import": {
+  "C10F20200102T182016080@import": {
     "date_start": "2019-11-12T14:00",
     "date_end": "2019-11-12T16:50",
     "apogee": "4TBI702U",
@@ -971,10 +1196,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:46\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815065@import",
+    "ID": "C10F20200102T182016080@import",
     "group": "All"
   },
-  "C10F20191125T131815066@import": {
+  "C10F20200102T182016081@import": {
     "date_start": "2019-10-22T14:00",
     "date_end": "2019-10-22T16:50",
     "apogee": "4TBI702U",
@@ -986,10 +1211,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:43\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815066@import",
+    "ID": "C10F20200102T182016081@import",
     "group": "All"
   },
-  "C10F20191125T131815067@import": {
+  "C10F20200102T182016082@import": {
     "date_start": "2019-11-26T14:00",
     "date_end": "2019-11-26T16:50",
     "apogee": "4TBI702U",
@@ -1001,10 +1226,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:48\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815067@import",
+    "ID": "C10F20200102T182016082@import",
     "group": "All"
   },
-  "C10F20191125T131815068@import": {
+  "C10F20200102T182016083@import": {
     "date_start": "2019-12-10T14:00",
     "date_end": "2019-12-10T16:50",
     "apogee": "4TBI702U",
@@ -1016,10 +1241,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:50\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815068@import",
+    "ID": "C10F20200102T182016083@import",
     "group": "All"
   },
-  "C10F20191125T131815069@import": {
+  "C10F20200102T182016084@import": {
     "date_start": "2019-12-03T14:00",
     "date_end": "2019-12-03T16:50",
     "apogee": "4TBI702U",
@@ -1031,10 +1256,10 @@
     "type": "Cours/TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CL4_ID:446358\\,WEEK:49\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815069@import",
+    "ID": "C10F20200102T182016084@import",
     "group": "All"
   },
-  "C10F20191125T131815070@import": {
+  "C10F20200102T182016085@import": {
     "date_start": "2019-10-22T14:00",
     "date_end": "2019-10-22T16:50",
     "apogee": "4TBI702U",
@@ -1046,10 +1271,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:43\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815070@import",
+    "ID": "C10F20200102T182016085@import",
     "group": "All"
   },
-  "C10F20191125T131815071@import": {
+  "C10F20200102T182016086@import": {
     "date_start": "2019-12-03T14:00",
     "date_end": "2019-12-03T16:50",
     "apogee": "4TBI702U",
@@ -1061,10 +1286,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:49\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815071@import",
+    "ID": "C10F20200102T182016086@import",
     "group": "All"
   },
-  "C10F20191125T131815072@import": {
+  "C10F20200102T182016087@import": {
     "date_start": "2019-11-05T14:00",
     "date_end": "2019-11-05T16:50",
     "apogee": "4TBI702U",
@@ -1076,10 +1301,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CL4_ID:446350\\,WEEK:45\\,APO:\"4TBI702U\"\\,TYPE:\"Cours/TD\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815072@import",
+    "ID": "C10F20200102T182016087@import",
     "group": "All"
   },
-  "C10F20191125T131815073@import": {
+  "C10F20200102T182016088@import": {
     "date_start": "2019-10-01T14:00",
     "date_end": "2019-10-01T17:00",
     "apogee": "4TBI702U",
@@ -1091,10 +1316,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423659\\,WEEK:40\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815073@import",
+    "ID": "C10F20200102T182016088@import",
     "group": "A1"
   },
-  "C10F20191125T131815074@import": {
+  "C10F20200102T182016089@import": {
     "date_start": "2019-10-01T14:00",
     "date_end": "2019-10-01T17:00",
     "apogee": "4TBI702U",
@@ -1106,10 +1331,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_103",
     "title": "DESCRIPTION:CELCAT_ID:423660\\,WEEK:40\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815074@import",
+    "ID": "C10F20200102T182016089@import",
     "group": "A2"
   },
-  "C10F20191125T131815075@import": {
+  "C10F20200102T182016090@import": {
     "date_start": "2019-10-24T09:30",
     "date_end": "2019-10-24T12:30",
     "apogee": "4TBI702U",
@@ -1121,10 +1346,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:423674\\,WEEK:43\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815075@import",
+    "ID": "C10F20200102T182016090@import",
     "group": "All"
   },
-  "C10F20191125T131815076@import": {
+  "C10F20200102T182016091@import": {
     "date_start": "2019-11-28T09:30",
     "date_end": "2019-11-28T12:30",
     "apogee": "4TBI702U",
@@ -1136,10 +1361,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_104",
     "title": "DESCRIPTION:CELCAT_ID:? \\,WEEK:48\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815076@import",
+    "ID": "C10F20200102T182016091@import",
     "group": "A2"
   },
-  "C10F20191125T131815077@import": {
+  "C10F20200102T182016092@import": {
     "date_start": "2019-11-28T09:30",
     "date_end": "2019-11-28T12:30",
     "apogee": "4TBI702U",
@@ -1151,10 +1376,10 @@
     "type": "Cours/TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:?\\,WEEK:48\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815077@import",
+    "ID": "C10F20200102T182016092@import",
     "group": "A1"
   },
-  "C10F20191125T131815078@import": {
+  "C10F20200102T182016093@import": {
     "date_start": "2019-12-16T09:30",
     "date_end": "2019-12-16T11:00",
     "apogee": "4TBI702U",
@@ -1166,10 +1391,10 @@
     "type": "EXAMEN",
     "location": "Talence::A22@Room_201",
     "title": "DESCRIPTION:CELCAT_ID:465263 \\,WEEK:51\\,APOGEE:4TBI702U",
-    "ID": "C10F20191125T131815078@import",
+    "ID": "C10F20200102T182016093@import",
     "group": "All"
   },
-  "C10F20191125T131815079@import": {
+  "C10F20200102T182016094@import": {
     "date_start": "2019-12-19T09:30",
     "date_end": "2019-12-19T11:00",
     "apogee": "4TBI702U",
@@ -1181,10 +1406,610 @@
     "type": "EXAMEN",
     "location": "Talence::A29@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:465265 \\,WEEK:51\\,APOGEE:4TBI702U<br><br><ol><br></ol",
-    "ID": "C10F20191125T131815079@import",
+    "ID": "C10F20200102T182016094@import",
     "group": "All"
   },
-  "C10F20191125T131815080@import": {
+  "C16020200102T182016095@import": {
+    "date_start": "2020-01-21T14:00",
+    "date_end": "2020-01-21T16:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016095@import",
+    "group": "A2"
+  },
+  "C16020200102T182016096@import": {
+    "date_start": "2020-01-28T16:15",
+    "date_end": "2020-01-28T18:15",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:5\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016096@import",
+    "group": "A2"
+  },
+  "C16020200102T182016097@import": {
+    "date_start": "2020-01-31T10:15",
+    "date_end": "2020-01-31T12:15",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:5\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016097@import",
+    "group": "A2"
+  },
+  "C16020200102T182016098@import": {
+    "date_start": "2020-02-04T08:00",
+    "date_end": "2020-02-04T10:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:6\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016098@import",
+    "group": "A2"
+  },
+  "C16020200102T182016099@import": {
+    "date_start": "2020-02-06T14:00",
+    "date_end": "2020-02-06T16:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:6\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016099@import",
+    "group": "A2"
+  },
+  "C16020200102T182016100@import": {
+    "date_start": "2020-02-10T08:00",
+    "date_end": "2020-02-10T10:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016100@import",
+    "group": "A2"
+  },
+  "C16020200102T182016101@import": {
+    "date_start": "2020-02-14T08:00",
+    "date_end": "2020-02-14T10:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016101@import",
+    "group": "A2"
+  },
+  "C16020200102T182016102@import": {
+    "date_start": "2020-02-17T08:00",
+    "date_end": "2020-02-17T12:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016102@import",
+    "group": "A2"
+  },
+  "C16020200102T182016103@import": {
+    "date_start": "2020-02-17T14:00",
+    "date_end": "2020-02-17T18:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016103@import",
+    "group": "A2"
+  },
+  "C16020200102T182016104@import": {
+    "date_start": "2020-02-19T08:00",
+    "date_end": "2020-02-19T12:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016104@import",
+    "group": "A2"
+  },
+  "C16020200102T182016105@import": {
+    "date_start": "2020-02-19T14:00",
+    "date_end": "2020-02-19T18:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016105@import",
+    "group": "A2"
+  },
+  "C16020200102T182016106@import": {
+    "date_start": "2020-02-21T08:00",
+    "date_end": "2020-02-21T12:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016106@import",
+    "group": "A2"
+  },
+  "C16020200102T182016107@import": {
+    "date_start": "2020-02-21T14:00",
+    "date_end": "2020-02-21T18:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016107@import",
+    "group": "A2"
+  },
+  "C16020200102T182016108@import": {
+    "date_start": "2020-02-24T08:00",
+    "date_end": "2020-02-24T12:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016108@import",
+    "group": "A2"
+  },
+  "C16020200102T182016109@import": {
+    "date_start": "2020-02-24T14:00",
+    "date_end": "2020-02-24T18:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016109@import",
+    "group": "A2"
+  },
+  "C16020200102T182016110@import": {
+    "date_start": "2020-02-27T10:15",
+    "date_end": "2020-02-27T12:15",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016110@import",
+    "group": "A2"
+  },
+  "C16020200102T182016111@import": {
+    "date_start": "2020-03-12T08:00",
+    "date_end": "2020-03-12T10:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:11\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016111@import",
+    "group": "A2"
+  },
+  "C16020200102T182016112@import": {
+    "date_start": "2020-03-31T08:00",
+    "date_end": "2020-03-31T12:00",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:14\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016112@import",
+    "group": "A2"
+  },
+  "C16020200102T182016113@import": {
+    "date_start": "2020-02-06T10:15",
+    "date_end": "2020-02-06T12:15",
+    "apogee": "4TBA804U",
+    "acronym": "S08::BBP",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Delmas O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:6\\,APOGEE:4TBA804U",
+    "ID": "C16020200102T182016113@import",
+    "group": "A2"
+  },
+  "C10720200102T182016114@import": {
+    "date_start": "2020-01-20T15:30",
+    "date_end": "2020-01-20T18:20",
+    "apogee": "4TBI803U",
+    "acronym": "S08::BDD",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Pinaud B",
+    "type": "Cours",
+    "location": "None::None@Room_000",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBI803U",
+    "ID": "C10720200102T182016114@import",
+    "group": "All"
+  },
+  "C10720200102T182016115@import": {
+    "date_start": "2020-01-24T11:00",
+    "date_end": "2020-01-24T12:20",
+    "apogee": "4TBI803U",
+    "acronym": "S08::BDD",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Pinaud B",
+    "type": "TD",
+    "location": "None::None@Room_000",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBI803U",
+    "ID": "C10720200102T182016115@import",
+    "group": "All"
+  },
+  "C16020200102T182016116@import": {
+    "date_start": "2020-01-20T09:30",
+    "date_end": "2020-01-20T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "ALARD",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016116@import",
+    "group": "A2"
+  },
+  "C16020200102T182016117@import": {
+    "date_start": "2020-01-21T09:30",
+    "date_end": "2020-01-21T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "ALARD",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016117@import",
+    "group": "A2"
+  },
+  "C16020200102T182016118@import": {
+    "date_start": "2020-01-22T09:30",
+    "date_end": "2020-01-22T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Maire O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016118@import",
+    "group": "A2"
+  },
+  "C16020200102T182016119@import": {
+    "date_start": "2020-01-23T08:00",
+    "date_end": "2020-01-23T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "LEGEAY",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016119@import",
+    "group": "A2"
+  },
+  "C16020200102T182016120@import": {
+    "date_start": "2020-01-13T08:00",
+    "date_end": "2020-01-13T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016120@import",
+    "group": "A2"
+  },
+  "C16020200102T182016121@import": {
+    "date_start": "2020-01-14T09:30",
+    "date_end": "2020-01-14T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Maire O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016121@import",
+    "group": "A2"
+  },
+  "C16020200102T182016122@import": {
+    "date_start": "2020-01-14T14:00",
+    "date_end": "2020-01-14T17:00",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016122@import",
+    "group": "A2"
+  },
+  "C16020200102T182016123@import": {
+    "date_start": "2020-01-15T08:00",
+    "date_end": "2020-01-15T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016123@import",
+    "group": "A2"
+  },
+  "C16020200102T182016124@import": {
+    "date_start": "2020-01-16T09:30",
+    "date_end": "2020-01-16T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Maire O",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016124@import",
+    "group": "A2"
+  },
+  "C16020200102T182016125@import": {
+    "date_start": "2020-01-16T14:00",
+    "date_end": "2020-01-16T17:00",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "ALARD",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016125@import",
+    "group": "A2"
+  },
+  "C16020200102T182016126@import": {
+    "date_start": "2020-01-17T09:30",
+    "date_end": "2020-01-17T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "ALARD",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016126@import",
+    "group": "A2"
+  },
+  "C16020200102T182016127@import": {
+    "date_start": "2020-01-06T09:30",
+    "date_end": "2020-01-06T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016127@import",
+    "group": "A2"
+  },
+  "C16020200102T182016128@import": {
+    "date_start": "2020-01-06T14:00",
+    "date_end": "2020-01-06T17:00",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "MICHALET",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016128@import",
+    "group": "A2"
+  },
+  "C16020200102T182016129@import": {
+    "date_start": "2020-01-07T09:30",
+    "date_end": "2020-01-07T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "MICHALET",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016129@import",
+    "group": "A2"
+  },
+  "C16020200102T182016130@import": {
+    "date_start": "2020-01-07T14:00",
+    "date_end": "2020-01-07T17:00",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016130@import",
+    "group": "A2"
+  },
+  "C16020200102T182016131@import": {
+    "date_start": "2020-01-08T09:30",
+    "date_end": "2020-01-08T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "MICHALET",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016131@import",
+    "group": "A2"
+  },
+  "C16020200102T182016132@import": {
+    "date_start": "2020-01-08T14:00",
+    "date_end": "2020-01-08T17:00",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016132@import",
+    "group": "A2"
+  },
+  "C16020200102T182016133@import": {
+    "date_start": "2020-01-09T09:30",
+    "date_end": "2020-01-09T12:30",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "MICHALET",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016133@import",
+    "group": "A2"
+  },
+  "C16020200102T182016134@import": {
+    "date_start": "2020-01-10T14:00",
+    "date_end": "2020-01-10T17:00",
+    "apogee": "4TBE801U",
+    "acronym": "S08::BioDiv",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Gr&eacute;mare A",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:2\\,APOGEE:4TBE801U",
+    "ID": "C16020200102T182016134@import",
+    "group": "A2"
+  },
+  "C10F20200102T182016135@import": {
     "date_start": "2019-09-16T14:00",
     "date_end": "2019-09-16T17:00",
     "apogee": "4TBI705U",
@@ -1196,10 +2021,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:38\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815080@import",
+    "ID": "C10F20200102T182016135@import",
     "group": "A1"
   },
-  "C10F20191125T131815081@import": {
+  "C10F20200102T182016136@import": {
     "date_start": "2019-11-04T14:00",
     "date_end": "2019-11-04T17:00",
     "apogee": "4TBI705U",
@@ -1211,10 +2036,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:45\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815081@import",
+    "ID": "C10F20200102T182016136@import",
     "group": "A1"
   },
-  "C10F20191125T131815082@import": {
+  "C10F20200102T182016137@import": {
     "date_start": "2019-10-21T14:00",
     "date_end": "2019-10-21T17:00",
     "apogee": "4TBI705U",
@@ -1226,10 +2051,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:43\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815082@import",
+    "ID": "C10F20200102T182016137@import",
     "group": "A1"
   },
-  "C10F20191125T131815083@import": {
+  "C10F20200102T182016138@import": {
     "date_start": "2019-09-23T14:00",
     "date_end": "2019-09-23T17:00",
     "apogee": "4TBI705U",
@@ -1241,10 +2066,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:39\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815083@import",
+    "ID": "C10F20200102T182016138@import",
     "group": "A2"
   },
-  "C10F20191125T131815084@import": {
+  "C10F20200102T182016139@import": {
     "date_start": "2019-09-30T09:30",
     "date_end": "2019-09-30T12:30",
     "apogee": "4TBI705U",
@@ -1256,10 +2081,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423648\\,WEEK:40\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815084@import",
+    "ID": "C10F20200102T182016139@import",
     "group": "All"
   },
-  "C10F20191125T131815085@import": {
+  "C10F20200102T182016140@import": {
     "date_start": "2019-09-16T14:00",
     "date_end": "2019-09-16T17:00",
     "apogee": "4TBI705U",
@@ -1271,10 +2096,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:38\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815085@import",
+    "ID": "C10F20200102T182016140@import",
     "group": "A2"
   },
-  "C10F20191125T131815086@import": {
+  "C10F20200102T182016141@import": {
     "date_start": "2019-09-23T09:30",
     "date_end": "2019-09-23T12:30",
     "apogee": "4TBI705U",
@@ -1286,10 +2111,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423648\\,WEEK:39\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815086@import",
+    "ID": "C10F20200102T182016141@import",
     "group": "All"
   },
-  "C10F20191125T131815087@import": {
+  "C10F20200102T182016142@import": {
     "date_start": "2019-09-23T14:00",
     "date_end": "2019-09-23T17:00",
     "apogee": "4TBI705U",
@@ -1301,10 +2126,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:39\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815087@import",
+    "ID": "C10F20200102T182016142@import",
     "group": "A1"
   },
-  "C10F20191125T131815088@import": {
+  "C10F20200102T182016143@import": {
     "date_start": "2019-11-04T14:00",
     "date_end": "2019-11-04T17:00",
     "apogee": "4TBI705U",
@@ -1316,10 +2141,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:45\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815088@import",
+    "ID": "C10F20200102T182016143@import",
     "group": "A2"
   },
-  "C10F20191125T131815089@import": {
+  "C10F20200102T182016144@import": {
     "date_start": "2019-10-07T14:00",
     "date_end": "2019-10-07T17:00",
     "apogee": "4TBI705U",
@@ -1331,10 +2156,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:41\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815089@import",
+    "ID": "C10F20200102T182016144@import",
     "group": "A2"
   },
-  "C10F20191125T131815090@import": {
+  "C10F20200102T182016145@import": {
     "date_start": "2019-10-14T14:00",
     "date_end": "2019-10-14T17:00",
     "apogee": "4TBI705U",
@@ -1346,10 +2171,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:42\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815090@import",
+    "ID": "C10F20200102T182016145@import",
     "group": "A1"
   },
-  "C10F20191125T131815091@import": {
+  "C10F20200102T182016146@import": {
     "date_start": "2019-09-09T09:30",
     "date_end": "2019-09-09T12:30",
     "apogee": "4TBI705U",
@@ -1361,10 +2186,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423631\\,WEEK:37\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815091@import",
+    "ID": "C10F20200102T182016146@import",
     "group": "All"
   },
-  "C10F20191125T131815092@import": {
+  "C10F20200102T182016147@import": {
     "date_start": "2019-10-21T14:00",
     "date_end": "2019-10-21T17:00",
     "apogee": "4TBI705U",
@@ -1376,10 +2201,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:43\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815092@import",
+    "ID": "C10F20200102T182016147@import",
     "group": "A2"
   },
-  "C10F20191125T131815093@import": {
+  "C10F20200102T182016148@import": {
     "date_start": "2019-09-30T14:00",
     "date_end": "2019-09-30T17:00",
     "apogee": "4TBI705U",
@@ -1391,10 +2216,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:40\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815093@import",
+    "ID": "C10F20200102T182016148@import",
     "group": "A2"
   },
-  "C10F20191125T131815094@import": {
+  "C10F20200102T182016149@import": {
     "date_start": "2019-10-14T14:00",
     "date_end": "2019-10-14T17:00",
     "apogee": "4TBI705U",
@@ -1406,10 +2231,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423651\\,WEEK:42\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815094@import",
+    "ID": "C10F20200102T182016149@import",
     "group": "A2"
   },
-  "C10F20191125T131815095@import": {
+  "C10F20200102T182016150@import": {
     "date_start": "2019-09-30T14:00",
     "date_end": "2019-09-30T17:00",
     "apogee": "4TBI705U",
@@ -1421,10 +2246,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:40\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815095@import",
+    "ID": "C10F20200102T182016150@import",
     "group": "A1"
   },
-  "C10F20191125T131815096@import": {
+  "C10F20200102T182016151@import": {
     "date_start": "2019-09-16T09:30",
     "date_end": "2019-09-16T12:30",
     "apogee": "4TBI705U",
@@ -1436,10 +2261,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423648\\,WEEK:38\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815096@import",
+    "ID": "C10F20200102T182016151@import",
     "group": "All"
   },
-  "C10F20191125T131815097@import": {
+  "C10F20200102T182016152@import": {
     "date_start": "2019-10-07T14:00",
     "date_end": "2019-10-07T17:00",
     "apogee": "4TBI705U",
@@ -1451,10 +2276,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_207",
     "title": "DESCRIPTION:CELCAT_ID:423649\\,WEEK:41\\,APOGEE:4TBI705U",
-    "ID": "C10F20191125T131815097@import",
+    "ID": "C10F20200102T182016152@import",
     "group": "A1"
   },
-  "C10F20191125T131815098@import": {
+  "C10F20200102T182016153@import": {
     "date_start": "2019-12-17T14:30",
     "date_end": "2019-12-17T16:00",
     "apogee": "4TBI705U",
@@ -1464,12 +2289,327 @@
     "tracks": "0F",
     "lecturer": "Nogu&egrave;s X",
     "type": "EXAMEN",
-    "location": "Talence::A00@Room_000",
+    "location": "Talence::A09@Room_Amphi1",
     "title": "DESCRIPTION:",
-    "ID": "C10F20191125T131815098@import",
+    "ID": "C10F20200102T182016153@import",
     "group": "All"
   },
-  "C10F20191125T131815099@import": {
+  "C16020200102T182016154@import": {
+    "date_start": "NaN-NaN-NaNTNaN:NaN",
+    "date_end": "NaN-NaN-NaNTNaN:NaN",
+    "apogee": "4TBE802U",
+    "acronym": "S08::EcoTerr",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "------",
+    "type": "Cours+TD",
+    "location": "None::None@Room_000",
+    "title": "DESCRIPTION:",
+    "ID": "C16020200102T182016154@import",
+    "group": "All"
+  },
+  "C16020200102T182016155@import": {
+    "date_start": "NaN-NaN-NaNTNaN:NaN",
+    "date_end": "NaN-NaN-NaNTNaN:NaN",
+    "apogee": "4TBE802U",
+    "acronym": "S08::EcoTerr",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "------",
+    "type": "Cours+TD",
+    "location": "None::None@Room_000",
+    "title": "DESCRIPTION:",
+    "ID": "C16020200102T182016155@import",
+    "group": "All"
+  },
+  "C16020200102T182016156@import": {
+    "date_start": "NaN-NaN-NaNTNaN:NaN",
+    "date_end": "NaN-NaN-NaNTNaN:NaN",
+    "apogee": "4TBE802U",
+    "acronym": "S08::EcoTerr",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "------",
+    "type": "Cours+TD",
+    "location": "None::None@Room_000",
+    "title": "DESCRIPTION:",
+    "ID": "C16020200102T182016156@import",
+    "group": "All"
+  },
+  "C16020200102T182016157@import": {
+    "date_start": "2020-01-21T16:00",
+    "date_end": "2020-01-21T18:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016157@import",
+    "group": "A2"
+  },
+  "C16020200102T182016158@import": {
+    "date_start": "2020-01-28T08:00",
+    "date_end": "2020-01-28T10:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:5\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016158@import",
+    "group": "A2"
+  },
+  "C16020200102T182016159@import": {
+    "date_start": "2020-01-28T10:15",
+    "date_end": "2020-01-28T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:5\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016159@import",
+    "group": "A2"
+  },
+  "C16020200102T182016160@import": {
+    "date_start": "2020-01-29T10:00",
+    "date_end": "2020-01-29T12:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:5\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016160@import",
+    "group": "A2"
+  },
+  "C16020200102T182016161@import": {
+    "date_start": "2020-02-10T14:00",
+    "date_end": "2020-02-10T16:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016161@import",
+    "group": "A2"
+  },
+  "C16020200102T182016162@import": {
+    "date_start": "2020-02-12T14:00",
+    "date_end": "2020-02-12T18:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016162@import",
+    "group": "A2"
+  },
+  "C16020200102T182016163@import": {
+    "date_start": "2020-02-13T14:00",
+    "date_end": "2020-02-13T16:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016163@import",
+    "group": "A2"
+  },
+  "C16020200102T182016164@import": {
+    "date_start": "2020-02-14T14:00",
+    "date_end": "2020-02-14T18:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016164@import",
+    "group": "A2"
+  },
+  "C16020200102T182016165@import": {
+    "date_start": "2020-02-25T10:15",
+    "date_end": "2020-02-25T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016165@import",
+    "group": "A2"
+  },
+  "C16020200102T182016166@import": {
+    "date_start": "2020-02-27T08:00",
+    "date_end": "2020-02-27T10:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016166@import",
+    "group": "A2"
+  },
+  "C16020200102T182016167@import": {
+    "date_start": "2020-03-12T14:00",
+    "date_end": "2020-03-12T18:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:11\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016167@import",
+    "group": "A2"
+  },
+  "C16020200102T182016168@import": {
+    "date_start": "2020-03-16T08:00",
+    "date_end": "2020-03-16T10:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:12\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016168@import",
+    "group": "A2"
+  },
+  "C16020200102T182016169@import": {
+    "date_start": "2020-03-30T10:15",
+    "date_end": "2020-03-30T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:14\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016169@import",
+    "group": "A2"
+  },
+  "C16020200102T182016170@import": {
+    "date_start": "2020-04-01T10:15",
+    "date_end": "2020-04-01T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Conf",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:14\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016170@import",
+    "group": "A2"
+  },
+  "C16020200102T182016171@import": {
+    "date_start": "2020-01-24T08:00",
+    "date_end": "2020-01-24T10:00",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016171@import",
+    "group": "A2"
+  },
+  "C16020200102T182016172@import": {
+    "date_start": "2020-02-12T10:15",
+    "date_end": "2020-02-12T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016172@import",
+    "group": "A2"
+  },
+  "C16020200102T182016173@import": {
+    "date_start": "2020-02-11T10:15",
+    "date_end": "2020-02-11T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "TD",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016173@import",
+    "group": "A2"
+  },
+  "C16020200102T182016174@import": {
+    "date_start": "2020-03-23T08:00",
+    "date_end": "2020-03-23T12:15",
+    "apogee": "4TBA806U",
+    "acronym": "S08::Genepi",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "60",
+    "lecturer": "Schurdi-Levraud V",
+    "type": "Sortie",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:13\\,APOGEE:4TBA806U",
+    "ID": "C16020200102T182016174@import",
+    "group": "A2"
+  },
+  "C10F20200102T182016175@import": {
     "date_start": "2019-10-08T08:00",
     "date_end": "2019-10-08T09:20",
     "apogee": "4TBI701U",
@@ -1481,10 +2621,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423658\\,WEEK:41\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815099@import",
+    "ID": "C10F20200102T182016175@import",
     "group": "All"
   },
-  "C10F20191125T131815100@import": {
+  "C10F20200102T182016176@import": {
     "date_start": "2019-09-24T11:00",
     "date_end": "2019-09-24T12:30",
     "apogee": "4TBI701U",
@@ -1496,10 +2636,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423655\\,WEEK:39\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815100@import",
+    "ID": "C10F20200102T182016176@import",
     "group": "All"
   },
-  "C10F20191125T131815101@import": {
+  "C10F20200102T182016177@import": {
     "date_start": "2019-10-01T09:30",
     "date_end": "2019-10-01T12:30",
     "apogee": "4TBI701U",
@@ -1511,10 +2651,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423656\\,WEEK:40\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815101@import",
+    "ID": "C10F20200102T182016177@import",
     "group": "All"
   },
-  "C10F20191125T131815102@import": {
+  "C10F20200102T182016178@import": {
     "date_start": "2019-09-10T11:00",
     "date_end": "2019-09-10T12:20",
     "apogee": "4TBI701U",
@@ -1526,10 +2666,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423634\\,WEEK:37\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815102@import",
+    "ID": "C10F20200102T182016178@import",
     "group": "All"
   },
-  "C10F20191125T131815103@import": {
+  "C10F20200102T182016179@import": {
     "date_start": "2019-10-17T14:00",
     "date_end": "2019-10-17T18:00",
     "apogee": "4TBI701U",
@@ -1541,10 +2681,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_104",
     "title": "DESCRIPTION:CELCAT_ID:423669\\,WEEK:42\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815103@import",
+    "ID": "C10F20200102T182016179@import",
     "group": "A2"
   },
-  "C10F20191125T131815104@import": {
+  "C10F20200102T182016180@import": {
     "date_start": "2019-10-04T08:00",
     "date_end": "2019-10-04T12:20",
     "apogee": "4TBI701U",
@@ -1556,10 +2696,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_104",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:40\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815104@import",
+    "ID": "C10F20200102T182016180@import",
     "group": "A2"
   },
-  "C10F20191125T131815105@import": {
+  "C10F20200102T182016181@import": {
     "date_start": "2019-10-25T08:00",
     "date_end": "2019-10-25T12:20",
     "apogee": "4TBI701U",
@@ -1571,10 +2711,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_007",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:43\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815105@import",
+    "ID": "C10F20200102T182016181@import",
     "group": "A2"
   },
-  "C10F20191125T131815106@import": {
+  "C10F20200102T182016182@import": {
     "date_start": "2019-11-04T08:00",
     "date_end": "2019-11-04T12:00",
     "apogee": "4TBI701U",
@@ -1586,10 +2726,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_103",
     "title": "DESCRIPTION:CELCAT_ID:423669\\,WEEK:45\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815106@import",
+    "ID": "C10F20200102T182016182@import",
     "group": "A2"
   },
-  "C10F20191125T131815107@import": {
+  "C10F20200102T182016183@import": {
     "date_start": "2019-11-06T08:00",
     "date_end": "2019-11-06T12:20",
     "apogee": "4TBI701U",
@@ -1601,10 +2741,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_007",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:45\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815107@import",
+    "ID": "C10F20200102T182016183@import",
     "group": "A1"
   },
-  "C10F20191125T131815108@import": {
+  "C10F20200102T182016184@import": {
     "date_start": "2019-10-21T08:00",
     "date_end": "2019-10-21T12:00",
     "apogee": "4TBI701U",
@@ -1616,10 +2756,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_103",
     "title": "DESCRIPTION:CELCAT_ID:423669\\,WEEK:43\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815108@import",
+    "ID": "C10F20200102T182016184@import",
     "group": "A1"
   },
-  "C10F20191125T131815109@import": {
+  "C10F20200102T182016185@import": {
     "date_start": "2019-11-13T08:00",
     "date_end": "2019-11-13T12:20",
     "apogee": "4TBI701U",
@@ -1631,10 +2771,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:46\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815109@import",
+    "ID": "C10F20200102T182016185@import",
     "group": "A1"
   },
-  "C10F20191125T131815110@import": {
+  "C10F20200102T182016186@import": {
     "date_start": "2019-11-20T08:00",
     "date_end": "2019-11-20T12:20",
     "apogee": "4TBI701U",
@@ -1646,10 +2786,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_007",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:47\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815110@import",
+    "ID": "C10F20200102T182016186@import",
     "group": "A1"
   },
-  "C10F20191125T131815111@import": {
+  "C10F20200102T182016187@import": {
     "date_start": "2019-10-16T08:00",
     "date_end": "2019-10-16T12:20",
     "apogee": "4TBI701U",
@@ -1661,10 +2801,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423665\\,WEEK:42\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815111@import",
+    "ID": "C10F20200102T182016187@import",
     "group": "A1"
   },
-  "C10F20191125T131815112@import": {
+  "C10F20200102T182016188@import": {
     "date_start": "2019-10-10T14:00",
     "date_end": "2019-10-10T15:30",
     "apogee": "4TBI701U",
@@ -1676,10 +2816,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:450653\\,WEEK:41\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815112@import",
+    "ID": "C10F20200102T182016188@import",
     "group": "A1"
   },
-  "C10F20191125T131815113@import": {
+  "C10F20200102T182016189@import": {
     "date_start": "2019-10-10T16:00",
     "date_end": "2019-10-10T18:00",
     "apogee": "4TBI701U",
@@ -1691,10 +2831,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_201",
     "title": "DESCRIPTION:CELCAT_ID:450656\\,WEEK:41\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815113@import",
+    "ID": "C10F20200102T182016189@import",
     "group": "A1"
   },
-  "C10F20191125T131815114@import": {
+  "C10F20200102T182016190@import": {
     "date_start": "2019-11-18T08:00",
     "date_end": "2019-11-18T12:00",
     "apogee": "4TBI701U",
@@ -1706,10 +2846,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_206",
     "title": "DESCRIPTION:CELCAT_ID:?\\,WEEK:47\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815114@import",
+    "ID": "C10F20200102T182016190@import",
     "group": "A2"
   },
-  "C10F20191125T131815115@import": {
+  "C10F20200102T182016191@import": {
     "date_start": "2019-11-25T08:00",
     "date_end": "2019-11-25T12:00",
     "apogee": "4TBI701U",
@@ -1721,10 +2861,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_103",
     "title": "DESCRIPTION:CELCAT_ID:423669\\,WEEK:48\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815115@import",
+    "ID": "C10F20200102T182016191@import",
     "group": "A2"
   },
-  "C10F20191125T131815116@import": {
+  "C10F20200102T182016192@import": {
     "date_start": "2019-10-15T10:00",
     "date_end": "2019-10-15T12:00",
     "apogee": "4TBI701U",
@@ -1736,10 +2876,10 @@
     "type": "Cours",
     "location": "Talence::A29@Amphi_B",
     "title": "DESCRIPTION:CELCAT_ID:443396\\,WEEK:42\\,APO:\"4TBI701U\"\\,TYPE:\"Cours\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815116@import",
+    "ID": "C10F20200102T182016192@import",
     "group": "All"
   },
-  "C10F20191125T131815117@import": {
+  "C10F20200102T182016193@import": {
     "date_start": "2019-11-08T08:00",
     "date_end": "2019-11-08T12:20",
     "apogee": "4TBI701U",
@@ -1751,10 +2891,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:?\\,WEEK:45\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815117@import",
+    "ID": "C10F20200102T182016193@import",
     "group": "A2"
   },
-  "C10F20191125T131815118@import": {
+  "C10F20200102T182016194@import": {
     "date_start": "2019-11-18T14:00",
     "date_end": "2019-11-18T18:00",
     "apogee": "4TBI701U",
@@ -1766,10 +2906,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_206",
     "title": "DESCRIPTION:CELCAT_ID:?\\,WEEK:47\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815118@import",
+    "ID": "C10F20200102T182016194@import",
     "group": "A1"
   },
-  "C10F20191125T131815119@import": {
+  "C10F20200102T182016195@import": {
     "date_start": "2019-11-21T14:00",
     "date_end": "2019-11-21T18:00",
     "apogee": "4TBI701U",
@@ -1781,10 +2921,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_202",
     "title": "DESCRIPTION:CELCAT_ID:423669\\,WEEK:47\\,APOGEE:4TBI701U",
-    "ID": "C10F20191125T131815119@import",
+    "ID": "C10F20200102T182016195@import",
     "group": "A2"
   },
-  "C10F20191125T131815120@import": {
+  "C10F20200102T182016196@import": {
     "date_start": "2019-12-18T14:30",
     "date_end": "2019-12-18T16:00",
     "apogee": "4TBI701U",
@@ -1794,12 +2934,177 @@
     "tracks": "0F",
     "lecturer": "Taveau JC",
     "type": "EXAMEN",
-    "location": "Talence::A00@Room_000",
+    "location": "Talence::A09@Room_Amphi1",
     "title": "DESCRIPTION:",
-    "ID": "C10F20191125T131815120@import",
+    "ID": "C10F20200102T182016196@import",
     "group": "All"
   },
-  "C10F20191125T131815121@import": {
+  "C10720200102T182016197@import": {
+    "date_start": "2020-02-26T08:00",
+    "date_end": "2020-02-26T10:00",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016197@import",
+    "group": "All"
+  },
+  "C10720200102T182016198@import": {
+    "date_start": "2020-02-11T08:00",
+    "date_end": "2020-02-11T10:00",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:7\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016198@import",
+    "group": "All"
+  },
+  "C10720200102T182016199@import": {
+    "date_start": "2020-02-03T14:00",
+    "date_end": "2020-02-03T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:6\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016199@import",
+    "group": "All"
+  },
+  "C10720200102T182016200@import": {
+    "date_start": "2020-03-20T14:00",
+    "date_end": "2020-03-20T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:12\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016200@import",
+    "group": "A1"
+  },
+  "C10720200102T182016201@import": {
+    "date_start": "2020-03-20T14:00",
+    "date_end": "2020-03-20T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Th&eacute;bault P",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:12\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016201@import",
+    "group": "A2"
+  },
+  "C10720200102T182016202@import": {
+    "date_start": "2020-03-27T14:00",
+    "date_end": "2020-03-27T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:13\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016202@import",
+    "group": "A1"
+  },
+  "C10720200102T182016203@import": {
+    "date_start": "2020-03-27T14:00",
+    "date_end": "2020-03-27T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Th&eacute;bault P",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:13\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016203@import",
+    "group": "A2"
+  },
+  "C10720200102T182016204@import": {
+    "date_start": "2020-04-01T14:00",
+    "date_end": "2020-04-01T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:14\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016204@import",
+    "group": "A1"
+  },
+  "C10720200102T182016205@import": {
+    "date_start": "2020-04-01T14:00",
+    "date_end": "2020-04-01T18:15",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Th&eacute;bault P",
+    "type": "TD machine",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:14\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016205@import",
+    "group": "A2"
+  },
+  "C10720200102T182016206@import": {
+    "date_start": "2020-04-09T14:30",
+    "date_end": "2020-04-09T16:00",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "EXAM",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:15\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016206@import",
+    "group": "All"
+  },
+  "C10720200102T182016207@import": {
+    "date_start": "2020-02-28T08:00",
+    "date_end": "2020-02-28T10:00",
+    "apogee": "4TBI804U",
+    "acronym": "S08::NGS",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "07",
+    "lecturer": "Sirand-Pugnet P",
+    "type": "Cours",
+    "location": "Talence::None@Room_None",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:9\\,APOGEE:4TBI804U",
+    "ID": "C10720200102T182016207@import",
+    "group": "All"
+  },
+  "C10F20200102T182016208@import": {
     "date_start": "2019-11-20T08:00",
     "date_end": "2019-11-20T12:20",
     "apogee": "4TBI703U",
@@ -1811,10 +3116,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423664\\,WEEK:47\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815121@import",
+    "ID": "C10F20200102T182016208@import",
     "group": "A2"
   },
-  "C10F20191125T131815122@import": {
+  "C10F20200102T182016209@import": {
     "date_start": "2019-10-01T08:00",
     "date_end": "2019-10-01T09:20",
     "apogee": "4TBI703U",
@@ -1826,10 +3131,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423657\\,WEEK:40\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815122@import",
+    "ID": "C10F20200102T182016209@import",
     "group": "All"
   },
-  "C10F20191125T131815123@import": {
+  "C10F20200102T182016210@import": {
     "date_start": "2019-09-24T08:00",
     "date_end": "2019-09-24T10:50",
     "apogee": "4TBI703U",
@@ -1841,10 +3146,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423654\\,WEEK:39\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815123@import",
+    "ID": "C10F20200102T182016210@import",
     "group": "All"
   },
-  "C10F20191125T131815124@import": {
+  "C10F20200102T182016211@import": {
     "date_start": "2019-10-16T08:00",
     "date_end": "2019-10-16T12:20",
     "apogee": "4TBI703U",
@@ -1856,10 +3161,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423664\\,WEEK:42\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815124@import",
+    "ID": "C10F20200102T182016211@import",
     "group": "A2"
   },
-  "C10F20191125T131815125@import": {
+  "C10F20200102T182016212@import": {
     "date_start": "2019-11-13T08:00",
     "date_end": "2019-11-13T12:20",
     "apogee": "4TBI703U",
@@ -1871,10 +3176,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_205",
     "title": "DESCRIPTION:CELCAT_ID:423664\\,WEEK:46\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815125@import",
+    "ID": "C10F20200102T182016212@import",
     "group": "A2"
   },
-  "C10F20191125T131815126@import": {
+  "C10F20200102T182016213@import": {
     "date_start": "2019-10-23T08:00",
     "date_end": "2019-10-23T12:20",
     "apogee": "4TBI703U",
@@ -1886,10 +3191,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_007",
     "title": "DESCRIPTION:CELCAT_ID:423664\\,WEEK:43\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815126@import",
+    "ID": "C10F20200102T182016213@import",
     "group": "A2"
   },
-  "C10F20191125T131815127@import": {
+  "C10F20200102T182016214@import": {
     "date_start": "2019-11-06T08:00",
     "date_end": "2019-11-06T12:20",
     "apogee": "4TBI703U",
@@ -1901,10 +3206,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423664\\,WEEK:45\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815127@import",
+    "ID": "C10F20200102T182016214@import",
     "group": "A2"
   },
-  "C10F20191125T131815128@import": {
+  "C10F20200102T182016215@import": {
     "date_start": "2019-10-02T08:00",
     "date_end": "2019-10-02T12:20",
     "apogee": "4TBI703U",
@@ -1916,10 +3221,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:423664\\,WEEK:40\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815128@import",
+    "ID": "C10F20200102T182016215@import",
     "group": "A2"
   },
-  "C10F20191125T131815129@import": {
+  "C10F20200102T182016216@import": {
     "date_start": "2019-09-10T08:00",
     "date_end": "2019-09-10T10:50",
     "apogee": "4TBI703U",
@@ -1931,10 +3236,10 @@
     "type": "Cours",
     "location": "Talence::A21-OMEGA@Room_401",
     "title": "DESCRIPTION:CELCAT_ID:423632\\,WEEK:37\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815129@import",
+    "ID": "C10F20200102T182016216@import",
     "group": "All"
   },
-  "C10F20191125T131815130@import": {
+  "C10F20200102T182016217@import": {
     "date_start": "2019-10-11T09:30",
     "date_end": "2019-10-11T12:20",
     "apogee": "4TBI703U",
@@ -1946,10 +3251,10 @@
     "type": "Cours",
     "location": "Talence::B16@Room_09",
     "title": "DESCRIPTION:CELCAT_ID:443685\\,WEEK:41\\,APO:\"4TBI703U\"\\,TYPE:\"Cours\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815130@import",
+    "ID": "C10F20200102T182016217@import",
     "group": "All"
   },
-  "C10F20191125T131815131@import": {
+  "C10F20200102T182016218@import": {
     "date_start": "2019-10-03T13:00",
     "date_end": "2019-10-03T17:00",
     "apogee": "4TBI703U",
@@ -1961,10 +3266,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:40\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815131@import",
+    "ID": "C10F20200102T182016218@import",
     "group": "A1"
   },
-  "C10F20191125T131815132@import": {
+  "C10F20200102T182016219@import": {
     "date_start": "2019-10-24T13:00",
     "date_end": "2019-10-24T17:00",
     "apogee": "4TBI703U",
@@ -1976,10 +3281,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:43\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815132@import",
+    "ID": "C10F20200102T182016219@import",
     "group": "A1"
   },
-  "C10F20191125T131815133@import": {
+  "C10F20200102T182016220@import": {
     "date_start": "2019-11-14T13:00",
     "date_end": "2019-11-14T17:00",
     "apogee": "4TBI703U",
@@ -1991,10 +3296,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique C",
     "title": "DESCRIPTION:CELCAT_ID:423668\\,WEEK:46\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815133@import",
+    "ID": "C10F20200102T182016220@import",
     "group": "A1"
   },
-  "C10F20191125T131815134@import": {
+  "C10F20200102T182016221@import": {
     "date_start": "2019-10-17T13:00",
     "date_end": "2019-10-17T17:00",
     "apogee": "4TBI703U",
@@ -2006,10 +3311,10 @@
     "type": "TD",
     "location": "Talence::A21-OMEGA@Room_Informatique-C",
     "title": "DESCRIPTION:CELCAT_ID:451199\\,WEEK:42\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815134@import",
+    "ID": "C10F20200102T182016221@import",
     "group": "A1"
   },
-  "C10F20191125T131815135@import": {
+  "C10F20200102T182016222@import": {
     "date_start": "2019-11-04T09:30",
     "date_end": "2019-11-04T13:00",
     "apogee": "4TBI703U",
@@ -2021,10 +3326,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:451203\\,WEEK:45\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815135@import",
+    "ID": "C10F20200102T182016222@import",
     "group": "A1"
   },
-  "C10F20191125T131815136@import": {
+  "C10F20200102T182016223@import": {
     "date_start": "2019-11-18T09:30",
     "date_end": "2019-11-18T13:00",
     "apogee": "4TBI703U",
@@ -2036,10 +3341,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_208",
     "title": "DESCRIPTION:CELCAT_ID:451203\\,WEEK:47\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815136@import",
+    "ID": "C10F20200102T182016223@import",
     "group": "A1"
   },
-  "C10F20191125T131815137@import": {
+  "C10F20200102T182016224@import": {
     "date_start": "2019-11-27T08:00",
     "date_end": "2019-11-27T12:00",
     "apogee": "4TBI703U",
@@ -2051,10 +3356,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:?\\,WEEK:48\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815137@import",
+    "ID": "C10F20200102T182016224@import",
     "group": "A2"
   },
-  "C10F20191125T131815138@import": {
+  "C10F20200102T182016225@import": {
     "date_start": "2019-11-28T13:00",
     "date_end": "2019-11-28T17:00",
     "apogee": "4TBI703U",
@@ -2066,10 +3371,10 @@
     "type": "TD",
     "location": "Talence::A28-CREMI@Room_105",
     "title": "DESCRIPTION:CELCAT_ID:?\\,WEEK:48\\,APOGEE:4TBI703U",
-    "ID": "C10F20191125T131815138@import",
+    "ID": "C10F20200102T182016225@import",
     "group": "A1"
   },
-  "C10F20191125T131815139@import": {
+  "C10F20200102T182016226@import": {
     "date_start": "2019-10-15T08:00",
     "date_end": "2019-10-15T10:00",
     "apogee": "4TBI703U",
@@ -2081,10 +3386,10 @@
     "type": "Cours",
     "location": "Talence::A29@Amphi_B",
     "title": "DESCRIPTION:CELCAT_ID:423658\\,WEEK:42\\,APO:\"4TBI703U\"\\,TYPE:\"Cours\"\\,GRP:\"A",
-    "ID": "C10F20191125T131815139@import",
+    "ID": "C10F20200102T182016226@import",
     "group": "All"
   },
-  "C10F20191125T131815140@import": {
+  "C10F20200102T182016227@import": {
     "date_start": "2019-12-19T14:30",
     "date_end": "2019-12-19T16:00",
     "apogee": "4TBI703U",
@@ -2094,9 +3399,579 @@
     "tracks": "0F",
     "lecturer": "Taveau JC",
     "type": "EXAMEN",
-    "location": "Talence::A00@Room_000",
+    "location": "Talence::A09@Room_Amphi3",
     "title": "DESCRIPTION:",
-    "ID": "C10F20191125T131815140@import",
+    "ID": "C10F20200102T182016227@import",
     "group": "All"
+  },
+  "C11020200102T182016228@import": {
+    "date_start": "2020-01-15T14:00",
+    "date_end": "2020-01-15T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016228@import",
+    "group": "A1"
+  },
+  "C11020200102T182016229@import": {
+    "date_start": "2020-01-22T14:00",
+    "date_end": "2020-01-22T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016229@import",
+    "group": "A1"
+  },
+  "C11020200102T182016230@import": {
+    "date_start": "2020-01-29T14:00",
+    "date_end": "2020-01-29T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016230@import",
+    "group": "A1"
+  },
+  "C11020200102T182016231@import": {
+    "date_start": "2020-02-05T14:00",
+    "date_end": "2020-02-05T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016231@import",
+    "group": "A1"
+  },
+  "C11020200102T182016232@import": {
+    "date_start": "2020-02-12T14:00",
+    "date_end": "2020-02-12T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016232@import",
+    "group": "A1"
+  },
+  "C11020200102T182016233@import": {
+    "date_start": "2020-02-19T14:00",
+    "date_end": "2020-02-19T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016233@import",
+    "group": "A1"
+  },
+  "C11020200102T182016234@import": {
+    "date_start": "2020-02-26T14:00",
+    "date_end": "2020-02-26T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016234@import",
+    "group": "A1"
+  },
+  "C11020200102T182016235@import": {
+    "date_start": "2020-03-11T14:00",
+    "date_end": "2020-03-11T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016235@import",
+    "group": "A1"
+  },
+  "C11020200102T182016236@import": {
+    "date_start": "2020-03-18T14:00",
+    "date_end": "2020-03-18T15:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016236@import",
+    "group": "A1"
+  },
+  "C11020200102T182016237@import": {
+    "date_start": "2020-01-15T15:30",
+    "date_end": "2020-01-15T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016237@import",
+    "group": "A1"
+  },
+  "C11020200102T182016238@import": {
+    "date_start": "2020-01-22T15:30",
+    "date_end": "2020-01-22T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016238@import",
+    "group": "A1"
+  },
+  "C11020200102T182016239@import": {
+    "date_start": "2020-01-29T15:30",
+    "date_end": "2020-01-29T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016239@import",
+    "group": "A1"
+  },
+  "C11020200102T182016240@import": {
+    "date_start": "2020-02-05T15:30",
+    "date_end": "2020-02-05T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016240@import",
+    "group": "A1"
+  },
+  "C11020200102T182016241@import": {
+    "date_start": "2020-02-12T15:30",
+    "date_end": "2020-02-12T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016241@import",
+    "group": "A1"
+  },
+  "C11020200102T182016242@import": {
+    "date_start": "2020-02-19T15:30",
+    "date_end": "2020-02-19T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016242@import",
+    "group": "A1"
+  },
+  "C11020200102T182016243@import": {
+    "date_start": "2020-02-26T15:30",
+    "date_end": "2020-02-26T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016243@import",
+    "group": "A1"
+  },
+  "C11020200102T182016244@import": {
+    "date_start": "2020-03-11T15:30",
+    "date_end": "2020-03-11T16:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Benois-Pineau J",
+    "type": "Cours",
+    "location": "Talence::A22@Room_105",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:3\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016244@import",
+    "group": "A1"
+  },
+  "C11020200102T182016245@import": {
+    "date_start": "2020-01-21T09:30",
+    "date_end": "2020-01-21T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016245@import",
+    "group": "A1"
+  },
+  "C11020200102T182016246@import": {
+    "date_start": "2020-01-28T09:30",
+    "date_end": "2020-01-28T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016246@import",
+    "group": "A1"
+  },
+  "C11020200102T182016247@import": {
+    "date_start": "2020-02-04T09:30",
+    "date_end": "2020-02-04T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016247@import",
+    "group": "A1"
+  },
+  "C11020200102T182016248@import": {
+    "date_start": "2020-02-11T09:30",
+    "date_end": "2020-02-11T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016248@import",
+    "group": "A1"
+  },
+  "C11020200102T182016249@import": {
+    "date_start": "2020-02-18T09:30",
+    "date_end": "2020-02-18T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016249@import",
+    "group": "A1"
+  },
+  "C11020200102T182016250@import": {
+    "date_start": "2020-02-25T09:30",
+    "date_end": "2020-02-25T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016250@import",
+    "group": "A1"
+  },
+  "C11020200102T182016251@import": {
+    "date_start": "2020-03-10T09:30",
+    "date_end": "2020-03-10T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016251@import",
+    "group": "A1"
+  },
+  "C11020200102T182016252@import": {
+    "date_start": "2020-03-17T09:30",
+    "date_end": "2020-03-17T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016252@import",
+    "group": "A1"
+  },
+  "C11020200102T182016253@import": {
+    "date_start": "2020-03-24T09:30",
+    "date_end": "2020-03-24T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016253@import",
+    "group": "A1"
+  },
+  "C11020200102T182016254@import": {
+    "date_start": "2020-03-31T09:30",
+    "date_end": "2020-03-31T10:50",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016254@import",
+    "group": "A1"
+  },
+  "C11020200102T182016255@import": {
+    "date_start": "2020-01-21T11:00",
+    "date_end": "2020-01-21T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016255@import",
+    "group": "A1"
+  },
+  "C11020200102T182016256@import": {
+    "date_start": "2020-01-28T11:00",
+    "date_end": "2020-01-28T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016256@import",
+    "group": "A1"
+  },
+  "C11020200102T182016257@import": {
+    "date_start": "2020-02-04T11:00",
+    "date_end": "2020-02-04T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016257@import",
+    "group": "A1"
+  },
+  "C11020200102T182016258@import": {
+    "date_start": "2020-02-11T11:00",
+    "date_end": "2020-02-11T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016258@import",
+    "group": "A1"
+  },
+  "C11020200102T182016259@import": {
+    "date_start": "2020-02-18T11:00",
+    "date_end": "2020-02-18T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016259@import",
+    "group": "A1"
+  },
+  "C11020200102T182016260@import": {
+    "date_start": "2020-02-25T11:00",
+    "date_end": "2020-02-25T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016260@import",
+    "group": "A1"
+  },
+  "C11020200102T182016261@import": {
+    "date_start": "2020-03-10T11:00",
+    "date_end": "2020-03-10T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016261@import",
+    "group": "A1"
+  },
+  "C11020200102T182016262@import": {
+    "date_start": "2020-03-17T11:00",
+    "date_end": "2020-03-17T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016262@import",
+    "group": "A1"
+  },
+  "C11020200102T182016263@import": {
+    "date_start": "2020-03-24T11:00",
+    "date_end": "2020-03-24T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016263@import",
+    "group": "A1"
+  },
+  "C11020200102T182016264@import": {
+    "date_start": "2020-03-31T11:00",
+    "date_end": "2020-03-31T12:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:4\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016264@import",
+    "group": "A1"
+  },
+  "C11020200102T182016265@import": {
+    "date_start": "2020-02-18T08:00",
+    "date_end": "2020-02-18T09:20",
+    "apogee": "4TBC801U",
+    "acronym": "S08::POO",
+    "isCourse": true,
+    "year": 1,
+    "tracks": "10",
+    "lecturer": "Beurton-Aimar M",
+    "type": "TD machine",
+    "location": "Talence::A28-CREMI@Room_009",
+    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:8\\,APOGEE:4TBC801U",
+    "ID": "C11020200102T182016265@import",
+    "group": "A1"
   }
 }
