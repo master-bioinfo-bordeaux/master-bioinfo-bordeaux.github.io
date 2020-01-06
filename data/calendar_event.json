@@ -272,8 +272,8 @@
     "type": "Conference", 
     "year": "3"
   },
-  "E20720191211T161706184@import": {
-    "ID"        :"E20720191211T161706184@import",
+  "E10720191211T161706184@import": {
+    "ID"        :"E10720191211T161706184@import",
     "apogee"    :"4TBIMEET",
     "acronym"   :"Evt::Conference",
     "date_start":"2020-01-09T14:00",
@@ -282,13 +282,14 @@
     "location"  :"None::None@Room_000",
     "group"     :"All",
     "type"      :"Conference",
-    "title"     : "Presentation Machine Learning by M2", 
-    "year"      :"2",
+    "title"     : "Presentation Machine Learning by M2",
+    "description": "<p>Presentation about the various methods of machine learning by students of the 2<sup>nd</sup> year</p>",  
+    "year"      :"1",
     "tracks"    :"0x07",
     "comment"   :"Imported from .ics - Wed Dec 11 2019 17:17:06 GMT+0100 (GMT+01:00)"
   },
-  "E20720191211T161706185@import": {
-    "ID"        :"E20720191211T161706185@import",
+  "E10720191211T161706185@import": {
+    "ID"        :"E10720191211T161706185@import",
     "apogee"    :"4TBIMEET",
     "acronym"   :"Evt::Conference",
     "date_start":"2020-01-10T09:00",
@@ -297,8 +298,9 @@
     "location"  :"None::None@Room_000",
     "group"     :"All",
     "type"      :"Conference",
-    "title"     : "Presentation Machine Learning by M2", 
-    "year"      :"2",
+    "title"     : "Presentation Machine Learning by M2",
+    "description": "<p>Presentation about the various methods of machine learning by students of the 2<sup>nd</sup> year</p>",
+    "year"      :"1",
     "tracks"    :"0x07",
     "comment"   :"Imported from .ics - Wed Dec 11 2019 17:17:06 GMT+0100 (GMT+01:00)"
   }
