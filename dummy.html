@@ -2,7 +2,7 @@
 <html>
 <head>
 <script>
-function load_home (e) {
+function load_html (e) {
     (e || window.event).preventDefault();
 
     fetch("https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre2/g267903.xml" /*, options */)
@@ -14,9 +14,9 @@ function load_home (e) {
         console.warn(error);
     });
 } 
-</html>
+</script>
 </head>
-<body>
+<body onload="load_html">
 <div id="content">
 </div>
 </body>
