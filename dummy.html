@@ -1,0 +1,23 @@
+<!DOCTYPE>
+<html>
+<head>
+<script>
+function load_home (e) {
+    (e || window.event).preventDefault();
+
+    fetch("https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre2/g267903.xml" /*, options */)
+    .then((response) => response.text())
+    .then((html) => {
+        document.getElementById("content").innerHTML = html;
+    })
+    .catch((error) => {
+        console.warn(error);
+    });
+} 
+</html>
+</head>
+<body>
+<div id="content">
+</div>
+</body>
+</html>
