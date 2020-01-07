@@ -3,6 +3,7 @@
 <head>
 <script>
 function load_html (e) {
+    console.log('Load...');
     (e || window.event).preventDefault();
 
     fetch("https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre2/g267903.xml" /*, options */)
