@@ -624,7 +624,7 @@ var course_data = {
   "4TBI805U": {
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
-    "acronym": "ViMod", 
+    "acronym": "WebMod", 
     "background_color": "#7fd8bc", 
     "contents": {
       "en": {
