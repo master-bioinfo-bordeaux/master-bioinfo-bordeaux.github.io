@@ -375,7 +375,7 @@ var course_data = {
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
-    "background_color": "#ff6bab", 
+    "background_color": "#c0e44e", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",

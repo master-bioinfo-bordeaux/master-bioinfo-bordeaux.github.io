@@ -315,7 +315,7 @@ var course_data = {
     "apogee": "4TBI705U",
     "short": "BioStatistics",
     "language": "English (tutorials) + French (lectures).",
-    "acronym": "BioStats", 
+    "acronym": "BSTATS", 
     "coordinators": 'Nogues X',
     "background_color": "#D0A6FF", 
     "contents": {
@@ -375,7 +375,7 @@ var course_data = {
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
-    "background_color": "#ff6bab", 
+    "background_color": "#c0e44e", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -624,7 +624,7 @@ var course_data = {
   "4TBI805U": {
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
-    "acronym": "ViMod", 
+    "acronym": "WebMod", 
     "background_color": "#7fd8bc", 
     "contents": {
       "en": {
