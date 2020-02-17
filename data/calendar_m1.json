@@ -104,21 +104,6 @@
     "ID": "C10120200217T152133007@import",
     "group": "A1"
   },
-  "C10120200217T152133008@import": {
-    "date_start": "2020-02-26T09:30",
-    "date_end": "2020-02-26T12:30",
-    "apogee": "4TBI801U",
-    "acronym": "S08::AlgoPrg2",
-    "isCourse": true,
-    "year": 1,
-    "tracks": "01",
-    "lecturer": "Boussicault A",
-    "type": "Cours",
-    "location": "Talence::???@Room_???",
-    "title": "DESCRIPTION:CELCAT_ID:\\,WEEK:16\\,APOGEE:4TBI801U",
-    "ID": "C10120200217T152133008@import",
-    "group": "A1"
-  },
   "C10120200217T152133009@import": {
     "date_start": "2020-02-24T09:30",
     "date_end": "2020-02-24T12:30",
