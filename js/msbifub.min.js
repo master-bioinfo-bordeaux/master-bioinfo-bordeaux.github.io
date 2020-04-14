@@ -543,6 +543,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_3601/algorithmique-et-programmation-avancees"
   }, 
   "4TBI802U": {
+    "apogee": "4TBI802U",
     "short": "R&D Project",
     "language": "English or French depending of the tutor",
     "acronym": "CPRD", 
@@ -572,6 +573,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_3594/conception-d-un-projet-de-recherche-et-de-developpement"
   }, 
   "4TBI803U": {
+    "apogee": "4TBI803U",
     "short": "Databases",
     "language": "French",
     "acronym": "BDD", 
@@ -599,6 +601,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_3593/bases-de-donnees-fondements-et-applications"
   }, 
   "4TBI804U": {
+    "apogee": "4TBI804U",
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
@@ -626,6 +629,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_2631/nouvelles-generations-de-sequencage"
   }, 
   "4TBI806U": {
+    "apogee": "4TBI806U",
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "WebMod", 
@@ -653,6 +657,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
   },
   "4TBIN01U": {
+    "apogee": "4TBIN01U",
     "acronym": "StgVol", 
     "background_color": "#009558", 
     "contents": {
