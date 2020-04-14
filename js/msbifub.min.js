@@ -1928,7 +1928,6 @@ function findEvent(events,start,col) {
     if (found !== undefined) {
         // Choose the duration max
         // <td> with gray  
-        console.info(found.children[0]);
         var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
         html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
         if (found.children.length > 1) {
