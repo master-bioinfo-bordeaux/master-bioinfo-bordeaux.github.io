@@ -539,7 +539,8 @@ var course_data = {
     "semester": 8, 
     "title": "Algorithmique et Programmation Avanc\u00e9es", 
     "tracks": "0x01", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_3601/algorithmique-et-programmation-avancees"
   }, 
   "4TBI802U": {
     "short": "R&D Project",
@@ -567,7 +568,8 @@ var course_data = {
     "semester": 8, 
     "title": "Conception d'un Projet de Recherche et de D\u00e9veloppement", 
     "tracks": "0x07", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_3594/conception-d-un-projet-de-recherche-et-de-developpement"
   }, 
   "4TBI803U": {
     "short": "Databases",
@@ -593,7 +595,8 @@ var course_data = {
     "semester": 8, 
     "title": "Bases de Donn\u00e9es : fondements et applications", 
     "tracks": "0x07", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_3593/bases-de-donnees-fondements-et-applications"
   }, 
   "4TBI804U": {
     "short": "NGS and Tools",
@@ -619,9 +622,10 @@ var course_data = {
     "semester": 8, 
     "title": "Nouvelles G\u00e9n\u00e9rations de Sequen\u00e7age", 
     "tracks": "0x07", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_2631/nouvelles-generations-de-sequencage"
   }, 
-  "4TBI805U": {
+  "4TBI806U": {
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "WebMod", 
@@ -640,12 +644,13 @@ var course_data = {
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TBI805U", 
+    "id": "4TBI806U", 
     "image": "ue_videos.jpg", 
     "semester": 8, 
     "title": "Web avanc&eacute; et Mod\u00e9lisation des Processus Dynamiques", 
     "tracks": "0x70", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
   },
   "4TBIN01U": {
     "acronym": "StgVol", 
