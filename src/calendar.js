@@ -251,21 +251,25 @@ function updateCalendarBody(y,m,d) {
                 };
                 box.children.push(a_day.events[j]);
                 a_day.boxes.push(box);
-                var start = a_day.events[j].startDate.getTime();
-                var end   = a_day.events[j].endDate.getTime();
+                var start = box.startDate.getTime();
+                var end   = box.endDate.getTime();
                 for (var k = j + 1; k < a_day.events.length; k++) {
-                    if (start < a_day.events[k].endDate.getTime() && end > a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
+                    // HACK: console.log('OVERLAP ',k,start,end,a_day.events[k].acronym,a_day.events[k].startDate.getTime(),a_day.events[k].endDate.getTime() );
+                    if (start <= a_day.events[k].endDate.getTime() && end >= a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
                         a_day.events[k].overlap = true;
                         box.startDate = new Date(Math.min(box.startDate,a_day.events[k].startDate) );
                         box.endDate   = new Date(Math.max(box.endDate, a_day.events[k].endDate) );
                         box.children.push(a_day.events[k]);
+                        start = box.startDate.getTime();
+                        end   = box.endDate.getTime();
                     }
                 }
                 var timeDiff = Math.abs(box.endDate.getTime() - box.startDate.getTime());
-                box.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // round to the nearest half hour (in minutes)
+                box.duration  = Math.round(timeDiff / (1000 * 60 * 60) * 2 ) * 30; // Round to the nearest half hour (in minutes)
 
             }
         }
+        
         /*
         console.log('BOX ' +i+':');
         if (weekdays[i].boxes[0] !== undefined) {
@@ -505,7 +509,7 @@ function createEventCells(days) {
         for (var column = 0; column < 5; column++) {
             // Regular events
             var contents = findEvent(days[column].boxes,row,column);
-            if (table.cells[i][column] == 0) {
+            if (table.cells[i][column] === 0) {
                 html += createEmptyCell();
             }
             else {
@@ -553,8 +557,9 @@ function findEvent(events,start,col) {
         var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
         html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
         if (found.children.length > 1) {
+            // HACK: console.log('Overlapping ',found.children);
             html+= '<a title="Overlapping Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
-            for (var i=0; i < found.children.length; i++) {
+            for (let i=0; i < found.children.length; i++) {
                 // Add each colliding event
                 html += createEventCell(found.children[i]);
             }
@@ -567,8 +572,9 @@ function findEvent(events,start,col) {
         html += '</td>';
         
         // Update cells
-        for (var t=0; t < found.duration / 30; t++) {
+        for (let t=0; t < found.duration / 30; t++) {
             // HACK: console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
+            // HACK: console.log(t,start,(start - 480 )/30 + t,col);
             table.cells[(start - 480 )/30 + t][col]++;
         }
         
@@ -586,7 +592,7 @@ function createEmptyCell() {
 
 
 function createEventCell(cal_event) {
-    console.log(JSON.stringify(cal_event) );
+    // HACK: console.log(JSON.stringify(cal_event) );
     var ID = cal_event.ID;
     
     var html = '';
@@ -646,7 +652,7 @@ function createEventCell(cal_event) {
         if (campus !== "None") {
             tmp = cal_event.location.match(/::(.+)@/);
             var bldg = tmp[1];
-            tmp = cal_event.location.match(/@(\w+)/);
+            tmp = cal_event.location.match(/@([\w-]+)/);
             let room = 'Room';
             let room_name = '000';
             [room,room_name] = tmp[1].split('_');

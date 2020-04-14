@@ -346,6 +346,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_146310/biostatistiques"
   }, 
   "4TBA804U": {
+    "apogee": "4TBA804U",
     "short": "Plant Biotechnology",
     "language": "French",
     "acronym": "BBP", 
@@ -372,6 +373,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBA806U": {
+    "apogee": "4TBA806U",
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
@@ -398,6 +400,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE801U": {
+    "apogee": "4TBE801U",
     "short" : "Biodiversity",
     'language': "French",
     "acronym": "BioDiv", 
@@ -424,6 +427,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE802U": {
+    "apogee": "4TBE802U",
     "short" : "Terrestrial Ecosystems",
     'language': "French",
     "acronym": "EcoTerr", 
@@ -450,6 +454,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE803U": {
+    "apogee": "4TBE803U",
     "short" : "Aquatic Environments",
     'language': "French",
     "acronym": "Aqua", 
@@ -476,6 +481,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBC801U" : {
+    "apogee": "4TBC801U",
     "short" : "Object Programming",
     "language": "French",
     "acronym": "POO", 
@@ -543,6 +549,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_3601/algorithmique-et-programmation-avancees"
   }, 
   "4TBI802U": {
+    "apogee": "4TBI802U",
     "short": "R&D Project",
     "language": "English or French depending of the tutor",
     "acronym": "CPRD", 
@@ -572,6 +579,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_3594/conception-d-un-projet-de-recherche-et-de-developpement"
   }, 
   "4TBI803U": {
+    "apogee": "4TBI803U",
     "short": "Databases",
     "language": "French",
     "acronym": "BDD", 
@@ -599,6 +607,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_3593/bases-de-donnees-fondements-et-applications"
   }, 
   "4TBI804U": {
+    "apogee": "4TBI804U",
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
@@ -626,6 +635,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_2631/nouvelles-generations-de-sequencage"
   }, 
   "4TBI806U": {
+    "apogee": "4TBI806U",
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "WebMod", 
@@ -653,6 +663,7 @@ var course_data = {
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
   },
   "4TBIN01U": {
+    "apogee": "4TBIN01U",
     "acronym": "StgVol", 
     "background_color": "#009558", 
     "contents": {
@@ -677,6 +688,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBA903U": {
+    "apogee": "4TBA903U",
     "short" : "Population Genetics",
     "language": "English",
     "acronym": "QPG", 
@@ -736,6 +748,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBA904U": {
+    "apogee": "4TBA904U",
     "short" : "Plant Development",
     "acronym": "PDR", 
     'language': "English",
@@ -775,6 +788,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE901U": {
+    "apogee": "4TBE901U",
     "short" : "BioStatistics 2",
     "language": "French",
     "acronym": "TDE++", 
@@ -814,6 +828,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBE902U": {
+    "apogee": "4TBE902U",
     "short": "Evolutionary Ecology",
     "language": "French",
     "acronym": "EvoComm", 
@@ -854,6 +869,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBC901U" : {
+    "apogee": "4TBC901U",
     "short" : "Object Programming 2",
     "language": "French",
     "acronym": "POO++", 
@@ -893,6 +909,7 @@ var course_data = {
     "visibility": "visible"
   },
   "4TBI901U": {
+    "apogee": "4TBI901U",
     "short": "Structural Bioinformatics",
     "language": "French or English depending of the audience",
     "acronym": "StrubiGL", 
@@ -933,6 +950,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI902U": {
+    "apogee": "4TBI902U",
     "short": "Bioinformatics Sector",
     "language": "French",
     "acronym": "FILBI", 
@@ -959,6 +977,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI903U": {
+    "apogee": "4TBI903U",
     "short": "Software Engineering",
     "language": "French",
     "acronym": "GLog", 
@@ -985,6 +1004,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI904U": {
+    "apogee": "4TBI904U",
     "short": "Data Science",
     "language": "French",
     "acronym": "DEA", 
@@ -1011,6 +1031,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI905U": {
+    "apogee": "4TBI905U",
     "short": "Research & Dev",
     "language": "French",
     "acronym": "IRD", 
@@ -1037,6 +1058,7 @@ var course_data = {
     "visibility": "visible"
   }, 
   "4TBI906U": {
+    "apogee": "4TBI906U",
     "short" : "Modeling Cell",
     "language": "French",
     "acronym": "MOCELL", 
@@ -1063,6 +1085,7 @@ var course_data = {
     "visibility": "visible"
   },
   "4TDE901U": {
+    "apogee": "4TDE901U",
     "short": "GIS: Geo. Info. Systems",
     "language": "French",
     "acronym": "SIG", 
@@ -1123,6 +1146,7 @@ var course_data = {
     "visibility": "visible"
   },
   "4TBI001U": {
+    "apogee": "4TBI001U",
     "acronym": "Stage", 
     "short":  "Stage", 
     "language": "French or English",
