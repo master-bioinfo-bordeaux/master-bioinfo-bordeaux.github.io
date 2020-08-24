@@ -1,10 +1,10 @@
 {
-  "C20F20190216T092500071@jeesay": {
+  "C20F20200216T092500071@jeesay": {
     "ID": "C20F20190216T092500071@jeesay", 
     "acronym": "S10::Stage", 
     "apogee": "4TBI001U", 
-    "date_end": "2019-08-31T00:00", 
-    "date_start": "2019-02-19T00:00", 
+    "date_end": "2020-08-31T00:00", 
+    "date_start": "2020-03-19T00:00", 
     "description": "None", 
     "group": "All", 
     "lecturer": "------", 
@@ -12,12 +12,12 @@
     "summary": "4TBI001U", 
     "type": "Internship"
   },
-  "E10720190726T134849030@jeesay": {
+  "E10720200726T134849030@jeesay": {
     "ID": "E10720190726T134849030@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-09-01T00:00", 
-    "date_start": "2019-07-01T00:00", 
+    "date_end": "2020-08-31T00:00", 
+    "date_start": "202-07-01T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -27,16 +27,16 @@
     "type": "Vacances", 
     "year": "1"
   }, 
-  "E30F20190903T135907002@jeesay": {
+  "E30F20200903T135907002@jeesay": {
     "ID": "E30F20190903T135907002@jeesay", 
     "acronym": "Evt::Conference", 
     "apogee": "4TBIMEET", 
     "date_end": "2019-09-02T12:00", 
     "date_start": "2019-09-02T10:00", 
-    "description": "<p><em>Grand Amphi de Mathématiques</em> du bâtiment <b>A33</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations générales sur le master et son organisation | <i>General information about the master and its organization</i>.</p>", 
+    "description": "<p><em>Amphi E du bâtiment <b>A29</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations générales sur le master et son organisation | <i>General information about the master and its organization</i>.</p>", 
     "group": "All", 
     "lecturer": "------", 
-    "location": "Talence::A33@Amphi_000", 
+    "location": "Talence::A29@Amphi_E", 
     "title": "Rentr&eacute;e M1 et M2", 
     "tracks": "0x0F", 
     "type": "Rentr&eacute;e", 
