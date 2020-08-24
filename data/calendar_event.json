@@ -1,6 +1,6 @@
 {
   "C20F20200216T092500071@jeesay": {
-    "ID": "C20F20190216T092500071@jeesay", 
+    "ID": "C20F20200216T092500071@jeesay", 
     "acronym": "S10::Stage", 
     "apogee": "4TBI001U", 
     "date_end": "2020-08-31T00:00", 
@@ -17,7 +17,7 @@
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
     "date_end": "2020-08-31T00:00", 
-    "date_start": "202-07-01T00:00", 
+    "date_start": "2020-07-01T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
@@ -141,8 +141,8 @@
     "ID": "E30720200105T102600000@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-11-11T00:00", 
-    "date_start": "2019-11-11T00:00", 
+    "date_end": "2020-11-11T00:00", 
+    "date_start": "2020-11-11T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
