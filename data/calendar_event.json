@@ -57,13 +57,13 @@
     "type": "Rentr&eacute;e", 
     "year": "2"
   }, 
-  "E30F20190904T111251870@jeesay": {
-    "ID": "E30F20190904T111251870@jeesay", 
+  "E20F20190904T111251870@jeesay": {
+    "ID": "E20F20190904T111251870@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2019-09-13T12:00", 
-    "date_start": "2019-09-13T08:00", 
-    "description": "<h4>Defense Day for students of promotion 2019</h4><ul><li>08h00-10h00: Group #1</li><li>10h00-10h30:Coffee Break</li><li>10h30-12h00: Group #2</li></ul>", 
+    "date_end": "2020-09-10T12:00", 
+    "date_start": "2020-09-10T08:00", 
+    "description": "<h4>Defense Day for students of promotion 2020</h4><ul><p>Due to covid-19 pandemic and by compliance with barrier measures, a limited number of seats will be allocated to M2 students only.</p>", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -71,15 +71,15 @@
     "title": "Soutenance Stage M2", 
     "tracks": "0x0F", 
     "type": "Defense", 
-    "year": "3"
+    "year": "2"
   }, 
-    "E30F20190904T111251872@jeesay": {
-    "ID": "E30F20190904T111251872@jeesay", 
+    "E20F20190904T111251872@jeesay": {
+    "ID": "E20F20190904T111251872@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2019-09-13T18:30", 
-    "date_start": "2019-09-13T14:00", 
-    "description": "Defense Day for students of promotion 2019", 
+    "date_end": "2020-09-10T18:30", 
+    "date_start": "2020-09-10T14:00", 
+    "description": "<h4>Defense Day for students of promotion 2020</h4><p>Due to covid-19 pandemic and by compliance with barrier measures, a limited number of seats will be allocated to M2 students only.</p>", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -87,15 +87,15 @@
     "title": "Soutenance Stage M2", 
     "tracks": "0x0F", 
     "type": "Defense", 
-    "year": "3"
+    "year": "2"
   },
-  "E30F20190904T111251873@jeesay": {
-    "ID": "E30F20190904T111251873@jeesay", 
+  "E20F20190904T111251873@jeesay": {
+    "ID": "E20F20190904T111251873@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2019-09-12T12:00", 
-    "date_start": "2019-09-12T08:00", 
-    "description": "Defense Day for students of promotion 2019", 
+    "date_end": "2020-09-11T12:00", 
+    "date_start": "2020-09-11T08:00", 
+    "description": "<h4>Defense Day for students of promotion 2020</h4><p>Due to covid-19 pandemic and by compliance with barrier measures, a limited number of seats will be allocated to M2 students only.</p>", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -103,15 +103,15 @@
     "title": "Soutenance Stage M2", 
     "tracks": "0x0F", 
     "type": "Defense", 
-    "year": "3"
+    "year": "2"
   },
-  "E30F20190904T111251874@jeesay": {
-    "ID": "E30F20190904T111251874@jeesay", 
+  "E20F20190904T111251874@jeesay": {
+    "ID": "E20F20190904T111251874@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
-    "date_end": "2019-09-12T18:30", 
-    "date_start": "2019-09-12T14:00", 
-    "description": "Defense Day for students of promotion 2019", 
+    "date_end": "2020-09-11T18:30", 
+    "date_start": "2020-09-11T14:00", 
+    "description": "<h4>Defense Day for students of promotion 2020</h4><p>Due to covid-19 pandemic and by compliance with barrier measures, a limited number of seats will be allocated to M2 students only.</p>", 
     "group": "All", 
     "lecturer": "--  ", 
     "location": "Talence::A29@Amphi_C", 
@@ -119,7 +119,7 @@
     "title": "Soutenance Stage M2", 
     "tracks": "0x0F", 
     "type": "Defense", 
-    "year": "3"
+    "year": "2"
   },
   "E10F20190920T111251801@jeesay": {
     "ID": "E10F20190920T111251801@jeesay", 
@@ -141,8 +141,8 @@
     "ID": "E30720190726T134849025@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2019-11-01T00:00", 
-    "date_start": "2019-10-28T00:00", 
+    "date_end": "2020-10-30T00:00", 
+    "date_start": "2020-10-26:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
