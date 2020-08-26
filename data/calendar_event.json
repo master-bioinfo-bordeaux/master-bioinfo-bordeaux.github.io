@@ -11,7 +11,39 @@
     "location": "None::None@Room_000", 
     "summary": "4TBI001U", 
     "type": "Internship"
-  },
+  }, 
+  "E10720191211T161706184@import": {
+    "ID": "E10720191211T161706184@import", 
+    "acronym": "Evt::Conference", 
+    "apogee": "4TBIMEET", 
+    "comment": "Imported from .ics - Wed Dec 11 2019 17:17:06 GMT+0100 (GMT+01:00)", 
+    "date_end": "2020-01-09T17:00", 
+    "date_start": "2020-01-09T14:00", 
+    "description": "<p>Presentation about the various methods of machine learning by students of the 2<sup>nd</sup> year</p>", 
+    "group": "All", 
+    "lecturer": "Taveau JC", 
+    "location": "None::None@Room_000", 
+    "title": "Presentation Machine Learning by M2", 
+    "tracks": "0x07", 
+    "type": "Conference", 
+    "year": "1"
+  }, 
+  "E10720191211T161706185@import": {
+    "ID": "E10720191211T161706185@import", 
+    "acronym": "Evt::Conference", 
+    "apogee": "4TBIMEET", 
+    "comment": "Imported from .ics - Wed Dec 11 2019 17:17:06 GMT+0100 (GMT+01:00)", 
+    "date_end": "2020-01-10T12:00", 
+    "date_start": "2020-01-10T09:00", 
+    "description": "<p>Presentation about the various methods of machine learning by students of the 2<sup>nd</sup> year</p>", 
+    "group": "All", 
+    "lecturer": "Taveau JC", 
+    "location": "None::None@Room_000", 
+    "title": "Presentation Machine Learning by M2", 
+    "tracks": "0x07", 
+    "type": "Conference", 
+    "year": "1"
+  }, 
   "E10720200726T134849030@jeesay": {
     "ID": "E10720200726T134849030@jeesay", 
     "acronym": "Evt::Holidays", 
@@ -27,13 +59,29 @@
     "type": "Vacances", 
     "year": "1"
   }, 
+  "E10F20190920T111251801@jeesay": {
+    "ID": "E10F20190920T111251801@jeesay", 
+    "acronym": "Evt::Conference", 
+    "apogee": "4TBIMEET", 
+    "date_end": "2019-10-11T13:00", 
+    "date_start": "2019-10-11T12:00", 
+    "description": "Presentation des UEs optionnelles pour le semestre de printemps| <i>Presentation of elective courses for the Spring semester</i>", 
+    "group": "All", 
+    "lecturer": "--  ", 
+    "location": "Talence::B16@Room_09", 
+    "summary": "4TBIDFNS", 
+    "title": "Presentation des UEs optionnelles", 
+    "tracks": "0x0F", 
+    "type": "Presentation", 
+    "year": "1"
+  }, 
   "E10F20200903T135907002@jeesay": {
     "ID": "E10F20200903T135907002@jeesay", 
     "acronym": "Evt::Conference", 
     "apogee": "4TBIMEET", 
     "date_end": "2020-09-01T11:00", 
     "date_start": "2020-09-01T10:00", 
-    "description": "<p><em>Amphi E du bâtiment <b>A29</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations générales sur le master et son organisation | <i>General information about the master and its organization</i>.</p><p>En raison du COVID et des mesures barrières à respecter, il vous est demandé de ne pas rester dans les couloirs, de vous munir d'un masque et une fois dans l'amphi, de respecter un écartement d'un siège.</p>", 
+    "description": "<p><em>Amphi E du b\u00e2timent <b>A29</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations g\u00e9n\u00e9rales sur le master et son organisation | <i>General information about the master and its organization</i>.</p><p>En raison du COVID et des mesures barri\u00e8res \u00e0 respecter, il vous est demand\u00e9 de ne pas rester dans les couloirs, de vous munir d'un masque et une fois dans l'amphi, de respecter un \u00e9cartement d'un si\u00e8ge.</p>", 
     "group": "All", 
     "lecturer": "------", 
     "location": "Talence::A29@Amphi_E", 
@@ -41,21 +89,6 @@
     "tracks": "0x0F", 
     "type": "Rentr&eacute;e", 
     "year": "1"
-  }, 
-  "E20F20200903T135907003@jeesay": {
-    "ID": "E20F20200903T135907003@jeesay", 
-    "acronym": "Evt::Conference", 
-    "apogee": "4TBIMEET", 
-    "date_end": "2020-09-01T12:00", 
-    "date_start": "2020-09-01T11:00", 
-    "description": "<p><em>Amphi E du bâtiment <b>A29</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations générales sur le master et son organisation | <i>General information about the master and its organization</i>.</p><p>En raison du COVID et des mesures barrières à respecter, il vous est demandé de ne pas rester dans les couloirs, de vous munir d'un masque et une fois dans l'amphi, de respecter un écartement d'un siège.</p>", 
-    "group": "All", 
-    "lecturer": "------", 
-    "location": "Talence::A29@Amphi_E", 
-    "title": "Rentr&eacute;e M2", 
-    "tracks": "0x0F", 
-    "type": "Rentr&eacute;e", 
-    "year": "2"
   }, 
   "E20F20190904T111251870@jeesay": {
     "ID": "E20F20190904T111251870@jeesay", 
@@ -73,7 +106,7 @@
     "type": "Defense", 
     "year": "2"
   }, 
-    "E20F20190904T111251872@jeesay": {
+  "E20F20190904T111251872@jeesay": {
     "ID": "E20F20190904T111251872@jeesay", 
     "acronym": "Evt::Defense", 
     "apogee": "4TBIDFNS", 
@@ -88,7 +121,7 @@
     "tracks": "0x0F", 
     "type": "Defense", 
     "year": "2"
-  },
+  }, 
   "E20F20190904T111251873@jeesay": {
     "ID": "E20F20190904T111251873@jeesay", 
     "acronym": "Evt::Defense", 
@@ -104,7 +137,7 @@
     "tracks": "0x0F", 
     "type": "Defense", 
     "year": "2"
-  },
+  }, 
   "E20F20190904T111251874@jeesay": {
     "ID": "E20F20190904T111251874@jeesay", 
     "acronym": "Evt::Defense", 
@@ -120,49 +153,33 @@
     "tracks": "0x0F", 
     "type": "Defense", 
     "year": "2"
-  },
-  "E10F20190920T111251801@jeesay": {
-    "ID": "E10F20190920T111251801@jeesay", 
+  }, 
+  "E20F20200903T135907003@jeesay": {
+    "ID": "E20F20200903T135907003@jeesay", 
     "acronym": "Evt::Conference", 
     "apogee": "4TBIMEET", 
-    "date_end": "2019-10-11T13:00", 
-    "date_start": "2019-10-11T12:00", 
-    "description": "Presentation des UEs optionnelles pour le semestre de printemps| <i>Presentation of elective courses for the Spring semester</i>", 
+    "date_end": "2020-09-01T12:00", 
+    "date_start": "2020-09-01T11:00", 
+    "description": "<p><em>Amphi E du b\u00e2timent <b>A29</b>.Follow this <a href=\"https://cartographie.u-bordeaux.fr/TPG.html\">link</a> for the location</i>.<br>Informations g\u00e9n\u00e9rales sur le master et son organisation | <i>General information about the master and its organization</i>.</p><p>En raison du COVID et des mesures barri\u00e8res \u00e0 respecter, il vous est demand\u00e9 de ne pas rester dans les couloirs, de vous munir d'un masque et une fois dans l'amphi, de respecter un \u00e9cartement d'un si\u00e8ge.</p>", 
     "group": "All", 
-    "lecturer": "--  ", 
-    "location": "Talence::B16@Room_09", 
-    "summary": "4TBIDFNS", 
-    "title": "Presentation des UEs optionnelles", 
+    "lecturer": "------", 
+    "location": "Talence::A29@Amphi_E", 
+    "title": "Rentr&eacute;e M2", 
     "tracks": "0x0F", 
-    "type": "Presentation", 
-    "year": "1"
-  },
+    "type": "Rentr&eacute;e", 
+    "year": "2"
+  }, 
   "E30720190726T134849025@jeesay": {
     "ID": "E30720190726T134849025@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
     "date_end": "2020-10-30T00:00", 
-    "date_start": "2020-10-26:00", 
+    "date_start": "2020-10-26T00:00", 
     "description": "", 
     "group": "All", 
     "lecturer": "------", 
     "location": "None::None@Room_000", 
     "title": "Vacances d&apos;automne | Fall Holidays", 
-    "tracks": "0x07", 
-    "type": "Vacances", 
-    "year": "3"
-  }, 
-  "E30720200105T102600000@jeesay": {
-    "ID": "E30720200105T102600000@jeesay", 
-    "acronym": "Evt::Holidays", 
-    "apogee": "4TBIVACA", 
-    "date_end": "2020-11-11T00:00", 
-    "date_start": "2020-11-11T00:00", 
-    "description": "", 
-    "group": "All", 
-    "lecturer": "------", 
-    "location": "None::None@Room_000", 
-    "title": "Jour F&eacute;ri&eacute; - Bank Holidays", 
     "tracks": "0x07", 
     "type": "Vacances", 
     "year": "3"
@@ -180,6 +197,21 @@
     "title": "Vacances de fin d&apos;ann&eacute;e | End-of-year Holidays", 
     "tracks": "0x07", 
     "type": "Vacances", 
+    "year": "3"
+  }, 
+  "E30720191103T135907002@jeesay": {
+    "ID": "E30720191103T135907002@jeesay", 
+    "acronym": "Evt::Conference", 
+    "apogee": "4TBIMEET", 
+    "date_end": "2019-11-22T00:00", 
+    "date_start": "2019-11-22T00:00", 
+    "description": "<p>Workshop Fili&egrave;res de la Bioinformatique</p>", 
+    "group": "All", 
+    "lecturer": "------", 
+    "location": "Talence::A30@Amphi_000", 
+    "title": "Workshop Fili&egrave;res de la Bioinformatique", 
+    "tracks": "0x07", 
+    "type": "Conference", 
     "year": "3"
   }, 
   "E30720200105T100549040@jeesay": {
@@ -201,21 +233,6 @@
     "ID": "E30720200105T101049040@jeesay", 
     "acronym": "Evt::Holidays", 
     "apogee": "4TBIVACA", 
-    "date_end": "2020-04-13T00:00", 
-    "date_start": "2020-04-13T00:00", 
-    "description": "", 
-    "group": "All", 
-    "lecturer": "------", 
-    "location": "None::None@Room_000", 
-    "title": "P&acirc;ques | Easter", 
-    "tracks": "0x07", 
-    "type": "Vacances", 
-    "year": "3"
-  }, 
-  "E30720200105T101049040@jeesay": {
-    "ID": "E30720200105T101049040@jeesay", 
-    "acronym": "Evt::Holidays", 
-    "apogee": "4TBIVACA", 
     "date_end": "2020-05-01T00:00", 
     "date_start": "2020-04-27T00:00", 
     "description": "", 
@@ -223,6 +240,21 @@
     "lecturer": "------", 
     "location": "None::None@Room_000", 
     "title": "Vacances de Printemps | Spring Holidays", 
+    "tracks": "0x07", 
+    "type": "Vacances", 
+    "year": "3"
+  }, 
+  "E30720200105T102600000@jeesay": {
+    "ID": "E30720200105T102600000@jeesay", 
+    "acronym": "Evt::Holidays", 
+    "apogee": "4TBIVACA", 
+    "date_end": "2020-11-11T00:00", 
+    "date_start": "2020-11-11T00:00", 
+    "description": "", 
+    "group": "All", 
+    "lecturer": "------", 
+    "location": "None::None@Room_000", 
+    "title": "Jour F&eacute;ri&eacute; - Bank Holidays", 
     "tracks": "0x07", 
     "type": "Vacances", 
     "year": "3"
@@ -256,7 +288,7 @@
     "tracks": "0x07", 
     "type": "Vacances", 
     "year": "3"
-  },
+  }, 
   "E30720200105T112745600@jeesay": {
     "ID": "E30720200105T102745600@jeesay", 
     "acronym": "Evt::Holidays", 
@@ -271,53 +303,5 @@
     "tracks": "0x07", 
     "type": "Vacances", 
     "year": "3"
-  },
-  "E30720191103T135907002@jeesay": {
-    "ID": "E30720191103T135907002@jeesay", 
-    "acronym": "Evt::Conference", 
-    "apogee": "4TBIMEET", 
-    "date_end": "2019-11-22T00:00", 
-    "date_start": "2019-11-22T00:00", 
-    "description": "<p>Workshop Fili&egrave;res de la Bioinformatique</p>", 
-    "group": "All", 
-    "lecturer": "------", 
-    "location": "Talence::A30@Amphi_000", 
-    "title": "Workshop Fili&egrave;res de la Bioinformatique", 
-    "tracks": "0x07", 
-    "type": "Conference", 
-    "year": "3"
-  },
-  "E10720191211T161706184@import": {
-    "ID"        :"E10720191211T161706184@import",
-    "apogee"    :"4TBIMEET",
-    "acronym"   :"Evt::Conference",
-    "date_start":"2020-01-09T14:00",
-    "date_end"  :"2020-01-09T17:00",
-    "lecturer"  :"Taveau JC",
-    "location"  :"None::None@Room_000",
-    "group"     :"All",
-    "type"      :"Conference",
-    "title"     : "Presentation Machine Learning by M2",
-    "description": "<p>Presentation about the various methods of machine learning by students of the 2<sup>nd</sup> year</p>",  
-    "year"      :"1",
-    "tracks"    :"0x07",
-    "comment"   :"Imported from .ics - Wed Dec 11 2019 17:17:06 GMT+0100 (GMT+01:00)"
-  },
-  "E10720191211T161706185@import": {
-    "ID"        :"E10720191211T161706185@import",
-    "apogee"    :"4TBIMEET",
-    "acronym"   :"Evt::Conference",
-    "date_start":"2020-01-10T09:00",
-    "date_end"  :"2020-01-10T12:00",
-    "lecturer"  :"Taveau JC",
-    "location"  :"None::None@Room_000",
-    "group"     :"All",
-    "type"      :"Conference",
-    "title"     : "Presentation Machine Learning by M2",
-    "description": "<p>Presentation about the various methods of machine learning by students of the 2<sup>nd</sup> year</p>",
-    "year"      :"1",
-    "tracks"    :"0x07",
-    "comment"   :"Imported from .ics - Wed Dec 11 2019 17:17:06 GMT+0100 (GMT+01:00)"
   }
-}
 
