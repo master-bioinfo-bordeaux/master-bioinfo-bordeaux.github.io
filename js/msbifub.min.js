@@ -906,7 +906,8 @@ var course_data = {
     "semester": 9, 
     "title": "Approche Objet", 
     "tracks": "0x10", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "PRMA_68/informatique/enseignement/FRUAI0333298FCOEN_2464/approche-objet"
   },
   "4TBI901U": {
     "apogee": "4TBI901U",
@@ -947,7 +948,8 @@ var course_data = {
     "semester": 9, 
     "title": "Bioinformatique Structurale", 
     "tracks": "0x61", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_5228/bioinformatique-structurale"
   }, 
   "4TBI902U": {
     "apogee": "4TBI902U",
@@ -974,7 +976,8 @@ var course_data = {
     "semester": 9, 
     "title": "Fili\u00e8res de la Bioinformatique", 
     "tracks": "0x0F", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_5226/filieres-de-la-bioinformatique"
   }, 
   "4TBI903U": {
     "apogee": "4TBI903U",
@@ -1001,7 +1004,8 @@ var course_data = {
     "semester": 9, 
     "title": "G\u00e9nie Logiciel et Gestion de Projet", 
     "tracks": "0x61", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_5219/genie-logiciel-et-gestion-de-projet"
   }, 
   "4TBI904U": {
     "apogee": "4TBI904U",
@@ -1028,7 +1032,8 @@ var course_data = {
     "semester": 9, 
     "title": "Donn\u00e9es: De l'Entrep\u00f4t \u00e0 l'Analyse", 
     "tracks": "0x07", 
-    "visibility": "visible"
+    "visibility": "visible",
+    "html":"FRUAI0333298FCOEN_3607/donnees-de-l-entrepot-a-l-analyse"
   }, 
   "4TBI905U": {
     "apogee": "4TBI905U",
@@ -1112,7 +1117,7 @@ var course_data = {
 <p><a href="http://www.geocean.net/wikisig/doku.php?id=master:start">Plus de détails...</a></p>
 <p>La deuxième semaine est constituée par la réalisation d'un projet SIG. Pour les étudiants de l'Ecole doctorale et des Masters recherche ces sujets porteront obligatoirement sur leurs sujets de thèse ou sur leurs stages de Master 2. Pour les étudiants du master pro les sujets seront choisis en fonctions de leurs stages en entreprise ou de leurs projets professionnels.</p>`,
               "objectives": `Au terme de cette formation vous serez en mesure de gérer un projet cartographique depuis <ul><li>l'acquisition des données sur le terrain,</li> <li>la prise en compte des informations géodésiques,</li> <li>le traitement des données via un Système d'Information Géographique (QGIS, ArcGIS), </li><li>le couplage à d'autres informations (photos aériennes, images satellites…) et </li><li>la réalisation de documents cartographiques publiables.</li></ul>`,
-              "skills": `Contenu des UEs d'origine <a href="http://www.u-bordeaux.fr/formation/2016/PRMA_25/sciences-de-la-mer/enseignement/FRUAI0333298FCOEN_4820/systemes-d-information-geographique-1"><i class="fa fa-university fa-2x"></i></a> et <a href="http://www.u-bordeaux.fr/formation/2016/PRMA_25/sciences-de-la-mer/enseignement/FRUAI0333298FCOEN_4823/systemes-d-information-geographique-2"><i class="fa fa-university fa-2x"></i></a>`
+              "skills": `Contenu des UEs d'origine <a href="http://www.u-bordeaux.fr/formation/2020/PRMA_25/sciences-de-la-mer/enseignement/FRUAI0333298FCOEN_4820/systemes-d-information-geographique-1"><i class="fa fa-university fa-2x"></i></a> et <a href="http://www.u-bordeaux.fr/formation/2020/PRMA_25/sciences-de-la-mer/enseignement/FRUAI0333298FCOEN_4823/systemes-d-information-geographique-2"><i class="fa fa-university fa-2x"></i></a>`
       }
     }, 
     "ects": 6, 
