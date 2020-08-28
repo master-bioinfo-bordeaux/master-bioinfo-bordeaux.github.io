@@ -2,7 +2,7 @@
 // var university_path = "http://www.u-bordeaux.fr/formation/2015/PRMABS_121/master-recherche-professionnel-mention-biologie-sante-specialite-bioinformatique/enseignement/";
 var u_path = "https://www.u-bordeaux.fr/formation/";
 var master_path = "/PRMA_74/bio-informatique/enseignement/";
-var u_year = "2019";
+var u_year = "2020";
 var university_path = u_path + u_year + master_path;
 
 
