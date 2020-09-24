@@ -1094,7 +1094,7 @@ var course_data = {
     "short" : "Données et IA",
     "language": "French",
     "acronym": "IA", 
-    "background_color": "#EEF409", 
+    "background_color": "#807dba", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",

@@ -40,7 +40,7 @@ touch `pwd`/../data/calendar_m2.json
 cat $1*.ics > merged_tmp.ics
 
 calendar=`pwd`/../data/calendar_m2.json
-node tool_ics.js -i merged_tmp.ics > `pwd`/../data/calendar_m2.json
+node tool_ics.js -d $1 -o `pwd`/../data/calendar_m2.json
 
 if grep -q ERROR "$calendar"; then
    printf '>>> ERROR: Check the content of calendar_m2.json\n>>> '
