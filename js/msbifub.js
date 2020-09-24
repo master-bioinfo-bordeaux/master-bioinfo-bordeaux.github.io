@@ -1089,6 +1089,42 @@ var course_data = {
     "tracks": "0x70", 
     "visibility": "visible"
   },
+  "4TBI907U": {
+    "apogee": "4TBI907U",
+    "short" : "Données et IA",
+    "language": "French",
+    "acronym": "IA", 
+    "background_color": "#EEF409", 
+    "contents": {
+      "en": {
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Cette UE est enseignée dans le cadre du master informatique 2ème année MIAGE",
+        'objectives': `Ce cours a pour objectif l'acquisition des aspects suivants:
+          - Régression linéaire simple et multiple : approche empirique et probabiliste.
+          - Analyse en composantes principales.
+          - Classification hiérarchique ascendante et regroupement par la méthode des centres mobiles.
+          - Analyse de variance et mise en place de groupes homogènes éventuels.
+          - Etude de liaison entre deux variables qualitatives : test du chi deux d'indépendance.
+          - Analyse factorielle des correspondances.`,
+        'skills': `- Maîtriser l'expression écrite et orale de la langue française et ses techniques d'expression
+          - Etre en capacité de stocker, gérer, extraire et indexer de l'information
+          - Mise en lien des connaissances pour la prise de décisions d'ordre technique, stratégique, commercial et financière`
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI907U", 
+    "image": "ue_mocell.jpg", 
+    "semester": 9, 
+    "title": "Données et Intelligence Artificielle", 
+    "tracks": "0x70", 
+    "visibility": "visible",
+    "html":"PRMA_64/methodes-informatiques-appliquees-a-la-gestion-des-entreprises-miage/enseignement/FRUAI0333298FCOEN_6621/donnees-et-intelligence-artificielle"
+  },
   "4TDE901U": {
     "apogee": "4TDE901U",
     "short": "GIS: Geo. Info. Systems",

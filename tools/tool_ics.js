@@ -214,7 +214,7 @@ function createEvent(e) {
  * @author: Jean-Christophe Taveau
  */
 function parse_ics(data) {
-  var all_events = [];
+  var all_events = {};
   var ev;
   var rows = data.split(/\r?\n/);
   for (var i = 0; i < rows.length;i++) {
@@ -222,6 +222,9 @@ function parse_ics(data) {
     if (str.indexOf('BEGIN') !== -1 && str.indexOf('VEVENT') !== -1) {
       // New event
       ev = {sequence:0,location:'None::None@Room_000'};
+    }
+    else if (str.indexOf('UID') !== -1) {
+      console.log('Process Event ',str);
     }
     else if (str.indexOf('DTSTART') !== -1 && ev !== undefined) {
       var date = getDate(str);
@@ -249,7 +252,8 @@ function parse_ics(data) {
       ev.description = str;
     }
     else if (str.indexOf('END') !== -1 && str.indexOf('VEVENT') !== -1) {
-      all_events.push(createEvent(ev));
+      let obj = createEvent(ev);
+      all_events[obj.ID] = obj;
     }
   } // End of for each row
   return all_events;
@@ -310,6 +314,15 @@ function output_events(all) {
   console.log('}');
 }
 
+function writeFile(output,buffer) {
+  fs.writeFile(output, buffer, function(err) {
+      if(err) {
+          return console.log(err);
+      }
+      console.log("The file was saved!");
+  }); 
+}
+
 /***************************
  *
  *        M  A  I  N 
@@ -322,9 +335,10 @@ let EVENT_COUNT = 0;
 
 if (process.argv.length <= 3) {
   console.log('ERROR: Wrong number of arguments');
-  console.log('USAGE: nodejs tool_ics.js -[i|d]-i ../import/my_path/filename.ics > ../data/calendar_m<master_year>.json');
+  console.log('USAGE: nodejs tool_ics.js -[i|d] ../import/my_path/filename.ics -o ../data/calendar_m<master_year>.json');
   console.log('USAGE: Option -i: input single ics filename');
   console.log('USAGE: Option -d: input directory containing ics files');
+  console.log('USAGE: Option -o: output JSON calendar file');
   process.exit();
 }
 
@@ -332,6 +346,12 @@ let comment = `Imported from ${process.argv[3].substring(process.argv[3].indexOf
 
 let format = process.argv[2];
 
+let i = 4;
+let output = process.argv[i] === '-o' ? process.argv[i+1] : '';
+if (output === '') {
+  console.log('ERROR: Requires Option -o: output JSON calendar file');
+  return 0;
+}
 // Read one ics file. Option `-i` = input filename
 if (format === '-i') {
   let filename = process.argv[3];
@@ -341,31 +361,31 @@ if (format === '-i') {
       return console.log(err);
     }
     var events = parse_ics(data);
-    output_events(events);
+    // console.log(JSON.stringify(events,null,2));
+    writeFile(output,JSON.stringify(events,null,2));
   });
    
 }
 // Read all ics files contained in directory. Option `-d`
 else if (format === '-d') {
   let folder = process.argv[3];
-  let agendas = [];
   let events;
   fs.readdir(folder, function(err, filenames) {
     if (err) {
       return console.log(err);
     }
-    filenames.forEach(function(filename) {
-      fs.readFile(folder+filename, 'utf8', function (err,data) {
-        if (err) {
-          return console.log(err);
-        }
-        agendas.push(parse_ics(data));
-        console.log(agendas[0]);
-      });
-
-          output_events(events);
-    });
+    let agendas = filenames.reduce( (accu,filename) => {
+      let output;
+      console.log('Open... ',folder+filename);
+      let data = fs.readFileSync(folder+filename, 'utf8');
+      let obj = parse_ics(data);
+      Object.keys(obj).forEach ( (k) => accu[k] = obj[k]);
+      return accu;
+    },{});
+    writeFile(output,JSON.stringify(agendas,null,2));
+    // console.log(JSON.stringify(agendas,null,2));
   });
+
   
 }
 

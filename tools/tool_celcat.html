@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf8">
+<title>Convert CELCAT xml into ics</title>
+</head>
+<body>
+
+<label for="celcat">CELCAT XML file:</label>
+<input type="file"
+       id="celcat" name="celcat"
+       accept="text/xml">
+
+<section id="celcat">
+<h3>Fall Semester 2019</h3>
+
+<h4>M1 Bioinfo</h4>
+<ul>
+  <li><input type="checkbox" name="units[]" id="4TBI701U" class="unit" value="4TBI701U,4TBI701U,IMAJS"> 4TBI701U - IMAJS</li>
+  <li><input type="checkbox" name="units[]" id="4TBI702U" class="unit" value="4TBI702U,4TBI702U,APU"> 4TBI702U - APU</li>
+  <li><input type="checkbox" name="units[]" id="4TBI703U" class="unit" value="4TBI703U,4TBI703U,OBI"> 4TBI703U - OBI</li>
+  <li><input type="checkbox" name="units[]" id="4TBI704U" class="unit" value="4TBI704U,4TBI704U,ANGLAIS"> 4TBI704U - ANGLAIS</li>
+  <li><input type="checkbox" name="units[]" id="4TBI705U" class="unit" value="4TBI705U,4TBI705U,BSTATS"> 4TBI705U - BSTATS</li>
+</ul>
+<ul>
+  <li><input type="checkbox" name="units[]" id="4TBA804U" class="unit" value="4TBA804U,4TBA804U,BBP"> 4TBA804U - BBP</li>
+  <li><input type="checkbox" name="units[]" id="4TBE801U" class="unit" value="4TBE801U,4TBE801U,BIODIV"> 4TBE801U - BIODIV</li>
+  <li><input type="checkbox" name="units[]" id="4TBE802U" class="unit" value="4TBE802U,4TBE802U,ECOTERR"> 4TBE802U - ECOTERR</li>
+  <li><input type="checkbox" name="units[]" id="4TBC801U" class="unit" value="4TBC801U,4TBC801U,POO"> 4TBC801U - POO</li>
+  <li><input type="checkbox" name="units[]" id="4TBI801U" class="unit" value="4TBI801U,4TBI801U,ALGOPRG2"> 4TBI801U - ALGOPRG2</li>
+  <li><input type="checkbox" name="units[]" id="4TBI803U" class="unit" value="4TBI803U,4TBI803U,BDD"> 4TBI803U - BDD</li>
+  <li><input type="checkbox" name="units[]" id="4TBI805U" class="unit" value="4TBI805U,4TBI805U,WEBMOD"> 4TBI805U - WEBMOD</li>
+</ul>
+
+<h4>M2 Bioinfo</h4>
+<ul>
+  <li><input type="checkbox" name="units[]" id="4TBI903U" value="4TBI903U,4TBI903U,GLOG"> 4TBI903U - GLOG</li>
+  <li><input type="checkbox" name="units[]" id="4TBI902U" value="4TBI902U,4TBI902U,FILBI"> 4TBI902U - FILBI</li>
+
+</ul>
+<ul>
+  <li><input type="checkbox" name="units[]" id="4TIN706U" value="4TIN706U,4TIN706U,POO++"> 4TIN706U - POO++</li>
+  <li><input type="checkbox" name="units[]" id="4TBE901U" value="4TBE901U,4TBE901U,TDE++"> 4TBE901U - TDE++</li>
+  <li><input type="checkbox" name="units[]" id="4TBE902U" value="4TBE902U,4TBE902U,EVOCOMM"> 4TBE902U - EVOCOMM</li>
+  <li><input type="checkbox" name="units[]" id="4TMR003U" value="4TMR003U,4TDE901U,SIG"> 4TMR003U (4TDE901U) - SIG</li>
+  <li><input type="checkbox" name="units[]" id="4TYE913U" value="4TYE913U,4TYE913U,IA"> 4TYE913U (4TYE913U) - IA</li>
+</ul>
+<h4>CPBX</h4>
+<ul>
+  <li><input type="checkbox" name="units[]" id="units[]" value="4TBX305U,4TBX305U,CPBX3"> 4TBX305U - CPBX Python</li>
+</ul>
+<h3>Spring Semester 2020</h3>
+
+<button id="run">Run</button>
+
+<ul>
+  <li>Link to: <a href="https://www.u-bordeaux.fr/Profils/Etudiant/College-Sciences-et-technologies2/Emplois-du-temps">CELCAT</a></li>
+  <li>Link to Bioinfo M1 - BioComp: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre1/g267904.xml</strong></li>
+  <li>Link to Bioinfo M1 - GenEco: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre1/g267808.xml</strong></li>
+  <li>Link to Bioinfo M2: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master2/Semestre1/g267810.xml</strong></li>
+  <li>Link to POO++ (Approche Objet): <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre1/g371661.xml</strong></li>
+  <li>Link to EvoComm, TDE++: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master2/Semestre1/g267930.xml</strong></li>
+  <li>Link to BioDiv: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre2/g267803.xml</strong></li>
+  <li>Link to BIOCOMP S8 (POO+ALGOPRG2): <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre2/g267903.xml</strong></li>
+  <li>Link to GENECO S8: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master1/Semestre2/g267807.xml</strong></li>
+  <li>Link to SIG: <strong>https://edt-st.u-bordeaux.fr/etudiants/Master/Master2/Semestre1/g267882.xml</strong></li>
+  <li>Link to IADATA: <strong>https://apogee.u-bordeaux.fr/edt-st/Master/Master2/Semestre1/g268011.xml</strong></li>
+  <li>Link to CPBX3: <strong>https://apogee.u-bordeaux.fr/edt-st/Licence23/Semestre1/g254402.xml</strong></li>
+  
+</ul>
+
+</section>
+<section id="ics"></section>
+
+
+<script>
+'use strict';
+
+const modules = {
+  'NoAPOGEE': {id:0,apogee: 'NoAPOGEE', acronym: 'NoACRONYM', biapogee: 'NoBIAPOGEE'},
+  '4TBI701U': {id:1, apogee: '4TBI701U', biapogee: '4TBI701U', acronym: 'IMAJS'},
+  '4TBI702U': {id:2, apogee: '4TBI702U', biapogee: '4TBI702U', acronym: 'APU'},
+  '4TBI703U': {id:3, apogee: '4TBI703U', biapogee: '4TBI703U', acronym: 'OBI'},
+  '4TBI704U': {id:4, apogee: '4TBI704U', biapogee: '4TBI704U', acronym: 'ANGLAIS'},
+  '4TBI705U': {id:5, apogee: '4TBI705U', biapogee: '4TBI705U', acronym: 'BSTATS'},
+  '4TBA804U': {id:80, apogee: '4TBA804U', biapogee: '4TBA804U', acronym: 'BBP'},
+  '4TBE801U': {id:81, apogee: '4TBE801U', biapogee: '4TBE801U', acronym: 'BIODIV'},
+  '4TBC801U': {id:82, apogee: '4TBC801U', biapogee: '4TBC801U', acronym: 'POO'},
+  '4TBI801U': {id:83, apogee: '4TBI801U', biapogee: '4TBI801U', acronym: 'ALGOPRG2'},
+  '4TBE802U': {id:84, apogee: '4TBE802U', biapogee: '4TBE802U', acronym: 'ECOTERR'},
+  '4TBI805U': {id:85, apogee: '4TBI805U', biapogee: '4TBI805U', acronym: 'WEBMOD'},
+  '4TBE901U': {id:6, apogee: '4TBE901U', biapogee: '4TBE901U', acronym: 'TDE++'},
+  '4TBE902U': {id:6, apogee: '4TBE902U', biapogee: '4TBE902U', acronym: 'EVOCOMM'},
+  '4TMR003U': {id:7, apogee: '4TMR003U', biapogee: '4TDE901U,', acronym: 'SIG'}
+};
+
+
+/*
+ *
+ */
+const getAPOGEE = (dom) => {
+  // console.log(dom.querySelector('module'));
+  return (dom.querySelector('module')) ? dom.querySelector('module').textContent.replace('\n','').split(' ')[0] : 'NoAPOGEE';
+}
+
+const getGROUP = (dom) => {
+
+  let group = dom.querySelector('group') ? dom.querySelector('group').textContent : 'All';
+  let notes = dom.querySelector('notes') ? dom.querySelector('notes').textContent : undefined;
+
+  if (group !== 'All') {
+    let match = group.match(/group. ([0-9])/i);
+    group = (match) ? `A${match[1]}` : 'All';
+  }
+  else if (notes) {
+    let match = notes.match(/[Gg]roup. ([0-9])/);
+    group = (match) ? `A${match[1]}` : 'All';
+  }
+  return group;
+}
+
+
+const parseEvent = (e,acronym,apo,biapo) => {
+  let id = e.id;
+  // Part I - APOGEE + Staff
+  let apogee = getAPOGEE(e);
+  let staff = (e.querySelector('staff') ) ? e.querySelector('staff').textContent.replace('\n','').split(' ')[0] : 'NoTEACHER';
+  let type = e.querySelector('prettytimes').textContent.replace('\n','').split(' ')[1];
+  let group = getGROUP(e);
+  // Part II - Date
+  let week = e.querySelector('prettyweeks').textContent;
+  let dmy = e.attributes.date.value.split('/');
+  let weekday = parseInt(e.querySelector('day').textContent); // Monday = 0, Tuesday = 1, etc.
+  let start = e.querySelector('starttime').textContent.split(':');
+  let end = e.querySelector('endtime').textContent.split(':');
+  let date = new Date(dmy[2],+dmy[1] - 1,dmy[0],start[0],start[1]);
+  // Add week day
+  date.setDate( date.getDate() + weekday);
+  console.log(weekday,date,'->',date.getDate());
+  let iday = `${date.getFullYear()}${(date.getMonth()+1).toString().padStart(2, '0')}${date.getDate().toString().padStart(2, '0')}T`;
+  // Start time
+  let istart = iday+`${date.getHours().toString().padStart(2, '0')}${date.getMinutes().toString().padStart(2, '0')}00`;
+  // End time
+  date = new Date(dmy[2],+dmy[1] - 1,dmy[0],end[0],end[1]);
+  date.setDate( date.getDate() + weekday);
+  let iend = iday+`${date.getHours().toString().padStart(2, '0')}${date.getMinutes().toString().padStart(2, '0')}00`;
+
+  // Part III - Location
+  let location = 'Talence::None@Room_000';
+  if (e.querySelector('room')) {
+    let loc = e.querySelector('room').textContent.replace('\n',''); console.log(loc);
+    let building = loc.match(/[AB][0-9]+/)[0];
+    let regex = loc.match(/(Salle|Amphithéatre|Amphithéâtre) ([\w ]*)/);
+    let room = 'Amphi';
+    let roomNum = regex[2].trim().replace(' ','-');
+    if (regex[1].trim() === 'Salle') {
+      room = 'Room';
+    }
+    location = `Talence::${building}@${room}_${roomNum}`;
+  }
+
+  return `BEGIN:VEVENT
+DESCRIPTION:CL4_ID:${id},WEEK:${week},APO:"${apogee}",TYPE:"${type}",GRP:"${group}"
+DTSTART:${istart}
+DTEND:${iend}
+SUMMARY:${acronym}**${staff}**${type}**${group}
+LOCATION:${location}
+END:VEVENT\n`;
+}
+
+const parseCELCAT = (dom,units) => {
+
+  let events = dom.querySelectorAll('event');
+
+  let icals = units.map( cal => {
+    // Step #1: For each selected units, filter the events with the SAME APOGEE
+    cal.data = [...events].filter( e => {
+      let apogee = getAPOGEE(e);
+      return cal.apogee === apogee;
+    });
+    return cal;
+  } )
+  // Step #2: Convert XML to ical format
+  .map( cal => cal.data.reduce ( (accu,e) => accu + parseEvent(e,cal.acronym,cal.apogee,cal.biapogee), ''));
+
+
+  console.log(icals);
+
+  // Create the sections 
+  icals.forEach ((ical,index) => {
+    let article = document.createElement('article');
+    article.innerHTML = `<h2>${units[index].acronym}: ${units[index].biapogee} (${units[index].apogee})</h2><pre>BEGIN:VCALENDAR\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-TIMEZONE:Europe/Paris\n${ical}END:VCALENDAR</pre>`;
+    document.getElementById('ics').appendChild(article);
+  });
+
+}
+
+const read_CELCAT_file = (f,units) => {
+
+  let reader = new FileReader();
+  // Closure to capture the file information.
+  reader.onload = ( text => e => {
+    let text = e.target.result;
+    let parser = new DOMParser();
+    let xmlDoc = parser.parseFromString(text,"text/xml");
+    // console.log(xmlDoc);
+    parseCELCAT(xmlDoc,units);
+
+  })(f);
+
+  reader.readAsText(f,"iso-8859-1");
+}
+
+const getFilename = (evt) => {
+  let files = evt.target.files;
+  let f = files[0];
+  console.log(f);
+  FILENAME = f;
+}
+
+///////////////  M A I N  ///////////////
+
+const do_it = (event) => {
+
+  // Get unit(s)/module(s)
+  let boxes = document.querySelectorAll('input[type="checkbox"]');
+  console.log(boxes);
+  let units = [...boxes].reduce( (accu,box) => {
+    if (box.checked === true) {
+      let ids = box.value.split(',');
+      accu.push({apogee:ids[0],biapogee:ids[1],acronym:ids[2]});
+    }
+    return accu;
+  },[{apogee: 'NoAPOGEE', acronym: 'NoACRONYM', biapogee: 'NoBIAPOGEE'}]);
+
+
+  //Check if CELCAT filename
+  if (FILENAME === 'None') {
+    alert('Please choose a CELCAT/XML File');
+  }
+  read_CELCAT_file(FILENAME,units);
+}
+
+// Global variable
+let FILENAME='None';
+
+// Add Event(s) to elements
+let celcat = document.getElementById('celcat');
+celcat.addEventListener('change', getFilename);
+
+let runButton = document.getElementById('run');
+runButton.addEventListener('click',do_it);
+
+
+</script>
+</body>
+</html>
+

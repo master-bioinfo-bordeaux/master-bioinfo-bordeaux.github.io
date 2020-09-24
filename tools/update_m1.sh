@@ -2,7 +2,7 @@
 
 if [ "$#" -ne 1 ]
 then
-  printf "ERROR: Wrong number of arguments\nUSAGE: sh ics2json_m1.sh <path/filename.ics> \n"
+  printf "ERROR: Wrong number of arguments\nUSAGE: sh update_m1.sh <folder_path_where/ics_are_located/> \n"
   exit
 fi
 
@@ -31,9 +31,34 @@ fi
 #
 
 cd `pwd`
+printf 'Step #1: Git Pull.....\n'
 git pull
-printf 'Conversion.....\n'
-nodejs tool_ics.js -i $1 > `pwd`/../data/calendar_m1.json
+printf 'Step #2: Cleanup old calendar_m1.json.....\n'
+rm -f `pwd`/../data/calendar_m1.json
+
+printf 'Step #3: Conversion.....\n'
+calendar=`pwd`/../data/calendar_m1.json
+nodejs tool_ics.js -d $1 -o `pwd`/../data/calendar_m1.json
+
+if grep -q ERROR "$calendar"; then
+   printf '>>> ERROR: Check the content of $calendar\n>>> '
+   grep ERROR "$calendar"
+   printf '>>> END of process...\n'
+   exit
+fi
+
+while true; do
+    read -p "Push this calendar to github [y|n] ?" yn
+    case $yn in
+        [Yy]* ) printf 'Step #4: Commit/push calendar_m1.json .....\n';git add ../data/calendar_m1.json;git commit -m 'Update calendar M1';git push; break;;
+        [Nn]* ) printf 'Update stopped.....\n';exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+
+#End
+printf 'Step #5: End of update.....\n'
+
 git add ../data/calendar_m1.json
 git commit -m 'Update calendar M1'
 git push
