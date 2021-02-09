@@ -303,6 +303,22 @@
     "tracks": "0x07", 
     "type": "Vacances", 
     "year": "3"
+  },
+  "E30720210105T112745600@jeesay": {
+    "ID": "E30720210105T102745600@jeesay", 
+    "acronym": "Evt::Holidays", 
+    "apogee": "4TBIVACA", 
+    "date_end": "2021-02-15T00:00", 
+    "date_start": "2021-02-19T00:00", 
+    "description": "", 
+    "group": "All", 
+    "lecturer": "------", 
+    "location": "None::None@Room_000", 
+    "title": "Vacances d'hiver - Winter Holidays", 
+    "tracks": "0x07", 
+    "type": "Vacances", 
+    "year": "3"
   }
+
 }
 
