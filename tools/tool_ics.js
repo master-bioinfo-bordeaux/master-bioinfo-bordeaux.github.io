@@ -83,14 +83,19 @@ function getCourseType(type = "Cours+TD") {
 }
 
 function getLocation(loc = "None::None@Room_000") {
-  let keywords = { NONE : 'None',TALENCE: 'Talence',CARREIRE: 'Carreire',INRA: 'INRA',ISVV: 'ISVV', 'ROOM': 'Room', AMPHI: 'Amphi'};
+  let keywords = { 
+    NONE : 'None',
+    BORDES: 'Bordes',PEIXOTTO: 'Peixotto',TALENCE: 'Talence',CARREIRE: 'Carreire',
+    INRA: 'INRA',ISVV: 'ISVV', 'ROOM': 'Room', AMPHI: 'Amphi',
+    VISIO: 'VisioConference',ZOOM: 'VisioConference'
+  };
   let buildings = { A21: 'A21-OMEGA', A28 : 'A28-CREMI',A30: 'A30-LaBRI'};
   let campus;
   let building;
   let type;
   let name;
   // Check common mistakes - No separator or redundant separators/keywords
-  if (loc.indexOf('@') === -1 || loc.indexOf('::') === -1 || loc.indexOf('_') === -1 ) {
+  if (loc.indexOf('@') === -1 || loc.indexOf('::') === -1 ) {
     console.log(`ERROR: Missing separators in >>> ${loc} <<<`);
     console.log('Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>');
     process.exit();
@@ -108,12 +113,21 @@ function getLocation(loc = "None::None@Room_000") {
   // Correct values of each field?
   campus = loc.trim().substr(0,loc.indexOf('::'));
   building = loc.trim().substring(loc.indexOf('::')+2,loc.indexOf('@'));
-  type = loc.trim().substring(loc.indexOf('@')+1,loc.indexOf('_'));
-  name = loc.trim().substr(loc.indexOf('_')+1);
+  building = (building === '?') ? 'None' : building
+  type = 'Room'
+  name = '000'
+  if (loc.indexOf('_') !== -1) {
+    type = loc.trim().substring(loc.indexOf('@')+1,loc.indexOf('_'));
+    name = loc.trim().substr(loc.indexOf('_')+1);
+  }
+  else if (loc.indexOf('@S') !== -1) {
+    name = loc.trim().substr(loc.indexOf('@S')+2);
+  }
+
   
-  if ('NONE,TALENCE,CARREIRE,INRA,ISVV'.indexOf(campus.toUpperCase()) === -1 ) {
+  if ('NONE,BORDES,PEIXOTTO,TALENCE,CARREIRE,INRA,ISVV,VISIO,ZOOM'.indexOf(campus.toUpperCase()) === -1 ) {
     console.log(`ERROR: Unknown campus of >>> ${campus} <<< in ${loc}`);
-    console.log('Available campus: None,Talence,Carreire,INRA,ISVV');
+    console.log('Available campus: None,Bordes, Peixotto,Talence,Carreire,INRA,ISVV');
     process.exit();
   }
   else {
