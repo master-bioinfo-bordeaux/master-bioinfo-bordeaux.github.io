@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Master in BioInformatics, Bordeaux, France">
+    <meta name="author" content="Jean-Christophe Taveau - University of Bordeaux">
+    <link rel="shortcut icon" href="img/favicon.gif">
+
+    <title>Master in BioInformatics, Bordeaux, France</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- link rel="stylesheet" href="css/icomoon.css" -->
+    <link href="css/animate-custom.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+
+
+  	<div id="navbar-main">
+      <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+         </button>
+          <a class="navbar-brand" href="#home"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="#home" class="smoothScroll">Home</a></li>
+			      <li> <a href="#about" class="smoothScroll"> About</a></li>
+			      <li> <a href="#information" class="smoothScroll"> Information</a></li>
+			      <li> <a href="architecture.html"> Courses</a></li>
+			      <li> <a href="#news" class="smoothScroll"> News</a></li>
+			      <li> <a href="#calendar" class="smoothScroll"> Calendar</a></li>
+			      <li> <a href="du_biomed.html"> DU BIfoMed</a></li>
+			      <li> <a href="#team" class="smoothScroll"> Team</a></li>
+			      <li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+			     </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
+
+
+		<!-- ==== CALENDAR ==== -->
+
+		<div class="container" id="calendar" name="calendar">
+			<br>
+			<br>
+			<div class="row">
+
+				<h2 class="centered">CALENDAR</h2>
+				<hr>
+				<br>
+				<div>
+				<div id="calendar-options" class="row">
+				    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                        <a id="weekBackward" class="btn btn-default" href="javascript:void(0)" onclick="previousWeek()" role="button">
+                            <i class="fa fa-backward fa-fw"></i>
+                        </a>
+                        <span id ="weeknum" class="week"></span>
+                        <a id="weekForward" class="btn btn-default" href="javascript:void(0)" role="button" onclick="nextWeek()">
+                            <i class="fa fa-forward fa-fw"></i>
+                        </a>
+                    </div>
+				    <div class="hidden-lg hidden-md col-sm-3 col-xs-4"">
+                        <a id="weekBackward" class="btn btn-xs" href="javascript:void(0)" onclick="previousWeek()" role="button">
+                            <i class="fa fa-backward fa-fw"></i>
+                        </a>
+                        <span id ="weeknum-small" class="week"></span>
+                        <a id="weekForward" class="btn btn-xs" href="javascript:void(0)" role="button" onclick="nextWeek()">
+                            <i class="fa fa-forward fa-fw"></i>
+                        </a>
+                    </div>
+
+				    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs ">
+                        <select id="masterYear" class="form-control" onchange="setMasterOptions('')">
+                            <option value="1">Master 1</option>
+                            <option value="2">Master 2</option>
+                        </select>
+                        <script>
+                            if ('masterYear' in localStorage) {
+                                var e = document.getElementById('masterYear');
+                                e.value = localStorage.masterYear;
+                            }
+                        </script>
+
+                    </div>
+				    <div class="hidden-lg hidden-md col-sm-3 col-xs-3 ">
+                        <select id="masterYear-small" class="form-control" onchange="setMasterOptions('-small')">
+                            <option value="1">M1</option>
+                            <option value="2">M2</option>
+                        </select>
+                        <script>
+                            if ('masterYear' in localStorage) {
+                                var e = document.getElementById('masterYear-small');
+                                e.value = localStorage.masterYear;
+                            }
+                        </script>
+
+                    </div>
+                    <div class="col-lg-4  col-md-4 hidden-sm hidden-xs">
+                        <select id="masterTrack" class="form-control" onchange="setMasterOptions('')">
+                            <option value="1">Computational Biology</option>
+                            <option value="2">From Genomes to Ecosystems</option>
+                            <option value="4">BioInformatics and Omics</option>
+                            <option value="8">Formation continue</option>>
+                        </select>
+                        <script>
+                            if ('masterTrack' in localStorage) {
+                                var e = document.getElementById('masterTrack');
+                                e.value = localStorage.masterTrack;
+                            }
+                        </script>
+                    </div>
+                    <div class="hidden-lg  hidden-md col-sm-5 col-xs-5">
+                        <select id="masterTrack-small" class="form-control" onchange="setMasterOptions('-small')">
+                            <option value="1">CompBio</option>
+                            <option value="2">GenEco</option>
+                            <option value="4">BAO</option>
+                            <option value="8">F.cont.</option>
+                        </select>
+                        <script>
+                            if ('masterTrack' in localStorage) {
+                                var e = document.getElementById('masterTrack-small');
+                                e.value = localStorage.masterTrack;
+                            }
+                        </script>
+                    </div>
+                 </div>
+                <table class="calendar table table-condensed table-bordered">
+                <thead id="calendar-lg-head">
+                </thead>
+                <tbody id="calendar-lg-body">
+                </tbody>
+                </table>
+
+
+            </div> <!-- row -->
+        </div> <!-- row -->
+
+        <div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel" aria-hidden="true"></div>
+
+        </div> <!-- container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!--
+	<script type="text/javascript" src="js/retina.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery-func.js"></script>
+	<script type="text/javascript" src="data/calendar_json.js"></script>
+	-->
+	<script type="text/javascript" src="data/news_json.js"></script>
+	<script type="text/javascript" src="js/msbifub2.js"></script>
+    <script>
+        /** Smooth Scroll **/
+	    $(document).ready(function() {
+		    $('.smoothScroll').click( function() { // Au clic sur un élément
+			    var page = $(this).attr('href'); // Page cible
+			    var speed = 750; // Durée de l'animation (en ms)
+			    $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			    return false;
+		    });
+	    });
+    </script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-69765315-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
