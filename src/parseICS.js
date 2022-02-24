@@ -55,96 +55,63 @@ function getLecturer(name = "------") {
 function getLocation(loc) {
 
   const patterns = [
-    /(\w*)\:\:([A-Za-z0-9?]*)@(\w*)\_([A-Za-z0-9?]*)/,
-    /([AB][0-9]{2})@(\w*)_([A-Za-z0-9?]*)/,
-    /([AB][0-9]{2})@([A-Za-z0-9?]*)/
+    /^@$/,
+    /^@([A-Za-z0-9?]*)/,
+    /^([AB][0-9]{2})@([A-Za-z0-9?]*)/,
+    /^([AB][0-9]{2})@(\w*)_([A-Za-z0-9?]*)/,
+    /^(\w*)\:\:([A-Za-z0-9?]*)@(\w*)\_([A-Za-z0-9?]*)/
   ];
   
-  console.log(loc);
-  console.log(patterns.map(regex => loc.match(regex)));
+  const props = [
+    [],
+    ['name'],
+    ['building','name'],
+    ['building','type','name'],
+    ['campus','building','type','name'],
+  ]
+
+  const location = patterns.reduce( (accu,regex,i) => {
+    const matched = loc.match(regex);
+    if ( matched !== null) {
+      accu.index = i;
+      props[i].forEach( (prop,idx) => accu[prop] = matched[idx+1]);
+    }
+    return accu;
+  }, {campus:'-',building:'-',type: '-',name:'-'});
   
-  
-  let keywords = { 
-    NONE : 'None',
-    BORDES: 'Bordes',PEIXOTTO: 'Peixotto',TALENCE: 'Talence',CARREIRE: 'Carreire',
-    INRA: 'INRA',ISVV: 'ISVV', 'ROOM': 'Room', AMPHI: 'Amphi',
-    VISIO: 'VisioConference',ZOOM: 'VisioConference'
-  };
-  let buildings = { A21: 'A21-OMEGA', A28 : 'A28-CREMI',A30: 'A30-LaBRI'};
-  
-    // Initialize
-  let campus = '';
-  let building = '';
-  let type = '';
-  let name = 
-  
-  console.log('LOCATION >>>>>>>>>><<',loc);
-  
-  // Special case
-  if (loc.trim() === ''){
-    return ({
-      campus: '-',
-      building: '-',
-      type: '-',
-      name: '-'
-    });
+  // Fill the missing props of `location`
+  // Must be improved
+  if (location.index === 0) {
+    location = {campus:'Peixotto',building:'CREMI (A28|A21)',type: 'Room',name:'???'};
   }
-  else if (loc === '@') {
-    return ({
-      campus: 'Peixotto',
-      building: 'CREMI (A28|A21)',
-      type: 'Room',
-      name: '???'
-    });
+  else if (location.index === 1) {
+    location.campus = 'Peixotto';
+    location.building = 'CREMI (A28|A21)';
+    location.type = 'Room';
+  }
+  else if (location.index === 2) {
+    location.campus = (location.building[0].toUpperCase() === 'A') ? 'Peixotto' : 'Bordes';
+    location.type = 'Room|Amphi';
+  }
+  else if (location.index === 3) {
+    location.campus = (location.building[0].toUpperCase() === 'A') ? 'Peixotto' : 'Bordes';
   }
 
-
+  // Check specific buildings { A21: 'A21-OMEGA', A28 : 'A28-CREMI',A30: 'A30-LaBRI'};
+  if (location.building === 'A28') {
+    location.building = 'A28-CREMI';
+  }
+  else if (location.building === 'A30') {
+    location.building = 'A30-LaBRI';
+  }
   
-  /*
-  // Check common mistakes - No separator or redundant separators/keywords
-  if (loc.indexOf('@') === -1 ) {
-    console.log(`ERROR: Missing separators in >>> ${loc} <<<`);
-    console.log('Syntax is <building>@<Room|Amphi>_<number_or_name>');
-    process.exit();
-  }
-  else if ( (loc.match(/::/g) || []).length > 1 || (loc.match(/@/g) || []).length > 1 || (loc.match(/_/g) || []).length > 1 ) {
-    console.log(`ERROR: Redundant separators in >>> ${loc} <<<`);
-    console.log('Syntax is <building>@<Room|Amphi>_<number_or_name>');
-    process.exit();
-  }
-  else if ( (loc.toUpperCase().match(/ROOM/g) || []).length > 1 || (loc.toUpperCase().match(/AMPHI/g) || []).length > 1 ) {
-    console.log(`ERROR: Redundant words 'Room' or 'Amphi' in >>> ${loc} <<<`);
-    console.log('Syntax is <campus>::<building>@<Room|Amphi>_<number_or_name>');
-    process.exit();
-  }
-  */
-  
-  // Correct values of each field: building and campus
-  if (loc.indexOf('::') !== -1) {
-    campus = loc.trim().substr(0,loc.indexOf('::'));
-    building = loc.trim().substring(loc.indexOf('::')+2,loc.indexOf('@'));
-    building = (building === '?') ? 'None' : building;
-  }
-  else {
-    building = loc.trim().substring(0,loc.indexOf('@'));
-    campus = (building[0] === 'A') ? 'Peixotto' : ( (building[0] === 'B') ? 'Bordes': 'Unknown');
-  }
-  // Correct values of each field: type (room || amphi) and room number
-  if (loc.indexOf('_') !== -1) {
-    type = loc.trim().substring(loc.indexOf('@')+1,loc.indexOf('_'));
-    name = loc.trim().substr(loc.indexOf('_')+1);
-  }
-  else if (loc.indexOf('@S') !== -1) {
-    name = loc.trim().substr(loc.indexOf('@S')+2);
-  }
-
-  return {campus,building,type,name};
+  return location;
 }
 
 function getDate(datetime) {
   // Format with TimeZone ID= DTSTART;TZID=Europe/Paris:20170908T140000
   // Format with GMT = DTSTART:20170908T140000
-  console.log(datetime);
+  // HACK: console.log(datetime);
   const yyyy = parseInt(datetime.substr(0,4));
   const mm = parseInt(datetime.substr(4,2))-1; // Month from 0 to 11
   const dd = parseInt(datetime.substr(6,2));
@@ -204,8 +171,8 @@ function createEvent(ueID,e) {
   ev.end = e.end;
   
   const course = Object.values(calDB.courses).filter(c => c.source === ueID)[0];
-  console.log(course);
-  console.log(e);
+  // HACK console.log(course);
+  // HACK console.log(e);
   
   ev.apogee = course.apogee;
   ev.acronym = course.acronym;
@@ -249,13 +216,13 @@ function parse_ics(ueID,data) {
       const words = str.split(/[;:]+/);
       // Check if event is all the day
       ev.allDay =  (words.length === 3 && words[1] === 'VALUE=DATE') ? true : false;
-      console.log(words);
+      // HACK console.log(words);
       ev.start = getDate(words[words.length - 1]);
       console.info(ev);
     }
     else if (str.indexOf('DTEND') !== -1) {
       const words = str.split(/[;:]+/);
-      console.log(words);
+      // HACK console.log(words);
       ev.end = getDate(words[words.length - 1]);
     }
     else if (str.indexOf('SUMMARY') !== -1) {

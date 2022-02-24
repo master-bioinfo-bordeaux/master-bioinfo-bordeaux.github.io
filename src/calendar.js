@@ -132,13 +132,12 @@ function initCalendar() {
     
     // Check Spring of Fall Semesters
     const semesters = (cal.dataset.month < 8) ? ['S08', 'S10'] : ['S07','S09'];
-    console.log(semesters);
+    // HACK console.log(semesters);
     
     // Load M1 + M2 events
     const ues = Object.values(calDB.courses).filter( c => semesters.includes(c.semester) );
-    console.log(ues);
+    // HACK console.log(ues);
     for (let ue of ues) {
-      console.log(ue);
       loadCalendarICS(ue.source);
     }
 
@@ -148,7 +147,7 @@ function initCalendar() {
 }
 
 function loadCalendarICS(ueID) {
-    console.log('LOAD ' + ueID);
+    // HACK console.log('LOAD ' + ueID);
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
@@ -183,7 +182,7 @@ function loadCalendarData(filename) {
 
 function updateCalendar() {
 
-    console.log(calendar_data);
+    // HACK console.log(calendar_data);
     table.reset();
     
     var y = parseInt(document.getElementById("calendar").dataset.year);
@@ -215,7 +214,7 @@ function updateCalendarBody(y,m,d) {
   const masterYear  = parseInt(localStorage.masterYear) || 1; // Default M1
   const masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2
   
-  // console.log(calendar_data);
+  // HACK  console.log(calendar_data);
   var today = new Date(y,m,d);
   var weekdays = [];
   weekdays[0] = {events:[],boxes:[]}; // MON
@@ -240,8 +239,7 @@ function updateCalendarBody(y,m,d) {
       );
       const endDate = new Date(element.end.year, element.end.month, element.end.day,element.end.hour,element.end.minute);
 
-      // HACK: 
-      console.log('START ' + element.allDay);
+      // HACK: console.log('START ' + element.allDay);
   
       // Gather events by weekdays from MON to FRI
       for (let i = 1; i < 6; i++) {
@@ -264,7 +262,7 @@ function updateCalendarBody(y,m,d) {
             weekdays[i-1].events.push(element);
           }
           else {
-            console.log('MULTIDAY',element);
+            // HACK console.log('MULTIDAY',element);
             // Already exists aka multiday event
             // Copy element
             var elementClone = element.constructor();
@@ -347,7 +345,7 @@ function getWeekDays(y,m,d) {
         weekdays.push(shortdays[day.getDay()] +' <sub>' + day.getDate() + ' ' + months[day.getMonth()] +'</sub>');
     }
 
-    // console.log(weekdays) ;
+    // HACK  console.log(weekdays) ;
     return weekdays;
 }
 
