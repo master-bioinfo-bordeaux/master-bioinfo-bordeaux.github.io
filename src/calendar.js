@@ -131,8 +131,9 @@ function initCalendar() {
     cal.dataset.day   = now.getDate();
     
     // Check Spring of Fall Semesters
+    console.log('Month',cal.dataset.month);
     const semesters = (cal.dataset.month < 7) ? ['S08', 'S10'] : ['S07','S09'];
-    // HACK console.log(semesters);
+    console.log(semesters);
     
     // Load M1 + M2 events
     const ues = Object.values(calDB.courses).filter( c => semesters.includes(c.semester) );
