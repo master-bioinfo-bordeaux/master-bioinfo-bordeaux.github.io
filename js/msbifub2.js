@@ -2492,7 +2492,7 @@ function initCalendar() {
     cal.dataset.day   = now.getDate();
     
     // Check Spring of Fall Semesters
-    const semesters = (cal.dataset.month < 8) ? ['S08', 'S10'] : ['S07','S09'];
+    const semesters = (cal.dataset.month < 7) ? ['S08', 'S10'] : ['S07','S09'];
     // HACK console.log(semesters);
     
     // Load M1 + M2 events
