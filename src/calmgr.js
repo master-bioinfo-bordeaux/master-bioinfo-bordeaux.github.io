@@ -499,10 +499,12 @@ const calDB = {
 
   // MS Events
       "4TBIEVNT": {
+        semester: "MS",
         acronym: "Evt::Event",
+        source: "MS_EVENTS",
         apogee: "4TBIEVNT",
         isCourse: false,
-        tracks: "0x00",
+        tracks: "0x07",
         year: 3
       },
       "4TBIMEET": {
@@ -629,6 +631,7 @@ const calDB = {
     PRESENTATION:"Presentation",
     PROJET:"Projet",
     PRESS:"RevuePresse",
+    RENTREE:"Rentrée",
     SOUTENANCE:"Soutenance",
     STAGE:"Stage",
     TD:"TD",

@@ -500,7 +500,7 @@ function createCourseModal(ID) {
 
 function createEventModal(ID) {
     var the_event = course_data[calendar_data[ID].apogee];
-
+    console.log('EVENT',calendar_data[ID]);
     const html = `
     <div class="modal-dialog">
       <div class="modal-content">
@@ -510,7 +510,7 @@ function createEventModal(ID) {
         </div>
         <div class="modal-body">
           <p><img class="img-responsive" src="img/${the_event.image}" alt=""></p>
-          <h2>${calendar_data[ID].title}</h2>'; 
+          <h2>${calendar_data[ID].title}</h2>
           ${calendar_data[ID].description} 
         </div>
         <div class="modal-footer">
