@@ -144,6 +144,7 @@ function initCalendar() {
 
     // Load M2 events
     loadCalendarICS('MS_VACANCES');
+    loadCalendarICS('MS_EVENTS');
 
 }
 

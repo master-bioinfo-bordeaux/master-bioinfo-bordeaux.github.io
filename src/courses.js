@@ -21,7 +21,7 @@ var course_data = {
     "ects": 0, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBIEVNT", 
-    "image": "headinfo.jpg", 
+    "image": "headconf.jpg", 
     "semester": 11, 
     "title": "Event", 
     "tracks": "0x00", 

@@ -50,6 +50,8 @@ curl -L https://calendar.google.com/calendar/ical/ack5mbjjlpf3f4iu2cfgd2u36c%40g
 # Master
 printf "Master Events: VACANCES\n"
 curl -L https://calendar.google.com/calendar/ical/3tcafir28thutbb6kfvlabas1k%40group.calendar.google.com/public/basic.ics  | awk -f clean.awk > ../data/MS_VACANCES.ics
+printf "Master Events: EVENTS\n"
+curl -L https://calendar.google.com/calendar/ical/5t82iihrvh2tg5h32k9vecp0lo%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/MS_EVENTS.ics
 
 # Git 
 git pull
@@ -58,6 +60,7 @@ git add ../data/S8_*.ics
 git add ../data/S9_*.ics
 git add ../data/S10_*.ics
 git add ../data/MS_VACANCES.ics
+git add ../data/MS_EVENTS.ics
 git commit -m 'Update S8,S9,S9,S10 Events'
 git push
 
