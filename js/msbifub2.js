@@ -2305,10 +2305,10 @@ function parse_ics(ueID,data) {
     else if (str.indexOf('DESCRIPTION') !== -1) {
       if (ueID.includes('MS_')) {
         // Multiple Lines is possible
-        const matches = data.match(/DESCRIPTION:\'\'\'([\s\S]*?)\'\'\'/);
+        const matches = data.match(/DESCRIPTION:.*?\'\'\'([\s\S]*?)\'\'\'/);
         if (Array.isArray(matches) && matches.length > 1) {
           const cleaned = matches[1].split(/[\n\r]\ /).join('').replaceAll('\r','');
-          // console.info('MULTILINE',cleaned);
+          console.info('MULTILINE',cleaned);
           const splits = cleaned.trim().split(']');
           ev.title = splits[0].slice(1);
           ev.description = splits[1];
@@ -2331,13 +2331,22 @@ function parse_ics(ueID,data) {
       // YEARLY,MONTHLY,WEEKLY,DAILY,HOURLY, MINUTELY
       ev.freq = 0;
       ev.weekStart = 'MO';
+      ev.count = 1;
       ev.byDay = '';
       // End of periodicity
       ev.until = ev.start;
     }
     else if (str.indexOf('END:VEVENT') !== -1) {
-      let obj = createEvent(ueID,ev);
-      all_events[obj.ID] = obj;
+      if (ev.periodic) {
+        // Duplicate the event in function of periodicity
+        let obj = createEvent(ueID,ev);
+        all_events[obj.ID] = obj;
+      }
+      else {
+        let obj = createEvent(ueID,ev);
+        all_events[obj.ID] = obj;
+      }
+
     }
   } // End of for each row
   return all_events;
