@@ -108,6 +108,10 @@ function getLocation(loc) {
   return location;
 }
 
+function yyyymmdd(date) {
+  return `${date.getFullYear()}${(date.getMonth()+1).toString().padStart(2,'0')}${date.getDate().toString().padStart(2,'0')}`;
+}
+
 function getDate(datetime) {
   // Format with TimeZone ID= DTSTART;TZID=Europe/Paris:20170908T140000
   // Format with GMT = DTSTART:20170908T140000
@@ -128,7 +132,8 @@ function getDate(datetime) {
     day: date.getDate(),
     hour: date.getHours(),
     minute: date.getMinutes(),
-    time: `${date.getHours().toString().padStart(2,'0')}:${date.getMinutes().toString().padStart(2,'0')}`
+    time: `${date.getHours().toString().padStart(2,'0')}:${date.getMinutes().toString().padStart(2,'0')}`,
+    date: date
   }
 }
 
@@ -254,22 +259,61 @@ function parse_ics(ueID,data) {
       }
 
     }
+    else if (str.indexOf('EXDATE') !== -1) {
+      // Exception dates for periodicity (RRULE)
+      const words = str.split(/[;:]+/).filter( w => /^[0-9T]+$/.test(w) );
+      console.log('EXDATES',words);
+      if (ev.exdates) {
+        ev.exdates.push(words[0].split('T')[0]);
+      }
+      else {
+        ev.exdates = [words[0].split('T')[0]];
+      }
+    }
     else if (str.indexOf('RRULE') !== -1) {
       // TODO
+      const params = str
+        .match(/RRULE:(.*)/)[1]
+        .split(';')
+        .reduce( (result,pair) => {
+          const kv = pair.split('=');
+          result[kv[0].trim().toLowerCase()] = kv[1].trim();
+          return result;
+        },{});
       ev.periodic = true;
-      // YEARLY,MONTHLY,WEEKLY,DAILY,HOURLY, MINUTELY
-      ev.freq = 0;
-      ev.weekStart = 'MO';
-      ev.count = 1;
-      ev.byDay = '';
-      // End of periodicity
-      ev.until = ev.start;
+      if (!ev.exdates) {
+        ev.exdates = [];
+      }
+      ev = {...ev,...params};
+      console.log('PERIODIC',ev);
     }
     else if (str.indexOf('END:VEVENT') !== -1) {
-      if (ev.periodic) {
+      if (ev.periodic && ev.freq === 'WEEKLY') {
         // Duplicate the event in function of periodicity
-        let obj = createEvent(ueID,ev);
-        all_events[obj.ID] = obj;
+        for (let i=0; i < +ev.count;i++) {
+          let days = 7 * i;
+          const today = ev.start.date;
+          let nextDate = new Date(today.getFullYear(), today.getMonth(), today.getDate()+days);
+          // Check if exceptions
+          if (!ev.exdates.includes(yyyymmdd(nextDate))) {
+            console.log(nextDate, `${yyyymmdd(nextDate)}`);
+            // Create copy of original event
+            let evi = {...ev};
+            // Update start and end dates
+            evi.start.year = nextDate.getFullYear();
+            evi.start.month = nextDate.getMonth() + 1;
+            evi.start.day = nextDate.getDate();
+            evi.start.date = nextDate;
+            evi.end.year = nextDate.getFullYear();
+            evi.end.month = nextDate.getMonth() + 1;
+            evi.end.day = nextDate.getDate();
+            evi.end.date = nextDate;
+            // Create object
+            let obj = createEvent(ueID,evi);
+            all_events[obj.ID] = obj;
+          }
+        }
+
       }
       else {
         let obj = createEvent(ueID,ev);
