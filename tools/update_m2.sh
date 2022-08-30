@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ "$#" -ne 1 ]
-then
-  printf "ERROR: Wrong number of arguments\nUSAGE: sh ics2json_m2.sh <path> \n"
-  exit
-fi
 
 #
 #  calendarmgr: Calendar for the Master of Sciences in BioInformatics, Bordeaux, France Web Site
@@ -30,42 +25,51 @@ fi
 # Jean-Christophe Taveau
 #
 
+
 cd `pwd`
 printf 'Step #1: Git Pull.....\n'
 git pull
 
-printf 'Step #2: Conversion.....\n'
-rm -f `pwd`/../data/calendar_m2.json
-touch `pwd`/../data/calendar_m2.json
-cat $1*.ics > merged_tmp.ics
+printf 'Step #2: Download ics calendars....\n'
 
-calendar=`pwd`/../data/calendar_m2.json
-node tool_ics.js -d $1 -o `pwd`/../data/calendar_m2.json
+# Semester 9
+printf "Semester 9\n"
+printf "==============================================\n"
+curl -L https://calendar.google.com/calendar/ical/a1jprekcfqqua7d6jggj76r97g%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_DEA.ics
+curl -L https://calendar.google.com/calendar/ical/iln5kv5bg6lc2mgpdq7mbs91ik%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_EVOCOMM.ics
+curl -L https://calendar.google.com/calendar/ical/96i5olk6mtaag0mopqcbidt7m8%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_FILBI.ics
+curl -L https://calendar.google.com/calendar/ical/b5u47go1aqie1n3srams6odcs4%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_GLOG.ics
+curl -L https://calendar.google.com/calendar/ical/il0l3f04sp5pkrhk4v7771p8rs%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_IA.ics
+curl -L https://calendar.google.com/calendar/ical/s2snibsmoj3j1l60gnibubqolg%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_IRD.ics
+curl -L https://calendar.google.com/calendar/ical/f42rotc35cslvfvf3au4rhv400%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_MOCELL.ics
+curl -L https://calendar.google.com/calendar/ical/3huo038tah0nog4jes8rucinq8%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_PDR.ics
+curl -L https://calendar.google.com/calendar/ical/61v3in5jn2igb9i44kkqtumo38%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_POO.ics
+curl -L https://calendar.google.com/calendar/ical/6d1ovd6bc1goatkrtubtubi4j4%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_QPG.ics
+curl -L https://calendar.google.com/calendar/ical/ile7trh2850uul109j8eas2lq4%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_SIG.ics
+curl -L https://calendar.google.com/calendar/ical/qqmpct1km5g4ou29qpuj9lvjng%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_STRUBIGL.ics
+curl -L https://calendar.google.com/calendar/ical/u80fp1govpan1j6gvaam9rftlc%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S9_TDE2.ics
 
-if grep -q ERROR "$calendar"; then
-   printf '>>> ERROR: Check the content of calendar_m2.json\n>>> '
-   grep ERROR "$calendar"
-   printf '>>> END of process...\n'
-   exit
-fi
+# Semester 10
+printf "Semester 10\n"
+printf "==============================================\n"
+curl -L https://calendar.google.com/calendar/ical/ack5mbjjlpf3f4iu2cfgd2u36c%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S10_STAGE.ics
+
+
 
 while true; do
     read -p "Push this calendar to github [y|n] ?" yn
     case $yn in
-        [Yy]* ) printf 'Step #3: Commit/push calendar_m2.json .....\n';git add ../data/calendar_m2.json;git commit -m 'Update calendar M2';git push; break;;
+        [Yy]* ) printf 'Step #4: Commit/push M1 .....\n';git add ../data/S7_*.ics;git add ../data/S8_*.ics;git add ../data/MS_VACANCES.ics;git add ../data/MS_EVENTS.ics;git commit -m 'Update S7, S8, Vacances and Events';git push;git push; break;;
         [Nn]* ) printf 'Update stopped.....\n';exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
 
 
- 
-# Cleanup
-printf 'Step #4: Cleanup.....\n'
-rm merged_tmp.ics
-
 #End
 printf 'Step #5: End of update.....\n'
+
+
 
 
 

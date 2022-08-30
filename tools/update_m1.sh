@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ "$#" -ne 1 ]
-then
-  printf "ERROR: Wrong number of arguments\nUSAGE: sh update_m1.sh <folder_path_where/ics_are_located/> \n"
-  exit
-fi
 
 #
 #  calendarmgr: Calendar for the Master of Sciences in BioInformatics, Bordeaux, France Web Site
@@ -30,36 +25,57 @@ fi
 # Jean-Christophe Taveau
 #
 
+
 cd `pwd`
 printf 'Step #1: Git Pull.....\n'
 git pull
-printf 'Step #2: Cleanup old calendar_m1.json.....\n'
-rm -f `pwd`/../data/calendar_m1.json
 
-printf 'Step #3: Conversion.....\n'
-calendar=`pwd`/../data/calendar_m1.json
-nodejs tool_ics.js -d $1 -o `pwd`/../data/calendar_m1.json
+printf 'Step #2: Download ics calendars....\n'
 
-if grep -q ERROR "$calendar"; then
-   printf '>>> ERROR: Check the content of $calendar\n>>> '
-   grep ERROR "$calendar"
-   printf '>>> END of process...\n'
-   exit
-fi
+# Semester 7
+printf "Semester 7: ANGLAIS,APU,BSTATS,IMAJS,OBI\n"
+printf "==============================================\n"
+curl -L https://calendar.google.com/calendar/ical/afknoo88ub36mtigskd7onm8ek%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_ANGLAIS.ics
+curl -L https://calendar.google.com/calendar/ical/dalb6rcjq1l5uonp99ipsbefb0%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_APU.ics
+curl -L https://calendar.google.com/calendar/ical/hnt79pepoc3a9omjvmlkmdrl88%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_BSTATS.ics
+curl -L https://calendar.google.com/calendar/ical/3h2brkfagdb5lmo0bc60h9qaqs%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_IMAJS.ics
+curl -L https://calendar.google.com/calendar/ical/jg2ut49067j7rus68c76tgspl0%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_OBI.ics
+  
+
+# Semester 8
+printf "Semester 8\n"
+printf "==============================================\n"
+curl -L https://calendar.google.com/calendar/ical/2pg06m2oe4nshusb294ftpjo9s%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_ALGOPRG2.ics
+curl -L https://calendar.google.com/calendar/ical/gj4b6s72vaimkf9eajjcnolabg%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_BBP.ics
+curl -L https://calendar.google.com/calendar/ical/bf3ejtmu8f3da58u5l5jbrd0kg%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_BDD.ics
+curl -L https://calendar.google.com/calendar/ical/7c4sd4ssq3epfb55ghuv7qnqqs%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_BIODIV.ics
+curl -L https://calendar.google.com/calendar/ical/np2j4gfmuo312d7icgv0vlpebc%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_CPRD.ics
+curl -L https://calendar.google.com/calendar/ical/6v268abbjemtcvqlo1ob4rb7f8%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_ECOAQUA.ics
+curl -L https://calendar.google.com/calendar/ical/sfs6ajp1ricdcgh9h4plvnv2vk%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_ECOTERR.ics
+curl -L https://calendar.google.com/calendar/ical/21jtg3m4afkpok2v5ba5okhucs%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_GENEPI.ics
+curl -L https://calendar.google.com/calendar/ical/pjmnuq9oam9nnsfabds17buu00%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_NGS.ics
+curl -L https://calendar.google.com/calendar/ical/s7n0fpslbb7cfo0af7oh6812qk%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_POO2.ics
+curl -L https://calendar.google.com/calendar/ical/3e0o55fc11p2pp4lcob720ng3c%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_WEBMOD.ics
+
+# Master
+printf "Master Events: VACANCES\n"
+curl -L https://calendar.google.com/calendar/ical/3tcafir28thutbb6kfvlabas1k%40group.calendar.google.com/public/basic.ics  | awk -f clean.awk > ../data/MS_VACANCES.ics
+printf "Master Events: EVENTS\n"
+curl -L https://calendar.google.com/calendar/ical/5t82iihrvh2tg5h32k9vecp0lo%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/MS_EVENTS.ics
+
+
 
 while true; do
     read -p "Push this calendar to github [y|n] ?" yn
     case $yn in
-        [Yy]* ) printf 'Step #4: Commit/push calendar_m1.json .....\n';git add ../data/calendar_m1.json;git commit -m 'Update calendar M1';git push; break;;
+        [Yy]* ) printf 'Step #4: Commit/push M1 .....\n';git add ../data/S7_*.ics;git add ../data/S8_*.ics;git add ../data/MS_VACANCES.ics;git add ../data/MS_EVENTS.ics;git commit -m 'Update S7, S8, Vacances and Events';git push;git push; break;;
         [Nn]* ) printf 'Update stopped.....\n';exit;;
         * ) echo "Please answer yes or no.";;
     esac
 done
 
+
 #End
 printf 'Step #5: End of update.....\n'
 
-git add ../data/calendar_m1.json
-git commit -m 'Update calendar M1'
-git push
- 
+
