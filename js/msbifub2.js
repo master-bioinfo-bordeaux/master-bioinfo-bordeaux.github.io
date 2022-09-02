@@ -1876,7 +1876,7 @@ const calDB = {
       "4TBE902U": {
         semester: "S09",
         source: "S9_EVOCOMM",
-        acronym: "S09::EvoCom",
+        acronym: "S09::EvoComm",
         apogee: "4TBE902U",
         isCourse: true,
         tracks: "0x60",
@@ -3146,6 +3146,9 @@ function createEventCell(cal_event) {
             html += '<li class="hidden-lg hidden-md">'+ bldg  +'</li>';
             html += '<li>'+room +': '+ room_name  +'</li>';
           }
+        else {
+          console.warn('No location',cal_event);
+        }
 
         html += '</ul>';
         html += '</div>';

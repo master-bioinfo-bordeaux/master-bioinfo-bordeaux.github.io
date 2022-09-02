@@ -705,6 +705,9 @@ function createEventCell(cal_event) {
             html += '<li class="hidden-lg hidden-md">'+ bldg  +'</li>';
             html += '<li>'+room +': '+ room_name  +'</li>';
           }
+        else {
+          console.warn('No location',cal_event);
+        }
 
         html += '</ul>';
         html += '</div>';
