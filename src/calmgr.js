@@ -413,6 +413,15 @@ const calDB = {
         tracks: "0x70",
         year: 2
       },
+      "4TBI907U": {
+        semester: "S09",
+        source: "S9_IA",
+        acronym: "S09::IA",
+        apogee: "4TBI907U",
+        isCourse: true,
+        tracks: "0x70",
+        year: 2
+      },
       "4TBC901U": {
         semester: "S09",
         source: "S9_POO2",
