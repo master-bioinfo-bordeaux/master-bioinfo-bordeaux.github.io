@@ -59,7 +59,7 @@ curl -L https://calendar.google.com/calendar/ical/ack5mbjjlpf3f4iu2cfgd2u36c%40g
 while true; do
     read -p "Push this calendar to github [y|n] ?" yn
     case $yn in
-        [Yy]* ) printf 'Step #4: Commit/push M1 .....\n';git add ../data/S7_*.ics;git add ../data/S9_*.ics;git add ../data/MS_VACANCES.ics;git add ../data/MS_EVENTS.ics;git commit -m 'Update S9, S10, Vacances and Events';git push;git push; break;;
+        [Yy]* ) printf 'Step #4: Commit/push M1 .....\n';git add ../data/S9_*.ics;git add ../data/MS_VACANCES.ics;git commit -m 'Update S9, S10, Vacances and Events';git push;git push; break;;
         [Nn]* ) printf 'Update stopped.....\n';exit;;
         * ) echo "Please answer yes or no.";;
     esac
