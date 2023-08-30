@@ -8,17 +8,18 @@ X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 DTSTART:20230901T080000Z
 DTEND:20230901T100000Z
-DTSTAMP:20230830T141555Z
+DTSTAMP:20230830T141927Z
 UID:2uludena00g38o58ts4tdf4o4d@google.com
 CREATED:20230829T150125Z
-DESCRIPTION:[Rentrée du master bio-informatique pour les 1ère et 2ème année
- s]<br>La rentrée du master de bio-informatique aura lieu le jeudi 1er septe
- mbre de 10h00 à 12h00 dans l'amphi du bâtiment B6 du campus Bordes. Le plan
-  du campus est disponible à cette adresse (<a href="https://cartographie.u-
- bordeaux.fr/TPG_ZoomTalence.html">https://cartographie.u-bordeaux.fr/TPG_Zo
- omTalence.html</a>).<br>Au cours de cette réunion\, il vous sera présenté l
- 'organisation du master ainsi que les enseignements du semestre d'automne.
-LAST-MODIFIED:20230830T141534Z
+DESCRIPTION:'''[Rentrée du master bio-informatique pour les 1ère et 2ème an
+ nées]<br>La rentrée du master de bio-informatique aura lieu le jeudi 1er se
+ ptembre de 10h00 à 12h00 dans l'amphi du bâtiment B6 du campus Bordes. Le p
+ lan du campus est disponible à cette adresse (<a href="https://cartographie
+ .u-bordeaux.fr/TPG_ZoomTalence.html">https://cartographie.u-bordeaux.fr/TPG
+ _ZoomTalence.html</a>).<br>Au cours de cette réunion\, il vous sera présent
+ é l'organisation du master ainsi que les enseignements du semestre d'automn
+ e.'''
+LAST-MODIFIED:20230830T141915Z
 LOCATION:B06@Amphi_00
 SEQUENCE:0
 STATUS:CONFIRMED
