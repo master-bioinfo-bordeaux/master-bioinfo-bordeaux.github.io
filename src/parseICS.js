@@ -191,7 +191,7 @@ function createEvent(ueID,e) {
   ev.allDay = e.allDay;
   ev.lecturer = getLecturer(words[1]);
   ev.type = getCourseType(words[2]);
-  ev.location = e.location;
+  ev.location = e.location || '';
   ev.title = e.title;
   ev.description = e.description; // Sometimes used by Events
   ev.ID = createCalendarID(ev);
