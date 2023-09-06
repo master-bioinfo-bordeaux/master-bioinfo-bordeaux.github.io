@@ -13,7 +13,7 @@ var university_path = u_path + u_year + master_path;
 var course_data = {
   "4TBIEVNT": {
     "acronym": "Event", 
-    "background_color": "#FEB24C", 
+    "background_color": "#FC9272", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
