@@ -57,7 +57,7 @@ function getLocation(loc) {
   const patterns = [
     /^@$/,
     /^@([A-Za-z0-9?]*)/,
-    /^([AB][0-9]{2})@([A-Za-z0-9?]*)/,
+    /^([AB][0-9]{1,2})@([A-Za-z0-9?\-]*)/,
     /^([AB][0-9]{2})@(\w*)_([A-Za-z0-9?]*)/,
     /^(\w*)\:\:([A-Za-z0-9?]*)@(\w*)\_([A-Za-z0-9?]*)/
   ];
@@ -80,6 +80,8 @@ function getLocation(loc) {
   }, {index: -1,campus:'-',building:'-',type: '-',name:'-', loc: loc});
   
   // Fill the missing props of `location`
+  console.log('LOCATION:',location);
+  
   // Must be improved
   if (location.index === 0) {
     location = {campus:'Peixotto',building:'CREMI (A28|A21)',type: 'Room',name:'???'};
