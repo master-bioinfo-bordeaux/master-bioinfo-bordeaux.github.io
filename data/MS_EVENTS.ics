@@ -6,39 +6,16 @@ METHOD:PUBLISH
 X-WR-CALNAME:WEBMOD
 X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
-DTSTART:20230901T080000Z
-DTEND:20230901T100000Z
-DTSTAMP:20230911T080648Z
-UID:2uludena00g38o58ts4tdf4o4d@google.com
-CREATED:20230829T150125Z
-DESCRIPTION:'''[Rentrée du master bio-informatique pour les 1ère et 2ème an
- nées]<br>La rentrée du master de bio-informatique aura lieu le jeudi 1er se
- ptembre de 10h00 à 12h00 dans l'amphi du bâtiment B6 du campus Bordes. Le p
- lan du campus est disponible à cette adresse (<a href="https://cartographie
- .u-bordeaux.fr/TPG_ZoomTalence.html">https://cartographie.u-bordeaux.fr/TPG
- _ZoomTalence.html</a>).<br>Au cours de cette réunion\, il vous sera présent
- é l'organisation du master ainsi que les enseignements du semestre d'automn
- e.'''
-LAST-MODIFIED:20230830T141915Z
-LOCATION:B06@Amphi_00
+DTSTART:20240116T083000Z
+DTEND:20240116T100000Z
+DTSTAMP:20240102T100204Z
+UID:0qhismu241chlvc9dg2nq30f62@google.com
+CREATED:20231215T145849Z
+LAST-MODIFIED:20231215T145849Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:EVENT**MASTER**RENTREE**All
+SUMMARY:MS_EVENT**GARENNE**Cours**All
 TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20231023
-DTEND;VALUE=DATE:20231028
-DTSTAMP:20230911T080648Z
-UID:26cj8ds1ola805mtkanu5agnjk@google.com
-CREATED:20230830T151306Z
-DESCRIPTION:'''[Semaine pour l'alternance] \nPour les alternants M2\, cette
-  semaine est réalisée en entreprise.'''
-LAST-MODIFIED:20230906T120627Z
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:MS_EVENT**ALTERNANCE**TD**M2
-TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
 END:VCALENDAR
