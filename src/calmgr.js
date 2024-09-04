@@ -424,7 +424,7 @@ const calDB = {
       },
       "4TBC901U": {
         semester: "S09",
-        source: "S9_POO2",
+        source: "S9_POO",
         acronym: "S09::POO++",
         apogee: "4TBC901U",
         isCourse: true,
