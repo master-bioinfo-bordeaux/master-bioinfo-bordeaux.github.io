@@ -3073,6 +3073,7 @@ function findEvent(events,start,col) {
     var stack = [];
     var max_duration = 0;
     var found;
+    console.log(events);
     for (let i = 0; i < events.length; i++) {
         // round to the nearest half hour (in minutes)
         var startMin = events[i].startDate.getHours() * 60 + Math.round((events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
