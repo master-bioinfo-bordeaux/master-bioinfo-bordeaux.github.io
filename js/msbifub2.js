@@ -1776,7 +1776,7 @@ const calDB = {
         semester: "S08",
         source: "S8_BIP",
         acronym: "S08::BIP",
-        apogee: "4TBI806U",
+        apogee: "4TBI809U",
         isCourse: true,
         tracks: "0x70",
         year: 1
