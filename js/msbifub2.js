@@ -3073,8 +3073,9 @@ function findEvent(events,start,col) {
     var stack = [];
     var max_duration = 0;
     var found;
-    for (var i = 0; i < events.length; i++) {
-        var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
+    for (let i = 0; i < events.length; i++) {
+        // round to the nearest half hour (in minutes)
+        var startMin = events[i].startDate.getHours() * 60 + Math.round((events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
         var startMax = startMin + events[i].duration;
         var startDay = events[i].weekdayIndex;
         
@@ -3083,7 +3084,7 @@ function findEvent(events,start,col) {
         // Event #2: 15:00-16:30
         // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
         if (startMin == start && startDay == day) {
-            // HACK: console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
+            console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
             found = events[i];
             max_duration = Math.max(events[i].duration, max_duration);
             
