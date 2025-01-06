@@ -642,10 +642,12 @@ var course_data = {
     "background_color": "#7fd8bc", 
     "contents": {
       "en": {
+
         'program': "See French Version. English version coming soon.",
         'objectives': "Coming soon.",
         'skills': "Coming soon."
       }, 
+
       "fr": {
         'program': "Bient&ocirc;t disponible.",
         'objectives': "Bient&ocirc;t disponible.",
@@ -659,6 +661,38 @@ var course_data = {
     "semester": 8, 
     "title": "Web avanc&eacute; et Mod\u00e9lisation des Processus Dynamiques", 
     "tracks": "0x70", 
+
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
+  },
+  "4TBI809U": {
+    "apogee": "4TBI809U",
+    "short": "Blended Intensive Programme",
+    "language": "English",
+    "acronym": "BIP", 
+    "background_color": "#d715cb", 
+    "contents": {
+      "en": {
+
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+
+      "fr": {
+        'program': "European Course about Artificial Intelligence in Forestry remote sensing",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI809U", 
+    "image": "ue_videos.jpg", 
+    "semester": 8, 
+    "title": "BIP &mdash; Deep Learning in Forestry", 
+    "tracks": "0x70", 
+
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
   },
