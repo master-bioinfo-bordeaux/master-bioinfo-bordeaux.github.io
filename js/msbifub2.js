@@ -1600,6 +1600,7 @@ const calDB = {
     "Lubac B",
     "Master",
     "Melan&ccedil;on G",
+    "Noelke N",
     "Nogu&egrave;s X",
     "Normandin C",
     "Occala C",
@@ -1610,6 +1611,7 @@ const calDB = {
     "Taveau JC",
     "Th&eacute;bault P",
     "Uricaru R",
+    "Valdenegro Toro M",
     "Zaragosi S"
   ],
 
