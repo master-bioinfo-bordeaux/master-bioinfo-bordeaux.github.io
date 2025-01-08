@@ -425,7 +425,7 @@ var course_data = {
     "short" : "Biodiversity",
     'language': "French",
     "acronym": "BioDiv", 
-    "background_color": "#9e0142", 
+    "background_color": "#a4ff80", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -632,7 +632,7 @@ var course_data = {
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
-    "background_color": "#abdda4", 
+    "background_color": "#00b7ff", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -1301,7 +1301,7 @@ var course_data = {
     "short": "NGS & Methods",
     "language": "English",
     "acronym": "NGS", 
-    "background_color": "#D0A6FF", 
+    "background_color": "#00b7ff", /*#D0A6FF", */
     "contents": {
       "en": {
         "program": `
