@@ -2806,7 +2806,7 @@ function updateCalendarBody(y,m,d) {
     } // if
   } // for
   
-  console.log('WEEKDAYS',weekdays);
+  // HACK: console.log('WEEKDAYS',weekdays);
   
   // Clean up daily events for every weekday MON(0) to THU(4)
   for (let i = 0; i < 5; i++) {
@@ -2825,8 +2825,8 @@ function updateCalendarBody(y,m,d) {
           return 0;
       }
     });
-    console.log('SORTED DAY',a_day);
-    // 1- Check Overlap(s)
+
+    // 2- Check Overlap(s)
     for (let j = 0; j < a_day.events.length; j++) {
       if (!a_day.events[j].allDay && !a_day.events[j].overlap) {
         var box = {
@@ -2844,7 +2844,7 @@ function updateCalendarBody(y,m,d) {
             a_day.events[k].acronym,
             a_day.events[k].startDate.getTime(),a_day.events[k].endDate.getTime() 
           );
-          if (start <= a_day.events[k].endDate.getTime() && end >= a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
+          if (start <= a_day.events[k].endDate.getTime() && end > a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
             a_day.events[k].overlap = true;
             box.startDate = new Date(Math.min(box.startDate,a_day.events[k].startDate) );
             box.endDate   = new Date(Math.max(box.endDate, a_day.events[k].endDate) );
