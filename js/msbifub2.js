@@ -2090,7 +2090,7 @@ const calDB = {
     CONF: "Conference",
     CI: "Cours+TD",
     COURS: "Cours",
-    DISTANCIEL:"E-learning",
+    DISTANCIEL:"Online",
     ELEARN:"E-learning",
     MOOC:"E-learning",
     EVENT:"Evenement",
