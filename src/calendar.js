@@ -212,11 +212,14 @@ function updateCalendarHeader(y,m,d) {
     document.getElementById('weeknum-small').innerHTML = getISOWeekNum(y,m,d);
 }
 
+// Core function doing the job
+
 function updateCalendarBody(y,m,d) {
   const masterYear  = parseInt(localStorage.masterYear) || 1; // Default M1
   const masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2
   
-  // HACK  console.log(calendar_data);
+  console.log(calendar_data);
+  
   var today = new Date(y,m,d);
   var weekdays = [];
   weekdays[0] = {events:[],boxes:[]}; // MON
@@ -229,6 +232,7 @@ function updateCalendarBody(y,m,d) {
   
   for (let index in calendar_data) {
     const element = calendar_data[index];
+    console.log(element);
     element.MSYear  = parseInt(element.ID[1]);
     element.MSTrack = parseInt(element.ID.substr(2,2),16);
     element.weekdayIndex = -1;
@@ -236,10 +240,10 @@ function updateCalendarBody(y,m,d) {
     if (  (element.MSYear == masterYear || element.MSYear === 3) 
       && ((element.MSTrack & masterTrack) === masterTrack || (element.MSTrack & masterTrack*16) === masterTrack*16 ) ) {
       const startDate = new Date(
-        element.start.year, element.start.month, element.start.day,
+        element.start.year, element.start.month - 1, element.start.day,
         element.start.hour,element.start.minute
       );
-      const endDate = new Date(element.end.year, element.end.month, element.end.day,element.end.hour,element.end.minute);
+      const endDate = new Date(element.end.year, element.end.month - 1, element.end.day,element.end.hour,element.end.minute);
 
       // HACK: console.log('START ' + element.allDay);
   
@@ -249,9 +253,9 @@ function updateCalendarBody(y,m,d) {
         const dayD       = day.toCalString().substr(0,10);  // Days number since UTC
         const startDateD = element.date_start.substr(0,10); // Days number since UTC
         const endDateD   = element.date_end.substr(0,10);   // Days number since UTC
-        // HACK: console.log('DAYS',dayD,startDateD,endDateD,day, day.toCalString());
+        // HACK: console.log('DAYS',dayD,startDateD,endDateD,day, day.toCalString(),startDate,endDate);
         if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-          // HACK: console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
+          // HACK: console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee + ' at ' + startDate);
           const timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
           element.startDate = startDate;
           element.endDate   = endDate;
@@ -278,11 +282,28 @@ function updateCalendarBody(y,m,d) {
       } // for
     } // if
   } // for
-
-  // Clean up daily events
-  for (var i = 0; i < 5; i++) {
-    // 1- Check Overlap(s)
+  
+  // HACK: console.log('WEEKDAYS',weekdays);
+  
+  // Clean up daily events for every weekday MON(0) to THU(4)
+  for (let i = 0; i < 5; i++) {
     let a_day = weekdays[i];
+    // 1- Sort events by time from 0800 to 1900
+    a_day.events.sort(function sort(a,b) {
+      a_time = a.start.hour + a.start.minute / 60;
+      b_time = b.start.hour + b.start.minute / 60;
+      if (a_time > b_time ) {
+          return 1;
+      }
+      else if (a_time < b_time ) {
+          return -1;
+      }
+      else {
+          return 0;
+      }
+    });
+
+    // 2- Check Overlap(s)
     for (let j = 0; j < a_day.events.length; j++) {
       if (!a_day.events[j].allDay && !a_day.events[j].overlap) {
         var box = {
@@ -296,8 +317,11 @@ function updateCalendarBody(y,m,d) {
         var start = box.startDate.getTime();
         var end   = box.endDate.getTime();
         for (let k = j + 1; k < a_day.events.length; k++) {
-          // HACK: console.log('OVERLAP ',k,start,end,a_day.events[k].acronym,a_day.events[k].startDate.getTime(),a_day.events[k].endDate.getTime() );
-          if (start <= a_day.events[k].endDate.getTime() && end >= a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
+          console.log('OVERLAP ',k,start,end,box.startDate,Date.parse(box.startDate),
+            a_day.events[k].acronym,
+            a_day.events[k].startDate.getTime(),a_day.events[k].endDate.getTime() 
+          );
+          if (start <= a_day.events[k].endDate.getTime() && end > a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
             a_day.events[k].overlap = true;
             box.startDate = new Date(Math.min(box.startDate,a_day.events[k].startDate) );
             box.endDate   = new Date(Math.max(box.endDate, a_day.events[k].endDate) );
@@ -318,19 +342,6 @@ function updateCalendarBody(y,m,d) {
            console.log(weekdays[i].boxes[0]);
       }
       */
-      
-    // 2- Sort events by time from 0800 to 1900
-    weekdays[i].boxes.sort(function sort(a,b) {
-        if (a.startDate.getTime() > b.startDate.getTime() ) {
-            return 1;
-        }
-        else if (a.startDate.getTime() < b.startDate.getTime() ) {
-            return -1;
-        }
-        else {
-            return 0;
-        }
-    });
   }
 
   createEventCells(weekdays);
@@ -525,6 +536,8 @@ function createEventModal(ID) {
 function createEventCells(days) {
     //console.log("EVENTS OF THIS WEEK");
     // HACK: console.log(days);
+    console.log('DAYS');
+    console.log(days);
     
     var html='';
     // ROW 0 = ALL DAY events
@@ -578,8 +591,9 @@ function findEvent(events,start,col) {
     var stack = [];
     var max_duration = 0;
     var found;
-    for (var i = 0; i < events.length; i++) {
-        var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
+    for (let i = 0; i < events.length; i++) {
+        // round to the nearest half hour (in minutes)
+        var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
         var startMax = startMin + events[i].duration;
         var startDay = events[i].weekdayIndex;
         
@@ -627,6 +641,97 @@ function findEvent(events,start,col) {
 
 
     return html;
+}
+//function findEvent(events,start,col) {
+//    var day = col + 1 // col#0 = MONDAY = day#1
+//    var html='';
+//    var stack = [];
+//    var max_duration = 0;
+//    var found = {is_found: false,children: []};
+//    
+//    console.log(events);
+//    i = 0;
+//    while (!found.is_found && i < events.length) {
+//      // round to the nearest half hour (in minutes) - BUG ?
+//      var startMin = events[i].startDate.getHours() * 60 + Math.round((events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
+//      var startMax = startMin + events[i].duration;
+//      var startDay = events[i].weekdayIndex;
+//      
+//      // TODO: Take into account the overlapping events !!!!!!!!!!!!!!!!!!!!!!
+//      // Event #1: 14:00-18:00
+//      // Event #2: 15:00-16:30
+//      // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
+//      if (startMin == start && startDay == day) {
+//        console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
+//        found.day = day;
+//        found.index = i;
+//        found.children.push(events[i]);
+//        found.start_min = startMin;
+//        found.start_max = startMax;
+//        max_duration = Math.max(events[i].duration, max_duration);
+//        found.duration = max_duration;
+//        // Check if any overlapping events
+//        found = findOverlap(found,events);
+//        found.is_found = true;
+//      }
+//      i++;
+//    }
+//    
+//    console.log('FOUND');
+//    console.log(found);
+//    
+//    if (found.is_found) {
+//        // Choose the duration max
+//        // <td> with gray  
+//        var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
+//        html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
+//        if (found.children.length > 1) {
+//            // HACK: console.log('Overlapping ',found.children);
+//            html+= '<a title="Overlapping Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
+//            for (let i=0; i < found.children.length; i++) {
+//                // Add each colliding event
+//                html += createEventCell(found.children[i]);
+//            }
+//        }
+//        else {
+//            html += createEventCell(found.children[0]);
+//        }
+
+//        // </td>
+//        html += '</td>';
+//        
+//        // Update cells
+//        for (let t=0; t < found.duration / 30; t++) {
+//            // HACK: console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
+//            // HACK: console.log(t,start,(start - 480 )/30 + t,col);
+//            table.cells[(start - 480 )/30 + t][col]++;
+//        }
+//        
+//    }
+//    
+
+
+//    return html;
+//}
+
+// Added in 2025/01/07
+// JC Taveau
+function findOverlap(selected,all_events) {
+  for (let i = 0; i < all_events.length; i++) {
+    // round to the nearest half hour (in minutes)
+    let mins_from = all_events[i].startDate.getHours() * 60 + Math.round((all_events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
+    let mins_upto = mins_from + all_events[i].duration;
+    let startDay = all_events[i].weekdayIndex;  
+
+    if (selected.index != i && selected.day == startDay && selected.start_min <= mins_from && mins_from < selected.start_max) {
+      // Add overlapping event
+      selected.children.push(all_events[i]);
+      // Update
+      selected.start_max = (selected.start_max < mins_upto) ? mins_upto : selected.start_max;
+      selected.duration = selected.start_max - selected.start_min;
+    }
+  }
+  return selected;
 }
 
 function createEmptyCell() {
