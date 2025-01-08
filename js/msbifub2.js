@@ -611,7 +611,7 @@ var course_data = {
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
-    "background_color": "#eef409", 
+    "background_color": "#00b7ff", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -670,7 +670,7 @@ var course_data = {
     "short": "Blended Intensive Programme",
     "language": "English",
     "acronym": "BIP", 
-    "background_color": "#d715cb", 
+    "background_color": "#99b1f9", 
     "contents": {
       "en": {
 
