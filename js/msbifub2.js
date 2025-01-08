@@ -59,6 +59,10 @@ var course_data = {
     "tracks": "0x00", 
     "visibility": "visible"
   },
+  
+/********************************
+  S E M E S T R E  7
+ ********************************/
   "4TBI701U": {
     "apogee": "4TBI701U",
     "short": "Image Processing",
@@ -345,12 +349,29 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_146310/biostatistiques"
   }, 
+  
+/********************************
+  S E M E S T R E  8
+    #1a9850 4TBA804U
+    #006837 4TBA806U
+    #9e0142 4TBE801U
+    #d53e4f 4TBE802U
+    #f46d43 4TBE803U
+    #fdae61 4TBC801U
+    #fee08b 4TBI801U
+    #ffffbf 4TBI802U
+    #e6f598 4TBI803U
+    #abdda4 4TBI804U
+    #66c2a5 4TBI806U
+    #3288bd 4TBI809U
+    #5e4fa2
+ ********************************/
   "4TBA804U": {
     "apogee": "4TBA804U",
     "short": "Plant Biotechnology",
     "language": "French",
     "acronym": "BBP", 
-    "background_color": "#eef409", 
+    "background_color": "#1a9850", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -377,7 +398,7 @@ var course_data = {
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
-    "background_color": "#c0e44e", 
+    "background_color": "#006837", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -404,7 +425,7 @@ var course_data = {
     "short" : "Biodiversity",
     'language': "French",
     "acronym": "BioDiv", 
-    "background_color": "#a4ff80", 
+    "background_color": "#9e0142", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -431,7 +452,7 @@ var course_data = {
     "short" : "Terrestrial Ecosystems",
     'language': "French",
     "acronym": "EcoTerr", 
-    "background_color": "#ff6bff", 
+    "background_color": "#d53e4f", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -458,7 +479,7 @@ var course_data = {
     "short" : "Aquatic Environments",
     'language': "French",
     "acronym": "Aqua", 
-    "background_color": "#00e6f7", 
+    "background_color": "#f46d43", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -485,7 +506,7 @@ var course_data = {
     "short" : "Object Programming",
     "language": "French",
     "acronym": "POO", 
-    "background_color": "#ff6a00", 
+    "background_color": "#fdae61", 
     "contents": {
       "en": {
         "program": `See French Version`,
@@ -525,7 +546,7 @@ var course_data = {
     "short": "Algo-Prog 2",
     "language": "French",
     "acronym": "AlgoPrg2", 
-    "background_color": "#0095ff", 
+    "background_color": "#fee08b", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -553,7 +574,7 @@ var course_data = {
     "short": "R&D Project",
     "language": "English or French depending of the tutor",
     "acronym": "CPRD", 
-    "background_color": "#cef6ce", 
+    "background_color": "#ffffbf", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -583,7 +604,7 @@ var course_data = {
     "short": "Databases",
     "language": "French",
     "acronym": "BDD", 
-    "background_color": "#ffbc00", 
+    "background_color": "#e6f598", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -611,7 +632,7 @@ var course_data = {
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
-    "background_color": "#00b7ff", 
+    "background_color": "#abdda4", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -639,7 +660,7 @@ var course_data = {
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "WebMod", 
-    "background_color": "#7fd8bc", 
+    "background_color": "#66c2a5", 
     "contents": {
       "en": {
 
@@ -670,7 +691,7 @@ var course_data = {
     "short": "Blended Intensive Programme",
     "language": "English",
     "acronym": "BIP", 
-    "background_color": "#99b1f9", 
+    "background_color": "#3288bd", 
     "contents": {
       "en": {
 
@@ -721,6 +742,11 @@ var course_data = {
     "tracks": "0xF0", 
     "visibility": "visible"
   }, 
+  
+/*************************
+   S E M E S T R E   9
+ *************************/
+ 
   "4TBA903U": {
     "apogee": "4TBA903U",
     "short" : "Population Genetics",
