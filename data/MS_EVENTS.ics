@@ -5,4 +5,26 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:WEBMOD
 X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART:20250901T120000Z
+DTEND:20250901T140000Z
+DTSTAMP:20250811T151145Z
+UID:572a6fkoq8qjpb89hp1ejsfhu5@google.com
+CREATED:20250811T134807Z
+DESCRIPTION:<span>'''[Rentrée du master bio-informatique pour les 1ère et 2
+ ème années]<br>La rentrée du master de bio-informatique aura lieu le lundi 
+ 1er septembre de 14h00 à 16h00 dans l'amphi Thomas Edison du bâtiment A22 d
+ u campus Peixotto. Le plan du campus est disponible à cette adresse (</span
+ ><a href="https://cartographie.u-bordeaux.fr/TPG_ZoomA31-A40.html" target="
+ _blank">https://cartographie.u-bordeaux.fr/TPG_ZoomA31-A40.html</a><span>).
+ <br>Au cours de cette réunion\, il vous sera présenté l'organisation du mas
+ ter ainsi que les enseignements du semestre d'automne.'''</span>
+LAST-MODIFIED:20250811T134807Z
+LOCATION:A22@Amphi_ThomasEdison
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EVENT**MASTER**RENTREE**All
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
 END:VCALENDAR
