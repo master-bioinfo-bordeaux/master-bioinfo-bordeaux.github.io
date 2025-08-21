@@ -59,6 +59,10 @@ var course_data = {
     "tracks": "0x00", 
     "visibility": "visible"
   },
+  
+/********************************
+  S E M E S T R E  7
+ ********************************/
   "4TBI701U": {
     "apogee": "4TBI701U",
     "short": "Image Processing",
@@ -113,44 +117,6 @@ var course_data = {
     "tracks": "0x0F", 
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_3586/initiation-a-l-exploration-d-images-numeriques"
-  }, 
-  "4TBI702U": {
-    "apogee": "4TBI702U",
-    "short" : "Algo-Prog-USI",
-    "acronym": "APU", 
-    "language": "English + French",
-    "coordinators": 'Beurton-Aimar M',
-    "background_color": "#0095FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": {
-        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
-                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
-                "<li>Complexité : quelques notions à partir d'exemples</li>"+
-				"<li>Programmation : "+
-                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
-                "tests logiques, boucles.</li>"+
-				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
-                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
-                "ou de modules prédéfinis.</li></ul>",
-        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
-                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
-                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
-				"</ul>",
-		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
-                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
-                "</ul>"
-      }
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI702U", 
-    "image": "ue_algoprogusi.jpg", 
-    "semester": 7, 
-    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
-    "tracks": "0x0F", 
-    "visibility": "hidden",
-    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
   }, 
   "4TBI702U-Prog": {
     "acronym": "APU-Prog", 
@@ -345,12 +311,95 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_146310/biostatistiques"
   }, 
+  "4TBI706U": {
+    "apogee": "4TBI706U",
+    "short" : "Init-Python",
+    "acronym": "INITPYTHON", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Apprentissage des bases d\'un langage de programmation à travers l\'exemple du langage Python</li>"+
+                "<li>Variables, Types,</li>"+
+                "<li>Conditionnelles, Boucles</li>"+
+                "<li>Fonctions</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI706U", 
+    "image": "ue_python.jpg", 
+    "semester": 7, 
+    "title": "Initiation à Python", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "test"
+  }, 
+  "4TBI707U": {
+    "apogee": "4TBI707U",
+    "short" : "Algo-Prog-USI",
+    "acronym": "APU", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
+                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
+                "<li>Complexité : quelques notions à partir d'exemples</li>"+
+				"<li>Programmation : "+
+                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
+                "tests logiques, boucles.</li>"+
+				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
+                "ou de modules prédéfinis.</li></ul>",
+        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
+                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
+				"</ul>",
+		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
+                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI707U", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
+  }, 
+
+  
+/********************************
+  S E M E S T R E  8
+    #1a9850 4TBA804U
+    #006837 4TBA806U
+    #9e0142 4TBE801U
+    #d53e4f 4TBE802U
+    #f46d43 4TBE803U
+    #fdae61 4TBC801U
+    #fee08b 4TBI801U
+    #ffffbf 4TBI802U
+    #e6f598 4TBI803U
+    #abdda4 4TBI804U
+    #66c2a5 4TBI806U
+    #3288bd 4TBI809U
+    #5e4fa2
+ ********************************/
   "4TBA804U": {
     "apogee": "4TBA804U",
     "short": "Plant Biotechnology",
     "language": "French",
     "acronym": "BBP", 
-    "background_color": "#eef409", 
+    "background_color": "#1a9850", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -377,7 +426,7 @@ var course_data = {
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
-    "background_color": "#c0e44e", 
+    "background_color": "#de77ae", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -431,7 +480,7 @@ var course_data = {
     "short" : "Terrestrial Ecosystems",
     'language': "French",
     "acronym": "EcoTerr", 
-    "background_color": "#ff6bff", 
+    "background_color": "#d53e4f", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -458,7 +507,7 @@ var course_data = {
     "short" : "Aquatic Environments",
     'language': "French",
     "acronym": "Aqua", 
-    "background_color": "#00e6f7", 
+    "background_color": "#f46d43", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -485,7 +534,7 @@ var course_data = {
     "short" : "Object Programming",
     "language": "French",
     "acronym": "POO", 
-    "background_color": "#ff6a00", 
+    "background_color": "#fdae61", 
     "contents": {
       "en": {
         "program": `See French Version`,
@@ -525,7 +574,7 @@ var course_data = {
     "short": "Algo-Prog 2",
     "language": "French",
     "acronym": "AlgoPrg2", 
-    "background_color": "#0095ff", 
+    "background_color": "#fee08b", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -553,7 +602,7 @@ var course_data = {
     "short": "R&D Project",
     "language": "English or French depending of the tutor",
     "acronym": "CPRD", 
-    "background_color": "#cef6ce", 
+    "background_color": "#ffffbf", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -583,7 +632,7 @@ var course_data = {
     "short": "Databases",
     "language": "French",
     "acronym": "BDD", 
-    "background_color": "#ffbc00", 
+    "background_color": "#e6f598", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -611,7 +660,7 @@ var course_data = {
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
-    "background_color": "#eef409", 
+    "background_color": "#00b7ff", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -639,13 +688,15 @@ var course_data = {
     "short": "Web & Dynamic Process",
     "language": "English or French depending of the teacher",
     "acronym": "WebMod", 
-    "background_color": "#7fd8bc", 
+    "background_color": "#66c2a5", 
     "contents": {
       "en": {
+
         'program': "See French Version. English version coming soon.",
         'objectives': "Coming soon.",
         'skills': "Coming soon."
       }, 
+
       "fr": {
         'program': "Bient&ocirc;t disponible.",
         'objectives': "Bient&ocirc;t disponible.",
@@ -659,6 +710,38 @@ var course_data = {
     "semester": 8, 
     "title": "Web avanc&eacute; et Mod\u00e9lisation des Processus Dynamiques", 
     "tracks": "0x70", 
+
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
+  },
+  "4TBI809U": {
+    "apogee": "4TBI809U",
+    "short": "Blended Intensive Programme",
+    "language": "English",
+    "acronym": "BIP", 
+    "background_color": "#3288bd", 
+    "contents": {
+      "en": {
+
+        'program': "See French Version. English version coming soon.",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+
+      "fr": {
+        'program': "European Course about Artificial Intelligence in Forestry remote sensing",
+        'objectives': "Bient&ocirc;t disponible.",
+        'skills': "Bient&ocirc;t disponible."
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI809U", 
+    "image": "ue_videos.jpg", 
+    "semester": 8, 
+    "title": "BIP &mdash; Deep Learning in Forestry", 
+    "tracks": "0x70", 
+
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
   },
@@ -687,6 +770,11 @@ var course_data = {
     "tracks": "0xF0", 
     "visibility": "visible"
   }, 
+  
+/*************************
+   S E M E S T R E   9
+ *************************/
+ 
   "4TBA903U": {
     "apogee": "4TBA903U",
     "short" : "Population Genetics",
@@ -1241,7 +1329,7 @@ var course_data = {
     "short": "NGS & Methods",
     "language": "English",
     "acronym": "NGS", 
-    "background_color": "#D0A6FF", 
+    "background_color": "#00b7ff", /*#D0A6FF", */
     "contents": {
       "en": {
         "program": `

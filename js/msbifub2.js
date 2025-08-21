@@ -118,44 +118,6 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_3586/initiation-a-l-exploration-d-images-numeriques"
   }, 
-  "4TBI702U": {
-    "apogee": "4TBI702U",
-    "short" : "Algo-Prog-USI",
-    "acronym": "APU", 
-    "language": "English + French",
-    "coordinators": 'Beurton-Aimar M',
-    "background_color": "#0095FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": {
-        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
-                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
-                "<li>Complexité : quelques notions à partir d'exemples</li>"+
-				"<li>Programmation : "+
-                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
-                "tests logiques, boucles.</li>"+
-				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
-                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
-                "ou de modules prédéfinis.</li></ul>",
-        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
-                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
-                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
-				"</ul>",
-		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
-                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
-                "</ul>"
-      }
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI702U", 
-    "image": "ue_algoprogusi.jpg", 
-    "semester": 7, 
-    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
-    "tracks": "0x0F", 
-    "visibility": "hidden",
-    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
-  }, 
   "4TBI702U-Prog": {
     "acronym": "APU-Prog", 
     "short": "Programming",
@@ -349,6 +311,72 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_146310/biostatistiques"
   }, 
+  "4TBI706U": {
+    "apogee": "4TBI706U",
+    "short" : "Init-Python",
+    "acronym": "INITPYTHON", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Apprentissage des bases d\'un langage de programmation à travers l\'exemple du langage Python</li>"+
+                "<li>Variables, Types,</li>"+
+                "<li>Conditionnelles, Boucles</li>"+
+                "<li>Fonctions</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI706U", 
+    "image": "ue_python.jpg", 
+    "semester": 7, 
+    "title": "Initiation à Python", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "test"
+  }, 
+  "4TBI707U": {
+    "apogee": "4TBI707U",
+    "short" : "Algo-Prog-USI",
+    "acronym": "APU", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
+                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
+                "<li>Complexité : quelques notions à partir d'exemples</li>"+
+				"<li>Programmation : "+
+                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
+                "tests logiques, boucles.</li>"+
+				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
+                "ou de modules prédéfinis.</li></ul>",
+        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
+                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
+				"</ul>",
+		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
+                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI707U", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
+  }, 
+
   
 /********************************
   S E M E S T R E  8
@@ -1698,15 +1726,6 @@ const calDB = {
         tracks: "0x0F",
         year: 1
       },
-      "4TBI702U": {
-        semester: "S07",
-        source:"S7_APU",
-        acronym: "S07::APU",
-        apogee: "4TBI702U",
-        isCourse: true,
-        tracks: "0x0F",
-        year: 1
-      },
       "4TBI703U": {
         semester: "S07",
         source:"S7_OBI",
@@ -1730,6 +1749,24 @@ const calDB = {
         source:"S7_BSTATS",
         acronym: "S07::BSTATS",
         apogee: "4TBI705U",
+        isCourse: true,
+        tracks: "0x0F",
+        year: 1
+      },
+      "4TBI706U": {
+        semester: "S07",
+        source:"S7_PYTHON",
+        acronym: "S07::INITPYTHON",
+        apogee: "4TBI706U",
+        isCourse: true,
+        tracks: "0x0F",
+        year: 1
+      },
+      "4TBI707U": {
+        semester: "S07",
+        source:"S7_APU",
+        acronym: "S07::APU",
+        apogee: "4TBI707U",
         isCourse: true,
         tracks: "0x0F",
         year: 1
@@ -2144,7 +2181,11 @@ const calDB = {
     "2020",
     "2021",
     "2022",
-    "2023"
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027"
   ]
 } // End of calDB
 
@@ -2660,7 +2701,7 @@ function initCalendar() {
     
     // Load M1 + M2 events
     const ues = Object.values(calDB.courses).filter( c => semesters.includes(c.semester) );
-    // HACK console.log(ues);
+    console.log(ues);
     for (let ue of ues) {
       loadCalendarICS(ue.source);
     }
@@ -2669,6 +2710,7 @@ function initCalendar() {
     loadCalendarICS('MS_VACANCES');
     loadCalendarICS('MS_EVENTS');
 
+    updateCalendar();
 }
 
 function loadCalendarICS(ueID) {
@@ -2676,14 +2718,15 @@ function loadCalendarICS(ueID) {
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
+        // HACK: console.info('Try to load...',ueID,xhr.readyState,xhr.status);
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
             let data = parse_ics(ueID,xhr.responseText);
             // Merge events...
             Object.assign(calendar_data,data);
-            updateCalendar();
         }
     };
     const path = "https://master-bioinfo-bordeaux.github.io/data/";
+    // HACK: console.info(`Load ${path}${ueID}.ics`)
     xhr.open("GET", `${path}${ueID}.ics`, true);
     xhr.send(null);
 }
@@ -2707,7 +2750,7 @@ function loadCalendarData(filename) {
 
 function updateCalendar() {
 
-    // HACK console.log(calendar_data);
+    // HACK: console.log(calendar_data);
     table.reset();
     
     var y = parseInt(document.getElementById("calendar").dataset.year);

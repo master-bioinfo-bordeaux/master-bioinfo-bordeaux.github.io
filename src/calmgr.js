@@ -223,15 +223,6 @@ const calDB = {
         tracks: "0x0F",
         year: 1
       },
-      "4TBI702U": {
-        semester: "S07",
-        source:"S7_APU",
-        acronym: "S07::APU",
-        apogee: "4TBI702U",
-        isCourse: true,
-        tracks: "0x0F",
-        year: 1
-      },
       "4TBI703U": {
         semester: "S07",
         source:"S7_OBI",
@@ -255,6 +246,24 @@ const calDB = {
         source:"S7_BSTATS",
         acronym: "S07::BSTATS",
         apogee: "4TBI705U",
+        isCourse: true,
+        tracks: "0x0F",
+        year: 1
+      },
+      "4TBI706U": {
+        semester: "S07",
+        source:"S7_PYTHON",
+        acronym: "S07::INITPYTHON",
+        apogee: "4TBI706U",
+        isCourse: true,
+        tracks: "0x0F",
+        year: 1
+      },
+      "4TBI707U": {
+        semester: "S07",
+        source:"S7_APU",
+        acronym: "S07::APU",
+        apogee: "4TBI707U",
         isCourse: true,
         tracks: "0x0F",
         year: 1
@@ -669,7 +678,11 @@ const calDB = {
     "2020",
     "2021",
     "2022",
-    "2023"
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027"
   ]
 } // End of calDB
 

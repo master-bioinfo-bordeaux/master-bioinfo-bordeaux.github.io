@@ -40,7 +40,7 @@ curl -L https://calendar.google.com/calendar/ical/dalb6rcjq1l5uonp99ipsbefb0%40g
 curl -L https://calendar.google.com/calendar/ical/hnt79pepoc3a9omjvmlkmdrl88%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_BSTATS.ics
 curl -L https://calendar.google.com/calendar/ical/3h2brkfagdb5lmo0bc60h9qaqs%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_IMAJS.ics
 curl -L https://calendar.google.com/calendar/ical/jg2ut49067j7rus68c76tgspl0%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_OBI.ics
-  
+curl -L https://calendar.google.com/calendar/ical/a8e4f2cde92ad276646d3396c2f484c653e781d15d3638e63377d734dafb76ad%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S7_PYTHON.ics
 
 # Semester 8
 printf "Semester 8\n"
@@ -56,7 +56,7 @@ curl -L https://calendar.google.com/calendar/ical/21jtg3m4afkpok2v5ba5okhucs%40g
 curl -L https://calendar.google.com/calendar/ical/pjmnuq9oam9nnsfabds17buu00%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_NGS.ics
 curl -L https://calendar.google.com/calendar/ical/s7n0fpslbb7cfo0af7oh6812qk%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_POO2.ics
 curl -L https://calendar.google.com/calendar/ical/3e0o55fc11p2pp4lcob720ng3c%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_WEBMOD.ics
-
+curl -L https://calendar.google.com/calendar/ical/3862fadb1a28ab4764c5a89b55cdf1f0cd1367b8b0341f31dfe1589297c9db71%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_BIP.ics
 # Master
 printf "Master Events: VACANCES\n"
 curl -L https://calendar.google.com/calendar/ical/3tcafir28thutbb6kfvlabas1k%40group.calendar.google.com/public/basic.ics  | awk -f clean.awk > ../data/MS_VACANCES.ics

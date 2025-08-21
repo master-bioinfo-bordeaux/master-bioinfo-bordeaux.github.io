@@ -137,7 +137,7 @@ function initCalendar() {
     
     // Load M1 + M2 events
     const ues = Object.values(calDB.courses).filter( c => semesters.includes(c.semester) );
-    // HACK console.log(ues);
+    console.log(ues);
     for (let ue of ues) {
       loadCalendarICS(ue.source);
     }
@@ -146,6 +146,7 @@ function initCalendar() {
     loadCalendarICS('MS_VACANCES');
     loadCalendarICS('MS_EVENTS');
 
+    updateCalendar();
 }
 
 function loadCalendarICS(ueID) {
@@ -153,14 +154,15 @@ function loadCalendarICS(ueID) {
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
+        // HACK: console.info('Try to load...',ueID,xhr.readyState,xhr.status);
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
             let data = parse_ics(ueID,xhr.responseText);
             // Merge events...
             Object.assign(calendar_data,data);
-            updateCalendar();
         }
     };
     const path = "https://master-bioinfo-bordeaux.github.io/data/";
+    // HACK: console.info(`Load ${path}${ueID}.ics`)
     xhr.open("GET", `${path}${ueID}.ics`, true);
     xhr.send(null);
 }
@@ -184,7 +186,7 @@ function loadCalendarData(filename) {
 
 function updateCalendar() {
 
-    // HACK console.log(calendar_data);
+    // HACK: console.log(calendar_data);
     table.reset();
     
     var y = parseInt(document.getElementById("calendar").dataset.year);
