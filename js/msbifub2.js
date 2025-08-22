@@ -645,7 +645,7 @@ var course_data = {
         'skills': "Bient&ocirc;t disponible."
       }
     }, 
-    "ects": 6, 
+    "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI803U", 
     "image": "ue_datacenter.jpg", 
