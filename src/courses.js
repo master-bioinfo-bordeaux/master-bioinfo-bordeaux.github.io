@@ -683,11 +683,11 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_2631/nouvelles-generations-de-sequencage"
   }, 
-  "4TBI806U": {
-    "apogee": "4TBI806U",
-    "short": "Web & Dynamic Process",
+  "4TBC802U": {
+    "apogee": "4TBC802U",
+    "short": "Web Tech",
     "language": "English or French depending of the teacher",
-    "acronym": "WebMod", 
+    "acronym": "Web", 
     "background_color": "#66c2a5", 
     "contents": {
       "en": {
@@ -698,24 +698,24 @@ var course_data = {
       }, 
 
       "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
+        'program': "Comprendre et maîtriser les bases des technologies HTML, CSS et JavaScript",
+        'objectives': "",
         'skills': "Bient&ocirc;t disponible."
       }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TBI806U", 
+    "id": "4TBC802U", 
     "image": "ue_videos.jpg", 
     "semester": 8, 
-    "title": "Web avanc&eacute; et Mod\u00e9lisation des Processus Dynamiques", 
+    "title": "Technologies Web", 
     "tracks": "0x70", 
 
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
   },
-  "4TBI809U": {
-    "apogee": "4TBI809U",
+  "4TBI810U": {
+    "apogee": "4TBI810U",
     "short": "Blended Intensive Programme",
     "language": "English",
     "acronym": "BIP", 
@@ -723,27 +723,82 @@ var course_data = {
     "contents": {
       "en": {
 
-        'program': "See French Version. English version coming soon.",
+        'program': "European Course about Artificial Intelligence in Forestry Remote Sensing",
         'objectives': "Coming soon.",
         'skills': "Coming soon."
       }, 
 
       "fr": {
-        'program': "European Course about Artificial Intelligence in Forestry remote sensing",
-        'objectives': "Bient&ocirc;t disponible.",
-        'skills': "Bient&ocirc;t disponible."
+        'program': "Le cours est entièrement en anglais, voir le descriptif en anglais",
+        'objectives': "",
+        'skills': ""
       }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TBI809U", 
-    "image": "ue_videos.jpg", 
+    "id": "4TBI810U", 
+    "image": "ue_bip.jpg", 
     "semester": 8, 
-    "title": "BIP &mdash; Deep Learning in Forestry", 
+    "title": "Blended Intensive Programme", 
     "tracks": "0x70", 
-
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
+  },
+  "4TDE801U": {
+    "apogee": "4TDE801U",
+    "short": "OBI 2",
+    "language": "English",
+    "acronym": "OBI2", 
+    "background_color": "#3288bd", 
+    "contents": {
+      "en": {
+        'program': "Coming soon",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Suite de l\'UE de 1er semestre avec une présentation des méthodes de phylogénie.",
+        'objectives': "",
+        'skills': ""
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TDE801U", 
+    "image": "ue_obi.jpg", 
+    "semester": 8, 
+    "title": "Blended Intensive Programme", 
+    "tracks": "0x70", 
+    "visibility": "visible",
+    "html": ""
+  },
+  "4TDE802U": {
+    "apogee": "4TDE802U",
+    "short": "Python DataSci.",
+    "language": "English",
+    "acronym": "PyDS", 
+    "background_color": "#3288bd", 
+    "contents": {
+      "en": {
+        'program': "Coming Soon",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Le cours est constitué de deux parties: (i) Python avancé (ii) Machine Learning",
+        'objectives': "",
+        'skills': ""
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TDE802U", 
+    "image": "ue_datascience.jpg", 
+    "semester": 8, 
+    "title": "Python et Science des Données", 
+    "tracks": "0x70", 
+    "visibility": "visible",
+    "html": ""
   },
   "4TBIN01U": {
     "apogee": "4TBIN01U",

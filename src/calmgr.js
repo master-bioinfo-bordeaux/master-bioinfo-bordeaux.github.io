@@ -347,7 +347,7 @@ const calDB = {
         acronym: "S08::BDD",
         apogee: "4TBI803U",
         isCourse: true,
-        tracks: "0x07",
+        tracks: "0x01",
         year: 1
       },
       "4TBI804U": {
@@ -359,25 +359,42 @@ const calDB = {
         tracks: "0x07",
         year: 1
       },
-      "4TBI806U": {
+      "4TBC802U": {
         semester: "S08",
         source: "S8_WEBMOD",
-        acronym: "S08::WebMod",
-        apogee: "4TBI806U",
+        acronym: "S08::Web",
+        apogee: "4TBC802U",
         isCourse: true,
         tracks: "0x70",
         year: 1
       },
-      "4TBI809U": {
+      "4TBI810U": {
         semester: "S08",
         source: "S8_BIP",
         acronym: "S08::BIP",
-        apogee: "4TBI809U",
+        apogee: "4TBI810U",
         isCourse: true,
         tracks: "0x70",
         year: 1
       },
-
+      "4TDE801U": {
+        semester: "S08",
+        source: "S8_OBI2",
+        acronym: "S08::OBI2",
+        apogee: "4TDE801U",
+        isCourse: true,
+        tracks: "0x70",
+        year: 1
+      },
+      "4TDE802U": {
+        semester: "S08",
+        source: "S8_PYDS",
+        acronym: "S08::PyDS",
+        apogee: "4TDE802U",
+        isCourse: true,
+        tracks: "0x70",
+        year: 1
+      },
   // Semester 9
       "4TBI901U": {
         semester: "S09",
