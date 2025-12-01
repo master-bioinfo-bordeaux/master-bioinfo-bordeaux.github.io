@@ -57,12 +57,13 @@ curl -L https://calendar.google.com/calendar/ical/pjmnuq9oam9nnsfabds17buu00%40g
 curl -L https://calendar.google.com/calendar/ical/s7n0fpslbb7cfo0af7oh6812qk%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_POO2.ics
 curl -L https://calendar.google.com/calendar/ical/3e0o55fc11p2pp4lcob720ng3c%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_WEBMOD.ics
 curl -L https://calendar.google.com/calendar/ical/3862fadb1a28ab4764c5a89b55cdf1f0cd1367b8b0341f31dfe1589297c9db71%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_BIP.ics
+curl -L https://calendar.google.com/calendar/ical/e9adcc454b2cdbc721c09e66384cd08c7d20b5d81f177e12def4026b4381ab38%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S8_DS.ics
+curl -L https://calendar.google.com/calendar/ical/6d69e5e28e621b8fbbd4c99bf89de23e78730d30bba143b20fe852b1c8aef4bd%40group.calendar.google.com/public/basic.ics  | awk -f clean.awk > ../data/S8_OBI2.ics
 # Master
 printf "Master Events: VACANCES\n"
 curl -L https://calendar.google.com/calendar/ical/3tcafir28thutbb6kfvlabas1k%40group.calendar.google.com/public/basic.ics  | awk -f clean.awk > ../data/MS_VACANCES.ics
 printf "Master Events: EVENTS\n"
 curl -L https://calendar.google.com/calendar/ical/5t82iihrvh2tg5h32k9vecp0lo%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/MS_EVENTS.ics
-
 
 
 while true; do
