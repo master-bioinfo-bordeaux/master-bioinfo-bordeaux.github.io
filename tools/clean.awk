@@ -25,7 +25,7 @@ BEGIN {
   gsub(/[[:space:]]*$/,"",$0);
   split($1,words,":");
   # print substr(words[1],0,7),substr(words[2],1,4);
-  if ( words[1] ~ /DTSTART/ && substr(words[2],1,4) == int(year)) {
+  if ( words[1] ~ /DTSTART/ && (substr(words[2],1,4) == int(year) || substr(words[2],1,4) == int(year)+1 )) {
     print "BEGIN:VEVENT";
     print $0;
   }

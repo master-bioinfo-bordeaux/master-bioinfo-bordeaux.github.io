@@ -141,6 +141,7 @@ const calDB = {
     "Dubois S",
     "Fi&eacute;vet V",
     "Garenne A",
+    "Giot R",
     "Grelard A",
     "Gr&eacute;mare A",
     "Hanquiez V",

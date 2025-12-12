@@ -179,7 +179,7 @@ var course_data = {
     "contents": {
       "en": {
         'program': `<p>In this course, we will explore the bioinformatician core activities ranging from the data mining using databases 
-        in molecular biology to the design of bioanalysis while exploiting methods dedicated to alignment sequences or phylogen. </p>
+        in molecular biology to the design of bioanalysis while exploiting methods dedicated to sequence alignments. </p>
         <p>The Big Data era will also be introduced regarding the massive production of omics data and will be linked to algorithmics 
         approaches dedicated to the exploitation of biological data. </p>
         <h4>References</h4>
@@ -197,7 +197,7 @@ var course_data = {
       },
       "fr": {
         "program": `<p> Dans ce cours, nous explorerons les activités principales de la bioinformatique allant de l'exploration de données à l'aide de bases de données
-        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement ou à la phylogénie. </p>
+        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement. </p>
         <P> L'ère des <em>Big Data</em> sera également présentée dans le cadre de la production massive de données omiques et sera liée aux approches algorithmiques 
         dédiées à l'exploitation des données biologiques. </p>
         <h4> Références </h4>
@@ -767,7 +767,7 @@ var course_data = {
     "id": "4TDE801U", 
     "image": "ue_obi.jpg", 
     "semester": 8, 
-    "title": "Blended Intensive Programme", 
+    "title": "Omiques et Bioinformatique 2", 
     "tracks": "0x70", 
     "visibility": "visible",
     "html": ""
@@ -1699,6 +1699,7 @@ const calDB = {
     "Dubois S",
     "Fi&eacute;vet V",
     "Garenne A",
+    "Giot R",
     "Grelard A",
     "Gr&eacute;mare A",
     "Hanquiez V",
@@ -2768,7 +2769,10 @@ function initCalendar() {
     
     // Check Spring of Fall Semesters
     console.log('Month',cal.dataset.month);
-    const semesters = (cal.dataset.month < 7) ? ['S08', 'S10'] : ['S07','S09'];
+    let semesters = (cal.dataset.month < 7) ? ['S08', 'S10'] : ['S07','S09'];
+    if (cal.dataset.month >= 11) {
+      semesters = ['S07','S08', 'S09']
+    }
     console.log(semesters);
     
     // Load M1 + M2 events

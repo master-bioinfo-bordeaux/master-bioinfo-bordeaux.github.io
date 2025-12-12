@@ -1,5 +1,5 @@
 
-displayNews(1);
+// displayNews(1);
 
 function NewsReader() {
 
