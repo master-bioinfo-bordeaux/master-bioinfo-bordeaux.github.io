@@ -321,6 +321,39 @@ function parse_ics(ueID,data) {
         }
 
       }
+      else if (ev.periodic && ev.freq === 'DAILY') {
+        // Duplicate the event in function of periodicity
+        const today = {
+          y: ev.start.date.getFullYear(),
+          m: ev.start.date.getMonth(),
+          d: ev.start.date.getDate(),
+        };
+        console.log('DAILY',ev.count);
+        for (let i=0; i < +ev.count;i++) {
+          let days = i;
+          let nextDate = new Date(today.y, today.m, today.d+days);
+          // Check if exceptions
+          if (!ev.exdates.includes(yyyymmdd(nextDate))) {
+            //console.log(ev.start.date,nextDate, `${yyyymmdd(nextDate)}`);
+            // Create copy of original event
+            let evi = {...ev};
+            // Update start and end dates
+            evi.start.year = nextDate.getFullYear();
+            evi.start.month = nextDate.getMonth() + 1;
+            evi.start.day = nextDate.getDate();
+            evi.start.date = nextDate;
+            evi.end.year = nextDate.getFullYear();
+            evi.end.month = nextDate.getMonth() + 1;
+            evi.end.day = nextDate.getDate();
+            evi.end.date = nextDate;
+            // Create object
+            let obj = createEvent(ueID,evi);
+            all_events[obj.ID] = obj;
+          }
+        }
+
+      }
+
       else {
         let obj = createEvent(ueID,ev);
         all_events[obj.ID] = obj;

@@ -223,7 +223,7 @@ function updateCalendarBody(y,m,d) {
   const masterYear  = parseInt(localStorage.masterYear) || 1; // Default M1
   const masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2
   
-  console.log(calendar_data);
+  console.log('ALL DATA',calendar_data);
   
   var today = new Date(y,m,d);
   var weekdays = [];
@@ -240,6 +240,24 @@ function updateCalendarBody(y,m,d) {
     console.log(element);
     element.MSYear  = parseInt(element.ID[1]);
     element.MSTrack = parseInt(element.ID.substr(2,2),16);
+    // Special cases of MS_EVENTS
+    if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER1") {
+      element.MSYear = 1;
+    }
+    else if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER2") {
+      element.MSYear = 2;
+    }
+    // Special cases of groups; A1 = biocomp. A2 = SDBE+BioProd; All = No change
+    if (element.group.toUpperCase() === 'A1') {
+      element.MSTrack = element.MSTrack & 0x01 || element.MSTrack & 0x10;
+    }
+    else if (element.group.toUpperCase() === 'A2') {
+      element.MSTrack = element.MSTrack & 0x02 || element.MSTrack & 0x20;
+    }
+    if (element.apogee === "4TBI804U" || element.acronym === "S08::NGS") {
+      console.log('TTTTRACK',element.apogee,element.MSTrack,masterTrack);
+    }
+
     element.weekdayIndex = -1;
     // HACK: console.log(element);
     if (  (element.MSYear == masterYear || element.MSYear === 3) 
@@ -753,19 +771,25 @@ function createEventCell(cal_event) {
     if (ID[0] === 'C' || ID[0] === 'E') {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
-        var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
+        var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; SDBE=2,BioProd=4;FC=8
         // HACK: console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
         // +((parseInt(the_course.tracks,16) & masterTrack)) );
-
+        let course_tracks = parseInt(the_course.tracks,16);
+        if (cal_event.lecturer.toUpperCase() == 'MASTER1') {
+          course_tracks = 15; // 0x0F
+        }
+        else if (cal_event.lecturer.toUpperCase() == 'MASTER2') {
+          course_tracks = 240; // 0xF0
+        }
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
-        if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack) === masterTrack) {
+        if (ID[0] === 'C' && (course_tracks & masterTrack) === masterTrack) {
             html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger 
         }
-        else if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack*16) === masterTrack*16) {
+        else if (ID[0] === 'C' && (course_tracks & masterTrack*16) === masterTrack*16) {
             html += 'class="btn btn-primary btn-xs" '; // Color is Green: 'elective' btn-success
         }
         else {

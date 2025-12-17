@@ -213,6 +213,23 @@ const calDB = {
     }
   ],
 
+/*
+  0x01: Biocomp mandatory (A1)
+  0x02: SDBE mandatory (A2)
+  0x03: Biocomp + SDBE mandatory
+  0x04: Bioprod mandatory
+  0x07: Biocomp + SDBE + BioProd mandatory
+  0x08: Formation continue?
+  0x0F: All tracks - BC + DS + BP + FC mandatory
+  0x10: BioComp elective
+  0x20: SDBE elective
+  0x40: BioProd elective (A2)
+  0x60: SDBE + BioProd elective
+  0x61: BioComp mandatory + SDBE elective
+  0x70: 
+  
+  
+*/
   "courses" : {
   // Semester 7
       "4TBI701U": {
@@ -357,7 +374,7 @@ const calDB = {
         acronym: "S08::NGS",
         apogee: "4TBI804U",
         isCourse: true,
-        tracks: "0x07",
+        tracks: "0x03",
         year: 1
       },
       "4TBC802U": {
@@ -384,16 +401,16 @@ const calDB = {
         acronym: "S08::OBI2",
         apogee: "4TDE801U",
         isCourse: true,
-        tracks: "0x70",
+        tracks: "0x02",
         year: 1
       },
       "4TDE802U": {
         semester: "S08",
-        source: "S8_PYDS",
-        acronym: "S08::PyDS",
+        source: "S8_DS",
+        acronym: "S08::DS",
         apogee: "4TDE802U",
         isCourse: true,
-        tracks: "0x70",
+        tracks: "0x02",
         year: 1
       },
   // Semester 9

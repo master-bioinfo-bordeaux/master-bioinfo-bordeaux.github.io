@@ -174,7 +174,7 @@ var course_data = {
     "short": "Omics & Bioinformatics",
     "language": "English",
     "acronym": "OBI", 
-    "coordinators": 'Taveau JC, Th&eacute;bault P',
+    "coordinators": 'Karkar S.',
     "background_color": "#eef409", 
     "contents": {
       "en": {
@@ -651,7 +651,7 @@ var course_data = {
     "image": "ue_datacenter.jpg", 
     "semester": 8, 
     "title": "Bases de Donn\u00e9es : fondements et applications", 
-    "tracks": "0x07", 
+    "tracks": "0x01", 
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_3593/bases-de-donnees-fondements-et-applications"
   }, 
@@ -749,7 +749,7 @@ var course_data = {
     "short": "OBI 2",
     "language": "English",
     "acronym": "OBI2", 
-    "background_color": "#3288bd", 
+    "background_color": "#eef409", 
     "contents": {
       "en": {
         'program': "Coming soon",
@@ -777,7 +777,7 @@ var course_data = {
     "short": "Python DataSci.",
     "language": "English",
     "acronym": "PyDS", 
-    "background_color": "#3288bd", 
+    "background_color": "#D0A6FF", // "#3288bd", "#fee08b", 
     "contents": {
       "en": {
         'program': "Coming Soon",
