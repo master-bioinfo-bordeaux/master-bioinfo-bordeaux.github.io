@@ -1772,8 +1772,8 @@ const calDB = {
   ],
 
 /*
-  0x01: Biocomp mandatory
-  0x02: SDBE mandatory
+  0x01: Biocomp mandatory (A1)
+  0x02: SDBE mandatory (A2)
   0x03: Biocomp + SDBE mandatory
   0x04: Bioprod mandatory
   0x07: Biocomp + SDBE + BioProd mandatory
@@ -1781,7 +1781,7 @@ const calDB = {
   0x0F: All tracks - BC + DS + BP + FC mandatory
   0x10: BioComp elective
   0x20: SDBE elective
-  0x40: BioProd elective
+  0x40: BioProd elective (A2)
   0x60: SDBE + BioProd elective
   0x61: BioComp mandatory + SDBE elective
   0x70: 
@@ -1932,7 +1932,7 @@ const calDB = {
         acronym: "S08::NGS",
         apogee: "4TBI804U",
         isCourse: true,
-        tracks: "0x07",
+        tracks: "0x03",
         year: 1
       },
       "4TBC802U": {
@@ -2934,10 +2934,17 @@ function updateCalendarBody(y,m,d) {
     else if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER2") {
       element.MSYear = 2;
     }
-    if (element.lecturer === "MASTER1") {
-      console.log('TTTTRACK',element.apogee,element.MSYear, element.MSYear & masterYear,masterTrack);
+    // Special cases of groups; A1 = biocomp. A2 = SDBE+BioProd; All = No change
+    if (element.group.toUpperCase() === 'A1') {
+      element.MSTrack = element.MSTrack & 0x01 || element.MSTrack & 0x10;
     }
-    
+    else if (element.group.toUpperCase() === 'A2') {
+      element.MSTrack = element.MSTrack & 0x02 || element.MSTrack & 0x20;
+    }
+    if (element.apogee === "4TBI804U" || element.acronym === "S08::NGS") {
+      console.log('TTTTRACK',element.apogee,element.MSTrack,masterTrack);
+    }
+
     element.weekdayIndex = -1;
     // HACK: console.log(element);
     if (  (element.MSYear == masterYear || element.MSYear === 3) 

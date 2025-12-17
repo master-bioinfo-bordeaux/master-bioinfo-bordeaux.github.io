@@ -1805,10 +1805,17 @@ function updateCalendarBody(y,m,d) {
     else if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER2") {
       element.MSYear = 2;
     }
-    if (element.lecturer === "MASTER1") {
-      console.log('TTTTRACK',element.apogee,element.MSYear, element.MSYear & masterYear,masterTrack);
+    // Special cases of groups; A1 = biocomp. A2 = SDBE+BioProd; All = No change
+    if (element.group.toUpperCase() === 'A1') {
+      element.MSTrack = element.MSTrack & 0x01 || element.MSTrack & 0x10;
     }
-    
+    else if (element.group.toUpperCase() === 'A2') {
+      element.MSTrack = element.MSTrack & 0x02 || element.MSTrack & 0x20;
+    }
+    if (element.apogee === "4TBI804U" || element.acronym === "S08::NGS") {
+      console.log('TTTTRACK',element.apogee,element.MSTrack,masterTrack);
+    }
+
     element.weekdayIndex = -1;
     // HACK: console.log(element);
     if (  (element.MSYear == masterYear || element.MSYear === 3) 
