@@ -13,7 +13,7 @@ var university_path = u_path + u_year + master_path;
 var course_data = {
   "4TBIEVNT": {
     "acronym": "Event", 
-    "background_color": "#FA5858", 
+    "background_color": "#FC9272", 
     "contents": {
       "en": "Coming soon.", 
       "fr": "Bient&ocirc;t disponible."
@@ -21,7 +21,7 @@ var course_data = {
     "ects": 0, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBIEVNT", 
-    "image": "headinfo.jpg", 
+    "image": "headconf.jpg", 
     "semester": 11, 
     "title": "Event", 
     "tracks": "0x00", 
@@ -59,6 +59,10 @@ var course_data = {
     "tracks": "0x00", 
     "visibility": "visible"
   },
+  
+/********************************
+  S E M E S T R E  7
+ ********************************/
   "4TBI701U": {
     "apogee": "4TBI701U",
     "short": "Image Processing",
@@ -113,44 +117,6 @@ var course_data = {
     "tracks": "0x0F", 
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_3586/initiation-a-l-exploration-d-images-numeriques"
-  }, 
-  "4TBI702U": {
-    "apogee": "4TBI702U",
-    "short" : "Algo-Prog-USI",
-    "acronym": "APU", 
-    "language": "English + French",
-    "coordinators": 'Beurton-Aimar M',
-    "background_color": "#0095FF", 
-    "contents": {
-      "en": "Coming soon.", 
-      "fr": {
-        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
-                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
-                "<li>Complexité : quelques notions à partir d'exemples</li>"+
-				"<li>Programmation : "+
-                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
-                "tests logiques, boucles.</li>"+
-				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
-                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
-                "ou de modules prédéfinis.</li></ul>",
-        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
-                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
-                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
-				"</ul>",
-		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
-                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
-                "</ul>"
-      }
-    }, 
-    "ects": 9, 
-    "icon": "fa fa-graduation-cap", 
-    "id": "4TBI702U", 
-    "image": "ue_algoprogusi.jpg", 
-    "semester": 7, 
-    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
-    "tracks": "0x0F", 
-    "visibility": "hidden",
-    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
   }, 
   "4TBI702U-Prog": {
     "acronym": "APU-Prog", 
@@ -208,12 +174,12 @@ var course_data = {
     "short": "Omics & Bioinformatics",
     "language": "English",
     "acronym": "OBI", 
-    "coordinators": 'Taveau JC, Th&eacute;bault P',
+    "coordinators": 'Karkar S.',
     "background_color": "#eef409", 
     "contents": {
       "en": {
         'program': `<p>In this course, we will explore the bioinformatician core activities ranging from the data mining using databases 
-        in molecular biology to the design of bioanalysis while exploiting methods dedicated to alignment sequences or phylogen. </p>
+        in molecular biology to the design of bioanalysis while exploiting methods dedicated to sequence alignments. </p>
         <p>The Big Data era will also be introduced regarding the massive production of omics data and will be linked to algorithmics 
         approaches dedicated to the exploitation of biological data. </p>
         <h4>References</h4>
@@ -231,7 +197,7 @@ var course_data = {
       },
       "fr": {
         "program": `<p> Dans ce cours, nous explorerons les activités principales de la bioinformatique allant de l'exploration de données à l'aide de bases de données
-        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement ou à la phylogénie. </p>
+        en biologie moléculaire à la bioanalyse tout en exploitant des méthodes dédiées aux séquences d'alignement. </p>
         <P> L'ère des <em>Big Data</em> sera également présentée dans le cadre de la production massive de données omiques et sera liée aux approches algorithmiques 
         dédiées à l'exploitation des données biologiques. </p>
         <h4> Références </h4>
@@ -345,12 +311,95 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_146310/biostatistiques"
   }, 
+  "4TBI706U": {
+    "apogee": "4TBI706U",
+    "short" : "Init-Python",
+    "acronym": "INITPYTHON", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Apprentissage des bases d\'un langage de programmation à travers l\'exemple du langage Python</li>"+
+                "<li>Variables, Types,</li>"+
+                "<li>Conditionnelles, Boucles</li>"+
+                "<li>Fonctions</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI706U", 
+    "image": "ue_python.jpg", 
+    "semester": 7, 
+    "title": "Initiation à Python", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "test"
+  }, 
+  "4TBI707U": {
+    "apogee": "4TBI707U",
+    "short" : "Algo-Prog-USI",
+    "acronym": "APU", 
+    "language": "English + French",
+    "coordinators": 'Beurton-Aimar M',
+    "background_color": "#0095FF", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": {
+        'program': "<ul><li>Algorithmique de base, structures itératives et prédicats.</li>"+
+                "<li>Les tableaux : parcours, recherches séquentielle et dichotomique, tris.</li>"+
+                "<li>Complexité : quelques notions à partir d'exemples</li>"+
+				"<li>Programmation : "+
+                "Mise en application des différents concepts vues en algorithmique : structures de contrôle, "+
+                "tests logiques, boucles.</li>"+
+				"<li>Traitement des accès fichiers séquentiels : lecture /écriture</li>"+
+                "<li>Bases de la modélisation orientée objet : élaboration de classes, utilisation de bibliothèques "+
+                "ou de modules prédéfinis.</li></ul>",
+        'objectives': "<ul><li>Analyser un problème donné et concevoir l'algorithme correspondant.</li>"+
+                "<li>Apprentissage de la programmation au travers de différents langages classiques ou orientés objet.</li>"+
+                "<li>Conception de modules de traitement pour les données biologiques.</li>"+
+				"</ul>",
+		'skills': "<ul><li>Convertir un problème concret en une suite d'instructions programmables.</li>"+
+                "<li>Maitrise des concepts essentiels d'un langage de programmation.</li>"+
+                "</ul>"
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI707U", 
+    "image": "ue_algoprogusi.jpg", 
+    "semester": 7, 
+    "title": "Algorithmique, Programmation et Utilisation des Syst\u00e8mes Informatiques", 
+    "tracks": "0x0F", 
+    "visibility": "hidden",
+    "html": "FRUAI0333298FCOEN_2942/algorithmique-programmation-et-utilisation-des-systemes-informatiques"
+  }, 
+
+  
+/********************************
+  S E M E S T R E  8
+    #1a9850 4TBA804U
+    #006837 4TBA806U
+    #9e0142 4TBE801U
+    #d53e4f 4TBE802U
+    #f46d43 4TBE803U
+    #fdae61 4TBC801U
+    #fee08b 4TBI801U
+    #ffffbf 4TBI802U
+    #e6f598 4TBI803U
+    #abdda4 4TBI804U
+    #66c2a5 4TBI806U
+    #3288bd 4TBI809U
+    #5e4fa2
+ ********************************/
   "4TBA804U": {
     "apogee": "4TBA804U",
     "short": "Plant Biotechnology",
     "language": "French",
     "acronym": "BBP", 
-    "background_color": "#eef409", 
+    "background_color": "#1a9850", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -377,7 +426,7 @@ var course_data = {
     "short": "Plant Genetics",
     "language": "French",
     "acronym": "Genepi", 
-    "background_color": "#c0e44e", 
+    "background_color": "#de77ae", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -431,7 +480,7 @@ var course_data = {
     "short" : "Terrestrial Ecosystems",
     'language': "French",
     "acronym": "EcoTerr", 
-    "background_color": "#ff6bff", 
+    "background_color": "#d53e4f", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -458,7 +507,7 @@ var course_data = {
     "short" : "Aquatic Environments",
     'language': "French",
     "acronym": "Aqua", 
-    "background_color": "#00e6f7", 
+    "background_color": "#f46d43", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -485,7 +534,7 @@ var course_data = {
     "short" : "Object Programming",
     "language": "French",
     "acronym": "POO", 
-    "background_color": "#ff6a00", 
+    "background_color": "#fdae61", 
     "contents": {
       "en": {
         "program": `See French Version`,
@@ -525,7 +574,7 @@ var course_data = {
     "short": "Algo-Prog 2",
     "language": "French",
     "acronym": "AlgoPrg2", 
-    "background_color": "#0095ff", 
+    "background_color": "#fee08b", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -553,7 +602,7 @@ var course_data = {
     "short": "R&D Project",
     "language": "English or French depending of the tutor",
     "acronym": "CPRD", 
-    "background_color": "#cef6ce", 
+    "background_color": "#ffffbf", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -583,7 +632,7 @@ var course_data = {
     "short": "Databases",
     "language": "French",
     "acronym": "BDD", 
-    "background_color": "#ffbc00", 
+    "background_color": "#e6f598", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -596,7 +645,7 @@ var course_data = {
         'skills': "Bient&ocirc;t disponible."
       }
     }, 
-    "ects": 6, 
+    "ects": 3, 
     "icon": "fa fa-graduation-cap", 
     "id": "4TBI803U", 
     "image": "ue_datacenter.jpg", 
@@ -611,7 +660,7 @@ var course_data = {
     "short": "NGS and Tools",
     "language": "French",
     "acronym": "NGS", 
-    "background_color": "#eef409", 
+    "background_color": "#00b7ff", 
     "contents": {
       "en": {
         'program': "See French Version. English version coming soon.",
@@ -634,33 +683,122 @@ var course_data = {
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_2631/nouvelles-generations-de-sequencage"
   }, 
-  "4TBI806U": {
-    "apogee": "4TBI806U",
-    "short": "Web & Dynamic Process",
+  "4TBC802U": {
+    "apogee": "4TBC802U",
+    "short": "Web Tech",
     "language": "English or French depending of the teacher",
-    "acronym": "WebMod", 
-    "background_color": "#7fd8bc", 
+    "acronym": "Web", 
+    "background_color": "#66c2a5", 
     "contents": {
       "en": {
+
         'program': "See French Version. English version coming soon.",
         'objectives': "Coming soon.",
         'skills': "Coming soon."
       }, 
+
       "fr": {
-        'program': "Bient&ocirc;t disponible.",
-        'objectives': "Bient&ocirc;t disponible.",
+        'program': "Comprendre et maîtriser les bases des technologies HTML, CSS et JavaScript",
+        'objectives': "",
         'skills': "Bient&ocirc;t disponible."
       }
     }, 
     "ects": 6, 
     "icon": "fa fa-graduation-cap", 
-    "id": "4TBI806U", 
+    "id": "4TBC802U", 
     "image": "ue_videos.jpg", 
     "semester": 8, 
-    "title": "Web avanc&eacute; et Mod\u00e9lisation des Processus Dynamiques", 
+    "title": "Technologies Web", 
+    "tracks": "0x70", 
+
+    "visibility": "visible",
+    "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
+  },
+  "4TBI810U": {
+    "apogee": "4TBI810U",
+    "short": "Blended Intensive Programme",
+    "language": "English",
+    "acronym": "BIP", 
+    "background_color": "#3288bd", 
+    "contents": {
+      "en": {
+
+        'program': "European Course about Artificial Intelligence in Forestry Remote Sensing",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+
+      "fr": {
+        'program': "Le cours est entièrement en anglais, voir le descriptif en anglais",
+        'objectives': "",
+        'skills': ""
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TBI810U", 
+    "image": "ue_bip.jpg", 
+    "semester": 8, 
+    "title": "Blended Intensive Programme", 
     "tracks": "0x70", 
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_13196/traitement-de-videos-et-modelisation-des-processus-dynamiques"
+  },
+  "4TDE801U": {
+    "apogee": "4TDE801U",
+    "short": "OBI 2",
+    "language": "English",
+    "acronym": "OBI2", 
+    "background_color": "#eef409", 
+    "contents": {
+      "en": {
+        'program': "Coming soon",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Suite de l\'UE de 1er semestre avec une présentation des méthodes de phylogénie.",
+        'objectives': "",
+        'skills': ""
+      }
+    }, 
+    "ects": 3, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TDE801U", 
+    "image": "ue_obi.jpg", 
+    "semester": 8, 
+    "title": "Omiques et Bioinformatique 2", 
+    "tracks": "0x70", 
+    "visibility": "visible",
+    "html": ""
+  },
+  "4TDE802U": {
+    "apogee": "4TDE802U",
+    "short": "Python DataSci.",
+    "language": "English",
+    "acronym": "PyDS", 
+    "background_color": "#D0A6FF", // "#3288bd", "#fee08b", 
+    "contents": {
+      "en": {
+        'program': "Coming Soon",
+        'objectives': "Coming soon.",
+        'skills': "Coming soon."
+      }, 
+      "fr": {
+        'program': "Le cours est constitué de deux parties: (i) Python avancé (ii) Machine Learning",
+        'objectives': "",
+        'skills': ""
+      }
+    }, 
+    "ects": 6, 
+    "icon": "fa fa-graduation-cap", 
+    "id": "4TDE802U", 
+    "image": "ue_datascience.jpg", 
+    "semester": 8, 
+    "title": "Python et Science des Données", 
+    "tracks": "0x70", 
+    "visibility": "visible",
+    "html": ""
   },
   "4TBIN01U": {
     "apogee": "4TBIN01U",
@@ -687,6 +825,11 @@ var course_data = {
     "tracks": "0xF0", 
     "visibility": "visible"
   }, 
+  
+/*************************
+   S E M E S T R E   9
+ *************************/
+ 
   "4TBA903U": {
     "apogee": "4TBA903U",
     "short" : "Population Genetics",
@@ -1241,7 +1384,7 @@ var course_data = {
     "short": "NGS & Methods",
     "language": "English",
     "acronym": "NGS", 
-    "background_color": "#D0A6FF", 
+    "background_color": "#00b7ff", /*#D0A6FF", */
     "contents": {
       "en": {
         "program": `
@@ -1546,19 +1689,25 @@ function initCalendar() {
     cal.dataset.day   = now.getDate();
     
     // Check Spring of Fall Semesters
-    const semesters = (cal.dataset.month < 7) ? ['S08', 'S10'] : ['S07','S09'];
-    // HACK console.log(semesters);
+    console.log('Month',cal.dataset.month);
+    let semesters = (cal.dataset.month < 7) ? ['S08', 'S10'] : ['S07','S09'];
+    if (cal.dataset.month >= 11) {
+      semesters = ['S07','S08', 'S09']
+    }
+    console.log(semesters);
     
     // Load M1 + M2 events
     const ues = Object.values(calDB.courses).filter( c => semesters.includes(c.semester) );
-    // HACK console.log(ues);
+    console.log(ues);
     for (let ue of ues) {
       loadCalendarICS(ue.source);
     }
 
     // Load M2 events
     loadCalendarICS('MS_VACANCES');
+    loadCalendarICS('MS_EVENTS');
 
+    updateCalendar();
 }
 
 function loadCalendarICS(ueID) {
@@ -1566,14 +1715,15 @@ function loadCalendarICS(ueID) {
     var xhr = new XMLHttpRequest();
 
     xhr.onreadystatechange = function() {
+        // HACK: console.info('Try to load...',ueID,xhr.readyState,xhr.status);
         if (xhr.readyState == 4 && (xhr.status == 200 || xhr.status == 0)) {
             let data = parse_ics(ueID,xhr.responseText);
             // Merge events...
             Object.assign(calendar_data,data);
-            updateCalendar();
         }
     };
     const path = "https://master-bioinfo-bordeaux.github.io/data/";
+    // HACK: console.info(`Load ${path}${ueID}.ics`)
     xhr.open("GET", `${path}${ueID}.ics`, true);
     xhr.send(null);
 }
@@ -1597,7 +1747,7 @@ function loadCalendarData(filename) {
 
 function updateCalendar() {
 
-    // HACK console.log(calendar_data);
+    // HACK: console.log(calendar_data);
     table.reset();
     
     var y = parseInt(document.getElementById("calendar").dataset.year);
@@ -1625,11 +1775,14 @@ function updateCalendarHeader(y,m,d) {
     document.getElementById('weeknum-small').innerHTML = getISOWeekNum(y,m,d);
 }
 
+// Core function doing the job
+
 function updateCalendarBody(y,m,d) {
   const masterYear  = parseInt(localStorage.masterYear) || 1; // Default M1
   const masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2
   
-  // HACK  console.log(calendar_data);
+  console.log('ALL DATA',calendar_data);
+  
   var today = new Date(y,m,d);
   var weekdays = [];
   weekdays[0] = {events:[],boxes:[]}; // MON
@@ -1642,17 +1795,27 @@ function updateCalendarBody(y,m,d) {
   
   for (let index in calendar_data) {
     const element = calendar_data[index];
+    console.log(element);
     element.MSYear  = parseInt(element.ID[1]);
     element.MSTrack = parseInt(element.ID.substr(2,2),16);
+    // Special cases of MS_EVENTS
+    if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER1") {
+      element.MSTrack = 15;
+    }
+    else if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER2") {
+      element.MSTrack = 240;
+    }
+    console.log('TTTTRACK',element.MSTrack, element.MSTrack & masterTrack);
+    
     element.weekdayIndex = -1;
     // HACK: console.log(element);
     if (  (element.MSYear == masterYear || element.MSYear === 3) 
       && ((element.MSTrack & masterTrack) === masterTrack || (element.MSTrack & masterTrack*16) === masterTrack*16 ) ) {
       const startDate = new Date(
-        element.start.year, element.start.month, element.start.day,
+        element.start.year, element.start.month - 1, element.start.day,
         element.start.hour,element.start.minute
       );
-      const endDate = new Date(element.end.year, element.end.month, element.end.day,element.end.hour,element.end.minute);
+      const endDate = new Date(element.end.year, element.end.month - 1, element.end.day,element.end.hour,element.end.minute);
 
       // HACK: console.log('START ' + element.allDay);
   
@@ -1662,9 +1825,9 @@ function updateCalendarBody(y,m,d) {
         const dayD       = day.toCalString().substr(0,10);  // Days number since UTC
         const startDateD = element.date_start.substr(0,10); // Days number since UTC
         const endDateD   = element.date_end.substr(0,10);   // Days number since UTC
-        // HACK: console.log('DAYS',dayD,startDateD,endDateD,day, day.toCalString());
+        // HACK: console.log('DAYS',dayD,startDateD,endDateD,day, day.toCalString(),startDate,endDate);
         if ( dayD >= startDateD && dayD <= endDateD ) { // HACK: What about multi-days event ?
-          // HACK: console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee);
+          // HACK: console.log(day + ' creates an event with ' + element.ID + ' ' +  element.apogee + ' at ' + startDate);
           const timeDiff = Math.abs(endDate.getTime() - startDate.getTime());
           element.startDate = startDate;
           element.endDate   = endDate;
@@ -1691,11 +1854,28 @@ function updateCalendarBody(y,m,d) {
       } // for
     } // if
   } // for
-
-  // Clean up daily events
-  for (var i = 0; i < 5; i++) {
-    // 1- Check Overlap(s)
+  
+  // HACK: console.log('WEEKDAYS',weekdays);
+  
+  // Clean up daily events for every weekday MON(0) to THU(4)
+  for (let i = 0; i < 5; i++) {
     let a_day = weekdays[i];
+    // 1- Sort events by time from 0800 to 1900
+    a_day.events.sort(function sort(a,b) {
+      a_time = a.start.hour + a.start.minute / 60;
+      b_time = b.start.hour + b.start.minute / 60;
+      if (a_time > b_time ) {
+          return 1;
+      }
+      else if (a_time < b_time ) {
+          return -1;
+      }
+      else {
+          return 0;
+      }
+    });
+
+    // 2- Check Overlap(s)
     for (let j = 0; j < a_day.events.length; j++) {
       if (!a_day.events[j].allDay && !a_day.events[j].overlap) {
         var box = {
@@ -1709,8 +1889,11 @@ function updateCalendarBody(y,m,d) {
         var start = box.startDate.getTime();
         var end   = box.endDate.getTime();
         for (let k = j + 1; k < a_day.events.length; k++) {
-          // HACK: console.log('OVERLAP ',k,start,end,a_day.events[k].acronym,a_day.events[k].startDate.getTime(),a_day.events[k].endDate.getTime() );
-          if (start <= a_day.events[k].endDate.getTime() && end >= a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
+          console.log('OVERLAP ',k,start,end,box.startDate,Date.parse(box.startDate),
+            a_day.events[k].acronym,
+            a_day.events[k].startDate.getTime(),a_day.events[k].endDate.getTime() 
+          );
+          if (start <= a_day.events[k].endDate.getTime() && end > a_day.events[k].startDate.getTime() && !a_day.events[k].allDay) {
             a_day.events[k].overlap = true;
             box.startDate = new Date(Math.min(box.startDate,a_day.events[k].startDate) );
             box.endDate   = new Date(Math.max(box.endDate, a_day.events[k].endDate) );
@@ -1731,19 +1914,6 @@ function updateCalendarBody(y,m,d) {
            console.log(weekdays[i].boxes[0]);
       }
       */
-      
-    // 2- Sort events by time from 0800 to 1900
-    weekdays[i].boxes.sort(function sort(a,b) {
-        if (a.startDate.getTime() > b.startDate.getTime() ) {
-            return 1;
-        }
-        else if (a.startDate.getTime() < b.startDate.getTime() ) {
-            return -1;
-        }
-        else {
-            return 0;
-        }
-    });
   }
 
   createEventCells(weekdays);
@@ -1913,7 +2083,7 @@ function createCourseModal(ID) {
 
 function createEventModal(ID) {
     var the_event = course_data[calendar_data[ID].apogee];
-
+    console.log('EVENT',calendar_data[ID]);
     const html = `
     <div class="modal-dialog">
       <div class="modal-content">
@@ -1923,7 +2093,7 @@ function createEventModal(ID) {
         </div>
         <div class="modal-body">
           <p><img class="img-responsive" src="img/${the_event.image}" alt=""></p>
-          <h2>${calendar_data[ID].title}</h2>'; 
+          <h2>${calendar_data[ID].title}</h2>
           ${calendar_data[ID].description} 
         </div>
         <div class="modal-footer">
@@ -1938,6 +2108,8 @@ function createEventModal(ID) {
 function createEventCells(days) {
     //console.log("EVENTS OF THIS WEEK");
     // HACK: console.log(days);
+    console.log('DAYS');
+    console.log(days);
     
     var html='';
     // ROW 0 = ALL DAY events
@@ -1991,8 +2163,9 @@ function findEvent(events,start,col) {
     var stack = [];
     var max_duration = 0;
     var found;
-    for (var i = 0; i < events.length; i++) {
-        var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; // round to the nearest half hour (in minutes)
+    for (let i = 0; i < events.length; i++) {
+        // round to the nearest half hour (in minutes)
+        var startMin = Math.round((events[i].startDate.getHours() + events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
         var startMax = startMin + events[i].duration;
         var startDay = events[i].weekdayIndex;
         
@@ -2041,6 +2214,97 @@ function findEvent(events,start,col) {
 
     return html;
 }
+//function findEvent(events,start,col) {
+//    var day = col + 1 // col#0 = MONDAY = day#1
+//    var html='';
+//    var stack = [];
+//    var max_duration = 0;
+//    var found = {is_found: false,children: []};
+//    
+//    console.log(events);
+//    i = 0;
+//    while (!found.is_found && i < events.length) {
+//      // round to the nearest half hour (in minutes) - BUG ?
+//      var startMin = events[i].startDate.getHours() * 60 + Math.round((events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
+//      var startMax = startMin + events[i].duration;
+//      var startDay = events[i].weekdayIndex;
+//      
+//      // TODO: Take into account the overlapping events !!!!!!!!!!!!!!!!!!!!!!
+//      // Event #1: 14:00-18:00
+//      // Event #2: 15:00-16:30
+//      // if (startMin >= start && startDay == day) { <<<<<<<<<<<<< DOES NOT WORK
+//      if (startMin == start && startDay == day) {
+//        console.log('findEvent ' + startMin +' ' + start + ' ' + events[i].startDate + ' ' + events[i].children.length);
+//        found.day = day;
+//        found.index = i;
+//        found.children.push(events[i]);
+//        found.start_min = startMin;
+//        found.start_max = startMax;
+//        max_duration = Math.max(events[i].duration, max_duration);
+//        found.duration = max_duration;
+//        // Check if any overlapping events
+//        found = findOverlap(found,events);
+//        found.is_found = true;
+//      }
+//      i++;
+//    }
+//    
+//    console.log('FOUND');
+//    console.log(found);
+//    
+//    if (found.is_found) {
+//        // Choose the duration max
+//        // <td> with gray  
+//        var background_color = (found.children.length > 1) ? '#eee' : course_data[found.children[0].apogee].background_color;
+//        html += '<td rowspan="'+ (found.duration / 60 * 2) +'" style="background-color: ' + background_color+';">';
+//        if (found.children.length > 1) {
+//            // HACK: console.log('Overlapping ',found.children);
+//            html+= '<a title="Overlapping Events"><i class="fa fa-2x fa-object-ungroup"></i></a>';
+//            for (let i=0; i < found.children.length; i++) {
+//                // Add each colliding event
+//                html += createEventCell(found.children[i]);
+//            }
+//        }
+//        else {
+//            html += createEventCell(found.children[0]);
+//        }
+
+//        // </td>
+//        html += '</td>';
+//        
+//        // Update cells
+//        for (let t=0; t < found.duration / 30; t++) {
+//            // HACK: console.log(max_duration + ' ' + 'table.cells[' + ( (start - 480 )/30 + t) +']['+col+']');
+//            // HACK: console.log(t,start,(start - 480 )/30 + t,col);
+//            table.cells[(start - 480 )/30 + t][col]++;
+//        }
+//        
+//    }
+//    
+
+
+//    return html;
+//}
+
+// Added in 2025/01/07
+// JC Taveau
+function findOverlap(selected,all_events) {
+  for (let i = 0; i < all_events.length; i++) {
+    // round to the nearest half hour (in minutes)
+    let mins_from = all_events[i].startDate.getHours() * 60 + Math.round((all_events[i].startDate.getMinutes()/60.0) * 2 ) * 30; 
+    let mins_upto = mins_from + all_events[i].duration;
+    let startDay = all_events[i].weekdayIndex;  
+
+    if (selected.index != i && selected.day == startDay && selected.start_min <= mins_from && mins_from < selected.start_max) {
+      // Add overlapping event
+      selected.children.push(all_events[i]);
+      // Update
+      selected.start_max = (selected.start_max < mins_upto) ? mins_upto : selected.start_max;
+      selected.duration = selected.start_max - selected.start_min;
+    }
+  }
+  return selected;
+}
 
 function createEmptyCell() {
     return '<td>&nbsp;</td>';
@@ -2056,19 +2320,25 @@ function createEventCell(cal_event) {
     if (ID[0] === 'C' || ID[0] === 'E') {
         var courseID = calendar_data[ID].apogee;
         var the_course = course_data[courseID];
-        var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; GenEco=2,BAO=4;BSC=8
+        var masterTrack = parseInt(localStorage.masterTrack) || 1; // Default track: C++Bio=1; SDBE=2,BioProd=4;FC=8
         // HACK: console.log('TRACK ' + masterTrack + ' ' + the_course.tracks + '='+parseInt(the_course.tracks,16) + ' '
         // +((parseInt(the_course.tracks,16) & masterTrack)) );
-
+        let course_tracks = parseInt(the_course.tracks,16);
+        if (cal_event.lecturer.toUpperCase() == 'MASTER1') {
+          course_tracks = 15; // 0x0F
+        }
+        else if (cal_event.lecturer.toUpperCase() == 'MASTER2') {
+          course_tracks = 240; // 0xF0
+        }
         html += '<div class="course" style="background-color: '+the_course.background_color+';">';
         html += '<ul class="list-unstyled">';
         html += '<li>';
         html += '<a data-toggle="modal" ';
         html += 'href="javascript:void(0)" ';
-        if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack) === masterTrack) {
+        if (ID[0] === 'C' && (course_tracks & masterTrack) === masterTrack) {
             html += 'class="btn btn-danger btn-xs" '; // Color is Red: 'required course' btn-danger 
         }
-        else if (ID[0] === 'C' && (parseInt(the_course.tracks,16) & masterTrack*16) === masterTrack*16) {
+        else if (ID[0] === 'C' && (course_tracks & masterTrack*16) === masterTrack*16) {
             html += 'class="btn btn-primary btn-xs" '; // Color is Green: 'elective' btn-success
         }
         else {
@@ -2118,6 +2388,9 @@ function createEventCell(cal_event) {
             html += '<li class="hidden-lg hidden-md">'+ bldg  +'</li>';
             html += '<li>'+room +': '+ room_name  +'</li>';
           }
+        else {
+          console.warn('No location',cal_event);
+        }
 
         html += '</ul>';
         html += '</div>';
@@ -2145,7 +2418,7 @@ function createEventCell(cal_event) {
 }
 
 
-displayNews(1);
+// displayNews(1);
 
 function NewsReader() {
 
