@@ -651,7 +651,7 @@ var course_data = {
     "image": "ue_datacenter.jpg", 
     "semester": 8, 
     "title": "Bases de Donn\u00e9es : fondements et applications", 
-    "tracks": "0x07", 
+    "tracks": "0x01", 
     "visibility": "visible",
     "html": "FRUAI0333298FCOEN_3593/bases-de-donnees-fondements-et-applications"
   }, 
@@ -1800,12 +1800,14 @@ function updateCalendarBody(y,m,d) {
     element.MSTrack = parseInt(element.ID.substr(2,2),16);
     // Special cases of MS_EVENTS
     if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER1") {
-      element.MSTrack = 15;
+      element.MSYear = 1;
     }
     else if (element.apogee === '4TBIEVNT' && element.lecturer === "MASTER2") {
-      element.MSTrack = 240;
+      element.MSYear = 2;
     }
-    console.log('TTTTRACK',element.MSTrack, element.MSTrack & masterTrack);
+    if (element.lecturer === "MASTER1") {
+      console.log('TTTTRACK',element.apogee,element.MSYear, element.MSYear & masterYear,masterTrack);
+    }
     
     element.weekdayIndex = -1;
     // HACK: console.log(element);
