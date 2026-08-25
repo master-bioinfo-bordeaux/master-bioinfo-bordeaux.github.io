@@ -8,11 +8,24 @@ X-WR-TIMEZONE:Europe/Paris
 BEGIN:VEVENT
 DTSTART:20260901T090000Z
 DTEND:20260901T110000Z
-DTSTAMP:20260825T133907Z
+DTSTAMP:20260825T135119Z
 UID:6fhijs598rf5f0u99pi70qnu1r@google.com
-ATTENDEE;X-NUM-GUESTS=0:mailto:2b05b719d215561c5a986d94f86174995992e5088bb0
- 2aa5aeeae2c0dfaafa95@group.calendar.google.com
-SUMMARY:Busy
+CLASS:PUBLIC
+CREATED:20260612T093126Z
+DESCRIPTION:'''[Rentrée du master bio-informatique pour les 1ère et 2ème an
+ nées]<br>La rentrée du master de bio-informatique aura lieu le lundi 1er se
+ ptembre de 14h00 à 16h00 dans l'amphi C du bâtiment A29 du campus Peixotto.
+  Le plan du campus est disponible à cette adresse (<a href="https://cartogr
+ aphie.u-bordeaux.fr/TPG_ZoomA31-A40.html).">https://cartographie.u-bordeaux
+ .fr/TPG_ZoomA31-A40.html).</a><br>Au cours de cette réunion\, il vous sera 
+ présenté l'organisation du master ainsi que les enseignements du semestre d
+ 'automne.'''
+LAST-MODIFIED:20260825T135020Z
+LOCATION:A29@Amphi_C
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:EVENT**MASTER**RENTREE**All
+TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
 END:VCALENDAR
