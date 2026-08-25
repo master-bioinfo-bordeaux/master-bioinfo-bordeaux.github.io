@@ -1516,6 +1516,7 @@ var course_data = {
   }, 
   "4TBIVACA": {
     "acronym": "Holidays", 
+
     "background_color": "#FA5858", 
     "contents": {
       "en": "Coming soon.", 
@@ -1523,10 +1524,31 @@ var course_data = {
     }, 
     "ects": 0, 
     "icon": "fa fa-bicycle", 
+
     "id": "4TBIVACA", 
     "image": "headholidays.jpg", 
     "semester": 11, 
     "title": "Holidays", 
+
+    "tracks": "0x0F", 
+    "visibility": "visible"
+  },
+  "4TBIALTR": {
+    "acronym": "Alternance", 
+
+    "background_color": "#FA5858", 
+    "contents": {
+      "en": "Coming soon.", 
+      "fr": "Semaine d'alternance en entreprise"
+    }, 
+    "ects": 0, 
+    "icon": "fa fa-bicycle", 
+
+    "id": "4TBIALTR", 
+    "image": "ue_internship.jpg", 
+    "semester": 11, 
+    "title": "Alternance", 
+
     "tracks": "0x0F", 
     "visibility": "visible"
   }
@@ -2207,6 +2229,11 @@ const calDB = {
         apogee: "4TBIVACA",
         tracks: "0x0F"
       },
+      "Alternance": {
+        acronym: "Evt::Alternance",
+        apogee: "4TBIALTR",
+        tracks: "0x0F"
+      },
       "Soutenance": {
         acronym: "Evt::Defense",
         apogee: "4TBIDFNS",
@@ -2215,6 +2242,7 @@ const calDB = {
 
   },
   "eventTypes" : {
+      "Alternance"   : "4TBIALTR",
       "Conference"   : "4TBIMEET",
       "RevuePresse"  : "4TBIPRSS",
       "Event"        : "4TBIEVNT",
@@ -2241,6 +2269,7 @@ const calDB = {
   ],
   "types": {
     "?": "Unknown",
+    ALTERNANCE: "Alternance",
     CONFERENCE: "Conference",
     CONF: "Conference",
     CI: "Cours+TD",

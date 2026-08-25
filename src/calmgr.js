@@ -649,6 +649,11 @@ const calDB = {
         apogee: "4TBIVACA",
         tracks: "0x0F"
       },
+      "Alternance": {
+        acronym: "Evt::Alternance",
+        apogee: "4TBIALTR",
+        tracks: "0x0F"
+      },
       "Soutenance": {
         acronym: "Evt::Defense",
         apogee: "4TBIDFNS",
@@ -657,6 +662,7 @@ const calDB = {
 
   },
   "eventTypes" : {
+      "Alternance"   : "4TBIALTR",
       "Conference"   : "4TBIMEET",
       "RevuePresse"  : "4TBIPRSS",
       "Event"        : "4TBIEVNT",
@@ -683,6 +689,7 @@ const calDB = {
   ],
   "types": {
     "?": "Unknown",
+    ALTERNANCE: "Alternance",
     CONFERENCE: "Conference",
     CONF: "Conference",
     CI: "Cours+TD",
