@@ -54,12 +54,16 @@ printf "Semester 10\n"
 printf "==============================================\n"
 curl -L https://calendar.google.com/calendar/ical/ack5mbjjlpf3f4iu2cfgd2u36c%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/S10_STAGE.ics
 
-
+# Other: Events, Vacances, etc.
+printf "Others\n"
+printf "==============================================\n"
+curl -L https://calendar.google.com/calendar/ical/3tcafir28thutbb6kfvlabas1k%40group.calendar.google.com/public/basic.ics  | awk -f clean.awk > ../data/MS_VACANCES.ics
+curl -L https://calendar.google.com/calendar/ical/2b05b719d215561c5a986d94f86174995992e5088bb02aa5aeeae2c0dfaafa95%40group.calendar.google.com/public/basic.ics | awk -f clean.awk > ../data/MS_EVENTS.ics
 
 while true; do
     read -p "Push this calendar to github [y|n] ?" yn
     case $yn in
-        [Yy]* ) printf 'Step #4: Commit/push M1 .....\n';git add ../data/S9_*.ics;git add ../data/MS_VACANCES.ics;git commit -m 'Update S9, S10, Vacances and Events';git push;git push; break;;
+        [Yy]* ) printf 'Step #4: Commit/push M1 .....\n';git add ../data/S9_*.ics;git add ../data/MS_VACANCES.ics;git add ../data/MS_EVENTS.ics;git commit -m 'Update S9, S10, Vacances and Events';git push;git push; break;;
         [Nn]* ) printf 'Update stopped.....\n';exit;;
         * ) echo "Please answer yes or no.";;
     esac
