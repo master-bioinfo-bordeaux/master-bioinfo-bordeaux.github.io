@@ -5,4 +5,125 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:WEBMOD
 X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+DTSTART:20261001T060000Z
+DTEND:20261001T100000Z
+DTSTAMP:20260827T104935Z
+UID:4qdjqin20d0he7ahlenuapesep@google.com
+CREATED:20260826T162649Z
+DESCRIPTION:TD Machine\nCode: 4TBI701U – Initiation à l&#39\;exploration d&
+ #39\;images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseigna
+ nt: TAVEAU Jean‑Christophe\nLieu: A21/Salle Informatique A\nCapacité: 40‑43
+ \,45‑47\n2 groupes
+LAST-MODIFIED:20260826T162650Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:IMAJS TD Machine – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261006T060000Z
+DTEND:20261006T080000Z
+DTSTAMP:20260827T104935Z
+UID:45fa74ddmlh6os5n6s7evd1ptb@google.com
+CREATED:20260826T164418Z
+DESCRIPTION:Cours\nCode: 4TBI701U – Initiation à l&#39\;exploration d&#39\;
+ images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseignant: T
+ AVEAU Jean‑Christophe\nLieu: A13/Salle 9\nCapacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T164418Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Initiation à l'exploration d'images numériques – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260908T060000Z
+DTEND:20260908T080000Z
+DTSTAMP:20260827T104935Z
+UID:13d3ns5ied7sqq2fa5reap2jrj@google.com
+CREATED:20260826T155711Z
+DESCRIPTION:Cours\nCode: 4TBI701U – Initiation à l&#39\;exploration d&#39\;
+ images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseignant: T
+ AVEAU Jean‑Christophe\nLieu: A21/ Salle 302\nCapacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T155711Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Initiation à l'exploration d'images numériques – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260929T060000Z
+DTEND:20260929T080000Z
+DTSTAMP:20260827T104935Z
+UID:48kaa0llhedumespvqo23dg53t@google.com
+CREATED:20260826T162413Z
+DESCRIPTION:Cours\nCode: 4TBI701U – Initiation à l&#39\;exploration d&#39\;
+ images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseignant: T
+ AVEAU Jean‑Christophe\nLieu: B16/Salle 05\nCapacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T162413Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Initiation à l'exploration d'images numériques – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260929T082000Z
+DTEND:20260929T102000Z
+DTSTAMP:20260827T104935Z
+UID:1j849j38tercd2ej42fnje984t@google.com
+CREATED:20260826T162419Z
+DESCRIPTION:Cours\nCode: 4TBI703U – Omics et BioInformatique\nGroupes parti
+ cipants: 4TBC701S\, 4TDE701S\nEnseignant: KARKAR Slim\nLieu: B16/Salle 05\n
+ Capacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T162419Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Omics et BioInformatique – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20261013T060000Z
+DTEND:20261013T080000Z
+DTSTAMP:20260827T104935Z
+UID:6buuuso1o2uu8ds664b2mn2g3i@google.com
+CREATED:20260826T164846Z
+DESCRIPTION:Cours\nCode: 4TBI701U – Initiation à l&#39\;exploration d&#39\;
+ images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseignant: T
+ AVEAU Jean‑Christophe\nLieu: A21/ Salle 401\nCapacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T164847Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Initiation à l'exploration d'images numériques – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260922T060000Z
+DTEND:20260922T080000Z
+DTSTAMP:20260827T104935Z
+UID:50kgfible12hsdtb32eaiq08mk@google.com
+CREATED:20260826T162217Z
+DESCRIPTION:Cours\nCode: 4TBI701U – Initiation à l&#39\;exploration d&#39\;
+ images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseignant: T
+ AVEAU Jean‑Christophe\nLieu: A13/Salle 9\nCapacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T162218Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Initiation à l'exploration d'images numériques – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20260915T060000Z
+DTEND:20260915T080000Z
+DTSTAMP:20260827T104935Z
+UID:6299rhv82j37nb34m3i6uo0fp5@google.com
+CREATED:20260826T160719Z
+DESCRIPTION:Cours\nCode: 4TBI701U – Initiation à l&#39\;exploration d&#39\;
+ images numériques\nGroupes participants: 4TBC701S\, 4TDE701S\nEnseignant: T
+ AVEAU Jean‑Christophe\nLieu: A21/ Salle 305\nCapacité: 37‑42\n2 groupes
+LAST-MODIFIED:20260826T160719Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Initiation à l'exploration d'images numériques – 2 groupes
+TRANSP:OPAQUE
+END:VEVENT
 END:VCALENDAR
