@@ -159,6 +159,7 @@ const calDB = {
     "Pinaud B",
     "Schurdi-Levraud V",
     "S&eacute;n&eacute;chal N",
+    "Simon M",
     "Sirand-Pugnet P",
     "Taveau JC",
     "Th&eacute;bault P",
