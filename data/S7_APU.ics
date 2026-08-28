@@ -178,18 +178,17 @@ BEGIN:VEVENT
 DTSTART:20260903T073000Z
 DTEND:20260903T103000Z
 DTSTAMP:20260828T142243Z
-UID:7uom8igkuh7pv0edh4tjaoog1a@google.com
-CREATED:20260828T135902Z
-DESCRIPTION:Cours : <span><br>Code: </span><span> 4TBI702U-USI Algorithmiqu
- e\, Programmation et Utilisation des système</span><br><span>Groupes partic
- ipants: 4TBC701S\, 4TDE701S<br>Enseignant: </span><span>DELMAS Olivier</spa
- n><br><span>Lieu:</span><span>A21/ Salle 151</span><br><span> <br>Group 1 +
-  Groupe 2</span>
-LAST-MODIFIED:20260828T141857Z
-LOCATION:Talence::A21@Salle_151
+DTSTAMP:20260828T142244Z
+UID:0tagt04f4tj4t63pk6j6dj8h8s@google.com
+CREATED:20260826T154706Z
+DESCRIPTION:Cours\nCode: 4TBI706U – Initiation à Python\nGroupes participan
+ ts: 4TBC701S\, 4TDE701S\nEnseignant: BALDACCI Fabien\nLieu: A21/Salle Infor
+ matique C\n \nGroupe 2
+LAST-MODIFIED:20260828T140407Z
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:APU-USI**DELMAS**CI**All
+LOCATION:Talence::A21@Salle_151
+SUMMARY:APU**DELMAS**CI**G1+G2
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
