@@ -2502,13 +2502,20 @@ function createEvent(ueID,e) {
   ev.tracks = calDB.courses[ev.apogee].tracks.substr(2,2);
 
   ev.allDay = e.allDay;
+  if (words.length > 1) {
   ev.lecturer = getLecturer(words[1]);
   ev.type = getCourseType(words[2]);
+  ev.group = capitalize(words[3]) || "All";
+  } else {
+   ev.lecturer = "TBD";
+  ev.type = "Cours";
+  ev.group =  "All";
+  }
   ev.location = e.location || 'Unknown::Unknown@Room_unknown';
   ev.title = e.title;
   ev.description = e.description; // Sometimes used by Events
   ev.ID = createCalendarID(ev);
-  ev.group = capitalize(words[3]) || "All";
+  
   return ev;
 }
 
