@@ -192,7 +192,9 @@ function createEvent(ueID,e) {
 
   ev.allDay = e.allDay;
   ev.lecturer = getLecturer(words[1]);
+  if (words.length > 1) {
   ev.type = getCourseType(words[2]);
+  } else {  ev.type = "Cours"}
   ev.location = e.location || 'Unknown::Unknown@Room_unknown';
   ev.title = e.title;
   ev.description = e.description; // Sometimes used by Events
