@@ -5,40 +5,4 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:WEBMOD
 X-WR-TIMEZONE:Europe/Paris
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261024
-DTSTAMP:20260831T132656Z
-UID:1r8nu3v0btskvooo1hctaa37jf@google.com
-CLASS:PUBLIC
-CREATED:20260612T065603Z
-DESCRIPTION:[Alternance] Pour les alternants\, semaine en entreprise.
-LAST-MODIFIED:20260825T142019Z
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:ALTERNANCE**MASTER**ALTERNANCE**All
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20260901T090000Z
-DTEND:20260901T110000Z
-DTSTAMP:20260831T132656Z
-UID:6fhijs598rf5f0u99pi70qnu1r@google.com
-CLASS:PUBLIC
-CREATED:20260612T093126Z
-DESCRIPTION:'''[Rentrée du master bio-informatique pour les 1ère et 2ème an
- nées]\nLa rentrée du master de bio-informatique aura lieu le lundi 1er sept
- embre de 11h00 à 13h00 dans l'amphi C du bâtiment A29 du campus Peixotto. L
- e plan du campus est disponible à cette adresse (https://cartographie.u-bor
- deaux.fr/TPG_ZoomA31-A40.html).\nAu cours de cette réunion\, il vous sera p
- résenté l'organisation du master ainsi que les enseignements du semestre d'
- automne.'''
-LAST-MODIFIED:20260825T135743Z
-LOCATION:A29@Amphi_C
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:EVENT**MASTER**RENTREE**All
-TRANSP:OPAQUE
-END:VEVENT
-END:VCALENDAR
 END:VCALENDAR
